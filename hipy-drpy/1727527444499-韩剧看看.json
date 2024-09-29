@@ -1,0 +1,8 @@
+{
+    "简介":"简介：</span>&&<a href",
+    "搜索url":"/search.php?searchword={wd}",
+    "分类url": "https://www.hanjukankan.com/search.php?page={catePg}&searchtype=5&order=hit&tid={cateId}&area=&letter=&yuyan=&state=&money=&ver=&jq=&year={year}",
+    "分类": "韩剧&韩影&韩综&其他",
+    "分类值": "1&2&3&4"
+}
+

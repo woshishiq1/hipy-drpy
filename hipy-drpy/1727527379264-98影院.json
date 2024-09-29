@@ -1,0 +1,30 @@
+{
+    "作者":"240126",
+    "站名":"九八影视",
+    "主页url":"http://www.98wap.com",
+    //备用： http://www.98wap.com/
+    "简介":"<span class=\"detail-content\" style=\"display: none;\">&&</span>",
+    "影片状态":"状态：&&</p>",
+    "搜索url":"/search.php;post;searchword={wd}",
+    "搜索模式":"1",
+    "搜索数组":"<a&&</a>",
+    "搜索图片":"data-original=\"&&\"",
+    "搜索标题":"title=\"&&\"",
+    "搜索链接":"href=\"&&\"",
+    "搜索副标题":"text-right\">&&</span>",
+    "嗅探词": ".m3u8#.mp4#.flv#.m3u8?vkey=#.mp4?dis_k=#video/tos#adsmind.ugdtimg.com#cn-beijing-data.aliyundrive.net#alicloudccp.com#douyinvod.com",
+
+    "线路数组":"<h3 class=\"title\">&&/h3>",
+    "线路标题":">&&<",
+    
+    "播放数组":"<ul class=\"stui-content__playlist&&</ul>",
+    "播放列表":"<a&&</a>",
+    "播放标题":">&&<",
+    "播放链接":"href=\"&&\"",
+    "跳转解析": "https://api.chtcar.com/index/?url=",
+    "跳转播放链接": "解析+Base64(now=base64decode(\"&&\"))",
+    "播放请求头": "User-Agent$MOBILE_UA#Referer$http://www.98wap.com/",
+
+    "分类url":"http://www.98wap.com/{cateId}/index{catePg}.html[firstPage=http://www.98wap.com/{cateId}/index.html]",
+    "分类":"电影$dianyingpian#电视剧$dianshiju#综艺$zongyi#动漫$dongman"
+}

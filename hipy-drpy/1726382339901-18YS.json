@@ -1,0 +1,22 @@
+{
+	"分类url": "https://www.18ys.cc/vodshow/{cateId}-{area}--{class}-{lang}-{letter}-{catePg}-{year}.html",
+	"分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+	"数组": "class=\"hl-item-thumb hl-lazy\"&&</li",
+	"图片": "data-original=\"&&\"",
+	"标题": "title=\"&&\"",
+	"链接": "href=\"&&\"",
+	"副标题": "<span class=\"hl-lc-1 remarks\">&&</span>",
+	"线路二次截取": "<div class=\"hl-plays-from hl-tabs swiper-wrapper clearfix&&</div",
+	"线路数组": "<a&&</a>",
+	"线路标题": "</i>&&</a>",
+	"状态": "地区：&&</li>",
+	"导演": "导演：&&</li>",
+	"主演": "主演：&&</li>",
+	"简介": "简介：&&</div>",
+	"播放数组": "id=\"hl-plays-list\"&&</ul>",
+	"播放列表": "<a&&/a>",
+	"播放标题": ">&&<",
+	"播放链接": "href=\"&&\"",
+	"嗅探词": ".m3u8?#v3.huoshanvod.com#.m3u8#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4#video_mp4",
+	"过滤词": "/hls/#php"
+}

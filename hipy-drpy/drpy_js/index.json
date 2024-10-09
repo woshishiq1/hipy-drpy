@@ -1,9 +1,8 @@
 {
-	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
-	"homepage": "https://github.com/hjdhnx/hipy-server",
-	"homeLogo": "./img/logo500x200-1.png",
-	"spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
-	"sites": [
+  "HomeTip": "纯公益, 请勿用于商业和违法",
+  "homeLogo": "./img/logo500x200-1.png",
+  "Spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
+  "Sites": [
     {
       "key": "黑墙影视[自动]",
       "name": "黑墙影视[自动]",
@@ -12,7 +11,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1728273928108-黑墙影视[自动].js"
+      "ext": "./1728273928108-黑墙影视[自动].js"
     },
     {
       "key": "努努影院1",
@@ -22,7 +21,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1728134048257-努努影院1.js"
+      "ext": "./1728134048257-努努影院1.js"
     },
     {
       "key": "妖狐影视[自动]",
@@ -32,7 +31,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1728053575558-妖狐影视[自动].js"
+      "ext": "./1728053575558-妖狐影视[自动].js"
     },
     {
       "key": "黑猪影视",
@@ -42,7 +41,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1728085078972-黑猪影视.js"
+      "ext": "./1728085078972-黑猪影视.js"
     },
     {
       "key": "兄弟影院",
@@ -52,7 +51,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1728050069699-兄弟影院.json"
+      "ext": "./1728050069699-兄弟影院.json"
     },
     {
       "key": "85k影视",
@@ -62,7 +61,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1728037741080-85k影视.js"
+      "ext": "./1728037741080-85k影视.js"
     },
     {
       "key": "KimiVod",
@@ -72,7 +71,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1728049370648-KimiVod.js"
+      "ext": "./1728049370648-KimiVod.js"
     },
     {
       "key": "影梦影视",
@@ -82,7 +81,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727921633639-影梦影视.js"
+      "ext": "./1727921633639-影梦影视.js"
     },
     {
       "key": "一个g影视",
@@ -92,7 +91,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727823833328-一个g影视.js"
+      "ext": "./1727823833328-一个g影视.js"
     },
     {
       "key": "老王电影[自动]",
@@ -102,7 +101,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727792874480-老王电影[自动].js"
+      "ext": "./1727792874480-老王电影[自动].js"
     },
     {
       "key": "茄子影视[自动]",
@@ -112,7 +111,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727484885780-茄子影视[自动].js"
+      "ext": "./1727484885780-茄子影视[自动].js"
     },
     {
       "key": "全能影视",
@@ -122,7 +121,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727484346892-全能影视.js"
+      "ext": "./1727484346892-全能影视.js"
     },
     {
       "key": "多乐影视",
@@ -132,7 +131,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727439014986-多乐影视.js"
+      "ext": "./1727439014986-多乐影视.js"
     },
     {
       "key": "墨点影视",
@@ -142,7 +141,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727699896548-墨点影视.js"
+      "ext": "./1727699896548-墨点影视.js"
     },
     {
       "key": "222听书[听]",
@@ -152,7 +151,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727329098209-222听书[听].js"
+      "ext": "./1727329098209-222听书[听].js"
     },
     {
       "key": "清风DJ[听]",
@@ -162,7 +161,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727335196988-清风DJ[听].js"
+      "ext": "./1727335196988-清风DJ[听].js"
     },
     {
       "key": "111tv[自动]",
@@ -172,7 +171,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727323556467-111tv[自动].js"
+      "ext": "./1727323556467-111tv[自动].js"
     },
     {
       "key": "电影猎手[自动]",
@@ -182,7 +181,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727320864656-电影猎手[自动].js"
+      "ext": "./1727320864656-电影猎手[自动].js"
     },
     {
       "key": "熊猫dj",
@@ -192,7 +191,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727280682775-熊猫dj.js"
+      "ext": "./1727280682775-熊猫dj.js"
     },
     {
       "key": "迅雷8",
@@ -202,7 +201,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727280329673-迅雷8.js"
+      "ext": "./1727280329673-迅雷8.js"
     },
     {
       "key": "rarbt(全)[优]",
@@ -212,7 +211,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727279610578-rarbt(全)[优].js"
+      "ext": "./1727279610578-rarbt(全)[优].js"
     },
     {
       "key": "人人电影网[盘]",
@@ -222,7 +221,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727279438068-人人电影网[盘].js"
+      "ext": "./1727279438068-人人电影网[盘].js"
     },
     {
       "key": "多多影音[盘]",
@@ -232,7 +231,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727250888500-多多影音.js"
+      "ext": "./1727250888500-多多影音.js"
     },
     {
       "key": "达达龟",
@@ -242,7 +241,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727235410158-达达龟.js"
+      "ext": "./1727235410158-达达龟.js"
     },
     {
       "key": "蛋蛋剧",
@@ -252,7 +251,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727235394065-蛋蛋剧.js"
+      "ext": "./1727235394065-蛋蛋剧.js"
     },
     {
       "key": "素白白",
@@ -262,7 +261,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727235360975-素白白.js"
+      "ext": "./1727235360975-素白白.js"
     },
     {
       "key": "爱迪影视",
@@ -272,7 +271,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727235187690-爱迪影视.js"
+      "ext": "./1727235187690-爱迪影视.js"
     },
     {
       "key": "爱优影视[自动]",
@@ -282,7 +281,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727235167221-爱优影视[自动].js"
+      "ext": "./1727235167221-爱优影视[自动].js"
     },
     {
       "key": "热播之家",
@@ -292,7 +291,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727235037293-热播之家.js"
+      "ext": "./1727235037293-热播之家.js"
     },
     {
       "key": "泥巴影院",
@@ -302,7 +301,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234968809-泥巴影院.js"
+      "ext": "./1727234968809-泥巴影院.js"
     },
     {
       "key": "旺旺影视",
@@ -312,7 +311,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234946842-旺旺影视.js"
+      "ext": "./1727234946842-旺旺影视.js"
     },
     {
       "key": "影视工场",
@@ -322,7 +321,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234924996-影视工场.js"
+      "ext": "./1727234924996-影视工场.js"
     },
     {
       "key": "干饭影视",
@@ -332,7 +331,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234901391-干饭影视.js"
+      "ext": "./1727234901391-干饭影视.js"
     },
     {
       "key": "宝片视频",
@@ -342,7 +341,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234650592-天龙影院.js"
+      "ext": "./1727234650592-天龙影院.js"
     },
     {
       "key": "孜然影视",
@@ -352,7 +351,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234624278-天启.js"
+      "ext": "./1727234624278-天启.js"
     },
     {
       "key": "天龙影院",
@@ -362,7 +361,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234650592-天龙影院.js"
+      "ext": "./1727234650592-天龙影院.js"
     },
     {
       "key": "天启",
@@ -372,7 +371,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234624278-天启.js"
+      "ext": "./1727234624278-天启.js"
     },
     {
       "key": "嘀哩嘀哩",
@@ -382,7 +381,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234600827-嘀哩嘀哩.js"
+      "ext": "./1727234600827-嘀哩嘀哩.js"
     },
     {
       "key": "哔嘀影视",
@@ -392,7 +391,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234558734-哔嘀影视.js"
+      "ext": "./1727234558734-哔嘀影视.js"
     },
     {
       "key": "哈皮影视[优].js",
@@ -402,7 +401,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727234138180-哈皮影视[优].js"
+      "ext": "./1727234138180-哈皮影视[优].js"
     },
     {
       "key": "黑狐影视",
@@ -412,7 +411,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727181643683-黑狐影视.js"
+      "ext": "./1727181643683-黑狐影视.js"
     },
     {
       "key": "影探",
@@ -422,7 +421,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727068073789-影探[V2].js"
+      "ext": "./1727068073789-影探[V2].js"
     },
     {
       "key": "尘落影视",
@@ -432,7 +431,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727064350477-尘落影视.js"
+      "ext": "./1727064350477-尘落影视.js"
     },
     {
       "key": "永乐视频[XBPQ]",
@@ -442,7 +441,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726908313356-永乐视频.json"
+      "ext": "./1726908313356-永乐视频.json"
     },
     {
       "key": "飞飞影视[XBPQ]",
@@ -452,7 +451,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726846945176-飞飞影视.json"
+      "ext": "./1726846945176-飞飞影视.json"
     },
     {
       "key": "可达影视",
@@ -462,7 +461,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726814730470-可达影视.js"
+      "ext": "./1726814730470-可达影视.js"
     },
     {
       "key": "厂长资源",
@@ -472,7 +471,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726814669786-厂长资源.js"
+      "ext": "./1726814669786-厂长资源.js"
     },
     {
       "key": "南瓜影视",
@@ -482,7 +481,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726814630445-南瓜影视.js"
+      "ext": "./1726814630445-南瓜影视.js"
     },
     {
       "key": "刺猬影视",
@@ -492,7 +491,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726814562204-刺猬影视.js"
+      "ext": "./1726814562204-刺猬影视.js"
     },
     {
       "key": "冠建影视",
@@ -502,7 +501,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726814513011-冠建影视.js"
+      "ext": "./1726814513011-冠建影视.js"
     },
     {
       "key": "两个BT",
@@ -512,7 +511,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726814454548-两个BT.js"
+      "ext": "./1726814454548-两个BT.js"
     },
     {
       "key": "voflix",
@@ -522,7 +521,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726814394046-voflix.js"
+      "ext": "./1726814394046-voflix.js"
     },
     {
       "key": "cally66影视",
@@ -532,7 +531,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726813908147-cally66影视.js"
+      "ext": "./1726813908147-cally66影视.js"
     },
     {
       "key": "B站影视",
@@ -542,7 +541,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726813508028-B站影视.js"
+      "ext": "./1726813508028-B站影视.js"
     },
     {
       "key": "libvio",
@@ -552,7 +551,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726814270113-libvio.js"
+      "ext": "./1726814270113-libvio.js"
     },
     {
       "key": "8号影院",
@@ -562,7 +561,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726812141351-8号影院.js"
+      "ext": "./1726812141351-8号影院.js"
     },
     {
       "key": "539影视",
@@ -572,7 +571,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726811962090-539影视.js"
+      "ext": "./1726811962090-539影视.js"
     },
     {
       "key": "4k剧院",
@@ -582,7 +581,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726811811539-4k剧院.js"
+      "ext": "./1726811811539-4k剧院.js"
     },
     {
       "key": "网飞猫[优]",
@@ -592,7 +591,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726810752966-网飞猫[优].js"
+      "ext": "./1726810752966-网飞猫[优].js"
     },
     {
       "key": "可可影视[优]",
@@ -602,7 +601,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726810672317-可可影视[优].js"
+      "ext": "./1726810672317-可可影视[优].js"
     },
     {
       "key": "茶杯狐",
@@ -612,7 +611,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726757605609-茶杯狐.js"
+      "ext": "./1726757605609-茶杯狐.js"
     },
     {
       "key": "嗨剧",
@@ -622,7 +621,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726622241329-嗨剧.js"
+      "ext": "./1726622241329-嗨剧.js"
     },
     {
       "key": "233动漫/omofunA/acgday",
@@ -632,7 +631,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726536364840-omofunA[漫].js"
+      "ext": "./1726536364840-omofunA[漫].js"
     },
     {
       "key": "影视大全",
@@ -642,7 +641,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726501894690-影视大全.json"
+      "ext": "./1726501894690-影视大全.json"
     },
     {
       "key": "爱上影视APP",
@@ -652,7 +651,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726467720979-爱上影视.js"
+      "ext": "./1726467720979-爱上影视.js"
     },
     {
       "key": "抖短剧APP",
@@ -662,7 +661,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726400966769-抖短剧.js"
+      "ext": "./1726400966769-抖短剧.js"
     },
     {
       "key": "出差屋",
@@ -672,7 +671,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726387784303-出差屋.json"
+      "ext": "./1726387784303-出差屋.json"
     },
     {
       "key": "界影视",
@@ -682,7 +681,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726382451737-界影视.json"
+      "ext": "./1726382451737-界影视.json"
     },
     {
       "key": "七七影视",
@@ -692,7 +691,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726382406844-七七.json"
+      "ext": "./1726382406844-七七.json"
     },
     {
       "key": "18YS",
@@ -702,7 +701,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726382339901-18YS.json"
+      "ext": "./1726382339901-18YS.json"
     },
     {
       "key": "九九影视",
@@ -712,7 +711,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726381870273-九九.json"
+      "ext": "./1726381870273-九九.json"
     },
     {
       "key": "追剧影视",
@@ -722,7 +721,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726381261978-追剧.json"
+      "ext": "./1726381261978-追剧.json"
     },
     {
       "key": "七新影视",
@@ -732,7 +731,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726372863239-七新影视.json"
+      "ext": "./1726372863239-七新影视.json"
     },
     {
       "key": "清风dj",
@@ -742,7 +741,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726333451255-清风DJ[听].js"
+      "ext": "./1726333451255-清风DJ[听].js"
     },
     {
       "key": "番茄短剧",
@@ -752,7 +751,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726289345878-番茄短剧.json"
+      "ext": "./1726289345878-番茄短剧.json"
     },
     {
       "key": "JAVSB",
@@ -762,7 +761,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726266902301-javsb.js"
+      "ext": "./1726266902301-javsb.js"
     },
     {
       "key": "星空影视",
@@ -772,7 +771,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726233756402-星空影视.js"
+      "ext": "./1726233756402-星空影视.js"
     },
     {
       "key": "4K影院",
@@ -782,7 +781,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726233692273-4K影院.js"
+      "ext": "./1726233692273-4K影院.js"
     },
     {
       "key": "奈飞影视",
@@ -792,7 +791,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726232842926-奈飞影视.js"
+      "ext": "./1726232842926-奈飞影视.js"
     },
     {
       "key": "诸城影视",
@@ -802,7 +801,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726232687587-诸城影视.js"
+      "ext": "./1726232687587-诸城影视.js"
     },
     {
       "key": "真不卡影院",
@@ -812,7 +811,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726232571793-真不卡.js"
+      "ext": "./1726232571793-真不卡.js"
     },
     {
       "key": "追剧网",
@@ -822,7 +821,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726232359094-追剧网.js"
+      "ext": "./1726232359094-追剧网.js"
     },
     {
       "key": "星芽短剧",
@@ -832,7 +831,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726230630495-星芽短剧app.js"
+      "ext": "./1726230630495-星芽短剧app.js"
     },
     {
       "key": "双子星",
@@ -842,7 +841,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726228206464-双子星.js"
+      "ext": "./1726228206464-双子星.js"
     },
     {
       "key": "墨韵",
@@ -852,7 +851,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726224676403-星空影院.js"
+      "ext": "./1726224676403-星空影院.js"
     },
     {
       "key": "韩剧网",
@@ -862,7 +861,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726159130766-韩剧网.js"
+      "ext": "./1726159130766-韩剧网.js"
     },
     {
       "key": "星芽短剧[优]",
@@ -872,7 +871,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726142924208-星芽短剧.js"
+      "ext": "./1726142924208-星芽短剧.js"
     },
     {
       "key": "动漫巴士",
@@ -882,7 +881,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727527190851-动漫巴士.json"
+      "ext": "./1727527190851-动漫巴士.json"
     },
     {
       "key": "阳光影视",
@@ -892,7 +891,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726128455409-阳光电影[增].js"
+      "ext": "./1726128455409-阳光电影[增].js"
     },
     {
       "key": "爱看4K影院",
@@ -902,7 +901,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726124285821-爱看4k影院.js"
+      "ext": "./1726124285821-爱看4k影院.js"
     },
     {
       "key": "去看吧",
@@ -912,7 +911,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726123917693-去看吧[漫].js"
+      "ext": "./1726123917693-去看吧[漫].js"
     },
     {
       "key": "爱上电影",
@@ -922,7 +921,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726118203263-爱上电影.js"
+      "ext": "./1726118203263-爱上电影.js"
     },
     {
       "key": "瓜子视频",
@@ -932,7 +931,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726117708825-guazi.js"
+      "ext": "./1726117708825-guazi.js"
     },
     {
       "key": "爱上电影",
@@ -942,7 +941,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726109748321-爱上电影.js"
+      "ext": "./1726109748321-爱上电影.js"
     },
     {
       "key": "555影视修复",
@@ -952,7 +951,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726109144818-555影视修复.js"
+      "ext": "./1726109144818-555影视修复.js"
     },
     {
       "key": "风车531",
@@ -962,7 +961,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726101112519-风车531.js"
+      "ext": "./1726101112519-风车531.js"
     },
     {
       "key": "4kav[密]",
@@ -972,7 +971,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725934909475-4kav[密].js"
+      "ext": "./1725934909475-4kav[密].js"
     },
     {
       "key": "六趣资源网[盘]",
@@ -982,7 +981,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725933686236-六趣资源网[盘].js"
+      "ext": "./1725933686236-六趣资源网[盘].js"
     },
     {
       "key": "天天美剧",
@@ -992,7 +991,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725931365937-天天美剧.js"
+      "ext": "./1725931365937-天天美剧.js"
     },
     {
       "key": "风车动漫",
@@ -1002,7 +1001,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725896920579-风车动漫[漫].js"
+      "ext": "./1725896920579-风车动漫[漫].js"
     },
     {
       "key": "樱之空动漫",
@@ -1012,7 +1011,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725894295141-樱之空[漫].js"
+      "ext": "./1725894295141-樱之空[漫].js"
     },
     {
       "key": "蓝光影视",
@@ -1022,7 +1021,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725892228531-蓝光影视.js"
+      "ext": "./1725892228531-蓝光影视.js"
     },
     {
       "key": "蓝光影院",
@@ -1032,7 +1031,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725892169848-蓝光影院6446.js"
+      "ext": "./1725892169848-蓝光影院6446.js"
     },
     {
       "key": "剧狗狗",
@@ -1042,7 +1041,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725812164876-剧狗狗.js"
+      "ext": "./1725812164876-剧狗狗.js"
     },
     {
       "key": "饺子[盘]",
@@ -1052,7 +1051,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725794154989-饺子[盘].js"
+      "ext": "./1725794154989-饺子[盘].js"
     },
     {
       "key": "AV仓库",
@@ -1062,7 +1061,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725794015037-AV仓库[密].js"
+      "ext": "./1725794015037-AV仓库[密].js"
     },
     {
       "key": "PPXDM动漫",
@@ -1072,7 +1071,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725711198260-PPXDM动漫.js"
+      "ext": "./1725711198260-PPXDM动漫.js"
     },
     {
       "key": "南风短剧",
@@ -1082,7 +1081,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725703885435-南风短剧.js"
+      "ext": "./1725703885435-南风短剧.js"
     },
     {
       "key": "夸克盘搜",
@@ -1092,7 +1091,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725702881387-夸克盘搜.js"
+      "ext": "./1725702881387-夸克盘搜.js"
     },
     {
       "key": "金牌影院",
@@ -1102,7 +1101,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725702580282-金牌影院.js"
+      "ext": "./1725702580282-金牌影院.js"
     },
     {
       "key": "官方测试用例",
@@ -1112,7 +1111,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/demo.js"
+      "ext": "./demo.js"
     },
     {
       "key": "98影院",
@@ -1122,7 +1121,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727527379264-98影院.json"
+      "ext": "./1727527379264-98影院.json"
     },
     {
       "key": "韩剧看看",
@@ -1132,7 +1131,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1727527444499-韩剧看看.json"
+      "ext": "./1727527444499-韩剧看看.json"
     },
     {
       "key": "555影视[修复版]",
@@ -1142,7 +1141,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725701476357-555影视[飞].js"
+      "ext": "./1725701476357-555影视[飞].js"
     },
     {
       "key": "看看影视[密]",
@@ -1152,7 +1151,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725558930798-看看视频[密].js"
+      "ext": "./1725558930798-看看视频[密].js"
     },
     {
       "key": "番茄小说[书]",
@@ -1162,7 +1161,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1725544859240-番茄小说[书].js"
+      "ext": "./1725544859240-番茄小说[书].js"
     },
     {
       "key": "黑木耳资源[资]",
@@ -1172,7 +1171,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/黑木耳资源[资].js"
+      "ext": "./黑木耳资源[资].js"
     },
     {
       "key": "黑狐影院",
@@ -1182,7 +1181,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/黑狐影院.js"
+      "ext": "./黑狐影院.js"
     },
     {
       "key": "黑料不打烊[密]",
@@ -1192,7 +1191,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/黑料不打烊[密].js"
+      "ext": "./黑料不打烊[密].js"
     },
     {
       "key": "黑料不打烊-z",
@@ -1202,7 +1201,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/黑料不打烊-z.js"
+      "ext": "./黑料不打烊-z.js"
     },
     {
       "key": "麻雀视频[优]",
@@ -1212,7 +1211,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/麻雀视频[优].js"
+      "ext": "./麻雀视频[优].js"
     },
     {
       "key": "鸭飞影视[V2]",
@@ -1222,7 +1221,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/鸭飞影视[V2].js"
+      "ext": "./鸭飞影视[V2].js"
     },
     {
       "key": "鸭奈飞影视",
@@ -1232,7 +1231,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/鸭奈飞影视.js"
+      "ext": "./鸭奈飞影视.js"
     },
     {
       "key": "驴番[漫]",
@@ -1242,7 +1241,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/驴番[漫].js"
+      "ext": "./驴番[漫].js"
     },
     {
       "key": "饺子影院",
@@ -1252,7 +1251,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/饺子影院.js"
+      "ext": "./饺子影院.js"
     },
     {
       "key": "首发网",
@@ -1262,7 +1261,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/首发网.js"
+      "ext": "./首发网.js"
     },
     {
       "key": "魔都资源[资]",
@@ -1272,7 +1271,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/魔都资源[资].js"
+      "ext": "./魔都资源[资].js"
     },
     {
       "key": "魔方影视",
@@ -1282,7 +1281,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/魔方影视.js"
+      "ext": "./魔方影视.js"
     },
     {
       "key": "饭团影视",
@@ -1292,7 +1291,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/饭团影视.js"
+      "ext": "./饭团影视.js"
     },
     {
       "key": "飞鱼影视",
@@ -1302,7 +1301,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/飞鱼影视.js"
+      "ext": "./飞鱼影视.js"
     },
     {
       "key": "飞狗影院[密]",
@@ -1312,7 +1311,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/飞狗影院[密].js"
+      "ext": "./飞狗影院[密].js"
     },
     {
       "key": "飞翔鸟[书]",
@@ -1322,7 +1321,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/飞翔鸟[书].js"
+      "ext": "./飞翔鸟[书].js"
     },
     {
       "key": "飘花影院",
@@ -1332,7 +1331,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/飘花影院.js"
+      "ext": "./飘花影院.js"
     },
     {
       "key": "顶点小说[书]",
@@ -1342,7 +1341,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/顶点小说[书].js"
+      "ext": "./顶点小说[书].js"
     },
     {
       "key": "飞刀资源[资]",
@@ -1352,7 +1351,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/飞刀资源[资].js"
+      "ext": "./飞刀资源[资].js"
     },
     {
       "key": "非凡资源[资]",
@@ -1362,7 +1361,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/非凡资源[资].js"
+      "ext": "./非凡资源[资].js"
     },
     {
       "key": "顶点小说2[书]",
@@ -1372,7 +1371,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/顶点小说2[书].js"
+      "ext": "./顶点小说2[书].js"
     },
     {
       "key": "金金虫",
@@ -1382,7 +1381,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/金金虫.js"
+      "ext": "./金金虫.js"
     },
     {
       "key": "阿里土豆[盘]",
@@ -1392,7 +1391,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/阿里土豆[盘].js"
+      "ext": "./阿里土豆[盘].js"
     },
     {
       "key": "闪雷电",
@@ -1402,7 +1401,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/闪雷电.js"
+      "ext": "./闪雷电.js"
     },
     {
       "key": "银河影视[V2]",
@@ -1412,7 +1411,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/银河影视[V2].js"
+      "ext": "./银河影视[V2].js"
     },
     {
       "key": "金鹰资源[资]",
@@ -1422,7 +1421,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/金鹰资源[资].js"
+      "ext": "./金鹰资源[资].js"
     },
     {
       "key": "金牌影院",
@@ -1432,7 +1431,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/金牌影院.js"
+      "ext": "./金牌影院.js"
     },
     {
       "key": "量子资源[资]",
@@ -1442,7 +1441,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/量子资源[资].js"
+      "ext": "./量子资源[资].js"
     },
     {
       "key": "量子影视[资]",
@@ -1452,7 +1451,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/量子影视[资].js"
+      "ext": "./量子影视[资].js"
     },
     {
       "key": "采集之王[合]",
@@ -1462,7 +1461,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/采集之王[合].js"
+      "ext": "./采集之王[合].js"
     },
     {
       "key": "酷云影视",
@@ -1472,7 +1471,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/酷云影视.js"
+      "ext": "./酷云影视.js"
     },
     {
       "key": "酷我听书[听]",
@@ -1482,7 +1481,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/酷我听书[听].js"
+      "ext": "./酷我听书[听].js"
     },
     {
       "key": "酷客影视",
@@ -1492,7 +1491,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/酷客影视.js"
+      "ext": "./酷客影视.js"
     },
     {
       "key": "那兔视频",
@@ -1502,7 +1501,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/那兔视频.js"
+      "ext": "./那兔视频.js"
     },
     {
       "key": "速讯影院",
@@ -1512,7 +1511,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/速讯影院.js"
+      "ext": "./速讯影院.js"
     },
     {
       "key": "追影TV",
@@ -1522,7 +1521,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/追影TV.js"
+      "ext": "./追影TV.js"
     },
     {
       "key": "速播小屋",
@@ -1532,7 +1531,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/速播小屋.js"
+      "ext": "./速播小屋.js"
     },
     {
       "key": "追剧兔",
@@ -1542,7 +1541,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/追剧兔.js"
+      "ext": "./追剧兔.js"
     },
     {
       "key": "达达龟",
@@ -1552,7 +1551,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/达达龟.js"
+      "ext": "./达达龟.js"
     },
     {
       "key": "达达猪",
@@ -1562,7 +1561,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/达达猪.js"
+      "ext": "./达达猪.js"
     },
     {
       "key": "贝乐虎[儿]",
@@ -1572,7 +1571,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/贝乐虎[儿].js"
+      "ext": "./贝乐虎[儿].js"
     },
     {
       "key": "路视频[密]",
@@ -1582,7 +1581,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/路视频[密].js"
+      "ext": "./路视频[密].js"
     },
     {
       "key": "路漫漫[漫]",
@@ -1592,7 +1591,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/路漫漫[漫].js"
+      "ext": "./路漫漫[漫].js"
     },
     {
       "key": "豆角网",
@@ -1602,7 +1601,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/豆角网.js"
+      "ext": "./豆角网.js"
     },
     {
       "key": "豆瓣[官]",
@@ -1612,7 +1611,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/豆瓣[官].js"
+      "ext": "./豆瓣[官].js"
     },
     {
       "key": "西瓜影院",
@@ -1622,7 +1621,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/西瓜影院.js"
+      "ext": "./西瓜影院.js"
     },
     {
       "key": "西屋影视",
@@ -1632,7 +1631,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/西屋影视.js"
+      "ext": "./西屋影视.js"
     },
     {
       "key": "被窝电影",
@@ -1642,7 +1641,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/被窝电影.js"
+      "ext": "./被窝电影.js"
     },
     {
       "key": "蚂蚁影视",
@@ -1652,7 +1651,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/蚂蚁影视.js"
+      "ext": "./蚂蚁影视.js"
     },
     {
       "key": "蜥蜴影视[优]",
@@ -1662,7 +1661,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/蜥蜴影视[优].js"
+      "ext": "./蜥蜴影视[优].js"
     },
     {
       "key": "虾酱追剧",
@@ -1672,7 +1671,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/虾酱追剧.js"
+      "ext": "./虾酱追剧.js"
     },
     {
       "key": "蜡笔[盘]",
@@ -1682,7 +1681,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/蜡笔[盘].js"
+      "ext": "./蜡笔[盘].js"
     },
     {
       "key": "蛋蛋剧",
@@ -1692,7 +1691,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/蛋蛋剧.js"
+      "ext": "./蛋蛋剧.js"
     },
     {
       "key": "蛋蛋赞",
@@ -1702,7 +1701,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/蛋蛋赞.js"
+      "ext": "./蛋蛋赞.js"
     },
     {
       "key": "虎牙直播[官]",
@@ -1712,7 +1711,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/虎牙直播[官].js"
+      "ext": "./虎牙直播[官].js"
     },
     {
       "key": "蓝光影视",
@@ -1722,7 +1721,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/蓝光影视.js"
+      "ext": "./蓝光影视.js"
     },
     {
       "key": "荐片[优]",
@@ -1732,7 +1731,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/荐片[优].js"
+      "ext": "./荐片[优].js"
     },
     {
       "key": "菜狗[官]",
@@ -1742,7 +1741,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/菜狗[官].js"
+      "ext": "./菜狗[官].js"
     },
     {
       "key": "萌番[漫]",
@@ -1752,7 +1751,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/萌番[漫].js"
+      "ext": "./萌番[漫].js"
     },
     {
       "key": "花子动漫[漫]",
@@ -1762,7 +1761,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/花子动漫[漫].js"
+      "ext": "./花子动漫[漫].js"
     },
     {
       "key": "草莓秒播[密]",
@@ -1772,7 +1771,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/草莓秒播[密].js"
+      "ext": "./草莓秒播[密].js"
     },
     {
       "key": "茶语资源[资]",
@@ -1782,7 +1781,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/茶语资源[资].js"
+      "ext": "./茶语资源[资].js"
     },
     {
       "key": "色库[密]",
@@ -1792,7 +1791,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/色库[密].js"
+      "ext": "./色库[密].js"
     },
     {
       "key": "臭蛋蛋",
@@ -1802,7 +1801,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/臭蛋蛋.js"
+      "ext": "./臭蛋蛋.js"
     },
     {
       "key": "腾云驾雾[官]",
@@ -1812,7 +1811,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/腾云驾雾[官].js"
+      "ext": "./腾云驾雾[官].js"
     },
     {
       "key": "至臻[盘]",
@@ -1822,7 +1821,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/至臻[盘].js"
+      "ext": "./至臻[盘].js"
     },
     {
       "key": "胖虎影视",
@@ -1832,7 +1831,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/胖虎影视.js"
+      "ext": "./胖虎影视.js"
     },
     {
       "key": "耐看",
@@ -1842,7 +1841,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/耐看.js"
+      "ext": "./耐看.js"
     },
     {
       "key": "网飞猫[优]",
@@ -1852,7 +1851,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/网飞猫[优].js"
+      "ext": "./网飞猫[优].js"
     },
     {
       "key": "美剧星球",
@@ -1862,7 +1861,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/美剧星球.js"
+      "ext": "./美剧星球.js"
     },
     {
       "key": "老司视频[密]",
@@ -1872,7 +1871,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/老司视频[密].js"
+      "ext": "./老司视频[密].js"
     },
     {
       "key": "老白故事[听]",
@@ -1882,7 +1881,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/老白故事[听].js"
+      "ext": "./老白故事[听].js"
     },
     {
       "key": "美益达",
@@ -1892,7 +1891,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/美益达.js"
+      "ext": "./美益达.js"
     },
     {
       "key": "网飞啦[自动]",
@@ -1902,7 +1901,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/网飞啦[自动].js"
+      "ext": "./网飞啦[自动].js"
     },
     {
       "key": "网飞.TV",
@@ -1912,7 +1911,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/网飞.TV.js"
+      "ext": "./网飞.TV.js"
     },
     {
       "key": "维奇动漫[漫]",
@@ -1922,7 +1921,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/维奇动漫[漫].js"
+      "ext": "./维奇动漫[漫].js"
     },
     {
       "key": "绿色仓库[密]",
@@ -1932,7 +1931,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/绿色仓库[密].js"
+      "ext": "./绿色仓库[密].js"
     },
     {
       "key": "索尼资源[资]",
@@ -1942,7 +1941,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/索尼资源[资].js"
+      "ext": "./索尼资源[资].js"
     },
     {
       "key": "素白白[优]",
@@ -1952,7 +1951,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/素白白[优].js"
+      "ext": "./素白白[优].js"
     },
     {
       "key": "策驰影院(自动)",
@@ -1962,7 +1961,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/策驰影院(自动).js"
+      "ext": "./策驰影院(自动).js"
     },
     {
       "key": "第一韩漫[画]",
@@ -1972,7 +1971,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/第一韩漫[画].js"
+      "ext": "./第一韩漫[画].js"
     },
     {
       "key": "米爱影视",
@@ -1982,7 +1981,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/米爱影视.js"
+      "ext": "./米爱影视.js"
     },
     {
       "key": "种子音乐[听]",
@@ -1992,7 +1991,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/种子音乐[听].js"
+      "ext": "./种子音乐[听].js"
     },
     {
       "key": "笔趣阁13[书]",
@@ -2002,7 +2001,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/笔趣阁13[书].js"
+      "ext": "./笔趣阁13[书].js"
     },
     {
       "key": "笔趣阁[书]",
@@ -2012,7 +2011,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/笔趣阁[书].js"
+      "ext": "./笔趣阁[书].js"
     },
     {
       "key": "童趣[儿]",
@@ -2022,7 +2021,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/童趣[儿].js"
+      "ext": "./童趣[儿].js"
     },
     {
       "key": "神马影院[自动]",
@@ -2032,7 +2031,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/神马影院[自动].js"
+      "ext": "./神马影院[自动].js"
     },
     {
       "key": "神马电影[搜]",
@@ -2042,7 +2041,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/神马电影[搜].js"
+      "ext": "./神马电影[搜].js"
     },
     {
       "key": "磁力熊[磁]",
@@ -2052,7 +2051,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/磁力熊[磁].js"
+      "ext": "./磁力熊[磁].js"
     },
     {
       "key": "神仙影视",
@@ -2062,7 +2061,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/神仙影视.js"
+      "ext": "./神仙影视.js"
     },
     {
       "key": "短剧天堂",
@@ -2072,7 +2071,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/短剧天堂.js"
+      "ext": "./短剧天堂.js"
     },
     {
       "key": "短剧在线",
@@ -2082,7 +2081,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/短剧在线.js"
+      "ext": "./短剧在线.js"
     },
     {
       "key": "短剧TV网",
@@ -2092,7 +2091,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/短剧TV网.js"
+      "ext": "./短剧TV网.js"
     },
     {
       "key": "看戏网",
@@ -2102,7 +2101,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/看戏网.js"
+      "ext": "./看戏网.js"
     },
     {
       "key": "看看影视",
@@ -2112,7 +2111,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/看看影视.js"
+      "ext": "./看看影视.js"
     },
     {
       "key": "看客视频",
@@ -2122,7 +2121,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/看客视频.js"
+      "ext": "./看客视频.js"
     },
     {
       "key": "看了么",
@@ -2132,7 +2131,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/看了么.js"
+      "ext": "./看了么.js"
     },
     {
       "key": "看57",
@@ -2142,7 +2141,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/看57.js"
+      "ext": "./看57.js"
     },
     {
       "key": "看客影院",
@@ -2152,7 +2151,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/看客影院.js"
+      "ext": "./看客影院.js"
     },
     {
       "key": "看呀看",
@@ -2162,7 +2161,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/看呀看.js"
+      "ext": "./看呀看.js"
     },
     {
       "key": "相声随身听[听]",
@@ -2172,7 +2171,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/相声随身听[听].js"
+      "ext": "./相声随身听[听].js"
     },
     {
       "key": "皮皮影视",
@@ -2182,7 +2181,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/皮皮影视.js"
+      "ext": "./皮皮影视.js"
     },
     {
       "key": "直播转点播[合]",
@@ -2192,7 +2191,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/直播转点播[合].js"
+      "ext": "./直播转点播[合].js"
     },
     {
       "key": "百忙无果[官]",
@@ -2202,7 +2201,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/百忙无果[官].js"
+      "ext": "./百忙无果[官].js"
     },
     {
       "key": "番茄小说[书]",
@@ -2212,7 +2211,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/番茄小说[书].js"
+      "ext": "./番茄小说[书].js"
     },
     {
       "key": "白嫖者联盟",
@@ -2222,7 +2221,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/白嫖者联盟.js"
+      "ext": "./白嫖者联盟.js"
     },
     {
       "key": "畅梦影视[优]",
@@ -2232,7 +2231,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/畅梦影视[优].js"
+      "ext": "./畅梦影视[优].js"
     },
     {
       "key": "番号资源[密]",
@@ -2242,7 +2241,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/番号资源[密].js"
+      "ext": "./番号资源[密].js"
     },
     {
       "key": "电影狗",
@@ -2252,7 +2251,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/电影狗.js"
+      "ext": "./电影狗.js"
     },
     {
       "key": "电影天堂",
@@ -2262,7 +2261,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/电影天堂.js"
+      "ext": "./电影天堂.js"
     },
     {
       "key": "电影先生",
@@ -2272,7 +2271,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/电影先生.js"
+      "ext": "./电影先生.js"
     },
     {
       "key": "玩偶哥哥[盘]",
@@ -2282,7 +2281,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/玩偶哥哥[盘].js"
+      "ext": "./玩偶哥哥[盘].js"
     },
     {
       "key": "牌牌影院",
@@ -2292,7 +2291,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/牌牌影院.js"
+      "ext": "./牌牌影院.js"
     },
     {
       "key": "狗狗盘[搜]",
@@ -2302,7 +2301,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/狗狗盘[搜].js"
+      "ext": "./狗狗盘[搜].js"
     },
     {
       "key": "猫视界",
@@ -2312,7 +2311,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/猫视界.js"
+      "ext": "./猫视界.js"
     },
     {
       "key": "片多多[优]",
@@ -2322,7 +2321,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/片多多[优].js"
+      "ext": "./片多多[优].js"
     },
     {
       "key": "爱车MV[听]",
@@ -2332,7 +2331,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱车MV[听].js"
+      "ext": "./爱车MV[听].js"
     },
     {
       "key": "爱看短剧[盘]",
@@ -2342,7 +2341,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱看短剧[盘].js"
+      "ext": "./爱看短剧[盘].js"
     },
     {
       "key": "爱迪影视",
@@ -2352,7 +2351,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱迪影视.js"
+      "ext": "./爱迪影视.js"
     },
     {
       "key": "爱看机器人[虫]",
@@ -2362,7 +2361,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱看机器人[虫].js"
+      "ext": "./爱看机器人[虫].js"
     },
     {
       "key": "爱看农民[优]",
@@ -2372,7 +2371,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱看农民[优].js"
+      "ext": "./爱看农民[优].js"
     },
     {
       "key": "爱看影院",
@@ -2382,7 +2381,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱看影院.js"
+      "ext": "./爱看影院.js"
     },
     {
       "key": "爱爱影院[密]",
@@ -2392,7 +2391,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱爱影院[密].js"
+      "ext": "./爱爱影院[密].js"
     },
     {
       "key": "爱看农民2[优]",
@@ -2402,7 +2401,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱看农民2[优].js"
+      "ext": "./爱看农民2[优].js"
     },
     {
       "key": "爱弹幕[漫]",
@@ -2412,7 +2411,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱弹幕[漫].js"
+      "ext": "./爱弹幕[漫].js"
     },
     {
       "key": "爱看hd",
@@ -2422,7 +2421,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱看hd.js"
+      "ext": "./爱看hd.js"
     },
     {
       "key": "爱上你听书网[听]",
@@ -2432,7 +2431,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱上你听书网[听].js"
+      "ext": "./爱上你听书网[听].js"
     },
     {
       "key": "爱你短剧",
@@ -2442,7 +2441,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱你短剧.js"
+      "ext": "./爱你短剧.js"
     },
     {
       "key": "爱优影视[自动]",
@@ -2452,7 +2451,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/爱优影视[自动].js"
+      "ext": "./爱优影视[自动].js"
     },
     {
       "key": "热片网",
@@ -2462,7 +2461,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/热片网.js"
+      "ext": "./热片网.js"
     },
     {
       "key": "热播之家",
@@ -2472,7 +2471,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/热播之家.js"
+      "ext": "./热播之家.js"
     },
     {
       "key": "烧火影视[优]",
@@ -2482,7 +2481,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/烧火影视[优].js"
+      "ext": "./烧火影视[优].js"
     },
     {
       "key": "火狐影视",
@@ -2492,7 +2491,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/火狐影视.js"
+      "ext": "./火狐影视.js"
     },
     {
       "key": "清风DJ[听]",
@@ -2502,7 +2501,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/清风DJ[听].js"
+      "ext": "./清风DJ[听].js"
     },
     {
       "key": "漫小肆[画]",
@@ -2512,7 +2511,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/漫小肆[画].js"
+      "ext": "./漫小肆[画].js"
     },
     {
       "key": "漫画走廊[画密飞]",
@@ -2522,7 +2521,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/漫画走廊[画密飞].js"
+      "ext": "./漫画走廊[画密飞].js"
     },
     {
       "key": "游子视频",
@@ -2532,7 +2531,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/游子视频.js"
+      "ext": "./游子视频.js"
     },
     {
       "key": "海外剧汇",
@@ -2542,7 +2541,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/海外剧汇.js"
+      "ext": "./海外剧汇.js"
     },
     {
       "key": "海洋听书[听]",
@@ -2552,7 +2551,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/海洋听书[听].js"
+      "ext": "./海洋听书[听].js"
     },
     {
       "key": "泥视频[资]",
@@ -2562,7 +2561,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/泥视频[资].js"
+      "ext": "./泥视频[资].js"
     },
     {
       "key": "歪片星球[资]",
@@ -2572,7 +2571,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/歪片星球[资].js"
+      "ext": "./歪片星球[资].js"
     },
     {
       "key": "毒蛇电影[优]",
@@ -2582,7 +2581,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/毒蛇电影[优].js"
+      "ext": "./毒蛇电影[优].js"
     },
     {
       "key": "河狸影视[V2]",
@@ -2592,7 +2591,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/河狸影视[V2].js"
+      "ext": "./河狸影视[V2].js"
     },
     {
       "key": "泡泡影院",
@@ -2602,7 +2601,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/泡泡影院.js"
+      "ext": "./泡泡影院.js"
     },
     {
       "key": "橙汁影视",
@@ -2612,7 +2611,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/橙汁影视.js"
+      "ext": "./橙汁影视.js"
     },
     {
       "key": "次元城动漫[漫]",
@@ -2622,7 +2621,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/次元城动漫[漫].js"
+      "ext": "./次元城动漫[漫].js"
     },
     {
       "key": "橘子柚[盘]",
@@ -2632,7 +2631,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/橘子柚[盘].js"
+      "ext": "./橘子柚[盘].js"
     },
     {
       "key": "榜一短剧",
@@ -2642,7 +2641,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/榜一短剧.js"
+      "ext": "./榜一短剧.js"
     },
     {
       "key": "樱花动漫[漫]",
@@ -2652,7 +2651,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/樱花动漫[漫].js"
+      "ext": "./樱花动漫[漫].js"
     },
     {
       "key": "桃子影视[优]",
@@ -2662,7 +2661,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/桃子影视[优].js"
+      "ext": "./桃子影视[优].js"
     },
     {
       "key": "柠檬影视[V2]",
@@ -2672,7 +2671,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/柠檬影视[V2].js"
+      "ext": "./柠檬影视[V2].js"
     },
     {
       "key": "极速资源[资]",
@@ -2682,7 +2681,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/极速资源[资].js"
+      "ext": "./极速资源[资].js"
     },
     {
       "key": "极客资源[资]",
@@ -2692,7 +2691,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/极客资源[资].js"
+      "ext": "./极客资源[资].js"
     },
     {
       "key": "朴樱影视",
@@ -2702,7 +2701,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/朴樱影视.js"
+      "ext": "./朴樱影视.js"
     },
     {
       "key": "来看点播[自动]",
@@ -2712,7 +2711,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/来看点播[自动].js"
+      "ext": "./来看点播[自动].js"
     },
     {
       "key": "极点影视",
@@ -2722,7 +2721,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/极点影视.js"
+      "ext": "./极点影视.js"
     },
     {
       "key": "木偶哥哥[盘]",
@@ -2732,7 +2731,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/木偶哥哥[盘].js"
+      "ext": "./木偶哥哥[盘].js"
     },
     {
       "key": "有声听书网[听]",
@@ -2742,7 +2741,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/有声听书网[听].js"
+      "ext": "./有声听书网[听].js"
     },
     {
       "key": "有声绘本网[听]",
@@ -2752,7 +2751,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/有声绘本网[听].js"
+      "ext": "./有声绘本网[听].js"
     },
     {
       "key": "有声小说吧[听]",
@@ -2762,7 +2761,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/有声小说吧[听].js"
+      "ext": "./有声小说吧[听].js"
     },
     {
       "key": "最新4K",
@@ -2772,7 +2771,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/最新4K.js"
+      "ext": "./最新4K.js"
     },
     {
       "key": "暴风资源[资]",
@@ -2782,7 +2781,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/暴风资源[资].js"
+      "ext": "./暴风资源[资].js"
     },
     {
       "key": "暖光影视",
@@ -2792,7 +2791,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/暖光影视.js"
+      "ext": "./暖光影视.js"
     },
     {
       "key": "映播TV",
@@ -2802,7 +2801,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/映播TV.js"
+      "ext": "./映播TV.js"
     },
     {
       "key": "星辰CT",
@@ -2812,7 +2811,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/星辰CT.js"
+      "ext": "./星辰CT.js"
     },
     {
       "key": "星空影院",
@@ -2822,7 +2821,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/星空影院.js"
+      "ext": "./星空影院.js"
     },
     {
       "key": "星辰影视",
@@ -2832,7 +2831,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/星辰影视.js"
+      "ext": "./星辰影视.js"
     },
     {
       "key": "星辰[优]",
@@ -2842,7 +2841,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/星辰[优].js"
+      "ext": "./星辰[优].js"
     },
     {
       "key": "星云影视",
@@ -2852,7 +2851,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/星云影视.js"
+      "ext": "./星云影视.js"
     },
     {
       "key": "星芽短剧[优]",
@@ -2862,7 +2861,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/星芽短剧[优].js"
+      "ext": "./星芽短剧[优].js"
     },
     {
       "key": "易点看影院[自动]",
@@ -2872,7 +2871,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/易点看影院[自动].js"
+      "ext": "./易点看影院[自动].js"
     },
     {
       "key": "易搜[搜]",
@@ -2882,7 +2881,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/易搜[搜].js"
+      "ext": "./易搜[搜].js"
     },
     {
       "key": "易看影视",
@@ -2892,7 +2891,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/易看影视.js"
+      "ext": "./易看影视.js"
     },
     {
       "key": "旺旺影视",
@@ -2902,7 +2901,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/旺旺影视.js"
+      "ext": "./旺旺影视.js"
     },
     {
       "key": "无忧影视",
@@ -2912,7 +2911,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/无忧影视.js"
+      "ext": "./无忧影视.js"
     },
     {
       "key": "时光影院",
@@ -2922,7 +2921,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/时光影院.js"
+      "ext": "./时光影院.js"
     },
     {
       "key": "旋风视频",
@@ -2932,7 +2931,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/旋风视频.js"
+      "ext": "./旋风视频.js"
     },
     {
       "key": "斗鱼直播[官]",
@@ -2942,7 +2941,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/斗鱼直播[官].js"
+      "ext": "./斗鱼直播[官].js"
     },
     {
       "key": "文才[资]",
@@ -2952,7 +2951,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/文才[资].js"
+      "ext": "./文才[资].js"
     },
     {
       "key": "新茶杯狐",
@@ -2962,7 +2961,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/新茶杯狐.js"
+      "ext": "./新茶杯狐.js"
     },
     {
       "key": "新视觉",
@@ -2972,7 +2971,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/新视觉.js"
+      "ext": "./新视觉.js"
     },
     {
       "key": "掌心世界",
@@ -2982,7 +2981,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/掌心世界.js"
+      "ext": "./掌心世界.js"
     },
     {
       "key": "文才2[资]",
@@ -2992,7 +2991,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/文才2[资].js"
+      "ext": "./文才2[资].js"
     },
     {
       "key": "播客[听]",
@@ -3002,7 +3001,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/播客[听].js"
+      "ext": "./播客[听].js"
     },
     {
       "key": "我看书斋[书]",
@@ -3012,7 +3011,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/我看书斋[书].js"
+      "ext": "./我看书斋[书].js"
     },
     {
       "key": "我的哔哩[官]",
@@ -3022,7 +3021,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/我的哔哩[官].js"
+      "ext": "./我的哔哩[官].js"
     },
     {
       "key": "我爱跟剧",
@@ -3032,7 +3031,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/我爱跟剧.js"
+      "ext": "./我爱跟剧.js"
     },
     {
       "key": "想看影院",
@@ -3042,7 +3041,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/想看影院.js"
+      "ext": "./想看影院.js"
     },
     {
       "key": "我播",
@@ -3052,7 +3051,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/我播.js"
+      "ext": "./我播.js"
     },
     {
       "key": "悠悠影视",
@@ -3062,7 +3061,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/悠悠影视.js"
+      "ext": "./悠悠影视.js"
     },
     {
       "key": "恒大影视[密]",
@@ -3072,7 +3071,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/恒大影视[密].js"
+      "ext": "./恒大影视[密].js"
     },
     {
       "key": "影视看吧",
@@ -3082,7 +3081,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/影视看吧.js"
+      "ext": "./影视看吧.js"
     },
     {
       "key": "思古影视[V2]",
@@ -3092,7 +3091,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/思古影视[V2].js"
+      "ext": "./思古影视[V2].js"
     },
     {
       "key": "怡萱动漫[漫]",
@@ -3102,7 +3101,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/怡萱动漫[漫].js"
+      "ext": "./怡萱动漫[漫].js"
     },
     {
       "key": "往往影视[慢]",
@@ -3112,7 +3111,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/往往影视[慢].js"
+      "ext": "./往往影视[慢].js"
     },
     {
       "key": "快看影视",
@@ -3122,7 +3121,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/快看影视.js"
+      "ext": "./快看影视.js"
     },
     {
       "key": "影视工厂",
@@ -3132,7 +3131,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/影视工厂.js"
+      "ext": "./影视工厂.js"
     },
     {
       "key": "影视控",
@@ -3142,7 +3141,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/影视控.js"
+      "ext": "./影视控.js"
     },
     {
       "key": "影渣渣影视",
@@ -3152,7 +3151,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/影渣渣影视.js"
+      "ext": "./影渣渣影视.js"
     },
     {
       "key": "影视工场",
@@ -3162,7 +3161,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/影视工场.js"
+      "ext": "./影视工场.js"
     },
     {
       "key": "影视大全",
@@ -3172,7 +3171,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/影视大全.js"
+      "ext": "./影视大全.js"
     },
     {
       "key": "影搜[搜]",
@@ -3182,7 +3181,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/影搜[搜].js"
+      "ext": "./影搜[搜].js"
     },
     {
       "key": "影剧星球",
@@ -3192,7 +3191,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/影剧星球.js"
+      "ext": "./影剧星球.js"
     },
     {
       "key": "广播迷FM[听]",
@@ -3202,7 +3201,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/广播迷FM[听].js"
+      "ext": "./广播迷FM[听].js"
     },
     {
       "key": "干饭影视",
@@ -3212,7 +3211,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/干饭影视.js"
+      "ext": "./干饭影视.js"
     },
     {
       "key": "小鱼影视",
@@ -3222,7 +3221,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/小鱼影视.js"
+      "ext": "./小鱼影视.js"
     },
     {
       "key": "小马影视[V2]",
@@ -3232,7 +3231,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/小马影视[V2].js"
+      "ext": "./小马影视[V2].js"
     },
     {
       "key": "小白菜电影",
@@ -3242,7 +3241,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/小白菜电影.js"
+      "ext": "./小白菜电影.js"
     },
     {
       "key": "小站盘[搜]",
@@ -3252,7 +3251,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/小站盘[搜].js"
+      "ext": "./小站盘[搜].js"
     },
     {
       "key": "小宝影院",
@@ -3262,7 +3261,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/小宝影院.js"
+      "ext": "./小宝影院.js"
     },
     {
       "key": "小女18[密]",
@@ -3272,7 +3271,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/小女18[密].js"
+      "ext": "./小女18[密].js"
     },
     {
       "key": "家庭影视",
@@ -3282,7 +3281,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/家庭影视.js"
+      "ext": "./家庭影视.js"
     },
     {
       "key": "宝片视频",
@@ -3292,7 +3291,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/宝片视频.js"
+      "ext": "./宝片视频.js"
     },
     {
       "key": "宇航影视",
@@ -3302,7 +3301,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/宇航影视.js"
+      "ext": "./宇航影视.js"
     },
     {
       "key": "孜然影视",
@@ -3312,7 +3311,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/孜然影视.js"
+      "ext": "./孜然影视.js"
     },
     {
       "key": "子子影视",
@@ -3322,7 +3321,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/子子影视.js"
+      "ext": "./子子影视.js"
     },
     {
       "key": "奶狗影视[慢]",
@@ -3332,7 +3331,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/奶狗影视[慢].js"
+      "ext": "./奶狗影视[慢].js"
     },
     {
       "key": "如意影视",
@@ -3342,7 +3341,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/如意影视.js"
+      "ext": "./如意影视.js"
     },
     {
       "key": "好趣网[播]",
@@ -3352,7 +3351,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/好趣网[播].js"
+      "ext": "./好趣网[播].js"
     },
     {
       "key": "奈飞中文[自动]",
@@ -3362,7 +3361,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/奈飞中文[自动].js"
+      "ext": "./奈飞中文[自动].js"
     },
     {
       "key": "奇米动漫[漫]",
@@ -3372,7 +3371,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/奇米动漫[漫].js"
+      "ext": "./奇米动漫[漫].js"
     },
     {
       "key": "天天影视",
@@ -3382,7 +3381,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/天天影视.js"
+      "ext": "./天天影视.js"
     },
     {
       "key": "天龙影院",
@@ -3392,7 +3391,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/天龙影院.js"
+      "ext": "./天龙影院.js"
     },
     {
       "key": "奇珍异兽[官]",
@@ -3402,7 +3401,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/奇珍异兽[官].js"
+      "ext": "./奇珍异兽[官].js"
     },
     {
       "key": "天启",
@@ -3412,7 +3411,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/天启.js"
+      "ext": "./天启.js"
     },
     {
       "key": "大米星球[V2]",
@@ -3422,7 +3421,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/大米星球[V2].js"
+      "ext": "./大米星球[V2].js"
     },
     {
       "key": "大师兄影视[优]",
@@ -3432,7 +3431,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/大师兄影视[优].js"
+      "ext": "./大师兄影视[优].js"
     },
     {
       "key": "大米星球",
@@ -3442,7 +3441,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/大米星球.js"
+      "ext": "./大米星球.js"
     },
     {
       "key": "大千视界",
@@ -3452,7 +3451,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/大千视界.js"
+      "ext": "./大千视界.js"
     },
     {
       "key": "大米动漫[漫]",
@@ -3462,7 +3461,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/大米动漫[漫].js"
+      "ext": "./大米动漫[漫].js"
     },
     {
       "key": "多多追剧[优]",
@@ -3472,7 +3471,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/多多追剧[优].js"
+      "ext": "./多多追剧[优].js"
     },
     {
       "key": "夕云影视",
@@ -3482,7 +3481,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/夕云影视.js"
+      "ext": "./夕云影视.js"
     },
     {
       "key": "大中国",
@@ -3492,7 +3491,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/大中国.js"
+      "ext": "./大中国.js"
     },
     {
       "key": "地瓜视频[密]",
@@ -3502,7 +3501,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/地瓜视频[密].js"
+      "ext": "./地瓜视频[密].js"
     },
     {
       "key": "在线之家",
@@ -3512,7 +3511,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/在线之家.js"
+      "ext": "./在线之家.js"
     },
     {
       "key": "嘀哩嘀哩",
@@ -3522,7 +3521,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/嘀哩嘀哩.js"
+      "ext": "./嘀哩嘀哩.js"
     },
     {
       "key": "啊哈DJ[听]",
@@ -3532,7 +3531,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/啊哈DJ[听].js"
+      "ext": "./啊哈DJ[听].js"
     },
     {
       "key": "喜马拉雅[听]",
@@ -3542,7 +3541,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/喜马拉雅[听].js"
+      "ext": "./喜马拉雅[听].js"
     },
     {
       "key": "哔哩影视[官]",
@@ -3552,7 +3551,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/哔哩影视[官].js"
+      "ext": "./哔哩影视[官].js"
     },
     {
       "key": "哔哩直播[官]",
@@ -3562,7 +3561,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/哔哩直播[官].js"
+      "ext": "./哔哩直播[官].js"
     },
     {
       "key": "哔嘀影视[优]",
@@ -3572,7 +3571,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/哔嘀影视[优].js"
+      "ext": "./哔嘀影视[优].js"
     },
     {
       "key": "咕咕番[漫]",
@@ -3582,7 +3581,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/咕咕番[漫].js"
+      "ext": "./咕咕番[漫].js"
     },
     {
       "key": "哈皮影视[优]",
@@ -3592,7 +3591,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/哈皮影视[优].js"
+      "ext": "./哈皮影视[优].js"
     },
     {
       "key": "可可影视[优]",
@@ -3602,7 +3601,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/可可影视[优].js"
+      "ext": "./可可影视[优].js"
     },
     {
       "key": "可达影视",
@@ -3612,7 +3611,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/可达影视.js"
+      "ext": "./可达影视.js"
     },
     {
       "key": "咖啡影视",
@@ -3622,7 +3621,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/咖啡影视.js"
+      "ext": "./咖啡影视.js"
     },
     {
       "key": "古风漫画[画]",
@@ -3632,7 +3631,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/古风漫画[画].js"
+      "ext": "./古风漫画[画].js"
     },
     {
       "key": "即看影视",
@@ -3642,7 +3641,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/即看影视.js"
+      "ext": "./即看影视.js"
     },
     {
       "key": "厂长资源",
@@ -3652,7 +3651,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/厂长资源.js"
+      "ext": "./厂长资源.js"
     },
     {
       "key": "卧龙资源[资]",
@@ -3662,7 +3661,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/卧龙资源[资].js"
+      "ext": "./卧龙资源[资].js"
     },
     {
       "key": "博看听书[听]",
@@ -3672,7 +3671,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/博看听书[听].js"
+      "ext": "./博看听书[听].js"
     },
     {
       "key": "南瓜影视[优]",
@@ -3682,7 +3681,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/南瓜影视[优].js"
+      "ext": "./南瓜影视[优].js"
     },
     {
       "key": "千神影视",
@@ -3692,7 +3691,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/千神影视.js"
+      "ext": "./千神影视.js"
     },
     {
       "key": "千百视频[密]",
@@ -3702,7 +3701,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/千百视频[密].js"
+      "ext": "./千百视频[密].js"
     },
     {
       "key": "北川影视",
@@ -3712,7 +3711,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/北川影视.js"
+      "ext": "./北川影视.js"
     },
     {
       "key": "包子漫画[画]",
@@ -3722,7 +3721,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/包子漫画[画].js"
+      "ext": "./包子漫画[画].js"
     },
     {
       "key": "动漫网[漫]",
@@ -3732,7 +3731,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/动漫网[漫].js"
+      "ext": "./动漫网[漫].js"
     },
     {
       "key": "动漫巴士[漫]",
@@ -3742,7 +3741,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/动漫巴士[漫].js"
+      "ext": "./动漫巴士[漫].js"
     },
     {
       "key": "剧巴巴",
@@ -3752,7 +3751,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/剧巴巴.js"
+      "ext": "./剧巴巴.js"
     },
     {
       "key": "剧迷",
@@ -3762,7 +3761,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/剧迷.js"
+      "ext": "./剧迷.js"
     },
     {
       "key": "剧集TV",
@@ -3772,7 +3771,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/剧集TV.js"
+      "ext": "./剧集TV.js"
     },
     {
       "key": "剧圈圈[自动]",
@@ -3782,7 +3781,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/剧圈圈[自动].js"
+      "ext": "./剧圈圈[自动].js"
     },
     {
       "key": "剧圈圈",
@@ -3792,7 +3791,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/剧圈圈.js"
+      "ext": "./剧圈圈.js"
     },
     {
       "key": "刺猬影视",
@@ -3802,7 +3801,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/刺猬影视.js"
+      "ext": "./刺猬影视.js"
     },
     {
       "key": "剧哥哥",
@@ -3812,7 +3811,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/剧哥哥.js"
+      "ext": "./剧哥哥.js"
     },
     {
       "key": "刷剧网",
@@ -3822,7 +3821,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/刷剧网.js"
+      "ext": "./刷剧网.js"
     },
     {
       "key": "冠建影视",
@@ -3832,7 +3831,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/冠建影视.js"
+      "ext": "./冠建影视.js"
     },
     {
       "key": "分享短视频",
@@ -3842,7 +3841,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/分享短视频.js"
+      "ext": "./分享短视频.js"
     },
     {
       "key": "兄弟影视[优]",
@@ -3852,7 +3851,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/兄弟影视[优].js"
+      "ext": "./兄弟影视[优].js"
     },
     {
       "key": "农民影视[优]",
@@ -3862,7 +3861,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/农民影视[优].js"
+      "ext": "./农民影视[优].js"
     },
     {
       "key": "六月听书[听]",
@@ -3872,7 +3871,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/六月听书[听].js"
+      "ext": "./六月听书[听].js"
     },
     {
       "key": "兔小贝[儿]",
@@ -3882,7 +3881,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/兔小贝[儿].js"
+      "ext": "./兔小贝[儿].js"
     },
     {
       "key": "侠客影视",
@@ -3892,7 +3891,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/侠客影视.js"
+      "ext": "./侠客影视.js"
     },
     {
       "key": "你好帅影院",
@@ -3902,7 +3901,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/你好帅影院.js"
+      "ext": "./你好帅影院.js"
     },
     {
       "key": "低端",
@@ -3912,7 +3911,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/低端.js"
+      "ext": "./低端.js"
     },
     {
       "key": "云电影网",
@@ -3922,7 +3921,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/云电影网.js"
+      "ext": "./云电影网.js"
     },
     {
       "key": "乐草TV[密]",
@@ -3932,7 +3931,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/乐草TV[密].js"
+      "ext": "./乐草TV[密].js"
     },
     {
       "key": "人人影视",
@@ -3942,7 +3941,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/人人影视.js"
+      "ext": "./人人影视.js"
     },
     {
       "key": "优酷[官]",
@@ -3952,7 +3951,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/优酷[官].js"
+      "ext": "./优酷[官].js"
     },
     {
       "key": "云盘资源网[盘]",
@@ -3962,7 +3961,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/云盘资源网[盘].js"
+      "ext": "./云盘资源网[盘].js"
     },
     {
       "key": "九牛电影",
@@ -3972,7 +3971,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/九牛电影.js"
+      "ext": "./九牛电影.js"
     },
     {
       "key": "中华听书网[听]",
@@ -3982,7 +3981,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/中华听书网[听].js"
+      "ext": "./中华听书网[听].js"
     },
     {
       "key": "九妖仓库[密]",
@@ -3992,7 +3991,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/九妖仓库[密].js"
+      "ext": "./九妖仓库[密].js"
     },
     {
       "key": "两个BT",
@@ -4002,7 +4001,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/两个BT.js"
+      "ext": "./两个BT.js"
     },
     {
       "key": "丫丫电子书[书]",
@@ -4012,7 +4011,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/丫丫电子书[书].js"
+      "ext": "./丫丫电子书[书].js"
     },
     {
       "key": "世纪DJ音乐网[听]",
@@ -4022,7 +4021,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/世纪DJ音乐网[听].js"
+      "ext": "./世纪DJ音乐网[听].js"
     },
     {
       "key": "七色番[漫]",
@@ -4032,7 +4031,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/七色番[漫].js"
+      "ext": "./七色番[漫].js"
     },
     {
       "key": "三集电影[自动]",
@@ -4042,7 +4041,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/三集电影[自动].js"
+      "ext": "./三集电影[自动].js"
     },
     {
       "key": "七新电影网",
@@ -4052,7 +4051,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/七新电影网.js"
+      "ext": "./七新电影网.js"
     },
     {
       "key": "一点视频[密]",
@@ -4062,7 +4061,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/一点视频[密].js"
+      "ext": "./一点视频[密].js"
     },
     {
       "key": "七年影视",
@@ -4072,7 +4071,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/七年影视.js"
+      "ext": "./七年影视.js"
     },
     {
       "key": "一起看",
@@ -4082,7 +4081,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/一起看.js"
+      "ext": "./一起看.js"
     },
     {
       "key": "一起看[优]",
@@ -4092,7 +4091,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/一起看[优].js"
+      "ext": "./一起看[优].js"
     },
     {
       "key": "一曲肝肠断",
@@ -4102,7 +4101,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/一曲肝肠断.js"
+      "ext": "./一曲肝肠断.js"
     },
     {
       "key": "一支穿云箭",
@@ -4112,7 +4111,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/一支穿云箭.js"
+      "ext": "./一支穿云箭.js"
     },
     {
       "key": "一号影院[搜]",
@@ -4122,7 +4121,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/一号影院[搜].js"
+      "ext": "./一号影院[搜].js"
     },
     {
       "key": "voflix",
@@ -4132,7 +4131,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/voflix.js"
+      "ext": "./voflix.js"
     },
     {
       "key": "ok资源[资]",
@@ -4142,7 +4141,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/ok资源[资].js"
+      "ext": "./ok资源[资].js"
     },
     {
       "key": "rarbt[优]",
@@ -4152,7 +4151,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/rarbt[优].js"
+      "ext": "./rarbt[优].js"
     },
     {
       "key": "script直播[飞]",
@@ -4162,7 +4161,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/script直播[飞].js"
+      "ext": "./script直播[飞].js"
     },
     {
       "key": "iku喵[资]",
@@ -4172,7 +4171,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/iku喵[资].js"
+      "ext": "./iku喵[资].js"
     },
     {
       "key": "iFun",
@@ -4182,7 +4181,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/iFun.js"
+      "ext": "./iFun.js"
     },
     {
       "key": "i275听书[听]",
@@ -4192,7 +4191,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/i275听书[听].js"
+      "ext": "./i275听书[听].js"
     },
     {
       "key": "eFuns",
@@ -4202,7 +4201,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/eFuns.js"
+      "ext": "./eFuns.js"
     },
     {
       "key": "freeok",
@@ -4212,7 +4211,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/freeok.js"
+      "ext": "./freeok.js"
     },
     {
       "key": "auete",
@@ -4222,7 +4221,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/auete.js"
+      "ext": "./auete.js"
     },
     {
       "key": "cally66",
@@ -4232,7 +4231,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/cally66.js"
+      "ext": "./cally66.js"
     },
     {
       "key": "bilfun(自动)",
@@ -4242,7 +4241,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/bilfun(自动).js"
+      "ext": "./bilfun(自动).js"
     },
     {
       "key": "UAA[密]",
@@ -4252,7 +4251,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/UAA[密].js"
+      "ext": "./UAA[密].js"
     },
     {
       "key": "UAA[听]",
@@ -4262,7 +4261,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/UAA[听].js"
+      "ext": "./UAA[听].js"
     },
     {
       "key": "TVB云播",
@@ -4272,7 +4271,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/TVB云播.js"
+      "ext": "./TVB云播.js"
     },
     {
       "key": "R18撸[密]",
@@ -4282,7 +4281,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/R18撸[密].js"
+      "ext": "./R18撸[密].js"
     },
     {
       "key": "Pornhub[密]",
@@ -4292,7 +4291,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/Pornhub[密].js"
+      "ext": "./Pornhub[密].js"
     },
     {
       "key": "PTT[优]",
@@ -4302,7 +4301,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/PTT[优].js"
+      "ext": "./PTT[优].js"
     },
     {
       "key": "OmoFun[漫]",
@@ -4312,7 +4311,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/OmoFun[漫].js"
+      "ext": "./OmoFun[漫].js"
     },
     {
       "key": "PTT追剧大师",
@@ -4322,7 +4321,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/PTT追剧大师.js"
+      "ext": "./PTT追剧大师.js"
     },
     {
       "key": "NT动漫[漫]",
@@ -4332,7 +4331,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/NT动漫[漫].js"
+      "ext": "./NT动漫[漫].js"
     },
     {
       "key": "KTV歌厅[听]",
@@ -4342,7 +4341,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/KTV歌厅[听].js"
+      "ext": "./KTV歌厅[听].js"
     },
     {
       "key": "LIBVIO[优]",
@@ -4352,7 +4351,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/LIBVIO[优].js"
+      "ext": "./LIBVIO[优].js"
     },
     {
       "key": "MuteFun[漫]",
@@ -4362,7 +4361,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/MuteFun[漫].js"
+      "ext": "./MuteFun[漫].js"
     },
     {
       "key": "HDmoli",
@@ -4372,7 +4371,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/HDmoli.js"
+      "ext": "./HDmoli.js"
     },
     {
       "key": "FreeOKLOL",
@@ -4382,7 +4381,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/FreeOKLOL.js"
+      "ext": "./FreeOKLOL.js"
     },
     {
       "key": "GO影视",
@@ -4392,7 +4391,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/GO影视.js"
+      "ext": "./GO影视.js"
     },
     {
       "key": "B站影视",
@@ -4402,7 +4401,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/B站影视.js"
+      "ext": "./B站影视.js"
     },
     {
       "key": "ASMR[听]",
@@ -4412,7 +4411,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/ASMR[听].js"
+      "ext": "./ASMR[听].js"
     },
     {
       "key": "8号影院",
@@ -4422,7 +4421,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/8号影院.js"
+      "ext": "./8号影院.js"
     },
     {
       "key": "88看球[球]",
@@ -4432,7 +4431,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/88看球[球].js"
+      "ext": "./88看球[球].js"
     },
     {
       "key": "7猫小说[书]",
@@ -4442,7 +4441,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/7猫小说[书].js"
+      "ext": "./7猫小说[书].js"
     },
     {
       "key": "6V新版[磁]",
@@ -4452,7 +4451,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/6V新版[磁].js"
+      "ext": "./6V新版[磁].js"
     },
     {
       "key": "777影视",
@@ -4462,7 +4461,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/777影视.js"
+      "ext": "./777影视.js"
     },
     {
       "key": "58动漫[漫]",
@@ -4472,7 +4471,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/58动漫[漫].js"
+      "ext": "./58动漫[漫].js"
     },
     {
       "key": "539影视",
@@ -4482,7 +4481,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/539影视.js"
+      "ext": "./539影视.js"
     },
     {
       "key": "555影视[飞]",
@@ -4492,7 +4491,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/555影视[飞].js"
+      "ext": "./555影视[飞].js"
     },
     {
       "key": "4k剧院",
@@ -4502,7 +4501,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/4k剧院.js"
+      "ext": "./4k剧院.js"
     },
     {
       "key": "4khdr",
@@ -4512,7 +4511,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/4khdr.js"
+      "ext": "./4khdr.js"
     },
     {
       "key": "4K-AV",
@@ -4522,7 +4521,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/4K-AV.js"
+      "ext": "./4K-AV.js"
     },
     {
       "key": "36直播[密]",
@@ -4532,7 +4531,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/36直播[密].js"
+      "ext": "./36直播[密].js"
     },
     {
       "key": "360吧[球]",
@@ -4542,7 +4541,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/360吧[球].js"
+      "ext": "./360吧[球].js"
     },
     {
       "key": "360影视[官]",
@@ -4552,7 +4551,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/360影视[官].js"
+      "ext": "./360影视[官].js"
     },
     {
       "key": "348电影网",
@@ -4562,7 +4561,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/348电影网.js"
+      "ext": "./348电影网.js"
     },
     {
       "key": "310直播[球]",
@@ -4572,7 +4571,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/310直播[球].js"
+      "ext": "./310直播[球].js"
     },
     {
       "key": "01看球[球]",
@@ -4582,7 +4581,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/01看球[球].js"
+      "ext": "./01看球[球].js"
     },
     {
       "key": "29片库[密]",
@@ -4592,7 +4591,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/29片库[密].js"
+      "ext": "./29片库[密].js"
     },
     {
       "key": "0855影视",
@@ -4602,7 +4601,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/0855影视.js"
+      "ext": "./0855影视.js"
     },
     {
       "key": "辰智",
@@ -4612,419 +4611,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1726057355843-盘搜[盘].js"
-    }
-  ],
-  "parses": [
-    {
-      "name": "冰豆",
-      "url": "https://bd.jx.cn/?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "pouyun",
-      "url": "https://www.pouyun.com/?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "8090g",
-      "url": "https://www.8090g.cn/jiexi/?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "ik9",
-      "url": "https://yparse.ik9.cc/index.php?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "杰森",
-      "url": "https://jx.jsonplayer.com/player/?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "play",
-      "url": "https://www.playm3u8.cn/jiexi.php?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "m3u8TV",
-      "url": "https://jx.m3u8.tv/jiexi/?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "听乐",
-      "url": "https://jx.dj6u.com/?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "红狐",
-      "url": "https://player.mrgaocloud.com/player/?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "水晶",
-      "url": "https://jx.yparse.com/index.php?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    },
-    {
-      "name": "刺客",
-      "url": "https://www.ckplayer.vip/jiexi/?url=",
-      "type": 0,
-      "ext": {
-        "flag": [
-          "qiyi",
-          "imgo",
-          "爱奇艺",
-          "奇艺",
-          "qq",
-          "qq 预告及花絮",
-          "腾讯",
-          "youku",
-          "优酷",
-          "pptv",
-          "PPTV",
-          "letv",
-          "乐视",
-          "leshi",
-          "mgtv",
-          "芒果",
-          "sohu",
-          "xigua",
-          "fun",
-          "风行"
-        ]
-      },
-      "header": {
-        "User-Agent": "Mozilla/5.0"
-      }
-    }
-  ],
-  "flags": [
-    "imgo",
-    "youku",
-    "qq",
-    "qq 预告及花絮",
-    "iqiyi",
-    "qiyi",
-    "fun",
-    "letv",
-    "leshi",
-    "sohu",
-    "tudou",
-    "xigua",
-    "cntv",
-    "1905",
-    "pptv",
-    "mgtv",
-    "wasu",
-    "bilibili",
-    "renrenmi"
-  ],
-  "lives": [
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "稳定github直播",
-          "urls": [
-            "proxy://do=live&type=txt&ext=https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt"
-          ]
-        },
-        {
-          "name": "华数2",
-          "urls": [
-            "proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/华数2.m3u"
-          ]
-        },
-        {
-          "name": "杭州华数",
-          "urls": [
-            "proxy://do=live&type=txt&ext=http://127.0.0.1:9978/api/v1/file/drpy_dzlive/lives/杭州华数.m3u"
-          ]
-        },
-        {
-          "name": "云星日记直播",
-          "urls": [
-            "proxy://do=live&type=txt&ext=http://itvbox.cc/云星日记/Ipv4.txt"
-          ]
-        },
-        {
-          "name": "本地嗅探器直播",
-          "urls": [
-            "proxy://do=live&type=txt&ext=http://127.0.0.1:5708/ysp"
-          ]
-        }
-      ]
+      "ext": "./1726057355843-盘搜[盘].js"
     }
   ]
 }

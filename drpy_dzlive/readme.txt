@@ -1,4 +1,4 @@
-本地包版本:20241010-1
+本地包版本:20241012-1
 作者:道长
 QQ群:824179147
 PC:zyplayer 与 Mobile:easybox 通用
@@ -19,3 +19,8 @@ easybox导入教程:
 其他说明:
 index.js仅限zyplayer配置使用
 index.json可以给手机壳子easybox使用本地包
+
+
+更新说明:
+20241012
+更新了index.js支持了appv2模板传参,新增appv2.txt示例

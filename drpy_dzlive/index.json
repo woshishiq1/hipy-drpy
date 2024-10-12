@@ -983,6 +983,17 @@
 			"ext": "./drpy_js/大米动漫[漫].js"
 		},
 		{
+			"key": "hipy_js_APPV2[模板]1",
+			"name": "大米星球(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 1,
+			"ext": "./drpy_js/APPV2[模板].js?type=url&params=https://dmz8k4.wiki"
+		},
+		{
 			"key": "hipy_js_大米星球",
 			"name": "大米星球(drpy_t3)",
 			"type": 3,
@@ -1542,6 +1553,17 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/好趣网[播].js"
+		},
+		{
+			"key": "hipy_js_APPV2[模板]3",
+			"name": "河狸影视(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 3,
+			"ext": "./drpy_js/APPV2[模板].js?type=url&params=https://www.heli888.cc"
 		},
 		{
 			"key": "hipy_js_河狸影视[V2]",
@@ -3500,6 +3522,17 @@
 			"ext": "./drpy_js/小宝影院.js"
 		},
 		{
+			"key": "hipy_js_APPV2[模板]2",
+			"name": "小马影视(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 2,
+			"ext": "./drpy_js/APPV2[模板].js?type=url&params=https://mas.szyyds.cn"
+		},
+		{
 			"key": "hipy_js_小马影视[V2]",
 			"name": "小马影视[V2](drpy_t3)",
 			"type": 3,
@@ -3940,6 +3973,17 @@
 			"order_num": 9999
 		},
 		{
+			"key": "hipy_js_APPV2[模板]4",
+			"name": "银河影视(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 4,
+			"ext": "./drpy_js/APPV2[模板].js?type=url&params=http://134.175.219.46"
+		},
+		{
 			"key": "hipy_js_银河影视[V2]",
 			"name": "银河影视[V2](drpy_t3)",
 			"type": 3,
@@ -4221,6 +4265,17 @@
 			"filterable": 1,
 			"order_num": 0,
 			"ext": "./drpy_js/在线之家.js"
+		},
+		{
+			"key": "hipy_js_APPV2[模板]0",
+			"name": "泽少(drpy_t3)",
+			"type": 3,
+			"api": "./drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"ext": "./drpy_js/APPV2[模板].js?type=url&params=http://122.228.85.203:1000$http://122.228.85.203:1000/play?url="
 		},
 		{
 			"key": "hipy_js_掌心世界",

@@ -5,6 +5,116 @@
 	"spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
 	"sites": [
     {
+      "key": "影趣影视",
+      "name": "影趣影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729218599754-影趣影视.js"
+    },
+    {
+      "key": "米兔影视[自动]",
+      "name": "米兔影视[自动]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729164647443-米兔影视[自动].js"
+    },
+    {
+      "key": "糖果影视",
+      "name": "糖果影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729069875859-糖果影视.js"
+    },
+    {
+      "key": "玩偶表哥[盘]",
+      "name": "玩偶表哥[盘]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729063554901-玩偶表哥[盘].js"
+    },
+    {
+      "key": "鬼片365",
+      "name": "鬼片365",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729063481252-鬼片365.js"
+    },
+    {
+      "key": "欧哥APP[盘]",
+      "name": "欧哥APP[盘]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1728896392078-欧哥APP[盘].js"
+    },
+    {
+      "key": "2千动漫",
+      "name": "2千动漫",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1728743199963-2千动漫.js"
+    },
+    {
+      "key": "233动漫[漫]",
+      "name": "233动漫[漫]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1728718399803-233动漫[漫].js"
+    },
+    {
+      "key": "没事影视",
+      "name": "没事影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1728701674039-没事影视.js"
+    },
+    {
+      "key": "喵物次元",
+      "name": "喵物次元",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1728544213138-喵物次元.js"
+    },
+    {
+      "key": "假布雷",
+      "name": "假布雷",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1728541126840-布蕾4K.js"
+    },
+    {
       "key": "黑墙影视[自动]",
       "name": "黑墙影视[自动]",
       "type": 3,
@@ -72,7 +182,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./drpy_js/1728049370648-KimiVod.js"
+      "ext": "./drpy_js/1728719310083-KimiVod.js"
     },
     {
       "key": "影梦影视",
@@ -405,6 +515,16 @@
       "ext": "./drpy_js/1727234138180-哈皮影视[优].js"
     },
     {
+      "key": "动漫巴士",
+      "name": "动漫巴士",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1727198534158-动漫巴士[漫].js"
+    },
+    {
       "key": "黑狐影视",
       "name": "黑狐影视",
       "type": 3,
@@ -413,6 +533,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./drpy_js/1727181643683-黑狐影视.js"
+    },
+    {
+      "key": "热播之家",
+      "name": "热播之家",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1727088679386-热播之家搜索.js"
     },
     {
       "key": "影探",
@@ -433,6 +563,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./drpy_js/1727064350477-尘落影视.js"
+    },
+    {
+      "key": "易点看影院",
+      "name": "易点看影院",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1727060906380-易点看影院[自动].js"
     },
     {
       "key": "永乐视频[XBPQ]",

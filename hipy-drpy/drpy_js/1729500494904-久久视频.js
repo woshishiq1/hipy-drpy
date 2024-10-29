@@ -1,0 +1,28 @@
+var rule = {
+  title: '久久影视',
+  host: 'https://www.jiuytv.cc/',
+  url: '/vodshow/fyclass--------fypage---.html',
+  searchUrl: '/vodsearch/**----------fypage---/',
+  class_parse: '.top_nav li;a&&Text;a&&href;.*/(.*?)\.html',
+  searchable: 2,
+  quickSearch: 0,
+  filterable: 0,
+  headers: {
+    'User-Agent': 'MOBILE_UA',
+  },
+  play_parse: true,
+  lazy: "js:\n  let html = request(input);\n  let hconf = html.match(/r player_.*?=(.*?)</)[1];\n  let json = JSON5.parse(hconf);\n  let url = json.url;\n  if (json.encrypt == '1') {\n    url = unescape(url);\n  } else if (json.encrypt == '2') {\n    url = unescape(base64Decode(url));\n  }\n  if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {\n    input = {\n      parse: 0,\n      jx: 0,\n      url: url,\n    };\n  } else {\n    input;\n  }",
+  limit: 6,
+  double: true,
+  推荐: '.cbox_list;*;*;*;*;*',
+  一级: 'ul.vodlist li;a&&title;a&&data-original;.pic_text&&Text;a&&href',
+  二级: {
+    title: 'h2&&Text;.pannel.play_pan.clearfix&&.player',
+    img: '.vodlist_thumb&&data-original',
+    desc: ';.nstem.data.ms_p.margin_0&&a:eq(0)&&Text;.nstem.data.ms_p.margin_0&&a:eq(1)&&Text;.panel.play_content&&p:eq(1)&&Text;.panel.play_content&&p:eq(0)&&Text',
+    content: '.panel.play_content&&p:eq(2)&&Text',
+    tabs: '.title_nav&&li',
+    lists: '.content_playlist.clearfix&&li',
+  },
+  搜索: '*',
+}

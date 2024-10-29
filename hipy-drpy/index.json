@@ -5,6 +5,96 @@
 	"spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
 	"sites": [
     {
+      "key": "星空影院",
+      "name": "星空影院",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1730117620828-星空影院.js"
+    },
+    {
+      "key": "音范丝",
+      "name": "音范丝",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1730090290105-音范丝.json"
+    },
+    {
+      "key": "私密影院",
+      "name": "私密影院",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1730021908733-私密影院.js"
+    },
+    {
+      "key": "大地影院",
+      "name": "大地影院",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729872011004-大地影院.js"
+    },
+    {
+      "key": "爱迪影视",
+      "name": "爱迪影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729830376423-爱迪影视.js"
+    },
+    {
+      "key": "BilFun",
+      "name": "BilFun",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729825251241-BilFun.js"
+    },
+    {
+      "key": "花姐影院",
+      "name": "花姐影院",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729753987339-花姐影院.js"
+    },
+    {
+      "key": "窝窝影视",
+      "name": "窝窝影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729753675928-窝窝影视.js"
+    },
+    {
+      "key": "久久视频",
+      "name": "久久视频",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1729500494904-久久视频.js"
+    },
+    {
       "key": "影趣影视",
       "name": "影趣影视",
       "type": 3,

@@ -109,7 +109,7 @@ async function main() {
     channels.push({
         'name': '稳定github直播',
         'urls': [
-            'proxy://do=live&type=txt&ext=https://ghproxy.net/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt',
+            'proxy://do=live&type=txt&ext=https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/hipy-sniffer/refs/heads/main/static/lives/lives.txt',
         ],
     });
     live_files.forEach((it) => {
@@ -195,6 +195,10 @@ async function main() {
             ];
         } else if (rname.includes('APPV2')) {
             extras = appv2_sites.map(s => `?type=url&params=${s}`);
+        }else if (rname.includes('夸克分享')) {
+            extras = [
+                '?type=url&params=../json/夸克分享.json@夸克分享[盘]',
+            ];
         }
 
         //let excludes = ['玩偶哥哥','阿里土豆'];

@@ -4,6 +4,126 @@
   "Spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
   "Sites": [
     {
+      "key": "爱电影",
+      "name": "爱电影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731758129436-ivdy.json"
+    },
+    {
+      "key": "次元栈",
+      "name": "次元栈",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731487544462-次元栈.js"
+    },
+    {
+      "key": "飞快TV",
+      "name": "飞快TV",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731485555608-飞快TV.js"
+    },
+    {
+      "key": "央视大全",
+      "name": "央视大全",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731218478972-大全[央].js"
+    },
+    {
+      "key": "NUU在线",
+      "name": "NUU在线",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731209993316-NUU在线.js"
+    },
+    {
+      "key": "星空影院[自动]",
+      "name": "星空影院[自动]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731204006501-星空影院[自动].js"
+    },
+    {
+      "key": "酷八影视",
+      "name": "酷八影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731166391855-酷八影视.js"
+    },
+    {
+      "key": "哩咕TV",
+      "name": "哩咕TV",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731164396964-哩咕TV.js"
+    },
+    {
+      "key": "毒蛇影视",
+      "name": "毒蛇影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731157404274-毒蛇影院.js"
+    },
+    {
+      "key": "哩咕TV",
+      "name": "哩咕TV",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1731155135074-哩咕TV.js"
+    },
+    {
+      "key": "火车太堵[自动]",
+      "name": "火车太堵[自动]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1730995067989-火车太堵[自动].js"
+    },
+    {
+      "key": "NUU在线",
+      "name": "NUU在线",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1730971968216-nuu在线.json"
+    },
+    {
       "key": "爱看剧",
       "name": "爱看剧",
       "type": 3,

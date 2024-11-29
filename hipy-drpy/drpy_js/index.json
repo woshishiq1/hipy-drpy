@@ -4,6 +4,36 @@
   "Spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
   "Sites": [
     {
+      "key": "星辰[优]",
+      "name": "星辰[优]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1732435433563-星辰[优].js"
+    },
+    {
+      "key": "小米[盘]",
+      "name": "小米[盘]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1732377966499-小米[盘].js"
+    },
+    {
+      "key": "看影网",
+      "name": "看影网",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1732262664640-看影网.js"
+    },
+    {
       "key": "卡巴漫画",
       "name": "卡巴漫画",
       "type": 3,
@@ -5032,16 +5062,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./01看球[球].js"
-    },
-    {
-      "key": "29片库[密]",
-      "name": "29片库[密]",
-      "type": 3,
-      "api": "./drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./29片库[密].js"
     },
     {
       "key": "0855影视",

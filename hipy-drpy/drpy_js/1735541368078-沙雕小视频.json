@@ -1,0 +1,14 @@
+{
+                "站名": "集百小视频",
+                "请求头": "User-Agent$PC_UA",
+                "主页url": "http://www.jibai5.com",
+                "搜索模式": "1",
+                "嗅探词": ".mp4#.m3u8",
+                "线路数组": "<div class=\"panel-heading\">&&</div>[替换:在线观看>>沙雕动漫专线]",
+                "线路标题": "<strong>&&</strong>",
+                "播放数组": "<ul class=\"dslist-group clearfix\">&&</ul>",
+                "播放标题": ">&&</a>",
+                "分类url": "/bm/{cateId}/{catePg}.html",
+                "分类": "3D国漫&动态漫&沙雕剧场",
+                "分类值": "20&21&22"
+            }

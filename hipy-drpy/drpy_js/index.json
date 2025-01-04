@@ -3,8 +3,68 @@
   "Spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
   "Sites": [
     {
-      "key": "OmoFun1[漫]",
-      "name": "OmoFun1[漫]",
+      "key": "LIBVIO[优]",
+      "name": "LIBVIO[优]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1735979187867-LIBVIO[优].js"
+    },
+    {
+      "key": "美剧星球",
+      "name": "美剧星球",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1735979019672-美剧星球.js"
+    },
+    {
+      "key": "集百小视频",
+      "name": "集百小视频",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1735541368078-沙雕小视频.json"
+    },
+    {
+      "key": "TVB云播",
+      "name": "TVB云播",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1735388490509-TVB云播.js"
+    },
+    {
+      "key": "新视觉",
+      "name": "新视觉",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1735386173917-新视觉.js"
+    },
+    {
+      "key": "PTT[优]",
+      "name": "PTT[优]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./1735371691870-[优]PTT.js"
+    },
+    {
+      "key": "[漫]OmoFun1",
+      "name": "[漫]OmoFun1",
       "type": 3,
       "api": "./drpy_libs/drpy2.min.js",
       "searchable": 1,
@@ -2301,26 +2361,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./bilfun(自动).js"
-    },
-    {
-      "key": "PTT",
-      "name": "PTT",
-      "type": 3,
-      "api": "./drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./PTT[优].js"
-    },
-    {
-      "key": "PTT追剧大师",
-      "name": "PTT追剧大师",
-      "type": 3,
-      "api": "./drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./PTT追剧大师.js"
     },
     {
       "key": "[漫]NT动漫",

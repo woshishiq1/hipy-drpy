@@ -1,0 +1,15 @@
+var rule={
+  title: "85k影视",
+  模板: 'mxpro',
+  host: 'https://85k.ltd',
+  url: '/index.php/vod/show/id/fyfilter',
+  searchUrl: '/index.php/vod/search/page/fypage/wd/**/',
+  filterable: 1,
+  headers: {'User-Agent': 'pc_UA'},
+  filter: 'H4sIAAAAAAAAA+2Yf0/TQBzG30rTv0l61xUGvhXDH9MsSkRMAE0IITHhhwyEJUZYiCia8GNExooShI7Bm9m127vwWGvb+z5NHMmMoPcfPPfpXfv0+v0+t1nD5OYD46Exa5jPijPyTzM4aYhPq+aAYU4UnhdV5VVh/GXxFz9xMyYWq535anfs5l9uGnMD8WD72BXNjaD0Jh63RyRgjEZQtKLYdsVbL71iovx2RWXB1nlNfGiK3YPO1lJMWIXJYsFShtLXdPa3/PM6oSMxzYmy619cES4S01xwtS4XIlwkpjn/+wZykaiYuHqCXCQq81X2/O0jOl8oKs+7c4jzRaLyvFc/kItE9TncrOdwYb41V3j7dL5QVOZbKMu3JJYP6ZSxrrizdx2Ua0FpixoU68o9rHz2V6/lNPQ2Yl2hF89ajU2KhiLu4na91q6+Tu/iRLndLpbOyUuTdccLE0+sULTo1kAwFFUw+LaLYCiqYKfSFGsVZGPdonspg+2KFt2cCIaiRb+KDLArWnR7ZpjUFS36FsXxPAW7opVVjC5OW42mUoxi5Xav0Wb2YLLsTLEwad1IFoUchByAcgjlALIRsgHiCHGAGEKMQnwEID4C0DBCwwDlEcoDNITQEEDoOAfHOTrOwXGOjnNwnKPjHBzn6DgHxzk6zsFxho4zcJyh4wwcZ+g4A8cZOs7AcYaOM3CcoePMyfr6/PV3wiunv75Ewa/Pr5x1KqcporvAoxlrekxerAQDz/Pd9xnk07HpKbWm1hfE8lIGOfX4xWQxumVjVI7Y/QxONu0ALe9AlJI+JbejUibP6zJ6KIBDK7MsrwowmNG204DN71426zGr9DvD9Zqles96vWWknrPepisji/j4hU4Z6zrH/N0co1OHTh06dejU0ffUketn6lBDRdiAg8Zlu+QlqUBNJmHwoEyOFklZOymj5hP/6ED2ScoM6n6k+5HuR7of6X50X/qR089+pPaI6BS8UvUvvyY9YijrnEuYfEavoczwnTvt9nrqDJ+HcqGoz326z+o+q/us7rP/Wp/N97XRqh0y2Kmlfwl2nD9dqnSB+U8LzL39BI25nwoz7ZQsIwAA',
+  filter_url: '{{fl.类型}}{{fl.地区}}{{fl.排序}}{{fl.语言}}/page/fypage{{fl.年份}}',
+  filter_def: {1: {类型: "1"},2: {类型: "2"},3: {类型: "3"},4: {类型: "4"},47: { 类型: "47"}},
+  class_parse: ".navbar-items li;a&&Text;a&&href;.*/(\\d+)/",
+  tab_exclude: "排序",
+  搜索: 'body .module-item;.module-card-item-title&&Text;.lazyload&&data-original;.module-item-note&&Text;a&&href;.module-card-item-info--strong&&Text',
+}

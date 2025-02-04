@@ -5,6 +5,46 @@
 	"spider": "./jar/pg.jar?md5=7633f8ea346c082b7aa163be58aed023",
 	"sites": [
     {
+      "key": "七味影视",
+      "name": "七味影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1737620965-七味影视.js"
+    },
+    {
+      "key": "85k影视",
+      "name": "85k影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1737620636-85k影视.js"
+    },
+    {
+      "key": "稀饭影视",
+      "name": "稀饭影视",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1737616623-稀饭影视.js"
+    },
+    {
+      "key": "子夜动漫[漫]",
+      "name": "子夜动漫[漫]",
+      "type": 3,
+      "api": "./drpy_libs/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./drpy_js/1737557749-子夜动漫[漫].js"
+    },
+    {
       "key": "爽剧吧[短]",
       "name": "爽剧吧[短]",
       "type": 3,

@@ -1,0 +1,829 @@
+{
+   "wallpaper": "https://picsum.photos/1080",
+   "spider": "https://fm.skyboycf.dpdns.org/jar/fm.jar",
+ "lives":[
+{
+    "name": "AI直播",
+    "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.m3u",
+    "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+    "playerType": 1,
+    "timeout": 10
+}],
+  "sites":[
+{
+    "key": "py_jianpian",
+    "name": "荐片",
+    "type": 3,
+    "api":  "./plugin/py_jianpian.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+    {
+    "key": "金牌",
+    "name": "金牌",
+    "type": 3,
+    "api": "./plugin/html/金牌.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": {
+      "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
+    }
+  },
+{
+    "key": "柯南影视",
+    "name": "柯南影视",
+    "type": 3,
+    "api":  "./plugin/html/柯南影视.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "骚火电影",
+    "name": "骚火电影",
+    "type": 3,
+    "api":  "./plugin/html/骚火电影.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "小红影视",
+    "name": "小红影视",
+    "type": 3,
+    "api":  "./plugin/html/小红影视.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "旺旺",
+    "name": "旺旺",
+    "type": 3,
+    "api":  "./plugin/html/旺旺.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "好帅短剧",
+    "name": "好帅短剧",
+    "type": 3,
+    "api":  "./plugin/html/好帅短剧.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "偷乐短剧",
+    "name": "偷乐短剧",
+    "type": 3,
+    "api":  "./plugin/html/偷乐短剧.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },{
+    "key": "剧粑粑",
+    "name": "剧粑粑",
+    "type": 3,
+    "api":  "./plugin/html/剧粑粑.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+    {
+    "key": "红果网页",
+    "name": "红果网页",
+    "type": 3,
+    "api":  "./plugin/html/红果网页.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+      {
+    "key": "甜圈短剧",
+    "name": "甜圈短剧",
+    "type": 3,
+    "api":  "./plugin/html/甜圈短剧.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+      {
+    "key": "绝对影视",
+    "name": "绝对影视",
+    "type": 3,
+    "api":  "./plugin/html/绝对影视.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+     {
+    "key": "LREEOK",
+    "name": "LREEOK",
+    "type": 3,
+    "api":  "./plugin/html/LREEOK.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  }, 
+    {
+    "key": "LIVES",
+    "name": "平台直播",
+    "type": 3,
+    "api":  "./plugin/html/LIVES.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "4kAV",
+    "name": "4kAV",
+    "type": 3,
+    "api":  "./plugin/html/4kAV.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+   {
+    "key": "hitvAPP",
+    "name": "hitvAPP",
+    "type": 3,
+    "api":  "./plugin/app/hitvAPP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "热播APP",
+    "name": "热播APP",
+    "type": 3,
+    "api":  "./plugin/app/热播APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "零度影视APP",
+    "name": "零度影视APP",
+    "type": 3,
+    "api":  "./plugin/app/零度影视APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "奇迹APP",
+    "name": "奇迹APP",
+    "type": 3,
+    "api":  "./plugin/app/奇迹APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "国外剧APP",
+    "name": "国外剧APP",
+    "type": 3,
+    "api":  "./plugin/app/国外剧APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+     {
+    "key": "爱瓜TVAPP",
+    "name": "爱瓜TVAPP",
+    "type": 3,
+    "api":  "./plugin/app/爱瓜TVAPP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+     {
+    "key": "光速APP",
+    "name": "光速APP",
+    "type": 3,
+    "api":  "./plugin/app/光速APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+     {
+    "key": "火车太顺APP",
+    "name": "火车太顺APP",
+    "type": 3,
+    "api":  "./plugin/app/火车太顺APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+{
+    "key": "海马影视APP",
+    "name": "海马影视APP",
+    "type": 3,
+    "api":  "./plugin/app/海马影视APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+     {
+    "key": "剧多短剧APP",
+    "name": "剧多短剧APP",
+    "type": 3,
+    "api":  "./plugin/app/剧多短剧APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+     {
+    "key": "美帕APP",
+    "name": "美帕APP",
+    "type": 3,
+    "api":  "./plugin/app/美帕APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+     {
+    "key": "胖虎APP",
+    "name": "胖虎APP",
+    "type": 3,
+    "api":  "./plugin/app/胖虎APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+     {
+    "key": "视觉APP",
+    "name": "视觉APP",
+    "type": 3,
+    "api":  "./plugin/app/视觉APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+     {
+    "key": "小苹果APP",
+    "name": "小苹果APP",
+    "type": 3,
+    "api":  "./plugin/app/小苹果APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  }, 
+{
+    "key": "若惜追剧APP",
+    "name": "若惜追剧APP",
+    "type": 3,
+    "api":  "./plugin/app/若惜追剧APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+     {
+    "key": "悠悠APP",
+    "name": "悠悠APP",
+    "type": 3,
+    "api":  "./plugin/app/悠悠APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "皮皮虾APP",
+    "name": "皮皮虾APP",
+    "type": 3,
+    "api":  "./plugin/app/皮皮虾APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+ {
+    "key": "哇哇APP",
+    "name": "哇哇APP",
+    "type": 3,
+    "api":  "./plugin/app/哇哇APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  }, 
+{
+    "key": "三号动漫APP",
+    "name": "三号动漫APP",
+    "type": 3,
+    "api":  "./plugin/app/三号动漫APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "云速影视APP",
+    "name": "云速影视APP",
+    "type": 3,
+    "api":  "./plugin/app/云速影视APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "云端APP",
+    "name": "云端APP",
+    "type": 3,
+    "api":  "./plugin/app/云端APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "魔方影视APP",
+    "name": "魔方影视APP",
+    "type": 3,
+    "api":  "./plugin/app/魔方影视APP",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "恋鱼影视APP",
+    "name": "恋鱼影视APP",
+    "type": 3,
+    "api":  "./plugin/app/恋鱼影视APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "MiFunAPP",
+    "name": "MiFunAPP",
+    "type": 3,
+    "api":  "./plugin/app/MiFunAPP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "CliCli动漫APP",
+    "name": "CliCli动漫APP",
+    "type": 3,
+    "api":  "./plugin/app/CliCli动漫APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "嗷呜动漫",
+    "name": "嗷呜动漫",
+    "type": 3,
+    "api":  "./plugin/html/嗷呜动漫.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+{
+    "key": "边缘影视APP",
+    "name": "边缘影视APP",
+    "type": 3,
+    "api":  "./plugin/app/边缘影视APP.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+     {
+    "key": "爱",
+    "name": "爱奇艺",
+    "type": 3,
+    "api":  "./plugin/official/爱.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+      {
+    "key": "芒",
+    "name": "芒果",
+    "type": 3,
+    "api":  "./plugin/official/芒.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },   
+       {
+    "key": "腾",
+    "name": "腾讯",
+    "type": 3,
+    "api":  "./plugin/official/腾.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },  
+   {
+    "key": "优",
+    "name": "优酷",
+    "type": 3,
+    "api":  "./plugin/official/优.py",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1
+  },
+  {
+      "key": "csp_猎手",
+      "name": "💰猎手",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "./plugin/py_电影猎手.py",
+      "playerType": 2,
+      "filterable": 1
+    }, 
+    {
+        "key": "py_bilibilivd",
+        "name": "哔哩哔哩",
+        "type": 3,
+        "api": "./plugin/py_bilibilivd.py",
+        "searchable": 1,
+        "quickSearch": 1,
+        "filterable": 1,
+        "ext": {
+            "categories": "经典无损音乐合集#索尼音乐中国#电视剧#电影#沙雕动画#相声小品",
+            "cookie": "http://127.0.0.1:9978/file/tv/bili_cookie.txt"
+        },
+        "changeable": 1
+    },    
+
+ {
+    "key": "py_1905",
+    "name": "Py | 1905",
+    "type": 3,
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "api": "./plugin/1905.py"
+    },
+    {
+    "key" : "py_firtaid",
+    "name" : "急救指南",
+    "type" : 3,
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "filterable" : 1,
+    "api" : "./plugin/py_firstaid.py"
+    },
+{
+    "key": "py_cctv_企鹅",
+    "name": "📺企鹅体育｜直播",
+    "type": 3,
+    "api": "./plugin/py_企鹅体育.py",
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1
+},
+   {"key":"py_cctv","name":"❤🍸️央视集合","type":3,"style":{"type":"rect","ratio":1.485},"searchable": 0,"quickSearch": 0,"filterable": 0,"api": "./plugin/py_cctv_new.py"},
+{
+    "key": "py_cctv_1",
+    "name": "🅱️央视-少儿",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctv_1.py"
+},
+    {
+    "key" : "py_cctvfull",
+    "name" : "📺央视大全",
+    "type" : 3,
+    "searchable" : 0,
+    "quickSearch" : 0,
+    "filterable" : 1,
+    "api" : "./plugin/py_cctv_full.py"
+    },
+    {"key": "py_cctvkj",
+    "name": "📺央视科教",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvkj.py"
+    }, 
+    {"key": "py_cctvyy",
+    "name": "📺央视音乐",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvyy.py"
+    }, {"key": "py_cctvse",
+    "name": "📺央视少儿",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvse.py"
+    }, {"key": "py_cctvxq",
+    "name": "📺央视戏曲",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvxq.py"
+    }, {"key": "py_cctvny",
+    "name": "📺央视农业",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvny.py"
+    }, {"key": "py_cctvjs",
+    "name": "📺央视军事",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvjs.py"
+    }, {"key": "py_cctvdy",
+    "name": "📺央视电影",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvdy.py"
+    }, {"key": "py_cctvty",
+    "name": "📺央视体育",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvty.py"
+    }, {"key": "py_cctvzy",
+    "name": "📺央视综艺",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvzy.py"
+    }, {"key": "py_cctvxw",
+    "name": "📺央视新闻",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvxw.py"
+    }, {"key": "py_cctvzh",
+    "name": "📺央视综合",
+    "type": 3,
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 1,
+    "api": "./plugin/py_cctvzh.py"
+    },
+    {
+    "key": "py_xmly",
+    "name": "Py | 喜马拉雅",
+    "type": 3,
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "api": "./plugin/py_xmly.py"
+    },
+{
+    "key": "wogg_wobg分类筛选生成",
+    "name": "wogg_wobg分类筛选生成",
+    "type": 3,
+    "api":  "./plugin/tool/wogg_wobg分类筛选生成.py",
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 0
+  },
+{
+    "key": " py_yixi",
+    "name": "🎞一席视频",
+    "type": 3,
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "api": "./plugin/py_yixi.py"
+    }
+],
+  "parses": [
+    {
+      "name": "Json聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "解析1",
+      "type": 1,
+      "url": "https://www.mpanso.com/muou/qilin.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "反弹",
+      "type": 1,
+      "url": "http://110.40.85.39:81/jxxx/api.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "User-Agent:Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36"
+        }
+      }
+    },
+    {
+      "name": "1080解析",
+      "type": 1,
+      "url": "https://zy.qiaoji8.com/gouzi.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    }
+  ],
+"doh":[
+{"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
+{"name":"Cloudflare","url":"https://cloudflare-dns.com/dns-query","ips":["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},
+{"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},
+{"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},
+{"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}
+],
+"rules": [
+    {
+      "name": "♻️量非",
+      "hosts": [
+        "lz",
+        "vip.lz",
+        "v.cdnlz",
+        "hd.lz",
+        "ffzy",
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.600000,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "♻️索尼",
+      "hosts": [
+        "suonizy",
+        "qrssv.com"
+      ],
+      "regex": [
+        "15.1666",
+        "15.2666"
+      ]
+    },
+    {
+      "name": "♻️乐视",
+      "hosts": [
+        "leshiyun"
+      ],
+      "regex": [
+        "15.92"
+      ]
+    },
+    {
+      "name": "♻️优质",
+      "hosts": [
+        "yzzy",
+        "playback"
+      ],
+      "regex": [
+        "16.63",
+        "18.66",
+        "17.66",
+        "19.13"
+      ]
+    },
+    {
+      "name": "♻️快看",
+      "hosts": [
+        "kuaikan",
+        "vip.kuaikan"
+      ],
+      "regex": [
+        "15.32",
+        "15.231",
+        "18.066"
+      ]
+    },
+    {
+      "name": "♻️360",
+      "hosts": [
+        "lyhuicheng"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?hrz8QcR9.*?\\.ts\\s+",
+        "#EXT-X-KEY:METHOD=NONE[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "♻️开源棋牌",
+      "hosts": [
+        "askzycdn",
+        "jkunbf",
+        "bfikuncdn",
+        "bfaskcdn"
+      ],
+      "regex": [
+        "#EXT-X-KEY:METHOD=NONE\\r*\\n*#EXTINF:5,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-KEY:METHOD=AES-128,URI=\"[^\"]+\"\\r*\\n*#EXTINF:3.333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "♻️暴风",
+      "hosts": [
+        "bfengbf.com",
+        "bfzy",
+        "c1"
+      ],
+      "regex": [
+        "#EXTINF.*?\\s+.*?adjump.*?\\.ts\\s+",
+        "#EXT-X-DISCONTINUITY\r*\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "♻️农民",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },{
+      "name": "♻️饭团点击",
+      "hosts": [
+        "fantuan"
+      ],
+      "script": [
+        "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+      ]
+    }
+  ]
+}

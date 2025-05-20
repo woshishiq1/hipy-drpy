@@ -1,0 +1,10 @@
+{
+    "drives": [
+        {
+            "name": "网盘",
+            "search": true,
+            "searchable": true,
+            "server": "http://59.61.250.91:5678/"
+        }
+    ]
+}

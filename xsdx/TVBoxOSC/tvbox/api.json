@@ -853,6 +853,13 @@
             "ext": "https://cs.hgyx.vip/api2/api.php/app/"
         },
         {
+            "key": "小慧影视",
+            "name": "小慧｜影视",
+            "type": 1,
+            "api": "http://cms.xiaohui.cyou:1002/api.php/provide/vod/?ac=list",
+            "playUrl": "json:http://xiaohui.cyou:1000/api/?key=7ee73e22b404453adc116a403a32e9c8&url="
+        },
+        {
             "key": "金牌影视",
             "name": "金牌｜影视",
             "type": 3,

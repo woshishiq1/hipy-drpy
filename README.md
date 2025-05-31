@@ -32,4 +32,4 @@ GitHub 会提示你 “I understand my workflows, enable them”，点击确认�
 
 ✅ 运行成功后，系统将自动每 2 天北京时间 00:00 执行一次同步
 
-远程链接： https://ghproxy.net/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/master/gitee-source/TVBoxOSC/tvbox/api.json
+远程链接： https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/hipy-drpy/master/gitee-source/TVBoxOSC/tvbox/api.json

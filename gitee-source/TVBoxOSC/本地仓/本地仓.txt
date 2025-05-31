@@ -1,0 +1,36 @@
+{
+    "urls": [
+        {
+            "url": "clan://localhost/TVBoxOSC/本地仓/影视/api.json",
+            "name": "影视"
+        },
+        {
+            "url": "clan://localhost/TVBoxOSC/本地仓/动漫/api.json",
+            "name": "动漫"
+        },
+        {
+            "url": "clan://localhost/TVBoxOSC/本地仓/文艺/api.json",
+            "name": "文艺"
+        },
+        {
+            "url": "clan://localhost/TVBoxOSC/本地仓/体育/api.json",
+            "name": "体育"
+        },
+        {
+            "url": "clan://localhost/TVBoxOSC/本地仓/教育/api.json",
+            "name": "教育"
+        },
+        {
+            "url": "clan://localhost/TVBoxOSC/本地仓/直播/api.json",
+            "name": "直播"
+        },
+        {
+            "url": "clan://localhost/TVBoxOSC/本地仓/磁力/api.json",
+            "name": "磁力"
+        },
+        {
+            "url": "clan://localhost/TVBoxOSC/本地仓/云盘/api.json",
+            "name": "云盘"
+        }
+    ]
+}

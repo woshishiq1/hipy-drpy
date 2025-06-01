@@ -32,21 +32,33 @@ jobs:
           cp -r another-d-master/* gitee-source/
           rm -rf another-d-master gitee.zip
 
-      - name: Commit to sync-from-gitee branch
+      - name: Commit synced content to sync-from-gitee branch
         run: |
           git checkout -B sync-from-gitee
           git add gitee-source/
           git commit -m "Sync Gitee project to gitee-source/" || echo "No changes"
           git push origin sync-from-gitee --force
 
-      - name: Unzip ZIP files in gitee-source/
+      - name: 解压 ZIP 文件到子文件夹
         run: |
           cd gitee-source
-          if [ -f "单线路.zip" ]; then unzip -o "单线路.zip"; fi
-          if [ -f "多线路.zip" ]; then unzip -o "多线路.zip"; fi
+
+          if [ -f "单线路.zip" ]; then
+            mkdir -p 单线路
+            unzip -o "单线路.zip" -d 单线路/
+          fi
+
+          if [ -f "多线路.zip" ]; then
+            mkdir -p 多线路
+            unzip -o "多线路.zip" -d 多线路/
+          fi
+
           cd ..
+
+      - name: Commit 解压结果
+        run: |
           git add gitee-source/
-          git commit -m "解压 ZIP 到 gitee-source 子目录（保留 ZIP）" || echo "No changes"
+          git commit -m "将 ZIP 文件解压到对应文件夹（保留 ZIP 文件）" || echo "No changes"
           git push origin sync-from-gitee --force
 
       - name: Create Pull Request
@@ -55,10 +67,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: sync-from-gitee
-          title: "🔄 同步 Gitee 更新到 main"
+          title: "🔄 同步 Gitee 更新并解压 ZIP 到指定目录"
           body: |
-            此 PR 由 GitHub Actions 自动创建，用于同步 Gitee 仓库的最新内容并解压 ZIP 文件。
-          commit-message: "同步 Gitee 并解压 ZIP 文件"
+            此 PR 自动从 Gitee 项目同步内容，并将 ZIP 文件解压到指定文件夹：
+            - `gitee-source/单线路/`
+            - `gitee-source/多线路/`
+          commit-message: "同步并解压 ZIP 文件"
           base: main
           delete-branch: true
 

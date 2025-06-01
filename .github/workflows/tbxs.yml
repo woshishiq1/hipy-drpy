@@ -1,13 +1,12 @@
-
-name: Sync Gitee to subfolder and unzip to master
+name: Sync Gitee to subfolder and unzip to main
 
 on:
   schedule:
     - cron: '0 16 */2 * *'  # 每两天北京时间 00:00 运行
-  workflow_dispatch:         # 支持手动运行
+  workflow_dispatch:
 
 jobs:
-  sync_and_unzip:
+  sync_and_pr:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,38 +32,71 @@ jobs:
           cp -r another-d-master/* gitee-source/
           rm -rf another-d-master gitee.zip
 
-      - name: Commit and push to main
+      - name: Commit synced content to sync-from-gitee branch
         run: |
+          git checkout -B sync-from-gitee
           git add gitee-source/
           git commit -m "Sync Gitee project to gitee-source/" || echo "No changes"
-          git push origin main
+          git push origin sync-from-gitee --force
 
-      - name: Switch to master branch (create if not exist)
-        run: |
-          git fetch origin
-          if git show-ref --quiet refs/remotes/origin/master; then
-            git switch master
-          else
-            git checkout -b master
-          fi
-
-      - name: Unzip gitee-source 中的指定 ZIP 文件（保留 ZIP）
+      - name: 解压 ZIP 文件到子文件夹并提交
         run: |
           cd gitee-source
-          if [ -f "单线路.zip" ]; then unzip -o "单线路.zip"; fi
-          if [ -f "多线路.zip" ]; then unzip -o "多线路.zip"; fi
+
+          unzip_and_track() {
+            zip_name="$1"
+            dir_name="$2"
+
+            if [ -f "$zip_name" ]; then
+              echo "✅ 解压 $zip_name 到 $dir_name/"
+              mkdir -p "$dir_name"
+              unzip -o "$zip_name" -d "$dir_name/"
+              touch "$dir_name/.gitkeep"  # 确保 Git 跟踪目录
+            else
+              echo "⚠️ $zip_name 不存在，跳过"
+            fi
+          }
+
+          unzip_and_track "单线路.zip" "单线路"
+          unzip_and_track "多线路.zip" "多线路"
+
           cd ..
 
-      - name: Commit and push 解压内容到 master（忽略 .github）
-        run: |
-          git reset HEAD .github/ || true
+          echo "📁 当前目录内容："
+          ls -R gitee-source/
+
           git add gitee-source/
-          git commit -m "解压 ZIP 到 gitee-source 子目录（保留 ZIP）" || echo "No changes"
-          git push origin master
+          git status
+
+          git commit -m "将 ZIP 文件解压到指定文件夹（保留 ZIP 文件）" || echo "No changes"
+          git push origin sync-from-gitee --force
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: sync-from-gitee
+          title: "🔄 同步 Gitee 更新并解压 ZIP 到指定目录"
+          body: |
+            此 PR 自动从 Gitee 项目同步内容，并将 ZIP 文件解压到指定文件夹：
+            - `gitee-source/单线路/`
+            - `gitee-source/多线路/`
+          commit-message: "同步并解压 ZIP 文件"
+          base: main
+          delete-branch: true
+
+      - name: Enable auto-merge for PR
+        if: steps.cpr.outputs.pull-request-url != ''
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash
 
   cleanup_runs:
     runs-on: ubuntu-latest
-    needs: sync_and_unzip
+    needs: sync_and_pr
     steps:
       - name: Delete old workflow runs, keep last 10
         uses: Mattraks/delete-workflow-runs@v2

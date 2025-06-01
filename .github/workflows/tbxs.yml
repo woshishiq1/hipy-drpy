@@ -1,9 +1,9 @@
-name: Sync Gitee to subfolder and unzip to master
+name: Sync Gitee to subfolder and unzip to main
 
 on:
   schedule:
     - cron: '0 16 */2 * *'  # 每两天北京时间 00:00 运行
-  workflow_dispatch:         # 支持手动运行
+  workflow_dispatch:
 
 jobs:
   sync_and_pr:
@@ -55,12 +55,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: sync-from-gitee
-          title: "🔄 同步 Gitee 更新到 master"
+          title: "🔄 同步 Gitee 更新到 main"
           body: |
             此 PR 由 GitHub Actions 自动创建，用于同步 Gitee 仓库的最新内容并解压 ZIP 文件。
           commit-message: "同步 Gitee 并解压 ZIP 文件"
-          base: master
-          delete-branch: true  # ✅ PR 合并后自动删除临时分支
+          base: main
+          delete-branch: true
 
       - name: Enable auto-merge for PR
         if: steps.cpr.outputs.pull-request-url != ''

@@ -1,62 +1,24 @@
-name: Sync Gitee to subfolder via PR
+name: Sync Gitee to subfolder and unzip to master
 
 on:
   schedule:
     - cron: '0 16 */2 * *'  # 每两天北京时间 00:00 运行
-  workflow_dispatch:
+  workflow_dispatch:         # 支持手动运行
 
 jobs:
   sync_and_pr:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout default branch
+      - name: Checkout main branch
         uses: actions/checkout@v3
+        with:
+          ref: main
 
       - name: Set up Git config
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Restore last synced Gitee commit hash from cache
-        id: restore-cache
-        uses: actions/cache@v3
-        with:
-          path: last_sync_commit.txt
-          key: gitee-last-sync
-
-      - name: Get latest Gitee commit hash
-        id: get_commit
-        run: |
-          response=$(curl -s https://gitee.com/api/v5/repos/PizazzXS/another-d/branches/master)
-          latest_hash=$(echo "$response" | jq -r '.commit.sha')
-
-          echo "Latest commit: $latest_hash"
-          echo "latest_hash=$latest_hash" >> $GITHUB_OUTPUT
-
-          if [ -f last_sync_commit.txt ]; then
-            last_hash=$(cat last_sync_commit.txt)
-          else
-            last_hash="none"
-          fi
-
-          echo "Last synced: $last_hash"
-
-          if [ "$latest_hash" = "$last_hash" ]; then
-            echo "skip_sync=true" >> $GITHUB_OUTPUT
-          else
-            echo "skip_sync=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Exit if no update
-        if: steps.get_commit.outputs.skip_sync == 'true'
-        run: |
-          echo "No update in Gitee repo. Skipping sync."
-          exit 0
-
-      - name: Create or switch to sync branch
-        run: |
-          git checkout -B sync-from-gitee
 
       - name: Create gitee-source folder and clean it
         run: |
@@ -70,21 +32,21 @@ jobs:
           cp -r another-d-master/* gitee-source/
           rm -rf another-d-master gitee.zip
 
-      - name: Unzip ZIP files inside gitee-source (keep ZIP)
+      - name: Commit to sync-from-gitee branch
+        run: |
+          git checkout -B sync-from-gitee
+          git add gitee-source/
+          git commit -m "Sync Gitee project to gitee-source/" || echo "No changes"
+          git push origin sync-from-gitee --force
+
+      - name: Unzip ZIP files in gitee-source/
         run: |
           cd gitee-source
           if [ -f "单线路.zip" ]; then unzip -o "单线路.zip"; fi
           if [ -f "多线路.zip" ]; then unzip -o "多线路.zip"; fi
           cd ..
-
-      - name: Commit changes to sync branch
-        run: |
-          echo "${{ steps.get_commit.outputs.latest_hash }}" > last_sync_commit.txt
-          git add gitee-source/ last_sync_commit.txt
-          git commit -m "Sync from Gitee and extract zip files" || echo "No changes"
-
-      - name: Push sync branch
-        run: |
+          git add gitee-source/
+          git commit -m "解压 ZIP 到 gitee-source 子目录（保留 ZIP）" || echo "No changes"
           git push origin sync-from-gitee --force
 
       - name: Create Pull Request
@@ -93,12 +55,12 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: sync-from-gitee
-          title: "🔄 Sync from Gitee: ${{ steps.get_commit.outputs.latest_hash }}"
+          title: "🔄 同步 Gitee 更新到 master"
           body: |
-            This PR was created automatically to sync updates from the Gitee repository.
-          commit-message: "Sync from Gitee and extract zip files"
+            此 PR 由 GitHub Actions 自动创建，用于同步 Gitee 仓库的最新内容并解压 ZIP 文件。
+          commit-message: "同步 Gitee 并解压 ZIP 文件"
           base: master
-          delete-branch: true
+          delete-branch: true  # ✅ PR 合并后自动删除临时分支
 
       - name: Enable auto-merge for PR
         if: steps.cpr.outputs.pull-request-url != ''

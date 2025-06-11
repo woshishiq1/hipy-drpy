@@ -49,7 +49,7 @@ jobs:
           fi
           git reset --hard origin/main
 
-      # ✅ 解压 ZIP（保留 ZIP）
+      # ✅ 解压 gitee-source 中的 ZIP（保留 ZIP 文件）
       - name: Unzip gitee-source 中的指定 ZIP 文件（保留 ZIP）
         run: |
           cd gitee-source
@@ -57,13 +57,13 @@ jobs:
           if [ -f "多线路.zip" ]; then unzip -o "多线路.zip"; fi
           cd ..
 
-      # ✅ 提交解压内容（保留 ZIP，忽略 .github）
-      - name: Commit and push 解压内容到 master（保留 zip）
+      # ✅ 提交并强推到 master（保留 zip，忽略 .github）
+      - name: Commit and force push 解压内容到 master（保留 zip）
         run: |
           git reset HEAD .github/ || true
           git add .
           git commit -m "重置 master 为 main 内容并解压 ZIP" || echo "No changes"
-          git push origin master
+          git push origin master --force
 
   cleanup_runs:
     runs-on: ubuntu-latest

@@ -1,0 +1,715 @@
+{
+    "spider": "https://www.252035.xyz/p/pg.jar",
+    "wallpaper": "https://www.252035.xyz/imgs",
+    "logo": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/imgs/pg.gif",
+    "sites": [
+        {
+            "key": "量子",
+            "name": "量子",
+            "type": 0,
+            "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml",
+            "categories": [
+                "伦理片"
+            ]
+        },
+        {
+            "key": "非凡",
+            "name": "非凡",
+            "type": 0,
+            "api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml",
+            "categories": [
+                "伦理片"
+            ]
+        },
+        {
+            "key": "Zuise",
+            "name": "最色",
+            "type": 3,
+            "api": "csp_Zuise"
+        },
+        {
+            "key": "bttcj.com",
+            "name": "成人03",
+            "type": 0,
+            "api": "http://bttcj.com/inc/sapi.php",
+            "searchable": 1
+        },
+        {
+            "key": "f2dcj6.com",
+            "name": "成人11",
+            "type": 0,
+            "api": "http://f2dcj6.com/sapi?ac=videolist",
+            "searchable": 1
+        },
+        {
+            "key": "lbapiby.com",
+            "name": "成人24",
+            "type": 1,
+            "api": "http://lbapiby.com/api.php/provide/vod/",
+            "searchable": 1
+        },
+        {
+            "key": "api.maozyapi.com",
+            "name": "成人25",
+            "type": 1,
+            "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+            "searchable": 1
+        },
+        {
+            "key": "msnii.com",
+            "name": "成人29",
+            "type": 0,
+            "api": "https://www.msnii.com/api/xml.php",
+            "searchable": 1
+        },
+        {
+            "key": "pgxdy.com",
+            "name": "成人33",
+            "type": 0,
+            "api": "https://www.pgxdy.com/api/xml.php",
+            "searchable": 1
+        },
+        {
+            "key": "kxgav.com",
+            "name": "成人37",
+            "type": 0,
+            "api": "https://www.kxgav.com/api/xml.php",
+            "searchable": 1
+        },
+        {
+            "key": "xrbsp.com",
+            "name": "成人39",
+            "type": 0,
+            "api": "https://www.xrbsp.com/api/xml.php",
+            "searchable": 1
+        },
+        {
+            "key": "lbapi9.com",
+            "name": "成人41",
+            "type": 1,
+            "api": "https://lbapi9.com/api.php/provide/vod/",
+            "searchable": 1
+        },
+        {
+            "key": "gdlsp.com",
+            "name": "成人54",
+            "type": 0,
+            "api": "https://www.gdlsp.com/api/xml.php",
+            "searchable": 1
+        },
+        {
+            "key": "155api",
+            "name": "155资源",
+            "type": 1,
+            "api": "https://155api.com/api.php/provide/vod/?ac=list",
+            "searchable": 1
+        },
+        {
+            "key": "jkunzy",
+            "name": "JKUN资源",
+            "type": 1,
+            "api": "https://jkunzyapi.com/api.php/provide/vod",
+            "searchable": 1
+        },
+        {
+            "key": "滴滴",
+            "name": "滴滴资源",
+            "type": 1,
+            "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
+            "searchable": 1
+        },
+        {
+            "key": "玉兔",
+            "name": "玉兔采集",
+            "type": 1,
+            "api": "https://apiyutu.com/api.php/provide/vod/",
+            "playUrl": "https://yutujx.com/?url=",
+            "searchable": 1
+        },
+        {
+            "key": "taohua",
+            "name": "桃花资源",
+            "type": 1,
+            "api": "https://thzy1.me/api.php/provide/vod/?ac=list",
+            "searchable": 1
+        },
+        {
+            "key": "siwa",
+            "name": "丝袜资源",
+            "type": 1,
+            "api": "https://www.siwazyw.tv/api.php/provide/vod",
+            "searchable": 1
+        },
+        {
+            "key": "caoliu",
+            "name": "草榴",
+            "type": 1,
+            "api": "https://www.caoliuzyw.com/api.php/provide/vod/",
+            "searchable": 1
+        },
+        {
+            "key": "apilsbzy1",
+            "name": "色逼资源",
+            "type": 1,
+            "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
+            "searchable": 1
+        },
+        {
+            "key": "semaozy",
+            "name": "色猫资源",
+            "type": 1,
+            "api": "https://caiji.semaozy.net/inc/apijson_vod.php",
+            "searchable": 1
+        },
+        {
+            "key": "av资源",
+            "name": "av资源",
+            "type": 1,
+            "api": "https://api.souavzy.vip/api.php/provide/vod/at/json",
+            "searchable": 1
+        },
+        {
+            "key": "大奶子资源",
+            "name": "大奶子资源",
+            "type": 1,
+            "api": "https://apidanaizi.com/api.php/provide/vod",
+            "searchable": 1
+        },
+        {
+            "key": "php_MaDou",
+            "name": "麻豆(T4)",
+            "type": 4,
+            "api": "https://json.doube.eu.org/app/index.php?site=dbmadou",
+            "searchable": 1
+        },
+        {
+            "key": "XMVideo",
+            "name": "熊猫视频",
+            "type": 3,
+            "api": "csp_XMVideo",
+            "searchable": 1,
+            "jar": "https://slink.ltd/https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"
+        },
+        {
+            "key": "花都",
+            "name": "花都影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "jar": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/jar/XBPQ.jar",
+            "ext": "https://slink.ltd/https://raw.githubusercontent.com/leilingzero/moyu/master/ganggang/XBPQ/花都.json"
+        },
+        {
+            "key": "百万破解",
+            "name": "百万破解",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/jar/XBPQ.jar",
+            "ext": "https://slink.ltd/https://raw.githubusercontent.com/leilingzero/moyu/master/ganggang/XBPQ/百万.json"
+        },
+        {
+            "key": "ckzy",
+            "name": "韩国伦理",
+            "type": 1,
+            "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
+            "searchable": 1
+        },
+        {
+            "key": "py_51吸瓜",
+            "name": "51吸瓜(py)",
+            "type": 3,
+            "api": "https://slink.ltd/https://raw.githubusercontent.com/leilingzero/moyu/master/ganggang/py/51吸瓜.py"
+        },
+        {
+            "key": "py_色播聚合",
+            "name": "py_色播聚合",
+            "type": 3,
+            "api": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_色播聚合.py",
+            "searchable": 1
+        },
+        {
+            "key": "lav",
+            "name": "lav",
+            "type": 3,
+            "api": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_lav.py",
+            "searchable": 1
+        },
+        {
+            "key": "直播转点播",
+            "name": "电视直播",
+            "type": 3,
+            "searchable": 0,
+            "api": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/js/live2vod.js",
+            "ext": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/feimaolive.json"
+        },
+        {
+            "key": "精品资源",
+            "name": "精品资源(飞)",
+            "type": 1,
+            "api": "https://www.jingpinx.com/api.php/provide/vod/?ac=list"
+        },
+        {
+            "key": "森林1",
+            "name": "森林资源(飞)",
+            "type": 1,
+            "api": "https://beiyong.slapibf.com/api.php/provide/vod/?ac=list",
+            "searchable": 1
+        },
+        {
+            "key": "森林2",
+            "name": "森林采集(飞)",
+            "type": 1,
+            "api": "https://slapibf.com/api.php/provide/vod/",
+            "searchable": 1
+        },
+        {
+            "key": "番号",
+            "name": "番号采集(飞)",
+            "type": 1,
+            "api": "http://fhapi9.com/api.php/provide/vod/",
+            "searchable": 1
+        },
+        {
+            "key": "dadi",
+            "name": "大地资源(飞)",
+            "type": 0,
+            "api": "http://dadiapi.com/api.php",
+            "searchable": 1
+        },
+        {
+            "key": "大地",
+            "name": "大地采集(飞)",
+            "type": 0,
+            "api": "https://dadiapi.com/apple_m3u8.php",
+            "playUrl": "https://play.dadiapi.com/watch?url=",
+            "searchable": 1
+        },
+        {
+            "key": "鲨鱼",
+            "name": "鲨鱼采集(飞)",
+            "type": 1,
+            "api": "https://shayuapi.com/api.php/provide/vod/",
+            "searchable": 1
+        },
+        {
+            "key": "小湿妹",
+            "name": "湿妹采集(飞)",
+            "type": 0,
+            "api": "http://www.afasu.com/api/xml.php",
+            "searchable": 1
+        },
+        {
+            "key": "辣椒",
+            "name": "辣椒采集(飞)",
+            "type": 1,
+            "api": "https://apilj.com/api.php/provide/vod/",
+            "searchable": 1
+        },
+        {
+            "key": "naixiang",
+            "name": "奶香资源(飞)",
+            "type": 1,
+            "api": "https://naixxzy.com/api.php/provide/vod/?ac=list",
+            "searchable": 1
+        },
+        {
+            "key": "性爱",
+            "name": "性爱采集(飞)",
+            "type": 1,
+            "api": "https://api.sexnguon.com/api.php/provide/vod/",
+            "searchable": 1
+        },
+        {
+            "key": "麻豆视频",
+            "name": "麻豆视频(飞)",
+            "type": 1,
+            "api": "https://91md.me/api.php/provide/vod/?ac=list",
+            "searchable": 1
+        },
+        {
+            "key": "玩偶",
+            "name": "玩偶姐姐(飞)",
+            "type": 3,
+            "api": "csp_Doll",
+            "style": {
+                "type": "rect",
+                "ratio": 1.309
+            }
+        },
+        {
+            "key": "18AV",
+            "name": "18AV(飞)",
+            "type": 3,
+            "api": "csp_Eighteen",
+            "style": {
+                "type": "rect",
+                "ratio": 1.485
+            }
+        },
+        {
+            "key": "Jable",
+            "name": "Jable(飞)",
+            "type": 3,
+            "api": "csp_Jable",
+            "style": {
+                "type": "rect",
+                "ratio": 1.77
+            }
+        },
+        {
+            "key": "Hanime",
+            "name": "Hanime(飞)",
+            "type": 3,
+            "api": "csp_Hanime",
+            "style": {
+                "type": "rect",
+                "ratio": 0.68
+            }
+        },
+        {
+            "key": "kissav",
+            "name": "kissav(飞)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/jar/XBPQ.jar",
+            "ext": "https://slink.ltd/https://raw.githubusercontent.com/leilingzero/moyu/master/ganggang/XBPQ/kisd.json"
+        },
+        {
+            "key": "pronlulu",
+            "name": "pronlulu(飞)",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/jar/XBPQ.jar",
+            "ext": "https://slink.ltd/https://raw.githubusercontent.com/leilingzero/moyu/master/ganggang/XBPQ/pronlulu.json"
+        },
+        {
+            "key": "csp_pornhub",
+            "name": "Pornhub(飞)",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "jar": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/jar/XYQ.jar",
+            "ext": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/json/pornhub.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6,
+                "proxy": "proxy"
+            }
+        },
+        {
+            "key": "csp_Netflav",
+            "name": "Netflav(飞)",
+            "type": 3,
+            "api": "csp_Netflav",
+            "jar": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/jar/netflav.jar",
+            "searchable": 1
+        },
+        {
+            "key": "push_agent",
+            "name": "推送",
+            "type": 3,
+            "api": "csp_Push",
+            "searchable": 1,
+            "changeable": 0
+        }
+    ],
+    "lives": [
+        {
+            "name": "jsonav",
+            "type": 0,
+            "url": "https://www.jsonav.xyz/v.txt"
+        },
+        {
+            "name": "FongMi",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt"
+        },
+        {
+            "name": "YanG",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u"
+        },
+        {
+            "name": "atsushi",
+            "type": 0,
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/atsushi444/iptv-epg/main/Adult.m3u"
+        },
+        {
+            "name": "huohuoaa",
+            "type": 0,
+            "url": "http://iptv.huohuoaa.tech/jiekou/fuckjs96110.txt"
+        },
+        {
+            "name": "小新",
+            "type": 0,
+            "url": "http://pan.aa53.cn/down.php/f15e574cc75afe3c3690a70e4e3a1576.txt"
+        },
+        {
+            "name": "刘公子",
+            "type": 0,
+            "url": "http://免.l5.ca/daili/zhibo/api/api.txt",
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "LIVEfl",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/zeee-u/lzh06/main/fl.m3u",
+            "playerType": 1,
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://live.fanmingming.com/tv/{name}.png"
+        },
+        {
+            "name": "天美传媒816",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/天美传媒816.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "果冻传媒816",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/果冻传媒816.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "麻豆传媒816",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/麻豆传媒816.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "星空传媒816",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/星空传媒816.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "精东影业816",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/精东影业816.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "国产传媒",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/国产传媒.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "pron",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/pron.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "几个传媒",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/几个传媒.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "成人传媒",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/成人传媒.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "181818",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/181818.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "live18",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/live18.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "花活",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/花活.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "18资源丰富",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/18资源丰富.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "至尊",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/至尊.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "终极",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/终极.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "Jable嗅探",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/Jable嗅探.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "vip源",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/vip源.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "成人",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/维护成人.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "18+",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/18+.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "全球",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/全球.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "无敌",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/无敌.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "经典",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/经典.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "成人电影",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/成人电影.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "珍藏",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/珍藏.m3u",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "绝品",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/绝品.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "美腿丝袜",
+            "type": 0,
+            "url": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/txt/美腿丝袜.txt",
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+        },
+        {
+            "name": "x315601",
+            "url": "http://x315601.serv00.net/10.php",
+            "type": 0,
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
+        },
+        {
+            "name": "crzb",
+            "url": "http://bwind.fr.to/m3u/crzb.txt",
+            "type": 0,
+            "ua": "okhttp/3.15",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/http://content.stream-link.org/epg/guide.xml/logo/{name}.png"
+        },
+        {
+            "name": "zwrt",
+            "url": "https://slink.ltd/https://github.com/zwrt/IPTV/blob/Files/Adult.m3u",
+            "type": 0,
+            "ua": "okhttp/3.15"
+        }
+    ],
+    "rules": [
+        {
+            "name": "量子廣告",
+            "hosts": [
+                "vip.lz",
+                "hd.lz"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "非凡廣告",
+            "hosts": [
+                "vip.ffzy",
+                "hd.ffzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        }
+    ]
+}

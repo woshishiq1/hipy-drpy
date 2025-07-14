@@ -1,0 +1,17 @@
+{
+    "简介": "style=\"display: none;\">&&</div>",
+    "搜索url": "https://www.xiuer.pro/vod/search/?wd={wd}",
+    "搜索数组": "video-info&&loading",
+    "搜索标题": "title=\"&&\"",
+    "搜索副标题": ">&&</a>",
+    "数组": "module-item-cover\"&&module-item\"",
+    "副标题": "module-item-text\"&&</div>",
+    "标题": "title=\"&&\"",
+    "图片": "data-src=\"&&\"",
+    "线路数组": "tab-item\"&&</div>",
+    "线路标题": "<span>&&</small>[替换:</span><small>>>✮更新]",
+    "播放数组": "<div class=\"scroll-content\">&&</div>",
+    "播放标题": "<span>&&</span>",
+    "分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi#短剧$duanju#纪录片$jilupian",
+    "分类url": "https://xiuer.pro/show/area/{area}/by/{by}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}/"
+}

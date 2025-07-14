@@ -1,0 +1,12 @@
+{
+    "作者": "MeowTV",
+    "站名": "七新影视",
+    "主页url": "http://www.7xdy.com/",
+    "简介": "&&",
+    "影片状态": "状态：&&",
+    "搜索url": "/search.php;post;searchword={wd}",
+    "线路数组": "",
+    "线路标题": "MeowTV-+src=*>&&<",
+    "分类url": "http://www.7xdy.com/{cateId}/index{catePg}.html[http://www.7xdy.com/{cateId}/index.html];;k",
+    "分类": "电影$dianyingpian#电视剧$dianshiju#综艺$zongyi#动漫$dongman"
+}

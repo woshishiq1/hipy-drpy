@@ -1,0 +1,11 @@
+ {
+   "二次截取": "module-items&&<footer id=+module-item-cover",
+   "数组": "module-item-pic&&module-item-cover",
+   "副标题": "module-item-text*>&&</div>",
+   "简介": "剧情：</span>&&</span>",
+   "搜索模式": "0",
+   "播放数组": "\"module-blocklist\">&&</div>",
+   "播放标题": "<span>&&</span>",
+   "分类": "电影$1#海外剧$2#日韩剧$21#动漫$20",
+   "分类url": "https://v.woniufan.cn/index.php/vod/show/id/{cateId}/page/{catePg}.html"
+ }

@@ -1,0 +1,7 @@
+{
+    "分类": "央视$1#卫视$2#地方$3#港澳$4#综艺$zhibo/zongyi#体育$zhibo/sports#新闻$zhibo/xinwen#影视$zhibo/yingshi#影视$zhibo/shaoer#财经$zhibo/caijing#科教$zhibo/kejiao",
+    "编码": "GBK",
+    "图片": "http://hz752.love:63/pictu.php?type=302",
+    "分类url": "http://tv.haoqu99.com/{cateId};;z",
+    "数组": "<li class=\"p-item\">&&</li>"
+}

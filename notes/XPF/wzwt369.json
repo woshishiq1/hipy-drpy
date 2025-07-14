@@ -1,0 +1,403 @@
+{
+ "ua": "",
+ "homeUrl": "https://www.wzwt369.com",
+ "dcVipFlag": "true",
+ "pCfgJs": "https://www.wzwt369.com/static/js/playerconfig.js",
+ "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+ "dcShow2Vip": {},
+ "dcPlayUrl": "true",
+ "cateManual": {
+    "动漫": "1",
+    "日本动漫": "6",
+    "国产动漫": "7",
+    "欧美动漫": "8",
+    "剧场版": "2",
+    "日本剧场版": "3",
+    "国产剧场版": "4",
+    "欧美剧场版": "5"
+    },
+ "homeVodNode": "//div[@class='container']/section[2]//div[contains(@class,'col-6 col-sm-4 col-lg-3')]",
+ "homeVodName": "//div[@class='detail']/h6/a/text()",
+ "homeVodId": "//div[@class='detail']/h6/a/@href",
+ "homeVodIdR": "/detail/(\\w+).html",
+ "homeVodImg": "//div[@class='img-box cover-md']/a/img/@data-src",
+ "homeVodImgR": "\\S+(http\\S+)",
+ "homeVodMark": "//div[@class='img-box cover-md']/a/div/span/text()",
+ "cateUrl": "https://www.wzwt369.com/vod/show/id/{cateId}/page/{catePg}/year/{year}/by/{by}.html",
+ "cateVodNode": "//div[@class='col-6 col-sm-4 col-lg-3']",
+ "cateVodName": "//div[@class='detail']/h6/a/text()",
+ "cateVodId": "//div[@class='detail']/h6/a/@href",
+ "cateVodIdR": "/detail/(\\w+).html",
+ "cateVodImg": "//div[@class='img-box cover-md']/a/img/@data-src",
+ "cateVodImgR": "\\S+(http\\S+)",
+ "cateVodMark": "//div[@class='img-box cover-md']/a/div/span/text()",
+ "dtUrl": "https://www.wzwt369.com/detail/{vid}.html",
+ "dtNode": "//section[@class='pb-3 pb-e-lg-30']",
+ "dtName": "//div[@class='video-info']/div[@class='video-info-header']/h1/text()",
+ "dtNameR": "",
+ "dtImg": "//div[@class='module-item-pic']/a/img/@src",
+ "dtImgR": "",
+ "dtCate": "//div[@class='video-info-aux']/a/text()",
+ "dtCateR": "",
+ "dtYear": "//div[@class='video-info-aux']//a[contains(@href,'year')]/span/text()",
+ "dtYearR": "",
+ "dtArea": "//div[@class='video-info-aux']//a[contains(@href,'area')]/span/text()",
+ "dtAreaR": "",
+ "dtMark": "",
+ "dtMarkR": "",
+ "dtActor": "//div[@class='video-info-main']//a[contains(@href,'director')]/span/text()",
+ "dtActorR": "",
+ "dtDirector": "//div[@class='video-info-main']//a[contains(@href,'actor')]/span/text()",
+ "dtDirectorR": "",
+ "dtDesc": "//div[@class='video-info-main']//span[contains(@class,'content-text none')]/text()",
+ "dtDescR": "",
+ "dtFromNode": "//div[@class='module-tab-content']/div[contains(@class,'module-tab-item')]",
+ "dtFromName": "/span/text()",
+ "dtFromNameR": "",
+ "dtUrlNode": "//div[contains(@class,'module-player-list')]",
+ "dtUrlSubNode": "/div/div[@class='scroll-content']/a",
+ "dtUrlId": "@href",
+ "dtUrlIdR": "/play/(\\S+).html",
+ "dtUrlName": "/span/text()",
+ "dtUrlNameR": "",
+ "playUrl": "https://www.wzwt369.com/play/{playUrl}.html",
+ "playUa": "",
+ "searchUrl": "https://www.wzwt369.com/ajax/suggest?mid=1&wd={wd}",
+ "scVodNode": "json:list",
+ "scVodName": "name",
+ "scVodId": "id",
+ "scVodIdR": "",
+ "scVodImg": "pic",
+ "scVodImgR": "",
+ "scVodMark": "",
+ "filter": {
+    "1": [
+      {
+        "key": "cateId",
+        "name": "分类",
+        "value": [
+          {"n": "全部","v": "1"},
+          {"n": "日本动漫","v": "6"},
+          {"n": "国产动漫","v": "7"},
+          {"n": "欧美动漫","v": "8"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
+          {"n": "2021","v": "2021"},
+          {"n": "2020","v": "2020"},
+          {"n": "2019","v": "2019"},
+          {"n": "2018","v": "2018"},
+          {"n": "2017","v": "2017"},
+          {"n": "2016","v": "2016"},
+          {"n": "2015","v": "2015"},
+          {"n": "2014","v": "2014"},
+          {"n": "2013","v": "2013"},
+          {"n": "更早","v": "2012-1980"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "最近更新","v": "time"},
+          {"n": "最高人气","v": "hits"},
+          {"n": "最高评分","v": "score"},
+          {"n": "最多点赞","v": "up"}
+        ]
+      }
+    ],
+    "6": [
+      {
+        "key": "cateId",
+        "name": "分类",
+        "value": [
+          {"n": "全部","v": "1"},
+          {"n": "日本动漫","v": "6"},
+          {"n": "国产动漫","v": "7"},
+          {"n": "欧美动漫","v": "8"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
+          {"n": "2021","v": "2021"},
+          {"n": "2020","v": "2020"},
+          {"n": "2019","v": "2019"},
+          {"n": "2018","v": "2018"},
+          {"n": "2017","v": "2017"},
+          {"n": "2016","v": "2016"},
+          {"n": "2015","v": "2015"},
+          {"n": "2014","v": "2014"},
+          {"n": "2013","v": "2013"},
+          {"n": "更早","v": "2012-1980"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "最近更新","v": "time"},
+          {"n": "最高人气","v": "hits"},
+          {"n": "最高评分","v": "score"},
+          {"n": "最多点赞","v": "up"}
+        ]
+      }
+    ],
+    "7": [
+      {
+        "key": "cateId",
+        "name": "分类",
+        "value": [
+          {"n": "全部","v": "1"},
+          {"n": "日本动漫","v": "6"},
+          {"n": "国产动漫","v": "7"},
+          {"n": "欧美动漫","v": "8"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
+          {"n": "2021","v": "2021"},
+          {"n": "2020","v": "2020"},
+          {"n": "2019","v": "2019"},
+          {"n": "2018","v": "2018"},
+          {"n": "2017","v": "2017"},
+          {"n": "2016","v": "2016"},
+          {"n": "2015","v": "2015"},
+          {"n": "2014","v": "2014"},
+          {"n": "2013","v": "2013"},
+          {"n": "更早","v": "2012-1980"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "最近更新","v": "time"},
+          {"n": "最高人气","v": "hits"},
+          {"n": "最高评分","v": "score"},
+          {"n": "最多点赞","v": "up"}
+        ]
+      }
+    ],
+    "8": [
+      {
+        "key": "cateId",
+        "name": "分类",
+        "value": [
+          {"n": "全部","v": "1"},
+          {"n": "日本动漫","v": "6"},
+          {"n": "国产动漫","v": "7"},
+          {"n": "欧美动漫","v": "8"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
+          {"n": "2021","v": "2021"},
+          {"n": "2020","v": "2020"},
+          {"n": "2019","v": "2019"},
+          {"n": "2018","v": "2018"},
+          {"n": "2017","v": "2017"},
+          {"n": "2016","v": "2016"},
+          {"n": "2015","v": "2015"},
+          {"n": "2014","v": "2014"},
+          {"n": "2013","v": "2013"},
+          {"n": "更早","v": "2012-1980"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "最近更新","v": "time"},
+          {"n": "最高人气","v": "hits"},
+          {"n": "最高评分","v": "score"},
+          {"n": "最多点赞","v": "up"}
+        ]
+      }
+    ],
+    "2": [
+      {
+        "key": "cateId",
+        "name": "分类",
+        "value": [
+          {"n": "全部","v": "1"},
+          {"n": "日本动漫","v": "6"},
+          {"n": "国产动漫","v": "7"},
+          {"n": "欧美动漫","v": "8"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
+          {"n": "2021","v": "2021"},
+          {"n": "2020","v": "2020"},
+          {"n": "2019","v": "2019"},
+          {"n": "2018","v": "2018"},
+          {"n": "2017","v": "2017"},
+          {"n": "2016","v": "2016"},
+          {"n": "2015","v": "2015"},
+          {"n": "2014","v": "2014"},
+          {"n": "2013","v": "2013"},
+          {"n": "更早","v": "2012-1980"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "最近更新","v": "time"},
+          {"n": "最高人气","v": "hits"},
+          {"n": "最高评分","v": "score"},
+          {"n": "最多点赞","v": "up"}
+        ]
+      }
+    ],
+    "3": [
+      {
+        "key": "cateId",
+        "name": "分类",
+        "value": [
+          {"n": "全部","v": "1"},
+          {"n": "日本动漫","v": "6"},
+          {"n": "国产动漫","v": "7"},
+          {"n": "欧美动漫","v": "8"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
+          {"n": "2021","v": "2021"},
+          {"n": "2020","v": "2020"},
+          {"n": "2019","v": "2019"},
+          {"n": "2018","v": "2018"},
+          {"n": "2017","v": "2017"},
+          {"n": "2016","v": "2016"},
+          {"n": "2015","v": "2015"},
+          {"n": "2014","v": "2014"},
+          {"n": "2013","v": "2013"},
+          {"n": "更早","v": "2012-1980"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "最近更新","v": "time"},
+          {"n": "最高人气","v": "hits"},
+          {"n": "最高评分","v": "score"},
+          {"n": "最多点赞","v": "up"}
+        ]
+      }
+    ],
+    "4": [
+      {
+        "key": "cateId",
+        "name": "分类",
+        "value": [
+          {"n": "全部","v": "1"},
+          {"n": "日本动漫","v": "6"},
+          {"n": "国产动漫","v": "7"},
+          {"n": "欧美动漫","v": "8"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
+          {"n": "2021","v": "2021"},
+          {"n": "2020","v": "2020"},
+          {"n": "2019","v": "2019"},
+          {"n": "2018","v": "2018"},
+          {"n": "2017","v": "2017"},
+          {"n": "2016","v": "2016"},
+          {"n": "2015","v": "2015"},
+          {"n": "2014","v": "2014"},
+          {"n": "2013","v": "2013"},
+          {"n": "更早","v": "2012-1980"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "最近更新","v": "time"},
+          {"n": "最高人气","v": "hits"},
+          {"n": "最高评分","v": "score"},
+          {"n": "最多点赞","v": "up"}
+        ]
+      }
+    ],
+    "5": [
+      {
+        "key": "cateId",
+        "name": "分类",
+        "value": [
+          {"n": "全部","v": "2"},
+          {"n": "日本剧场版","v": "3"},
+          {"n": "国产剧场版","v": "4"},
+          {"n": "欧美剧场版","v": "5"}
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "2022","v": "2022"},
+          {"n": "2021","v": "2021"},
+          {"n": "2020","v": "2020"},
+          {"n": "2019","v": "2019"},
+          {"n": "2018","v": "2018"},
+          {"n": "2017","v": "2017"},
+          {"n": "2016","v": "2016"},
+          {"n": "2015","v": "2015"},
+          {"n": "2014","v": "2014"},
+          {"n": "2013","v": "2013"},
+          {"n": "更早","v": "2012-1980"}
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {"n": "全部","v": ""},
+          {"n": "最近更新","v": "time"},
+          {"n": "最高人气","v": "hits"},
+          {"n": "最高评分","v": "score"},
+          {"n": "最多点赞","v": "up"}
+        ]
+      }
+    ]
+  }
+}

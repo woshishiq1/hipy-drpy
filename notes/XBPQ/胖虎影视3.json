@@ -1,0 +1,31 @@
+{
+  "作者": "菜妮丝https://cainisi.cf",
+  "站名": "胖虎影视",
+  "主页url": "https://www.panghuys.com",
+  "首页": "电视剧$20",
+  
+  "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+  
+  "分类url": "https://www.panghuys.com/vodshow/{cateId}/page/{catePg}.html",
+  
+  "数组": "<div class=\"pack-ykpack\">&&</a>",
+  "副标题": "<span class=\"pack-prb hidden\">&&</span>",
+  
+  "搜索模式": "1",
+  "搜索url": "/phsch.html?wd={wd}",
+  "搜索数组": "<li class=\"search-list cf\">&&</a>",
+  "搜索副标题": "<span class=\"pack-prb\">&&</span>",
+  
+  "影片状态": "状态：&&</li>",
+  "影片年代": "年代：&&</p>",
+  "影片地区": "地区：&&</p>",
+  "影片类型": "类型：&&</p>",
+  "导演": "导演：&&</p>",
+  "主演": "演员：&&</p>",
+  "简介": "ec-palytcji cor3\">&&</span>",
+  
+  "线路数组": "<i class=\"fa\">&#xe8b4;</i>&&/a>",
+  "线路标题": "&nbsp;&&<",
+  
+  "播放数组": "<ul class=\"content_playlist&&</ul>"
+}

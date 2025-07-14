@@ -1,0 +1,381 @@
+{
+  "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+  "homeUrl": "https://aidi.tv",
+  "dcVipFlag": "true",
+  "pCfgJs": "https://aidi.tv/static/js/playerconfig.js",
+  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
+  "cateNode": "//div[@class='all_menu_box']/ul[@class='nav_list clearfix']/li/a[contains(@href, '/v')]",
+  "cateName": "/@title",
+  "cateId": "/@href",
+  "cateIdR": "/v/(\\w+).html", 
+  "cateManual": {
+    "电影": "dianying",
+    "连续剧": "lianxuju",
+    "综艺": "zongyi",
+    "韩国电影": "hanguodianying",
+    "樱花动漫": "dongman",
+    "纪录片": "jilu"
+  },
+  "homeVodNode": "//div[@class='vod_row tit_up'][2]//ul[contains(@class,'vodlist_wi list_v6')]/li[contains(@class,'vodlist_item')]/a",
+  "homeVodName": "/@title",
+  "homeVodId": "/@href",
+  "homeVodIdR": "/movie/(\\w+).html",
+  "homeVodImg": "/@data-original",
+  "homeVodImgR": "\\S+(http\\S+)",
+  "homeVodMark": "/span[contains(@class,'pic_text')]/text()",
+  "cateUrl": "https://aidi.tv/show/{cateId}-{area}-{by}------{catePg}---{time}.html",
+  "cateVodNode": "//ul[contains(@class,'vodlist_wi')]/li/a",
+  "cateVodName": "/@title",
+  "cateVodId": "/@href",
+  "cateVodIdR": "/movie/(\\w+).html",
+  "cateVodImg": "/@data-original",
+  "cateVodImgR": "\\S+(http\\S+)",
+  "cateVodMark": "/span[contains(@class,'pic_text')]/text()",
+  "dtUrl": "https://aidi.tv/movie/{vid}.html",
+  "dtNode": "//div[@class='detail_list']",
+  "dtName": "//div[@class='pannel_head clearfix']/h2/text()",
+  "dtNameR": "",
+  "dtImg": "//div[@class='content_thumb fl']/a/img/@data-original",
+  "dtImgR": "\\S+(http\\S+)",
+  "dtCate": "//div[@class='content_detail content_min fl']/ul/li/span[contains(@class,'text_muted') and contains(text(), '类型')]/following-sibling::a/text()",
+  "dtCateR": "",
+  "dtYear": "//div[@class='content_detail content_min fl']/ul/li/span[contains(@class,'text_muted') and contains(text(), '年份')]/following-sibling::a[1]/text()",
+  "dtYearR": "",
+  "dtArea": "//div[@class='content_detail content_min fl']/ul/li/span[contains(@class,'text_muted') and contains(text(), '地区')]/following-sibling::a[1]/text()",
+  "dtAreaR": "",
+  "dtMark": "",
+  "dtMarkR": "",
+  "dtActor": "//div[@class='content_detail content_min fl']/ul/li/span[contains(text(), '主演')]/following-sibling::a/text()",
+  "dtActorR": "",
+  "dtDirector": "//div[@class='content_detail content_min fl']/ul/li/span[contains(text(), '导演')]/following-sibling::a/text()",
+  "dtDirectorR": "",
+  "dtDesc": "//div[@class='content_detail content_min fl']/ul/li/span[contains(text(), '简介')]/parent::text()",
+  "dtDescR": "",
+  "dtFromNode": "//div[@class='play_source_tab list_scroll clearfix']/a",
+  "dtFromName": "/text()",
+  "dtFromNameR": "",
+  "dtUrlNode": "//div[contains(@class,'play_list_box')]/div[contains(@class, 'playlist_full')]",
+  "dtUrlSubNode": "/ul/li/a",
+  "dtUrlId": "@href",
+  "dtUrlIdR": "/play/(\\S+).html",
+  "dtUrlName": "/text()",
+  "dtUrlNameR": "",
+  "playUrl": "https://aidi.tv/play/{playUrl}.html",
+  "playUa": "",
+  "searchUrl": "https://aidi.tv/index.php/ajax/suggest?mid=1&wd={wd}",
+  "scVodNode": "json:list",
+  "scVodName": "name",
+  "scVodId": "id",
+  "scVodIdR": "",
+  "scVodImg": "pic",
+  "scVodMark": "",
+  "filter": {
+    "dianying": [
+      {
+        "key": "cateId",
+        "name": "类型",
+        "value": [
+         {"n": "全部","v": "dianying"},
+         {"n": "动作片","v": "dongzuopian"},
+         {"n": "喜剧片","v": "xijupian"},
+         {"n": "爱情片","v": "aiqingpian"},
+         {"n": "科幻片","v": "kehuanpian"},
+         {"n": "恐怖片","v": "kongbupian"},
+         {"n": "剧情片","v": "juqingpian"},
+         {"n": "战争片","v": "zhanzhengpian"},
+         {"n": "传记","v": "zhuanji"}
+       ]
+     },
+     {
+       "key": "area",
+       "name": "地区",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "大陆","v": "大陆"},
+         {"n": "香港","v": "香港"},
+         {"n": "台湾","v": "台湾"},
+         {"n": "美国","v": "美国"},
+         {"n": "法国","v": "法国"},
+         {"n": "英国","v": "英国"},
+         {"n": "日本","v": "日本"},
+         {"n": "韩国","v": "韩国"},
+         {"n": "德国","v": "德国"},
+         {"n": "泰国","v": "泰国"},
+         {"n": "印度","v": "印度"},
+         {"n": "意大利","v": "意大利"},
+         {"n": "西班牙","v": "西班牙"},
+         {"n": "加拿大","v": "加拿大"},
+         {"n": "其他","v": "其他"}
+       ]
+     },
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"},
+         {"n": "2014","v": "2014"},
+         {"n": "2013","v": "2013"},
+         {"n": "2012","v": "2012"},
+         {"n": "2011","v": "2011"},
+         {"n": "2010","v": "2010"}
+       ]
+     },
+     {
+       "key": "by",
+       "name": "排序",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "按最新","v": "time"},
+         {"n": "按最热","v": "hits"},
+         {"n": "按评分","v": "score"}
+       ]
+     }
+  ],
+   "lianxuju": [
+     {
+       "key": "cateId",
+       "name": "类型",
+       "value": [
+         {"n": "全部","v": "lianxuju"},
+         {"n": "国产剧","v": "guochanju"},
+         {"n": "港台剧","v": "gangtaiju"},
+         {"n": "韩剧","v": "hanju"},
+         {"n": "美剧","v": "meiju"},
+         {"n": "日剧","v": "riju"},
+         {"n": "英剧","v": "yingju"},
+         {"n": "泰剧","v": "taiju"},
+         {"n": "其他剧","v": "qita"}
+       ]
+     },
+     {
+       "key": "area",
+       "name": "地区",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "大陆","v": "大陆"},
+         {"n": "韩国","v": "韩国"},
+         {"n": "香港","v": "香港"},
+         {"n": "台湾","v": "台湾"},
+         {"n": "日本","v": "日本"},
+         {"n": "美国","v": "美国"},
+         {"n": "泰国","v": "泰国"},
+         {"n": "英国","v": "英国"},
+         {"n": "新加坡","v": "新加坡"},
+         {"n": "其他","v": "其他"}
+       ]
+     },
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"},
+         {"n": "2014","v": "2014"},
+         {"n": "2013","v": "2013"},
+         {"n": "2012","v": "2012"},
+         {"n": "2011","v": "2011"},
+         {"n": "2010","v": "2010"}
+       ]
+     },
+     {
+       "key": "by",
+       "name": "排序",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "按最新","v": "time"},
+         {"n": "按最热","v": "hits"},
+         {"n": "按评分","v": "score"}
+       ]
+     }
+  ],
+   "zongyi": [
+     {
+       "key": "cateId",
+       "name": "类型",
+       "value": [
+         {"n": "全部","v": "zongyi"},
+         {"n": "内地综艺","v": "ndzy"},
+         {"n": "港台综艺","v": "gtzy"},
+         {"n": "韩国综艺","v": "variety"},
+         {"n": "欧美综艺","v": "oumeizongyi"}
+       ]
+     },
+     {
+       "key": "area",
+       "name": "地区",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "内地","v": "内地"},
+         {"n": "港台","v": "港台"},
+         {"n": "日韩","v": "日韩"},
+         {"n": "欧美","v": "欧美"}
+       ]
+     },
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"},
+         {"n": "2014","v": "2014"},
+         {"n": "2013","v": "2013"},
+         {"n": "2012","v": "2012"},
+         {"n": "2011","v": "2011"},
+         {"n": "2010","v": "2010"}
+       ]
+     },
+     {
+       "key": "by",
+       "name": "排序",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "按最新","v": "time"},
+         {"n": "按最热","v": "hits"},
+         {"n": "按评分","v": "score"}
+       ]
+     }
+  ],
+   "hanguodianying": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"},
+         {"n": "2014","v": "2014"},
+         {"n": "2013","v": "2013"},
+         {"n": "2012","v": "2012"},
+         {"n": "2011","v": "2011"},
+         {"n": "2010","v": "2010"}
+       ]
+     },
+     {
+       "key": "by",
+       "name": "排序",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "按最新","v": "time"},
+         {"n": "按最热","v": "hits"},
+         {"n": "按评分","v": "score"}
+       ]
+     }
+  ],
+   "dongman": [
+     {
+       "key": "cateId",
+       "name": "类型",
+       "value": [
+         {"n": "全部","v": "dongman"},
+         {"n": "日韩动漫","v": "rihan"},
+         {"n": "国产动漫","v": "guoman"},
+         {"n": "欧美动漫","v": "oumei"},
+         {"n": "动漫电影","v": "cartoon"}
+       ]
+     },
+     {
+       "key": "area",
+       "name": "地区",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "国产","v": "国产"},
+         {"n": "日本","v": "日本"},
+         {"n": "欧美","v": "欧美"},
+         {"n": "其他","v": "其他"}
+       ]
+     },
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"},
+         {"n": "2014","v": "2014"},
+         {"n": "2013","v": "2013"},
+         {"n": "2012","v": "2012"},
+         {"n": "2011","v": "2011"},
+         {"n": "2010","v": "2010"}
+       ]
+     },
+     {
+       "key": "by",
+       "name": "排序",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "按最新","v": "time"},
+         {"n": "按最热","v": "hits"},
+         {"n": "按评分","v": "score"}
+       ]
+     }
+  ],
+   "julu": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"},
+         {"n": "2014","v": "2014"},
+         {"n": "2013","v": "2013"},
+         {"n": "2012","v": "2012"},
+         {"n": "2011","v": "2011"},
+         {"n": "2010","v": "2010"}
+       ]
+     },
+     {
+       "key": "by",
+       "name": "排序",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "按最新","v": "time"},
+         {"n": "按最热","v": "hits"},
+         {"n": "按评分","v": "score"}
+       ]
+     }
+  ]
+  }
+}

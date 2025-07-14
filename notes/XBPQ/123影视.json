@@ -1,0 +1,16 @@
+{
+    "主页url": "https://www.123tvb.org/",
+    "数组": "\"pack-ykpack&&</a>",
+    "标题":"title=\"&&\"",
+    "链接":"href=\"&&\"",
+    "副标题": "pack-prb\"><span>&&</span>",
+    "图片": "data-original=\"&&\"",
+    "搜索url": "https://www.123tvb.org/search/wd/{wd}.html",
+    "线路数组": "<a class=\"channelname swiper-slide&&</a>",
+    "线路标题": "&nbsp;&&<",
+    "播放数组": "class=\"playlist_notfull\">&&</div>",
+//    "播放列表": "<li>&&</li>",
+    "播放标题": ">&&</a>",
+    "分类": "电影$1#剧集$2#动漫$4#综艺$3#儿童动画$5",
+    "分类url": "https://www.123tvb.org/show/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html"
+}

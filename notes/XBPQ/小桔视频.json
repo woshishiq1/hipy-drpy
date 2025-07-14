@@ -1,0 +1,55 @@
+{
+
+"站名":"小桔视频",
+
+"主页url": "https://www.xiaoju.vip/",
+
+"导演": "导演：&&</div>",
+
+"主演": "主演：&&</div>",
+
+//"影片类型": "video-info-aux scroll-content\">&&立即播放",
+"影片类型": "更新：&&</div>",
+
+//"简介": "video-info-item video-info-content vod_content\">&&</span>",
+"简介": "<p>&&</p>",
+
+"嗅探词": ".m3u8#.mp4#.flv",
+
+"数组": "<a &&</a>",
+
+"图片": "data-original=\"&&\"",
+
+"链接": "href=\"&&\"",
+
+"标题": "alt=\"&&\"",
+
+"副标题": "<div class=\"module-item-note\">&&</div>",
+
+//"搜索数组": "<div class=\"module-item-pic\">&&<div class=\"module-search-item\">",
+
+"搜索url": "https://www.xiaoju.vip/search/index.html?keyword={wd}&page={catePg}",
+
+"搜索标题": "alt=\"&&\"",
+
+"搜索图片": "data-original=\"&&\"",
+
+"搜索链接": "href=\"&&\"",
+
+"线路数组": "data-dropdown-value=&&</div>",
+
+"线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
+
+"播放数组": "module-play-list\">&&</div>",
+
+"播放列表": "<a&&</a>",
+
+"播放标题": "<span>&&</span>",
+
+"播放链接": "href=\"&&\"",
+
+"分类url": "https://www.xiaoju.vip/vod/list/{catePg}/{cateId}/0/0/0/0/0/0",
+
+"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$43"
+
+}

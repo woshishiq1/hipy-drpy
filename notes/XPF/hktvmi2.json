@@ -1,0 +1,305 @@
+{
+  "ua":"",
+  "homeUrl":"http://www.hktvmi.com",
+  "dcVipFlag": "true",
+  "pCfgJs": "http://www.hktvmi.com/static/js/playerconfig.js",
+  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
+  "cateNode":"//ul[contains(@class,'myui-header__menu nav-menu')]/li[@class='dropdown-hover']//ul/li/a[contains(@href, 'vod')]",
+  "cateName":"/text()",
+  "cateId":"/@href",
+  "cateIdR":"/vod/type/id/(\\d+).html",
+  "cateManual":{"电影": "1","电视剧": "2","综艺": "3","动漫": "4"},
+  "homeVodNode":"//div[contains(@class, 'col-lg-wide-75')]//ul[contains(@class,'myui-vodlist')]/li//a[contains(@class,'myui-vodlist__thumb')]",
+  "homeVodName":"/@title",
+  "homeVodId":"/@href",
+  "homeVodIdR":"/vod/detail/id/(\\w+).html",
+  "homeVodImg":"@data-original",
+  "homeVodImgR":"\\S+(http\\S+)",
+  "homeVodMark":"/span[contains(@class,'pic-tag')]/span[@class='tag']/text()",
+  "cateUrl":"http://www.hktvmi.com/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+  "cateVodNode":"//ul[contains(@class,'myui-vodlist clearfix')]/li//a[contains(@class,'myui-vodlist__thumb')]",
+  "cateVodName":"/@title",
+  "cateVodId":"/@href",
+  "cateVodIdR":"/vod/detail/id/(\\w+).html",
+  "cateVodImg":"@data-original",
+  "cateVodImgR":"\\S+(http\\S+)",
+  "cateVodMark":"/span[contains(@class,'pic-tag')]/span[@class='tag']/text()",
+  "dtUrl":"http://www.hktvmi.com/vod/detail/id/{vid}.html",
+  "dtNode":"//div[contains(@class,'col-lg-wide-75')]",
+  "dtName":"//div[@class='myui-content__thumb']/a[contains(@class,'myui-vodlist__thumb')]/@title",
+  "dtNameR":"",
+  "dtImg":"//div[@class='myui-content__thumb']/a[contains(@class,'myui-vodlist__thumb')]/img/@data-original",
+  "dtImgR":"\\S+(http\\S+)",
+  "dtCate":"//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '分类')]/following-sibling::*/text()",
+  "dtCateR":"",
+  "dtYear":"//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '年份')]/following-sibling::*/text()",
+  "dtYearR":"",
+  "dtArea":"//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '地区')]/following-sibling::*/text()",
+  "dtAreaR":"",
+  "dtMark":"",
+  "dtMarkR":"",
+  "dtActor":"//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '主演')]/following-sibling::*/text()",
+  "dtActorR":"",
+  "dtDirector":"//div[@class='myui-content__detail']//span[contains(@class,'text-muted') and contains(text(), '导演')]/following-sibling::*/text()",
+  "dtDirectorR":"",
+  "dtDesc":"//div[@class='col-pd text-collapse content']/span[@class='sketch content']/text()",
+  "dtDescR":"",
+  "dtFromNode":"//div[@class='myui-panel myui-panel-bg clearfix'][3]/div/div[@class='myui-panel_hd']/div/h3",
+  "dtFromName":"/text()",
+  "dtFromNameR":"",
+  "dtUrlNode":"//div[@class='myui-panel myui-panel-bg clearfix'][3]/div/div[@class='myui-panel_bd clearfix']/ul",
+  "dtUrlSubNode":"//li/a",
+  "dtUrlId":"@href",
+  "dtUrlIdR":"/vod/play/id/(\\S+).html",
+  "dtUrlName":"/text()",
+  "dtUrlNameR":"",
+  "playUrl":"http://www.hktvmi.com/vod/play/id/{playUrl}.html",
+  "playUa":"",
+  "searchUrl":"http://www.hktvmi.com/index.php/ajax/suggest?mid=1&wd={wd}&limit=10",
+  "scVodNode":"json:list",
+  "scVodName":"name",
+  "scVodId":"id",
+  "scVodIdR":"",
+  "scVodImg":"pic",
+  "scVodMark":"",
+  "filter": {
+   "1": [
+    {
+     "key": "cateId",
+     "name": "类型",
+     "value": [
+      {"n": "全部","v": "1"},
+      {"n": "动作片","v": "6"},
+      {"n": "喜剧片","v": "7"},
+      {"n": "爱情片","v": "8"},
+      {"n": "科幻片","v": "9"},
+      {"n": "恐怖片","v": "10"},
+      {"n": "剧情片","v": "11"},
+      {"n": "战争片","v": "12"}
+     ]
+    },
+    {
+     "key": "area",
+     "name": "地区",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "大陆","v": "大陆"},
+      {"n": "香港","v": "香港"},
+      {"n": "台湾","v": "台湾"},
+      {"n": "美国","v": "美国"},
+      {"n": "法国","v": "法国"},
+      {"n": "英国","v": "英国"},
+      {"n": "日本","v": "日本"},
+      {"n": "韩国","v": "韩国"},
+      {"n": "德国","v": "德国"},
+      {"n": "泰国","v": "泰国"},
+      {"n": "印度","v": "印度"},
+      {"n": "意大利","v": "意大利"},
+      {"n": "西班牙","v": "西班牙"},
+      {"n": "加拿大","v": "加拿大"},
+      {"n": "其他","v": "其他"}
+     ]
+    },
+    {
+     "key": "year",
+     "name": "年份",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "2023","v": "2023"},
+      {"n": "2022","v": "2022"},
+      {"n": "2021","v": "2021"},
+      {"n": "2020","v": "2020"},
+      {"n": "2019","v": "2019"},
+      {"n": "2018","v": "2018"},
+      {"n": "2017","v": "2017"},
+      {"n": "2016","v": "2016"},
+      {"n": "2015","v": "2015"},
+      {"n": "2014","v": "2014"},
+      {"n": "2013","v": "2013"},
+      {"n": "2012","v": "2012"},
+      {"n": "2011","v": "2011"},
+      {"n": "2010","v": "2010"}
+     ]
+    },
+    {
+     "key": "by",
+     "name": "排序",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "时间排序","v": "time"},
+      {"n": "人气排序","v": "hits"},
+      {"n": "评分排序","v": "score"}
+     ]
+    }
+   ],
+   "2": [
+    {
+     "key": "cateId",
+     "name": "类型",
+     "value": [
+      {"n": "全部","v": "2"},
+      {"n": "国产剧","v": "13"},
+      {"n": "港台剧","v": "14"},
+      {"n": "日韩剧","v": "15"},
+      {"n": "欧美剧","v": "16"}
+     ]
+    },
+    {
+     "key": "area",
+     "name": "地区",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "内地","v": "内地"},
+      {"n": "韩国","v": "韩国"},
+      {"n": "香港","v": "香港"},
+      {"n": "台湾","v": "台湾"},
+      {"n": "日本","v": "日本"},
+      {"n": "美国","v": "美国"},
+      {"n": "泰国","v": "泰国"},
+      {"n": "英国","v": "英国"},
+      {"n": "新加坡","v": "新加坡"},
+      {"n": "其他","v": "其他"}
+     ]
+    },
+    {
+     "key": "year",
+     "name": "年份",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "2023","v": "2023"},
+      {"n": "2022","v": "2022"},
+      {"n": "2021","v": "2021"},
+      {"n": "2020","v": "2020"},
+      {"n": "2019","v": "2019"},
+      {"n": "2018","v": "2018"},
+      {"n": "2017","v": "2017"},
+      {"n": "2016","v": "2016"},
+      {"n": "2015","v": "2015"},
+      {"n": "2014","v": "2014"},
+      {"n": "2013","v": "2013"},
+      {"n": "2012","v": "2012"},
+      {"n": "2011","v": "2011"},
+      {"n": "2010","v": "2010"},
+      {"n": "2009","v": "2009"},
+      {"n": "2008","v": "2008"},
+      {"n": "2007","v": "2007"},
+      {"n": "2006","v": "2006"},
+      {"n": "2005","v": "2005"},
+      {"n": "2004","v": "2004"}
+     ]
+    },
+    {
+     "key": "by",
+     "name": "排序",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "时间排序","v": "time"},
+      {"n": "人气排序","v": "hits"},
+      {"n": "评分排序","v": "score"}
+     ]
+    }
+   ],
+   "3": [
+    {
+     "key": "area",
+     "name": "地区",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "内地","v": "内地"},
+      {"n": "港台","v": "港台"},
+      {"n": "日韩","v": "日韩"},
+      {"n": "欧美","v": "欧美"}
+     ]
+    },
+    {
+     "key": "year",
+     "name": "年份",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "2023","v": "2023"},
+      {"n": "2022","v": "2022"},
+      {"n": "2021","v": "2021"},
+      {"n": "2020","v": "2020"},
+      {"n": "2019","v": "2019"},
+      {"n": "2018","v": "2018"},
+      {"n": "2017","v": "2017"},
+      {"n": "2016","v": "2016"},
+      {"n": "2015","v": "2015"},
+      {"n": "2014","v": "2014"},
+      {"n": "2013","v": "2013"},
+      {"n": "2012","v": "2012"},
+      {"n": "2011","v": "2011"},
+      {"n": "2010","v": "2010"},
+      {"n": "2009","v": "2009"},
+      {"n": "2008","v": "2008"},
+      {"n": "2007","v": "2007"},
+      {"n": "2006","v": "2006"},
+      {"n": "2005","v": "2005"},
+      {"n": "2004","v": "2004"}
+     ]
+    },
+    {
+     "key": "by",
+     "name": "排序",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "时间排序","v": "time"},
+      {"n": "人气排序","v": "hits"},
+      {"n": "评分排序","v": "score"}
+     ]
+    }
+   ],
+   "4": [
+    {
+     "key": "area",
+     "name": "地区",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "国产","v": "国产"},
+      {"n": "日本","v": "日本"},
+      {"n": "欧美","v": "欧美"},
+      {"n": "其他","v": "其他"}
+     ]
+    },
+    {
+     "key": "year",
+     "name": "年份",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "2023","v": "2023"},
+      {"n": "2022","v": "2022"},
+      {"n": "2021","v": "2021"},
+      {"n": "2020","v": "2020"},
+      {"n": "2019","v": "2019"},
+      {"n": "2018","v": "2018"},
+      {"n": "2017","v": "2017"},
+      {"n": "2016","v": "2016"},
+      {"n": "2015","v": "2015"},
+      {"n": "2014","v": "2014"},
+      {"n": "2013","v": "2013"},
+      {"n": "2012","v": "2012"},
+      {"n": "2011","v": "2011"},
+      {"n": "2010","v": "2010"},
+      {"n": "2009","v": "2009"},
+      {"n": "2008","v": "2008"},
+      {"n": "2007","v": "2007"},
+      {"n": "2006","v": "2006"},
+      {"n": "2005","v": "2005"},
+      {"n": "2004","v": "2004"}
+     ]
+    },
+    {
+     "key": "by",
+     "name": "排序",
+     "value": [
+      {"n": "全部","v": ""},
+      {"n": "时间排序","v": "time"},
+      {"n": "人气排序","v": "hits"},
+      {"n": "评分排序","v": "score"}
+     ]
+    }
+   ]
+  }
+}

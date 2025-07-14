@@ -1,0 +1,16 @@
+{
+    "数组": "module-item&&/span>",
+    "副标题": "<span>&&<",
+    "图片": "http+://vres.bqlpk.cn/vod1/+data-original=\"/vod1/&&\"",
+    "简介": "detail-desc\">&&</p>",
+    "线路数组": "class=\"swiper-slide source-swiper-slide&&</div>",
+    "线路标题": "id=&&</span>",
+    "搜索二次截取": "<div class=\"search-result-list&&pagenation-box fs-margin-section",
+    "搜索数组": "<a&&</a>",
+    "搜索图片": "http+://vres.bqlpk.cn/vod1/+data-original=\"/vod1/&&\"",
+    "搜索标题": "title=\"&&\"",
+    "搜索链接": "href=\"&&\"",
+    "搜索url": "https://www.dushe1.app/search?k={wd}&page={pg}",
+    "分类url": "https://www.dushe1.app/show/{cateId}-{class}-{area}-{lang}-{year}-{by}-{catePg}.html[https://www.dushe1.app/channel/{cateId}.html]",
+    "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$6"
+}

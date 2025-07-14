@@ -1,0 +1,194 @@
+{
+  "ua": "",
+  "homeUrl": "http://www.wltmv2.com/",
+  "dcVipFlag": "true",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
+  "cateNode": "//div[@class='menu']/ul/li/a",
+  "cateName": "/@title",
+  "cateId": "/@href",
+  "cateIdR": "/(\\w+).php", 
+  "cateManual": {
+    "香港剧": "gangju.php",
+    "国产剧": "neidi.php",
+    "台湾剧": "taiju.php",
+    "韩国剧": "hanju.php",
+    "欧美剧": "meiju.php",
+    "综艺": "zongyi.php",
+    "电影": "movie.php"
+  },
+  "homeVodNode": "//div[@class='rb_list']/ul/li/a",
+  "homeVodName": "/img/@title",
+  "homeVodId": "/@href",
+  "homeVodIdR": "/detail.php?(\\w+)",
+  "homeVodImg": "/img/@src",
+  "homeVodImgR": "\\S+(http\\S+)",
+  "homeVodMark": "/div[@class='rb_list_gx')]/p/text()",
+  "cateUrl": "http://www.wltmv2.com/{cateId}?page={catePg}&year={year}",
+  "cateVodNode": "//div[@class='nr_list']/ul/li/a",
+  "cateVodName": "/img/@title",
+  "cateVodId": "/@href",
+  "cateVodIdR": "/detail.php?(\\w+)",
+  "cateVodImg": "/img/@src",
+  "cateVodImgR": "\\S+(http\\S+)",
+  "cateVodMark": "/div[@class='nr_list_gx')]/p/text()",
+  "dtUrl": "http://www.wltmv2.com/{vid}",
+  "dtNode": "//div[@class='detail-ms']",
+  "dtName": "/div[@class='detail-ms-right']/p[@id='detail-ms-right-name']/text()",
+  "dtNameR": "",
+  "dtImg": "/div[@class='detail-ms-left']/a/img/@data-original",
+  "dtImgR": "\\S+(http\\S+)",
+  "dtCate": "/div[@class='detail-ms-right']/p[@id='detail-ms-right-actor']/span[contains(text(), '类型')]/parent::text()",
+  "dtCateR": "",
+  "dtYear": "/div[@class='detail-ms-right']/p[@id='detail-ms-right-actor']/span[contains(text(), '年份')]/parent::text()",
+  "dtYearR": "",
+  "dtArea": "/div[@class='detail-ms-right']/p[@id='detail-ms-right-actor']/span[contains(text(), '地区')]/parent::text()",
+  "dtAreaR": "",
+  "dtMark": "",
+  "dtMarkR": "",
+  "dtActor": "/div[@class='detail-ms-right']/p[@id='detail-ms-right-actor']/span[contains(text(), '主演')]/parent::text()",
+  "dtActorR": "",
+  "dtDirector": "/div[@class='detail-ms-right']/p[@id='detail-ms-right-actor']/span[contains(text(), '导演')]/parent::text()",
+  "dtDirectorR": "",
+  "dtDesc": "/div[@class='detail-ms-right']/p[@id='detail-ms-right-jqjs']/span[contains(text(), '剧情')]/parent::text()",
+  "dtDescR": "",
+  "dtFromNode": "//div[@class='detail']/div[@class='rb_title']/div/p",
+  "dtFromName": "/text()",
+  "dtFromNameR": "",
+  "dtUrlNode": "//div[@class='detail']/div[@class='detail_list']/ul",
+  "dtUrlSubNode": "/li/a",
+  "dtUrlId": "@href",
+  "dtUrlIdR": "",
+  "dtUrlName": "/text()",
+  "dtUrlNameR": "",
+  "playUrl": "http://www.wltmv2.com/{playUrl}",
+  "playUa": "",
+  "searchUrl": "http://www.wltmv2.com/search.php?name={wd}",
+  "scVodNode": "//div[@class='nr_list']/ul/li/a",
+  "scVodName": "/img/@title",
+  "scVodId": "/@href",
+  "scVodIdR": "/detail.php?(\\w+)",
+  "scVodImg": "/img/@src",
+  "scVodMark": "",
+  "filter": {
+    "gangju.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "neidi.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "taiju.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "hanju.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "meiju.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "zongyi.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "movie.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ]
+  }
+}

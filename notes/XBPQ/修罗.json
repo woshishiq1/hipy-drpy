@@ -1,0 +1,17 @@
+{
+  "主页url": "https://v.xlys.ltd.ua",
+  "请求头": "手机",
+  "分类url": "https://v.xlys.ltd.ua/s/all/{catePg}?type={cateId}",
+  "分类": "电视剧$1#电影$0",
+  "数组": "class=\"col-lg-8 col-4\"&&</div>",
+  "副标题": "class=\"badge bg-pink position-absolute top-0 start-0 text-red-fg\">&&</span>",
+  "图片": "src=\"&&\"",
+  "标题": "class=\"mb-0 card-title text-truncate\">&&</h3>",
+  "链接": "href=\"&&\"",
+//"起始页": 2,
+  "倒序": 1,
+  "简介": "剧情简介</h3>&&<div class=\"card mt-3",
+  "播放数组": "<tbody&&</tbody",
+  "播放列表": "<td><a&&</td>"
+}
+

@@ -1,0 +1,17 @@
+{
+    "数组": "ewave-vodlist__thumb lazyload\"&&</a>",
+    "标题": "title=\"&&\"",
+    "副标题": "text-right\">&&</span>",
+    "图片": "data-original=\"&&\"",
+    "链接": "href=\"&&\"",
+    "搜索模式": "1",
+    "搜索url": "http://www.dandanju.cc/search/----{wd}---------.html",
+    "搜索链接": "https://www.dandanju.tv/video/+https://www.dandanju.cc/video/&&.html+.html",
+    "调试": 1,
+    "线路数组": "#playlist*&&</li>",
+    "线路标题": ">&&</a>",
+    "嗅探词": "m3u8",
+    "播放数组": "id=\"playlist*&&</div>",
+    "分类url": "http://www.dandanju.tv/type/{cateId}-{catePg}.html;;ak",
+    "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+}

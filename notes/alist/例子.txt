@@ -1,0 +1,20 @@
+    {
+      "key": "清新淡雅1",
+      "name": "🦷小雅4K",
+      "type": 3,
+      "api": "http://116.22.51.100:5678/tvbox/libs/alist1.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://116.22.51.100:5678/tvbox/json/alist_ext1.json;200;video"
+    },
+    {
+      "key": "清新淡雅2",
+      "name": "🦷小雅4K2",
+      "type": 3,
+      "api": "http://113.87.226.152:5678/tvbox/libs/alist2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://113.87.226.152:5678/tvbox/json/alist_ext2.json;200;video"
+    }

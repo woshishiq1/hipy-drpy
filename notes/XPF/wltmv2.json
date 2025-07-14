@@ -1,0 +1,194 @@
+{
+  "ua": "",
+  "homeUrl": "http://m.wltmv2.com/",
+  "dcVipFlag": "true",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
+  "cateNode": "//div[@class='menu']/ul/li/a",
+  "cateName": "/p/@title",
+  "cateId": "/@href",
+  "cateIdR": "/(\\w+).php", 
+  "cateManual": {
+    "香港剧": "gj.php",
+    "国产剧": "nd.php",
+    "台湾剧": "tj.php",
+    "韩国剧": "hj.php",
+    "欧美剧": "mj.php",
+    "综艺": "zy.php",
+    "电影": "mv.php"
+  },
+  "homeVodNode": "//div[@class='content_list']/ul/li/a",
+  "homeVodName": "/p/text()",
+  "homeVodId": "/@href",
+  "homeVodIdR": "/play.php?(\\w+)",
+  "homeVodImg": "/img/@src",
+  "homeVodImgR": "\\S+(http\\S+)",
+  "homeVodMark": "/span/text()",
+  "cateUrl": "http://m.wltmv2.com/{cateId}?page={catePg}&year={year}",
+  "cateVodNode": "//div[@class='content'][1]//div[@class='content_list']/ul/li/a",
+  "cateVodName": "/p/text()",
+  "cateVodId": "/@href",
+  "cateVodIdR": "/play.php?(\\w+)",
+  "cateVodImg": "/img/@data-original",
+  "cateVodImgR": "\\S+(http\\S+)",
+  "cateVodMark": "/span/text()",
+  "dtUrl": "http://m.wltmv2.com/{vid}",
+  "dtNode": "//body[contains(@class,'mui')]",
+  "dtName": "/div[@class='play_name'][1]/div/p/text()",
+  "dtNameR": "",
+  "dtImg": "",
+  "dtImgR": "",
+  "dtCate": "/div[@class='play_content']/div[@class='play_content_r']/p/span[contains(text(), '类型')]/parent::text()",
+  "dtCateR": "",
+  "dtYear": "/div[@class='play_content']/div[@class='play_content_l']/p/span[contains(text(), '年份')]/parent::text()",
+  "dtYearR": "",
+  "dtArea": "/div[@class='play_content']/div[@class='play_content_l']/p/span[contains(text(), '地区')]/parent::text()",
+  "dtAreaR": "",
+  "dtMark": "",
+  "dtMarkR": "",
+  "dtActor": "/div[@class='play_content']/div[@class='play_content_d']/p/span[contains(text(), '主演')]/parent::text()",
+  "dtActorR": "",
+  "dtDirector": "/div[@class='play_content']/div[@class='play_content_r']/p/span[contains(text(), '导演')]/parent::text()",
+  "dtDirectorR": "",
+  "dtDesc": "/div[@class='play_content']/div[@class='play_content_j']/p/span[contains(text(), '剧情')]/parent::text()",
+  "dtDescR": "",
+  "dtFromNode": "/div[@class='play_name'][1]/div/p",
+  "dtFromName": "/text()",
+  "dtFromNameR": "",
+  "dtUrlNode": "//div[@class='play_list']/div[@class='play_list_num']/ul",
+  "dtUrlSubNode": "/li/a",
+  "dtUrlId": "@href",
+  "dtUrlIdR": "",
+  "dtUrlName": "/text()",
+  "dtUrlNameR": "",
+  "playUrl": "http://m.wltmv2.com/{playUrl}",
+  "playUa": "",
+  "searchUrl": "http://m.wltmv2.com/search.php?name={wd}",
+  "scVodNode": "//div[@class='content_list']/ul/li/a",
+  "scVodName": "/p/text()",
+  "scVodId": "/@href",
+  "scVodIdR": "/play.php?(\\w+)",
+  "scVodImg": "/img/@src",
+  "scVodMark": "",
+  "filter": {
+    "gj.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "nd.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "tj.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "hj.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "mj.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "zy.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ],
+    "mv.php": [
+     {
+       "key": "year",
+       "name": "年份",
+       "value": [
+         {"n": "全部","v": ""},
+         {"n": "2022","v": "2022"},
+         {"n": "2021","v": "2021"},
+         {"n": "2020","v": "2020"},
+         {"n": "2019","v": "2019"},
+         {"n": "2018","v": "2018"},
+         {"n": "2017","v": "2017"},
+         {"n": "2016","v": "2016"},
+         {"n": "2015","v": "2015"}
+       ]
+     }
+  ]
+  }
+}

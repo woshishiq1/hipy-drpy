@@ -1,0 +1,15 @@
+{
+    "请求头": "User-Agent$Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36",
+    "二次截取": "1&&-1+module-item-cover",
+    "数组": "module-item-pic&&module-item-cover",
+    "图片": "data-src\"&&\"",
+    "副标题": "module-item-text*>&&</div",
+    "链接": "href=\"&&\"",
+    "嗅探词": ".m3u8#.mp4#aliyuncs.com",
+    "导演": "导演：&&</div>",
+    "主演": "主演：&&</div>",
+    "简介": "剧情：&&</div>",
+    "搜索url": "https://sc1080.top/index.php/vod/search.html?wd={wd}",
+    "分类url": "https://sc1080.top/index.php/vod/show/id/{cateId}/page/{catePg}.html;;Y",
+    "分类": "电影$1#连续剧$2#综艺$3#动漫$4"
+}

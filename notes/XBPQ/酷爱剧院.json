@@ -1,0 +1,30 @@
+        {
+            "key": "酷爱",
+            "name": "酷爱剧院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://mtv58.com/index.php/vod/show/by/{by}/area/{area}/class/{class}/id/{cateId}/lang/{lang}/page/{catePg}/year/{year}.html",
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3#",
+                "副标题": "<span>&&</span>",
+                "数组": "class=\"module-item-pic\">&&</div>",
+                "图片": "data-src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "搜索模式": "1",
+                "搜索url": "https://mtv58.com/index.php/vod/search/wd/{wd}.html",
+                "搜索数组": "{&&}",
+                "嗅探词": "huoshanvod.com#mp4#m3u8#.m3u8#.mp4#video_mp4#feiyunNB.mp4#.mp4#cdn.123pan.cn#huoshanvod.com#v.123pan.cn#auth_key#app-ali-cdn.fqfilm.com#upos-szbyjkm8g1.bilivideo.com",
+                "搜索标题": "\"name\":\"&&\"",
+                "搜索图片": "\"data-srcl\":\"&&\"",
+                "免嗅": "0",
+                "导演": "导演：</span>&&</div>",
+                "影片类型": "scroll-content\">&&立即播放",
+                "主演": "主演：</span>&&</div>",
+                "影片状态": "集数：&&</div>",
+                "播放数组": "class=\"module-blocklist\"&&</div>",
+                "线路数组": "class=\"module-tab-item tab-item\"&&</div>",
+                "线路标题": "<span>&&</small>[替换:</span><small>>>更新至]+集",
+                "简介": "剧情：&&收起"
+            }
+        }

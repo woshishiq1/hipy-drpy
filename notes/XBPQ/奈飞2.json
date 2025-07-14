@@ -1,0 +1,18 @@
+{
+  "主页url":"https://www.naifei1.org",
+  "数组": "class=\"module-item\">&&</div></div>",
+  "图片": "data-src=\"&&\"",
+  "标题": "title=\"&&\"",
+  "副标题": "module-item-text\">&&</div>",
+  "链接": "href=\"&&\"",
+  "搜索url": "https://www.naifei1.org/vodsearch.html?wd={wd}",
+  "搜索数组": "class=\"module-search-item\">&&</div>",
+  "搜索图片": "data-src=\"&&\"",
+  "搜索标题": "alt=\"&&\"",
+  "搜索链接": "href=\"&&\"",
+  "简介": "剧情:</span>&&\"<a",
+  "线路数组": "<div class=\"module-tab-item tab-item&&</div>",
+  "线路标题": "<span>&&</small>+集",
+  "分类url": "https://www.naifei1.org/vodshow/id/{cateId}/page/{catePg}.html",
+  "分类": "电影$dy#剧集$juji#综艺$zongyi#动漫$dongman#短剧$dj#记录$jilupian"
+}

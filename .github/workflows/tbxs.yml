@@ -1,77 +1,70 @@
-name: Sync Gitee to subfolder and unzip to master
+sync_and_unzip:
+  runs-on: ubuntu-latest
 
-on:
-  schedule:
-    - cron: '0 16 */2 * *'  # 每两天北京时间 00:00 运行
-  workflow_dispatch:         # 支持手动运行
+  steps:
+    - name: Checkout main branch
+      uses: actions/checkout@v3
+      with:
+        ref: main
 
-jobs:
-  sync_and_unzip:
-    runs-on: ubuntu-latest
+    - name: Set up Git config
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
 
-    steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v3
-        with:
-          ref: main
+    - name: Create gitee-source folder and clean it
+      run: |
+        mkdir -p gitee-source
+        rm -rf gitee-source/*
 
-      - name: Set up Git config
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Download Gitee repo ZIP and extract to gitee-source/
+      run: |
+        wget -O gitee.zip https://gitee.com/PizazzXS/another-d/repository/archive/master.zip
+        unzip gitee.zip
+        cp -r another-d-master/* gitee-source/
+        rm -rf another-d-master gitee.zip
 
-      - name: Create gitee-source folder and clean it
-        run: |
-          mkdir -p gitee-source
-          rm -rf gitee-source/*
+    # ✅ 新增：拉取 mofa 仓库 notes 目录内容
+    - name: Clone only notes folder from mofa repo
+      run: |
+        mkdir -p temp-mofa
+        cd temp-mofa
+        git init
+        git remote add origin https://github.com/leilingzero/mofa.git
+        git config core.sparseCheckout true
+        echo "notes/" >> .git/info/sparse-checkout
+        git pull origin main
+        cd ..
+        rm -rf notes
+        cp -r temp-mofa/notes ./notes
+        rm -rf temp-mofa
 
-      - name: Download Gitee repo ZIP and extract to gitee-source/
-        run: |
-          wget -O gitee.zip https://gitee.com/PizazzXS/another-d/repository/archive/master.zip
-          unzip gitee.zip
-          cp -r another-d-master/* gitee-source/
-          rm -rf another-d-master gitee.zip
+    - name: Commit and push to main
+      run: |
+        git add gitee-source/ notes/
+        git commit -m "Sync Gitee and mofa/notes content" || echo "No changes"
+        git push origin main
 
-      - name: Commit and push to main
-        run: |
-          git add gitee-source/
-          git commit -m "Sync Gitee project to gitee-source/" || echo "No changes"
-          git push origin main
+    - name: Switch to master and reset to latest main content
+      run: |
+        git fetch origin
+        if git show-ref --quiet refs/remotes/origin/master; then
+          git checkout master
+        else
+          git checkout -b master
+        fi
+        git reset --hard origin/main
 
-      # ✅ 切换到 master 并强制用 main 内容覆盖
-      - name: Switch to master and reset to latest main content
-        run: |
-          git fetch origin
-          if git show-ref --quiet refs/remotes/origin/master; then
-            git checkout master
-          else
-            git checkout -b master
-          fi
-          git reset --hard origin/main
+    - name: Unzip gitee-source 中的指定 ZIP 文件（保留 ZIP）
+      run: |
+        cd gitee-source
+        if [ -f "单线路.zip" ]; then unzip -o "单线路.zip"; fi
+        if [ -f "多线路.zip" ]; then unzip -o "多线路.zip"; fi
+        cd ..
 
-      # ✅ 解压 gitee-source 中的 ZIP（保留 ZIP 文件）
-      - name: Unzip gitee-source 中的指定 ZIP 文件（保留 ZIP）
-        run: |
-          cd gitee-source
-          if [ -f "单线路.zip" ]; then unzip -o "单线路.zip"; fi
-          if [ -f "多线路.zip" ]; then unzip -o "多线路.zip"; fi
-          cd ..
-
-      # ✅ 提交并强推到 master（保留 zip，忽略 .github）
-      - name: Commit and force push 解压内容到 master（保留 zip）
-        run: |
-          git reset HEAD .github/ || true
-          git add .
-          git commit -m "重置 master 为 main 内容并解压 ZIP" || echo "No changes"
-          git push origin master --force
-
-  cleanup_runs:
-    runs-on: ubuntu-latest
-    needs: sync_and_unzip
-    steps:
-      - name: Delete old workflow runs, keep last 10
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          retain_days: 0
-          keep_minimum_runs: 10
+    - name: Commit and force push 解压内容到 master（保留 zip）
+      run: |
+        git reset HEAD .github/ || true
+        git add .
+        git commit -m "重置 master 为 main 内容并解压 ZIP" || echo "No changes"
+        git push origin master --force

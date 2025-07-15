@@ -113,6 +113,34 @@
             }
         },
         {
+            "key": "知了",
+            "name": "知了｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://zzos.cc",
+                "dataKey": "zzoccc2025555555",
+                "dataIv": "zzoccc2025555555",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
+            "key": "APP4K",
+            "name": "蓝光｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://59.153.167.186",
+                "dataKey": "SDSFET23215FDSF2",
+                "dataIv": "SDSFET23215FDSF2",
+                "deviceId": "",
+                "version": "119"
+            }
+        },
+        {
             "key": "麻花",
             "name": "麻花｜APP",
             "type": 3,
@@ -854,6 +882,21 @@
                 "ratio": 1.433
             },
             "ext": "./json/kf.json"
+        },
+        {
+            "key": "123",
+            "name": "123｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShareCloud123",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            },
+            "ext": "./json/123.json"
         },
         {
             "key": "趣盘",

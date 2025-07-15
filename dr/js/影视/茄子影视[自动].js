@@ -1,0 +1,10 @@
+var rule={
+  title: "茄子影视",
+  模板: "自动",
+  host: "https://qiezi.fun",
+  url: "/vodshow/fyclassfyfilter.html",
+  filterable: 1,
+  filter: "H4sIAAAAAAAAA+2ZW08bRxTHv8s+U2m5JGnylvv9fk+Vh6hCatQ2lZq0UhUhAcaOudogYse1uTWACcVgAyGwrvGX8cza36Jrz7ltW1ZuEypV3Td+/7Mze+aMZ+bP7Eur0zrxxUvr696frBOWGs7rSNTqsJ49+bZX8o9Pvvmht/Xgs6YcXWlEVpqyB1ZfB6ipnPc8qAAYc+Ml6IgBY3ogqftTEAOgPkdWapUc9mmA+sxPqr0y9mmA2lHiDPS++JuaM4zvM4CxemFZja1CDIDeN7LhVjAGIPJ0p8ucZxMotvSK8wSgXArLtf15zMUAtYtNNTLvsJ0Baje76mWO7Qy0U089uOamJjFmgGKRET34M8YM0NjLCRXdxbEbwFhjZkq/WYIYAPWZelUfdrBPAzS+/XV3+r2qlHCIxPREYrH+lmbRAMUmYiqxiTEDNIvVpDcHOIsGuKo5PTNJVW0BxYaq7q84EgCqQGXSLed8CfukvsfNJ2EZ5YpqzBHLCLmtZbSYb2RimIQBKvVyRu9uYKkNcLGKem+fitUCSn5/QmUrmLYBmqKt1xwDoEKOljgGQO3SSzq3hu0MUJ5z77gdAE/7B44BcC5FmUvR1268qJxlbGeA2g0lvEqpOK4WZhrJUtVNFNzhDA6GmJfwvB6tes1oFSPTE9GdWhkXFoCc9vpGob7Sz9NO3Na0Zyve89i5ATENHAOgqd1c5BgATUO6osbTHGYWEyXCBsQEcwxA/GhEzICYYDESA6KEaj3CJWyCb+XsbdfKFbFykNspYZfd+TlorT+Ffoz1Y1I/yvpRqR9h/YjUe1jvkXo3691S72K9S+qdrHdK3Wbd9hemkNYb46IwyH8oDMmyMCdBOEnKKVBOkXIalNOknAHlDClnQTlLyjlQzpFyHpTzpFwA5QIpF0G5SMolUC6RchmUy6RcAeUKKVdBuUrKNVCukXIdlOuk3ADlBik3QblJyi1QbpFyG5TbpNwB5Q4pd0G5S8o9UO6Rch+U+6Q8AOUBKQ9BeUjKI1AekWJ/dhw0/w9FT0wpJ8E/FGL/D0WndxrpbQ560ounXgPsvuY4ujjti3/19MVz3pI2hlQ85os///K773ubuTzusLqEqXRLZTU7yhkRB6xpXizeVlhz8mwsxfryTj/vnBMhXpLedtU8djjEq1iv5ZsnIId44ev3H9RiikNdIo3Wdi9C3f7l+VHGOcDmBJlV47XUwI6K4Bz4pHaMuVrfUQ5t1gbaNLwHGvMgwxtkzIMsXZABre0tsKUDYFMb1Rl0TAD0vtcxNtEAwu5xzQDa9QEfZ/9iUe958qctaMdW/VNrGGTjgm3jwVYt0Damip6zUjML9E8Bcmiz/mSzQrtk/Q27RLp9nHTvT6HzeG05XpvHZctx2TwuW47L5nF5f4Y2zQpt2n/TpnV/qru/Rv+wm+/HDc6APIKH5sQR7AHlt16tF+O45RqgdlMFPYK3MQC8aUb1LtoBAN5st2p7SdpsWyBOtMZbzAWAYs6qWp/FmAF6X3ZT3GMZoHbTc3qb7iENsEXd1fFEzZni+yifRHXY/sUzNVgHA9RHabA+MIatDfwrdsP4a0q7BX6DzadWE/wOG2MGwgM8PMCtwzvAeby2HG94sFvhwf5/PNh7PtXBHnR4B32AcyOF+gIaAgDqc2LFTeIXDgCKJWfdNfpAZYDPqoM/iNWTM/UJvCcBoD7nF1SWNmgD1GfAPYbOOeIjmwF6X8AnpqA7G1X0yrSN7zMgY0tbIuYB1XNxv/YbfpwDoHYTcyqexXYG+He0qQpohgCoz+yIzqCpAeC6lFQ1TXVpgTjUDvH+o3Xfx+d7E8RJe+BdxV+ajjYTDg1JaEhCQxIaktCQHJIh6fsduowPxmckAAA=",
+  filter_url: "-{{fl.地区}}-{{fl.排序}}-{{fl.剧情}}-{{fl.语言}}-{{fl.字母}}---fypage---{{fl.年份}}",
+  class_parse: ".navbar-items&&li;a&&Text;a&&href;(\\d+)",
+}

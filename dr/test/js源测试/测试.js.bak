@@ -1,0 +1,201 @@
+var rule = {
+    类型: '影视',
+    title: '剧巴巴',
+    host: 'https://www.jubaba.cc',
+    headers: {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36',
+        'Referer': 'https://www.jubaba.cc/',
+        'Origin': 'https://www.jubaba.cc'
+    },
+    编码: 'utf-8',
+    timeout: 15000,  // 增加超时时间
+    url: '/vodshow/fyclass--------fypage---.html',
+    detailUrl: '/voddetail/fyid.html',
+    searchUrl: '/vodsearch/**----------fypage---.html',
+    searchable: 1,
+    quickSearch: 1,
+    filterable: 0,
+    class_name: '电影&剧集&综艺&动漫',
+    class_url: '1&2&3&4',
+    play_parse: true,
+    lazy: $js.toString(() => {
+        // 精简版播放解析逻辑
+        try {
+            const iframe = document.querySelector("#playleft iframe");
+            if (!iframe) throw new Error("未找到播放iframe");
+            
+            const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+            const script = iframeDoc.querySelector("script");
+            if (!script) throw new Error("未找到播放脚本");
+            
+            // 提取播放配置
+            const scriptText = script.textContent;
+            const match = scriptText.match(/var\s+player\s*=\s*(\{.*?\});/);
+            if (!match) throw new Error("未找到播放配置");
+            
+            const playerConfig = JSON.parse(match[1]);
+            
+            // 请求播放地址
+            const apiRes = fetch(rule.host + '/bbplayer/api.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    'User-Agent': rule.headers['User-Agent']
+                },
+                body: `vid=${playerConfig.url}`
+            }).json();
+            
+            const data = apiRes.data;
+            let url = '';
+            
+            // 简单的播放地址检测
+            if (data.url && (data.url.includes('.m3u8') || data.url.includes('.mp4'))) {
+                url = data.url;
+            } else if (jstr.url && (jstr.url.includes('.m3u8') || jstr.url.includes('.mp4'))) {
+                url = jstr.url;
+            }
+            
+            if (!url) throw new Error('未找到播放地址');
+            
+            return {
+                parse: 0,
+                url: url,
+                header: JSON.stringify({ 'User-Agent': 'okhttp/3.12.1' })
+            };
+        } catch (e) {
+            return {
+                parse: 1,
+                url: input,
+                click: 'document.querySelector("#playleft iframe").contentWindow.document.querySelector("#start").click()'
+            };
+        }
+    }),
+    limit: 9,
+    double: false,
+    推荐: 'ul.ewave-vodlist;.lazyload&&title;.lazyload&&data-original;.pic-text&&Text;.thumb-link&&href',
+    一级: $js.toString(() => {
+        // 精确的人机验证实现 - 根据提供的页面代码
+        const encrypt = (str) => {
+            const staticchars = "PXhw7UT1B0a9kQDKZsjIASmOezxYG4CHo5Jyfg2b8FLpEvRr3WtVnlqMidu6cN";
+            let encodechars = "";
+            for (let i = 0; i < str.length; i++) {
+                const char = str[i];
+                const num0 = staticchars.indexOf(char);
+                if (num0 === -1) {
+                    encodechars += char;
+                } else {
+                    const code = staticchars[(num0 + 3) % 62];
+                    const num1 = Math.floor(Math.random() * 62);
+                    const num2 = Math.floor(Math.random() * 62);
+                    encodechars += staticchars[num1] + code + staticchars[num2];
+                }
+            }
+            return base64(encodechars);
+        };
+        
+        // 获取分类URL
+        const classUrl = RULE.url.replace('fyclass', RULE.tid).replace('fypage', RULE.pg);
+        const fullUrl = rule.host + classUrl;
+        
+        // 第一次请求
+        let res = fetch(fullUrl, {
+            headers: rule.headers,
+            timeout: rule.timeout
+        });
+        let html = res.content;
+        
+        // 检查人机验证
+        if (html.includes('人机验证') || html.includes('防火墙正在检查您的访问')) {
+            // 生成验证数据 - 完全按照页面逻辑
+            const value = encrypt(fullUrl);  // 当前完整URL
+            const token = encrypt("MTc1MDU2NTQ5OA==");  // 固定token
+            
+            // 提交验证
+            const verifyRes = fetch(rule.host + '/robot.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    'User-Agent': rule.headers['User-Agent'],
+                    'Referer': fullUrl,
+                    'Origin': rule.host
+                },
+                body: `value=${value}&token=${token}`
+            });
+            
+            // 等待验证处理完成
+            sleep(1500);  // 模拟页面中的setTimeout
+            
+            // 重新请求原始URL
+            res = fetch(fullUrl, {
+                headers: rule.headers,
+                timeout: rule.timeout
+            });
+            html = res.content;
+            
+            // 二次验证检查
+            if (html.includes('人机验证') || html.includes('防火墙正在检查您的访问')) {
+                // 再次尝试验证
+                const verifyRes2 = fetch(rule.host + '/robot.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'User-Agent': rule.headers['User-Agent'],
+                        'Referer': fullUrl,
+                        'Origin': rule.host
+                    },
+                    body: `value=${value}&token=${token}`
+                });
+                
+                sleep(1500);
+                
+                // 第二次重新请求
+                res = fetch(fullUrl, {
+                    headers: rule.headers,
+                    timeout: rule.timeout
+                });
+                html = res.content;
+            }
+        }
+        
+        // 解析视频列表
+        const $ = parseDOM(html);
+        const videos = [];
+        
+        $('.ewave-vodlist li').each(function() {
+            const $this = $(this);
+            const $img = $this.find('.lazyload');
+            const $link = $this.find('.thumb-link');
+            
+            const href = $link.attr('href') || '';
+            const match = href.match(/\/voddetail\/(\d+)\.html/);
+            
+            if (match && match[1]) {
+                videos.push({
+                    vod_id: match[1],
+                    vod_name: $img.attr('title') || '',
+                    vod_pic: $img.attr('data-original') || '',
+                    vod_remarks: $this.find('.pic-text').text().trim() || ''
+                });
+            }
+        });
+        
+        // 返回结果
+        return JSON.stringify({
+            page: parseInt(RULE.pg),
+            pagecount: 9999,
+            total: 999999,
+            list: videos
+        });
+    }),
+    二级: {
+        title: 'h1&&Text;.data--span:eq(0)&&Text',
+        img: 'img.lazyload&&data-original',
+        desc: '*;*;*;.data--span:eq(1)&&Text;.data--span:eq(2)&&Text',
+        content: 'meta[name=description]&&content',
+        tabs: '.nav-tabs&&a',
+        lists: '.ewave-content__playlist:eq(#id)&&a',
+        list_text: 'body&&Text',
+        list_url: 'a&&href',
+    },
+    搜索: '.ewave-vodlist li;.lazyload&&title;.lazyload&&data-original;.pic-text&&Text;.thumb-link&&href',
+}

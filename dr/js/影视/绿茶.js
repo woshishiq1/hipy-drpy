@@ -1,0 +1,11 @@
+var rule={
+  title: "绿茶",
+  模板:"mxpro",
+  host: "https://lvcha.asia",
+  url: "/index.php/vod/show/id/fyclass/fyfilter.html",
+  searchUrl: "/index.php/vod/search/page/fypage/wd/**.html",
+  filterable: 1,
+  filter: "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",
+  filter_url: "{{fl.地区}}{{fl.排序}}{{fl.剧情}}{{fl.语言}}{{fl.字母}}/page/fypage{{fl.年份}}",
+  class_parse: ".navbar-items li;a&&Text;a&&href;(\\d+)",
+}

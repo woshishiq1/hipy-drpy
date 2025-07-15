@@ -1,0 +1,14 @@
+{
+ "请求头": "手机",
+ "数组": "<a&&</a>",
+ "搜索": "https://m.qiongdy6.com/query/{wd}",
+ "搜索列表数组规则": "body&&.form-control&&.btn-default",
+ "图片": "data-lazy-img=\"&&\"",
+ "标题": "title=\"&&\"",
+ "链接": "href=\"&&\"",
+ "副标题": "class=\"newest\">&&</span>",
+ "播放数组": "class=\"play-list\">&&</ul>",
+ "线路标题": "data-key=\"*\">&&</a>",
+ "分类": "电影$nowplayingmovie#电视剧$topsearchtv#综艺$topsearchshow#动漫$topsearchcomic",
+ "分类url": "https://m.qiongdy6.com/top/{cateId}_{catePg}.html"
+}

@@ -1,0 +1,16 @@
+{
+ "主页url": "https://xiaohys.com/",
+ "分类url": "https://xiaohys.com/show/{cateId}-{area}--{class}-{lang}----{by}---{year}",
+ "分类": "电影$movie#电视剧$tv#综艺$variety#动漫$anime",
+ "数组": "public-list-div public-list-bj&&</div>",
+ "标题": "class=\"public-list-button\">*>&&</a>",
+ "副标题": "public-list-prb hide ft2\">&&</span>",
+ "图片": "data-src=\"&&\"",
+ "链接": "href=\"&&\"",
+ "播放数组": "anthology-list-play size&&</ul>",
+ "播放列表": "<a&&</a>",
+ "播放标题": ">&&</a>",
+ "线路数组": "swiper-slide&&</a>",
+ "线路标题": "</i>&&<span",
+ "搜索url": "https://xiaohys.com/search/-------------/?wd={wd}"
+}

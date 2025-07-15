@@ -20,7 +20,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # 同步 Gitee 仓库
+      # ✅ 同步 Gitee 仓库
       - name: Create gitee-source folder and clean it
         run: |
           mkdir -p gitee-source
@@ -33,7 +33,7 @@ jobs:
           cp -r another-d-master/* gitee-source/
           rm -rf another-d-master gitee.zip
 
-      # ✅ 同步 jak0099/dr 的 master 到 dr 目录
+      # ✅ 同步 jak0099/dr 仓库 master 到 dr 目录
       - name: Fetch jak0099/dr master branch into dr directory
         run: |
           mkdir -p dr
@@ -42,10 +42,19 @@ jobs:
           cp -r temp-dr/* dr/
           rm -rf temp-dr
 
+      # ✅ 同步 cluntop/tvbox 仓库 main 到 tvbox 目录
+      - name: Fetch cluntop/tvbox main branch into tvbox directory
+        run: |
+          mkdir -p tvbox
+          rm -rf tvbox/*
+          git clone --depth 1 --branch main https://github.com/cluntop/tvbox.git temp-tvbox
+          cp -r temp-tvbox/* tvbox/
+          rm -rf temp-tvbox
+
       - name: Commit and push to main
         run: |
-          git add gitee-source/ dr/
-          git commit -m "Sync Gitee project and jak0099/dr to main" || echo "No changes"
+          git add gitee-source/ dr/ tvbox/
+          git commit -m "Sync Gitee, jak0099/dr, and cluntop/tvbox projects to main" || echo "No changes"
           git push origin main
 
       # ✅ 切换到 master 并重置为 main
@@ -59,7 +68,7 @@ jobs:
           fi
           git reset --hard origin/main
 
-      # ✅ 解压 gitee-source 中的 ZIP 文件（保留 zip）
+      # ✅ 解压 gitee-source 中的 ZIP 文件（保留 ZIP）
       - name: Unzip gitee-source 中的指定 ZIP 文件（保留 ZIP）
         run: |
           cd gitee-source

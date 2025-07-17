@@ -347,173 +347,10 @@
 			"changeable": 0
 		},
 		{
-			"key": "py_APPV2",
-			"name": "APPV2(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/APPV2.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_hitvAPP",
-			"name": "hitvAPP(T3)",
-			"type": 3,
-			"jar": "null",
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/hitvAPP.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_三号动漫APP",
-			"name": "三号动漫(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/三号动漫APP.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_光速APP",
-			"name": "光速APP(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/光速APP.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_剧多短剧APP",
-			"name": "剧多短剧(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/剧多短剧APP.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_小苹果APP",
-			"name": "小苹果(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/小苹果APP.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_悠悠APP",
-			"name": "悠悠APP(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/悠悠APP.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_火车太顺APP",
-			"name": "火车太顺(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/火车太顺APP.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_LIVES",
-			"name": "LIVES(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/LIVES.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_LREEOK",
-			"name": "LREEOK(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/LREEOK.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_甜圈",
-			"name": "甜圈短剧(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/甜圈短剧.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_红果",
-			"name": "红果网页(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/红果网页.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_绝对",
-			"name": "绝对影视(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/绝对影视.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_金牌",
-			"name": "金牌影院(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/金牌.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_小红",
-			"name": "小红影视(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/小红影视.py",
-			"searchable": 1,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_嗷呜",
-			"name": "嗷呜动漫(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/嗷呜动漫.py",
-			"quickSearch": 1,
-			"searchable": 1,
-			"filterable": 0
-		},
-		{
-			"key": "py_零度",
-			"name": "零度影视(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/零度影视APP.py",
-			"quickSearch": 1,
-			"searchable": 1,
-			"filterable": 1
-		},
-		{
 			"key": "py_国外",
 			"name": "国外剧情(T3)",
 			"type": 3,
 			"api": "https://gh.clun.top/raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/py_guowaiju.py",
-			"quickSearch": 1,
-			"searchable": 1,
-			"filterable": 1
-		},
-		{
-			"key": "py_奇迹",
-			"name": "奇迹APP(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/奇迹APP.py",
 			"quickSearch": 1,
 			"searchable": 1,
 			"filterable": 1
@@ -528,51 +365,6 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"playerType": 2
-		},
-		{
-			"key": "py_骚火",
-			"name": "骚火电影(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/骚火电影.py",
-			"quickSearch": 1,
-			"searchable": 1,
-			"filterable": 1
-		},
-		{
-			"key": "py_剧粑",
-			"name": "剧粑粑视(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/剧粑粑.py",
-			"quickSearch": 1,
-			"searchable": 1,
-			"filterable": 1
-		},
-		{
-			"key": "py_柯南",
-			"name": "柯南影视(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/html/柯南影视.py",
-			"quickSearch": 1,
-			"searchable": 1,
-			"filterable": 1
-		},
-		{
-			"key": "py_海马",
-			"name": "海马影视(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/海马影视APP.py",
-			"quickSearch": 1,
-			"searchable": 1,
-			"filterable": 1
-		},
-		{
-			"key": "py_热播",
-			"name": "热播影视(T3)",
-			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/JJBJJ/PyramidStore/refs/heads/main/plugin/app/热播APP.py",
-			"quickSearch": 1,
-			"searchable": 1,
-			"filterable": 1
 		},
 		{
 			"key": "py_猎手",
@@ -1589,29 +1381,6 @@
 			"name": "== 8 =="
 		},
 		{
-			"key": "虎牙直播",
-			"name": "虎牙直播",
-			"type": 3,
-			"api": "csp_XYQHiker",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"jar": "./custom_spider.jar",
-			"ext": "./虎牙直播.json"
-		},
-		{
-			"key": "Wo4k",
-			"name": "玩偶4K",
-			"type": 3,
-			"api": "csp_Wo4k",
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 1,
-			"timeout": 60,
-			"ext": "./json/tokenm.json$$$https://www.wo4k.com/$$$proxy$$$1$$$./json/wogg.json",
-			"order_num": 9999
-		},
-		{
 			"key": "Hdhive",
 			"name": "影巢网盘",
 			"type": 3,
@@ -1622,46 +1391,6 @@
 			"timeout": 60,
 			"ext": "./json/tokenm.json$$$proxy$$$1",
 			"order_num": 9999
-		},
-		{
-			"key": "9",
-			"name": "== 9 =="
-		},
-		{
-			"key": "爱奇艺",
-			"name": "爱奇艺",
-			"type": 3,
-			"api": "./py/like.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "芒果TV",
-			"name": "芒果TV",
-			"type": 3,
-			"api": "./py/Mang.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "腾讯视频",
-			"name": "腾讯视频",
-			"type": 3,
-			"api": "./py/Teng.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
-		},
-		{
-			"key": "优酷视频",
-			"name": "优酷视频",
-			"type": 3,
-			"api": "./py/actor.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1
 		}
 	],
 	"lives": [

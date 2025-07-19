@@ -73,16 +73,6 @@
             }
         },
         {
-            "key": "闪影",
-            "name": "闪影｜APP",
-            "type": 3,
-            "api": "csp_AppYs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
-        },
-        {
             "key": "行动",
             "name": "行动｜APP",
             "type": 3,
@@ -145,8 +135,8 @@
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "",
-                "site": "https://apicoss-alimama-com-1307821617.file.myqcloud.com/Uploadsget",
+                "url": "http://124.223.27.166:130",
+                "site": "",
                 "dataKey": "q7gj4f9br3fls6nh",
                 "dataIv": "q7gj4f9br3fls6nh",
                 "deviceId": "",
@@ -193,6 +183,20 @@
                 "url": "https://qjappcms.jm4k.top",
                 "dataKey": "pBVmysmGX8TsgrQN",
                 "dataIv": "pBVmysmGX8TsgrQN",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+        {
+            "key": "顾我",
+            "name": "顾我｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "ext": {
+                "url": "http://121.62.21.14:520",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
                 "deviceId": "",
                 "version": "120"
             }

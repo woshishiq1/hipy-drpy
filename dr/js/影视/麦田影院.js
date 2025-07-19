@@ -2,10 +2,11 @@
 var rule = {
     类型: '影视',//影视|听书|漫画|小说
     title: '麦田影院',
-    //host: 'https://www.mtyy1.com',
+    //host: 'https://www.mtyy2.com',
     host: `https://www.mtyy${(r => r < 0.5 ? '2' : ['1','3','4','5','6','7','8','9'][(r-0.5)*16|0])(Math.random())}.com`,
     url: '/vodshow/fyclass-fyfilter.html',
-    searchUrl: '/vodsearch/**----------fypage---.html',
+    searchUrl: "/index.php/ajax/suggest?mid=1&wd=**&limit=50",
+    detailUrl:  "/voddetail/fyid.html",
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
@@ -23,11 +24,10 @@ var rule = {
     timeout: 5000,
     class_parse: '.head-nav li;a&&Text;a&&href;/(\\d+)\.html',
     play_parse: true,
-    lazy: $js.toString(() => {
-        input = {parse: 1, url: input, js: ''};
-    }),
+    lazy: "js:\n  let html = request(input);\n  let hconf = html.match(/r player_.*?=(.*?)</)[1];\n  let json = JSON5.parse(hconf);\n  let url = json.url;\n  if (json.encrypt == '1') {\n    url = unescape(url);\n  } else if (json.encrypt == '2') {\n    url = unescape(base64Decode(url));\n  }\n  if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {\n    input = {\n      parse: 0,\n      jx: 0,\n      url: url,\n    };\n  } else {\n    input;\n  }",  
     double: true,
-    推荐: '.box-width .public-list-box;body;.public-list-div a&&title;.public-list-div img&&data-src;.public-list-div .public-list-prb&&Text;.public-list-div a&&href',
+    //推荐: '.box-width .public-list-box;body;.public-list-div a&&title;.public-list-div img&&data-src;.public-list-div .public-list-prb&&Text;.public-list-div a&&href',
+    推荐: '.slide-time-bj;body;.this-desc-title&&Text;.slide-time-img3&&style;.this-desc-info span:eq(3)&&Text;a&&href;.this-desc-item&&Text',
     一级: '.flex.wrap.border-box.public-r .public-list-box;.public-list-button a.time-title&&Text;.public-list-bj img&&data-src;.public-list-bj .public-list-prb&&Text;.public-list-button a.time-title&&href',
     二级: {
         title: '.slide-desc-box .this-desc-title&&Text;.gen-search-form li:eq(6)&&Text',
@@ -41,6 +41,5 @@ var rule = {
         list_url: 'a&&href',
         list_url_prefix: '',
     },
-    搜索: '*',
-    搜索验证标识:'系统安全验证',
+    搜索: 'json:list;name;pic;en;id',
 }

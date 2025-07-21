@@ -73,6 +73,18 @@
             }
         },
         {
+            "key": "追忆",
+            "name": "追忆｜APP",
+            "type": 3,
+            "api": "csp_AppSy",
+            "ext": {
+                "url": "http://110.42.7.130:1866",
+                "key1": "aassddwwxxllsx1x",
+                "key2": "2083c87e98b6ce08",
+                "key3": "2083c87e98b6ce08"
+            }
+        },
+        {
             "key": "行动",
             "name": "行动｜APP",
             "type": 3,
@@ -92,24 +104,24 @@
             "api": "csp_AppGet2",
             "ext": {
                 "url": "",
-                "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/2.txt",
-                "dataKey": "qwertyuiopqwertt",
-                "dataIv": "qwertyuiopqwertt",
+                "site": "https://omofun.lol/coffee.txt",
+                "dataKey": "qwertyuiopqwertm",
+                "dataIv": "qwertyuiopqwertm",
                 "deviceId": "",
-                "version": "109",
+                "version": "",
                 "ua": "okhttp/3.10.0"
             }
         },
         {
-            "key": "知了",
-            "name": "知了｜APP",
+            "key": "稀饭",
+            "name": "稀饭｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://zzos.cc",
-                "dataKey": "zzoccc2025555555",
-                "dataIv": "zzoccc2025555555",
+                "url": "https://app.xifanys.com",
+                "dataKey": "HM6Ly9yeS4ya3dvL",
+                "dataIv": "HM6Ly9yeS4ya3dvL",
                 "deviceId": "",
                 "version": "119"
             }
@@ -174,27 +186,14 @@
             }
         },
         {
-            "key": "橘猫",
-            "name": "橘猫｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "https://qjappcms.jm4k.top",
-                "dataKey": "pBVmysmGX8TsgrQN",
-                "dataIv": "pBVmysmGX8TsgrQN",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
             "key": "顾我",
             "name": "顾我｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet2",
             "ext": {
-                "url": "http://121.62.21.14:520",
+                "url": "",
+                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/app.txt",
                 "dataKey": "ca94b06ca3c7d80e",
                 "dataIv": "ca94b06ca3c7d80e",
                 "deviceId": "",
@@ -251,7 +250,7 @@
             "quickSearch": 1,
             "api": "csp_AppGet2",
             "ext": {
-                "url": "https://qjappcms.cs4k.top",
+                "url": "https://newappcms.cs4k.top",
                 "dataKey": "Z98KXaLtO2wC1Pte",
                 "dataIv": "Z98KXaLtO2wC1Pte",
                 "deviceId": "",
@@ -344,15 +343,15 @@
             }
         },
         {
-            "key": "魔方",
-            "name": "魔方｜APP",
+            "key": "瓜萌",
+            "name": "瓜萌｜APP",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://mfsp33.top",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321",
+                "url": "https://www.guahd.com",
+                "dataKey": "f2A7D4B9E8C16531",
+                "dataIv": "f2A7D4B9E8C16531",
                 "deviceId": "",
                 "version": ""
             }
@@ -386,20 +385,6 @@
             }
         },
         {
-            "key": "瓜萌",
-            "name": "瓜萌｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.guahd.com",
-                "dataKey": "f2A7D4B9E8C16531",
-                "dataIv": "f2A7D4B9E8C16531",
-                "deviceId": "",
-                "version": ""
-            }
-        },
-        {
             "key": "晴天",
             "name": "晴天｜APP",
             "type": 3,
@@ -411,20 +396,6 @@
                 "dataIv": "sBxqXVF5pAHbGzrH",
                 "deviceId": "",
                 "version": "119"
-            }
-        },
-        {
-            "key": "再看",
-            "name": "再看｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://149.88.64.161:8627",
-                "dataKey": "123456789ABCDEFG",
-                "dataIv": "123456789ABCDEFG",
-                "deviceId": "2bb4c10f3e043307dbfc579bd0db23f4e",
-                "version": "110"
             }
         },
         {
@@ -674,7 +645,7 @@
         },
         {
             "key": "小斑快映",
-            "name": "小斑快映｜4K弹幕",
+            "name": "快映｜4K弹幕",
             "type": 3,
             "api": "csp_PanWebShare",
             "searchable": 1,
@@ -1067,13 +1038,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "playerType": 2
-        },
-        {
-            "key": "短剧网",
-            "name": "短剧网｜短剧",
-            "type": 3,
-            "api": "csp_HBPQ",
-            "ext": "./XBPQ/短剧网.json"
         },
         {
             "key": "短剧屋",
@@ -1722,20 +1686,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "阿里云盘",
-            "name": "阿里｜云盘",
-            "type": 3,
-            "api": "csp_PanAli",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": "./json/aliShare.json"
         },
         {
             "key": "夸克云盘",

@@ -1397,8 +1397,15 @@
 		{
 			"name": "cluntop",
 			"type": 0,
-			"url": "https://gh.clun.top/raw.githubusercontent.com/cluntop/sh/refs/heads/main/iptv.m3u",
+			"url": "./lib/iptv.m3u",
 			"ua": "okhttp/4.1.0"
+		},
+		{
+			"name": "平台直播",
+			"type": 0,
+			"url": "https://tv.iill.top/m3u/Live",
+			"ua": "okhttp/3.15",
+			"playerType": 2
 		},
 		{
 			"name": "LITV 直播",

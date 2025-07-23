@@ -1,28 +1,32 @@
 {
 	"urls": [
 		{
-			"url": "./box.json",
+			"url": "https://clun.top/box.json",
 			"name": "自用"
 		},
 		{
-			"url": "./fty.json",
+			"url": "https://clun.top/fty.json",
 			"name": "饭总"
 		},
 		{
-			"url": "./aa.json",
+			"url": "https://clun.top/aa.json",
 			"name": "张佬"
 		},
 		{
-			"url": "./svip.json",
+			"url": "https://clun.top/svip.json",
 			"name": "拾光"
 		},
 		{
-			"url": "./moyu.json",
+			"url": "https://clun.top/moyu.json",
 			"name": "摸鱼"
 		},
 		{
-			"url": "./jsm.json",
+			"url": "https://clun.top/jsm.json",
 			"name": "PG"
+		},
+		{
+			"url": "https://clun.top/ok.json",
+			"name": "OK"
 		}
 	]
 }

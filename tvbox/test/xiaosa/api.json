@@ -101,14 +101,14 @@
             "name": "咖啡｜APP",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppGet2",
+            "api": "csp_AppGet",
             "ext": {
                 "url": "",
-                "site": "https://omofun.lol/coffee.txt",
-                "dataKey": "qwertyuiopqwertm",
-                "dataIv": "qwertyuiopqwertm",
+                "site": "https://omofun.lol/1.txt",
+                "dataKey": "skdhalkshqklwkj1",
+                "dataIv": "skdhalkshqklwkj1",
                 "deviceId": "",
-                "version": "",
+                "version": "109",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -884,16 +884,6 @@
             }
         },
         {
-            "key": "懒盘",
-            "name": "懒盘｜4K弹幕",
-            "type": 3,
-            "api": "./js/cloud.min.js",
-            "ext": "./js/懒盘.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "百酷",
             "name": "百酷｜4K弹幕",
             "type": 3,
@@ -1077,6 +1067,17 @@
             "name": "猎手｜影视",
             "type": 3,
             "api": "./py/猎手影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "零度影视",
+            "name": "零度｜影视",
+            "type": 3,
+            "api": "./py/零度影视.py",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -1509,13 +1510,6 @@
             "ext": "./js/花子动漫.js"
         },
         {
-            "key": "樱花动漫",
-            "name": "樱花｜动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/樱花动漫.js"
-        },
-        {
             "key": "动画片",
             "name": "动画片｜动漫",
             "type": 3,
@@ -1762,12 +1756,6 @@
             "ext": "./json/alist.json"
         },
         {
-            "key": "网络直播",
-            "name": "网络｜直播",
-            "type": 3,
-            "api": "./py/网络直播.py"
-        },
-        {
             "key": "88看球",
             "name": "88｜看球",
             "type": 3,
@@ -1776,6 +1764,18 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "网络直播",
+            "name": "网络｜直播",
+            "type": 3,
+            "api": "./py/网络直播.py"
+        },
+        {
+            "key": "哔哩直播",
+            "name": "哔哩｜直播",
+            "type": 3,
+            "api": "./py/哔哩直播.py"
         },
         {
             "key": "哔哩合集",

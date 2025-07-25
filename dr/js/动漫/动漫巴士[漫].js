@@ -1,3 +1,4 @@
+//发布页 http://dm84.pro/
 var rule = {
     author: '小可乐/240526/第一版',
     title: '动漫巴士[漫]',

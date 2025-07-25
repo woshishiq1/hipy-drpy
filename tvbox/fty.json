@@ -1,10 +1,10 @@
 {
-  "spider": "./jar/fty.jar;md5;440eff67119a8dc4cef90f8856076a90",
+  "spider": "./jar/fty.jar;md5;53ad14bb641d6ad5b1a76ea48f35cb7d",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
       "key": "豆",
-      "name": "豆瓣推荐",
+      "name": "修复926看球【神秘的哥哥们】",
       "type": 3,
       "api": "csp_DouDouGuard",
       "indexs": 1,
@@ -292,7 +292,8 @@
       "changeable": 0,
       "style": {
         "type": "list"
-      }
+      },
+      "ext": "uqGL1fpJNAUa4uUHi9iMsef1+C/R"
     },
     {
       "key": "88",
@@ -354,7 +355,7 @@
       "key": "斗鱼js",
       "name": "🐟斗鱼┃直播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "./lib/drpy2-fty.min.js",
       "ext": "./lib/斗鱼直播.js",
       "style": {
         "type": "rect",
@@ -370,7 +371,7 @@
       "key": "有声小说js",
       "name": "🎧有声┃小说",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "./lib/drpy2-fty.min.js",
       "ext": "./lib/有声小说吧.js",
       "style": {
         "type": "rect",
@@ -534,7 +535,7 @@
       "key": "dr_兔小贝",
       "name": "📚儿童┃启蒙",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "./lib/drpy2-fty.min.js",
       "ext": "./lib/兔小贝.js",
       "style": {
         "type": "rect",

@@ -8,6 +8,14 @@
 			"ext": "proxy"
 		},
 		{
+			"key": "美少女",
+			"name": "美少女",
+			"type": 0,
+			"api": "https://www.msnii.com/api/xml.php",
+			"searchable": 1,
+			"quickSearch": 1
+		},
+		{
 			"key": "av资源",
 			"name": "av资源",
 			"type": 1,

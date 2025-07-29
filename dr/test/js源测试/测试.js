@@ -1,56 +1,33 @@
 var rule = {
-    title: '酷短剧',
-    host: 'http://wapi.kuwo.cn',
-    url: '/openapi/v1/shortplay/moduleMore?currentPage=fypage&moduleId=fyclass&rn=12',    
-    detailUrl: '/openapi/v1/shortplay/videoList?albumId=fyid',
-    searchUrl: '',
-    searchable: 0,
-    quickSearch: 0,
-    filterable: 0,
-    headers: {
-        'User-Agent': 'MOBILE_UA',
-        'Referer': 'http://www.kuwo.cn/',
-        'Origin': 'http://www.kuwo.cn'
-    },
-    timeout: 15000,
-    class_name: '猜你想看&土味爱情&更多精彩&霸道总裁的人生&赘婿当道&漫漫追妻路&家庭情感&热门短剧',
-    class_url: '10&11&12&13&14&15&16&5',
-    play_parse: true,
-    double: true,    
-    推荐: $js.toString(() => {
-        let url = 'http://wapi.kuwo.cn/openapi/v1/shortplay/moduleMore?currentPage=1&moduleId=5&rn=12';
-        let res = request(url, {headers: rule.headers});
-        let json = JSON.parse(res);
-        if (json.code === 200 && json.data && json.data.list) {
-            VODS = json.data.list.map(item => ({
-                vod_id: item.id,
-                vod_name: item.title,
-                vod_pic: item.img,
-                vod_remarks: item.currrentDesc || ''
-            }));
-        } else {
-            VODS = [];
-        }
-    }),    
-    一级: $js.toString(() => {        
-        let res = request(url, {headers: rule.headers});
-        let json = JSON.parse(res);        
-        if (json.code === 200 && json.data && json.data.list) {
-            VODS = json.data.list.map(item => ({
-                vod_id: item.id,
-                vod_name: item.title,
-                vod_pic: item.img,
-                vod_remarks: item.currrentDesc || ''
-            }));
-        } else {
-            VODS = [];
-        }
-    }),
-    
-    二级: $js.toString(() => {
-        VODS = JSON.parse(fetch(input)).list
-    }), 
-  lazy:$js.toString(()=>{
-    
-  }),
+  title: 'Free追剧',
+  host: 'https://www.lreeok.vip',
+  class_name: '电影&连续剧&动漫&综艺',
+  class_url: '1&2&3&4',
+  searchUrl: '/index.php/ajax/suggest?mid=1&wd=**&limit=50',
+  searchable: 2,
+  quickSearch: 0,
+  headers: {
+    'User-Agent': 'MOBILE_UA',
+  },
+  url: '/index.php/api/vod#type=fyclass&page=fypage',
+  filterable: 0,
+  filter_url: '',
+  filter: {},
+  filter_def: {},
+  detailUrl: '/detail/fyid/',
+  play_parse: true,
+  lazy: "js:\n  let html = request(input);\n  let hconf = html.match(/r player_.*?=(.*?)</)[1];\n  let json = JSON5.parse(hconf);\n  let url = json.url;\n  if (json.encrypt == '1') {\n    url = unescape(url);\n  } else if (json.encrypt == '2') {\n    url = unescape(base64Decode(url));\n  }\n  if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {\n    input = {\n      parse: 0,\n      jx: 0,\n      url: url,\n    };\n  } else {\n    input;\n  }",
+  limit: 6,
+  推荐: '.list-vod.flex .public-list-box;a&&title;.lazy&&data-original;.public-list-prb&&Text;a&&href',
+  一级: 'js:let body=input.split("#")[1];let t=Math.round(new Date/1e3).toString();let key=md5("DS"+t+"DCC147D11943AF75");let url=input.split("#")[0];body=body+"&time="+t+"&key="+key;print(body);fetch_params.body=body;let html=post(url,fetch_params);let data=JSON.parse(html);VODS=data.list.map(function(it){it.vod_pic=urljoin2(input.split("/i")[0],it.vod_pic);return it});',
+  二级: {
+    title: '.slide-info-title&&Text;.slide-info:eq(2)--strong&&Text',
+    img: '.detail-pic&&data-original',
+    desc: '.slide-info-remarks&&Text;.slide-info-remarks:eq(1)&&Text;.slide-info-remarks:eq(2)&&Text;.slide-info:eq(1)--strong&&Text;.info-parameter&&ul&&li:eq(3)&&Text',
+    content: '#height_limit&&Text',
+    tabs: '.anthology.wow.fadeInUp.animated&&.swiper-wrapper&&a',
+    tab_text: 'a--span&&Text',
+    lists: '.anthology-list-box:eq(#id) li',
+  },
+  搜索: 'json:list;name;pic;;id',
 }

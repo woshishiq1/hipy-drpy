@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/ok.jar;md5;1bc1d832b86b666f818fda06260aebad",
+  "spider": "./jar/ok.jar;md5;f7de4a6a445354df4a588f4468e32e73",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
   "logo": "./lib/ol.txt",
   "sites": [
@@ -124,6 +124,16 @@
       "timeout": 25
     },
     {
+      "key": "百家",
+      "name": "💒百家┃4K",
+      "type": 3,
+      "api": "csp_BaijiaGuard",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25
+    },
+    {
       "key": "至臻",
       "name": "💌至臻┃4K",
       "type": 3,
@@ -155,7 +165,7 @@
     },
     {
       "key": "SeedHub",
-      "name": "🍀Seed┃4K",
+      "name": "🍀种子┃4K",
       "type": 3,
       "api": "csp_SeedHubGuard",
       "quickSearch": 1,
@@ -194,6 +204,16 @@
       "timeout": 25
     },
     {
+      "key": "极狐",
+      "name": "🦊极狐┃4K",
+      "type": 3,
+      "api": "csp_Fox4kGuard",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25
+    },
+    {
       "key": "盘他",
       "name": "🎸盘他┃4K",
       "type": 3,
@@ -218,16 +238,6 @@
       "name": "🐳雷鲸┃4K",
       "type": 3,
       "api": "csp_LeiJingGuard",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "timeout": 25
-    },
-    {
-      "key": "云巢",
-      "name": "☁️云巢┃4K",
-      "type": 3,
-      "api": "csp_PeccGuard",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -323,26 +333,6 @@
       "timeout": 10
     },
     {
-      "key": "零零",
-      "name": "🐰零零┃App",
-      "type": 3,
-      "api": "csp_ZeroTvGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
-    },
-    {
-      "key": "素白白",
-      "name": "🐇白白┃直连",
-      "type": 3,
-      "api": "csp_SubaibaiGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
-    },
-    {
       "key": "小红",
       "name": "🐷小红┃App",
       "type": 3,
@@ -377,16 +367,6 @@
       "name": "🐹仓鼠┃App",
       "type": 3,
       "api": "csp_CangShuGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "timeout": 10
-    },
-    {
-      "key": "榴莲",
-      "name": "🍋榴莲┃App",
-      "type": 3,
-      "api": "csp_LiulianGuard",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -526,7 +506,7 @@
       "name": "🦋阿里┃合集",
       "type": 3,
       "api": "csp_AliShareGuard",
-      "searchable": 1,
+      "searchable": 0,
       "changeable": 0,
       "filterable": 0,
       "indexs": 0,
@@ -913,16 +893,6 @@
       "name": "❤️爱盘┃搜索",
       "type": 3,
       "api": "csp_AiPanGuard",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "timeout": 25
-    },
-    {
-      "key": "影搜",
-      "name": "😼影子┃搜索",
-      "type": 3,
-      "api": "csp_YingSoGuard",
       "searchable": 1,
       "filterable": 1,
       "changeable": 0,

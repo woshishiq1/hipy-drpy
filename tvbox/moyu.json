@@ -27,7 +27,7 @@
       "name": "🚀辅助┃配置┃中心",
       "type": 3,
       "api": "csp_Config",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 0,
       "quickSearch": 0,
       "style": {
@@ -39,7 +39,7 @@
       "key": "huban",
       "name": "🚀虎斑┃弹幕┃小窗",
       "type": 3,
-      "jar": "./lib/hb.jar;md5;af989bc35d5abc196aa08f7aaeaa48a1",
+      "jar": "./lib/HubanTC.jar",
       "api": "csp_Huban"
     },
     {
@@ -58,24 +58,11 @@
       }
     },
     {
-      "key": "行动",
-      "name": "🌀行动┃超清┃弹幕",
-      "type": 3,
-      "api": "csp_AppSy",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
-      "ext": {
-        "url": "http://160.202.246.9:2356",
-        "key1": "aassddwwxxllsx1x",
-        "key2": "aassddwwxxllsx1x",
-        "key3": "aassddwwxxllsx1x"
-      }
-    },
-    {
       "key": "追忆",
       "name": "🌀追忆┃超清┃弹幕",
       "type": 3,
       "api": "csp_AppSy",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "http://110.42.7.130:1866",
         "key1": "aassddwwxxllsx1x",
@@ -89,28 +76,75 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "",
-        "site": "./lib/2.txt",
-        "dataKey": "qwertyuiopqwertt",
-        "dataIv": "qwertyuiopqwertt",
+        "site": "./lib/1.txt",
+        "dataKey": "skdhalkshqklwkj1",
+        "dataIv": "skdhalkshqklwkj1",
         "deviceId": "",
+        "ua": "okhttp/3.10.0",
         "version": "109"
       }
     },
     {
-      "key": "灵虎",
-      "name": "🌀灵虎┃超清┃弹幕",
+      "key": "魔方",
+      "name": "🌀魔方┃超清┃弹幕",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "",
-        "site": "https://bind.315999.xyz/89.txt",
-        "dataKey": "#getapp@TMD@2025",
-        "dataIv": "#getapp@TMD@2025",
+        "site": "./lib/mfys.txt",
+        "dataKey": "1234567887654321",
+        "dataIv": "1234567887654321",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+    {
+      "key": "稀饭",
+      "name": "🌀稀饭┃超清┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
+      "ext": {
+        "url": "https://app.xifanys.com",
+        "dataKey": "HM6Ly9yeS4ya3dvL",
+        "dataIv": "HM6Ly9yeS4ya3dvL",
+        "deviceId": "",
+        "version": "119"
+      }
+    },
+    {
+      "key": "蓝光",
+      "name": "🌀诡异┃超清┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
+      "ext": {
+        "url": "http://122.228.193.2:9654",
+        "dataKey": "ca94b06ca3c7d80e",
+        "dataIv": "ca94b06ca3c7d80e",
+        "deviceId": "",
+        "version": "119"
+      }
+    },
+    {
+      "key": "豆丁",
+      "name": "🌀豆丁┃超清┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
+      "ext": {
+        "url": "",
+        "site": "./lib/xfdd.txt",
+        "dataKey": "xasdasdqwertyuio",
+        "dataIv": "xasdasdqwertyuio",
         "deviceId": "",
         "version": ""
       }
@@ -121,7 +155,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "http://122.228.193.2:9988",
         "dataKey": "ca94b06ca359d80e",
@@ -136,7 +170,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://qjappcms.ll4k.xyz",
         "dataKey": "1yGA85sJ5STtE7uj",
@@ -151,7 +185,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "http://172.247.192.138:18520",
         "dataKey": "SuNlEkOLAoWJj1Oe",
@@ -166,7 +200,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet2",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://qjappcms.cs4k.top",
         "dataKey": "Z98KXaLtO2wC1Pte",
@@ -176,29 +210,17 @@
       }
     },
     {
-      "key": "码头",
-      "name": "🌀码头┃超清┃弹幕",
+      "key": "鲸鱼",
+      "name": "🌀鲸鱼┃超清┃弹幕",
       "type": 3,
-      "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
-        "url": "https://www.lgmt.cc",
-        "dataKey": "asfjaskasgggassf",
-        "dataIv": "asfjaskasgggassf",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
-      "key": "米诺",
-      "name": "🌀米诺┃超清┃弹幕",
-      "type": 3,
-      "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
-      "ext": {
-        "url": "http://www.milkidc.cn",
-        "dataKey": "20c79c979da8db0f",
-        "dataIv": "20c79c979da8db0f",
+        "url": "",
+        "site": "./lib/1.json",
+        "dataKey": "AAdgrdghjfgswerA",
+        "dataIv": "AAdgrdghjfgswerA",
         "deviceId": "",
         "version": ""
       }
@@ -209,7 +231,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://apiapplbys.lbys.app:5678",
         "dataKey": "apiapplbyskey168",
@@ -224,7 +246,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "",
         "site": "./lib/1.json",
@@ -235,18 +257,18 @@
       }
     },
     {
-      "key": "桃子",
-      "name": "🌀桃子┃超清┃弹幕",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "key": "瓜萌",
+      "name": "🌀瓜萌┃超清┃弹幕",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
-        "url": "https://appcms.tzys.xyz",
-        "dataKey": "KL6vlZkw6WL5x90U",
-        "dataIv": "KL6vlZkw6WL5x90U",
-        "deviceId": "4b4c36766c5a6b7736574c3578393055",
-        "version": "119"
+        "url": "./lib/1.txt",
+        "dataKey": "f2A7D4B9E8C16531",
+        "dataIv": "f2A7D4B9E8C16531",
+        "deviceId": "",
+        "version": ""
       }
     },
     {
@@ -255,7 +277,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://appcms.htsp4k.top",
         "dataKey": "7CYQQzwchRQpHCOj",
@@ -270,7 +292,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://appcms.ll4k.xyz",
         "dataKey": "NiDGaKiVnkO3QX1Q",
@@ -280,27 +302,12 @@
       }
     },
     {
-      "key": "瓜萌",
-      "name": "🌀瓜萌┃超清┃弹幕",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
-      "ext": {
-        "url": "https://www.guahd.com",
-        "dataKey": "f2A7D4B9E8C16531",
-        "dataIv": "f2A7D4B9E8C16531",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
       "key": "晴天",
       "name": "🌀晴天┃超清┃弹幕",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://qjappcms.sun4k.top",
         "dataKey": "sBxqXVF5pAHbGzrH",
@@ -310,48 +317,18 @@
       }
     },
     {
-      "key": "再看",
-      "name": "🌀在看┃超清┃弹幕",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
-      "ext": {
-        "url": "http://149.88.64.161:8627",
-        "dataKey": "123456789ABCDEFG",
-        "dataIv": "123456789ABCDEFG",
-        "deviceId": "2bb4c10f3e043307dbfc579bd0db23f4e",
-        "version": "110"
-      }
-    },
-    {
       "key": "橘子",
       "name": "🌀橘子┃超清┃弹幕",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
-        "url": "https://api1.bffree.cn",
+        "url": "./lib/1.txt",
         "dataKey": "2015692015692015",
         "dataIv": "2015692015692015",
         "deviceId": "",
         "version": "300"
-      }
-    },
-    {
-      "key": "雨滴",
-      "name": "🌀雨滴┃超清┃弹幕",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
-      "ext": {
-        "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
-        "dataKey": "k9o3p2c8b7m3z0o8",
-        "dataIv": "k9o3p2c8b7m3z0o8",
-        "deviceId": "",
-        "version": "100"
       }
     },
     {
@@ -360,7 +337,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://apiapplbys.lbys.app:5678",
         "dataKey": "apiapplbyskey168",
@@ -375,7 +352,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://www.xiaohys.com",
         "dataKey": "ENonBHeVBoYZhVUV",
@@ -385,18 +362,19 @@
       }
     },
     {
-      "key": "在看",
-      "name": "🌀小红┃超清┃弹幕",
+      "key": "白蛇",
+      "name": "🌀白蛇┃超清┃弹幕",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
-        "url": "http://149.88.64.161:9525",
-        "dataKey": "123456789ABCDEFG",
-        "dataIv": "123456789ABCDEFG",
+        "url": "",
+        "site": "./lib/tengxunyun.txt",
+        "dataKey": "f5e2tx53ykp6s2c9",
+        "dataIv": "f5e2tx53ykp6s2c9",
         "deviceId": "",
-        "version": ""
+        "version": "361"
       }
     },
     {
@@ -405,7 +383,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "http://110.40.59.188:9527",
         "dataKey": "ebad3f1a58b13933",
@@ -420,7 +398,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://guowaiju.com",
         "dataKey": "7xv16h7qgkrs9b1p",
@@ -435,7 +413,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppMuou",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "http://sp.dxgsp.cc",
         "dataKey": "25f9e794323b4538",
@@ -449,7 +427,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppMuou",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://xjuzi.top",
         "dataKey": "6a482a70b80eefc9",
@@ -462,7 +440,7 @@
       "name": "♨️玩偶备用┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebShare",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -473,7 +451,7 @@
       "name": "🍁优汐木偶┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebShare",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
@@ -484,7 +462,7 @@
       "name": "🐂小二资源┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebShare",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
@@ -496,7 +474,7 @@
       "name": "🖍︎蜡笔资源┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebShare",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
@@ -508,7 +486,7 @@
       "name": "🏆️夸克至臻┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebShare",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
@@ -520,7 +498,7 @@
       "name": "🍡多多网盘┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebShare",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
@@ -532,7 +510,7 @@
       "name": "✊️团长网盘┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebTz",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "filterable": 0,
       "changeable": 0
@@ -542,7 +520,7 @@
       "name": "🐋天翼雷鲸┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebShareCloudLJ",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 0,
       "filterable": 0,
       "changeable": 0,
@@ -553,11 +531,43 @@
       "ext": "./lib/lj.json"
     },
     {
+      "key": "海绵",
+      "name": "🧽海绵资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloudHM",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "./lib/hm.json"
+    },
+    {
+      "key": "123",
+      "name": "📅数字资源┃4K弹幕",
+      "type": 3,
+      "api": "csp_PanWebShareCloud123",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "./lib/123.json"
+    },
+    {
       "key": "趣盘",
       "name": "🥳百度趣盘┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebQu",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -574,7 +584,7 @@
       "name": "🐼盘库资源┃4K弹幕",
       "type": 3,
       "api": "csp_PanWebKuBa",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -609,7 +619,7 @@
     {
       "key": "夕晨踏雪",
       "name": "♨️夕晨踏雪┃4K弹幕",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "type": 3,
       "api": "csp_SP360"
     },
@@ -1190,7 +1200,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://app.omofun1.top",
         "dataKey": "66dc309cbeeca454",
@@ -1205,7 +1215,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://www.gugu3.com",
         "dataKey": "nKfZ8KX6JTNWRzTD",
@@ -1220,7 +1230,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "http://45.43.29.111:9527",
         "dataKey": "GETMIFUNGEIMIFUN",
@@ -1235,7 +1245,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://jjjj.nilinili.org",
         "dataKey": "672263e98f232a05",
@@ -1250,7 +1260,7 @@
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "ext": {
         "url": "https://dm.xxdm123.top:9991",
         "dataKey": "0fe3b5781782c621",
@@ -1278,7 +1288,7 @@
       "name": "🌟星芽┃短剧┃热推",
       "type": 3,
       "api": "csp_AppXY",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
@@ -1310,7 +1320,7 @@
       "name": "📁文件┃夸克┃资源",
       "type": 3,
       "api": "csp_PanQuark",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 0,
       "filterable": 0,
       "changeable": 0,
@@ -1325,7 +1335,7 @@
       "name": "📁文件┃阿里┃资源",
       "type": 3,
       "api": "csp_PanAli",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 0,
       "filterable": 0,
       "changeable": 0,
@@ -1340,7 +1350,7 @@
       "name": "📁文件┃优视┃资源",
       "type": 3,
       "api": "csp_PanUc",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 0,
       "filterable": 0,
       "changeable": 0,
@@ -1355,7 +1365,7 @@
       "name": "📁文件┃百度┃资源",
       "type": 3,
       "api": "csp_PanBaiDu",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;3422b9456765fbcb969faafefc980c24",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;c1ba6f01b31f41b25a1b1066e757a704",
       "searchable": 0,
       "filterable": 0,
       "changeable": 0,

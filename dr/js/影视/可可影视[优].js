@@ -6,7 +6,7 @@ var rule = {
     //host: 'https://www.keke5.app',
     url: '/show/fyclass-fyfilter-fypage.html',
     filter_url: '{{fl.类型}}-{{fl.地区}}-{{fl.语言}}-{{fl.年份}}-{{fl.排序}}',
-    searchUrl: '/search?k=**&page=fypage&t=',
+    searchUrl: 'https://www.keke1.app/search?k=**&page=1&os=pc',
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
@@ -40,7 +40,9 @@ var rule = {
         tabs: 'body&&.source-item-label',
         lists: '.episode-list:eq(#id) a',
     },
-    搜索: '.search-result-list&&a;.title:eq(0)&&Text;.lazyload&&data-original;.search-result-item-header&&Text;a&&href;.desc&&Text',
+    //搜索: '.search-result-list&&a;.title:eq(0)&&Text;.lazyload&&data-original;.search-result-item-header&&Text;a&&href;.desc&&Text',
+    搜索: '.search-result-list&&.search-result-item;.title:eq(0)&&Text;.lazyload&&data-original;.search-result-item-header&&Text;a&&href;.desc&&Text',
+    
     // 图片替换:$js.toString(()=>{
     //     log(input);
     //    input = input.replace(rule.host,'https://vres.a357899.cn');
@@ -142,5 +144,5 @@ var rule = {
     }
     VODS = [filters];
     console.log(gzip(JSON.stringify(filters)));
-    `,
+    `,    
 }

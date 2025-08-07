@@ -1407,6 +1407,11 @@
 			"url": "./lib/iptv.m3u",
 			"ua": "okhttp/4.1.0"
 		},
+  {
+   "name": "Mursor",
+   "type": "0",
+   "url": "https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u",
+  },
 		{
 			"name": "平台直播",
 			"type": 0,

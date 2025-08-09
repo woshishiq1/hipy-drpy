@@ -86,6 +86,19 @@
             }
         },
         {
+            "key": "追忆",
+            "name": "追忆｜APP",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppSy",
+            "ext": {
+                "url": "http://110.42.7.130:1866",
+                "key1": "aassddwwxxllsx1x",
+                "key2": "1e765e9b09b4dbba",
+                "key3": "1e765e9b09b4dbba"
+            }
+        },
+        {
             "key": "乐达",
             "name": "乐达｜APP",
             "type": 3,
@@ -190,21 +203,6 @@
             }
         },
         {
-            "key": "哔滴",
-            "name": "哔滴丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet2",
-            "ext": {
-                "url": "",
-                "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
-                "dataKey": "5ae8ee4bb95ea0ce",
-                "dataIv": "5ae8ee4bb95ea0ce",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
             "key": "丫丫",
             "name": "丫丫｜APP",
             "type": 3,
@@ -230,20 +228,6 @@
                 "dataIv": "uI1TkPJC8B46AyN3",
                 "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
                 "version": "120"
-            }
-        },
-        {
-            "key": "稀饭",
-            "name": "稀饭｜APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://app.xifanys.com",
-                "dataKey": "HM6Ly9yeS4ya3dvL",
-                "dataIv": "HM6Ly9yeS4ya3dvL",
-                "deviceId": "",
-                "version": "119"
             }
         },
         {
@@ -771,16 +755,6 @@
             }
         },
         {
-            "key": "百酷",
-            "name": "百酷｜4K弹幕",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/百酷.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
             "key": "校长",
             "name": "校长｜4K弹幕",
             "type": 3,
@@ -838,10 +812,28 @@
             "filterable": 1
         },
         {
+            "key": "百酷",
+            "name": "百酷｜搜索",
+            "type": 3,
+            "api": "csp_Baiku"
+        },
+        {
             "key": "米搜",
             "name": "米搜｜搜索",
             "type": 3,
             "api": "csp_MiSou"
+        },
+        {
+            "key": "短剧大全",
+            "name": "短剧｜大全",
+            "type": 3,
+            "api": "csp_DuanjuDQ"
+        },
+        {
+            "key": "短剧合集",
+            "name": "短剧｜合集",
+            "type": 3,
+            "api": "csp_DuanjuHJ"
         },
         {
             "key": "全盘",
@@ -1056,15 +1048,6 @@
             "filterable": 1
         },
         {
-            "key": "来看影视",
-            "name": "来看｜影视",
-            "type": 3,
-            "api": "csp_Lkdy",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
             "key": "瓜子影视",
             "name": "瓜子｜影视",
             "type": 3,
@@ -1204,23 +1187,6 @@
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0
-        },
-        {
-            "key": "无上资源",
-            "name": "无上｜采集",
-            "type": 1,
-            "api": "https://mfgc.iwsyy.xyz/api.php/provide/vod/",
-            "searchable": 1,
-            "changeable": 1,
-            "categories": [
-                "电影",
-                "连续剧",
-                "综艺",
-                "动漫",
-                "纪录片",
-                "少儿",
-                "短剧"
-            ]
         },
         {
             "key": "哆啦新番社",
@@ -1518,16 +1484,6 @@
             "ext": "./XBPQ/狐狸君.json"
         },
         {
-            "key": "BT天堂",
-            "name": "BT天堂｜磁力",
-            "type": 3,
-            "api": "csp_XYQHiker",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XYQHiker/BT天堂.json"
-        },
-        {
             "key": "Mp4电影",
             "name": "Mp4电影｜磁力",
             "type": 3,
@@ -1593,26 +1549,6 @@
             "style": {
                 "type": "list",
                 "ratio": 1.433
-            }
-        },
-        {
-            "key": "短剧合集",
-            "name": "短剧｜合集",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/短剧合集.js",
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "短剧大全",
-            "name": "短剧｜大全",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/短剧大全.js",
-            "style": {
-                "type": "list"
             }
         },
         {

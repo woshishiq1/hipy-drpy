@@ -58,7 +58,7 @@
 			"name": "老三｜4K",
 			"type": 3,
 			"api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-			"ext": "https://gh.clun.top/raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
+			"ext": "https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
 		},
 		{
 			"key": "1",
@@ -357,7 +357,7 @@
 			"key": "py_国外",
 			"name": "国外剧情(T3)",
 			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/py_guowaiju.py",
+			"api": "https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/py_guowaiju.py",
 			"quickSearch": 1,
 			"searchable": 1,
 			"filterable": 1
@@ -1410,7 +1410,7 @@
 		{
 			"name": "Mursor",
 			"type": "0",
-			"url": "https://gh.clun.top/raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u"
+			"url": "https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u"
 		},
 		{
 			"name": "平台直播",
@@ -1422,12 +1422,12 @@
 		{
 			"name": "LITV 直播",
 			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_litv.py"
+			"api": "https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_litv.py"
 		},
 		{
 			"name": "SMT 直播",
 			"type": 3,
-			"api": "https://gh.clun.top/raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_smt_proxy_001.py"
+			"api": "https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/live/live_smt_proxy_001.py"
 		},
 		{
 			"name": "YTLive",
@@ -1461,7 +1461,7 @@
 		{
 			"name": "Guovin",
 			"type": 0,
-			"url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+			"url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
 		},
 		{
 			"name": "mlzlzj",

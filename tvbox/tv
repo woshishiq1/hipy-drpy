@@ -5,11 +5,15 @@
 			"name": "自用"
 		},
 		{
-			"url": "https://clun.top/fty.json",
+			"url": "https://clun.top/js/wex/api.json",
+			"name": "王二小"
+		},
+		{
+			"url": "https://clun.top/js/fty/api.json",
 			"name": "饭总"
 		},
 		{
-			"url": "https://clun.top/aa.json",
+			"url": "https://clun.top/js/aa.json",
 			"name": "张佬"
 		},
 		{
@@ -17,15 +21,19 @@
 			"name": "拾光"
 		},
 		{
-			"url": "https://clun.top/moyu.json",
+			"url": "https://clun.top/js/moyu/moyu.json",
 			"name": "摸鱼"
+		},
+		{
+			"url": "https://clun.top/js/xiaosa/api.json",
+			"name": "潇洒"
 		},
 		{
 			"url": "https://clun.top/jsm.json",
 			"name": "PG"
 		},
 		{
-			"url": "https://clun.top/ok.json",
+			"url": "https://clun.top/js/ok/ok.json",
 			"name": "OK"
 		}
 	]

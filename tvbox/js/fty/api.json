@@ -1,5 +1,5 @@
 {
-  "spider": "./fty.jar;md5;81614a4982ac5fd02d64f075e87c9150",
+  "spider": "./fty.jar;md5;bcaa35ff60c87f537cf509da3c40411e",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -84,8 +84,8 @@
       "changeable": 1
     },
     {
-      "key": "下饭",
-      "name": "🍙下饭┃多线",
+      "key": "剧九",
+      "name": "🍙剧九┃多线",
       "type": 3,
       "api": "csp_AppYsV2Guard",
       "searchable": 1,
@@ -630,7 +630,7 @@
       "playerType": 2,
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://11.112114.xyz/logo/{name}.png",
-      "ua": "okHttp/Mod-1.0.1"
+      "ua": "okHttp/Mod-1.1.0"
     },
     {
       "name": "V6-范明明（需开启V6网络）",

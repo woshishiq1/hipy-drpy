@@ -58,7 +58,7 @@
 			"name": "老三｜4K",
 			"type": 3,
 			"api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-			"ext": "https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
+			"ext": "https://gh.clun.top/raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%85%BE%E4%BA%914k.js"
 		},
 		{
 			"key": "1",
@@ -357,7 +357,7 @@
 			"key": "py_国外",
 			"name": "国外剧情(T3)",
 			"type": 3,
-			"api": "https://raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/py_guowaiju.py",
+			"api": "https://gh.clun.top/raw.githubusercontent.com/bestpvp/source/refs/heads/main/py/py_guowaiju.py",
 			"quickSearch": 1,
 			"searchable": 1,
 			"filterable": 1
@@ -1364,20 +1364,20 @@
 		{
 			"name": "Mursor",
 			"type": "0",
-			"url": "https://raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u",
+			"url": "https://gh.clun.top/raw.githubusercontent.com/Mursor/LIVE/refs/heads/main/iptv.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.1.0"
+			"ua": "okHttp/Mod-1.2.0"
 		},
 		{
 			"name": "tv_jp",
 			"type": "0",
-			"url": "https://raw.githubusercontent.com/luongz/iptv-jp/refs/heads/main/jp.m3u"
+			"url": "https://gh.clun.top/raw.githubusercontent.com/luongz/iptv-jp/refs/heads/main/jp.m3u"
 		},
 		{
 			"name": "tv_jp_clean",
 			"type": "0",
-			"url": "https://raw.githubusercontent.com/luongz/iptv-jp/refs/heads/main/jp_clean.m3u"
+			"url": "https://gh.clun.top/raw.githubusercontent.com/luongz/iptv-jp/refs/heads/main/jp_clean.m3u"
 		},
 		{
 			"name": "平台直播",
@@ -1389,34 +1389,34 @@
 		{
 			"name": "肥羊虎牙一起看",
 			"type": 0,
-			"url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/huyayqk.m3u",
+			"url": "http://127.0.0.1:9978/proxy?do=live&url=https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/huyayqk.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.1.0"
+			"ua": "okHttp/Mod-1.2.0"
 		},
 		{
 			"name": "肥羊B站直播",
 			"type": 0,
-			"url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/bililive.m3u",
+			"url": "http://127.0.0.1:9978/proxy?do=live&url=https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/bililive.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.1.0"
+			"ua": "okHttp/Mod-1.2.0"
 		},
 		{
 			"name": "肥羊斗鱼一起看",
 			"type": 0,
-			"url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/douyuyqk.m3u",
+			"url": "http://127.0.0.1:9978/proxy?do=live&url=https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/douyuyqk.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.1.0"
+			"ua": "okHttp/Mod-1.2.0"
 		},
 		{
 			"name": "肥羊YY轮播",
 			"type": 0,
-			"url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u",
+			"url": "http://127.0.0.1:9978/proxy?do=live&url=https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.1.0"
+			"ua": "okHttp/Mod-1.2.0"
 		},
 		{
 			"name": "YTLive",
@@ -1450,7 +1450,7 @@
 		{
 			"name": "Guovin",
 			"type": 0,
-			"url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+			"url": "https://gh.clun.top/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
 		},
 		{
 			"name": "mlzlzj",

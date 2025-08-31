@@ -1,5 +1,5 @@
 {
-  "spider": "./ubL_sdYi.png;md5;df37cbf496aabc22c6e721722fc56659",
+  "spider": "./2GZ4fzur.png;md5;df521baa498b5a193ca5e883680f333e",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wall",
   "logo": "./lib/ol.txt",
   "sites": [
@@ -1038,7 +1038,7 @@
       "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/iptv.m3u",
       "playerType": 2,
       "timeout": 10,
-      "ua": "okHttp/Mod-1.1.0"
+      "ua": "okHttp/Mod-1.2.0"
     },
     {
       "name": "范明明",
@@ -1068,7 +1068,7 @@
       "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/huyayqk.m3u",
       "playerType": 2,
       "timeout": 10,
-      "ua": "okHttp/Mod-1.1.0"
+      "ua": "okHttp/Mod-1.2.0"
     },
     {
       "name": "肥羊B站直播",
@@ -1076,7 +1076,7 @@
       "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/bililive.m3u",
       "playerType": 2,
       "timeout": 10,
-      "ua": "okHttp/Mod-1.1.0"
+      "ua": "okHttp/Mod-1.2.0"
     },
     {
       "name": "肥羊斗鱼一起看",
@@ -1084,7 +1084,7 @@
       "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/douyuyqk.m3u",
       "playerType": 2,
       "timeout": 10,
-      "ua": "okHttp/Mod-1.1.0"
+      "ua": "okHttp/Mod-1.2.0"
     },
     {
       "name": "肥羊YY轮播",
@@ -1092,7 +1092,7 @@
       "url": "http://127.0.0.1:9978/proxy?do=live&url=https://raw.githubusercontent.com/mursor1985/LIVE/refs/heads/main/yylunbo.m3u",
       "playerType": 2,
       "timeout": 10,
-      "ua": "okHttp/Mod-1.1.0"
+      "ua": "okHttp/Mod-1.2.0"
     }
   ],
   "ijk": [

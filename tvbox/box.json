@@ -11,6 +11,19 @@
 			"ext": "./lib/tokenm.json$$$./lib/douban.json"
 		},
 		{
+			"key": "嗷呜弹幕",
+			"name": "弹幕",
+			"type": 3,
+			"jar": "./jar/spider-woof.jar",
+			"api": "csp_GoConfig",
+			"indexs": 1,
+			"searchable": 0,
+			"filterable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": "./lib"
+		},
+		{
 			"key": "AList",
 			"name": "Alist",
 			"type": 3,

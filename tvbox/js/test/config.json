@@ -1,0 +1,20 @@
+{
+    "spider": "./custom_spider.jar",
+    "wallpaper": "https://gitee.com/amg99/tvjson/raw/master/img/myimg.jpg",
+    "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
+    "lives": [],
+    "sites": [
+        {
+            "name": "嗷呜弹幕",
+            "key": "嗷呜弹幕",
+            "type": 3,
+            "api": "csp_GoConfig",
+			"indexs":1,
+            "searchable": 0,
+            "filterable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext":"./lib"
+        }
+    ]
+}

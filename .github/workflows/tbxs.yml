@@ -60,10 +60,19 @@ jobs:
           cp -r temp-T4/* T4/
           rm -rf temp-T4
 
+      # ✅ 同步 wzxxcz/wzxxcz 仓库 main 到 wzxxcz 目录
+      - name: Fetch wzxxcz/wzxxcz main branch into wzxxcz directory
+        run: |
+          mkdir -p wzxxcz
+          rm -rf wzxxcz/*
+          git clone --depth 1 --branch main https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
+          cp -r temp-wzxxcz/* wzxxcz/
+          rm -rf temp-wzxxcz
+
       - name: Commit and push to main
         run: |
-          git add gitee-source/ dr/ tvbox/ T4/
-          git commit -m "Sync Gitee, jak0099/dr, cluntop/tvbox, and 4TVBox/TVBox projects to main" || echo "No changes"
+          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/
+          git commit -m "Sync Gitee, jak0099/dr, cluntop/tvbox, 4TVBox/TVBox, and wzxxcz/wzxxcz projects to main" || echo "No changes"
           git push origin main
 
       # ✅ 切换到 master 并重置为 main

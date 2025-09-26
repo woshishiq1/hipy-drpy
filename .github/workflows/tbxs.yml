@@ -65,7 +65,7 @@ jobs:
         run: |
           mkdir -p wzxxcz
           rm -rf wzxxcz/*
-          git clone --depth 1 --branch main https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
+          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
           cp -r temp-wzxxcz/* wzxxcz/
           rm -rf temp-wzxxcz
 

@@ -51,10 +51,19 @@ jobs:
           cp -r temp-tvbox/* tvbox/
           rm -rf temp-tvbox
 
+      # ✅ 同步 4TVBox/TVBox 仓库 main 到 T4 目录
+      - name: Fetch 4TVBox/TVBox main branch into T4 directory
+        run: |
+          mkdir -p T4
+          rm -rf T4/*
+          git clone --depth 1 --branch main https://github.com/4TVBox/TVBox.git temp-T4
+          cp -r temp-T4/* T4/
+          rm -rf temp-T4
+
       - name: Commit and push to main
         run: |
-          git add gitee-source/ dr/ tvbox/
-          git commit -m "Sync Gitee, jak0099/dr, and cluntop/tvbox projects to main" || echo "No changes"
+          git add gitee-source/ dr/ tvbox/ T4/
+          git commit -m "Sync Gitee, jak0099/dr, cluntop/tvbox, and 4TVBox/TVBox projects to main" || echo "No changes"
           git push origin main
 
       # ✅ 切换到 master 并重置为 main
@@ -93,4 +102,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           retain_days: 0
-          keep_minimum_runs: 10

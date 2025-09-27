@@ -8,6 +8,17 @@
 			"ext": "proxy"
 		},
 		{
+			"key": "七区_py",
+			"name": "七区",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "./js/ss/七区.py",
+			"order_num": 5,
+			"ext": ""
+		},
+		{
 			"key": "美少女",
 			"name": "美少女",
 			"type": 0,
@@ -59,9 +70,6 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"api": "./js/py/aowuplugin/xhamster.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
 			"order_num": 5,
 			"ext": ""
 		},
@@ -207,9 +215,6 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"api": "./aowuplugin/py_色播聚合.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
 			"order_num": 5,
 			"ext": ""
 		},

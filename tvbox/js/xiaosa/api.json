@@ -1108,6 +1108,13 @@
             "filterable": 1
         },
         {
+            "key": "番茄短剧",
+            "name": "番茄｜短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/番茄短剧.json"
+        },
+        {
             "key": "剧屋短剧",
             "name": "剧屋｜短剧",
             "type": 3,

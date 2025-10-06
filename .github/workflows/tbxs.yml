@@ -60,8 +60,8 @@ jobs:
           cp -r temp-T4/* T4/
           rm -rf temp-T4
 
-      # ✅ 同步 wzxxcz/wzxxcz 仓库 main 到 wzxxcz 目录
-      - name: Fetch wzxxcz/wzxxcz main branch into wzxxcz directory
+      # ✅ 同步 wzxxcz/wzxxcz 仓库 maing 到 wzxxcz 目录
+      - name: Fetch wzxxcz/wzxxcz maing branch into wzxxcz directory
         run: |
           mkdir -p wzxxcz
           rm -rf wzxxcz/*

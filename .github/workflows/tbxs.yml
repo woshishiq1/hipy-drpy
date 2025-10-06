@@ -1,130 +1,114 @@
-name: Sync Gitee to subfolder and unzip to master
-
-on:
-  schedule:
-    - cron: '0 16 */2 * *'  # 每两天北京时间 00:00 运行
-  workflow_dispatch:         # 支持手动运行
-
-jobs:
-  sync_and_unzip:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v3
-        with:
-          ref: main
-
-      - name: Set up Git config
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      # ✅ 同步 Gitee 仓库
-      - name: Create gitee-source folder and clean it
-        run: |
-          mkdir -p gitee-source
-          rm -rf gitee-source/*
-
-      - name: Download Gitee repo ZIP and extract to gitee-source/
-        run: |
-          wget -O gitee.zip https://gitee.com/PizazzXS/another-d/repository/archive/master.zip
-          unzip gitee.zip
-          cp -r another-d-master/* gitee-source/
-          rm -rf another-d-master gitee.zip
-
-      # ✅ 同步 jak0099/dr 仓库 master 到 dr 目录
-      - name: Fetch jak0099/dr master branch into dr directory
-        run: |
-          mkdir -p dr
-          rm -rf dr/*
-          git clone --depth 1 --branch master https://github.com/jak0099/dr.git temp-dr
-          cp -r temp-dr/* dr/
-          rm -rf temp-dr
-
-      # ✅ 同步 cluntop/tvbox 仓库 main 到 tvbox 目录
-      - name: Fetch cluntop/tvbox main branch into tvbox directory
-        run: |
-          mkdir -p tvbox
-          rm -rf tvbox/*
-          git clone --depth 1 --branch main https://github.com/cluntop/tvbox.git temp-tvbox
-          cp -r temp-tvbox/* tvbox/
-          rm -rf temp-tvbox
-
-      # ✅ 同步 4TVBox/TVBox 仓库 main 到 T4 目录
-      - name: Fetch 4TVBox/TVBox main branch into T4 directory
-        run: |
-          mkdir -p T4
-          rm -rf T4/*
-          git clone --depth 1 --branch main https://github.com/4TVBox/TVBox.git temp-T4
-          cp -r temp-T4/* T4/
-          rm -rf temp-T4
-
-      # ✅ 同步 wzxxcz/wzxxcz 仓库 maing 到 wzxxcz 目录
-      - name: Fetch wzxxcz/wzxxcz maing branch into wzxxcz directory
-        run: |
-          mkdir -p wzxxcz
-          rm -rf wzxxcz/*
-          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
-          cp -r temp-wzxxcz/* wzxxcz/
-          rm -rf temp-wzxxcz
-
-      # ✅ 同步 ljlfct01/ljlfct01.github.io 仓库 main 到 ljlfct01 目录
-      - name: Fetch ljlfct01/ljlfct01.github.io main branch into ljlfct01 directory
-        run: |
-          mkdir -p ljlfct01
-          rm -rf ljlfct01/*
-          git clone --depth 1 --branch main https://github.com/ljlfct01/ljlfct01.github.io.git temp-ljlfct01
-          cp -r temp-ljlfct01/* ljlfct01/
-          rm -rf temp-ljlfct01
-
-      # ✅ 提交并推送到 main（带北京时间）
-      - name: Commit and push to main
-        run: |
-          git pull origin main --rebase
-          echo ".github" >> .gitignore
-          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/
-          commit_time=$(date -u '+%Y-%m-%d %H:%M:%S' -d '+8 hour')
-          git commit -m "同步于北京时间 ${commit_time}" || echo "No changes"
-          git push origin main
-
-      # ✅ 切换到 master 并重置为 main 内容
-      - name: Switch to master and reset to latest main content
-        run: |
-          git fetch origin
-          if git show-ref --quiet refs/remotes/origin/master; then
-            git checkout master
-          else
-            git checkout -b master
-          fi
-          git reset --hard origin/main
-          git push origin master || true
-
-      # ✅ 解压 gitee-source 下所有 ZIP 文件（保留 ZIP）
-      - name: Unzip all ZIP files in gitee-source (keep ZIP)
-        run: |
-          cd gitee-source
-          for file in *.zip; do
-            [ -e "$file" ] || continue
-            unzip -o "$file"
-          done
-          cd ..
-
-      # ✅ 提交并强推 master（保留 zip、带北京时间）
-      - name: Commit and force push 解压内容到 master（保留 zip）
-        run: |
-          echo ".github" >> .gitignore
-          git add .
-          commit_time=$(date -u '+%Y-%m-%d %H:%M:%S' -d '+8 hour')
-          git commit -m "重置 master 并解压 ZIP（同步于北京时间 ${commit_time}）" || echo "No changes"
-          git push origin master --force
-
-  cleanup_runs:
-    runs-on: ubuntu-latest
-    needs: sync_and_unzip
-    steps:
-      - name: Delete old workflow runs, keep last 10
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          retain_days: 3
+ 
+name: Sync Gitee to subfolder and unzip to master 
+ 
+on: 
+  schedule: 
+    - cron: '0 16 */2 * *'  # 每两天北京时间 00:00 运行 
+  workflow_dispatch:         # 支持手动运行 
+ 
+jobs: 
+  sync_and_unzip: 
+    runs-on: ubuntu-latest 
+ 
+    steps: 
+      - name: Checkout main branch 
+        uses: actions/checkout@v3 
+        with: 
+          ref: main 
+ 
+      - name: Set up Git config 
+        run: | 
+          git config user.name "github-actions[bot]" 
+          git config user.email "github-actions[bot]@users.noreply.github.com" 
+ 
+      # ✅ 同步 Gitee 仓库 
+      - name: Create gitee-source folder and clean it 
+        run: | 
+          mkdir -p gitee-source 
+          rm -rf gitee-source/* 
+ 
+      - name: Download Gitee repo ZIP and extract to gitee-source/ 
+        run: | 
+          wget -O gitee.zip https://gitee.com/PizazzXS/another-d/repository/archive/master.zip 
+          unzip gitee.zip 
+          cp -r another-d-master/* gitee-source/ 
+          rm -rf another-d-master gitee.zip 
+ 
+      # ✅ 同步 jak0099/dr 仓库 master 到 dr 目录 
+      - name: Fetch jak0099/dr master branch into dr directory 
+        run: | 
+          mkdir -p dr 
+          rm -rf dr/* 
+          git clone --depth 1 --branch master https://github.com/jak0099/dr.git temp-dr 
+          cp -r temp-dr/* dr/ 
+          rm -rf temp-dr 
+ 
+      # ✅ 同步 cluntop/tvbox 仓库 main 到 tvbox 目录 
+      - name: Fetch cluntop/tvbox main branch into tvbox directory 
+        run: | 
+          mkdir -p tvbox 
+          rm -rf tvbox/* 
+          git clone --depth 1 --branch main https://github.com/cluntop/tvbox.git temp-tvbox 
+          cp -r temp-tvbox/* tvbox/ 
+          rm -rf temp-tvbox 
+ 
+      # ✅ 同步 4TVBox/TVBox 仓库 main 到 T4 目录 
+      - name: Fetch 4TVBox/TVBox main branch into T4 directory 
+        run: | 
+          mkdir -p T4 
+          rm -rf T4/* 
+          git clone --depth 1 --branch main https://github.com/4TVBox/TVBox.git temp-T4 
+          cp -r temp-T4/* T4/ 
+          rm -rf temp-T4 
+ 
+      # ✅ 同步 wzxxcz/wzxxcz 仓库 main 到 wzxxcz 目录 
+      - name: Fetch wzxxcz/wzxxcz maing branch into wzxxcz directory 
+        run: | 
+          mkdir -p wzxxcz 
+          rm -rf wzxxcz/* 
+          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz 
+          cp -r temp-wzxxcz/* wzxxcz/ 
+          rm -rf temp-wzxxcz 
+ 
+      - name: Commit and push to main 
+        run: | 
+          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ 
+          git commit -m "Sync Gitee, jak0099/dr, cluntop/tvbox, 4TVBox/TVBox, and wzxxcz/wzxxcz projects to main" || echo "No changes" 
+          git push origin main 
+ 
+      # ✅ 切换到 master 并重置为 main 
+      - name: Switch to master and reset to latest main content 
+        run: | 
+          git fetch origin 
+          if git show-ref --quiet refs/remotes/origin/master; then 
+            git checkout master 
+          else 
+            git checkout -b master 
+          fi 
+          git reset --hard origin/main 
+ 
+      # ✅ 解压 gitee-source 中的 ZIP 文件（保留 ZIP） 
+      - name: Unzip gitee-source 中的指定 ZIP 文件（保留 ZIP） 
+        run: | 
+          cd gitee-source 
+          if [ -f "单线路.zip" ]; then unzip -o "单线路.zip"; fi 
+          if [ -f "多线路.zip" ]; then unzip -o "多线路.zip"; fi 
+          cd .. 
+ 
+      # ✅ 提交并强推 master（保留 zip、忽略 .github） 
+      - name: Commit and force push 解压内容到 master（保留 zip） 
+        run: | 
+          git reset HEAD .github/ || true 
+          git add . 
+          git commit -m "重置 master 为 main 内容并解压 ZIP" || echo "No changes" 
+          git push origin master --force 
+ 
+  cleanup_runs: 
+    runs-on: ubuntu-latest 
+    needs: sync_and_unzip 
+    steps: 
+      - name: Delete old workflow runs, keep last 10 
+        uses: Mattraks/delete-workflow-runs@v2 
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }} 
+          retain_days: 0 

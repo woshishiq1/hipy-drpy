@@ -61,21 +61,34 @@ jobs:
           rm -rf temp-T4
 
       # ✅ 同步 wzxxcz/wzxxcz 仓库 main 到 wzxxcz 目录
-      - name: Fetch wzxxcz/wzxxcz maing branch into wzxxcz directory
+      - name: Fetch wzxxcz/wzxxcz main branch into wzxxcz directory
         run: |
           mkdir -p wzxxcz
           rm -rf wzxxcz/*
-          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
+          git clone --depth 1 --branch main https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
           cp -r temp-wzxxcz/* wzxxcz/
           rm -rf temp-wzxxcz
 
+      # ✅ 同步 ljlfct01/ljlfct01.github.io 仓库 main 到 ljlfct01 目录
+      - name: Fetch ljlfct01/ljlfct01.github.io main branch into ljlfct01 directory
+        run: |
+          mkdir -p ljlfct01
+          rm -rf ljlfct01/*
+          git clone --depth 1 --branch main https://github.com/ljlfct01/ljlfct01.github.io.git temp-ljlfct01
+          cp -r temp-ljlfct01/* ljlfct01/
+          rm -rf temp-ljlfct01
+
+      # ✅ 提交并推送到 main（带北京时间）
       - name: Commit and push to main
         run: |
-          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/
-          git commit -m "Sync Gitee, jak0099/dr, cluntop/tvbox, 4TVBox/TVBox, and wzxxcz/wzxxcz projects to main" || echo "No changes"
+          git pull origin main --rebase
+          echo ".github" >> .gitignore
+          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/
+          commit_time=$(date -u '+%Y-%m-%d %H:%M:%S' -d '+8 hour')
+          git commit -m "同步于北京时间 ${commit_time}" || echo "No changes"
           git push origin main
 
-      # ✅ 切换到 master 并重置为 main
+      # ✅ 切换到 master 并重置为 main 内容
       - name: Switch to master and reset to latest main content
         run: |
           git fetch origin
@@ -85,21 +98,25 @@ jobs:
             git checkout -b master
           fi
           git reset --hard origin/main
+          git push origin master || true
 
-      # ✅ 解压 gitee-source 中的 ZIP 文件（保留 ZIP）
-      - name: Unzip gitee-source 中的指定 ZIP 文件（保留 ZIP）
+      # ✅ 解压 gitee-source 下所有 ZIP 文件（保留 ZIP）
+      - name: Unzip all ZIP files in gitee-source (keep ZIP)
         run: |
           cd gitee-source
-          if [ -f "单线路.zip" ]; then unzip -o "单线路.zip"; fi
-          if [ -f "多线路.zip" ]; then unzip -o "多线路.zip"; fi
+          for file in *.zip; do
+            [ -e "$file" ] || continue
+            unzip -o "$file"
+          done
           cd ..
 
-      # ✅ 提交并强推 master（保留 zip、忽略 .github）
+      # ✅ 提交并强推 master（保留 zip、带北京时间）
       - name: Commit and force push 解压内容到 master（保留 zip）
         run: |
-          git reset HEAD .github/ || true
+          echo ".github" >> .gitignore
           git add .
-          git commit -m "重置 master 为 main 内容并解压 ZIP" || echo "No changes"
+          commit_time=$(date -u '+%Y-%m-%d %H:%M:%S' -d '+8 hour')
+          git commit -m "重置 master 并解压 ZIP（同步于北京时间 ${commit_time}）" || echo "No changes"
           git push origin master --force
 
   cleanup_runs:
@@ -110,4 +127,4 @@ jobs:
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          retain_days: 0
+          retain_days: 3

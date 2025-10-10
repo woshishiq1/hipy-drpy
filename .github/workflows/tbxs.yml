@@ -77,17 +77,21 @@ jobs:
           rm -rf temp-ljlfct01
 
       # ✅ 提交并推送到远程默认分支（自动检测 main/master/maing）
-      - name: Commit and push to default branch
+      - name: Commit and push to default branch (safe clean + detect)
         run: |
           # 自动检测远程默认分支（例如 main / master / maing）
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           echo "Detected default branch: $DEFAULT_BRANCH"
 
-          # 强制同步远程，丢弃本地修改
+          # 防止 checkout 报错：清理未跟踪文件
+          git clean -fd
+
+          # 获取远程并强制同步（完全丢弃本地改动）
           git fetch origin $DEFAULT_BRANCH
           git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
           git reset --hard origin/$DEFAULT_BRANCH
 
+          # 添加并提交同步内容
           echo ".github" >> .gitignore
           git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/
           git commit -m "Sync subprojects to $DEFAULT_BRANCH" || echo "No changes"

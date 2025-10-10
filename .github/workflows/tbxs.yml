@@ -10,10 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout default branch
         uses: actions/checkout@v3
-        with:
-          ref: main
 
       - name: Set up Git config
         run: |
@@ -78,25 +76,35 @@ jobs:
           cp -r temp-ljlfct01/* ljlfct01/
           rm -rf temp-ljlfct01
 
-      # ✅ 提交并推送到 main
-      - name: Commit and push to main
+      # ✅ 提交并推送到远程默认分支（自动检测 main/master/maing）
+      - name: Commit and push to default branch
         run: |
-          git pull origin main --rebase
+          # 自动检测远程默认分支（例如 main / master / maing）
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
+          echo "Detected default branch: $DEFAULT_BRANCH"
+
+          # 强制同步远程，丢弃本地修改
+          git fetch origin $DEFAULT_BRANCH
+          git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
+          git reset --hard origin/$DEFAULT_BRANCH
+
           echo ".github" >> .gitignore
           git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/
-          git commit -m "Sync Gitee, jak0099/dr, cluntop/tvbox, 4TVBox/TVBox, wzxxcz/wzxxcz, and ljlfct01.github.io projects to main" || echo "No changes"
-          git push origin main
+          git commit -m "Sync subprojects to $DEFAULT_BRANCH" || echo "No changes"
+          git push origin $DEFAULT_BRANCH
 
-      # ✅ 切换到 master 并重置为 main 内容
-      - name: Switch to master and reset to latest main content
+      # ✅ 切换到 master 并重置为最新默认分支内容
+      - name: Switch to master and reset to latest default branch content
         run: |
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
+          echo "Detected default branch: $DEFAULT_BRANCH"
           git fetch origin
           if git show-ref --quiet refs/remotes/origin/master; then
             git checkout master
           else
             git checkout -b master
           fi
-          git reset --hard origin/main
+          git reset --hard origin/$DEFAULT_BRANCH
           git push origin master || true
 
       # ✅ 解压 gitee-source 下所有 ZIP 文件（保留 ZIP）
@@ -114,7 +122,7 @@ jobs:
         run: |
           echo ".github" >> .gitignore
           git add .
-          git commit -m "重置 master 为 main 内容并解压 ZIP" || echo "No changes"
+          git commit -m "重置 master 为最新分支内容并解压 ZIP" || echo "No changes"
           git push origin master --force
 
   cleanup_runs:

@@ -2,7 +2,7 @@ name: Sync Gitee to subfolder and unzip to master
 
 on:
   schedule:
-    - cron: '0 16 */2 * *'  # 每两天北京时间 00:00 运行
+        - cron: '0 */6 * * *'  # 每5小时运行一次（UTC时间）
   workflow_dispatch:         # 支持手动运行
 
 jobs:
@@ -76,6 +76,12 @@ jobs:
           cp -r temp-ljlfct01/* ljlfct01/
           rm -rf temp-ljlfct01
 
+      # ✅ 同步 ediart/tvbox 仓库的 T4.json 文件到根目录 ediartT4.json 文件中
+      - name: Fetch ediart/tvbox T4.json to root as ediartT4.json
+        run: |
+          curl -L "https://raw.githubusercontent.com/ediart/tvbox/main/T4.json" -o ediartT4.json
+          echo "Fetched ediart/tvbox T4.json → ediartT4.json"
+
       # ✅ 提交并推送到远程默认分支（自动检测 main/master/maing）
       - name: Commit and push to default branch
         run: |
@@ -90,8 +96,8 @@ jobs:
           git reset --hard origin/$DEFAULT_BRANCH
 
           echo ".github" >> .gitignore
-          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/
-          git commit -m "Sync subprojects to $DEFAULT_BRANCH" || echo "No changes"
+          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ ediartT4.json
+          git commit -m "Sync subprojects (including ediartT4.json) to $DEFAULT_BRANCH" || echo "No changes"
           git push origin $DEFAULT_BRANCH
 
       # ✅ 切换到 master 并重置为最新默认分支内容（修复 .gitignore 冲突）
@@ -101,16 +107,12 @@ jobs:
           echo "Detected default branch: $DEFAULT_BRANCH"
 
           git fetch origin
-
-          # ⚙️ 彻底清理未跟踪和忽略文件，防止 checkout 冲突
           git clean -fdx
-
           if git show-ref --quiet refs/remotes/origin/master; then
             git checkout master
           else
             git checkout -b master
           fi
-
           git reset --hard origin/$DEFAULT_BRANCH
           git push origin master || true
 

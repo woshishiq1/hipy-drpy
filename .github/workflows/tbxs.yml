@@ -80,12 +80,6 @@ jobs:
           cp -r temp-ljlfct01/* ljlfct01/
           rm -rf temp-ljlfct01
 
-      # ✅ 同步 ediart/tvbox 仓库的 T4.json 文件到根目录 ediartT4.json 文件中
-      - name: Fetch ediart/tvbox T4.json to root as ediartT4.json
-        run: |
-          curl -L "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json" -o ediartT4.json
-          echo "Fetched ediart/tvbox T4.json → ediartT4.json"
-
       # ✅ 提交并推送到远程默认分支（自动检测 main/master/maing）
       - name: Commit and push to default branch
         run: |
@@ -93,16 +87,20 @@ jobs:
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           echo "Detected default branch: $DEFAULT_BRANCH"
 
-          # 强制同步远程，丢弃本地修改
+          # 强制同步远程
           git fetch origin $DEFAULT_BRANCH
           git clean -fd
           git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
           git reset --hard origin/$DEFAULT_BRANCH
 
-          # ✅ 如果 ediartT4.json 不存在则自动创建一个空文件
+          # ✅ 下载 ediartT4.json（在 reset 后下载，保证内容）
+          curl -L "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json" -o ediartT4.json
+          echo "Downloaded latest ediartT4.json"
+
+          # 如果下载失败仍然没有文件则创建空文件
           if [ ! -f ediartT4.json ]; then
             echo "{}" > ediartT4.json
-            echo "Created empty ediartT4.json"
+            echo "Created empty ediartT4.json as fallback"
           fi
 
           echo ".github" >> .gitignore

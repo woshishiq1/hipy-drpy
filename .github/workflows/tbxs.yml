@@ -2,8 +2,12 @@ name: Sync Gitee to subfolder and unzip to master
 
 on:
   schedule:
-        - cron: '0 */6 * * *'  # 每5小时运行一次（UTC时间）
+    - cron: '0 */6 * * *'  # 每6小时运行一次（UTC时间）
   workflow_dispatch:         # 支持手动运行
+
+concurrency:
+  group: sync_job_lock
+  cancel-in-progress: true   # 防止多个任务同时运行
 
 jobs:
   sync_and_unzip:
@@ -95,9 +99,15 @@ jobs:
           git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
           git reset --hard origin/$DEFAULT_BRANCH
 
+          # ✅ 如果 ediartT4.json 不存在则自动创建一个空文件
+          if [ ! -f ediartT4.json ]; then
+            echo "{}" > ediartT4.json
+            echo "Created empty ediartT4.json"
+          fi
+
           echo ".github" >> .gitignore
           git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ ediartT4.json
-          git commit -m "Sync subprojects (including ediartT4.json) to $DEFAULT_BRANCH" || echo "No changes"
+          git commit -m "Sync subprojects (auto include ediartT4.json) to $DEFAULT_BRANCH" || echo "No changes"
           git push origin $DEFAULT_BRANCH
 
       # ✅ 切换到 master 并重置为最新默认分支内容（修复 .gitignore 冲突）

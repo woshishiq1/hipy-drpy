@@ -83,7 +83,7 @@ jobs:
       # ✅ 同步 ediart/tvbox 仓库的 T4.json 文件到根目录 ediartT4.json 文件中
       - name: Fetch ediart/tvbox T4.json to root as ediartT4.json
         run: |
-          curl -L "https://raw.githubusercontent.com/ediart/tvbox/main/T4.json" -o ediartT4.json
+          curl -L "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json" -o ediartT4.json
           echo "Fetched ediart/tvbox T4.json → ediartT4.json"
 
       # ✅ 提交并推送到远程默认分支（自动检测 main/master/maing）

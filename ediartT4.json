@@ -57,6 +57,12 @@
 			"api": "https://learnpython.ggff.net/shdy"
 		},
 		{
+			"key": "czzy",
+			"name": "厂长资源",
+			"type": 4,
+			"api": "https://learnpython.ggff.net/CZZY"
+		},
+		{
 			"key": "pingguo",
 			"name": "小苹果",
 			"type": 4,

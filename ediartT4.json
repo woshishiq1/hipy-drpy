@@ -186,7 +186,17 @@
 				"type": "rect",
 				"ratio": 1.5
 			}
-		}
+		},
+		{
+            "key": "market",
+            "name": "应用商店",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "ext": "https://000.hfr1107.top/tool/yc/market.json",
+            "jar": "https://000.hfr1107.top/tool/yc/fm.jar"
+        }
 	],
 	"lives": [{
 			"name": "冰茶",

@@ -22,24 +22,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # ✅ 同步 Gitee 仓库
-      - name: Create gitee-source folder and clean it
-        run: |
-          mkdir -p gitee-source
-          rm -rf gitee-source/*
-
-      - name: Download Gitee repo ZIP and extract to gitee-source/
-        run: |
-          wget -O gitee.zip https://gitee.com/PizazzXS/another-d/repository/archive/master.zip
-          unzip gitee.zip
-          cp -r another-d-master/* gitee-source/
-          rm -rf another-d-master gitee.zip
-
       # ✅ 同步 jak0099/dr 仓库 master 到 dr 目录
       - name: Fetch jak0099/dr master branch into dr directory
         run: |
-          mkdir -p dr
-          rm -rf dr/*
+          mkdir -p dr && rm -rf dr/*
           git clone --depth 1 --branch master https://github.com/jak0099/dr.git temp-dr
           cp -r temp-dr/* dr/
           rm -rf temp-dr
@@ -47,8 +33,7 @@ jobs:
       # ✅ 同步 cluntop/tvbox 仓库 main 到 tvbox 目录
       - name: Fetch cluntop/tvbox main branch into tvbox directory
         run: |
-          mkdir -p tvbox
-          rm -rf tvbox/*
+          mkdir -p tvbox && rm -rf tvbox/*
           git clone --depth 1 --branch main https://github.com/cluntop/tvbox.git temp-tvbox
           cp -r temp-tvbox/* tvbox/
           rm -rf temp-tvbox
@@ -56,8 +41,7 @@ jobs:
       # ✅ 同步 4TVBox/TVBox 仓库 main 到 T4 目录
       - name: Fetch 4TVBox/TVBox main branch into T4 directory
         run: |
-          mkdir -p T4
-          rm -rf T4/*
+          mkdir -p T4 && rm -rf T4/*
           git clone --depth 1 --branch main https://github.com/4TVBox/TVBox.git temp-T4
           cp -r temp-T4/* T4/
           rm -rf temp-T4
@@ -65,8 +49,7 @@ jobs:
       # ✅ 同步 wzxxcz/wzxxcz 仓库 maing 到 wzxxcz 目录
       - name: Fetch wzxxcz/wzxxcz maing branch into wzxxcz directory
         run: |
-          mkdir -p wzxxcz
-          rm -rf wzxxcz/*
+          mkdir -p wzxxcz && rm -rf wzxxcz/*
           git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
           cp -r temp-wzxxcz/* wzxxcz/
           rm -rf temp-wzxxcz
@@ -74,41 +57,49 @@ jobs:
       # ✅ 同步 ljlfct01/ljlfct01.github.io 仓库 main 到 ljlfct01 目录
       - name: Fetch ljlfct01/ljlfct01.github.io main branch into ljlfct01 directory
         run: |
-          mkdir -p ljlfct01
-          rm -rf ljlfct01/*
+          mkdir -p ljlfct01 && rm -rf ljlfct01/*
           git clone --depth 1 --branch main https://github.com/ljlfct01/ljlfct01.github.io.git temp-ljlfct01
           cp -r temp-ljlfct01/* ljlfct01/
           rm -rf temp-ljlfct01
 
-      # ✅ 提交并推送到远程默认分支
+      # ✅ 提交并推送到远程默认分支（在 reset 之后下载 Gitee ZIP）
       - name: Commit and push to default branch
         run: |
+          set -e
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           echo "Detected default branch: $DEFAULT_BRANCH"
 
           git fetch origin $DEFAULT_BRANCH
-          git clean -fd
+          git clean -fdx
           git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
           git reset --hard origin/$DEFAULT_BRANCH
 
-          curl -L "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json" -o ediartT4.json
-          echo "Downloaded latest ediartT4.json"
+          echo "==== 开始下载 Gitee 仓库 PizazzXS/another-d ===="
+          mkdir -p gitee-source && rm -rf gitee-source/*
+          curl -L -o gitee.zip "https://gitee.com/PizazzXS/another-d/repository/archive/master.zip"
 
-          if [ ! -f ediartT4.json ]; then
-            echo "{}" > ediartT4.json
-            echo "Created empty ediartT4.json as fallback"
+          if unzip -t gitee.zip >/dev/null 2>&1; then
+            echo "✅ Gitee ZIP 文件有效，开始解压..."
+            unzip -q gitee.zip
+            cp -r another-d-master/* gitee-source/
+            rm -rf another-d-master gitee.zip
+          else
+            echo "⚠️ Gitee ZIP 下载失败或文件损坏，跳过同步。"
+            rm -f gitee.zip
           fi
 
+          # 下载 ediartT4.json（保证文件存在）
+          curl -L "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json" -o ediartT4.json || true
+          [ -f ediartT4.json ] || echo "{}" > ediartT4.json
+
           git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ ediartT4.json
-          git commit -m "Sync subprojects (auto include ediartT4.json) to $DEFAULT_BRANCH" || echo "No changes"
+          git commit -m "Sync subprojects (include Gitee another-d & ediartT4.json)" || echo "No changes"
           git push origin $DEFAULT_BRANCH
 
       # ✅ 切换到 master 并重置为最新默认分支内容
       - name: Switch to master and reset to latest default branch content
         run: |
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
-          echo "Detected default branch: $DEFAULT_BRANCH"
-
           git fetch origin
           git clean -fdx
           if git show-ref --quiet refs/remotes/origin/master; then
@@ -125,6 +116,7 @@ jobs:
           cd gitee-source
           for file in *.zip; do
             [ -e "$file" ] || continue
+            echo "解压: $file"
             unzip -o "$file"
           done
           cd ..

@@ -80,35 +80,30 @@ jobs:
           cp -r temp-ljlfct01/* ljlfct01/
           rm -rf temp-ljlfct01
 
-      # ✅ 提交并推送到远程默认分支（自动检测 main/master/maing）
+      # ✅ 提交并推送到远程默认分支
       - name: Commit and push to default branch
         run: |
-          # 自动检测远程默认分支（例如 main / master / maing）
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           echo "Detected default branch: $DEFAULT_BRANCH"
 
-          # 强制同步远程
           git fetch origin $DEFAULT_BRANCH
           git clean -fd
           git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
           git reset --hard origin/$DEFAULT_BRANCH
 
-          # ✅ 下载 ediartT4.json（在 reset 后下载，保证内容）
           curl -L "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json" -o ediartT4.json
           echo "Downloaded latest ediartT4.json"
 
-          # 如果下载失败仍然没有文件则创建空文件
           if [ ! -f ediartT4.json ]; then
             echo "{}" > ediartT4.json
             echo "Created empty ediartT4.json as fallback"
           fi
 
-          echo ".github" >> .gitignore
           git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ ediartT4.json
           git commit -m "Sync subprojects (auto include ediartT4.json) to $DEFAULT_BRANCH" || echo "No changes"
           git push origin $DEFAULT_BRANCH
 
-      # ✅ 切换到 master 并重置为最新默认分支内容（修复 .gitignore 冲突）
+      # ✅ 切换到 master 并重置为最新默认分支内容
       - name: Switch to master and reset to latest default branch content
         run: |
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
@@ -134,10 +129,9 @@ jobs:
           done
           cd ..
 
-      # ✅ 提交并强推 master（保留 ZIP，忽略 .github）
+      # ✅ 提交并强推 master（保留 ZIP）
       - name: Commit and force push 解压内容到 master（保留 zip）
         run: |
-          echo ".github" >> .gitignore
           git add .
           git commit -m "重置 master 为最新分支内容并解压 ZIP" || echo "No changes"
           git push origin master --force

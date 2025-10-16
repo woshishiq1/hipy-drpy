@@ -238,6 +238,10 @@
       "url": "https://bxtv.3a.ink/live.m3u"
     },
     {
+			"name": "MyTvSuper",
+			"url": "http://xtvantsc.xyz/mytvsuper.m3u"
+		},
+    {
       "name": "4GTV",
       "url": "http://xtvantsc.xyz/litv_ts.php",
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",

@@ -12,6 +12,17 @@
 			"indexs": 0
 		},
 		{
+			"key": "lf_js_search",
+			"name": "路飞豆瓣",
+			"type": 3,
+			"searchable": 0,
+			"changeable": 0,
+			"quickSearch": 0,
+			"filterable": 1,
+			"api": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/路飞豆瓣.js",
+			"indexs": 1
+		},
+		{
 			"key": "hohaiemby",
 			"name": "HohaiEMBY",
 			"type": 3,
@@ -135,6 +146,12 @@
 			"type": 4,
 			"api": "https://py.doube.eu.org/spider?site=Dm84"
 		},
+		{
+            "key": "文件播放",
+            "name": "文件播放",
+            "type": 4,
+            "api": "http://139.185.42.4:14888/TV/lives.php"
+        },
 		{
 			"key": "91RB",
 			"name": "🔞91RB",

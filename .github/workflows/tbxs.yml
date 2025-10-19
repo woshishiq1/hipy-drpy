@@ -3,7 +3,7 @@ name: Sync Gitee to subfolder and unzip to master
 on:
   schedule:
     - cron: '0 */6 * * *'  # 每6小时运行一次（UTC时间）
-  workflow_dispatch:         # 支持手动运行
+  workflow_dispatch:        # 支持手动运行
 
 concurrency:
   group: sync_job_lock
@@ -22,58 +22,61 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # ✅ 同步 jak0099/dr 仓库 master 到 dr 目录
-      - name: Fetch jak0099/dr master branch into dr directory
-        run: |
-          mkdir -p dr && rm -rf dr/*
-          git clone --depth 1 --branch master https://github.com/jak0099/dr.git temp-dr
-          cp -r temp-dr/* dr/
-          rm -rf temp-dr
-
-      # ✅ 同步 cluntop/tvbox 仓库 main 到 tvbox 目录
-      - name: Fetch cluntop/tvbox main branch into tvbox directory
-        run: |
-          mkdir -p tvbox && rm -rf tvbox/*
-          git clone --depth 1 --branch main https://github.com/cluntop/tvbox.git temp-tvbox
-          cp -r temp-tvbox/* tvbox/
-          rm -rf temp-tvbox
-
-      # ✅ 同步 4TVBox/TVBox 仓库 main 到 T4 目录
-      - name: Fetch 4TVBox/TVBox main branch into T4 directory
-        run: |
-          mkdir -p T4 && rm -rf T4/*
-          git clone --depth 1 --branch main https://github.com/4TVBox/TVBox.git temp-T4
-          cp -r temp-T4/* T4/
-          rm -rf temp-T4
-
-      # ✅ 同步 wzxxcz/wzxxcz 仓库 maing 到 wzxxcz 目录
-      - name: Fetch wzxxcz/wzxxcz maing branch into wzxxcz directory
-        run: |
-          mkdir -p wzxxcz && rm -rf wzxxcz/*
-          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
-          cp -r temp-wzxxcz/* wzxxcz/
-          rm -rf temp-wzxxcz
-
-      # ✅ 同步 ljlfct01/ljlfct01.github.io 仓库 main 到 ljlfct01 目录
-      - name: Fetch ljlfct01/ljlfct01.github.io main branch into ljlfct01 directory
-        run: |
-          mkdir -p ljlfct01 && rm -rf ljlfct01/*
-          git clone --depth 1 --branch main https://github.com/ljlfct01/ljlfct01.github.io.git temp-ljlfct01
-          cp -r temp-ljlfct01/* ljlfct01/
-          rm -rf temp-ljlfct01
-
-      # ✅ 提交并推送到远程默认分支（在 reset 之后下载 Gitee ZIP）
-      - name: Commit and push to default branch
+      # ✅ 先重置为远程默认分支（防止后续 clone 被覆盖）
+      - name: Reset local repo to remote default branch
         run: |
           set -e
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           echo "Detected default branch: $DEFAULT_BRANCH"
 
           git fetch origin $DEFAULT_BRANCH
-          git clean -fdx
           git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
           git reset --hard origin/$DEFAULT_BRANCH
+          git clean -fdx
+          echo "✅ Reset 完成"
 
+      # ✅ 同步各仓库到子目录（在 reset 之后）
+      - name: Fetch subprojects
+        run: |
+          echo "==== 开始同步 Git 仓库 ===="
+          mkdir -p dr tvbox T4 wzxxcz ljlfct01
+
+          echo "→ 同步 jak0099/dr"
+          rm -rf dr/* temp-dr
+          git clone --depth 1 --branch master https://github.com/jak0099/dr.git temp-dr
+          cp -r temp-dr/* dr/
+          rm -rf temp-dr
+
+          echo "→ 同步 cluntop/tvbox"
+          rm -rf tvbox/* temp-tvbox
+          git clone --depth 1 --branch main https://github.com/cluntop/tvbox.git temp-tvbox
+          cp -r temp-tvbox/* tvbox/
+          rm -rf temp-tvbox
+
+          echo "→ 同步 4TVBox/TVBox"
+          rm -rf T4/* temp-T4
+          git clone --depth 1 --branch main https://github.com/4TVBox/TVBox.git temp-T4
+          cp -r temp-T4/* T4/
+          rm -rf temp-T4
+
+          echo "→ 同步 wzxxcz/wzxxcz"
+          rm -rf wzxxcz/* temp-wzxxcz
+          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
+          cp -r temp-wzxxcz/* wzxxcz/
+          rm -rf temp-wzxxcz
+
+          echo "→ 同步 ljlfct01/ljlfct01.github.io"
+          rm -rf ljlfct01/* temp-ljlfct01
+          git clone --depth 1 --branch main https://github.com/ljlfct01/ljlfct01.github.io.git temp-ljlfct01
+          cp -r temp-ljlfct01/* ljlfct01/
+          rm -rf temp-ljlfct01
+
+          echo "==== 同步完成 ===="
+          find dr tvbox T4 wzxxcz ljlfct01 -type f -exec touch {} +
+
+      # ✅ 下载 Gitee ZIP（在本地目录准备好后）
+      - name: Download and extract Gitee ZIP
+        run: |
           echo "==== 开始下载 Gitee 仓库 PizazzXS/another-d ===="
           mkdir -p gitee-source && rm -rf gitee-source/*
           curl -L -o gitee.zip "https://gitee.com/PizazzXS/another-d/repository/archive/master.zip"
@@ -88,20 +91,25 @@ jobs:
             rm -f gitee.zip
           fi
 
-          # 下载 ediartT4.json（保证文件存在）
+      # ✅ 下载 ediartT4.json
+      - name: Download ediartT4.json
+        run: |
           curl -L "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json" -o ediartT4.json || true
           [ -f ediartT4.json ] || echo "{}" > ediartT4.json
 
+      # ✅ 提交并推送到默认分支
+      - name: Commit and push to default branch
+        run: |
           git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ ediartT4.json
-          git commit -m "Sync subprojects (include Gitee another-d & ediartT4.json)" || echo "No changes"
+          git commit -m "Sync subprojects + Gitee another-d + ediartT4.json" || echo "No changes"
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           git push origin $DEFAULT_BRANCH
 
-      # ✅ 切换到 master 并重置为最新默认分支内容
-      - name: Switch to master and reset to latest default branch content
+      # ✅ 切换到 master 并同步内容
+      - name: Sync to master branch
         run: |
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           git fetch origin
-          git clean -fdx
           if git show-ref --quiet refs/remotes/origin/master; then
             git checkout master
           else
@@ -121,7 +129,7 @@ jobs:
           done
           cd ..
 
-      # ✅ 提交并强推 master（保留 ZIP）
+      # ✅ 提交并强推 master
       - name: Commit and force push 解压内容到 master（保留 zip）
         run: |
           git add .

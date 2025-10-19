@@ -1,0 +1,22 @@
+{
+    "作者": "🐰兔爷🐇",
+    "站名": "YYMP3音乐网",
+    "编码": "UYF-8",
+    "请求头": "User-Agent$MOBILE_UA",
+    "主页url": "http://www.yymp3.com",
+    "首页": "200",
+    "起始页": "1",
+    "分类url": "/top/{cateId}.htm;;rcRAD",
+    "分类二次截取": "<ul class=\"gamelist&&</ul",
+    "分类数组": "<li&&</li",
+    "分类标题": "<a*>&&<",
+    "分类ID": "top/&&.htm",
+    "数组": "class=\"li_*\"&&</li",
+    "图片": "https://pics3.baidu.com/feed/d53f8794a4c27d1e2ce6e7424ef43b60dcc43820.jpeg",
+    "标题": "<a*>&&<",
+    "副标题": "_blank>&&<",
+    "链接": "/Play+href=\"*Play&&\"",
+    "简介": "请不要相信任何广告！！！祝您观影愉快！🐰兔爷🐇为您介绍剧情👉-+<!--&&<script[替换:<br>*</div>>>🦻🏻#<div*>>>♩♪♫♬]",
+    "搜索url": "/top/id.htm?wd={wd}",
+    "搜索模式": "1"
+}

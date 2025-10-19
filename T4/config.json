@@ -2,60 +2,60 @@
    "wallpaper":"https://深色壁纸.xxooo.cf/",
    "sites":[
       {
-         "key":"豆瓣首页",
-         "name":"豆瓣首页",
+         "key":"Telegram @uTVBox_Bot 获取专属订阅链接",
+         "name":"Telegram @uTVBox_Bot 获取专属订阅链接",
          "type":4,
-         "api":"https://tvbot.ggff.net/douban",
+         "api":"https://newtv.ggff.net/douban?token=NtKuzkIw",
          "quickserch":0,
          "searchable":0
       },
       {
-         "key":"电影天堂",
-         "name":"电影天堂",
+         "key":"沐辰电影天堂",
+         "name":"沐辰电影天堂",
          "type":4,
-         "api":"https://tvbot.ggff.net/dytt"
+         "api":"https://py.doube.eu.org/spider?site=DianYingTanTang"
       },
       {
          "key":"月佬瓜子影视",
          "name":"月佬瓜子影视",
          "type":4,
-         "api":"https://tvbot.ggff.net/guazi"
+         "api":"https://newtv.ggff.net/guazi?token=NtKuzkIw"
       },
       {
          "key":"Qile优视频",
          "name":"Qile优视频",
          "type":4,
-         "api":"https://tvbot.ggff.net/uvod"
+         "api":"https://newtv.ggff.net/uvod?token=NtKuzkIw"
       },
       {
          "key":"嗷呜爱瓜TV",
          "name":"嗷呜爱瓜TV",
          "type":4,
-         "api":"https://tvbot.ggff.net/aigua"
+         "api":"https://newtv.ggff.net/aigua?token=NtKuzkIw"
       },
       {
          "key":"嗷呜小苹果",
          "name":"嗷呜小苹果",
          "type":4,
-         "api":"https://tvbot.ggff.net/pingguo"
+         "api":"https://newtv.ggff.net/pingguo?token=NtKuzkIw"
       },
       {
          "key":"独播库",
          "name":"独播库",
          "type":4,
-         "api":"https://tvbot.ggff.net/duboku"
+         "api":"https://newtv.ggff.net/duboku?token=NtKuzkIw"
       },
       {
          "key":"欧乐影院",
          "name":"欧乐影院",
          "type":4,
-         "api":"https://tvbot.ggff.net/oule"
+         "api":"https://newtv.ggff.net/oule?token=NtKuzkIw"
       },
       {
          "key":"荐片",
          "name":"荐片",
          "type":4,
-         "api":"https://tvbot.ggff.net/jianpian"
+         "api":"https://newtv.ggff.net/jianpian?token=NtKuzkIw"
       },
       {
          "key":"嗷呜金牌影院",
@@ -67,13 +67,13 @@
          "key":"嗷呜剧爸爸",
          "name":"嗷呜剧爸爸",
          "type":4,
-         "api":"https://tvbot.ggff.net/jubaba"
+         "api":"https://newtv.ggff.net/jubaba?token=NtKuzkIw"
       },
       {
          "key":"恰逢永乐",
          "name":"恰逢永乐",
          "type":4,
-         "api":"https://tvbot.ggff.net/yongle"
+         "api":"https://newtv.ggff.net/yongle?token=NtKuzkIw"
       },
       {
          "key":"Cori爱壹帆",
@@ -116,16 +116,6 @@
             }
          },
          "jar":"https://github.com/CatVodSpider-GM/SFW-Spiders/raw/refs/heads/main/Spiders-Lib/GM.jar"
-      },
-      {
-         "key":"老张直播频道",
-         "name":"老张直播频道",
-         "type":4,
-         "api":"http://zhangqun66.com/zh/2241-2.php",
-         "searchable":0,
-         "quickserch":0,
-         "changeable":0,
-         "ext":"1,2,3"
       }
    ],
    "lives":[
@@ -144,37 +134,8 @@
          "url":"https://tv.iill.top/m3u/Gather"
       },
       {
-         "name":"BeeSport直播",
-         "type":3,
-         "api":"https://tvbot.dpdns.org/live_beesports.py",
-         "ext":{
-            
-         },
-         "header":{
-            "Referer":"https://p.lioncdn.net/"
-         }
-      },
-      {
-         "name":"秘密花园",
-         "type":0,
-         "url":"https://mmhy.zzong6599.workers.dev/",
-         "playerType":1,
-         "epg":"http://diyp5.112114.xyz/?ch={name}&date={date}",
-         "logo":"http://diyp5.112114.xyz/{name}.png"
-      },
-      {
-         "name":"备用直播一",
-         "type":0,
-         "url":"https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-         "epg":"http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-         "timeout":10
-      },
-      {
-         "name":"备用直播二",
-         "type":0,
-         "url":"https://raw.githubusercontent.com/Guovin/iptv-api/refs/heads/gd/output/result.m3u",
-         "epg":"http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-         "timeout":10
+         "name":"BeeSports直播",
+         "url":"./tv.m3u"
       }
    ],
    "headers":[

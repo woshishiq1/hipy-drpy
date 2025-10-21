@@ -27080,6 +27080,24 @@
             ]
         },
         {
+            "key": "电影天堂资源",
+            "name": "🌀电影天堂资源",
+            "type": 1,
+            "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+            "playerType": 1,
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "如意资源",
+            "name": "🌀如意资源",
+            "type": 1,
+            "api": "http://cj.rycjapi.com/api.php/provide/vod",
+            "playerType": 1,
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
             "key": "星辰影视",
             "name": "💧星辰影视",
             "type": 3,

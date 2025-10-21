@@ -1,16 +1,6 @@
 {
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
-	"sites": [{
-			"key": "t4douban",
-			"name": "豆瓣",
-			"type": 4,
-			"api": "https://newtv.ggff.net/douban?token=NtKuzkIw",
-			"searchable": 0,
-			"changeable": 0,
-			"quickSearch": 0,
-			"filterable": 1,
-			"indexs": 0
-		},
+	"sites": [
 		{
 			"key": "lf_js_search",
 			"name": "路飞豆瓣",
@@ -20,7 +10,7 @@
 			"quickSearch": 0,
 			"filterable": 1,
 			"api": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/路飞豆瓣.js",
-			"indexs": 1
+			"indexs": 0
 		},
 		{
 			"key": "hohaiemby",
@@ -50,22 +40,10 @@
 			"api": "https://py.doube.eu.org/spider?site=DianYingTanTang"
 		},
 		{
-			"key": "瓜子影视",
-			"name": "瓜子影视",
-			"type": 4,
-			"api": "https://newtv.ggff.net/guazi?token=NtKuzkIw"
-		},
-		{
 			"key": "优视频",
 			"name": "优视频",
 			"type": 4,
-			"api": "https://newtv.ggff.net/uvod?token=NtKuzkIw"
-		},
-		{
-			"key": "独播库",
-			"name": "独播库",
-			"type": 4,
-			"api": "https://newtv.ggff.net/duboku?token=NtKuzkIw"
+			"api": "https://learnpython.ggff.net/UVod"
 		},
 		{
 			"key": "4kav",

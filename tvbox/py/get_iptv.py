@@ -156,9 +156,10 @@ def match_channels(template_channels, all_channels):
                         # 将变体转换为正则表达式模式，允许名称中的一些变化
                         pattern = re.compile(re.escape(variant), re.IGNORECASE)
                         if pattern.search(chan_name):
-                            if primary_name not in matched[category]:
-                                matched[category][primary_name] = []
-                            matched[category][primary_name].append((chan_name, chan_url))
+                            # 使用源中的频道名称作为键，而不是模板中的主名称
+                            if chan_name not in matched[category]:
+                                matched[category][chan_name] = []
+                            matched[category][chan_name].append((chan_name, chan_url))
                             used_channels.add(channel_key)
                             found = True
                             break
@@ -200,9 +201,9 @@ def generate_outputs(channels, template_channels, unmatched_template_channels, u
                 # 在txt文件中写入分类标题
                 txt.write(f"\n{category},#genre#\n")
                 
-                for name in template_channels[category]:
-                    primary_name = name.split("|")[0].strip()
-                    channel_data = channels[category].get(primary_name, [])
+                # 遍历匹配到的所有频道名称
+                for chan_name in channels[category]:
+                    channel_data = channels[category][chan_name]
                     
                     if not channel_data:
                         continue
@@ -211,22 +212,19 @@ def generate_outputs(channels, template_channels, unmatched_template_channels, u
                     unique_channels = []
                     seen_channel_keys = set()
                     
-                    for chan_name, chan_url in channel_data:
-                        channel_key = f"{chan_name}_{chan_url}"
+                    for chan_name_inner, chan_url in channel_data:
+                        channel_key = f"{chan_name_inner}_{chan_url}"
                         if channel_key not in seen_channel_keys and chan_url not in written_urls:
-                            unique_channels.append((chan_name, chan_url))
+                            unique_channels.append((chan_name_inner, chan_url))
                             seen_channel_keys.add(channel_key)
                             written_urls.add(chan_url)
 
                     if not unique_channels:
                         continue
 
-                    # 为每个频道生成输出 - 每个频道单独计算线路数
+                    # 为每个频道生成输出 - 每个频道名称单独计算线路数
                     total = len(unique_channels)
-                    for idx, (chan_name, chan_url) in enumerate(unique_channels, 1):
-                        # 使用获取的频道名称，如果没有则使用模板名称
-                        display_name = chan_name if chan_name and chan_name != "未知频道" else primary_name
-                        
+                    for idx, (display_name, chan_url) in enumerate(unique_channels, 1):
                         base_url = chan_url.split("$")[0]
                         suffix = "$LR•" + ("IPV6" if is_ipv6(chan_url) else "IPV4")
                         if total > 1:

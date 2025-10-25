@@ -1,7 +1,6 @@
 {
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
-	"sites": [
-		{
+	"sites": [{
 			"key": "lf_js_search",
 			"name": "路飞豆瓣",
 			"type": 3,
@@ -125,11 +124,11 @@
 			"api": "https://py.doube.eu.org/spider?site=Dm84"
 		},
 		{
-            "key": "文件播放",
-            "name": "文件播放",
-            "type": 4,
-            "api": "http://139.185.42.4:14888/TV/lives.php"
-        },
+			"key": "文件播放",
+			"name": "文件播放",
+			"type": 4,
+			"api": "http://139.185.42.4:14888/TV/lives.php"
+		},
 		{
 			"key": "91RB",
 			"name": "🔞91RB",
@@ -202,13 +201,13 @@
 		},
 		{
 			"key": "market",
-			"name": "应用商店",
+			"name": "应用 | 商店",
 			"type": 3,
 			"api": "csp_Market",
 			"searchable": 0,
 			"changeable": 0,
-			"ext": "https://000.hfr1107.top/tool/yc/market.json",
-			"jar": "https://000.hfr1107.top/tool/yc/fm.jar"
+			"ext": "https://gb.hfr1107.top/https://github.com/ediart/tvbox/blob/main/lz/market.json",
+			"jar": "https://gb.hfr1107.top/https://github.com/ediart/tvbox/blob/main/lz/fm.jar"
 		}
 	],
 	"lives": [{

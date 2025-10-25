@@ -1,9 +1,11 @@
 import re
+import os
+import shutil
 import requests
+import threading
 from collections import OrderedDict
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import threading
 
 # 添加线程锁确保线程安全
 write_lock = threading.Lock()
@@ -148,17 +150,19 @@ def match_channels(template_channels, all_channels):
                     if channel_key in used_channels:
                         continue
                     
-                    # 检查频道名称是否匹配任何变体
+                    # 使用正则表达式进行更精确的匹配
+                    # 对于每个名称变体，创建一个正则表达式模式
                     for variant in name_variants:
-                        if variant.lower() in chan_name.lower() or chan_name.lower() in variant.lower():
-                            matched[category].setdefault(primary_name, []).append((chan_name, chan_url))
+                        # 将变体转换为正则表达式模式，允许名称中的一些变化
+                        pattern = re.compile(re.escape(variant), re.IGNORECASE)
+                        if pattern.search(chan_name):
+                            if primary_name not in matched[category]:
+                                matched[category][primary_name] = []
+                            matched[category][primary_name].append((chan_name, chan_url))
                             used_channels.add(channel_key)
                             found = True
                             break
-                    if found:
-                        break
-                if found:
-                    break
+                    # 注意：这里不break，让同一个模板频道可以匹配多个源频道（多个线路）
             
             # 如果没有找到匹配，记录到未匹配列表
             if not found:
@@ -169,6 +173,8 @@ def match_channels(template_channels, all_channels):
         for chan_name, chan_url in channels:
             channel_key = f"{chan_name}_{chan_url}"
             if channel_key not in used_channels:
+                if src_category not in unmatched_source_channels:
+                    unmatched_source_channels[src_category] = []
                 unmatched_source_channels[src_category].append((chan_name, chan_url))
 
     return matched, unmatched_template_channels, unmatched_source_channels
@@ -201,19 +207,21 @@ def generate_outputs(channels, template_channels, unmatched_template_channels, u
                     if not channel_data:
                         continue
 
-                    # 去重处理
+                    # 去重处理 - 只去除完全相同的频道名称和URL组合
                     unique_channels = []
-                    seen_urls = set()
+                    seen_channel_keys = set()
                     
                     for chan_name, chan_url in channel_data:
-                        if chan_url not in seen_urls and chan_url not in written_urls:
+                        channel_key = f"{chan_name}_{chan_url}"
+                        if channel_key not in seen_channel_keys and chan_url not in written_urls:
                             unique_channels.append((chan_name, chan_url))
-                            seen_urls.add(chan_url)
+                            seen_channel_keys.add(channel_key)
+                            written_urls.add(chan_url)
 
                     if not unique_channels:
                         continue
 
-                    # 为每个频道生成输出
+                    # 为每个频道生成输出 - 每个频道单独计算线路数
                     total = len(unique_channels)
                     for idx, (chan_name, chan_url) in enumerate(unique_channels, 1):
                         # 使用获取的频道名称，如果没有则使用模板名称
@@ -232,7 +240,6 @@ def generate_outputs(channels, template_channels, unmatched_template_channels, u
                         # 写入TXT条目
                         txt.write(f"{display_name},{final_url}\n")
                         
-                        written_urls.add(chan_url)
                         channel_counter += 1
 
             print(f"频道处理完成，总计有效频道数：{channel_counter}")
@@ -250,7 +257,14 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
         for category, channels in unmatched_template_channels.items():
             if channels:
                 f.write(f"\n{category},#genre#\n")
+                # 使用有序字典去重，保持顺序
+                unique_channels = []
+                seen_channels = set()
                 for channel in channels:
+                    if channel not in seen_channels:
+                        unique_channels.append(channel)
+                        seen_channels.add(channel)
+                for channel in unique_channels:
                     f.write(f"{channel},\n")
                     total_template_unmatched += 1
         
@@ -262,7 +276,14 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
         for category, channels in unmatched_source_channels.items():
             if channels:
                 f.write(f"\n{category},#genre#\n")
+                # 使用有序字典去重，只保留频道名称
+                unique_channel_names = []
+                seen_channel_names = set()
                 for channel_name, channel_url in channels:
+                    if channel_name not in seen_channel_names:
+                        unique_channel_names.append(channel_name)
+                        seen_channel_names.add(channel_name)
+                for channel_name in unique_channel_names:
                     # 在报告中只写入频道名称，不写入链接
                     f.write(f"{channel_name},\n")
                     total_source_unmatched += 1
@@ -281,7 +302,14 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
         for category, channels in unmatched_template_channels.items():
             if channels:
                 print(f"\n{category},#genre#")
+                # 使用有序字典去重，保持顺序
+                unique_channels = []
+                seen_channels = set()
                 for channel in channels:
+                    if channel not in seen_channels:
+                        unique_channels.append(channel)
+                        seen_channels.add(channel)
+                for channel in unique_channels:
                     print(f"{channel},")
     
     if total_source_unmatched > 0:
@@ -289,9 +317,86 @@ def generate_unmatched_report(unmatched_template_channels, unmatched_source_chan
         for category, channels in unmatched_source_channels.items():
             if channels:
                 print(f"\n{category},#genre#")
+                # 使用有序字典去重，只保留频道名称
+                unique_channel_names = []
+                seen_channel_names = set()
                 for channel_name, channel_url in channels:
+                    if channel_name not in seen_channel_names:
+                        unique_channel_names.append(channel_name)
+                        seen_channel_names.add(channel_name)
+                for channel_name in unique_channel_names:
                     # 在控制台输出中只显示频道名称，不显示链接
                     print(f"{channel_name},")
+    
+    return total_template_unmatched
+
+def remove_unmatched_from_template(template_file, unmatched_template_channels):
+    """从模板文件中删除未匹配的频道"""
+    try:
+        # 创建备份文件
+        backup_file = template_file + ".backup"
+        shutil.copy2(template_file, backup_file)
+        print(f"已创建模板备份文件: {backup_file}")
+    except Exception as e:
+        print(f"创建备份文件失败: {e}")
+        return
+    
+    # 读取原始模板文件
+    try:
+        with open(template_file, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception as e:
+        print(f"读取模板文件失败: {e}")
+        return
+    
+    # 创建新的模板内容
+    new_lines = []
+    current_category = None
+    
+    for line in lines:
+        original_line = line.strip()
+        
+        if not original_line:
+            # 保留空行
+            new_lines.append(line)
+            continue
+            
+        if original_line.startswith("#"):
+            # 保留注释
+            new_lines.append(line)
+            continue
+            
+        if "#genre#" in original_line:
+            current_category = original_line.split(",")[0].strip()
+            new_lines.append(line)
+            continue
+            
+        if current_category and original_line:
+            # 提取频道名称（去掉可能存在的URL部分）
+            channel_name = original_line.split(",")[0].strip()
+            
+            # 检查这个频道是否在未匹配列表中
+            skip_channel = False
+            if current_category in unmatched_template_channels:
+                for unmatched_channel in unmatched_template_channels[current_category]:
+                    # 比较频道名称，考虑可能包含|符号的情况
+                    unmatched_primary = unmatched_channel.split("|")[0].strip()
+                    channel_primary = channel_name.split("|")[0].strip()
+                    if unmatched_primary == channel_primary:
+                        skip_channel = True
+                        print(f"从模板中删除未匹配频道: {channel_name}")
+                        break
+            
+            if not skip_channel:
+                new_lines.append(line)
+    
+    # 写入新的模板文件
+    try:
+        with open(template_file, "w", encoding="utf-8") as f:
+            f.writelines(new_lines)
+        print(f"已更新模板文件: {template_file}，删除了未匹配的频道")
+    except Exception as e:
+        print(f"写入模板文件失败: {e}")
 
 def filter_sources(template_file, tv_urls):
     template = parse_template(template_file)
@@ -329,6 +434,16 @@ def filter_sources(template_file, tv_urls):
 # 示例使用
 if __name__ == "__main__":
     
-    matched_channels, unmatched_template_channels, unmatched_source_channels, template = filter_sources("py/config/iptv.txt", tv_urls)
+    template_file = "py/config/iptv.txt"
+    matched_channels, unmatched_template_channels, unmatched_source_channels, template = filter_sources(template_file, tv_urls)
     generate_outputs(matched_channels, template, unmatched_template_channels, unmatched_source_channels)
-    generate_unmatched_report(unmatched_template_channels, unmatched_source_channels)
+    total_unmatched = generate_unmatched_report(unmatched_template_channels, unmatched_source_channels)
+    
+    # 如果存在未匹配的频道，询问是否从模板中删除
+    if total_unmatched > 0:
+        print(f"\n检测到 {total_unmatched} 个未匹配的频道")
+        # 在GitHub Actions中自动删除未匹配频道
+        print("自动从模板文件中删除未匹配的频道...")
+        remove_unmatched_from_template(template_file, unmatched_template_channels)
+    else:
+        print("\n没有检测到未匹配的频道，无需更新模板文件")

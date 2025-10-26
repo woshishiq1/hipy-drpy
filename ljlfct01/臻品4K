@@ -12,6 +12,7 @@
     }
   ],
   "sites": [
+
     {
       "key": "腾讯弹幕",
       "name": "📢🌈腾腾4K",
@@ -337,21 +338,16 @@
     "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
   ],
   "parses": [
-   
-   {
+    {
       "name": "4K",
       "type": 1,
-      "url": "https://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=zDF5A1sn&url="
+      "url": "http://167.234.211.77:4207/api/?key=XkIbVVBdUCUBEf2zlv&url="
     },
-   {
+ 
+     {
       "name": "4K1",
       "type": 1,
-      "url": "http://210.16.170.84:8011/api/?key=jj9PIIhkixwgkAg2rZ&url="
-    },
-    {
-      "name": "4K2",
-      "type": 1,
-      "url": "http://167.234.211.77:4207/api/?key=XkIbVVBdUCUBEf2zlv&url="
+      "url": "http://sspa8.top:8100/api/?key=%E6%99%93%E5%AE%87&url="
     }
   
   ],

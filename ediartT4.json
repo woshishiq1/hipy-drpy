@@ -105,6 +105,12 @@
 			"api": "https://learnpython.ggff.net/huoche"
 		},
 		{
+			"key": "zajiao",
+			"name": "zajiao",
+			"type": 4,
+			"api": "https://learnpython.ggff.net/zajiao"
+		},
+		{
 			"key": "hmdj",
 			"name": "HM短剧",
 			"type": 4,

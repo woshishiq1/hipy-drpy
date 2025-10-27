@@ -2,13 +2,13 @@
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
 	"sites": [{
 			"key": "lf_js_search",
-			"name": "路飞豆瓣",
+			"name": "豆瓣",
 			"type": 3,
 			"searchable": 0,
 			"changeable": 0,
 			"quickSearch": 0,
 			"filterable": 1,
-			"api": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/路飞豆瓣.js",
+			"api": "./lz/路飞豆瓣.js",
 			"indexs": 0
 		},
 		{
@@ -45,28 +45,10 @@
 			"api": "https://learnpython.ggff.net/UVod"
 		},
 		{
-			"key": "4kav",
-			"name": "4KAV",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/4kav"
-		},
-		{
-			"key": "4kvm",
-			"name": "4KVM",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/4kvm"
-		},
-		{
 			"key": "shdy",
-			"name": "SHDY",
+			"name": "骚火电影",
 			"type": 4,
 			"api": "https://learnpython.ggff.net/shdy"
-		},
-		{
-			"key": "czzy",
-			"name": "厂长资源",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/CZZY"
 		},
 		{
 			"key": "pingguo",
@@ -79,6 +61,12 @@
 			"name": "金牌影院",
 			"type": 3,
 			"api": "https://tvbot.dpdns.org/py_jinpai.py"
+		},
+		{
+			"key": "4KVM",
+			"name": "4KVM",
+			"type": 3,
+			"api": "./lz/py/4KVM.py"
 		},
 		{
 			"key": "剧爸爸",
@@ -106,7 +94,7 @@
 		},
 		{
 			"key": "zajiao",
-			"name": "zajiao",
+			"name": "瓜子影视",
 			"type": 4,
 			"api": "https://learnpython.ggff.net/zajiao"
 		},

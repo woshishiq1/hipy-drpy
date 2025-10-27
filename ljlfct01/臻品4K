@@ -1,7 +1,7 @@
 {
-  "spider": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
-  "wallpaper": "https://gitee.com/zhouyadong7033/box/raw/master/JS/Y3.webp",
-  "warningText": "欢迎使用火焰TV，祝您观影愉快",
+ "spider": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
+  "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
+  "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
     {
       "name": "4K线路",
@@ -18,7 +18,7 @@
       "name": "📢🌈腾腾4K",
       "searchable": 1,
       "type": 3,
-      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
+      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
       "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
     },
     {
@@ -26,7 +26,7 @@
       "name": "📢🌈果果4K",
       "type": 3,
       "searchable": 1,
-      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
+      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
       "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
     },
  {
@@ -41,6 +41,7 @@
       "name": "📢🌈聚合4K",
       "type": 3,
       "api": "csp_AppYsV2",
+    
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -136,6 +137,7 @@
       "name": "🍉瓜子┃1080P",
       "type": 3,
       "api": "csp_Gz360",
+      "jar": "https://gitee.com/yuan301/tv/raw/master/A/xs.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -155,6 +157,7 @@
       "name": "⚾┃看球┃直播",
       "type": 3,
       "api": "csp_Kanqiu",
+ 
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -168,6 +171,7 @@
       "name": "88｜看球",
       "type": 3,
       "api": "csp_Kanqiu",
+    
       "gridview": 3,
       "style": {
         "type": "list"
@@ -178,6 +182,7 @@
       "name": "少儿｜教育",
       "type": 3,
       "api": "csp_Bili",
+   
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -195,6 +200,7 @@
       "name": "小学｜课堂",
       "type": 3,
       "api": "csp_Bili",
+     
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -212,6 +218,7 @@
       "name": "初中｜课堂",
       "type": 3,
       "api": "csp_Bili",
+    
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -229,6 +236,7 @@
       "name": "高中｜课堂",
       "type": 3,
       "api": "csp_Bili",
+    
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
@@ -246,6 +254,7 @@
       "name": "急救｜教学",
       "type": 3,
       "api": "csp_FirstAid",
+    
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
@@ -335,14 +344,8 @@
         "分类url": "https://www.psmp3.com/{cateId}/{catePg}.html;;av",
         "分类": "袁阔成$ykc#单田芳$stf#田连元$tly#刘兰芳$llf#连丽如$llr#张少佐$zsz#田战义$tzy"
       }
-    },
-    {
-      "key": "设置",
-      "name": "💖网弹|设置",
-      "type": 3,
-      "jar":"http://103.45.162.207:25252/仅供测试/custom_spider.jar",
-      "api": "csp_HBconfig"
     }
+  
   ],
   "hosts": [
     "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
@@ -352,6 +355,11 @@
     "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
   ],
   "parses": [
+  {
+      "name": "自定：请先设置",
+      "type": 1,
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
+    },
     {
       "name": "4K",
       "type": 1,
@@ -361,7 +369,7 @@
      {
       "name": "4K1",
       "type": 1,
-      "url": "http://sspa8.top:8100/api/?key=%E6%99%93%E5%AE%87&url="
+      "url": "http://127.0.0.1:9997/proxy?do=seachdanmu&go=hubanjiexi&url="
     }
   
   ],

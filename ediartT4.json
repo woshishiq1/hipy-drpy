@@ -39,23 +39,11 @@
 			"api": "https://py.doube.eu.org/spider?site=DianYingTanTang"
 		},
 		{
-			"key": "优视频",
-			"name": "优视频",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/UVod"
-		},
-		{
-			"key": "shdy",
-			"name": "骚火电影",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/shdy"
-		},
-		{
-			"key": "pingguo",
-			"name": "小苹果",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/pingguo"
-		},
+            "key": "爱瓜TV",
+            "name": "爱瓜TV",
+            "type": 4,
+            "api": "http://zhangqun66.com/aigua.php"
+        },
 		{
 			"key": "jinpai",
 			"name": "金牌影院",
@@ -67,42 +55,6 @@
 			"name": "4KVM",
 			"type": 3,
 			"api": "./lz/py/4KVM.py"
-		},
-		{
-			"key": "剧爸爸",
-			"name": "剧爸爸",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/py_jubaba"
-		},
-		{
-			"key": "yongle",
-			"name": "恰逢永乐",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/yongle"
-		},
-		{
-			"key": "xyz",
-			"name": "XYZ影视",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/xyz"
-		},
-		{
-			"key": "huoche",
-			"name": "火车影视",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/huoche"
-		},
-		{
-			"key": "zajiao",
-			"name": "瓜子影视",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/zajiao"
-		},
-		{
-			"key": "hmdj",
-			"name": "HM短剧",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/HMDJ"
 		},
 		{
 			"key": "2242",
@@ -122,24 +74,6 @@
 			"name": "文件播放",
 			"type": 4,
 			"api": "http://139.185.42.4:14888/TV/lives.php"
-		},
-		{
-			"key": "91RB",
-			"name": "🔞91RB",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/91RB"
-		},
-		{
-			"key": "cam4",
-			"name": "🔞cam4",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/cam4"
-		},
-		{
-			"key": "rou",
-			"name": "🔞Rou",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/py_rou"
 		},
 		{
 			"key": "py_BadNews",

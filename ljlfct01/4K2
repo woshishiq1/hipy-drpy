@@ -3,6 +3,13 @@
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
+     {
+     "name": "🐅4K线路",
+      "type": 0,
+      "url": "https://gongdian.top/tv/iptv",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
          {
       "name": "🐅live",
       "type": 0,
@@ -900,17 +907,42 @@
       "type": 1,
       "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
     },
-   {
+ 
+    {
       "name": "4K",
       "type": 1,
-      "url": "http://1.95.112.195:8889/get?url="
-    },
-    {
-      "name": "4K1",
-      "type": 1,
       "url": "http://167.234.211.77:4207/api/?key=XkIbVVBdUCUBEf2zlv&url="
+    },
+     {
+      "name": "综合4k解析-失败，返回在进入即可，接口来源于网络，免费请勿付费购买！仅测试，24小时后删除",
+      "type": 1,
+      "url": "http://1.95.112.195:8889/get?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.1",
+          "token": "0022221113"
+        }
+      }
     }
-  
   ],
   "flags": [
     "youku",

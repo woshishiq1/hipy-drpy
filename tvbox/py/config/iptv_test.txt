@@ -1,6 +1,6 @@
 # 未匹配频道报告
 # 以下频道在源中未找到匹配项
-# 生成时间: 2025-10-29 19:11:25
+# 生成时间: 2025-10-30 01:12:45
 
 ## 模板中未匹配的频道（在源中找不到）
 
@@ -10,9 +10,6 @@
 ## 源中未匹配的频道（在模板中找不到）
 
 默认分类,#genre#
-CETV-3,
-山西卫视,
-陕西卫视,
 义乌新闻综合,
 中国蓝新闻,
 数码时代,
@@ -22,7 +19,10 @@ CETV-3,
 余姚新闻综合,
 余姚姚江文化,
 嵊州新闻综合,
+山西卫视,
 足球频道,
+CETV-3,
+陕西卫视,
 
 🕘️更新时间,#genre#
 2025-10-29 18:26:20,
@@ -455,9 +455,9 @@ CCTV-央视高网,
 直播中国,
 熊猫直播,
 CETV-3 教育服务,
+支持作者,
 CCTV 4K,
 CCTV 8K,
-支持作者,
 
 卫视频道,#genre#
 内蒙古蒙语卫视,
@@ -1289,7 +1289,6 @@ NewTV 明星大片,
 奎屯哈萨克语,
 安顺新闻,
 宜阳综合,
-宿松新闻综合,
 嵊州新闻综合,
 嵊泗综合,
 嵩县综合新闻,
@@ -1331,6 +1330,7 @@ NewTV 明星大片,
 洛阳科教,
 洛阳综合,
 洞头综合,
+济南都市,
 济源电视一套,
 浙江休闲台,
 浙江教育,
@@ -1383,6 +1383,7 @@ NewTV 明星大片,
 陕西新闻咨询,
 陕西秦腔,
 陕西银龄,
+青州综合,
 靖宇综合,
 鹿泉二套,
 黄山公共生活,
@@ -1485,79 +1486,6 @@ Tastemade,
 MovieSphere,
 The Lego Channel,
 NextUp Live Comedy,
-
-央卫备用,#genre#
-陕西卫视,
-山西卫视,
-
-港澳台AKTV,#genre#
-ROCK Action,
-TVB Plus,
-AXN,
-National Geographic,
-東森新聞,
-Animax(HK),
-NHK東京総合,
-Xite Hits,
-Xite Rock,
-東方衛視國際頻道,
-無線衛星新聞台,
-Celestial Movies,
-CINEMAWORLD,
-FIGHT SPORTS,
-Mediacorp Entertainment Chinese,
-NBA TV,
-Sukan,
-TV9,
-TVB Jade,
-TVB Xing He,
-Unifi Sport,
-曼聯電視頻道,
-朝鮮恩情台,
-ELTV生活英語台,
-三立新聞iNEWS,
-倪珍英語新聞,
-龍華偶像台,
-Astro Football,
-Astro IQIYI,
-Astro QJ,
-Astro 欢喜台,
-NTV NEWS 24,
-viuTV,
-朝鲜恩情台,
-
-百事通,#genre#
-星光影院,
-谍战剧场,
-华语影院,
-全球大片,
-热门剧场,
-宝宝动画,
-电竞天堂,
-热门综艺,
-戏曲精选,
-热播精选,
-看天下精选,
-探索纪录,
-少儿动漫,
-青春动漫,
-百变课堂,
-电子竞技,
-高清娱乐,
-漫游世界,
-健康养生,
-英雄联盟音乐节,
-
-北京频道,#genre#
-北京国际,
-北京文艺,
-北京体育休闲,
-北京影视,
-淘剧场,
-淘娱乐,
-淘BABY,
-萌宠TV,
-北京4K超清,
 
 Albania,#genre#
 Kanali 7 Ⓢ,
@@ -3557,10 +3485,88 @@ Viaggi – Pluto TV,
 House of Docs – Pluto TV,
 Le vite degli altri – Pluto TV,
 
+体育频道,#genre#
+JJ斗地主,
+
+更新时间,#genre#
+2025-10-30 00:24:08,
+
+央卫备用,#genre#
+陕西卫视,
+山西卫视,
+
+港澳台AKTV,#genre#
+ROCK Action,
+TVB Plus,
+AXN,
+National Geographic,
+東森新聞,
+Animax(HK),
+NHK東京総合,
+Xite Hits,
+Xite Rock,
+東方衛視國際頻道,
+無線衛星新聞台,
+Celestial Movies,
+CINEMAWORLD,
+FIGHT SPORTS,
+Mediacorp Entertainment Chinese,
+NBA TV,
+Sukan,
+TV9,
+TVB Jade,
+TVB Xing He,
+Unifi Sport,
+曼聯電視頻道,
+朝鮮恩情台,
+ELTV生活英語台,
+三立新聞iNEWS,
+倪珍英語新聞,
+龍華偶像台,
+Astro Football,
+Astro IQIYI,
+Astro QJ,
+Astro 欢喜台,
+NTV NEWS 24,
+viuTV,
+朝鲜恩情台,
+
+百事通,#genre#
+星光影院,
+谍战剧场,
+华语影院,
+全球大片,
+热门剧场,
+宝宝动画,
+电竞天堂,
+热门综艺,
+戏曲精选,
+热播精选,
+看天下精选,
+探索纪录,
+少儿动漫,
+青春动漫,
+百变课堂,
+电子竞技,
+高清娱乐,
+漫游世界,
+健康养生,
+英雄联盟音乐节,
+
+北京频道,#genre#
+北京国际,
+北京文艺,
+北京体育休闲,
+北京影视,
+淘剧场,
+淘娱乐,
+淘BABY,
+萌宠TV,
+北京4K超清,
+
 儿童频道,#genre#
 靖洋卡通,
 海绵宝宝,
-蜡笔小新,
 韩国EBS少儿,
 
 纪录频道,#genre#
@@ -3570,7 +3576,6 @@ Le vite degli altri – Pluto TV,
 中国村庄,
 临潭,
 人与自然,
-伊犁哈萨克,
 兵团五师双河影,
 双辽,
 地理中国,
@@ -3590,9 +3595,6 @@ Le vite degli altri – Pluto TV,
 飞碟之谜01,
 飞碟之谜02,
 龙井,
-
-体育频道,#genre#
-JJ斗地主,
 
 音乐频道,#genre#
 潮流音乐,
@@ -3677,9 +3679,6 @@ JJ斗地主,
 黄花城水长城03,
 黄龙,
 
-更新时间,#genre#
-2025-10-29 18:27:15,
+# 源中未匹配频道总计: 3326
 
-# 源中未匹配频道总计: 3327
-
-# 未匹配频道总计: 3327
+# 未匹配频道总计: 3326

@@ -699,38 +699,12 @@
             "key": "金牌影视",
             "name": "🏅金牌影视",
             "type": 3,
-            "api": "./py/金牌影视.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "ext": {
-                "site": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-            }
-        },
-        {
-            "key": "金牌影视PY",
-            "name": "🧡金牌PY影视",
-            "type": 3,
-            "api": "https://cdn.jsdmirror.com/gh/wzxxcz/tvbox@main/plugin/html/金牌.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2,
-            "ext": {
-                "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-            }
-        },
-        {
-            "key": "金牌影视备",
-            "name": "🏅金牌影视备",
-            "type": 3,
             "api": "csp_Jpys",
-            "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+            "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
         {
             "key": "金牌",
-            "name": "🏅金牌影视备1",
+            "name": "🏅金牌影视备",
             "type": 3,
             "api": "csp_AppMuou",
             "searchable": 1,
@@ -795,7 +769,7 @@
                 "url": "http://qfys.myqf.asia",
                 "dataKey": "vpsj6z4e7scbjbis",
                 "dataIv": "vpsj6z4e7scbjbis",
-                "token": "aecce83813a4d1cc04632200b8c5b46eef67487a934fd7377b7c19ef93520b79",
+                "token": "cea6598a6f09e3af6d583911a81d37f4070c9007eaf35d72dc3cf81e64357bbf",
                 "ua": "Mozilla/5.0 (Linux; Android 13; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
             }
         },
@@ -867,7 +841,7 @@
                 "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+col-pd text-collapse content\">&&</div>",
                 "线路二次截取": "",
                 "线路数组": "sort-button pull-right&&</div>",
-                "线路标题": "title\">&&<",
+                "线路标题": "title\">&&<[不包含:网盘下载]",
                 "播放二次截取": "",
                 "播放数组": "<ul class=\"myui-content__list scrollbar&&</ul>",
                 "倒序": "0",

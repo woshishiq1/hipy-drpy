@@ -39,6 +39,12 @@
 			"api": "https://py.doube.eu.org/spider?site=DianYingTanTang"
 		},
 		{
+            "key": "永乐视频",
+            "name": "永乐视频",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net:5052/?sp=永乐视频"
+        },
+		{
             "key": "爱瓜TV",
             "name": "爱瓜TV",
             "type": 4,
@@ -129,13 +135,13 @@
 		},
 		{
 			"key": "market",
-			"name": "应用 | 商店",
+			"name": "应用｜商店",
 			"type": 3,
 			"api": "csp_Market",
 			"searchable": 0,
 			"changeable": 0,
-			"ext": "https://gb.hfr1107.top/https://github.com/ediart/tvbox/blob/main/lz/market.json",
-			"jar": "https://gb.hfr1107.top/https://github.com/ediart/tvbox/blob/main/lz/fm.jar"
+			"ext": "https://000.hfr1107.top/tool/yc/market.json",
+			"jar": "https://000.hfr1107.top/tool/yc/fm.jar"
 		}
 	],
 	"lives": [{

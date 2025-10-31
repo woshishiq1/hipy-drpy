@@ -45,6 +45,24 @@
             "api": "http://zhangqun1818.serv00.net:5052/?sp=永乐视频"
         },
 		{
+            "key": "奇优动漫",
+            "name": "奇优动漫",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net:5052/?sp=奇优动漫"
+        },
+		{
+            "key": "两个BT",
+            "name": "两个BT",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net:5052/?sp=两个BT"
+        },
+		{
+            "key": "Mang",
+            "name": "芒果TV",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net:5052/?sp=Mang"
+        },
+		{
             "key": "爱瓜TV",
             "name": "爱瓜TV",
             "type": 4,

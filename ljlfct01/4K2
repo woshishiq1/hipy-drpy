@@ -172,6 +172,16 @@
       "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}"
     },
 
+{
+      "name": "蜂巢",
+      "boot": true,
+      "type": 0,
+      "url": "https://chuxinya.top/f/oVAnhv/ggggg.txt",
+      "playerType": 1,
+      "ua": "fengchao/8.8.8",
+      "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://gongdian.top/tv/taibiao/{name}.png"
+    },
 
  
  
@@ -180,7 +190,7 @@
       "name": "🐅猫TV",
       "type": 0,
       "playerType": 1,
-      "url": "http://rihou.cc:567/gggg.nzk",
+      "url": "http://rihou.cc:555/gggg.nzk",
       "ua": "okhttp/3.15",
       "epg": "http://epg.hackserver.net/epg.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
@@ -884,10 +894,15 @@
       "type": 2,
       "url": "Sequence"
     },
+   {
+      "name": "自定：请先设置",
+      "type": 1,
+      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
+    },
     {
       "name": "4K",
       "type": 1,
-      "url": "http://sspa8.top:8100/api/?key=%E6%99%93%E5%AE%87&url="
+      "url": "http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=z2HK9e4i&url="
     },
       {
       "name": "4K1",

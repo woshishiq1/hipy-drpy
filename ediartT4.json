@@ -39,6 +39,12 @@
 			"api": "https://py.doube.eu.org/spider?site=DianYingTanTang"
 		},
 		{
+			"key": "土豆",
+			"name": "土豆",
+			"type": 4,
+			"api": "https://learnpython.ggff.net/py_tudou"
+		},
+		{
 			"key": "爱瓜TV",
 			"name": "爱瓜TV",
 			"type": 4,
@@ -64,555 +70,70 @@
 			"api": "http://139.185.42.4:14888/TV/lives.php"
 		},
 		{
-			"key": "139fm多分类",
-			"name": "139fm多分类",
+			"key": "欧乐影院",
+			"name": "欧乐影院",
 			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=139fm多分类",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
+			"api": "https://py.doube.eu.org/spider?site=OleVod"
 		},
 		{
-			"key": "18",
-			"name": "18",
+			"key": "HLBTY",
+			"name": "🔞HLBTY",
 			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=18",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
+			"api": "https://learnpython.ggff.net/HLBTY"
 		},
 		{
-			"key": "91网爆黑料",
-			"name": "91网爆黑料",
+			"key": "epo1",
+			"name": "🔞epo1",
 			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=91网爆黑料",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "DSYS",
-			"name": "DSYS",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=DSYS",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "UVod",
-			"name": "UVod",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=UVod",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
+			"api": "https://learnpython.ggff.net/epo1"
 		},
 		{
 			"key": "cam4",
-			"name": "cam4",
+			"name": "🔞cam4",
 			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=cam4",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
+			"api": "https://learnpython.ggff.net/cam4"
 		},
 		{
-			"key": "cctv",
-			"name": "cctv",
+			"key": "HSTv",
+			"name": "🔞HSTv",
 			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=cctv",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
+			"api": "https://learnpython.ggff.net/HSTv"
 		},
 		{
-			"key": "epo",
-			"name": "epo",
+			"key": "ThePorn",
+			"name": "🔞ThePorn",
 			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=epo",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-
-		{
-			"key": "stripchat",
-			"name": "stripchat",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=stripchat",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
+			"api": "https://learnpython.ggff.net/ThePorn"
 		},
 		{
-			"key": "uaa有声",
-			"name": "uaa有声",
+			"key": "Phb",
+			"name": "🔞Phb",
 			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=uaa有声",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "一个区",
-			"name": "一个区",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=一个区",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "七区",
-			"name": "七区",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=七区",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "两个BT",
-			"name": "两个BT",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=两个BT",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "九个区",
-			"name": "九个区",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=九个区",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "云云",
-			"name": "云云",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=云云",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "优酷视频",
-			"name": "优酷视频",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=优酷视频",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "八戒影视",
-			"name": "八戒影视",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=八戒影视",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "努努影院",
-			"name": "努努影院",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=努努影院",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "厂长资源",
-			"name": "厂长资源",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=厂长资源",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "哇哇",
-			"name": "哇哇",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=哇哇",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-
-		{
-			"key": "四虎视频",
-			"name": "四虎视频",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=四虎视频",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "国外剧",
-			"name": "国外剧",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=国外剧",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-
-		{
-			"key": "天天动漫",
-			"name": "天天动漫",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=天天动漫",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "奇优动漫",
-			"name": "奇优动漫",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=奇优动漫",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "小苹果影视",
-			"name": "小苹果影视",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=小苹果影视",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "小鸭子看看",
-			"name": "小鸭子看看",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "影视工厂",
-			"name": "影视工厂",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=影视工厂",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-
-		{
-			"key": "推特",
-			"name": "推特",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=推特",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "星芽短剧",
-			"name": "星芽短剧",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=星芽短剧",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "欣欣影视",
-			"name": "欣欣影视",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=欣欣影视",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "永乐视频",
-			"name": "永乐视频",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=永乐视频",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "泥视频",
-			"name": "泥视频",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=泥视频",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "爱瓜影视",
-			"name": "爱瓜影视",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=爱瓜影视",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "甜圈短剧",
-			"name": "甜圈短剧",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=甜圈短剧",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "界影视",
-			"name": "界影视",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=界影视",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "色播聚合",
-			"name": "色播聚合",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=色播聚合",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "芒果TV",
-			"name": "芒果TV",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=芒果TV",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "花都影院",
-			"name": "花都影院",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=花都影院",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "葡萄5区",
-			"name": "葡萄5区",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=葡萄5区",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "金牌",
-			"name": "金牌",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=金牌",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "非凡资源.min",
-			"name": "非凡资源.min",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=非凡资源.min",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "韩国BJ",
-			"name": "韩国BJ",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=韩国BJ",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "韩国色情电影",
-			"name": "韩国色情电影",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=韩国色情电影",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "饭团影视",
-			"name": "饭团影视",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=饭团影视",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "香蕉视频",
-			"name": "香蕉视频",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=香蕉视频",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
+			"api": "https://learnpython.ggff.net/Phb"
 		},
 		{
 			"key": "py_BadNews",
 			"name": "🔞BadNews",
 			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=BadNews",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"changeable": 0,
-			"style": {
-				"type": "rect",
-				"ratio": 1.5
-			}
+			"api": "https://py.doube.eu.org/spider?site=BadNews"
 		},
 		{
 			"key": "py_Miss",
 			"name": "🔞MissAV",
 			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=Miss",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"changeable": 0
+			"api": "https://py.doube.eu.org/spider?site=Miss"
 		},
 		{
 			"key": "py_AiDou",
 			"name": "🔞AiDou",
 			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=AiDou",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"changeable": 0,
-			"style": {
-				"type": "rect",
-				"ratio": 1.5
-			}
+			"api": "https://py.doube.eu.org/spider?site=AiDou"
 		},
 		{
 			"key": "py_madou",
 			"name": "🔞MaDou",
 			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=MaDou",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"changeable": 0,
-			"style": {
-				"type": "rect",
-				"ratio": 1.5
-			}
+			"api": "https://py.doube.eu.org/spider?site=MaDou"
 		},
 		{
 			"key": "market",

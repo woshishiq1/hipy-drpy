@@ -40,9 +40,15 @@
 		},
 		{
 			"key": "土豆",
-			"name": "土豆",
+			"name": "土豆视频",
 			"type": 4,
 			"api": "https://learnpython.ggff.net/py_tudou"
+		},
+		{
+			"api": "https://learnpython.ggff.net/yongle",
+			"key": "yongle",
+			"name": "永乐视频",
+			"type": 4
 		},
 		{
 			"key": "爱瓜TV",
@@ -76,28 +82,28 @@
 			"api": "https://py.doube.eu.org/spider?site=OleVod"
 		},
 		{
+			"api": "https://learnpython.ggff.net/Xvd",
+			"key": "Xvd",
+			"name": "🔞Xvd",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/rsp",
+			"key": "rsp",
+			"name": "🔞肉视频",
+			"type": 4
+		},
+		{
 			"key": "HLBTY",
 			"name": "🔞HLBTY",
 			"type": 4,
 			"api": "https://learnpython.ggff.net/HLBTY"
 		},
 		{
-			"key": "epo1",
-			"name": "🔞epo1",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/epo1"
-		},
-		{
 			"key": "cam4",
 			"name": "🔞cam4",
 			"type": 4,
 			"api": "https://learnpython.ggff.net/cam4"
-		},
-		{
-			"key": "HSTv",
-			"name": "🔞HSTv",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/HSTv"
 		},
 		{
 			"key": "ThePorn",

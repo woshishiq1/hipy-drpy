@@ -1289,44 +1289,27 @@
             }
         },
         {
-            "key": "余白",
-            "name": "🍊余白影视",
+            "key": "优势",
+            "name": "🍊优势影视",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://dec.yb4k.top",
-                "dataKey": "KsmJgfp3MVQFKWRa",
-                "dataIv": "KsmJgfp3MVQFKWRa",
-                "token": "d51f0cf047e7d4c5f76e2720cfdcaa927055e77c5e8cc0a1a7e49ca198067161"
+                "url": "http://zxy-ys.810211.dpdns.org",
+                "dataKey": "1234567890123456",
+                "dataIv": "1234567890123456"
             }
         },
         {
-            "key": "清风",
-            "name": "🍊清风影视",
+            "key": "爱影",
+            "name": "🍊爱影影视",
             "type": 3,
             "quickSearch": 1,
-            "api": "csp_AppGet",
+            "api": "csp_AppQi",
             "ext": {
-                "url": "http://qfys.myqf.asia",
-                "dataKey": "vpsj6z4e7scbjbis",
-                "dataIv": "vpsj6z4e7scbjbis",
-                "token": "cea6598a6f09e3af6d583911a81d37f4070c9007eaf35d72dc3cf81e64357bbf",
-                "ua": "Mozilla/5.0 (Linux; Android 13; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36"
-            }
-        },
-        {
-            "key": "秒看",
-            "name": "🛰️秒看影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://mk1080.top/get.txt",
-                "dataKey": "c60d88b2eep53za8",
-                "dataIv": "c60d88b2eep53za8",
-                "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
-                "ua": "okhttp/3.10.0"
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
+                "dataKey": "sada21321sdq231d",
+                "dataIv": "sada21321sdq231d"
             }
         },
         {
@@ -28102,7 +28085,42 @@
                 "主页url": "http://vedio.kundihulan.com/",
                 "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+text hidden-xs\">&&</div>",
                 "分类url": "http://vedio.kundihulan.com/vodshow/{cateId}--------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#"
+            }
+        },
+        {
+            "key": "农夫影视",
+            "name": "👨‍🌾农夫影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://www.hongxi888.com/",
+                "二次截取": "",
+                "数组": "videopic lazy&&</a>",
+                "标题": "title=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "副标题": "<span class=\"note textbg\">&&</span>",
+                "链接": "href=\"&&\"",
+                "影片年代": "年份：&&</li>",
+                "影片地区": "地区：&&</li>",
+                "影片类型": "类型：&&</li>",
+                "状态": "状态：&&</li>",
+                "导演": "导演：&&</li>",
+                "主演": "主演：&&</li>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+plot\">&&</div>",
+                "线路二次截取": "",
+                "线路数组": "<a class=\"option&&</a>",
+                "线路标题": ">&&<span",
+                "播放二次截取": "",
+                "播放数组": "<ul class=\"playlistlink&&</ul>",
+                "倒序": "0",
+                "播放列表": "<a&&</a>",
+                "播放标题": ">&&</a>",
+                "播放链接": "href=\"&&\"",
+                "分类url": "https://www.hongxi888.com/hongsw/{cateId}--------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#"
             }
         },
         {

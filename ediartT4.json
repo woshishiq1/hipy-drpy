@@ -172,8 +172,12 @@
 			"ua": "bingcha/1.1 (mianfeifenxiang) "
 		},
 		{
+			"name": "英超+NBA",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
+		},
+		{
 			"name": "咪咕直播",
-			"url": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
 		},
 		{
 			"name": "港台",

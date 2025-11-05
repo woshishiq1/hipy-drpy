@@ -72,7 +72,7 @@ jobs:
 
           echo "→ 同步 tushen6/Tomorrow"
           rm -rf Tomorrow/* temp-Tomorrow
-          git clone --depth 1 --branch main https://github.com/tushen6/Tomorrow.git temp-Tomorrow
+          git clone --depth 1 --branch master https://github.com/tushen6/Tomorrow.git temp-Tomorrow
           cp -r temp-Tomorrow/* Tomorrow/
           rm -rf temp-Tomorrow
 

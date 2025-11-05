@@ -1,74 +1,73 @@
-name: Sync Gitee to subfolder and unzip to master
+name: Sync Gitee to subfolder and unzip to master 
+ 
+on: 
+  schedule: 
+    - cron: '0 */6 * * *'  # 每6小时运行一次（UTC时间） 
+  workflow_dispatch:        # 支持手动运行 
+ 
+concurrency: 
+  group: sync_job_lock 
+  cancel-in-progress: true   # 防止多个任务同时运行 
+ 
+jobs: 
+  sync_and_unzip: 
+    runs-on: ubuntu-latest 
+ 
+    steps: 
+      - name: Checkout default branch 
+        uses: actions/checkout@v3 
+ 
+      - name: Set up Git config 
+        run: | 
+          git config user.name "github-actions[bot]" 
+          git config user.email "github-actions[bot]@users.noreply.github.com" 
 
-on:
-  schedule:
-    - cron: '0 */6 * * *'  # 每6小时运行一次（UTC时间）
-  workflow_dispatch:        # 支持手动运行
+      # ✅ 先重置为远程默认分支（防止后续 clone 被覆盖） 
+      - name: Reset local repo to remote default branch 
+        run: | 
+          set -e 
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
+          echo "Detected default branch: $DEFAULT_BRANCH" 
+          git fetch origin $DEFAULT_BRANCH 
+          git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH 
+          git reset --hard origin/$DEFAULT_BRANCH 
+          git clean -fdx 
+          echo "✅ Reset 完成" 
 
-concurrency:
-  group: sync_job_lock
-  cancel-in-progress: true   # 防止多个任务同时运行
-
-jobs:
-  sync_and_unzip:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout default branch
-        uses: actions/checkout@v3
-
-      - name: Set up Git config
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      # ✅ 先重置为远程默认分支（防止后续 clone 被覆盖）
-      - name: Reset local repo to remote default branch
-        run: |
-          set -e
-          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
-          echo "Detected default branch: $DEFAULT_BRANCH"
-
-          git fetch origin $DEFAULT_BRANCH
-          git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
-          git reset --hard origin/$DEFAULT_BRANCH
-          git clean -fdx
-          echo "✅ Reset 完成"
-
-      # ✅ 同步各仓库到子目录（在 reset 之后）
-      - name: Fetch subprojects
-        run: |
-          echo "==== 开始同步 Git 仓库 ===="
+      # ✅ 同步各仓库到子目录（在 reset 之后） 
+      - name: Fetch subprojects 
+        run: | 
+          echo "==== 开始同步 Git 仓库 ====" 
           mkdir -p dr tvbox T4 wzxxcz ljlfct01 Tomorrow
+          
+          echo "→ 同步 jak0099/dr" 
+          rm -rf dr/* temp-dr 
+          git clone --depth 1 --branch master https://github.com/jak0099/dr.git temp-dr 
+          cp -r temp-dr/* dr/ 
+          rm -rf temp-dr 
 
-          echo "→ 同步 jak0099/dr"
-          rm -rf dr/* temp-dr
-          git clone --depth 1 --branch master https://github.com/jak0099/dr.git temp-dr
-          cp -r temp-dr/* dr/
-          rm -rf temp-dr
+          echo "→ 同步 cluntop/tvbox" 
+          rm -rf tvbox/* temp-tvbox 
+          git clone --depth 1 --branch main https://github.com/cluntop/tvbox.git temp-tvbox 
+          cp -r temp-tvbox/* tvbox/ 
+          rm -rf temp-tvbox 
 
-          echo "→ 同步 cluntop/tvbox"
-          rm -rf tvbox/* temp-tvbox
-          git clone --depth 1 --branch main https://github.com/cluntop/tvbox.git temp-tvbox
-          cp -r temp-tvbox/* tvbox/
-          rm -rf temp-tvbox
+          echo "→ 同步 4TVBox/TVBox" 
+          rm -rf T4/* temp-T4 
+          git clone --depth 1 --branch main https://github.com/4TVBox/TVBox.git temp-T4 
+          cp -r temp-T4/* T4/ 
+          rm -rf temp-T4 
 
-          echo "→ 同步 4TVBox/TVBox"
-          rm -rf T4/* temp-T4
-          git clone --depth 1 --branch main https://github.com/4TVBox/TVBox.git temp-T4
-          cp -r temp-T4/* T4/
-          rm -rf temp-T4
+          echo "→ 同步 wzxxcz/wzxxcz" 
+          rm -rf wzxxcz/* temp-wzxxcz 
+          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz 
+          cp -r temp-wzxxcz/* wzxxcz/ 
+          rm -rf temp-wzxxcz 
 
-          echo "→ 同步 wzxxcz/wzxxcz"
-          rm -rf wzxxcz/* temp-wzxxcz
-          git clone --depth 1 --branch main https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
-          cp -r temp-wzxxcz/* wzxxcz/
-          rm -rf temp-wzxxcz
-
-          echo "→ 同步 ljlfct01/ljlfct01.github.io"
-          rm -rf ljlfct01/* temp-ljlfct01
-          git clone --depth 1 --branch main https://github.com/ljlfct01/ljlfct01.github.io.git temp-ljlfct01
-          cp -r temp-ljlfct01/* ljlfct01/
+          echo "→ 同步 ljlfct01/ljlfct01.github.io" 
+          rm -rf ljlfct01/* temp-ljlfct01 
+          git clone --depth 1 --branch main https://github.com/ljlfct01/ljlfct01.github.io.git temp-ljlfct01 
+          cp -r temp-ljlfct01/* ljlfct01/ 
           rm -rf temp-ljlfct01
 
           echo "→ 同步 tushen6/Tomorrow"
@@ -77,78 +76,77 @@ jobs:
           cp -r temp-Tomorrow/* Tomorrow/
           rm -rf temp-Tomorrow
 
-          echo "==== 同步完成 ===="
-          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow -type f -exec touch {} +
+          echo "==== 同步完成 ====" 
+          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow -type f -exec touch {} + 
 
-      # ✅ 下载 Gitee ZIP（在本地目录准备好后）
-      - name: Download and extract Gitee ZIP
-        run: |
-          echo "==== 开始下载 Gitee 仓库 PizazzXS/another-d ===="
-          mkdir -p gitee-source && rm -rf gitee-source/*
-          curl -L -o gitee.zip "https://gitee.com/PizazzXS/another-d/repository/archive/master.zip"
+      # ✅ 下载 Gitee ZIP（在本地目录准备好后） 
+      - name: Download and extract Gitee ZIP 
+        run: | 
+          echo "==== 开始下载 Gitee 仓库 PizazzXS/another-d ====" 
+          mkdir -p gitee-source && rm -rf gitee-source/* 
+          curl -L -o gitee.zip "https://gitee.com/PizazzXS/another-d/repository/archive/master.zip" 
+          if unzip -t gitee.zip >/dev/null 2>&1; then 
+            echo "✅ Gitee ZIP 文件有效，开始解压..." 
+            unzip -q gitee.zip 
+            cp -r another-d-master/* gitee-source/ 
+            rm -rf another-d-master gitee.zip 
+          else 
+            echo "⚠️ Gitee ZIP 下载失败或文件损坏，跳过同步。" 
+            rm -f gitee.zip 
+          fi 
 
-          if unzip -t gitee.zip >/dev/null 2>&1; then
-            echo "✅ Gitee ZIP 文件有效，开始解压..."
-            unzip -q gitee.zip
-            cp -r another-d-master/* gitee-source/
-            rm -rf another-d-master gitee.zip
-          else
-            echo "⚠️ Gitee ZIP 下载失败或文件损坏，跳过同步。"
-            rm -f gitee.zip
-          fi
+      # ✅ 下载 ediartT4.json 
+      - name: Download ediartT4.json 
+        run: | 
+          curl -L "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json" -o ediartT4.json || true 
+          [ -f ediartT4.json ] || echo "{}" > ediartT4.json 
 
-      # ✅ 下载 ediartT4.json
-      - name: Download ediartT4.json
-        run: |
-          curl -L "https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json" -o ediartT4.json || true
-          [ -f ediartT4.json ] || echo "{}" > ediartT4.json
+      # ✅ 提交并推送到默认分支 
+      - name: Commit and push to default branch 
+        run: | 
+          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ Tomorrow/ ediartT4.json 
+          git commit -m "Sync subprojects + Gitee another-d + ediartT4.json" || echo "No changes" 
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
+          git push origin $DEFAULT_BRANCH 
 
-      # ✅ 提交并推送到默认分支
-      - name: Commit and push to default branch
-        run: |
-          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ Tomorrow/ ediartT4.json
-          git commit -m "Sync subprojects + Gitee another-d + Tomorrow + ediartT4.json" || echo "No changes"
-          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
-          git push origin $DEFAULT_BRANCH
+      # ✅ 切换到 master 并同步内容 
+      - name: Sync to master branch 
+        run: | 
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
+          git fetch origin 
+          if git show-ref --quiet refs/remotes/origin/master; then 
+            git checkout master 
+          else 
+            git checkout -b master 
+          fi 
+          git reset --hard origin/$DEFAULT_BRANCH 
+          git push origin master || true 
 
-      # ✅ 切换到 master 并同步内容
-      - name: Sync to master branch
-        run: |
-          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
-          git fetch origin
-          if git show-ref --quiet refs/remotes/origin/master; then
-            git checkout master
-          else
-            git checkout -b master
-          fi
-          git reset --hard origin/$DEFAULT_BRANCH
-          git push origin master || true
+      # ✅ 解压 gitee-source 下所有 ZIP 文件（保留 ZIP） 
+      - name: Unzip all ZIP files in gitee-source (keep ZIP) 
+        run: | 
+          cd gitee-source 
+          for file in *.zip; do 
+            [ -e "$file" ] || continue 
+            echo "解压: $file" 
+            unzip -o "$file" 
+          done 
+          cd .. 
 
-      # ✅ 解压 gitee-source 下所有 ZIP 文件（保留 ZIP）
-      - name: Unzip all ZIP files in gitee-source (keep ZIP)
-        run: |
-          cd gitee-source
-          for file in *.zip; do
-            [ -e "$file" ] || continue
-            echo "解压: $file"
-            unzip -o "$file"
-          done
-          cd ..
+      # ✅ 提交并强推 master 
+      - name: Commit and force push 解压内容到 master（保留 zip） 
+        run: | 
+          git add . 
+          git commit -m "重置 master 为最新分支内容并解压 ZIP" || echo "No changes" 
+          git push origin master --force 
 
-      # ✅ 提交并强推 master
-      - name: Commit and force push 解压内容到 master（保留 zip）
-        run: |
-          git add .
-          git commit -m "重置 master 为最新分支内容并解压 ZIP" || echo "No changes"
-          git push origin master --force
-
-  cleanup_runs:
-    runs-on: ubuntu-latest
-    needs: sync_and_unzip
-    steps:
-      - name: Delete old workflow runs (keep 10, 3 天之前 max)
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          retain_days: 3
+  cleanup_runs: 
+    runs-on: ubuntu-latest 
+    needs: sync_and_unzip 
+    steps: 
+      - name: Delete old workflow runs (keep 10, 3 天之前 max) 
+        uses: Mattraks/delete-workflow-runs@v2 
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }} 
+          retain_days: 3 
           keep_minimum_runs: 10

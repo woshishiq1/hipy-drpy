@@ -737,6 +737,14 @@
             "playerType": 2
         },
         {
+            "key": "私人",
+            "name": "🍊私人影视",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppYsV2",
+            "ext": "https://v.catcs.cc//api.php/v1.vod"
+        },
+        {
             "key": "冷心",
             "name": "🍊冷心影视",
             "type": 3,
@@ -1050,19 +1058,6 @@
             }
         },
         {
-            "key": "火狐",
-            "name": "🦊火狐影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://huohu.yihn.cc",
-                "dataKey": "huohushipingetap",
-                "dataIv": "huohushipingetap",
-                "version": "140"
-            }
-        },
-        {
             "key": "云端",
             "name": "☁️云端影视",
             "type": 3,
@@ -1295,18 +1290,6 @@
                 "url": "http://www.zjcvod.com",
                 "dataKey": "ab4e9a421675f14b",
                 "dataIv": "ab4e9a421675f14b"
-            }
-        },
-        {
-            "key": "米奇",
-            "name": "🐹米奇影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://www.milkidc.cn",
-                "dataKey": "20c79c979da8db0f",
-                "dataIv": "20c79c979da8db0f"
             }
         },
         {
@@ -27847,6 +27830,83 @@
             }
         },
         {
+            "key": "海龟TV",
+            "name": "🐢海龟TV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 120,
+            "ext": {
+                "作者": "🍊小橙子/251105",
+                "站名": "海龟TV",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@PHPSESSID=smv67vusak3bp6dm0dt90b0mbn；； server_name_session=cc1f7e7a2690597de5440a56c14ad633；； SITE_TOTAL_ID=2c079da1110dfcd62019949f7e9dc699；； clothes=white；； __51uvsct__K56uonOLaEF45zOJ=1；； __51vcke__K56uonOLaEF45zOJ=ae5efa99-717a-520a-9ae0-8ff78fe42ecf；； __51vuft__K56uonOLaEF45zOJ=1762312131533；； Hm_lvt_80008d7206b291e93fcd6b9c9645a9a0=1762312132；； HMACCOUNT=02EBDEE8F3C38956；； HWTOKEN=a1fd1b2b2aa3375eef9b124a41a21c573159b9c067b80174e46e41ec14a6fa4d；； HWIDHASH=128c7be00ddaa900fe12e43fd584ec0f；； closeclick=closeclick；； userBlockedPO=true；； __vtins__K56uonOLaEF45zOJ=%7B%22sid%22%3A%20%22ed1b5ebc-4e15-5917-ad0d-320a85ff0452%22%2C%20%22vd%22%3A%2011%2C%20%22stt%22%3A%201025337%2C%20%22dr%22%3A%207138%2C%20%22expires%22%3A%201762314956864%2C%20%22ct%22%3A%201762313156864%7D；； Hm_lpvt_80008d7206b291e93fcd6b9c9645a9a0=1762313157；； HWPID=Md0fOcZXGIxMvlGIrDSvXK3pqg8T71XyLJNFCSLbYQE&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "编码": "UTF-8",
+                "图片代理": "0",
+                "直接播放": "0",
+                "播放请求头": "",
+                "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
+                "免嗅": "1",
+                "过滤词": "",
+                "主页url": "https://haigui.tv/",
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "https://haigui.tv/filter/{cateId}/page/{catePg}/year/{year}/",
+                "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju#纪录片$jilupian#",
+                "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
+                "数组": "module-item-pic&&module-item\"",
+                "标题": "title=\"&&\"",
+                "图片": "data-src=\"&&\"",
+                "副标题": "<div class=\"module-item-text\">&&</div>",
+                "链接": "href=\"&&\"",
+                "影片年代": "年份：&&</span>",
+                "影片地区": "地区：&&</span>",
+                "影片类型": "类型：&&</span>",
+                "状态": "状态：&&</span>",
+                "导演": "导演：&&</span>",
+                "主演": "主演：&&</span>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+剧情：&&</div>",
+                "线路二次截取": "",
+                "线路数组": "data-dropdown-value&&</div>",
+                "线路标题": "<span>&&</span>",
+                "播放二次截取": "",
+                "播放数组": "id=\"sort-item&&</div>",
+                "倒序": "0",
+                "播放列表": "<a&&/a>",
+                "播放标题": "<span>&&</span>",
+                "播放链接": "href=\"&&\"",
+                "解析": "",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "跳转解析": "",
+                "搜索请求头": "User-Agent$MOBILE_UA",
+                "搜索url": "https://haigui.tv/search/{wd}/page/{pg}/",
+                "搜索模式": "1",
+                "搜索后缀": "",
+                "搜索二次截取": "",
+                "搜索数组": "",
+                "搜索标题": "title=\"&&\"",
+                "搜索图片": "data-src=\"&&\"",
+                "搜索副标题": "",
+                "搜索链接": "href=\"&&\"",
+                "筛选": "1",
+                "类型": "",
+                "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
+                "剧情值": "*",
+                "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他",
+                "地区值": "*",
+                "年份": "1950-2025",
+                "年份值": "*",
+                "语言": "国语&英语&粤语&闽南语&韩语&日语&法语&德语&其它",
+                "语言值": "*",
+                "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
+                "字母值": "*",
+                "排序": "时间&人气&评分",
+                "排序值": "time&hits&score"
+            }
+        },
+        {
             "key": "量子",
             "name": "⚗量子秒播",
             "type": 1,
@@ -28282,7 +28342,7 @@
             "ext": "./js/Anime1.js"
         },
         {
-            "key": "漫国",
+            "key": "漫国动漫",
             "name": "🤣漫国动漫",
             "type": 3,
             "api": "csp_AppSy",
@@ -28294,98 +28354,51 @@
             }
         },
         {
-            "key": "二三",
-            "name": "🤣二三动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "",
-                "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
-                "dataKey": "qwertyuiopqwerty",
-                "dataIv": "qwertyuiopqwerty",
-                "deviceId": "",
-                "version": "120"
-            }
-        },
-        {
-            "key": "冬日",
+            "key": "冬日动漫",
             "name": "⛄冬日动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "http://www.drdm.fun",
-                "site": "",
                 "dataKey": "qE2nD0rL1lH4uP9r",
-                "dataIv": "qE2nD0rL1lH4uP9r",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+                "dataIv": "qE2nD0rL1lH4uP9r"
             }
         },
         {
-            "key": "漫屋",
-            "name": "🤣漫屋动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.yunwuee.icu",
-                "site": "",
-                "dataKey": "ygcnb9bdcmb8aeiw",
-                "dataIv": "ygcnb9bdcmb8aeiw",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
-            }
-        },
-        {
-            "key": "方舟",
+            "key": "方舟动漫",
             "name": "🛶方舟动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "https://www.cyfz.vip",
-                "site": "",
                 "dataKey": "e72cdfd629e8895d",
-                "dataIv": "e72cdfd629e8895d",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+                "dataIv": "e72cdfd629e8895d"
             }
         },
         {
-            "key": "元咲",
+            "key": "元咲动漫",
             "name": "🤣元咲动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "http://cic.aicg.fun",
-                "site": "",
                 "dataKey": "2c4h36abd96se10u",
-                "dataIv": "2c4h36abd96se10u",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+                "dataIv": "2c4h36abd96se10u"
             }
         },
         {
-            "key": "番薯",
+            "key": "番薯动漫",
             "name": "🥔番薯动漫",
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppGet",
             "ext": {
                 "url": "https://new.app.bytegooty.com",
-                "site": "",
                 "dataKey": "N4yj7l7xKxHF4*gz",
-                "dataIv": "N4yj7l7xKxHF4*gz",
-                "deviceId": "",
-                "version": "",
-                "ua": ""
+                "dataIv": "N4yj7l7xKxHF4*gz"
             }
         },
         {
@@ -28397,9 +28410,7 @@
             "ext": {
                 "url": "https://app.omofun1.top",
                 "dataKey": "66dc309cbeeca454",
-                "dataIv": "66dc309cbeeca454",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "66dc309cbeeca454"
             }
         },
         {
@@ -28412,9 +28423,7 @@
                 "url": "",
                 "site": "https://xfapp-1305390065.cos.ap-guangzhou.myqcloud.com/getapp.txt",
                 "dataKey": "1yZ2Spn9krnzVKoC",
-                "dataIv": "1yZ2Spn9krnzVKoC",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "1yZ2Spn9krnzVKoC"
             }
         },
         {
@@ -28426,9 +28435,7 @@
             "ext": {
                 "url": "https://www.gugu3.com",
                 "dataKey": "nKfZ8KX6JTNWRzTD",
-                "dataIv": "nKfZ8KX6JTNWRzTD",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "nKfZ8KX6JTNWRzTD"
             }
         },
         {
@@ -28440,9 +28447,7 @@
             "ext": {
                 "url": "https://qjappcms.acg.party",
                 "dataKey": "AmtMYFCJDPoTlK7z",
-                "dataIv": "AmtMYFCJDPoTlK7z",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "AmtMYFCJDPoTlK7z"
             }
         },
         {
@@ -28465,11 +28470,8 @@
             "api": "csp_AppGet",
             "ext": {
                 "url": "https://get.mymifun.com",
-                "site": "",
                 "dataKey": "GETMIFUNGEIMIFUN",
-                "dataIv": "GETMIFUNGEIMIFUN",
-                "deviceId": "",
-                "version": ""
+                "dataIv": "GETMIFUNGEIMIFUN"
             }
         },
         {
@@ -28492,13 +28494,6 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/好看动漫.js"
-        },
-        {
-            "key": "奇米动漫",
-            "name": "🌽奇米动漫",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/奇米动漫.js"
         },
         {
             "key": "路漫漫",

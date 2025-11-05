@@ -39,7 +39,7 @@ jobs:
       - name: Fetch subprojects
         run: |
           echo "==== 开始同步 Git 仓库 ===="
-          mkdir -p dr tvbox T4 wzxxcz ljlfct01
+          mkdir -p dr tvbox T4 wzxxcz ljlfct01 Tomorrow
 
           echo "→ 同步 jak0099/dr"
           rm -rf dr/* temp-dr
@@ -61,7 +61,7 @@ jobs:
 
           echo "→ 同步 wzxxcz/wzxxcz"
           rm -rf wzxxcz/* temp-wzxxcz
-          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
+          git clone --depth 1 --branch main https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
           cp -r temp-wzxxcz/* wzxxcz/
           rm -rf temp-wzxxcz
 
@@ -71,8 +71,14 @@ jobs:
           cp -r temp-ljlfct01/* ljlfct01/
           rm -rf temp-ljlfct01
 
+          echo "→ 同步 tushen6/Tomorrow"
+          rm -rf Tomorrow/* temp-Tomorrow
+          git clone --depth 1 --branch main https://github.com/tushen6/Tomorrow.git temp-Tomorrow
+          cp -r temp-Tomorrow/* Tomorrow/
+          rm -rf temp-Tomorrow
+
           echo "==== 同步完成 ===="
-          find dr tvbox T4 wzxxcz ljlfct01 -type f -exec touch {} +
+          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow -type f -exec touch {} +
 
       # ✅ 下载 Gitee ZIP（在本地目录准备好后）
       - name: Download and extract Gitee ZIP
@@ -100,8 +106,8 @@ jobs:
       # ✅ 提交并推送到默认分支
       - name: Commit and push to default branch
         run: |
-          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ ediartT4.json
-          git commit -m "Sync subprojects + Gitee another-d + ediartT4.json" || echo "No changes"
+          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ Tomorrow/ ediartT4.json
+          git commit -m "Sync subprojects + Gitee another-d + Tomorrow + ediartT4.json" || echo "No changes"
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           git push origin $DEFAULT_BRANCH
 

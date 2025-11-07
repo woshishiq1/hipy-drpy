@@ -82,17 +82,23 @@
 			"api": "https://py.doube.eu.org/spider?site=OleVod"
 		},
 		{
-            "key": "py集合",
-            "name": "py集合",
-            "type": 4,
-            "api": "http://zhangqun1818.serv00.net/py.php"
-        },
+			"key": "py集合",
+			"name": "py集合",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/py.php"
+		},
 		{
-            "key": "php在线",
-            "name": "php在线",
-            "type": 4,
-            "api": "http://zhangqun1818.serv00.net/php.php"
-        },
+			"key": "php在线",
+			"name": "php在线",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/php.php"
+		},
+		{
+			"api": "https://learnpython.ggff.net/lav",
+			"key": "lav",
+			"name": "🔞lav",
+			"type": 4
+		},
 		{
 			"api": "https://learnpython.ggff.net/Xvd",
 			"key": "Xvd",

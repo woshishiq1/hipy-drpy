@@ -82,6 +82,18 @@
 			"api": "https://py.doube.eu.org/spider?site=OleVod"
 		},
 		{
+			"api": "https://learnpython.ggff.net/yunyun",
+			"key": "yunyun",
+			"name": "yunyun",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/2BT",
+			"key": "2BT",
+			"name": "2BT",
+			"type": 4
+		},
+		{
 			"key": "py集合",
 			"name": "py集合",
 			"type": 4,

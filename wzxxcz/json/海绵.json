@@ -1,5 +1,5 @@
 {
-    "SiteUrl": "https://www.haimianxz.com,https://www.hmxz.org,https://www.5536806.xyz,http://haimian.eu.org",
+    "SiteUrl": "https://www.haimianxz.com,https://www.hmxz.org",
     "Classes": [
         {
             "type_name": "电影",
@@ -10,13 +10,16 @@
             "type_id": "2"
         },
         {
-            "type_name": "综艺",
-            "type_id": "5"
-        },
-        {
             "type_name": "动漫",
             "type_id": "3"
+        },
+        {
+            "type_name": "其它",
+            "type_id": "3"
+        },
+        {
+            "type_name": "综艺",
+            "type_id": "5"
         }
-    ],
-    "Cookie": "bbs_sid=344asg91lvjrrehkeuk74c97jh; _xn_accesscount_visited=1; Hm_lvt_d8d486f5aec7b83ea1172477c2ecde4f=1752069814; HMACCOUNT=236648E3F6776CDA; bbs_token=ZL2TyQH8BtxhSii5edIcpl95pDmvyobFpHMwCOh1hXyxCYxk; Hm_lpvt_d8d486f5aec7b83ea1172477c2ecde4f=1752069986"
+    ]
 }

@@ -116,19 +116,6 @@
             }
         },
         {
-            "key": "若雪",
-            "name": "若雪丨APP",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "https://appcms.rx4k.top",
-                "dataKey": "ZX10ysTYZWtIJCTU",
-                "dataIv": "ZX10ysTYZWtIJCTU",
-                "version": "120"
-            }
-        },
-        {
             "key": "蓝鹰",
             "name": "蓝鹰｜APP",
             "type": 3,

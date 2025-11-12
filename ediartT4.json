@@ -51,6 +51,12 @@
 			"type": 4
 		},
 		{
+			"api": "https://learnpython.ggff.net/youku",
+			"key": "youku",
+			"name": "youku",
+			"type": 4
+		},
+		{
 			"key": "爱瓜TV",
 			"name": "爱瓜TV",
 			"type": 4,
@@ -104,6 +110,12 @@
 			"name": "php在线",
 			"type": 4,
 			"api": "http://zhangqun1818.serv00.net/php.php"
+		},
+		{
+			"api": "https://learnpython.ggff.net/51xiG",
+			"key": "51xiG",
+			"name": "🔞51xiG",
+			"type": 4
 		},
 		{
 			"api": "https://learnpython.ggff.net/lav",

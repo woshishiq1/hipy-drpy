@@ -694,23 +694,6 @@
             "ext": "./json/123.json"
         },
         {
-            "key": "趣盘",
-            "name": "趣盘｜4K",
-            "type": 3,
-            "api": "csp_PanWebQu",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": {
-                "url": "https://www.qupanshe.com"
-            }
-        },
-        {
             "key": "双星",
             "name": "双星｜4K",
             "type": 3,

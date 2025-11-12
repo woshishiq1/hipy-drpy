@@ -29231,6 +29231,15 @@
             }
         },
         {
+    "key": "MGTV",
+    "name": "🍊MGTV",
+    "type": 3,
+    "playerType": "2",
+    "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+    "ext": "https://tvbox.catvod.com/js/mgtv.js"
+},
+
+        {
             "key": "量子",
             "name": "⚗量子秒播",
             "type": 1,

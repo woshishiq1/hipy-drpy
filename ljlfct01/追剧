@@ -451,27 +451,7 @@
     }
   ],
   "sites": [
-    {
-      "key": "drpy_js_豆瓣",
-      "name": "💖|豆瓣",
-      "type": 3,
-      "api": "csp_Douban",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
-    },
-   
-    {
-      "key": "测试",
-      "name": "💖应用|更新",
-      "type": 3,
-      "api": "csp_Market",
-      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
-    },
-    {
-      "key": "设置",
-      "name": "💖网弹|设置",
-      "type": 3,
-      "api": "csp_HBconfig"
-    },
+
 
      {
       "key": "tenteng",
@@ -507,12 +487,13 @@
         "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
         "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
         "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
-        "cookie": "http://14.103.129.80:999/奇迹云2kmax/lib/ck.txt",
+        "cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/ck1.txt",
         "uccookie": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
         "tuctoken": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/txt",
         "site": "https://wogg.xxooo.cf/"
       }
     },
+
 
 
   
@@ -898,28 +879,19 @@
   ],
   "parses": [
  
-    {
-      "name": "轮询优选",
-      "type": 2,
-      "url": "Sequence"
-    },
+ 
  
    {
       "name": "自定",
       "type": 1,
       "url": "http://sspa8.top:8100/api/?key=%E6%98%9F%E7%9D%BF4k&url="
     },
-  
-  {
+   {
       "name": "自定1",
       "type": 1,
-      "url": "http://14.103.129.80:777/api/index?parsesId=1&appid=10000&videoUrl="
-    },
- {
-      "name": "自定2",
-      "type": 1,
-      "url": "http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl="
-    }
+      "url": "https://sk.69mzf.com/api/index?parsesId=661&appid=86321&videoUrl="
+    } 
+
   
   ],
   "flags": [

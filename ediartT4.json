@@ -100,6 +100,18 @@
 			"type": 4
 		},
 		{
+			"api": "https://learnpython.ggff.net/4KFS",
+			"key": "4KFS",
+			"name": "4KFS",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/py_fk",
+			"key": "py_fk",
+			"name": "py_fk",
+			"type": 4
+		},
+		{
 			"key": "py集合",
 			"name": "py集合",
 			"type": 4,

@@ -89,6 +89,12 @@
       "api": "https://py.doube.eu.org/spider?site=OleVod"
     },
     {
+      "api": "https://learnpython.ggff.net/xpgyshi",
+      "key": "xpgyshi",
+      "name": "小苹果",
+      "type": 4
+    },
+    {
       "api": "https://learnpython.ggff.net/yunyun",
       "key": "yunyun",
       "name": "yunyun",

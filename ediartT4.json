@@ -40,6 +40,12 @@
       "api": "https://py.doube.eu.org/spider?site=DianYingTanTang"
     },
     {
+      "api": "https://learnpython.ggff.net/4KVMYS",
+      "key": "4KVMYS",
+      "name": "4KVMYS",
+      "type": 4
+    },
+    {
       "key": "土豆",
       "name": "土豆视频",
       "type": 4,

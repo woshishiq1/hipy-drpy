@@ -1,0 +1,240 @@
+{
+  "spider": "https://lz.qaiu.top/d/lz/ijfdS2y7122j",
+  "wallpaper": "https://xn--spsx60cgim8pd.xxooo.cf/",
+  "sites": [
+    {
+      "key": "璞嗙摚",
+      "name": "豆瓣资源",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
+      "key": "鑵捐寮瑰箷",
+      "name": "腾腾4K",
+      "searchable": 1,
+      "type": 3,
+      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
+      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E8%85%BE%E8%AE%AF%E5%BC%B9%E5%B9%95.js"
+    },
+    {
+      "key": "鑼尗",
+      "name": "果果4K",
+      "type": 3,
+      "searchable": 1,
+      "api": "http://47.122.84.123:8808/tvbox/gitee/zokzishi-master/xs/js/drpy2.min.js",
+      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%99%BE%E5%BF%99.js"
+    },
+ {
+      "key": "哔哩哔哩",
+      "name": "哔哩4k",
+      "type": 3,
+      "api": "http://140.210.9.53:6789//lib/drpy2.min.js",
+      "ext": "http://140.210.9.53:6789//lib/哔哩哔哩.js"
+    },
+    {
+      "key": "浜斿ぇ閲囬泦骞冲彴",
+      "name": "聚合4K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2,
+      "ext": "http://39.105.18.5:5565/api.php/app/"
+    },
+    {
+      "key": "玩偶哥哥",
+      "name": "💖臻彩网盘♦4k免扫♦",
+      "type": 3,
+      "playerType": 2,
+      "api": "csp_Wogg",
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/云1023.jar",
+      "ext": {
+        "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
+        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
+        "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
+        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
+        "cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/ck.txt",
+        "uccookie": "",
+        "tuctoken": "",
+        "site": "https://wogg.xxooo.cf/"
+      }
+    },
+
+
+
+  
+
+    {
+      "key": "竹生",
+      "name": "💖免扫网盘①|4K",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
+     
+    },
+    {
+      "key": "归安",
+      "name": "💖免扫网盘②|4K",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
+     
+    },
+    {
+      "key": "薄心",
+      "name": "💖免扫网盘③|4K",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMWxjbmhwWVc4akl5TmxjbmhwWVc4PQ=="
+     
+    },
+    {
+      "key": "甜橙",
+      "name": "💖免扫网盘④|4K",
+      "type": 3,
+      "api": "csp_HBT4",
+      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
+    }
+  ],
+  "logo": "https://d.kstore.dev/download/6474/tvbox/img/v0.png",
+  "parses": [
+    {
+      "name": "优选轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "TX MG",
+      "type": 1,
+      "url": "http://14.103.129.80:777/api/index?parsesId=1&appid=10000&videoUrl=",
+        "ext": {
+        "flag": [
+          "qq",
+          "鑵捐",
+          "qiyi",
+          "鐖卞鑹�",
+          "濂囪壓",
+          "youku",
+          "浼橀叿",
+          "sohu",
+          "鎼滅嫄",
+          "letv",
+          "涔愯",
+          "mgtv",
+          "鑺掓灉",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "TX MG",
+      "type": "1",
+      "url": "http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl=",
+      "ext": {
+        "flag": [
+          "qq",
+          "鑵捐",
+          "qiyi",
+          "鐖卞鑹�",
+          "濂囪壓",
+          "youku",
+          "浼橀叿",
+          "sohu",
+          "鎼滅嫄",
+          "letv",
+          "涔愯",
+          "mgtv",
+          "鑺掓灉",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "bilibili",
+      "type": "1",
+      "url": "http://sspa8.top:8100/api/?key=%E6%98%9F%E7%9D%BF4k&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "鑵捐",
+          "qiyi",
+          "鐖卞鑹�",
+          "濂囪壓",
+          "youku",
+          "浼橀叿",
+          "sohu",
+          "鎼滅嫄",
+          "letv",
+          "涔愯",
+          "mgtv",
+          "鑺掓灉",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },
+    {
+      "name": "自定",
+      "type": "1",
+      "url": "http://125.208.22.184:1666/api/?key=Lsthk1A7obu4Lmn4zk&url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "鑵捐",
+          "qiyi",
+          "鐖卞鑹�",
+          "濂囪壓",
+          "youku",
+          "浼橀叿",
+          "sohu",
+          "鎼滅嫄",
+          "letv",
+          "涔愯",
+          "mgtv",
+          "鑺掓灉",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    }
+  ],
+  "lives": [
+    {
+      "name": "骞冲彴鐩存挱",
+      "type": 0,
+      "url": "http://150.158.112.123/live.txt",
+      "ua": "okhttp/3.15",
+      "playerType": 2
+    }
+  ]
+}
+
+
+
+
+
+

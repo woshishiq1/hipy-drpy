@@ -33,17 +33,7 @@
       "api": "http://140.210.9.53:6789//lib/drpy2.min.js",
       "ext": "http://140.210.9.53:6789//lib/哔哩哔哩.js"
     },
-    {
-      "key": "浜斿ぇ閲囬泦骞冲彴",
-      "name": "聚合4K",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": "http://39.105.18.5:5565/api.php/app/"
-    },
+
     {
       "key": "玩偶哥哥",
       "name": "💖臻彩网盘♦4k免扫♦",
@@ -105,35 +95,6 @@
     {
       "name": "4k",
       "type": "1",
-      "url": "http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl=",
-      "ext": {
-        "flag": [
-          "qq",
-          "鑵捐",
-          "qiyi",
-          "鐖卞鑹�",
-          "濂囪壓",
-          "youku",
-          "浼橀叿",
-          "sohu",
-          "鎼滅嫄",
-          "letv",
-          "涔愯",
-          "mgtv",
-          "鑺掓灉",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
-    },
-    {
-      "name": "bilibili",
-      "type": "1",
       "url": "http://sspa8.top:8100/api/?key=%E6%98%9F%E7%9D%BF4k&url=",
       "ext": {
         "flag": [
@@ -159,36 +120,8 @@
           "User-Agent": "okhttp/4.9.1"
         }
       }
-    },
-    {
-      "name": "自定",
-      "type": "1",
-      "url": "https://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=zWFB5aju&url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "鑵捐",
-          "qiyi",
-          "鐖卞鑹�",
-          "濂囪壓",
-          "youku",
-          "浼橀叿",
-          "sohu",
-          "鎼滅嫄",
-          "letv",
-          "涔愯",
-          "mgtv",
-          "鑺掓灉",
-          "tnmb",
-          "seven",
-          "bilibili",
-          "1905"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.9.1"
-        }
-      }
     }
+
   ],
   "lives": [
     {
@@ -200,6 +133,8 @@
     }
   ]
 }
+
+
 
 
 

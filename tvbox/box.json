@@ -394,6 +394,17 @@
 			"changeable": 0
 		},
 		{
+			"key": "py_粤漫动漫",
+			"name": "粤漫动漫(T3)",
+			"type": 3,
+			"api": "./js/s/粤漫.py",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 5,
+			"ext": ""
+		},
+		{
 			"key": "py_三号动漫",
 			"name": "三号动漫(T3)",
 			"type": 3,

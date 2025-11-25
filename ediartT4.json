@@ -95,6 +95,18 @@
 			"api": "https://py.doube.eu.org/spider?site=OleVod"
 		},
 		{
+			"api": "https://learnpython.ggff.net/TXSPPY",
+			"key": "TXSPPY",
+			"name": "TXSPPY",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/QGUSP",
+			"key": "QGUSP",
+			"name": "QGUSP",
+			"type": 4
+		},
+		{
 			"api": "https://learnpython.ggff.net/xpgyshi",
 			"key": "xpgyshi",
 			"name": "小苹果",

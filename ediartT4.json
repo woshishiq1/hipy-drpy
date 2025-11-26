@@ -95,6 +95,12 @@
 			"api": "https://py.doube.eu.org/spider?site=OleVod"
 		},
 		{
+			"api": "https://learnpython.ggff.net/xiongdi",
+			"key": "xiongdi",
+			"name": "xiongdi",
+			"type": 4
+		},
+		{
 			"api": "https://learnpython.ggff.net/TXSPPY",
 			"key": "TXSPPY",
 			"name": "TXSPPY",

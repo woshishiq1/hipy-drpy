@@ -1228,18 +1228,6 @@
             }
         },
         {
-            "key": "云端",
-            "name": "☁️云端影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://c8k2n5l0i9s8b2m1jj8k2x2l9ff68.ydysapi.cfd:27899",
-                "dataKey": "k9o3p2c8b7m3z0o8",
-                "dataIv": "k9o3p2c8b7m3z0o8"
-            }
-        },
-        {
             "key": "爱看影视网",
             "name": "🧿爱看影视网",
             "type": 3,
@@ -1403,18 +1391,6 @@
             }
         },
         {
-            "key": "于浅",
-            "name": "🍊于浅影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://202.140.143.116:88",
-                "dataKey": "leroulerop.lerom",
-                "dataIv": "leroulerop.lerom"
-            }
-        },
-        {
             "key": "数字",
             "name": "♾️数字影视",
             "type": 3,
@@ -1448,18 +1424,6 @@
                 "url": "https://www.appdm.akandm.com",
                 "dataKey": "uI1TkPJC8B46AyN3",
                 "dataIv": "uI1TkPJC8B46AyN3"
-            }
-        },
-        {
-            "key": "火花",
-            "name": "🔥火花影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "http://v.itcxo.cn/txt/1.txt",
-                "dataKey": "PoiUytRedFghjklm",
-                "dataIv": "PoiUytRedFghjklm"
             }
         },
         {
@@ -1587,19 +1551,6 @@
                 "dataKey": "ca94b06ca359d80e",
                 "dataIv": "ca94b06ca359d80e",
                 "version": "120"
-            }
-        },
-        {
-            "key": "开心",
-            "name": "🐄开心影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/gw.txt",
-                "dataKey": "ca94b06ca3c7d80e",
-                "dataIv": "ca94b06ca3c7d80e",
-                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -1745,10 +1696,11 @@
             "key": "火猫",
             "name": "🐱火猫1080P",
             "type": 3,
-            "api": "csp_AppMuou",
+            "api": "csp_AppGet",
             "ext": {
-                "url": "http://app.789dd.cn",
-                "name": "火猫影视"
+                "url": "http://103.23.148.70:14500",
+                "dataKey": "J6AIORKJ3PQOJKM8",
+                "dataIv": "J6AIORKJ3PQOJKM8"
             }
         },
         {
@@ -12777,83 +12729,6 @@
                 "分类url": "https://www.hemazi.com/tags/{cateId}-{area}---{lang}----{catePg}---{year}.html",
                 "分类": "电影$1#电视剧$2#动漫$3#综艺$4#短剧$27#",
                 "简介": "🍊小橙子为您介绍剧情👉+left data2\">&&</div>"
-            }
-        },
-        {
-            "key": "星河影视",
-            "name": "🌌星河影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 120,
-            "ext": {
-                "作者": "🍊小橙子/250801",
-                "站名": "星河影视",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@X_CACHE_KEY=02b46fac77a65558f7cc254e3eaf2345；； PHPSESSID=5u618i0g3esn5i5vos8d7ip4uj；； Hm_tf_h783hxq79ko=1754056779；； Hm_lvt_h783hxq79ko=1754056779；； Hm_lpvt_h783hxq79ko=1754058318&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
-                "编码": "UTF-8",
-                "图片代理": "0",
-                "直接播放": "0",
-                "播放请求头": "",
-                "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
-                "免嗅": "1",
-                "过滤词": "",
-                "主页url": "https://www.szthd.com/",
-                "首页": "120",
-                "起始页": "1",
-                "分类url": "https://www.szthd.com/show/{cateId}-{area}-------{catePg}---/",
-                "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman#",
-                "二次截取": "",
-                "数组": "lazyload&&</a>",
-                "标题": "title=\"&&\"",
-                "图片": "data-original=\"&&\"",
-                "副标题": "<span class=\"pic-text text-right\">&&</span>",
-                "链接": "href=\"&&\"",
-                "影片年代": "年份：&&</p>",
-                "影片地区": "地区：&&</p>",
-                "影片类型": "类型：&&</p>",
-                "状态": "状态：&&</p>",
-                "导演": "导演：&&</p>",
-                "主演": "主演：&&</p>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+col-pd text-collapse content\">&&</div>",
-                "线路二次截取": "",
-                "线路数组": "\\#playlist&&</a>",
-                "线路标题": "tab\">&&<",
-                "播放二次截取": "",
-                "播放数组": "<ul class=\"myui-content__list sort-list scrollbar clearfix&&</ul>",
-                "倒序": "0",
-                "播放列表": "<a&&</a>",
-                "播放标题": ">&&<",
-                "播放链接": "href=\"&&\"",
-                "解析": "",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "跳转解析": "",
-                "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.szthd.com/search/{wd}----------{pg}---/",
-                "搜索模式": "1",
-                "搜索后缀": "",
-                "搜索二次截取": "",
-                "搜索数组": "lazyload&&</a>",
-                "搜索标题": "title=\"&&\"",
-                "搜索图片": "data-original=\"&&\"",
-                "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
-                "搜索链接": "href=\"&&\"",
-                "筛选": "1",
-                "类型": "",
-                "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
-                "剧情值": "*",
-                "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他",
-                "地区值": "*",
-                "年份": "1950-2025",
-                "年份值": "*",
-                "语言": "国语&英语&粤语&闽南语&韩语&日语&法语&德语&其它",
-                "语言值": "*",
-                "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
-                "字母值": "*",
-                "排序": "时间&人气&评分",
-                "排序值": "time&hits&score"
             }
         },
         {

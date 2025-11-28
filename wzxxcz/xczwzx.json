@@ -745,14 +745,6 @@
             "playerType": 2
        },
        {
-            "key": "私人",
-            "name": "🍊私人影视",
-            "type": 3,
-            "changeable": 1,
-            "api": "csp_AppYsV2",
-            "ext": "https://v.catcs.cc/api.php/v1.vod"
-        },
-        {
             "key": "羊羊",
             "name": "🐏羊羊影视",
             "type": 3,
@@ -762,6 +754,15 @@
             "ext": {
                 "url": "https://ht.zhenxun.love",
                 "name": "羊羊学院"
+            }
+        },
+        {
+            "key": "吉米",
+            "name": "🎸吉米影视",
+            "type": 3,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://fox.tvmao.top"
             }
         },
         {
@@ -12937,57 +12938,6 @@
                 "分类url": "https://188mv.cc/vodtype/{cateId}-{catePg}.html",
                 "分类": "电影$1#剧集$2#综艺$3#动漫$4#短剧$39#体育$34#",
                 "简介": "🍊小橙子为您介绍剧情👉+video-info-item video-info-content vod_content\">&&</div>"
-            }
-        },
-        {
-            "key": "1817影视",
-            "name": "🍊1817影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "数组": "/voddetail/&&</a>",
-                "标题": "title=\"&&\"",
-                "副标题": "hl-lc-1 remarks\">&&</span>",
-                "图片": "data-original=\"&&\"",
-                "链接": "/voddetail/+&&\"",
-                "线路数组": "<i class=\"iconfont hl-icon-laiyuan&&</a>",
-                "线路标题": "</i>&&<",
-                "播放数组": "<ul class=\"hl-plays-list&&</ul>",
-                "播放列表": "<li&&</li>",
-                "播放标题": ">&&</a>",
-                "播放链接": "href=\"&&\"",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "搜索url": "https://sn1817.com/vodsearch/{wd}----------{pg}---.html",
-                "分类url": "https://sn1817.com/vodshow/{cateId}-{area}---{lang}----{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#动漫$3#综艺$4#番剧$66#短视频$63#",
-                "简介": "🍊小橙子为您介绍剧情👉+hl-text-muted\">&&</div>"
-            }
-        },
-        {
-            "key": "红狐狸影院",
-            "name": "🦊红狐狸影院",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "数组": "/detail/&&</a>",
-                "标题": "title=\"&&\"",
-                "副标题": "<span class=\"state\">&&</span>",
-                "图片": "data-original=\"&&\"",
-                "链接": "/detail/+&&\"",
-                "线路数组": "tab-nav&&</a>",
-                "线路标题": ">&&</a",
-                "播放数组": "<ul class=\"episodes-list&&</ul>",
-                "播放列表": "<li&&</li>",
-                "播放标题": ">&&</a>",
-                "播放链接": "href=\"&&\"",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "分类url": "https://honghuli.com/show/{cateId}----{lang}----{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#",
-                "简介": "🍊小橙子为您介绍剧情👉+text-indent: 28px;margin-top: 10px;\">&&</div>"
             }
         },
         {

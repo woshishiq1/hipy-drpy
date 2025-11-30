@@ -1,10 +1,14 @@
 #!/bin/bash
 
 if [ "$(id -u)" -ne 0 ]; then
- exec sudo "$0" "$@"
- exit 1
+    exec sudo "$0" "$@"
 fi
 
 clun_download() {
-cd ~ && curl -s https://raw.githubusercontent.com/cluntop/sh/refs/heads/main/tcp.sh -o clun_tcp.sh && chmod +x clun_tcp.sh && ./clun_tcp.sh $1
-} && clun_download $1
+    cd ~ || return 1
+    curl -s https://raw.githubusercontent.com/cluntop/sh/refs/heads/main/tcp.sh -o clun_tcp.sh || return 1
+    chmod +x clun_tcp.sh || return 1
+    ./clun_tcp.sh "$1"
+}
+
+clun_download "$1"

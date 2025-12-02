@@ -10,7 +10,7 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # 日志文件
-LOG_FILE="/data/data/bin.mt.plus/home/tvbox/log/git_operation.log"
+LOG_FILE="/data/data/bin.mt.plus/home/tvbox/.github/git.log"
 
 # 日志记录函数
 log() {

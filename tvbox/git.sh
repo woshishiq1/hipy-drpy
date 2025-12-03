@@ -1,13 +1,13 @@
 #!/bin/env sh
 #!/system/bin/sh
 
-# 颜色定义（如果终端支持）
+# 颜色定义
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 CYAN='\033[0;36m'
-NC='\033[0m' # No Color
+NC='\033[0m'
 
 # 日志文件
 LOG_FILE="/data/data/bin.mt.plus/home/tvbox/.github/git.log"
@@ -258,9 +258,9 @@ clear_screen() {
 # 主菜单
 show_menu() {
     clear_screen
-    echo -e "${CYAN}╔═══════════════════════════╗${NC}"
-    echo -e "${CYAN}║      Git 仓库管理工具      ║${NC}"
-    echo -e "${CYAN}╚═══════════════════════════╝${NC}"
+    echo -e "${CYAN}╔═════════════════╗${NC}"
+    echo -e "${CYAN}║      Git 仓库管理工具 (PID: $$)    ║${NC}"
+    echo -e "${CYAN}╚═════════════════╝${NC}"
     echo ""
     echo "当前时间: $(date '+%Y-%m-%d %H:%M:%S')"
     echo "工作目录: $(pwd)"

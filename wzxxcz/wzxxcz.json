@@ -1312,7 +1312,8 @@
             "type": 3,
             "api": "csp_AppFox",
             "ext": {
-                "host": "http://www.mzd.asia"
+                "host": "https://www.dhxxfhsz.top",
+                "ver": 2
             }
         },
         {
@@ -1492,6 +1493,36 @@
                 "url": "http://zxy-ys.810211.dpdns.org",
                 "dataKey": "1234567890123456",
                 "dataIv": "1234567890123456"
+            }
+        },
+        {
+            "key": "爱盈",
+            "name": "🍊爱盈影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt",
+                "dataKey": "sda1231sasddad21",
+                "dataIv": "sda1231sasddad21",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "顾我",
+            "name": "🍊顾我影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": {
+                "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt",
+                "dataKey": "ca94b06ca3c7d80e",
+                "dataIv": "ca94b06ca3c7d80e",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -11163,7 +11194,7 @@
             "name": "👨‍🌾农民影视",
             "type": 3,
             "api": "csp_Wwys",
-            "ext": "https://www.wwgz.cn"
+            "ext": "https://vip.wwgz.cn:5200"
         },
         {
             "key": "三九影视",
@@ -11257,6 +11288,13 @@
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
             }
+        },
+        {
+            "key": "云播影视",
+            "name": "☁️云播影视",
+            "type": 3,
+            "api": "csp_Tvyb",
+            "ext": "http://www.viptv05.com"
         },
         {
             "key": "奇优影视",

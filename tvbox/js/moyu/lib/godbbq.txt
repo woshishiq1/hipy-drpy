@@ -1,0 +1,10 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<Error>
+<Code>InvalidBucketName</Code>
+<Message>The specified bucket is not valid.</Message>
+<RequestId>6874A4D253726E38308E3C3E</RequestId>
+<HostId>muouapp.oss-cn-hangzhou.aliyuncs.com</HostId>
+<BucketName>dd</BucketName>
+<EC>0015-00000001</EC>
+<RecommendDoc>https://api.aliyun.com/troubleshoot?q=0015-00000001</RecommendDoc>
+</Error>

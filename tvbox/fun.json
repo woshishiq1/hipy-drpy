@@ -8,6 +8,39 @@
 			"ext": "proxy"
 		},
 		{
+			"key": "javdb_py",
+			"name": "javdb",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "./py/javdb.py",
+			"order_num": 5,
+			"ext": ""
+		},
+		{
+			"key": "18_py",
+			"name": "18",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "./py/18.py",
+			"order_num": 5,
+			"ext": ""
+		},
+		{
+			"key": "小黄书_py",
+			"name": "小黄书",
+			"type": 3,
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"api": "./js/ss/小黄书.py",
+			"order_num": 5,
+			"ext": ""
+		},
+		{
 			"key": "七区_py",
 			"name": "七区",
 			"type": 3,
@@ -1277,5 +1310,5 @@
 		"wasu"
 	],
 	"logo": "./img/pg.gif",
-	"spider": "./pg.jar"
+	"spider": "./jar/xc.jar"
 }

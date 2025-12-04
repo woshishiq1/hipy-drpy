@@ -34,7 +34,7 @@
  
 
  {
-      "name": "🐅老三",
+      "name": "🐅飞扬",
       "type": 0,
       "url": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/zb",
       "header": {
@@ -415,7 +415,22 @@
       "api": "http://140.210.9.53:6789//lib/drpy2.min.js",
       "ext": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/bili.txt"
     },
-
+   {
+      "key": "墨韵|臻彩",
+      "name": "青檬影视┃臻彩4K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "https://gitee.com/ztha002/th/raw/master/ztha.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+        "url_key": "Netfixtv",
+        "token": "http://127.0.0.1:9978/file/tvbox/tok.txt",
+        "ucCookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/z_uc.js",
+        "baidu_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/z_bd.js",
+        "quarkCookie": "http://14.103.129.80:999/%E5%A5%87%E8%BF%B9%E4%BA%912kmax/lib/ck.txt",
+      "ext": "http://cms.lygdyy.cn/api.php/app/"
+    },
 
     {
       "key": "1",

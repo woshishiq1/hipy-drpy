@@ -4,7 +4,6 @@
 			"key": "tt",
 			"name": "老三",
 			"type": 3,
-			"jar": "/js/xiaosa/spider.jar",
 			"api": "/js/test/drpy2.min.js",
 			"ext": "/js/test/4k.js"
 		},

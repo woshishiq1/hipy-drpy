@@ -8,6 +8,15 @@
 			"ext": "proxy"
 		},
 		{
+			"key": "py_七区",
+			"name": "七区(T3)",
+			"type": 3,
+			"api": "./py/七区.py",
+			"quickSearch": 1,
+			"searchable": 1,
+			"filterable": 1
+		},
+		{
 			"key": "javdb_py",
 			"name": "javdb",
 			"type": 3,

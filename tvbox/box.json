@@ -220,6 +220,12 @@
 			"name": "== 3 =="
 		},
 		{
+			"key": "py_高清电影",
+			"name": "高清电影(T3)",
+			"type": 3,
+			"api": "./py/高清电影.py"
+		},
+		{
 			"key": "py_jianpian",
 			"name": "荐片(T3)",
 			"type": 3,

@@ -920,6 +920,16 @@
             }
         },
         {
+            "key": "笒鬼短剧",
+            "name": "笒鬼｜短剧",
+            "type": 3,
+            "api": "csp_CenguiDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
             "key": "星芽短剧",
             "name": "星芽｜短剧",
             "type": 3,

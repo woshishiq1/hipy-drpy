@@ -40,30 +40,6 @@
 			"api": "https://py.doube.eu.org/spider?site=DianYingTanTang"
 		},
 		{
-			"api": "https://learnpython.ggff.net/4KVMYS",
-			"key": "4KVMYS",
-			"name": "4KVMYS",
-			"type": 4
-		},
-		{
-			"key": "土豆",
-			"name": "土豆视频",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/py_tudou"
-		},
-		{
-			"api": "https://learnpython.ggff.net/yongle",
-			"key": "yongle",
-			"name": "永乐视频",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/youku",
-			"key": "youku",
-			"name": "youku",
-			"type": 4
-		},
-		{
 			"key": "爱瓜TV",
 			"name": "爱瓜TV",
 			"type": 4,
@@ -83,6 +59,18 @@
 			"api": "https://py.doube.eu.org/spider?site=Dm84"
 		},
 		{
+			"key": "py_64832281816dd9a7b7c506233d457a5d",
+			"name": "官方采集",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=64832281816dd9a7b7c506233d457a5d"
+		},
+		{
+			"key": "py_粤漫之家",
+			"name": "粤漫之家",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=de0fbc805050ecc4d63971c109724d0e"
+		},
+		{
 			"key": "文件播放",
 			"name": "文件播放",
 			"type": 4,
@@ -93,54 +81,6 @@
 			"name": "欧乐影院",
 			"type": 4,
 			"api": "https://py.doube.eu.org/spider?site=OleVod"
-		},
-		{
-			"api": "https://learnpython.ggff.net/xiongdi",
-			"key": "xiongdi",
-			"name": "xiongdi",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/TXSPPY",
-			"key": "TXSPPY",
-			"name": "TXSPPY",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/QGUSP",
-			"key": "QGUSP",
-			"name": "QGUSP",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/xpgyshi",
-			"key": "xpgyshi",
-			"name": "小苹果",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/yunyun",
-			"key": "yunyun",
-			"name": "yunyun",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/2BT",
-			"key": "2BT",
-			"name": "2BT",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/4KFS",
-			"key": "4KFS",
-			"name": "4KFS",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/FKTV",
-			"key": "FKTV",
-			"name": "FKTV",
-			"type": 4
 		},
 		{
 			"key": "py集合",
@@ -155,52 +95,10 @@
 			"api": "http://zhangqun1818.serv00.net/php.php"
 		},
 		{
-			"api": "https://learnpython.ggff.net/51xiG",
-			"key": "51xiG",
-			"name": "🔞51xiG",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/lav",
-			"key": "lav",
-			"name": "🔞lav",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/Xvd",
-			"key": "Xvd",
-			"name": "🔞Xvd",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/rsp",
-			"key": "rsp",
-			"name": "🔞肉视频",
-			"type": 4
-		},
-		{
-			"key": "HLBTY",
-			"name": "🔞HLBTY",
+			"key": "py_rou",
+			"name": "🔞肉視頻",
 			"type": 4,
-			"api": "https://learnpython.ggff.net/HLBTY"
-		},
-		{
-			"key": "cam4",
-			"name": "🔞cam4",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/cam4"
-		},
-		{
-			"key": "ThePorn",
-			"name": "🔞ThePorn",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/ThePorn"
-		},
-		{
-			"key": "Phb",
-			"name": "🔞Phb",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/Phb"
+			"api": "https://py.doube.eu.org/v2/spider?site=96c1ddea0f3b27f1955ed512f0e7a9d7"
 		},
 		{
 			"key": "py_BadNews",

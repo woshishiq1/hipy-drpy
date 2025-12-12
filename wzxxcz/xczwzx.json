@@ -1709,6 +1709,19 @@
             }
         },
         {
+            "key": "火花",
+            "name": "🔥火花影视",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "http://php.itcxo.cn/txt/1.txt",
+                "dataKey": "PoiUytRedFghjklm",
+                "dataIv": "PoiUytRedFghjklm"
+            }
+        },
+        {
             "key": "椰子",
             "name": "🍊椰子影视",
             "type": 3,

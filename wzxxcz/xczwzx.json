@@ -569,18 +569,10 @@
             "api": "./py/网易云音乐.py"
         },
         {
-            "key": "荐片1",
-            "name": "🐭荐片P2P",
-            "api": "csp_Jianpian",
-            "type": 3,
-            "ext": "https://api.ztcgi.com"
-        },
-        {
             "key": "荐片",
-            "name": "⚔️荐片磁力",
-            "api": "csp_Jianpian",
-            "type": 3,
-            "ext": "https://ev5356.970xw.com"
+            "name": "🐭荐片P2P",
+            "api": "csp_JianPian",
+            "type": 3
         },
         {
             "key": "修罗",
@@ -718,16 +710,6 @@
             "filterable": 1
         },
         {
-            "key": "极兔",
-            "name": "🐇极兔影视",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "https://www.dhxxfhsz.top",
-                "ver": 2
-            }
-        },
-        {
             "key": "二三",
             "name": "🍊二三影视",
             "type": 3,
@@ -796,23 +778,14 @@
             "quickSearch": 1,
             "filterable": 1,
             "playerType": 2
-       },
-       {
+        },
+        {
             "key": "吉米",
             "name": "🎸吉米影视",
             "type": 3,
             "api": "csp_AppFox",
             "ext": {
                 "host": "http://fox.tvmao.top"
-            }
-        },
-        {
-            "key": "星空",
-            "name": "🛸星空APP",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "http://fox.qwqfun.com"
             }
         },
         {
@@ -836,22 +809,9 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://app.ybn-ooo.top",
-                "dataKey": "vcfgytu7654rtyui",
-                "dataIv": "vcfgytu7654rtyui"
-            }
-        },
-        {
-            "key": "柒月",
-            "name": "🌙柒月影视",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.ys.mk",
-                "dataKey": "mayday6770249ash",
-                "dataIv": "mayday6770249ash"
+                "url": "https://www.mfsp4k.top",
+                "dataKey": "1234567887654321",
+                "dataIv": "1234567887654321"
             }
         },
         {
@@ -1319,18 +1279,6 @@
             }
         },
         {
-            "key": "浪酷影视",
-            "name": "💡浪酷影视",
-            "type": 3,
-            "api": "csp_AppRJ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": {
-                "url": "http://v.lkuys.cn"
-            }
-        },
-        {
             "key": "闪影",
             "name": "🌠闪影影视",
             "type": 3,
@@ -1481,30 +1429,6 @@
                 "字母值": "*",
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
-            }
-        },
-        {
-            "key": "热剧",
-            "name": "🍊热剧影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "https://www.rebovod.com",
-                "dataKey": "8191A7F47B37882F",
-                "dataIv": "8191A7F47B37882F"
-            }
-        },
-        {
-            "key": "影视",
-            "name": "🍊影视影院",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
-                "dataKey": "sada21321sdq231d",
-                "dataIv": "sada21321sdq231d"
             }
         },
         {
@@ -1719,19 +1643,6 @@
                 "字母值": "*",
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
-            }
-        },
-        {
-            "key": "蓝鹰",
-            "name": "🦅蓝鹰影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
-                "dataKey": "ca94b06ca359d80e",
-                "dataIv": "ca94b06ca359d80e",
-                "version": "120"
             }
         },
         {
@@ -3593,7 +3504,6 @@
                 "字母值": "*",
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
-                
             }
         },
         {
@@ -5907,7 +5817,7 @@
                 "倒序": "0",
                 "播放列表": "<a&&</a>",
                 "播放标题": ">&&</a>",
-                "播放链接":"href='&&'",
+                "播放链接": "href='&&'",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
@@ -29587,7 +29497,7 @@
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
             }
-        }, 
+        },
         {
             "key": "趣影视",
             "name": "🍊趣影视",
@@ -29789,7 +29699,7 @@
                 "倒序": "0",
                 "播放列表": "<a&&</a>",
                 "播放标题": ">&&</a>",
-                "播放链接":"href='&&'",
+                "播放链接": "href='&&'",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
@@ -29818,7 +29728,7 @@
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
             }
-        }, 
+        },
         {
             "key": "奈飞中文站",
             "name": "🍊奈飞中文站",
@@ -32544,7 +32454,7 @@
                 "数组": "col-sm&&col-xs",
                 "标题": "title=\"&&\"",
                 "图片": "data-original=\"&&\"",
-                "副标题": "id=\"e7eba5\">&&<", 
+                "副标题": "id=\"e7eba5\">&&<",
                 "链接": "href=\"&&\"",
                 "影片年代": "年份：&&</p>",
                 "影片地区": "地区：&&</p>",
@@ -34001,6 +33911,16 @@
             "quickSearch": 1,
             "filterable": 1,
             "playerType": 2
+        },
+        {
+            "key": "剧王短剧",
+            "name": "🍊剧王短剧",
+            "type": 3,
+            "api": "./py/剧王短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
         },
         {
             "key": "微云影视",

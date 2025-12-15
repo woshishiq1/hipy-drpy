@@ -1460,6 +1460,26 @@
 	],
 	"parses": [
 		{
+			"name": "解析聚合",
+			"type": 3,
+			"url": "Web"
+		},
+		{
+			"name": "777",
+			"type": 0,
+			"url": "https://www.huaqi.live/?url="
+		},
+		{
+			"name": "jsonplayer",
+			"type": 0,
+			"url": "https://jx.jsonplayer.com/player/?url="
+		},
+		{
+			"name": "xmflv",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url="
+		},
+		{
 			"name": "M3U8",
 			"url": "https://jx.m3u8.tv/jiexi/?url=",
 			"type": 0
@@ -1649,15 +1669,19 @@
 	],
 	"flags": [
 		"youku",
+		"tudou",
 		"qq",
-		"iqiyi",
 		"qiyi",
+		"iqiyi",
+		"leshi",
 		"letv",
 		"sohu",
-		"tudou",
-		"pptv",
+		"imgo",
 		"mgtv",
-		"wasu"
+		"bilibili",
+		"pptv",
+		"PPTV",
+		"migu"
 	],
 	"disabled_wallpaper": "",
 	"wallpaper": "./img/0.jpg",

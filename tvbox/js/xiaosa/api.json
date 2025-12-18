@@ -1833,6 +1833,11 @@
     ],
     "parses": [
         {
+            "name": "聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
             "name": "虾米",
             "type": 0,
             "url": "https://jx.xmflv.com/?url=",

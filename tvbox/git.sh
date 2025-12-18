@@ -178,7 +178,7 @@ submit() {
     git add .
 
     info_msg "3. 提交推送..."
-    msg="Update Up $(date '+%m-%d %H:%M')"
+    msg="Update Up"
     git commit -m "$msg"
     
     if git push origin "$curr"; then

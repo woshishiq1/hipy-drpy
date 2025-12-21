@@ -26,7 +26,6 @@
 			"name": "可可影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/可可.json"
 		},
 		{
@@ -83,7 +82,6 @@
 			"name": "骚火影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/骚火.json"
 		},
 		{
@@ -92,7 +90,6 @@
 			"type": 3,
 			"api": "csp_XBPQ",
 			"filterable": 1,
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/小红.json"
 		},
 		{
@@ -100,7 +97,6 @@
 			"name": "小镇影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/小镇.json"
 		},
 		{
@@ -108,7 +104,6 @@
 			"name": "百思影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/百思.json"
 		},
 		{
@@ -116,7 +111,6 @@
 			"name": "影院大全",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/影院.json"
 		},
 		{
@@ -124,7 +118,6 @@
 			"name": "随客影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/随客.json"
 		},
 		{
@@ -132,7 +125,6 @@
 			"name": "西瓜影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/西瓜.json"
 		},
 		{
@@ -140,7 +132,6 @@
 			"name": "七点影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/7点.json"
 		},
 		{
@@ -148,7 +139,6 @@
 			"name": "三九影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./XBPQ/三九影视.json"
 		},
 		{
@@ -156,7 +146,6 @@
 			"name": "巴士动漫",
 			"type": 3,
 			"api": "csp_XYQHiker",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./XYQHiker/巴士动漫.json"
 		},
 		{
@@ -164,7 +153,6 @@
 			"name": "穷电影",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/穷电影.json"
 		},
 		{
@@ -172,7 +160,6 @@
 			"name": "狐狸君",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/狐狸君.json"
 		},
 		{
@@ -180,7 +167,6 @@
 			"name": "大白鲨",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/大白鲨.json"
 		},
 		{
@@ -195,7 +181,6 @@
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/白嫖1.json"
 		},
 		{
@@ -204,7 +189,6 @@
 			"type": 3,
 			"ua": "okhttp/3.15",
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/白嫖2.json"
 		},
 		{
@@ -212,7 +196,6 @@
 			"name": "白嫖影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/白嫖3.json"
 		},
 		{
@@ -667,7 +650,6 @@
 			"name": "飞快影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/飞快.json"
 		},
 		{
@@ -675,7 +657,6 @@
 			"name": "人人影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/人人.json"
 		},
 		{
@@ -683,7 +664,6 @@
 			"name": "农民影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/农民.json"
 		},
 		{
@@ -691,7 +671,6 @@
 			"name": "熊猫影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/熊猫.json"
 		},
 		{
@@ -699,7 +678,6 @@
 			"name": "秀儿影院",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/秀儿.json"
 		},
 		{
@@ -707,7 +685,6 @@
 			"name": "毒舌影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/毒舌.json"
 		},
 		{
@@ -715,7 +692,6 @@
 			"name": "星辰影院",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/星辰.json"
 		},
 		{
@@ -723,7 +699,6 @@
 			"name": "全网看",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/全网看.json"
 		},
 		{
@@ -732,7 +707,6 @@
 			"type": 3,
 			"click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/free.json"
 		},
 		{
@@ -740,7 +714,6 @@
 			"name": "喝茶影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/喝茶.json"
 		},
 		{
@@ -748,7 +721,6 @@
 			"name": "策弛影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/策弛.json"
 		},
 		{
@@ -756,7 +728,6 @@
 			"name": "茶杯狐影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/茶杯狐.json"
 		},
 		{
@@ -764,7 +735,6 @@
 			"name": "瓜籽影院",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/瓜籽.json"
 		},
 		{
@@ -772,7 +742,6 @@
 			"name": "来看点播",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/来看.json"
 		},
 		{
@@ -780,7 +749,6 @@
 			"name": "布卡影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/布卡.json"
 		},
 		{
@@ -788,7 +756,6 @@
 			"name": "一帆影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/一帆.json"
 		},
 		{
@@ -796,7 +763,6 @@
 			"name": "欧乐影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/欧乐.json"
 		},
 		{
@@ -804,7 +770,6 @@
 			"name": "奇迹影视",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/奇迹.json"
 		},
 		{
@@ -812,7 +777,6 @@
 			"name": "素白白",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/素白白.json"
 		},
 		{
@@ -988,7 +952,6 @@
 			"name": "MXDM｜动漫",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"ext": "./js/s/mx.json"
 		},
 		{
@@ -1014,7 +977,6 @@
 			"name": "哆啦｜新番社",
 			"type": 3,
 			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
 			"quickSearch": 1,
 			"filterable": 1,
 			"style": {
@@ -1465,6 +1427,21 @@
 			"url": "Web"
 		},
 		{
+			"name": "观山",
+			"type": 0,
+			"url": "https://p10.zijincao.cc/?url="
+		},
+		{
+			"name": "抚琴",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url="
+		},
+		{
+			"name": "七哥",
+			"url": "https://jx.nnxv.cn/tv.php?url=",
+			"type": 0
+		},
+		{
 			"name": "777",
 			"type": 0,
 			"url": "https://www.huaqi.live/?url="
@@ -1487,11 +1464,6 @@
 		{
 			"name": "PM",
 			"url": "https://www.playm3u8.cn/jiexi.php?url=",
-			"type": 0
-		},
-		{
-			"name": "七哥",
-			"url": "https://jx.nnxv.cn/tv.php?url=",
 			"type": 0
 		}
 	],
@@ -1685,7 +1657,7 @@
 	],
 	"disabled_wallpaper": "",
 	"wallpaper": "./img/0.jpg",
-	"spider": "./jar/xc.jar",
+	"spider": "./jar/xbpq.jar",
 	"logo": "./img/pg.gif",
 	"warningText": "1"
 }

@@ -23050,7 +23050,7 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@Hm_lpvt_eb920f5e23801f9ad58962d854beb148=1757750143；； Hm_lvt_e311730b05aaa06e56bff0e525eb1f24=1757750149；； HMACCOUNT=EBE46A2770C06691；； closeclick=closeclick；； XSRF-TOKEN=eyJpdiI6ImFXU3FcL0hDZVd1K3djK3ZabHI3YThBPT0iLCJ2YWx1ZSI6Ikhidng0eW16THZUSTRxdjlHNlh0NGpLY213Zm5qRUV0K3pcL0VETzdnMDN5WE1jSHBuQ1NrdUs0NTZrTVNjeTZDIiwibWFjIjoiNzIwZWJkZTY1OTRjOWI0NWVkZDc3ZGY5ZTMyMWQ5ZDUzMDBkNzEyZDU3M2VhMTdiZTNkNGQxMTk0NjAyNDVmNiJ9；； hant_session=eyJpdiI6Im5VbUhWUkpNOXJlXC9rSTFzS0NHWW13PT0iLCJ2YWx1ZSI6IlwvWDNuaTZNdDR5YWlJVEx6d0dUN0YxTFlsNUtyajBTWkFGMzcrNmIxMUlaWFwvS0dQOVJKQkpsbWdkYXF5RThRUWE4dkNLb0kwMDFNMzErTFV3cTdNTHE1MmlEZTFrajFmaFwveE9cL3JwXC9MU2psVk5JMHhhcjBndHV6dlp5RHJrVDUiLCJtYWMiOiJjYjZkMTZhNGQ3MTFkZDJmNGFmNTU0ZTA1NDM0YTJiZWY5ZWZkZTVkNDZlOWJlZGYyMjNjZDBhYTIxMDVjZTI3In0%3D；； Hm_lpvt_e311730b05aaa06e56bff0e525eb1f24=1757756802&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
                 "主页url": "https://www.hant.cc/",
                 "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
@@ -23059,15 +23059,15 @@
                 "图片": "data-original=\"&&\"",
                 "副标题": "<div class=\"module-item-text\">&&</div>",
                 "链接": "href=\"&&\"",
-                "影片年代": "",
-                "影片地区": "",
-                "影片类型": "",
-                "状态": "",
-                "导演": "",
-                "主演": "",
+                "影片年代": "年份：&&</div>",
+                "影片地区": "地区：&&</div>",
+                "影片类型": "类型：&&</div>",
+                "状态": "状态：&&</div>",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
                 "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+video-info-item video-info-content\">&&</div>",
                 "线路二次截取": "",
-                "线路数组": "data-dropdown&&</div>",
+                "线路数组": "data-dropdown-value&&</div>",
                 "线路标题": ">&&</small>",
                 "播放二次截取": "",
                 "播放数组": "scroll-box scroll-box-y&&</div>",
@@ -23076,7 +23076,7 @@
                 "播放标题": "<sapn>&&<",
                 "播放链接": "href=\"&&\"",
                 "分类url": "https://www.hant.cc/{cateId}_{catePg}.html",
-                "分类": "电影$dianying#电视剧$hanguo#综艺$zongyi#动漫$dongman#视频解说$dyjieshuo#"
+                "分类": "电影$dianying#韩剧$hanguo#动漫番剧$dongman#视频解说$dyjieshuo#"
             }
         },
         {

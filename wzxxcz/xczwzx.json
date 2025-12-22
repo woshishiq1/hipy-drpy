@@ -575,6 +575,17 @@
             "type": 3
         },
         {
+            "key": "cat_荐片app",
+            "name": "💡荐片备用",
+            "type": 3,
+            "api": "https://cdn.jsdmirror.com/gh/wzxxcz/tvbox@main/js/cat_%E8%8D%90%E7%89%87app.js",
+            "ext": {
+                "host": "https://api.ztcgi.com",
+                "catesSet": "电影&电视剧&综艺&动漫&纪录片",
+                "tabsSet": "极速蓝光"
+            }
+        },
+        {
             "key": "修罗",
             "name": "🍊修罗磁力",
             "api": "csp_Xlys",

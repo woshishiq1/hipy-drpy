@@ -821,6 +821,15 @@
             }
         },
         {
+            "key": "双星",
+            "name": "🍊双星4K",
+            "type": 3,
+            "api": "csp_ShuangXing",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "人人",
             "name": "🧑人人4K",
             "type": 3,
@@ -2377,6 +2386,13 @@
                 "dataIv": "J6AIORKJ3PQOJKM8"
             }
         },
+        {
+        "key": "网飞猫",
+            "name": "🐈网飞猫",
+		"type": 3,
+		"api": "./js/drpy2.min.js",
+        "ext": "./js/NCAT影视.js"
+    },	
         {
             "key": "猴哥影院",
             "name": "🐒猴哥影院",
@@ -4537,6 +4553,16 @@
             }
         },
         {
+            "key": "3Q影视",
+            "name": "🍊3Q影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/3Q影视.json"
+        },
+        {
             "key": "天空影视",
             "name": "☀️天空影视",
             "type": 3,
@@ -4728,6 +4754,21 @@
                 "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
                 "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
                 "apisignkey": "lvdoutv-1.0.0"
+            }
+        },
+        {
+            "key": "py_天峰影视",
+            "name": " ⛰天峰影视",
+            "type": 3,
+            "api": "./py/getapp.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "host": "http://zxy-ys.810211.dpdns.org",
+                "api": "/api.php/getappapi",
+                "datakey": "1234567890123456",
+                "dataiv": "1234567890123456"
             }
         },
         {

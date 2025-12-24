@@ -1872,6 +1872,32 @@
             }
         },
         {
+            "key": "白鸽",
+            "name": "🕊️白鸽影视",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://cy.baige.asia",
+                "dataKey": "599D0FE5178642FD",
+                "dataIv": "599D0FE5178642FD"
+            }
+        },
+        {
+            "key": "奇奇",
+            "name": "🍊奇奇影视",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://103.236.61.192:8006",
+                "dataKey": "123456789abcdefg",
+                "dataIv": "123456789abcdefg"
+            }
+        },
+        {
             "key": "火花",
             "name": "🔥火花影视",
             "type": 3,
@@ -27112,9 +27138,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251028",
+                "作者": "🍊小橙子/251224",
                 "站名": "追剧达人",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@XLA_CI=f87a2f2eed2b83e4284e8f09674840ba；； Hm_lvt_f47af4babf9df0442193a1b39fd3a8e5=1766557300；； HMACCOUNT=17BED804ED862610；； Hm_lpvt_f47af4babf9df0442193a1b39fd3a8e5=1766557643&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -27122,11 +27148,11 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://www.zhuju1.com/",
+                "主页url": "https://www.zyjy365.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://www.zhuju1.com/zhanshi/{cateId}11116ssssssss{catePg}sss{year}/",
-                "分类": "电影$6#电视剧$B#综艺$F#动漫$T#",
+                "分类url": "https://www.zyjy365.com/zyjsw/{cateId}--------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#",
                 "二次截取": "",
                 "数组": "lazyload&&</a>",
                 "标题": "title=\"&&\"",
@@ -27141,19 +27167,19 @@
                 "主演": "主演：&&</p>",
                 "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "data-toggle&&</a>",
-                "线路标题": "tab\">&&</a",
+                "线路数组": "\\#playlist&&</a>",
+                "线路标题": "tab\">&&<",
                 "播放二次截取": "",
-                "播放数组": "stui-content__playlist clearfix&&</ul>",
+                "播放数组": "myui-content__list scrollbar sort-list clearfix&&</ul>",
                 "倒序": "0",
                 "播放列表": "<a&&</a>",
-                "播放标题": ">&&</a",
+                "播放标题": ">&&</a>",
                 "播放链接": "href=\"&&\"",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.zhuju1.com/sou/{wd}ssssssssss{pg}sss/",
+                "搜索url": "https://www.zyjy365.com/zyjsc/{wd}----------{pg}---.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",
@@ -34716,6 +34742,19 @@
                 "url": "https://www.gugu3.com",
                 "dataKey": "nKfZ8KX6JTNWRzTD",
                 "dataIv": "nKfZ8KX6JTNWRzTD"
+            }
+        },
+        {
+            "key": "卡卡",
+            "name": "🤣卡卡动漫",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://154.201.90.53:8002",
+                "dataKey": "123456789abcdefg",
+                "dataIv": "123456789abcdefg"
             }
         },
         {

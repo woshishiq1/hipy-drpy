@@ -83,6 +83,12 @@
 			"api": "https://py.doube.eu.org/spider?site=OleVod"
 		},
 		{
+			"key": "pingguo",
+			"name": "小苹果",
+			"type": 4,
+			"api": "http://zhangqun66.com/pingguo.php"
+		},
+		{
 			"key": "py集合",
 			"name": "py集合",
 			"type": 4,

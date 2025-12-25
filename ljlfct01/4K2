@@ -340,61 +340,8 @@
       "api": "csp_HBconfig"
     },
 
-    {
-      "key": "邵氏资源",
-      "name": "🥝邵氏影视",
-      "type": 1,
-      "api": "https://p2100.net/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [
-        "邵氏大片",
-        "国产剧",
-        "香港剧",
-        "剧",
-        "海外剧",
-        "欧美剧",
-        "韩国剧",
-        "日本剧",
-        "综艺",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "片",
-        "剧情片",
-        "战争片",
-        "爱情片",
-        "理论片",
-        "动漫片",
-        "动漫"
-      ]
-    },
-    {
-      "key": "邵氏短剧",
-      "name": "🥝邵氏短剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类": "🧕女频$41#🐸反转$42#🐧脑洞$43#🐒穿越$44#🦊仙侠$45#🦉都市$46#123$31",
-        "分类url": "http://www.deyangs.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;mrc"
-      }
-    },
-    {
-      "key": "景天",
-      "name": "景天|4K弹幕",
-      "type": 3,
-      "api": "csp_HBcms10Dou",
-      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
-    },
-    {
-      "key": "茂茂",
-      "name": "茂茂|4K弹幕",
-      "type": 3,
-      "api": "csp_HBcms10Dou",
-      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
-    },
+
+
      {
       "key": "tenteng",
       "name": "💖随缘①💖真4k",
@@ -744,15 +691,21 @@
     {
       "name": "自定",
       "type": 1,
-      "url": "http://sspa8.top:8100/api/?key=%E6%98%9F%E7%9D%BF4k&url="
+      "url": "http://14.103.129.80:777/api/index?parsesId=2&appid=10000&videoUrl="
+
     },
     {
       "name": "自定1",
       "type": 1,
-      "url": "http://111.92.242.214/jx2.php?url="
-    }
+      "url": "http://14.103.129.80:777/api/index?parsesId=3&appid=10000&videoUrl="
+    },
 
-  
+      {
+      "name": "自定2",
+      "type": 1,
+      "url": "https://sk.69mzf.com/api/index?parsesId=661&appid=86321&videoUrl="
+
+    }
 
   
   ],

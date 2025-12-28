@@ -519,6 +519,24 @@
             "api": "./py/网络直播.py"
         },
         {
+            "key": "六月听书",
+            "name": "🎵六月听书",
+            "type": 3,
+            "api": "csp_TingBook",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "呦呦DJ",
+            "name": "🎵呦呦DJ",
+            "type": 3,
+            "api": "csp_Djuu",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "戏曲多多",
             "name": "📺戏曲多多",
             "type": 3,
@@ -34931,19 +34949,6 @@
                 "url": "https://app.omofun1.top",
                 "dataKey": "66dc309cbeeca454",
                 "dataIv": "66dc309cbeeca454"
-            }
-        },
-        {
-            "key": "稀饭动漫",
-            "name": "🤣稀饭动漫",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "",
-                "site": "https://xfapp-1305390065.cos.ap-guangzhou.myqcloud.com/getapp.txt",
-                "dataKey": "1yZ2Spn9krnzVKoC",
-                "dataIv": "1yZ2Spn9krnzVKoC"
             }
         },
         {

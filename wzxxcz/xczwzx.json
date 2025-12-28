@@ -35157,16 +35157,6 @@
             "filterable": 1
         },
         {
-            "key": "微云影视",
-            "name": "🍊短剧屋",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://git.acwing.com/xcz/cc1/-/raw/master/%E6%8B%BE%E5%85%89/lib/短剧屋.json"
-        },
-        {
             "key": "短剧合集",
             "name": "🍊短剧合集",
             "type": 3,

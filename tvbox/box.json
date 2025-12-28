@@ -1052,8 +1052,12 @@
 		{
 			"name": "cluntop",
 			"type": 0,
-			"url": "./lib/iptv.m3u",
-			"ua": "okhttp/4.1.0"
+			"url": "./lib/iptv.m3u"
+		},
+		{
+			"name": "cluntop",
+			"type": 0,
+			"url": "./lib/iptv_test.m3u"
 		},
 		{
 			"name": "Mursor",

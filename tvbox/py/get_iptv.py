@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 write_lock = threading.Lock()
 
 def get_session():
-
+    """创建一个带有重试机制的requests Session"""
     session = requests.Session()
     retry = Retry(connect=3, backoff_factor=0.5)
     adapter = HTTPAdapter(max_retries=retry)
@@ -63,7 +63,9 @@ def parse_template(template_file):
                     channel_name = line.split(",")[0].strip()
                     template_channels[current_category].append(channel_name)
     except FileNotFoundError:
-        logger.error(f"模板文件未找到: {template_file}")
+        # 这是一个正常的流程控制，如果文件不存在可能只是没配置测试文件
+        logger.warning(f"模板文件未找到: {template_file}")
+        return None  # 返回 None 表示失败
 
     return template_channels
 
@@ -125,7 +127,6 @@ def fetch_channels(url):
         return OrderedDict()
 
 def match_channels(template_channels, all_channels):
-
     matched = OrderedDict()
     unmatched_template = OrderedDict()
 
@@ -151,7 +152,8 @@ def match_channels(template_channels, all_channels):
     # 2. 匹配逻辑
     for category, tmpl_names in template_channels.items():
         for tmpl_name in tmpl_names:
-
+            
+            # 去重并解析变体
             variants_raw = [n.strip() for n in tmpl_name.split("|") if n.strip()]
             variants = list(OrderedDict.fromkeys(variants_raw))
 
@@ -161,21 +163,22 @@ def match_channels(template_channels, all_channels):
 
             for variant in variants:
                 variant_lower = variant.lower()
-
+                
+                # 正则：匹配结束($) 或 非字母数字且非加号([^a-z0-9\+])
+                # 防止 CCTV5 匹配 CCTV5+
                 pattern = re.compile(re.escape(variant_lower) + r'($|[^a-z0-9\+])')
 
                 for src in flattened_source_channels:
                     if src['key'] in used_channel_keys:
                         continue
-                    
-                    # 使用正则搜索代替简单的字符串包含
+
+                    # 使用正则搜索
                     if pattern.search(src['norm_name']):
-                        # 初始化该频道的列表
                         if primary_name not in matched[category]:
                             matched[category][primary_name] = []
 
                         matched[category][primary_name].append((src['name'], src['url']))
-                        
+
                         used_channel_keys.add(src['key'])
                         found_for_this_template = True
 
@@ -195,20 +198,17 @@ def match_channels(template_channels, all_channels):
 def is_ipv6(url):
     return "://[" in url
 
-def generate_outputs(channels, template_channels):
-    """生成文件 - 聚合多线路"""
+def generate_outputs(channels, template_channels, m3u_path, txt_path):
+    """生成文件 - 路径参数化"""
     written_urls = set()
 
     # 确保输出目录存在
-    os.makedirs("lib", exist_ok=True)
-
-    output_m3u_path = "lib/iptv.m3u"
-    output_txt_path = "lib/iptv.txt"
+    os.makedirs(os.path.dirname(m3u_path), exist_ok=True)
 
     try:
         with write_lock:
-            with open(output_m3u_path, "w", encoding="utf-8") as m3u, \
-                 open(output_txt_path, "w", encoding="utf-8") as txt:
+            with open(m3u_path, "w", encoding="utf-8") as m3u, \
+                 open(txt_path, "w", encoding="utf-8") as txt:
 
                 m3u.write("#EXTM3U\n")
 
@@ -220,7 +220,6 @@ def generate_outputs(channels, template_channels):
 
                     for channel_key_name, channel_list in channels[category].items():
 
-                        # 去重逻辑
                         unique_urls = []
                         seen_urls = set()
 
@@ -235,10 +234,8 @@ def generate_outputs(channels, template_channels):
                             base_url = url.split("$")[0]
                             suffix_name = "IPV6" if is_ipv6(url) else "IPV4"
 
-                            # 强制使用模板主名称
                             display_name = channel_key_name
 
-                            # 构造后缀
                             meta_suffix = f"$LR•{suffix_name}"
                             if total_lines > 1:
                                 meta_suffix += f"•{total_lines}『线路{idx}』"
@@ -250,14 +247,15 @@ def generate_outputs(channels, template_channels):
 
                             txt.write(f"{display_name},{final_url}\n")
 
-        logger.info("输出完成。")
+        logger.info(f"输出完成: {m3u_path}, {txt_path}")
     except Exception as e:
         logger.error(f"写入文件失败: {e}")
 
-def generate_unmatched_report(unmatched_template, unmatched_source):
+def generate_unmatched_report(unmatched_template, unmatched_source, report_file):
+    """生成未匹配报告 - 路径参数化"""
     # 确保配置目录存在
-    os.makedirs("py/config", exist_ok=True)
-    report_file = "py/config/iptv_test.txt"
+    os.makedirs(os.path.dirname(report_file), exist_ok=True)
+    
     total_template_lost = sum(len(v) for v in unmatched_template.values())
 
     try:
@@ -278,6 +276,7 @@ def generate_unmatched_report(unmatched_template, unmatched_source):
                     unique_names = list(OrderedDict.fromkeys([c[0] for c in chans]))
                     for name in unique_names:
                         f.write(f"{name},\n")
+        logger.info(f"报告已生成: {report_file}")
         return total_template_lost
     except Exception as e:
         logger.error(f"生成报告失败: {e}")
@@ -311,21 +310,24 @@ def remove_unmatched_from_template(template_file, unmatched_template):
 
         with open(template_file, "w", encoding="utf-8") as f:
             f.writelines(new_lines)
-        logger.info("已移除无效频道")
+        logger.info(f"已从模板 {template_file} 移除无效频道")
     except Exception as e:
         logger.error(f"更新模板失败: {e}")
 
-def main(template_file, tv_urls):
-    if not tv_urls:
-        logger.error("没有有效的直播源URL，程序退出。")
-        return
-
-    logger.info("开始解析模板...")
+def process_iptv_task(template_file, tv_urls, output_m3u, output_txt, report_file, auto_clean=True):
+    """
+    处理单个IPTV任务的封装函数
+    """
+    logger.info(f"=== 开始处理任务: {template_file} ===")
+    
     template = parse_template(template_file)
+    if not template:
+        return
 
     logger.info(f"开始从 {len(tv_urls)} 个源获取数据...")
     all_channels = OrderedDict()
 
+    # 这里使用临时Executor，或者可以将Executor传进来复用
     with ThreadPoolExecutor(max_workers=5) as executor:
         future_to_url = {executor.submit(fetch_channels, url): url for url in tv_urls}
         for future in as_completed(future_to_url):
@@ -337,30 +339,51 @@ def main(template_file, tv_urls):
                         if cat not in all_channels:
                             all_channels[cat] = []
                         all_channels[cat].extend(chans)
-                    logger.info(f"源 {url} 获取成功")
             except Exception as e:
                 logger.error(f"源 {url} 异常: {e}")
 
-    logger.info("开始匹配...")
+    logger.info("开始匹配频道...")
     matched, unmatched_tmpl, unmatched_src = match_channels(template, all_channels)
 
-    generate_outputs(matched, template)
-    lost_count = generate_unmatched_report(unmatched_tmpl, unmatched_src)
+    generate_outputs(matched, template, output_m3u, output_txt)
+    lost_count = generate_unmatched_report(unmatched_tmpl, unmatched_src, report_file)
 
-    if lost_count > 0:
+    if auto_clean and lost_count > 0:
         logger.info(f"清理 {lost_count} 个无效频道...")
         remove_unmatched_from_template(template_file, unmatched_tmpl)
+    
+    logger.info(f"=== 任务完成: {template_file} ===\n")
 
 if __name__ == "__main__":
-    # 配置区
-    TEMPLATE_FILE = "py/config/iptv.txt"
+    # === 配置区 ===
     URLS_FILE = "py/config/urls.txt"
-
+    
+    # 1. 加载源
     TV_URLS = load_urls_from_file(URLS_FILE)
-
-    # 备用源
     if not TV_URLS:
         logger.warning("未从文件中加载到URL，使用空列表")
         TV_URLS = [] 
 
-    main(TEMPLATE_FILE, TV_URLS)
+    # === 任务1: 主列表 ===
+    process_iptv_task(
+        template_file="py/config/iptv.txt",
+        tv_urls=TV_URLS,
+        output_m3u="lib/iptv.m3u",
+        output_txt="lib/iptv.txt",
+        report_file="py/config/unmatched.txt", # 修改报告名，避免覆盖测试配置
+        auto_clean=True
+    )
+
+    # === 任务2: 测试列表 (如果配置文件存在) ===
+    TEST_TEMPLATE_FILE = "py/config/iptv_test.txt"
+    if os.path.exists(TEST_TEMPLATE_FILE):
+        process_iptv_task(
+            template_file=TEST_TEMPLATE_FILE,
+            tv_urls=TV_URLS,
+            output_m3u="lib/iptv_test.m3u", # 输出到 lib 目录
+            output_txt="lib/iptv_test.txt",
+            report_file="py/config/unmatched_test.txt", # 测试的报告单独存放
+            auto_clean=False # 测试列表建议不自动删除，方便调试
+        )
+    else:
+        logger.info(f"未检测到测试配置 {TEST_TEMPLATE_FILE}，跳过测试生成。")

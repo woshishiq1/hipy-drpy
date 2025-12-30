@@ -1,8 +1,8 @@
-name: Sync Gitee to subfolder and unzip to master
+name: Sync GitHub Repos to Subfolders and unzip to master
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */6 * * *'  # 每6小时运行一次（UTC时间）
   workflow_dispatch:
 
 concurrency:
@@ -36,90 +36,37 @@ jobs:
       - name: Fetch subprojects
         run: |
           echo "==== 开始同步 Git 仓库 ===="
-          mkdir -p dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976
-
-          echo "→ 同步 jak0099/dr"
-          rm -rf dr/* temp-dr
-          git clone --depth 1 --branch master https://github.com/jak0099/dr.git temp-dr
-          cp -r temp-dr/* dr/
-          rm -rf temp-dr
-
-          echo "→ 同步 cluntop/tvbox"
-          rm -rf tvbox/* temp-tvbox
-          git clone --depth 1 --branch main https://github.com/cluntop/tvbox.git temp-tvbox
-          cp -r temp-tvbox/* tvbox/
-          rm -rf temp-tvbox
-
-          echo "→ 同步 4TVBox/TVBox"
-          rm -rf T4/* temp-T4
-          git clone --depth 1 --branch main https://github.com/4TVBox/TVBox.git temp-T4
-          cp -r temp-T4/* T4/
-          rm -rf temp-T4
-
-          echo "→ 同步 wzxxcz/wzxxcz"
-          rm -rf wzxxcz/* temp-wzxxcz
-          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
-          cp -r temp-wzxxcz/* wzxxcz/
-          rm -rf temp-wzxxcz
-
-          echo "→ 同步 ljlfct01/ljlfct01.github.io"
-          rm -rf ljlfct01/* temp-ljlfct01
-          git clone --depth 1 --branch main https://github.com/ljlfct01/ljlfct01.github.io.git temp-ljlfct01
-          cp -r temp-ljlfct01/* ljlfct01/
-          rm -rf temp-ljlfct01
-
-          echo "→ 同步 tushen6/Tomorrow"
-          rm -rf Tomorrow/* temp-Tomorrow
-          git clone --depth 1 --branch master https://github.com/tushen6/Tomorrow.git temp-Tomorrow
-          cp -r temp-Tomorrow/* Tomorrow/
-          rm -rf temp-Tomorrow
-
-          echo "→ 同步 AA999OK/TVBOX"
-          rm -rf aa999ok temp-aa999ok
-          git clone --depth 1 https://github.com/AA999OK/TVBOX.git temp-aa999ok
-          cp -r temp-aa999ok/* aa999ok/
-          rm -rf temp-aa999ok
-
-          echo "→ 同步 sky4726/sk"
-          rm -rf sky4726 temp-sky4726
-          git clone --depth 1 https://github.com/sky4726/sk.git temp-sky4726
-          cp -r temp-sky4726/* sky4726/
-          rm -rf temp-sky4726
-
-          echo "→ 同步 ediart/tvbox"
-          rm -rf ediart temp-ediart
-          git clone --depth 1 https://github.com/ediart/tvbox.git temp-ediart
-          cp -r temp-ediart/* ediart/
-          rm -rf temp-ediart
-
-          echo "→ 同步 lemonguo121/BoxRes"
-          rm -rf lemonguo121 temp-lemonguo121
-          git clone --depth 1 https://github.com/lemonguo121/BoxRes.git temp-lemonguo121
-          cp -r temp-lemonguo121/* lemonguo121/
-          rm -rf temp-lemonguo121
-
-          echo "→ 同步 leexuben/TVBOX-merge"
-          rm -rf leexuben temp-leexuben
-          git clone --depth 1 https://github.com/leexuben/TVBOX-merge.git temp-leexuben
-          cp -r temp-leexuben/* leexuben/
-          rm -rf temp-leexuben
-
-          echo "→ 同步 YJL20190405/TVBOX"
-          rm -rf yjl temp-yjl
-          git clone --depth 1 https://github.com/YJL20190405/TVBOX.git temp-yjl
-          cp -r temp-yjl/* yjl/
-          rm -rf temp-yjl
-
-          echo "→ 同步 zheng197600/tvbox"
-          rm -rf zheng1976 temp-zheng1976
-          git clone --depth 1 https://github.com/zheng197600/tvbox.git temp-zheng1976
-          cp -r temp-zheng1976/* zheng1976/
-          rm -rf temp-zheng1976
+          # 定义需要同步的仓库及文件夹名
+          declare -A repos=(
+            [dr]="https://github.com/jak0099/dr.git"
+            [tvbox]="https://github.com/cluntop/tvbox.git"
+            [T4]="https://github.com/4TVBox/TVBox.git"
+            [wzxxcz]="https://github.com/wzxxcz/wzxxcz.git"
+            [ljlfct01]="https://github.com/ljlfct01/ljlfct01.github.io.git"
+            [Tomorrow]="https://github.com/tushen6/Tomorrow.git"
+            [aa999ok]="https://github.com/AA999OK/TVBOX.git"
+            [sky4726]="https://github.com/sky4726/sk.git"
+            [ediart]="https://github.com/ediart/tvbox.git"
+            [lemonguo121]="https://github.com/lemonguo121/BoxRes.git"
+            [leexuben]="https://github.com/leexuben/TVBOX-merge.git"
+            [yjl]="https://github.com/YJL20190405/TVBOX.git"
+            [zheng1976]="https://github.com/zheng197600/tvbox.git"
+          )
+          
+          for name in "${!repos[@]}"; do
+            echo "→ 同步 $name"
+            rm -rf "$name" temp-"$name"
+            # 自动拉取默认分支
+            git clone --depth 1 "${repos[$name]}" temp-"$name"
+            mkdir -p "$name"
+            cp -r temp-"$name"/* "$name"/
+            rm -rf temp-"$name"
+          done
 
           echo "==== 同步完成 ===="
           find dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 -type f -exec touch {} +
 
-      - name: Download and extract GitHub ZIP
+      - name: Download and extract NewTVBox
         run: |
           echo "==== 开始下载 GitHub 仓库 PizazzGY/NewTVBox ===="
           mkdir -p gitee-source && rm -rf gitee-source/*

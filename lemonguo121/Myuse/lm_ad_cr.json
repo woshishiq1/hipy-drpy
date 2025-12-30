@@ -1,0 +1,54 @@
+{
+  "sites": [
+    {
+      "key": "*乐播资源",
+      "name": "🔞乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "*AIvin",
+      "name": "AIvin",
+      "type": 0,
+      "api": "http://lbapiby.com/api.php/provide/vod/at/xml"
+    },
+    {
+      "key": "*番号资源",
+      "name": "番号资源",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "ms4nii",
+      "name": "美少女资源(已修复)",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "香蕉资源",
+      "name": "香蕉资源",
+      "type": 0,
+      "api": "https://www.xiangjiaozyw.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*91麻豆",
+      "name": "*91麻豆",
+      "type": 1,
+      "api": "https://91md.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    }
+  ]
+}
+

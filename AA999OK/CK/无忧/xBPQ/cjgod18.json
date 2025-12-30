@@ -1,0 +1,21 @@
+{
+  // 首页拉取全自动分类的最长时间,不建议设置很长时间,首次拉取不到的分类会在后续打开时再次拉取,有缓存
+  "filter_timeout": 8,
+  "sites": [
+    {
+      "name": "wideoweb",
+      "url": "https://wideoweb.sbs/api.php/provide/vod/",
+      "type": 1
+    },
+   {
+      "name": "sexnguon",
+      "url": "https://api.sexnguon.com/api.php/provide/vod/",
+      "type": 1
+    },
+    {
+      "name": "apidanaizi",
+      "url": "https://apidanaizi.com/api.php/provide/vod/",
+      "type": 1
+    }
+  ]
+}

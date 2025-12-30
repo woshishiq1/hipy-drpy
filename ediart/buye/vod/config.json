@@ -1,0 +1,66 @@
+{
+  "driveSort": [
+    "a123",
+    "a189",
+    "a139",
+    "baidu",
+    "uc",
+    "quark",
+    "xunlei",
+    "pikpak",
+    "a115",
+    "ali"
+  ],
+  "mutThread": {
+    "ali": { "thread": 8, "chunkSize": 256 },
+    "quark": { "thread": 8, "chunkSize": 256 },
+    "uc": { "thread": 5, "chunkSize": 256 }
+  },
+  "urls": {
+    "star2": "https://1.star2.cn"
+  },
+  "vods": [
+    { "key": "wogg", "name": "玩偶", "url": "https://www.wogg.one" },
+    {
+      "key": "mogg",
+      "name": "木偶",
+      "url": "https://tv.91muou.icu",
+      "proxy": false
+    }
+  ],
+  "tgclient": {
+    "apiId": 11111,
+    "apiHash": "xxxxxxxxxxxxxxxx",
+    "autoDownPic": true,
+    "collect": []
+  },
+  "tgx": [
+    {
+      "key": "tgxjuhe",
+      "name": "聚合搜",
+      "channels": ["频道id_1", "频道id_2", "..."]
+    },
+    {
+      "key": "aaaaaa",
+      "name": "vods、tgx、telegram  所有key值不能重复"
+    }
+  ],
+  "telegram": [
+    {
+      "key": "guaguale115",
+      "name": "115影视资源"
+    },
+    {
+      "key": "PikPakShareChannel",
+      "name": "PikPak云盘资源"
+    }
+  ],
+  "danmu": {
+    "name": "LEO|弹幕",
+    "key": "leo弹幕",
+    "type": 3,
+    "api": "csp_DanmakuSpider",
+    "searchable": 1,
+    "ext": "http://127.0.0.1:9321/938944"
+  }
+}

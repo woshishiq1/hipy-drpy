@@ -1,0 +1,589 @@
+﻿{"spider":"https://download.kstore.space/download/2883/1122yqk.jar;md5;591bf6a064fb74746d4581fe75f2e715",
+"wallpaper":"http://www.kf666888.cn/api/tvbox/img",
+"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9kb3dubG9hZC5rc3RvcmUuc3BhY2UvZG93bmxvYWQvMjg4My90dmxpdmUudHh0"]}]}],
+"sites":[
+
+
+
+
+
+        {
+      "key": "教育",
+      "name": "🌺孩子教育🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/dsp16/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+	{
+      "key": "csp_XYQ_lu1",
+      "name": "️🌺电视直播🌺",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://52bsj.vip:81/api/v3/file/get/61542/%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD%E6%BA%90.json?sign=JxgjHlxu8_IP1SK2AbvPOnG3dnOnOtvJE4V3TM0Vp1w%3D%3A0","jar":"http://52bsj.vip:81/api/v3/file/get/61543/%E6%9C%80%E9%AB%981080%E5%93%94%E5%93%A9%E5%BF%B5%E5%BD%B1%E7%A5%9E%E9%A9%ACzb.jar?sign=BTFlwsHLsd9ID93zVjRQSvbbhRn8g4_KtO-cGrGthRI%3D%3A0"
+    },
+   {   "key": "抖音4K",
+      "name": "🌺抖音4K🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:98/dy4k",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
+
+{
+      "key": "zhibo18",
+      "name": "🎤🌺MV歌曲🌺 ",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:98/o5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
+      "key": "zhibo12",
+      "name": "🌺中华直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=https://agit.ai/pinghui/Barton/raw/commit/8bb4b9d525eaefd2eb19296de29606596572420b/%e7%89%9b%e6%89%b9%e7%9b%b4%e6%92%ad.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
+      "key": "zhibo20",
+      "name": "🌺蓝莓直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:81/api/v3/file/get/65106/1_%E6%98%9F%E6%B2%B3tv.txt?sign=KQy6Edk8-5KNK0Mor0NGNXSEgSdRYOchAcfoDSlclvo%3D%3A0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
+      "key": "港澳福利",
+      "name": "🌺港澳福利🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=https://pan.css.lc/api/v3/file/get/90014/%E7%89%B9%E6%AE%8A%E6%BA%90.txt?sign=cqCm82swqD__acDM2mzgDfkJL4_BuAlPLkD7FopxnSI%3D%3A0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
+      "key": "zhibo24",
+      "name": "🌺小小直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=https://agit.ai/pinghui/xinghe/raw/commit/621eb3f7b0bca6a5148f193f42ed35998a8727d1/%e5%b0%8f%e5%b0%8f%e8%b6%85%e7%ba%a7%e7%a6%8f%e5%88%a9.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
+      "key": "zhibo30",
+      "name": "🌺星辰直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:81/api/v3/file/get/65246/%E7%89%9B%E6%89%B9%E7%9B%B4%E6%92%AD.txt?sign=Tj0kdfyYqs9f3GQn_uJWWNxmIGZ6fkTn8fMuW2Yx3o0%3D%3A0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+ {
+      "key": "zhibo8",
+      "name": "🌺金秋直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:81/api/v3/file/get/62381/jq.txt?sign=qAfuOlrK3gWlYNqmv9-6XLZ5Nmm-M0imNDn2yE1YQlE%3D%3A0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }, 
+  {
+      "key": "zhibo4",
+      "name": "🌺星河直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:81/api/v3/file/get/59999/chao.txt?sign=MxUTj-WzZR3Nf8K1Sbdc0jbv5_UguTzDEfXoaBc5qTA%3D%3A0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }, 
+
+
+{
+      "key": "zhibo19",
+      "name": "🌺4K台🌺 ",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:98/1317",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+        {
+      "key": "zhibo15",
+      "name": "🌺世界杯高清🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live2?url=http://52bsj.vip:98/sjb8k ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+       },
+  {    "key": "zhibo9",
+      "name": "🌺世界杯秒播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live2?url=http://52bsj.vip:81/api/v3/file/get/64511/sjb.txt?sign=KcE_IABdApik0FbNxT4I34JkDMqJCU6r1ZXIKIt7P_I%3D%3A0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+       },
+    {
+      "key": "2022世界杯",
+      "name": "🌺22世界杯🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/t4/sjb",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+       {
+      "key": "抖音大姐姐",
+      "name": "🌺抖音姐姐🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/xjj",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1
+    },
+     {
+      "key": "T4直播转点播",
+      "name": "🌺T4直播转点播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=aHR0cDovLzl4aTRvLnRrL3N1Yi9teXR2LnR4dA==",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "MV大全",
+      "name": "🌺MV大全🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/dsp/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
+
+    {
+      "key": "zhibo7",
+      "name": "🌺吉祥直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://120.53.102.254/live/jx.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+},
+  
+	{
+      "key": "zhibo",
+      "name": "🌺潇潇洒洒🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:81/api/v3/file/get/64441/xs.txt?sign=bjv1tyN1w8uBi6QOSXVxDa3wR_81lpYTfeJM1J_OvIs%3D%3A0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
+	{
+
+      "key": "zhibo25",
+      "name": "🌺坚果直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:98/jguo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
+     { "key": "zhibo21",
+      "name": "🌺菜菜TV🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:98/cnstv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
+      "key": "zhibo2",
+      "name": "🌺月光直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:81/api/v3/file/get/64791/ygyg.txt?sign=J6EfYzx0wfDAPr934Eyhp6vlT_xAVBu-qoLCfl_6_JA%3D%3A0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+{
+      "key": "zhibo10",
+      "name": "🌺星辰直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:98/xczb",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
+{
+      "key": "zhibo11",
+      "name": "🌺野火直播🌺",
+      "type": 4,
+      "api": "http://120.53.102.254/live?url=http://52bsj.vip:98/yhzb",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+            {
+            "key" : "py_bilibili",
+            "name" : "🌺哔哩哔哩 🌺",
+            "type" : 3,
+            "api" : "py_bilibili",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "https://agit.ai/l/o/raw/branch/o/o/py_bilibili.py"
+        },
+            {
+            "key" : "py_bilimd",
+            "name" : "🌺哔哩影视 🌺",
+            "type" : 3,
+            "api" : "py_bilimd",
+            "searchable" : 1,
+            "quickSearch" : 1,
+            "filterable" : 1,
+            "ext" : "https://agit.ai/l/o/raw/branch/o/o/py_bilimd.py"
+        },
+
+            {
+            "key" : "py_huya",
+            "name" : "🌺虎牙直播 🌺",
+            "type" : 3,
+            "api" : "py_huya",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "https://agit.ai/l/o/raw/branch/o/o/py_huya.py"
+        },
+            {
+            "key" : "py_douyu",
+            "name" : "🌺斗鱼直播🌺",
+            "type" : 3,
+            "api" : "py_douyu",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "https://agit.ai/l/o/raw/branch/o/o/py_douyu.py"
+        },
+    {
+      "key": "csp_Yj1211",
+      "name": "🌺网红直播🌺",
+      "type": 3,
+      "api": "csp_Yj1211",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Yj1211",
+      "name": "🌺直播合集🌺",
+      "type": 3,
+      "api": "csp_Yj1211",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+{"key":"Gitcafe","name":"纸条","type":"3","api":"csp_Gitcafe","searchable":"1","quickSearch":"1","filterable":"1","ext":"https://zdir.kebedd69.repl.co/public/TVBox/token.json"},
+        {
+      "key": "美食",
+      "name": "🌺中华美食🌺",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "http://52bsj.vip:81/api/v3/file/get/60158/%E7%BE%8E%E9%A3%9F%E5%90%88%E9%9B%86.json?sign=NR7zUyPo-BZwpfNh5uG0Pu3UMSDiOo8rlsoCgIGT3bo%3D%3A0"
+    },
+   {   "key": "戏曲",
+      "name": "🌺戏曲合集🌺",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "http://52bsj.vip:81/api/v3/file/get/60145/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json?sign=-w8Fcd-t7nXv6JCn-kzsp4xFvni-PBfGYCaphVTewY8%3D%3A0"
+    },
+    {
+      "key": "相声小品",
+      "name": "️🌺相声小品🌺",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "http://52bsj.vip:81/api/v3/file/get/60100/Blixs.json?sign=Cpe4Im4iDYhjY0ygyWGzXBoIASGd_5YCVmz6ePysjiI%3D%3A0"
+    },
+    {
+      "key": "音乐",
+      "name": "🌺音乐现场🌺",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "http://52bsj.vip:81/api/v3/file/get/60166/%E9%9F%B3%E4%B9%90%E7%8E%B0%E5%9C%BA.json?sign=Oja6_pNvkS3Vz-0u4P0Xr0n78W_MuwWQAjhX_QM0Zb4%3D%3A0"
+    },
+
+    {
+      "key": "热舞",
+      "name": "🌺女团热舞🌺",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "http://52bsj.vip:81/api/v3/file/get/60134/%E5%A5%B3%E5%9B%A2%E7%83%AD%E8%88%9E.json?sign=BAYXJbWjP_T1YoXJ4aV0Aqz6Rg-2aM9GCp_XN7RYLKw%3D%3A0"
+    },
+
+       {
+            "key" : "py_cctv",
+            "name" : "🌺央视频道🌺",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60050/py_cctv_1.txt?sign=cUtoFrF83DSHolfWWgK_YtDns-24tFpQCkaPQOMliRw%3D%3A0"
+        },
+            {
+            "key" : "py_cctvzh",
+            "name" : "🌺央视综合🌺",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60064/py_cctvzh.txt?sign=JVY9fcgGyoT1YhEsZSQOKHr1GmWhrYfSe9V_M8lVwSc%3D%3A0"
+        },
+            {
+            "key" : "py_cctvxw",
+            "name" : "🌺央视新闻🌺",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60061/py_cctvxw.txt?sign=mnS7ACcwngX8OINnnEq3oOeawvd5LRKpeBJJs2YDYCw%3D%3A0"
+        },
+            {
+            "key" : "py_cctvzy",
+            "name" : "🌺央视综艺🌺",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60065/py_cctvzy.txt?sign=KZnw71OZhRK_cdBbIMSz3H9JQn02M3aQrlc26zCULp8%3D%3A0"
+        },
+            {
+            "key" : "py_cctvdy",
+            "name" : "🌺央视电影🌺",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60053/py_cctvdy.txt?sign=FkGuTVeiA-AQoY2gZuTn1snHsh3IbDxQbRjsQr8iPi4%3D%3A0"
+        },
+            {
+            "key" : "py_cctvty",
+            "name" : "🌺央视体育🌺",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60059/py_cctvty.txt?sign=4uzpn3UL0vxdRrEiQV9ZLwEAJpSiS9UERILgu3BYtCU%3D%3A0"
+        },
+            {
+            "key" : "py_cctvfz",
+            "name" : "🌺央视法治🌺",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60060/py_cctvxq.txt?sign=VxqLDdPfhsVzpOgyBbKUbzPHmvhfgADIr4lmNaYyLK4%3D%3A0"
+        },
+            {
+            "key" : "py_cctvkj",
+            "name" : "📺央视科教",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60054/py_cctvkj.txt?sign=ib3ldzK9zsYJtz4PVz_mxzaewIHYBxh4rErCuH8GFMA%3D%3A0"
+        },
+            {
+            "key" : "py_cctvyy",
+            "name" : "📺央视音乐",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60062/py_cctvyy.txt?sign=WzW_-Gy6O11IMTXk6gb3C9mBXz1NaHWg7x3J1EjFgKw%3D%3A0"
+        },
+            {
+            "key" : "py_cctvse",
+            "name" : "📺央视少儿",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60058/py_cctvse.txt?sign=B2LMCaDRldvHw9mcLuF5itqN4T3v8p4tHHGKTk5U42I%3D%3A0"
+        },
+            {
+            "key" : "py_cctvny",
+            "name" : "📺央视农业",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60055/py_cctvny.txt?sign=346OQrkt5XOep5-4Bj7P4E2iogV2VuvX7fMLf1GKu-U%3D%3A0"
+        },
+            {
+            "key" : "py_cctvjs",
+            "name" : "📺央视军事",
+            "type" : 3,
+            "api" : "py_cctv",
+            "searchable" : 0,
+            "quickSearch" : 0,
+            "filterable" : 1,
+            "ext" : "http://52bsj.vip:81/api/v3/file/get/60052/py_cctvjs.txt?sign=7KJH4YEQ7aLykvV_3ofuOT6HA-9C0kbBtgfaAD3iod4%3D%3A0"
+        },
+{"key":"Gitcafe","name":"📃小纸条","type":3,"api":"csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext":"cfe35d11f40b4872b3f6e35388b16181","jar":"http://52bsj.vip:81/api/v3/file/get/59958/ali.jar?sign=Ju6IMNmWSdej1a3_ptZR-p5yXzlV5A7Bmtku3JDbmI4%3D%3A0"},
+{"key":"csp_Zhaozy","name":"🔍找资源+原画（仅支持搜索）","type":3,"api":"csp_Zhaozy","searchable":1,"quickSearch":1,"filterable":0,"ext":"cfe35d11f40b4872b3f6e35388b16181","jar":"http://52bsj.vip:81/api/v3/file/get/40056/%E5%8E%9F%E7%94%BB.jar?sign=Dnj7Fy_zQPEegI4pHmr7QcT8Q6ujk8tiyBjD_kn8TTk%3D%3A0"},
+{"key":"csp_AliPS","name":"📀喵狸盘搜+原画(仅支持搜索）","type":3,"api":"csp_AliPS","searchable":1,"quickSearch":1,"filterable":0,"ext":"cfe35d11f40b4872b3f6e35388b16181","jar":"http://52bsj.vip:81/api/v3/file/get/40056/%E5%8E%9F%E7%94%BB.jar?sign=Dnj7Fy_zQPEegI4pHmr7QcT8Q6ujk8tiyBjD_kn8TTk%3D%3A0"},
+{"key":"csp_Yisou","name":"🔎易搜+原画（仅支持搜索）","type":3,"api":"csp_Yisou","searchable":1,"quickSearch":1,"filterable":0,"ext":"cfe35d11f40b4872b3f6e35388b16181","jar":"http://52bsj.vip:81/api/v3/file/get/40056/%E5%8E%9F%E7%94%BB.jar?sign=Dnj7Fy_zQPEegI4pHmr7QcT8Q6ujk8tiyBjD_kn8TTk%3D%3A0"},
+{"key":"push_agent","name":"🍭推送（爱优腾/磁力/阿里）","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext":"cfe35d11f40b4872b3f6e35388b16181","jar":"http://52bsj.vip:81/api/v3/file/get/40056/%E5%8E%9F%E7%94%BB.jar?sign=Dnj7Fy_zQPEegI4pHmr7QcT8Q6ujk8tiyBjD_kn8TTk%3D%3A0"},
+//{"key": "T4","name": "T4搜索","type": 4,"api": "https://service-59u7dsoa-1308372858.gz.apigw.tencentcs.com/release/vod","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://share.nite07.com/api/v3/file/source/18177/t4.jar?sign=wvzbHCnMNPaxy4weFwgjQal4Fh-i2-Agm2eibngmbNY%3D%3A0"},
+{"key" : "csp_xpath_球迷直播","name" : "🏈世界杯直播jar","type" : 3,"api" : "csp_XPath","searchable" : 0,"quickSearch" : 0,"filterable" : 0,"ext" : "https://download.kstore.space/download/2883/JRKAN%E7%9B%B4%E6%92%AD.json","jar":"https://download.kstore.space/download/2883/panda1122.jar;md5;BA8452F160ACC87B1D10581F622591A1"},
+{"key" : "drpy_js_JRKAN直播","name" : "⚾️世界杯直播js","type" : 3,"api" : "https://download.kstore.space/download/2883/drpy.min.js","ext" : "https://download.kstore.space/download/2883/%E4%B8%96%E7%95%8C%E6%9D%AF%E7%9B%B4%E6%92%AD.js"},
+{"key": "dr_88看球","name": "🎾88看球js","type": 3,"api": "https://download.kstore.space/download/2883/drpy.min.js","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://download.kstore.space/download/2883/88%E7%9C%8B%E7%90%83.js"}
+
+            
+],
+"parses":[
+{"name":"解析聚合","type":3,"url":"Demo"},
+{"name":"Json并发","type":2,"url":"Parallel"},
+{"name":"Json轮询","type":2,"url":"Sequence"},
+{"name":"ckflv","type":1,"url":"http://api.ckflv.cn/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","CL4K","renrenmi","ltnb","bilibili","1905","xigua"]}},
+{"name":"tkys","type":1,"url":"https://rx.bt5v.com/json/jsonindex.php/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","rx","ltnb","bilibili","1905","xigua"]}},
+{"name":"xifanys","type":1,"url":"http://www.pandown.pro/app/tkys/tkysjx.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","rx","ltnb","bilibili","1905","xigua"]}},
+{"name":"酷享影视","type":1,"url":"http://pandown.pro/app/kxjx.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","CL4K","renrenmi","ltnb","bilibili","1905","xigua"]}},
+{"name":"江湖","type":1,"url":"http://pandown.pro/app/ysmjx.php?url=","ext":{"flag":["qq","qiyi","mgtv","youku","letv","sohu","xigua","1905","优播线路","腾播线路"],"header":{"User-Agent":"Dart/2.14 (dart:io)"}}},
+{"name":"左岸","type":1,"url":"http://110.42.2.115:880/analysis/json/?uid=2100&my=cqrtwyACDGLOXY0249&mgtv=app&url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","sohu","搜狐","letv","乐视","mgtv","芒果","CL4K","renrenmi","ltnb","bilibili","1905","xigua"]}},
+{"name":"keyu","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}}],
+"flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi","duoduozy","xinluan","ddzy","tgqp","tkqp","XRJX"],
+"ijk":[
+{"group":"软解码","options":[
+{"category":4,"name":"opensles","value":"0"},
+{"category":4,"name":"overlay-format","value":"842225234"},
+{"category":4,"name":"framedrop","value":"1"},
+{"category":4,"name":"soundtouch","value":"1"},
+{"category":4,"name":"start-on-prepared","value":"1"},
+{"category":1,"name":"http-detect-range-support","value":"0"},
+{"category":1,"name":"fflags","value":"fastseek"},
+{"category":2,"name":"skip_loop_filter","value":"48"},
+{"category":4,"name":"reconnect","value":"1"},
+{"category":4,"name":"enable-accurate-seek","value":"0"},
+{"category":4,"name":"mediacodec","value":"0"},
+{"category":4,"name":"mediacodec-auto-rotate","value":"0"},
+{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},
+{"category":4,"name":"mediacodec-hevc","value":"0"},
+{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
+{"group":"硬解码","options":[
+{"category":4,"name":"opensles","value":"0"},
+{"category":4,"name":"overlay-format","value":"842225234"},
+{"category":4,"name":"framedrop","value":"1"},
+{"category":4,"name":"soundtouch","value":"1"},
+{"category":4,"name":"start-on-prepared","value":"1"},
+{"category":1,"name":"http-detect-range-support","value":"0"},
+{"category":1,"name":"fflags","value":"fastseek"},
+{"category":2,"name":"skip_loop_filter","value":"48"},
+{"category":4,"name":"reconnect","value":"1"},
+{"category":4,"name":"enable-accurate-seek","value":"0"},
+{"category":4,"name":"mediacodec","value":"1"},
+{"category":4,"name":"mediacodec-auto-rotate","value":"1"},
+{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},
+{"category":4,"name":"mediacodec-hevc","value":"1"},
+{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}],
+"ads":[
+"mimg.0c1q0l.cn",
+"www.googletagmanager.com",
+"www.google-analytics.com",
+"mc.usihnbcq.cn",
+"mg.g1mm3d.cn",
+"mscs.svaeuzh.cn",
+"cnzz.hhttm.top",
+"tp.vinuxhome.com",
+"cnzz.mmstat.com",
+"www.baihuillq.com",
+"s23.cnzz.com",
+"z3.cnzz.com",
+"c.cnzz.com",
+"stj.v1vo.top",
+"z12.cnzz.com",
+"img.mosflower.cn",
+"tips.gamevvip.com",
+"ehwe.yhdtns.com",
+"xdn.cqqc3.com",
+"www.jixunkyy.cn",
+"sp.chemacid.cn",
+"hm.baidu.com",
+"s9.cnzz.com",
+"z6.cnzz.com",
+"um.cavuc.com",
+"mav.mavuz.com",
+"wofwk.aoidf3.com",
+"z5.cnzz.com",
+"xc.hubeijieshikj.cn",
+"tj.tianwenhu.com",
+"xg.gars57.cn",
+"k.jinxiuzhilv.com",
+"cdn.bootcss.com",
+"ppl.xunzhuo123.com",
+"xomk.jiangjunmh.top",
+"img.xunzhuo123.com",
+"z1.cnzz.com",
+"s13.cnzz.com",
+"xg.huataisangao.cn",
+"z7.cnzz.com",
+"xg.huataisangao.cn",
+"z2.cnzz.com",
+"s96.cnzz.com",
+"q11.cnzz.com",
+"thy.dacedsfa.cn",
+"xg.whsbpw.cn",
+"s19.cnzz.com",
+"z8.cnzz.com",
+"s4.cnzz.com",
+"f5w.as12df.top",
+"ae01.alicdn.com",
+"www.92424.cn",
+"k.wudejia.com",
+"vivovip.mmszxc.top",
+"qiu.xixiqiu.com",
+"cdnjs.hnfenxun.com",
+"cms.qdwght.com"]}

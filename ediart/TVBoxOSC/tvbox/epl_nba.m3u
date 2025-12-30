@@ -1,0 +1,314 @@
+#EXTM3U
+
+# Arsenal 阿森纳
+#EXTINF:-1 tvg-id="epl_ars" tvg-name="Arsenal" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&w=64&h=64" group-title="EPL League",阿森纳
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_ars/index.m3u8
+
+# Aston Villa 阿斯顿维拉
+#EXTINF:-1 tvg-id="epl_ast" tvg-name="Aston Villa" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/349.png&w=64&h=64" group-title="EPL League",阿斯顿维拉
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_ast/index.m3u8
+
+# Bournemouth 伯恩茅斯
+#EXTINF:-1 tvg-id="epl_bou" tvg-name="Bournemouth" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/362.png&w=64&h=64" group-title="EPL League",伯恩茅斯
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_bou/index.m3u8
+
+# Brentford 布伦特福德
+#EXTINF:-1 tvg-id="epl_bre" tvg-name="Brentford" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/337.png&w=64&h=64" group-title="EPL League",布伦特福德
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_bre/index.m3u8
+
+# Brighton 布莱顿
+#EXTINF:-1 tvg-id="epl_bri" tvg-name="Brighton & Hove Albion" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/331.png&w=64&h=64" group-title="EPL League",布莱顿
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_bri/index.m3u8
+
+# Burnley 伯恩利
+#EXTINF:-1 tvg-id="epl_bur" tvg-name="Burnley" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/379.png&w=64&h=64" group-title="EPL League",伯恩利
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_bur/index.m3u8
+
+# Chelsea 切尔西
+#EXTINF:-1 tvg-id="epl_che" tvg-name="Chelsea" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&w=64&h=64" group-title="EPL League",切尔西
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_che/index.m3u8
+
+# Crystal Palace 水晶宫
+#EXTINF:-1 tvg-id="epl_cry" tvg-name="Crystal Palace" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/384.png&w=64&h=64" group-title="EPL League",水晶宫
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_cry/index.m3u8
+
+# Everton 埃弗顿
+#EXTINF:-1 tvg-id="epl_eve" tvg-name="Everton" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/368.png&w=64&h=64" group-title="EPL League",埃弗顿
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_eve/index.m3u8
+
+# Fulham 富勒姆
+#EXTINF:-1 tvg-id="epl_ful" tvg-name="Fulham" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/370.png&w=64&h=64" group-title="EPL League",富勒姆
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_ful/index.m3u8
+
+# Leeds United 利兹联
+#EXTINF:-1 tvg-id="epl_lee" tvg-name="Leeds United" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/357.png&w=64&h=64" group-title="EPL League",利兹联
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_lee/index.m3u8
+
+# Liverpool 利物浦
+#EXTINF:-1 tvg-id="epl_liv" tvg-name="Liverpool" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/364.png&w=64&h=64" group-title="EPL League",利物浦
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_liv/index.m3u8
+
+# Manchester City 曼城
+#EXTINF:-1 tvg-id="epl_mci" tvg-name="Manchester City" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&w=64&h=64" group-title="EPL League",曼城
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_mci/index.m3u8
+
+# Manchester United 曼联
+#EXTINF:-1 tvg-id="epl_mun" tvg-name="Manchester United" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/360.png&w=64&h=64" group-title="EPL League",曼联
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_mun/index.m3u8
+
+# Newcastle United 纽卡斯尔
+#EXTINF:-1 tvg-id="epl_new" tvg-name="Newcastle United" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/361.png&w=64&h=64" group-title="EPL League",纽卡斯尔
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_new/index.m3u8
+
+# Nottingham Forest 诺丁汉森林
+#EXTINF:-1 tvg-id="epl_nfo" tvg-name="Nottingham Forest" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/393.png&w=64&h=64" group-title="EPL League",诺丁汉森林
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_nfo/index.m3u8
+
+# Tottenham Hotspur 热刺
+#EXTINF:-1 tvg-id="epl_tot" tvg-name="Tottenham Hotspur" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/367.png&w=64&h=64" group-title="EPL League",热刺
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_tot/index.m3u8
+
+# West Ham United 西汉姆联
+#EXTINF:-1 tvg-id="epl_whu" tvg-name="West Ham United" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/371.png&w=64&h=64" group-title="EPL League",西汉姆联
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_whu/index.m3u8
+
+# Wolverhampton Wanderers 狼队
+#EXTINF:-1 tvg-id="epl_wol" tvg-name="Wolverhampton Wanderers" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/380.png&w=64&h=64" group-title="EPL League",狼队
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/epl_wol/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/atl.png&w=64&h=64", 亚特兰大老鹰
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_atlantahawks/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/bos.png&w=64&h=64", 波士顿凯尔特人
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_bostonceltics/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/bkn.png&w=64&h=64", 布鲁克林篮网
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_brooklynnets/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/cha.png&w=64&h=64", 夏洛特黄蜂
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_charlottehornets/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/chi.png&w=64&h=64", 芝加哥公牛
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_chicagobulls/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/cle.png&w=64&h=64", 克里夫兰骑士
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_clevelandcavaliers/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/dal.png&w=64&h=64", 达拉斯独行侠
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_dallasmavericks/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/den.png&w=64&h=64", 丹佛掘金
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_denvernuggets/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/det.png&w=64&h=64", 底特律活塞
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_detroitpistons/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/gs.png&w=64&h=64", 金州勇士
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_goldenstatewarriors/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/hou.png&w=64&h=64", 休斯顿火箭
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_houstonrockets/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/ind.png&w=64&h=64", 印第安纳步行者
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_indianapacers/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lac.png&w=64&h=64", 洛杉矶快船
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_laclippers/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/lal.png&w=64&h=64", 洛杉矶湖人
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_losangeleslakers/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/mem.png&w=64&h=64", 孟菲斯灰熊
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_memphisgrizzlies/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/mia.png&w=64&h=64", 迈阿密热火
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_miamiheat/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/mil.png&w=64&h=64", 密尔沃基雄鹿
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_milwaukeebucks/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/min.png&w=64&h=64", 明尼苏达森林狼
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_minnesotatimberwolves/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/no.png&w=64&h=64", 新奥尔良鹈鹕
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_neworleanspelicans/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/ny.png&w=64&h=64", 纽约尼克斯
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_newyorkknicks/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/okc.png&w=64&h=64", 俄克拉荷马城雷霆
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_oklahomacitythunder/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/orl.png&w=64&h=64", 奥兰多魔术
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_orlandomagic/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/phi.png&w=64&h=64", 费城76人
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_philadelphia76ers/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/phx.png&w=64&h=64", 菲尼克斯太阳
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_phoenixsuns/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/por.png&w=64&h=64", 波特兰开拓者
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_portlandtrailblazers/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/sac.png&w=64&h=64", 萨克拉门托国王
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_sacramentokings/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/sa.png&w=64&h=64", 圣安东尼奥马刺
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_sanantoniospurs/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/tor.png&w=64&h=64", 多伦多猛龙
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_torontoraptors/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/utah.png&w=64&h=64", 犹他爵士
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_utahjazz/index.m3u8
+
+#EXTINF:-1 group-title="NBA League Pass" tvg-logo="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nba/500/scoreboard/was.png&w=64&h=64", 华盛顿奇才
+#EXTVLCOPT:http-origin=https://ppv.to
+#EXTVLCOPT:http-referrer=https://ppv.to/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0
+https://gg.poocloud.in/nba_washingtonwizards/index.m3u8

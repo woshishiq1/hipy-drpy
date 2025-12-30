@@ -1,0 +1,409 @@
+{
+	"spider": "./yt.jar",
+	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+	"sites": [{
+			"key": "lf_js_search",
+			"name": "豆瓣",
+			"type": 3,
+			"searchable": 0,
+			"changeable": 0,
+			"quickSearch": 0,
+			"filterable": 1,
+			"api": "./路飞豆瓣.js",
+			"indexs": 0
+		},
+		{
+			"key": "apple_js",
+			"name": "小苹果JS",
+			"type": 3,
+			"api": "./js/apple.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "永乐影视_js",
+			"name": "永乐影视JS",
+			"type": 3,
+			"api": "./js/永乐视频.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "海龟_js",
+			"name": "海龟JS",
+			"type": 3,
+			"api": "./js/海龟.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "韩剧网_js",
+			"name": "韩剧网JS",
+			"type": 3,
+			"api": "./js/韩剧网.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "荐片_js",
+			"name": "荐片JS",
+			"type": 3,
+			"api": "./js/荐片.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "界影视_js",
+			"name": "界影视JS",
+			"type": 3,
+			"api": "./js/界影视.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "金牌影院_js",
+			"name": "金牌影院JS",
+			"type": 3,
+			"api": "./js/金牌影院.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "Emby_js",
+			"name": "EmbyJS",
+			"type": 3,
+			"api": "./js/Emby.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "鬼片之家_js",
+			"name": "鬼片之家JS",
+			"type": 3,
+			"api": "./js/鬼片之家.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "xiaoya-emby_js",
+			"name": "xiaoya-embyJS",
+			"type": 3,
+			"api": "./js/xiaoya-emby.js",
+			"changeable": 1
+		},
+		{
+			"key": "聚合短剧_js",
+			"name": "聚合短剧JS",
+			"type": 3,
+			"api": "./js/聚合短剧.js",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "Cntv",
+			"name": "CNTV",
+			"type": 3,
+			"api": "csp_CntvSpider",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "PTT",
+			"name": "PTT",
+			"type": 3,
+			"api": "csp_PTT",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "JieYingShi",
+			"name": "界影视",
+			"type": 3,
+			"api": "csp_JieYingShi",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "旺旺短剧",
+			"name": "旺旺短剧",
+			"type": 1,
+			"api": "http://zhangqun66.com/ww.php"
+		},
+		{
+			"key": "看球",
+			"name": "看球",
+			"type": 3,
+			"api": "csp_Kanqiu",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "动漫",
+			"name": "动漫",
+			"type": 3,
+			"api": "csp_YHDM",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "荐片采集",
+			"name": "荐片采集",
+			"type": 1,
+			"api": "http://zhangqun66.com/jianpian1.php",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "哔哩",
+			"name": "哔哩哔哩",
+			"type": 3,
+			"api": "csp_Bilibili",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "爱瓜TV",
+			"name": "爱瓜TV",
+			"type": 4,
+			"api": "http://zhangqun66.com/aigua.php",
+			"searchable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "文件播放",
+			"name": "文件播放",
+			"type": 4,
+			"api": "http://139.185.42.4:14888/TV/lives.php",
+			"searchable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "jable",
+			"name": "JableFQ+",
+			"type": 3,
+			"api": "csp_Jable",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "market",
+			"name": "应用｜商店",
+			"type": 3,
+			"api": "csp_Market",
+			"searchable": 0,
+			"changeable": 0,
+			"ext": "https://000.hfr1107.top/tool/yc/market.json",
+			"jar": "https://000.hfr1107.top/tool/yc/fm.jar"
+		}
+	],
+	"parses": [{
+			"name": "解析聚合",
+			"type": 3,
+			"url": "Web"
+		},
+		{
+			"name": "777",
+			"type": 0,
+			"url": "https://www.huaqi.live/?url="
+		},
+		{
+			"name": "jsonplayer",
+			"type": 0,
+			"url": "https://jx.jsonplayer.com/player/?url="
+		},
+		{
+			"name": "xmflv",
+			"type": 0,
+			"url": "https://jx.xmflv.com/?url="
+		}
+	],
+	"flags": [
+		"youku",
+		"tudou",
+		"qq",
+		"qiyi",
+		"iqiyi",
+		"leshi",
+		"letv",
+		"sohu",
+		"imgo",
+		"mgtv",
+		"bilibili",
+		"pptv",
+		"PPTV",
+		"migu"
+	],
+	"doh": [{
+			"name": "Google",
+			"url": "https://dns.google/dns-query",
+			"ips": [
+				"8.8.4.4",
+				"8.8.8.8"
+			]
+		},
+		{
+			"name": "Cloudflare",
+			"url": "https://cloudflare-dns.com/dns-query",
+			"ips": [
+				"1.1.1.1",
+				"1.0.0.1",
+				"2606:4700:4700::1111",
+				"2606:4700:4700::1001"
+			]
+		},
+		{
+			"name": "AdGuard",
+			"url": "https://dns.adguard.com/dns-query",
+			"ips": [
+				"94.140.14.140",
+				"94.140.14.141"
+			]
+		},
+		{
+			"name": "DNSWatch",
+			"url": "https://resolver2.dns.watch/dns-query",
+			"ips": [
+				"84.200.69.80",
+				"84.200.70.40"
+			]
+		},
+		{
+			"name": "Quad9",
+			"url": "https://dns.quad9.net/dns-query",
+			"ips": [
+				"9.9.9.9",
+				"149.112.112.112"
+			]
+		}
+	],
+	"lives": [{
+			"name": "冰茶",
+			"type": 0,
+			"playerType": 2,
+			"url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true",
+			"ua": "bingcha/1.1 (mianfeifenxiang) "
+		},
+		{
+			"name": "央视频",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/ysp.m3u",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png",
+			"ua": "okhttp/5.0.0-alpha.14"
+		},
+		{
+			"name": "Sports",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
+		},
+		{
+			"name": "港台",
+			"url": "http://152.32.229.52:5050/?type=m3u&proxy=true"
+		},
+		{
+			"name": "英超+NBA",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
+		},
+		{
+			"name": "JackTV",
+			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+		},
+		{
+			"name": "MyTvSuper",
+			"url": "http://xtvantsc.xyz/mytv.m3u"
+		},
+		{
+			"name": "4GTV",
+			"url": "http://xtvantsc.xyz/litv_ts.php",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png"
+		},
+		{
+			"name": "catvod",
+			"url": "https://iptv.catvod.com/tv.m3u"
+		},
+		{
+			"name": "catvod(备用)",
+			"url": "https://live.catvod.com/tv.m3u"
+		}
+	],
+	"headers": [{
+		"host": "hlsztemgsplive.miguvideo.com",
+		"header": {
+			"User-Agent": "bingcha/1.1 (mianfeifenxiang) "
+		}
+	}],
+	"proxy": [
+		"raw.githubusercontent.com"
+	],
+	"hosts": [
+		"hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
+		"push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
+		"cdn9.163189.xyz=gcore.jsdelivr.net",
+		"cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
+		"studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
+	],
+	"ads": [
+		"static-mozai.4gtv.tv"
+	]
+}

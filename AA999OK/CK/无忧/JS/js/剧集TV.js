@@ -1,0 +1,28 @@
+var rule = {
+  title: '剧集TV',
+  host: 'https://v.ijujitv.cc',
+  url: '/show/fyclass--------fypage---.html',
+  searchUrl: 'search/**----------fypage---.html',
+  searchable: 2,
+  quickSearch: 0,
+  filterable: 0,
+  class_parse: '.nav-bar-menu li;a&&Text;a&&href;.*/(.*?).html',
+  cate_exclude:'娱乐新闻|排行榜',
+  play_parse: true,
+  lazy: '',
+  limit: 6,
+  推荐: '.module-list;.module-items&&.module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
+  double: true,
+  一级: '.m-list-inner li;a&&title;img&&data-original;.thumb&&Text;a&&href;p&&Text',
+  二级: {
+    title: 'h1&&Text;.intro clearfix&&Text',
+    img: '.quic&&data-original',
+    desc: 'intro&&p:eq(1)&&Text;.intro&&p:eq(2)&&Text;.intro&&p:eq(3)&&Text;.intro&&p:eq(4)&&Text',
+    content: '.item-desc-info&&Text',
+    tabs: '.mod-inner-head li',
+    tab_exclude:'APP秒播',
+    lists: '.juji-list-- li',
+    
+  },
+  搜索: '.m-list-inner li;a&&title;img&&data-original;.thumb&&Text;a&&href;p&&Text',
+}

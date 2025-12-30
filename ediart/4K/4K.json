@@ -1,0 +1,372 @@
+
+{
+	"sites": [{
+			"name": "豆瓣 | 嗷呜",
+			"key": "嗷嗚彈幕",
+			"type": 3,
+			"api": "csp_GoConfigAmns",
+			"indexs": 0,
+			"searchable": 0,
+			"filterable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"jar": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
+		},
+		{
+			"key": "xiaoya",
+			"name": "小雅 | 4K",
+			"type": 3,
+			"api": "csp_AListSh",
+			"jar": "http://47.120.12.26:5678/tvbox/libs/xiaoya_proxy.jar",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": [{
+					"name": "丫仙女",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/",
+					"search": true,
+					"noPoster": true
+				},
+				{
+					"name": "每日更新",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/每日更新"
+				},
+				{
+					"name": "丫的宝库",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/",
+					"filters": {
+						"全部": ".",
+						"国产剧": "((电视剧.*(国产|中国|华语|台湾|香港|港台))|(国产剧))",
+						"国产电影": "(电影.*(国产|中国|华语|台湾|香港|港台))",
+						"电视剧": "(电视剧|国产剧|美剧|韩剧)",
+						"电影": "(电影)",
+						"综艺": "(综艺|真人秀|脱口秀)",
+						"纪录片": "(纪录片)"
+					}
+				},
+				{
+					"name": "电影",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/电影"
+				},
+				{
+					"name": "电视剧",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/电视剧"
+				},
+				{
+					"name": "短剧",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/每日更新/爽文短剧"
+				},
+				{
+					"name": "综艺",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/综艺"
+				},
+				{
+					"name": "纪录片",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/纪录片"
+				},
+				{
+					"name": "动漫",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/动漫/合集（115）"
+				},
+				{
+					"name": "儿童",
+					"server": "http://47.120.12.26:5678/",
+					"startPage": "/动漫/儿童"
+				}
+			]
+		},
+		{
+			"key": "xiaoya-emby",
+			"name": "Emby | 4K",
+			"type": 3,
+			"api": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/Emby.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "muou",
+			"name": "木偶 | 4K",
+			"type": 4,
+			"api": "http://8088880.xyz:8080/video/muou?token=698d04ebe00a6369",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"categories": ["电影", "剧集", "动漫", "短剧", "纪录片"]
+		},
+		{
+			"key": "labi",
+			"name": "蜡笔 | 4K",
+			"type": 4,
+			"api": "http://8088880.xyz:8080/video/labi?token=698d04ebe00a6369",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "huban",
+			"name": "虎斑 | 4K",
+			"type": 4,
+			"api": "http://8088880.xyz:8080/video/hb?token=698d04ebe00a6369",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "xbky",
+			"name": "快映 | 4K",
+			"type": 4,
+			"api": "http://8088880.xyz:8080/video/xbky?token=698d04ebe00a6369",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "ouge",
+			"name": "讴歌 | 4K",
+			"type": 4,
+			"api": "http://8088880.xyz:8080/video/ouge?token=698d04ebe00a6369",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "libo",
+			"name": "立播 | 4K",
+			"type": 4,
+			"api": "http://8088880.xyz:8080/video/libo?token=698d04ebe00a6369",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "duoduo_ok",
+			"name": "多多OK | 4K",
+			"type": 3,
+			"api": "csp_DuoDuoGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+				"uc_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/uc.png",
+				"baidu_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/bd.png"
+			}
+		},
+		{
+			"key": "erxiao_ok",
+			"name": "二小OK | 4K",
+			"type": 3,
+			"api": "csp_ErXiaoGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+				"uc_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/uc.png",
+				"baidu_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/bd.png"
+			}
+		},
+		{
+			"key": "wogg_ok",
+			"name": "玩偶OK | 4K",
+			"type": 3,
+			"api": "csp_WoggGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+				"uc_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/uc.png",
+				"baidu_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/bd.png"
+			}
+		},
+		{
+			"key": "mogg_ok",
+			"name": "木偶OK | 4K",
+			"type": 3,
+			"api": "csp_MuouGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+				"uc_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/uc.png",
+				"baidu_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/bd.png"
+			},
+			"categories": ["木偶电影", "木偶剧集", "木偶动漫", "木偶短剧", "木偶纪录片"]
+		},
+		{
+			"key": "zhizhen_OK",
+			"name": "至臻OK | 4K",
+			"type": 3,
+			"api": "csp_ZhiZhenGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+				"uc_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/uc.png",
+				"baidu_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/bd.png"
+			}
+		},
+		{
+			"key": "labi_ok",
+			"name": "蜡笔OK | 4K",
+			"type": 3,
+			"api": "csp_LabiGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+				"uc_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/uc.png",
+				"baidu_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/bd.png"
+			}
+		},
+		{
+			"key": "2star_ok",
+			"name": "双星OK | 4K",
+			"type": 3,
+			"api": "csp_Star2Guard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+				"baidu_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/bd.png"
+			}
+		},
+		{
+			"key": "huban_ok",
+			"name": "虎斑OK | 4K",
+			"type": 3,
+			"api": "csp_HuBanGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+				"uc_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/uc.png",
+				"baidu_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/bd.png"
+			}
+		},
+		{
+			"key": "xiaosa_ok",
+			"name": "小飒OK | 4K",
+			"type": 3,
+			"api": "csp_XsayangGuard",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": {
+				"cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
+				"uc_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/uc.png",
+				"baidu_cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/bd.png"
+			}
+		},
+		{
+			"key": "panso",
+			"name": "盘搜 | 4K",
+			"type": 4,
+			"api": "http://8088880.xyz:8080/video/panso?token=698d04ebe00a6369",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1
+		},
+		{
+			"key": "market",
+			"name": "应用 | 商店",
+			"type": 3,
+			"api": "csp_Market",
+			"searchable": 0,
+			"changeable": 0,
+			"ext": "https://000.hfr1107.top/tool/yc/market.json",
+			"jar": "https://000.hfr1107.top/tool/yc/fm.jar"
+		}
+	],
+	"lives": [{
+			"name": "冰茶",
+			"type": 0,
+			"playerType": 2,
+			"url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true",
+			"ua": "bingcha/1.1 (mianfeifenxiang) "
+		},
+		{
+			"name": "央视频",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/ysp.m3u",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png",
+			"ua": "okhttp/5.0.0-alpha.14"
+		},
+		{
+			"name": "Sports",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
+		},
+		{
+			"name": "港台",
+			"url": "http://152.32.229.52:5050/?type=m3u&proxy=true"
+		},
+		{
+			"name": "英超+NBA",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
+		},
+		{
+			"name": "Jacktv",
+			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+		},
+		{
+			"name": "catvod",
+			"url": "https://iptv.catvod.com/tv.m3u"
+		},
+		{
+			"name": "catvod(备用)",
+			"url": "https://live.catvod.com/tv.m3u"
+		}
+	],
+	"headers": [{
+		"host": "hlsztemgsplive.miguvideo.com",
+		"header": {
+			"User-Agent": "bingcha/1.1 (mianfeifenxiang) "
+		}
+	}],
+	"proxy": [
+		"raw.githubusercontent.com"
+	],
+	"hosts": [
+		"hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
+		"push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
+		"cdn9.163189.xyz=gcore.jsdelivr.net",
+		"cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
+		"studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
+	],
+	"wallpaper": "https://深色壁纸.xxooo.cf/",
+	"spider": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/ok.webp"
+}

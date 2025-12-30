@@ -1,0 +1,358 @@
+{
+	"spider": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png",
+	"wallpaper": "https://深色壁纸.xxooo.cf/",
+	"sites": [{
+			"name": "💬嗷嗚彈幕",
+			"key": "💬嗷嗚彈幕",
+			"type": 3,
+			"api": "csp_GoConfigAmns",
+			"indexs": 0,
+			"searchable": 0,
+			"filterable": 0,
+			"quickSearch": 0,
+			"changeable": 0
+		},
+		{
+			"key": "py_小苹果",
+			"name": "🍎小苹果(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=9037cfae7c64405111e0e364401adb60"
+		},
+		{
+			"key": "py_官方采集789",
+			"name": "🍎官方采集789(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63"
+		},
+		{
+			"key": "py_动漫巴士",
+			"name": "🍎动漫巴士(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89"
+		},
+		{
+			"key": "py_欧乐影院",
+			"name": "🍎欧乐影院(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=8a0bbe9e97c4429a517cd2ece3f6772b"
+		},
+		{
+			"key": "py_小红影视",
+			"name": "🍎小红影视(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=01d44f1ecd9383f273c0c24989ad87c3"
+		},
+		{
+			"key": "py_低端影视",
+			"name": "🍎低端影视(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=a4108870c8bac363add59bf0101e2884"
+		},
+		{
+			"key": "py_新韩剧网",
+			"name": "🍎新韩剧网(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=2a7cc0edf96108c9d57420ff57c654c6"
+		},
+		{
+			"key": "爱瓜TV",
+			"name": "爱瓜TV",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/aigua1.php"
+		},
+		{
+			"key": "聚合短剧",
+			"name": "聚合短剧",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net:6628/?spider=%E8%81%9A%E5%90%88%E7%9F%AD%E5%89%A7"
+		},
+		{
+			"key": "克隆合集",
+			"name": "克隆合集",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/klhj.php"
+		},
+		{
+			"key": "采集集合",
+			"name": "采集集合+",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
+			"ext": "0"
+		},
+		{
+			"key": "js集合",
+			"name": "js集合",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/js.php"
+		},
+		{
+			"key": "php集合",
+			"name": "php集合",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/php.php"
+		},
+		{
+			"key": "python集合",
+			"name": "python集合",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/py.php"
+		},
+		{
+			"key": "影视文件播放",
+			"name": "影视文件播放",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/zh/2242.php"
+		},
+		{
+			"key": "清单播放",
+			"name": "清单播放",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/zh/2243.php"
+		},
+		{
+			"api": "https://learnpython.ggff.net/2BT",
+			"key": "2BT",
+			"name": "2BT",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/4KFS",
+			"key": "4KFS",
+			"name": "4KFS",
+			"type": 4
+		}, {
+			"api": "https://learnpython.ggff.net/4KVMYS",
+			"key": "4KVMYS",
+			"name": "4KVMYS",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/CCTVPY",
+			"key": "CCTVPY",
+			"name": "CCTV",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/FKTV",
+			"key": "FKTV",
+			"name": "FKTV",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/51xiG",
+			"key": "51xiG",
+			"name": "🔞51xiG",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/911BaoLiao",
+			"key": "911BaoLiao",
+			"name": "🔞911BaoLiao",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/0007cg",
+			"key": "0007cg",
+			"name": "🔞007吃瓜",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/7QU",
+			"key": "7QU",
+			"name": "🔞7QU",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/91chigua",
+			"key": "91chigua",
+			"name": "🔞91chigua",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/DSYS",
+			"key": "DSYS",
+			"name": "🔞dsys",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/ELXCN",
+			"key": "ELXCN",
+			"name": "🔞ELXCN",
+			"type": 4
+		},
+		{
+			"api": "https://learnpython.ggff.net/HLBTY",
+			"key": "HLBTY",
+			"name": "🔞黑料不打烊",
+			"type": 4
+		},
+		{
+			"key": "market",
+			"name": "应用｜商店",
+			"type": 3,
+			"api": "csp_Market",
+			"searchable": 0,
+			"changeable": 0,
+			"ext": "https://000.hfr1107.top/tool/yc/market.json",
+			"jar": "https://000.hfr1107.top/tool/yc/fm.jar"
+		}
+	],
+	"lives": [{
+			"name": "冰茶",
+			"type": 0,
+			"playerType": 2,
+			"url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true",
+			"ua": "bingcha/1.1 (mianfeifenxiang) "
+		},
+		{
+			"name": "央视频",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/ysp.m3u",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png",
+			"ua": "okhttp/5.0.0-alpha.14"
+		},
+		{
+			"name": "Sports",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
+		},
+		{
+			"name": "港台",
+			"url": "http://152.32.229.52:5050/?type=m3u&proxy=true"
+		},
+		{
+			"name": "英超+NBA",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
+		},
+		{
+			"name": "咪咕直播",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+		},
+		{
+			"name": "JackTV",
+			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+		},
+		{
+			"name": "MyTvSuper",
+			"url": "http://xtvantsc.xyz/mytv.m3u"
+		},
+		{
+			"name": "4GTV",
+			"url": "http://xtvantsc.xyz/litv_ts.php",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png"
+		},
+		{
+			"name": "1080",
+			"url": "http://xtvantsc.xyz/1080.m3u"
+		},
+		{
+			"name": "Gather直播",
+			"url": "https://tv.iill.top/m3u/Gather"
+		},
+		{
+			"name": "BeeSport直播",
+			"type": 3,
+			"api": "https://tvbot.dpdns.org/live_beesports.py",
+			"ext": {
+
+			},
+			"header": {
+				"Referer": "https://p.lioncdn.net/"
+			}
+		},
+		{
+			"name": "易发",
+			"type": 0,
+			"url": "https://cdn.jsdelivr.net/gh/fafa002/yf2025@main/yiyifafa.txt",
+			"epg": "https://epg.v1.mk/json?ch={name}&date={date}",
+			"logo": "https://epg.v1.mk/logo/{name}.png",
+			"timeout": 10
+		},
+		{
+			"name": "秘密花园",
+			"type": 0,
+			"url": "https://down.nigx.cn/mmhy.zzong6599.workers.dev",
+			"playerType": 1,
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png"
+		},
+		{
+			"name": "备用直播一",
+			"type": 0,
+			"url": "https://cdn.jsdelivr.net/gh/PizazzGY/TV@master/output/user_result.txt",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png",
+			"timeout": 10
+		},
+		{
+			"name": "备用直播二",
+			"type": 0,
+			"url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@refs/heads/gd/output/result.m3u",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png",
+			"timeout": 10
+		}
+	],
+	"headers": [{
+		"host": "hlsztemgsplive.miguvideo.com",
+		"header": {
+			"User-Agent": "bingcha/1.1 (mianfeifenxiang)"
+		}
+	}],
+	"proxy": [
+		"raw.githubusercontent.com"
+	],
+	"hosts": [
+		"hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
+		"push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
+		"cdn9.163189.xyz=gcore.jsdelivr.net",
+		"cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
+		"studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
+	],
+	"ads": [
+		"static-mozai.4gtv.tv"
+	],
+	"doh": [{
+			"name": "Google",
+			"url": "https://dns.google/dns-query",
+			"ips": [
+				"8.8.4.4",
+				"8.8.8.8"
+			]
+		},
+		{
+			"name": "Cloudflare",
+			"url": "https://cloudflare-dns.com/dns-query",
+			"ips": [
+				"1.1.1.1",
+				"1.0.0.1",
+				"2606:4700:4700::1111",
+				"2606:4700:4700::1001"
+			]
+		},
+		{
+			"name": "AdGuard",
+			"url": "https://dns.adguard.com/dns-query",
+			"ips": [
+				"94.140.14.140",
+				"94.140.14.141"
+			]
+		},
+		{
+			"name": "DNSWatch",
+			"url": "https://resolver2.dns.watch/dns-query",
+			"ips": [
+				"84.200.69.80",
+				"84.200.70.40"
+			]
+		},
+		{
+			"name": "Quad9",
+			"url": "https://dns.quad9.net/dns-quer",
+			"ips": [
+				"9.9.9.9",
+				"149.112.112.112"
+			]
+		}
+	]
+}

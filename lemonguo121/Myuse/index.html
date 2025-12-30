@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lemon_os iOS App 下载</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          background-color: #f0f0f0;
+        }
+        .container {
+          text-align: center;
+          background-color: white;
+          padding: 30px;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+          background-color: #007BFF;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+          margin-top: 20px;
+        }
+        .btn:hover {
+          background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>lemon_os iOS App 下载</h1>
+    <!-- 生成二维码的容器 -->
+    <div id="qr-code"></div>
+    <button class="btn" onclick="installApp()">点击下载 iOS 应用</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/build/qrcode.min.js"></script>
+<script>
+    // 下载链接
+    const itmsLink = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/lemonguo121/BoxRes/refs/heads/main/Myuse/manifest.plist";
+
+    // 生成二维码
+    const qrCodeContainer = document.getElementById('qr-code');
+    new QRCode(qrCodeContainer, {
+      text: itmsLink,
+      width: 200,
+      height: 200,
+    });
+
+    // 点击按钮时处理下载
+    function installApp() {
+      window.location.href = itmsLink;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,362 @@
+{
+  "novelConfigList": [
+    {
+      "bookSourceUrl": "https://www.quanben.io",
+      "bookSourceType": "0",
+      "bookSourceName": "全本小说网",
+      "bookSourceGroup": "lemon",
+      "bookSourceComment": "",
+      "loginUrl": "",
+      "bookUrlPattern": "",
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "searchUrl": "https://www.quanben.io/index.php?c=book&a=search&keywords={keywords}",
+      "exploreUrl": [
+        {
+          "title": "首页推荐",
+          "url": "/",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "玄幻",
+          "url": "/c/xuanhuan_{{page}}.html",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "都市",
+          "url": "/c/dushi_{{page}}.html"
+        },
+        {
+          "title": "言情",
+          "url": "/c/yanqing_{{page}}.html"
+        },
+        {
+          "title": "穿越",
+          "url": "/c/chuanyue_{{page}}.html"
+        },
+        {
+          "title": "仙侠",
+          "url": "/c/xianxia_{{page}}.html"
+        },
+        {
+          "title": "灵异",
+          "url": "/c/lingyi_{{page}}.html"
+        },
+        {
+          "title": "悬疑",
+          "url": "/c/xuanyi_{{page}}.html"
+        },
+        {
+          "title": "历史",
+          "url": "/c/lishi_{{page}}.html"
+        },
+        {
+          "title": "军事",
+          "url": "/c/junshi_{{page}}.html"
+        },
+        {
+          "title": "游戏",
+          "url": "/c/youxi_{{page}}.html"
+        },
+        {
+          "title": "竞技",
+          "url": "/c/jingji_{{page}}.html"
+        },
+        {
+          "title": "科幻",
+          "url": "/c/kehuan_{{page}}.html"
+        },
+        {
+          "title": "官场",
+          "url": "/c/guanchang_{{page}}.html"
+        },
+        {
+          "title": "耽美",
+          "url": "/c/xianyan_{{page}}.html"
+        },
+        {
+          "title": "其它",
+          "url": "/c/qita_{{page}}.html"
+        }
+      ],
+      "enabled": true,
+      "enabledExplore": true,
+      "weight": 0,
+      "customOrder": 0,
+      "lastUpdateTime": 1619883443705,
+      "ruleHome": {
+        "bookList": "div.list2",
+        "name": "span[itemprop='name']",
+        "bookUrl": "a@href",
+        "author": "span[itemprop='author']",
+        "coverUrl": "img@src",
+        "intro": "p[itemprop='description']",
+        "kind": "",
+        "lastChapter": "",
+        "wordCount": ""
+      },
+      "ruleSearch": {
+        "bookList": ".row .list2",
+        "name": "[itemprop='name']@text",
+        "author": "[itemprop='author']@text",
+        "intro": "[itemprop='description']@text",
+        "bookUrl": "[itemprop='url']@href",
+        "urlSuffix": "list.html",
+        "coverUrl": "[itemprop='image']@src"
+      },
+      "ruleExplore": {
+        "loadMoreType": 1,
+        "loadMoreFun": "document.querySelector(\".content_more a\")?.click();"
+      },
+      "ruleBookInfo": {
+        "name": "[itemprop=name]",
+        "author": "[itemprop=author]",
+        "wordCount": "[itemprop=category]",
+        "kind": "[itemprop=category]",
+        "lastChapter": ".list2 p span@2",
+        "intro": "[itemprop=description] p",
+        "coverUrl": "[itemprop=image]"
+      },
+      "ruleToc": {
+        "chapterList": ".list3 li",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+      },
+      "ruleContent": {
+        "content": "#content p@textNodes",
+        "replaceRegex": "",
+        "title": ""
+      }
+    },
+    {
+      "bookSourceComment": "先更新标题，过段时间才更新正文；\n偶尔段落乱序，且不会修复；",
+      "bookSourceGroup": "General",
+      "bookSourceName": "爱下电子书",
+      "bookSourceType": "0",
+      "loginUrl": "",
+      "bookSourceUrl": "https://ixdzs8.com",
+      "concurrentRate": "1/1000",
+      "customOrder": 31,
+      "enabled": true,
+      "enabledCookieJar": true,
+      "enabledExplore": true,
+      "exploreUrl": [
+        {
+          "title": "首页推荐",
+          "url": "/",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "玄幻奇幻",
+          "url": "/sort/1/index-0-0-0-{{page}}.html",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "武侠小说",
+          "url": "/sort/10/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "修真仙侠",
+          "url": "/sort/2/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "都市青春",
+          "url": "/sort/3/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "军事历史",
+          "url": "/sort/4/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "网游竞技",
+          "url": "/sort/5/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "科幻灵异",
+          "url": "/sort/6/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "言情穿越",
+          "url": "/sort/7/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "耽美同人",
+          "url": "/sort/8/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "台言古言",
+          "url": "/sort/9/index-0-0-0-{{page}}.html"
+        },
+        {
+          "title": "其他小说",
+          "url": "/sort/0/index-0-0-0-{{page}}.html"
+        }
+      ],
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "ruleHome": {
+        "author": ".bauthor a",
+        "bookList": "ul.u-list > li",
+        "bookUrl": "h3.bname a@href",
+        "checkKeyWord": "不许没收我的人籍",
+        "coverUrl": ".l-img img@src",
+        "intro": ".l-p2",
+        "kind": "span.lz@text&&span.l-time@text##(\\s\\d\\d:\\d\\d)##",
+        "lastChapter": "span.l-chapter@text##(^\\d+\\.?)##",
+        "name": "h3.bname a",
+        "wordCount": "span.size@text"
+      },
+      "ruleBookInfo": {
+        "author": "a.bauthor@text",
+        "coverUrl": "div.n-img>img@src",
+        "downloadUrls": "span.btn-solid>a@href",
+        "intro": "#intro@html",
+        "kind": "a.nsort@text&&span.lz@text&&div.n-text>p:last-of-type@text##(更新:?|\\s\\d+:\\d+:\\d+)##",
+        "lastChapter": "span.end@text",
+        "name": "div.n-text>h1@text",
+        "tocUrl": "<js>java.put(\"bookUrl\",baseUrl)</js>\nhttps://ixdzs8.com/novel/clist/,{\n    \"method\": \"POST\",\n    \"body\": \"bid={{baseUrl.split(\"/\")[4]}}\",\n    \"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36\"}\n}",
+        "wordCount": "span.nsize@text"
+      },
+      "ruleContent": {
+        "content": "article.page-content p:not(.abg)",
+        "replaceRegex": "##(\\s*\\d*\\.?{{title.split(\" \")[0]}}\\S*{{title.substr(-1)}}\\S*\\s+|\\(?本章完\\)?|\\s*更新\\S*\\d+-\\d+-\\d+\\s+)##",
+        "title": ""
+      },
+      "ruleExplore": {
+        "loadMoreType": 2,
+        "loadMoreFun": "https://ixdzs8.com/novel/clist/"
+      },
+      "ruleReview": {
+      },
+      "ruleSearch": {
+        "author": "span.bauthor>a@text",
+        "bookList": "li.burl",
+        "bookUrl": "h3.bname>a@href",
+        "checkKeyWord": "不许没收我的人籍",
+        "coverUrl": "div.l-img>a>img@src",
+        "intro": "p.l-p2@html",
+        "kind": "span.lz@text&&span.l-time@text##(\\s\\d\\d:\\d\\d)##",
+        "lastChapter": "span.l-chapter@text##(^\\d+\\.?)##",
+        "name": "h3.bname>a@text",
+        "wordCount": "span.size@text"
+      },
+      "ruleToc": {
+        "chapterList": "div#a-list ul.u-chapter li",
+        "chapterName": "@text",
+        "chapterUrl": "@href"
+      },
+      "searchUrl": "https://ixdzs8.com//bsearch?q={keywords}&page=1",
+      "weight": 85
+    },
+    {
+      "bookSourceComment": "",
+      "bookSourceGroup": "General",
+      "bookSourceName": "笔趣阁",
+      "bookSourceType": "0",
+      "loginUrl": "",
+      "bookSourceUrl": "https://www.fda1726.sbs",
+      "concurrentRate": "1/1000",
+      "customOrder": 31,
+      "enabled": true,
+      "enabledCookieJar": true,
+      "enabledExplore": true,
+      "exploreUrl": [
+        {
+          "title": "玄幻",
+          "url": "/json?sortid=1&page={{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "武侠",
+          "url": "/json?sortid=2&page={{page}}"
+        },
+        {
+          "title": "都市",
+          "url": "/json?sortid=3&page={{page}}"
+        },
+        {
+          "title": "历史",
+          "url": "/json?sortid=4&page={{page}}"
+        },
+        {
+          "title": "网游",
+          "url": "/json?sortid=5&page={{page}}"
+        },
+        {
+          "title": "科幻",
+          "url": "/json?sortid=6&page={{page}}"
+        },
+        {
+          "title": "女生",
+          "url": "/json?sortid=7&page={{page}}"
+        },
+        {
+          "title": "完本",
+          "url": "/json?sortid=0&page={{page}"
+        }
+      ],
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "ruleHome": {
+        "author": "author",
+        "bookList": "json",
+        "bookUrl": "url_list",
+        "checkKeyWord": "",
+        "coverUrl": "url_img",
+        "intro": "intro",
+        "kind": "",
+        "lastChapter": "",
+        "name": "articlename",
+        "wordCount": ""
+      },
+      "ruleBookInfo": {
+        "author": "div.small span@0##^作者：##",
+        "coverUrl": "div.cover img@src",
+        "downloadUrls": "span.btn-solid a@href",
+        "intro": "div.intro dl dd@0",
+        "kind": "div.small span@1##^状态：##",
+        "lastChapter": "div.small span.last a@text",
+        "name": "h1@0",
+        "tocUrl": "",
+        "wordCount": "span.nsize@text"
+      },
+      "ruleContent": {
+        "content": "div#chaptercontent",
+        "replaceRegex": "##(<p[^>]*class=[\"']readinline[\"'][^>]*>.*?<\\/p>|<script[^>]*>.*?<\\/script>|<style[^>]*>.*?<\\/style>)##",
+        "title": ""
+      },
+      "ruleExplore": {
+        "loadMoreType": 4,
+        "loadMoreFun": ""
+      },
+      "ruleReview": {
+      },
+      "ruleSearch": {
+        "bookList": "div.bookbox",
+        "name": "h4.bookname a@text",
+        "bookUrl": "h4.bookname a@href",
+        "author": "div.author@text##^作者：##",
+        "coverUrl": "div.bookimg img@src",
+        "intro": "div.uptime@text",
+        "lastChapter": "",
+        "kind": "",
+        "wordCount": "",
+        "checkKeyWord": "三体"
+      },
+      "ruleToc": {
+        "chapterList": "div.listmain dl dd a",
+        "chapterName": "@text",
+        "chapterUrl": "@href"
+      },
+      "searchUrl": "https://www.fda1726.sbs/s?q={keywords}",
+      "weight": 85
+    }
+  ]
+}

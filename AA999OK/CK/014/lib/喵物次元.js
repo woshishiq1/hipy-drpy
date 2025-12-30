@@ -1,0 +1,47 @@
+var rule = {
+     title: '喵物次元',
+     host: 'https://www.catwcy.com',
+     模板:'短视2',
+     searchUrl: '/search/page/fypage/wd/**.html',
+     url:'/catshow/fyclass/page/fypage.html',
+     searchable: 2,//是否启用全局搜索,
+     quickSearch: 1,//是否启用快速搜索,
+     filterable: 0,//是否启用分类筛选,
+     headers: {
+       'User-Agent': 'MOBILE_UA'
+     },
+     play_parse: true,
+     lazy:`js:
+        var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
+        var url = html.url;
+        var from = html.from;
+        var MacPlayerConfig={};
+        if (html.encrypt == '1') {
+            url = unescape(url)
+        } else if (html.encrypt == '2') {
+            url = unescape(base64Decode(url))
+        }
+        if (/.m3u8|.mp4/.test(url)) {
+            input = url
+        } else {
+        eval(fetch(HOST + "/static/js/playerconfig.js").replace('var Mac','Mac'));
+        var list = MacPlayerConfig.player_list[from].parse;
+            input={
+                jx:0,
+                url:list+url,
+                parse:1,
+                header: JSON.stringify({
+                    'referer': HOST
+                })
+            }
+        }
+     `,
+     limit: 6,
+     tab_rename:{'喵物次元':'LR',},
+     class_name:'TV动画&剧场版&特摄剧',
+     class_url:'1&2&20',
+     double: false, // 推荐内容是否双层定位
+     推荐: '*',
+     一级: '.public-list-exp;a&&title;img&&data-src;.ft2&&Text;a&&href',
+     搜索: '.public-list-box;.thumb-txt&&Text;.public-list-exp&&img&&data-src;.public-list-prb&&Text;a&&href'
+    }

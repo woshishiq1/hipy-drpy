@@ -1,0 +1,12 @@
+{
+  "urls": [
+    {
+      "url": "https://music-plugings.onrender.com",
+      "name": "render"
+    },
+    {
+      "url": "http://192.168.2.1:10000",
+      "name": "localhost"
+    }
+  ]
+}

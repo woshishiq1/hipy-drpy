@@ -1,0 +1,32 @@
+version: "3.8"
+
+services:
+  redis:
+    image: redis:latest
+    restart: always
+    container_name: redis
+    volumes:
+      - ./redis/:/data
+  clash:
+    image: metacubex/mihomo:latest
+    restart: always
+    container_name: clash
+    ports:
+      - 9090:9090 # clash WEB UI
+    volumes:
+      - ./clash/:/root/.config/mihomo/
+  vod:
+    image: sifan1/vodspider:latest
+    container_name: vod
+    ports:
+      - 8080:3000
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      PROXY_HTTP: http://user:pwd@clash:7890 # 无鉴权可以删除user:pwd@
+      PROXY_SOCKS5: socks5://user:pwd@clash:7890 # 无鉴权可以删除user:pwd@
+    volumes:
+      - ./vod/:/app
+    depends_on:
+      - redis
+      - clash # 代理，网络已翻情况可以删除

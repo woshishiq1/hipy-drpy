@@ -1,0 +1,49 @@
+{
+  "classes": [
+    {
+      "type_name": "电影",
+      "type_id": "电影"
+    },
+    {
+      "type_name": "电视剧",
+      "type_id": "电视剧"
+    },
+    {
+      "type_name": "演唱会",
+      "type_id": "演唱会"
+    },
+    {
+      "type_name": "纪录片",
+      "type_id": "纪录片"
+    },
+    {
+      "type_name": "综艺",
+      "type_id": "综艺"
+    },
+    {
+      "type_name": "番剧",
+      "type_id": "番剧"
+    },
+    {
+      "type_name": "国创",
+      "type_id": "国创"
+    },
+    {
+      "type_name": "动画",
+      "type_id": "动画"
+    },
+    {
+      "type_name": "音乐",
+      "type_id": "音乐"
+    },
+    {
+      "type_name": "舞蹈",
+      "type_id": "舞蹈"
+    },
+    {
+      "type_name": "体育运动",
+      "type_id": "体育运动"
+    }
+  ],
+ "cookie": "SESSDATA=7624af93%2C1696008331%2C862c8%2A42; bili_jct=141a474ef3ce8cf2fedf384e68f6625d; DedeUserID=3493271303096985; DedeUserID__ckMd5=212a836c164605b7"  
+}

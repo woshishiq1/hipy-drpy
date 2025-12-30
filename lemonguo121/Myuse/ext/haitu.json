@@ -1,0 +1,209 @@
+{
+  "author": "guozi",
+  "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36",
+  "homeUrl": "https://www.haituu.tv/",
+  "dcVipFlag": "true",
+  "pCfgJs": "https://www.haituu.tv/static/js/playerconfig.js",
+  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
+  "cateNode": "//ul[contains(@class, 'myui-header__menu nav-menu')]/li[@class='dropdown-hover']//div/ul/li/a[contains(@href, 'type') and not(contains(@href,'label'))]",
+  "cateName": "/text()",
+  "cateId": "/@href",
+  "cateIdR": "/type/(\\w+).html",
+  "cateManual": {
+    "电影": "1",
+    "剧集": "2",
+    "动漫": "4",
+    "综艺": "3"
+  },
+  "homeVodNode": "//div[contains(@class, 'module-item-pic')]",
+  "homeVodName": "/img/@alt",
+  "homeVodId": "/a/@href",
+  "homeVodIdR": "/voddetail/(\\w+).html",
+  "homeVodImg": "/img/@data-src",
+  "homeVodImgR": "\\S+(http\\S+).jpg",
+  "homeVodMark": "/span[contains(@class,'pic-text')]/text()",
+  "cateUrl": "https://www.haituu.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
+  "cateVodNode": "//div[contains(@class,'module-item-pic')]",
+  "cateVodName": "/a/@title",
+  "cateVodId": "/a/@href",
+  "cateVodIdR": "/voddetail/(\\w+).html",
+  "cateVodImg": "/img/@data-src",
+  "cateVodImgR": "\\S+(http\\S+)+.jpg",
+  "cateVodMark": "/span[contains(@class,'pic-text')]/text()",
+  "dtUrl": "https://www.haituu.tv/voddetail/{vid}",
+  "dtNode": "//body",
+  "dtName": "//div[contains(@class,'video-info')]/h1/text()",
+  "dtNameR": "",
+  "dtImg": "//div[@class='video-cover']/div/div/img/@data-src",
+  "dtImgR": "\\S+(http\\S+)",
+  "dtCate": "//head/meta[@property='og:video:class']/@content",
+  "dtCateR": "",
+  "dtYear": "//head/meta[@property='og:video:release_date']/@content",
+  "dtYearR": "",
+  "dtArea": "//head/meta[@property='og:video:area']/@content",
+  "dtAreaR": "",
+  "dtMark": "//div[@class='video-info-items']//span[contains(text(), '更新：')]/following-sibling::div/text()",
+  "dtMarkR": "",
+  "dtActor": "//div[@class='video-info-items']//span[contains(text(), '主演')]/following-sibling::div/a/text()",
+  "dtActorR": "",
+  "dtDirector": "//div[@class='video-info-items']//span[contains(text(), '导演')]/following-sibling::div/a/text()",
+  "dtDirectorR": "",
+  "dtDesc": "//div[@class='video-info-items']//span[contains(text(), '剧情')]/following-sibling::div//text()",
+  "dtDescR": "",
+  "dtFromNode": "//div[contains(@class,'module-tab-item tab-item')]",
+  "dtFromName": "/@data-dropdown-value",
+  "dtFromNameR": "",
+  "dtUrlNode": "//div[contains(@class,'module-blocklist')]",
+  "dtUrlSubNode": "/div/a",
+  "dtUrlId": "/@href",
+  "dtUrlIdR": "/vodplay/(\\S+).html",
+  "dtUrlName": "//a/span/text()",
+  "dtUrlNameR": "",
+  "playUrl": "https://www.haituu.tv/vodplay/{playUrl}.html",
+  "playUa": "",
+  "searchUrl": "https://www.haituu.tv/vodsearch/-------------.html?wd={wd}",
+  "scVodNode": "//div[contains(@class,'module-item-pic')]",
+  "scVodName": "//img/@alt",
+  "scVodId": "/a/@href",
+  "scVodIdR": "/voddetail/(\\w+).html",
+  "scVodImg": "//img/@data-src",
+  "scVodMark": "\\S+(http\\S+)",
+  "filter": {
+    "1": [
+      {
+        "key": "cateId",
+        "name": "类型",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          },
+          {
+            "n": "动作片",
+            "v": "6"
+          }
+
+        ]
+      },
+      {
+        "key": "class",
+        "name": "剧情",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          },
+          {
+            "n": "喜剧",
+            "v": "喜剧"
+          }
+        ]
+      },
+      {
+        "key": "area",
+        "name": "地区",
+        "value": [
+          {
+            "n": "泰国",
+            "v": "泰国"
+          }
+        ]
+      },
+      {
+        "key": "lang",
+        "name": "语言",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          }
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          }
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {
+            "n": "时间",
+            "v": "time"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "key": "cateId",
+        "name": "类型",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          }
+        ]
+      },
+      {
+        "key": "class",
+        "name": "剧情",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          }
+        ]
+      },
+      {
+        "key": "area",
+        "name": "地区",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          }
+        ]
+      },
+      {
+        "key": "lang",
+        "name": "语言",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          }
+        ]
+      },
+      {
+        "key": "year",
+        "name": "年份",
+        "value": [
+          {
+            "n": "全部",
+            "v": ""
+          }
+        ]
+      },
+      {
+        "key": "by",
+        "name": "排序",
+        "value": [
+          {
+            "n": "时间",
+            "v": "time"
+          }
+        ]
+      }
+    ]
+  }
+}
+

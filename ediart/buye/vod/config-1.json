@@ -1,0 +1,171 @@
+{
+	"driveSort": [
+		"quark",
+		"uc",
+		"baidu",
+		"a115",
+		"a123",
+		"a189",
+		"a139",
+		"xunlei",
+		"pikpak",
+		"ali"
+	],
+	"mutThread": {
+		"ali": {
+			"thread": 10,
+			"chunkSize": 512
+		},
+		"quark": {
+			"thread": 10,
+			"chunkSize": 512
+		},
+		"uc": {
+			"thread": 10,
+			"chunkSize": 512
+		}
+	},
+	"urls": {
+		"libo": "https://www.libvio.site",
+		"star2": "https://1.star2.cn"
+	},
+	"vods": [{
+			"key": "wogg",
+			"name": "玩偶",
+			"url": "https://wogg.xxooo.cf"
+		},
+		{
+			"key": "mogg",
+			"name": "木偶",
+			"url": "https://www.muou.site"
+		},
+		{
+			"key": "labi",
+			"name": "蜡笔",
+			"url": "http://www.labi88.sbs"
+		},
+		{
+			"key": "zhizhen",
+			"name": "至臻",
+			"url": "https://mihdr.top"
+		},
+		{
+			"key": "huban",
+			"name": "虎斑",
+			"url": "http://103.45.162.207:20720"
+		},
+		{
+			"key": "ouge",
+			"name": "讴歌",
+			"url": "https://woog.nxog.eu.org"
+		},
+		{
+			"key": "erxiao",
+			"name": "二小",
+			"url": "https://erxiaofn.click"
+		},
+		{
+			"key": "kuaiyin",
+			"name": "快映",
+			"url": "http://xsayang.fun:12512"
+		}
+	],
+	"tgclient": {
+		"apiId": 27335138,
+		"apiHash": "2459555ba95421148c682e2dc3031bb6",
+		"autoDownPic": true
+	},
+	"tgx": [{
+			"key": "tianyi",
+			"name": "天翼",
+			"channels": ["tyypzhpd", "tianyirigeng", "cloudtianyi"]
+		}, {
+			"key": "xunlei",
+			"name": "迅雷",
+			"channels": ["xunleizyfb", "yunpanxunlei", "xlshare"]
+		},
+
+		{
+			"key": "UC",
+			"name": "UC",
+			"channels": ["ucpanpan", "ucwpzy", "ucquark"]
+		},
+		{
+			"key": "123",
+			"name": "123",
+			"channels": ["zyzhpd123", "xx123pan", "zyfb123", "yingshifenxiang123", "pan123pan"]
+		},
+		{
+			"key": "yidong",
+			"name": "移动",
+			"channels": ["ydypzyfx", "yunpan139"]
+		},
+		{
+			"key": "ali",
+			"name": "阿里",
+			"channels": ["zaihuayun", "NewAliPan", "shareAliyun"]
+		},
+		{
+			"key": "115",
+			"name": "115",
+			"channels": ["shares_115", "Mbox115", "Channel_Shares_115", "guaguale115", "hao115"]
+		},
+		{
+			"key": "kuake",
+			"name": "夸克",
+			"channels": ["yunpanshare", "kuakezyfb", "Quark_Movies", "kuakeyun", "NewQuark", "pankuake_share", "jdjdn1111", "yunpanall", "alyp_1"]
+		},
+		{
+			"key": "tgxjuheqz",
+			"name": "聚合",
+			"channels": [
+				"PikPakShareChannel",
+				"alyp_Animation",
+				"yingshifenxiang123",
+				"pan123pan",
+				"zyzhpd123",
+				"xx123pan",
+				"zyfb123",
+				"kuakeclound",
+				"pankuake_share",
+				"jdjdn1111",
+				"yggpan",
+				"yunpanall",
+				"MCPH086",
+				"zaihuayun",
+				"Q66Share",
+				"NewAliPan",
+				"Oscar_4Kmovies",
+				"guaguale115",
+				"shareAliyun",
+				"alyp_1",
+				"yunpanpan",
+				"hao115",
+				"yunpanshare",
+				"Aliyun_4K_Movies",
+				"Quark_Movies",
+				"XiangxiuNB",
+				"ydypzyfx",
+				"ucpanpan",
+				"kuakeyun",
+				"ucquark",
+				"tyypzhpd",
+				"tianyirigeng",
+				"cloudtianyi",
+				"xunleibl",
+				"xunleizyfb",
+				"TGSearchX",
+				"leoziyuan",
+				"quanziyuanshe",
+				"vip115hot",
+				"tgsearchers",
+				"MCPH608",
+				"Channel_Shares_115",
+				"NewQuark",
+				"clouddriveresources_g",
+				"kuakezyfb",
+				"xlshare"
+			]
+		}
+	]
+}

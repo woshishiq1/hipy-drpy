@@ -58,7 +58,7 @@ jobs:
 
           echo "→ 同步 wzxxcz/wzxxcz"
           rm -rf wzxxcz/* temp-wzxxcz
-          git clone --depth 1 --branch main https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
+          git clone --depth 1 --branch maing https://github.com/wzxxcz/wzxxcz.git temp-wzxxcz
           cp -r temp-wzxxcz/* wzxxcz/
           rm -rf temp-wzxxcz
 

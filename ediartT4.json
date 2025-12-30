@@ -13,71 +13,101 @@
 			"changeable": 0
 		},
 		{
-			"key": "dytt",
-			"name": "电影天堂",
+			"key": "py_小苹果",
+			"name": "🍎小苹果(T4)",
 			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=DianYingTanTang"
+			"api": "https://py.doube.eu.org/v2/spider?site=9037cfae7c64405111e0e364401adb60"
+		},
+		{
+			"key": "py_官方采集789",
+			"name": "🍎官方采集789(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63"
+		},
+		{
+			"key": "py_动漫巴士",
+			"name": "🍎动漫巴士(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89"
+		},
+		{
+			"key": "py_欧乐影院",
+			"name": "🍎欧乐影院(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=8a0bbe9e97c4429a517cd2ece3f6772b"
+		},
+		{
+			"key": "py_小红影视",
+			"name": "🍎小红影视(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=01d44f1ecd9383f273c0c24989ad87c3"
+		},
+		{
+			"key": "py_低端影视",
+			"name": "🍎低端影视(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=a4108870c8bac363add59bf0101e2884"
+		},
+		{
+			"key": "py_新韩剧网",
+			"name": "🍎新韩剧网(T4)",
+			"type": 4,
+			"api": "https://py.doube.eu.org/v2/spider?site=2a7cc0edf96108c9d57420ff57c654c6"
 		},
 		{
 			"key": "爱瓜TV",
 			"name": "爱瓜TV",
 			"type": 4,
-			"api": "http://zhangqun66.com/aigua.php"
+			"api": "http://zhangqun1818.serv00.net/aigua1.php"
 		},
 		{
-			"key": "2242",
-			"name": "直播频道",
+			"key": "聚合短剧",
+			"name": "聚合短剧",
 			"type": 4,
-			"api": "http://zhangqun66.com/zh/2242.php",
-			"ext": "1,2,3"
+			"api": "http://zhangqun1818.serv00.net:6628/?spider=%E8%81%9A%E5%90%88%E7%9F%AD%E5%89%A7"
 		},
 		{
-			"key": "dm84",
-			"name": "动漫巴士",
+			"key": "克隆合集",
+			"name": "克隆合集",
 			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=Dm84"
+			"api": "http://zhangqun1818.serv00.net/klhj.php"
 		},
 		{
-			"key": "py_64832281816dd9a7b7c506233d457a5d",
-			"name": "官方采集",
+			"key": "采集集合",
+			"name": "采集集合+",
 			"type": 4,
-			"api": "https://py.doube.eu.org/v2/spider?site=64832281816dd9a7b7c506233d457a5d"
+			"api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
+			"ext": "0"
 		},
 		{
-			"key": "py_粤漫之家",
-			"name": "粤漫之家",
+			"key": "js集合",
+			"name": "js集合",
 			"type": 4,
-			"api": "https://py.doube.eu.org/v2/spider?site=de0fbc805050ecc4d63971c109724d0e"
+			"api": "http://zhangqun1818.serv00.net/js.php"
 		},
 		{
-			"key": "文件播放",
-			"name": "文件播放",
+			"key": "php集合",
+			"name": "php集合",
 			"type": 4,
-			"api": "http://139.185.42.4:14888/TV/lives.php"
+			"api": "http://zhangqun1818.serv00.net/php.php"
 		},
 		{
-			"key": "欧乐影院",
-			"name": "欧乐影院",
-			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=OleVod"
-		},
-		{
-			"key": "pingguo",
-			"name": "小苹果",
-			"type": 4,
-			"api": "http://zhangqun66.com/pingguo.php"
-		},
-		{
-			"key": "py集合",
-			"name": "py集合",
+			"key": "python集合",
+			"name": "python集合",
 			"type": 4,
 			"api": "http://zhangqun1818.serv00.net/py.php"
 		},
 		{
-			"key": "php在线",
-			"name": "php在线",
+			"key": "影视文件播放",
+			"name": "影视文件播放",
 			"type": 4,
-			"api": "http://zhangqun1818.serv00.net/php.php"
+			"api": "http://zhangqun1818.serv00.net/zh/2242.php"
+		},
+		{
+			"key": "清单播放",
+			"name": "清单播放",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net/zh/2243.php"
 		},
 		{
 			"api": "https://learnpython.ggff.net/2BT",
@@ -97,27 +127,9 @@
 			"type": 4
 		},
 		{
-			"api": "https://learnpython.ggff.net/7WJ",
-			"key": "7WJ",
-			"name": "7WJ",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/AYFTVPY",
-			"key": "AYFTVPY",
-			"name": "AYFTVPY",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/CCTV",
-			"key": "CCTV",
-			"name": "cctv",
-			"type": 4
-		},
-		{
 			"api": "https://learnpython.ggff.net/CCTVPY",
 			"key": "CCTVPY",
-			"name": "CCTVPY",
+			"name": "CCTV",
 			"type": 4
 		},
 		{
@@ -163,12 +175,6 @@
 			"type": 4
 		},
 		{
-			"api": "https://learnpython.ggff.net/ELSQ",
-			"key": "ELSQ",
-			"name": "🔞ELSQ",
-			"type": 4
-		},
-		{
 			"api": "https://learnpython.ggff.net/ELXCN",
 			"key": "ELXCN",
 			"name": "🔞ELXCN",
@@ -179,36 +185,6 @@
 			"key": "HLBTY",
 			"name": "🔞黑料不打烊",
 			"type": 4
-		},
-		{
-			"key": "py_rou",
-			"name": "🔞肉視頻",
-			"type": 4,
-			"api": "https://py.doube.eu.org/v2/spider?site=96c1ddea0f3b27f1955ed512f0e7a9d7"
-		},
-		{
-			"key": "py_BadNews",
-			"name": "🔞BadNews",
-			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=BadNews"
-		},
-		{
-			"key": "py_Miss",
-			"name": "🔞MissAV",
-			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=Miss"
-		},
-		{
-			"key": "py_AiDou",
-			"name": "🔞AiDou",
-			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=AiDou"
-		},
-		{
-			"key": "py_madou",
-			"name": "🔞MaDou",
-			"type": 4,
-			"api": "https://py.doube.eu.org/spider?site=MaDou"
 		},
 		{
 			"key": "market",

@@ -1,0 +1,305 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="央视频道",CCTV1
+http://223.105.252.60/PLTV/4/224/3221228049/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.cn/tv/CCTV2.png" group-title="央视频道",CCTV2
+http://223.105.252.60/PLTV/4/224/3221228118/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://live.fanmingming.cn/tv/CCTV3.png" group-title="央视频道",CCTV3
+http://223.105.252.60/PLTV/4/224/3221228188/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://live.fanmingming.cn/tv/CCTV3.png" group-title="央视频道",CCTV3
+http://223.105.252.60/PLTV/4/224/3221228237/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://live.fanmingming.cn/tv/CCTV4.png" group-title="央视频道",CCTV4
+http://223.105.252.60/PLTV/4/224/3221228156/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://live.fanmingming.cn/tv/CCTV5.png" group-title="央视频道",CCTV5
+http://223.105.252.60/PLTV/4/224/3221228173/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.cn/tv/CCTV5+.png" group-title="央视频道",CCTV5+
+http://223.105.252.60/PLTV/4/224/3221228114/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.cn/tv/CCTV5+.png" group-title="央视频道",CCTV5+
+http://223.105.252.60/PLTV/4/224/3221228076/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://live.fanmingming.cn/tv/CCTV6.png" group-title="央视频道",CCTV6
+http://223.105.252.60/PLTV/4/224/3221228185/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://live.fanmingming.cn/tv/CCTV6.png" group-title="央视频道",CCTV6
+http://223.105.252.60/PLTV/4/224/3221228196/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://live.fanmingming.cn/tv/CCTV8.png" group-title="央视频道",CCTV8
+http://223.105.252.60/PLTV/4/224/3221228079/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://live.fanmingming.cn/tv/CCTV16.png" group-title="央视频道",CCTV16
+http://223.105.252.60/PLTV/4/224/3221228314/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://live.fanmingming.cn/tv/CCTV16.png" group-title="央视频道",CCTV16
+http://223.105.252.60/PLTV/4/224/3221228320/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://live.fanmingming.cn/tv/CCTV16.png" group-title="央视频道",CCTV16
+http://223.105.252.60/PLTV/4/224/3221228516/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://live.fanmingming.cn/tv/CHC家庭影院.png" group-title="央视频道",CHC家庭影院
+http://113.195.172.192:808/hls/113/index.m3u8
+#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://live.fanmingming.cn/tv/CHC动作电影.png" group-title="央视频道",CHC动作电影
+http://113.195.172.192:808/hls/114/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://live.fanmingming.cn/tv/东方卫视.png" group-title="卫视频道",东方卫视
+http://cssbyd.imwork.net:8082/hls/25/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://live.fanmingming.cn/tv/东方卫视.png" group-title="卫视频道",东方卫视
+http://223.105.252.60/PLTV/4/224/3221228150/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.fanmingming.cn/tv/北京卫视.png" group-title="卫视频道",北京卫视
+http://cssbyd.imwork.net:8082/hls/23/index.m3u8
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.fanmingming.cn/tv/北京卫视.png" group-title="卫视频道",北京卫视
+http://223.105.252.60/PLTV/4/224/3221228115/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://live.fanmingming.cn/tv/广东卫视.png" group-title="卫视频道",广东卫视
+http://cssbyd.imwork.net:8082/hls/24/index.m3u8
+#EXTINF:-1 tvg-name="星空卫视" tvg-logo="https://live.fanmingming.cn/tv/星空卫视.png" group-title="卫视频道",星空卫视
+http://122.224.58.42:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="星空卫视" tvg-logo="https://live.fanmingming.cn/tv/星空卫视.png" group-title="卫视频道",星空卫视
+http://122.224.58.42:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="星空卫视频道" tvg-logo="https://live.fanmingming.cn/tv/星空卫视频道.png" group-title="卫视频道",星空卫视频道
+http://122.224.58.42:85/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.cn/tv/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://cssbyd.imwork.net:8082/hls/21/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.cn/tv/江苏卫视.png" group-title="卫视频道",江苏卫视
+http://223.105.252.60/PLTV/4/224/3221228099/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.cn/tv/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://cssbyd.imwork.net:8082/hls/22/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.cn/tv/浙江卫视.png" group-title="卫视频道",浙江卫视
+http://223.105.252.60/PLTV/4/224/3221228147/index.m3u8?servicetype=1
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://live.fanmingming.cn/tv/湖南卫视.png" group-title="卫视频道",湖南卫视
+http://cssbyd.imwork.net:8082/hls/17/index.m3u8
+#EXTINF:-1 tvg-name="AXN" tvg-logo="https://live.fanmingming.cn/tv/AXN.png" group-title="港澳台频道",AXN
+http://s1.an94tv.cfd/aktv/axn/AKTV.m3u8
+#EXTINF:-1 tvg-name="PopC" tvg-logo="https://live.fanmingming.cn/tv/PopC.png" group-title="港澳台频道",PopC
+http://s1.an94tv.cfd/aktv/popc/AKTV.m3u8
+#EXTINF:-1 tvg-name="ROCK Action" tvg-logo="https://live.fanmingming.cn/tv/ROCK Action.png" group-title="港澳台频道",ROCK Action
+http://s1.an94tv.cfd/aktv/rockaction/AKTV.m3u8
+#EXTINF:-1 tvg-name="TVB Plus" tvg-logo="https://live.fanmingming.cn/tv/TVB Plus.png" group-title="港澳台频道",TVB Plus
+http://s1.an94tv.cfd/aktv/tvbplus/AKTV.m3u8
+#EXTINF:-1 tvg-name="tvN" tvg-logo="https://live.fanmingming.cn/tv/tvN.png" group-title="港澳台频道",tvN
+http://s1.an94tv.cfd/aktv/tvn/AKTV.m3u8
+#EXTINF:-1 tvg-name="寰宇新聞台" tvg-logo="https://live.fanmingming.cn/tv/寰宇新聞台.png" group-title="港澳台频道",寰宇新聞台
+http://s1.an94tv.cfd/zhongtian/CH-2/AKTV.m3u8
+#EXTINF:-1 tvg-name="明珠台" tvg-logo="https://live.fanmingming.cn/tv/明珠台.png" group-title="港澳台频道",明珠台
+http://s1.an94tv.cfd/aktv/CH-2/AKTV.m3u8
+#EXTINF:-1 tvg-name="東森新聞" tvg-logo="https://live.fanmingming.cn/tv/東森新聞.png" group-title="港澳台频道",東森新聞
+http://s1.an94tv.cfd/zhongtian/CH-1/AKTV.m3u8
+#EXTINF:-1 tvg-name="美亞電影台(HK)" tvg-logo="https://live.fanmingming.cn/tv/美亞電影台(HK).png" group-title="港澳台频道",美亞電影台(HK)
+http://s1.an94tv.cfd/aktv/hk/AKTV.m3u8
+#EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://live.fanmingming.cn/tv/翡翠台.png" group-title="港澳台频道",翡翠台
+http://s1.an94tv.cfd/aktv/CH-0/AKTV.m3u8
+#EXTINF:-1 tvg-name="黃金翡翠台" tvg-logo="https://live.fanmingming.cn/tv/黃金翡翠台.png" group-title="港澳台频道",黃金翡翠台
+http://s1.an94tv.cfd/aktv/CH-6/AKTV.m3u8
+#EXTINF:-1 tvg-name="湖南娱乐高清" tvg-logo="https://live.fanmingming.cn/tv/湖南娱乐高清.png" group-title="湖南频道",湖南娱乐高清
+http://cssbyd.imwork.net:8082/hls/20/index.m3u8
+#EXTINF:-1 tvg-name="湖南电影高清" tvg-logo="https://live.fanmingming.cn/tv/湖南电影高清.png" group-title="湖南频道",湖南电影高清
+http://cssbyd.imwork.net:8082/hls/18/index.m3u8
+#EXTINF:-1 tvg-name="1983年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1983年中央电视台春节联欢晚会.png" group-title="其他频道",1983年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5MTRfNDAzMDAxOTlfNjYyNzMxNjcwMjBfMF8z_b_Beb3bda599f76c60c463c433ca7460153.mp4
+#EXTINF:-1 tvg-name="1984年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1984年中央电视台春节联欢晚会.png" group-title="其他频道",1984年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/15/BMjAyMjAxMzExNTU5NTRfNDAzMDAxOTlfNjYyNzMyMzg3MTRfMF8z_b_B192356dadbc90d207ba16964d4c2914c.mp4
+#EXTINF:-1 tvg-name="1985年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1985年中央电视台春节联欢晚会.png" group-title="其他频道",1985年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDFfNDAzMDAxOTlfNjYyNzMyNTAwMzJfMF8z_b_Be73c5abcbc0eeb2ec9fce6842e1362a4.mp4
+#EXTINF:-1 tvg-name="1986年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1986年中央电视台春节联欢晚会.png" group-title="其他频道",1986年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDRfNDAzMDAxOTlfNjYyNzMyNTU0OTRfMF8z_b_B24f7d19f1132fa5d7f502f8377ad5567.mp4
+#EXTINF:-1 tvg-name="1987年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1987年中央电视台春节联欢晚会.png" group-title="其他频道",1987年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMDhfNDAzMDAxOTlfNjYyNzMyNjMyMDNfMF8z_b_B570493ed8f7200d4013a66b2d21b2de9.mp4
+#EXTINF:-1 tvg-name="1988年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1988年中央电视台春节联欢晚会.png" group-title="其他频道",1988年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTJfNDAzMDAxOTlfNjYyNzMyNjkxNjBfMF8z_b_B8c835b83a92d25bde81ba22c5cd9521e.mp4
+#EXTINF:-1 tvg-name="1989年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1989年中央电视台春节联欢晚会.png" group-title="其他频道",1989年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjAwMTVfNDAzMDAxOTlfNjYyNzMyNzQ2OTlfMF8z_b_Be477b27b9ce655d2372df56a5a3d96ef.mp4
+#EXTINF:-1 tvg-name="1991年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1991年中央电视台春节联欢晚会.png" group-title="其他频道",1991年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/31/16/BMjAyMjAxMzExNjI2MTVfNDAzMDAxOTlfNjYyNzYwNjUxNjVfMF8z_b_B8feb7b85888678d71bf37a259c6850f6.mp4
+#EXTINF:-1 tvg-name="1992年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1992年中央电视台春节联欢晚会.png" group-title="其他频道",1992年中央电视台春节联欢晚会
+https://txmov2.a.kwimgs.com/bs3/video-hls/5256826755663896297_hlshd15.m3u8
+#EXTINF:-1 tvg-name="1993年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1993年中央电视台春节联欢晚会.png" group-title="其他频道",1993年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYwODJfMF8z_b_B647d10e431b4cc5e48e6c77347d69021.mp4
+#EXTINF:-1 tvg-name="1994年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1994年中央电视台春节联欢晚会.png" group-title="其他频道",1994年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxMjNfMF8z_b_B3dde97f36273f04403d4dc5eec611a35.mp4
+#EXTINF:-1 tvg-name="1995年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1995年中央电视台春节联欢晚会.png" group-title="其他频道",1995年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQwNzVfMF8z_b_B811c0dec6b9a3d3074a18522c185010a.mp4
+#EXTINF:-1 tvg-name="1996年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1996年中央电视台春节联欢晚会.png" group-title="其他频道",1996年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/22/BMjAyMzAxMTMyMjEwMDNfNDAzMDAxOTlfOTM1MTIzMzYxNTJfMF8z_b_Bd841eae10ab1c9955ef55fbedfae6c45.mp4
+#EXTINF:-1 tvg-name="1998年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1998年中央电视台春节联欢晚会.png" group-title="其他频道",1998年中央电视台春节联欢晚会
+https://txmov2.a.kwimgs.com/bs3/video-hls/5225864507896315430_hlshd15.m3u8
+#EXTINF:-1 tvg-name="1999年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/1999年中央电视台春节联欢晚会.png" group-title="其他频道",1999年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQxNTRfMF8z_b_B0b5e52bc003285ef66ec0cbb2be08556.mp4
+#EXTINF:-1 tvg-name="2000年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2000年中央电视台春节联欢晚会.png" group-title="其他频道",2000年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxMTNfMF8z_b_Bdddf4e7ef0ff6cfd477857bb40e78419.mp4
+#EXTINF:-1 tvg-name="2001年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2001年中央电视台春节联欢晚会.png" group-title="其他频道",2001年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMDFfMF8z_b_B70592cb7c4054e9cabb675e849bbf4bd.mp4
+#EXTINF:-1 tvg-name="2002年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2002年中央电视台春节联欢晚会.png" group-title="其他频道",2002年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxNDdfMF8z_b_Ba6271d10b7e6cfae83759033a091f257.mp4
+#EXTINF:-1 tvg-name="2003年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2003年中央电视台春节联欢晚会.png" group-title="其他频道",2003年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/14/23/BMjAyMzAxMTQyMzQxNDdfNDAzMDAxOTlfOTM2MTU0MTk1NDFfMF8z_b_B182749d2cd2ea9323639254af385f24b.mp4
+#EXTINF:-1 tvg-name="2004年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2004年中央电视台春节联欢晚会.png" group-title="其他频道",2004年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/21/BMjAyMzAxMTMyMTE4MzRfNDAzMDAxOTlfOTM1MDY4ODIxOTVfMF8z_b_B86c4430b82ff5a7f4e8132f6ee558536.mp4
+#EXTINF:-1 tvg-name="2005年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2005年中央电视台春节联欢晚会.png" group-title="其他频道",2005年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyMzhfMF8z_b_B35ad7cc86aec8fc9e5ddfb31fc7bed63.mp4
+#EXTINF:-1 tvg-name="2006年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2006年中央电视台春节联欢晚会.png" group-title="其他频道",2006年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQyNzlfMF8z_b_Bbc3703fc331dc994c50859c19aad28ff.mp4
+#EXTINF:-1 tvg-name="2007年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2007年中央电视台春节联欢晚会.png" group-title="其他频道",2007年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzMjNfMF8z_b_B00b069c7899976459ceeaa99353dfefe.mp4
+#EXTINF:-1 tvg-name="2008年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2008年中央电视台春节联欢晚会.png" group-title="其他频道",2008年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzNTNfMF8z_b_Bd7346962e61bd7b84e11a1fa6e4616f9.mp4
+#EXTINF:-1 tvg-name="2009年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2009年中央电视台春节联欢晚会.png" group-title="其他频道",2009年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQzOTBfMF8z_b_B29a36a85e0277f6c2a1f033ef7c10708.mp4
+#EXTINF:-1 tvg-name="2010年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2010年中央电视台春节联欢晚会.png" group-title="其他频道",2010年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ0MjlfMF8z_b_B8818807a00eed329a69fb494f405bd43.mp4
+#EXTINF:-1 tvg-name="2011年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2011年中央电视台春节联欢晚会.png" group-title="其他频道",2011年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/16/11/BMjAyMzAxMTYxMTA3MjFfNDAzMDAxOTlfOTM3MjcyMjA3ODhfMF8z_b_B8214200efc869dc6fcf99dad619fa4c1.mp4
+#EXTINF:-1 tvg-name="2013年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2013年中央电视台春节联欢晚会.png" group-title="其他频道",2013年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ1NjNfMF8z_b_B4fea55408dca4471a68a963ae096be59.mp4
+#EXTINF:-1 tvg-name="2014年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2014年中央电视台春节联欢晚会.png" group-title="其他频道",2014年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTNfNDAzMDAxOTlfOTI4OTY2ODAzNjlfMF8z_b_Bdee65c77f9e7b2120a185c919dad81d2.mp4
+#EXTINF:-1 tvg-name="2015年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2015年中央电视台春节联欢晚会.png" group-title="其他频道",2015年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ2MTZfMF8z_b_B4851f43f5a2bc2871a9b0ec87294a6e7.mp4
+#EXTINF:-1 tvg-name="2017年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2017年中央电视台春节联欢晚会.png" group-title="其他频道",2017年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ2NDhfMF8z_b_B6527b0c2ce3dda1d9b3f34edd4fdb9aa.mp4
+#EXTINF:-1 tvg-name="2019年中央电视台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2019年中央电视台春节联欢晚会.png" group-title="其他频道",2019年中央电视台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2023/01/06/16/BMjAyMzAxMDYxNjMxMTRfNDAzMDAxOTlfOTI4OTY2ODE2MTBfMF8z_b_B11a778e34390a21de42d407e94f45b91.mp4
+#EXTINF:-1 tvg-name="2020年中央广播电视总台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2020年中央广播电视总台春节联欢晚会.png" group-title="其他频道",2020年中央广播电视总台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzA5NDdfNDAzMDAxOTlfNjYxNzQ2MDAyMTFfMF8z_b_B5d51d9564c5670dc66faeba20aa7af3f.mp4
+#EXTINF:-1 tvg-name="2021年中央广播电视总台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2021年中央广播电视总台春节联欢晚会.png" group-title="其他频道",2021年中央广播电视总台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/01/30/17/BMjAyMjAxMzAxNzE4NTJfNDAzMDAxOTlfNjYxNzUzOTg3NjlfMF8z_b_Be41d9503181d7b0608a839ed401e02c2.mp4
+#EXTINF:-1 tvg-name="2022年中央广播电视总台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2022年中央广播电视总台春节联欢晚会.png" group-title="其他频道",2022年中央广播电视总台春节联欢晚会
+https://alimov2.a.kwimgs.com/upic/2022/02/01/11/BMjAyMjAyMDExMTEwMjNfNDAzMDAxOTlfNjYzNzA4MTk4NzNfMF8z_b_B898cc7ddd0025bf54ddb18ec1f723c84.mp4
+#EXTINF:-1 tvg-name="2023年中央广播电视总台春节联欢晚会" tvg-logo="https://live.fanmingming.cn/tv/2023年中央广播电视总台春节联欢晚会.png" group-title="其他频道",2023年中央广播电视总台春节联欢晚会
+https://txmov2.a.kwimgs.com/bs3/video-hls/5251197255879398624_hlshd15.m3u8
+#EXTINF:-1 tvg-name="2024年中央广播电视总台春节联欢晚会【CCTV1综合频道】" tvg-logo="https://live.fanmingming.cn/tv/2024年中央广播电视总台春节联欢晚会【CCTV1综合频道】.png" group-title="其他频道",2024年中央广播电视总台春节联欢晚会【CCTV1综合频道】
+https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
+#EXTINF:-1 tvg-name="8TV" tvg-logo="https://live.fanmingming.cn/tv/8TV.png" group-title="其他频道",8TV
+http://s1.an94tv.cfd/astro/8tv/AKTV.m3u8
+#EXTINF:-1 tvg-name="ASC搜索英" tvg-logo="https://live.fanmingming.cn/tv/ASC搜索英.png" group-title="其他频道",ASC搜索英
+http://61.221.215.25:8800/hls/50/index.m3u8
+#EXTINF:-1 tvg-name="ASC搜索频英" tvg-logo="https://live.fanmingming.cn/tv/ASC搜索频英.png" group-title="其他频道",ASC搜索频英
+http://61.221.215.25:8800/hls/50/index.m3u8
+#EXTINF:-1 tvg-name="Animax (HK)" tvg-logo="https://live.fanmingming.cn/tv/Animax (HK).png" group-title="其他频道",Animax (HK)
+http://s1.an94tv.cfd/aktv/animaxhk/AKTV.m3u8
+#EXTINF:-1 tvg-name="CCTV-8高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV-8高清.png" group-title="其他频道",CCTV-8高清
+http://cssbyd.imwork.net:8082/hls/9/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-9高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV-9高清.png" group-title="其他频道",CCTV-9高清
+http://cssbyd.imwork.net:8082/hls/10/index.m3u8
+#EXTINF:-1 tvg-name="CCTV10高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV10高清.png" group-title="其他频道",CCTV10高清
+http://cssbyd.imwork.net:8082/hls/11/index.m3u8
+#EXTINF:-1 tvg-name="CCTV11高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV11高清.png" group-title="其他频道",CCTV11高清
+http://cssbyd.imwork.net:8082/hls/12/index.m3u8
+#EXTINF:-1 tvg-name="CCTV12高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV12高清.png" group-title="其他频道",CCTV12高清
+http://cssbyd.imwork.net:8082/hls/13/index.m3u8
+#EXTINF:-1 tvg-name="CCTV13高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV13高清.png" group-title="其他频道",CCTV13高清
+http://cssbyd.imwork.net:8082/hls/14/index.m3u8
+#EXTINF:-1 tvg-name="CCTV14高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV14高清.png" group-title="其他频道",CCTV14高清
+http://cssbyd.imwork.net:8082/hls/15/index.m3u8
+#EXTINF:-1 tvg-name="CCTV15高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV15高清.png" group-title="其他频道",CCTV15高清
+http://cssbyd.imwork.net:8082/hls/16/index.m3u8
+#EXTINF:-1 tvg-name="CCTV1高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV1高清.png" group-title="其他频道",CCTV1高清
+http://cssbyd.imwork.net:8082/hls/1/index.m3u8
+#EXTINF:-1 tvg-name="CCTV2高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV2高清.png" group-title="其他频道",CCTV2高清
+http://cssbyd.imwork.net:8082/hls/2/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV3高清.png" group-title="其他频道",CCTV3高清
+http://cssbyd.imwork.net:8082/hls/3/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV4高清.png" group-title="其他频道",CCTV4高清
+http://cssbyd.imwork.net:8082/hls/4/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV5高清.png" group-title="其他频道",CCTV5高清
+http://cssbyd.imwork.net:8082/hls/5/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV6高清.png" group-title="其他频道",CCTV6高清
+http://cssbyd.imwork.net:8082/hls/7/index.m3u8
+#EXTINF:-1 tvg-name="CCTV7高清" tvg-logo="https://live.fanmingming.cn/tv/CCTV7高清.png" group-title="其他频道",CCTV7高清
+http://cssbyd.imwork.net:8082/hls/8/index.m3u8
+#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://live.fanmingming.cn/tv/CHC影迷电影.png" group-title="其他频道",CHC影迷电影
+http://113.195.172.192:808/hls/112/index.m3u8
+#EXTINF:-1 tvg-name="CNA" tvg-logo="https://live.fanmingming.cn/tv/CNA.png" group-title="其他频道",CNA
+http://s1.an94tv.cfd/aktv3/cna/AKTV.m3u8
+#EXTINF:-1 tvg-name="Channel 5 HD" tvg-logo="https://live.fanmingming.cn/tv/Channel 5 HD.png" group-title="其他频道",Channel 5 HD
+http://s1.an94tv.cfd/aktv/channel5hd/AKTV.m3u8
+#EXTINF:-1 tvg-name="Channel 8 HD" tvg-logo="https://live.fanmingming.cn/tv/Channel 8 HD.png" group-title="其他频道",Channel 8 HD
+http://s1.an94tv.cfd/aktv/channel8hd/AKTV.m3u8
+#EXTINF:-1 tvg-name="Channel U HD" tvg-logo="https://live.fanmingming.cn/tv/Channel U HD.png" group-title="其他频道",Channel U HD
+http://s1.an94tv.cfd/aktv/channeluhd/AKTV.m3u8
+#EXTINF:-1 tvg-name="CinemaWorld" tvg-logo="https://live.fanmingming.cn/tv/CinemaWorld.png" group-title="其他频道",CinemaWorld
+http://s1.an94tv.cfd/taiwan/cinemaworld/AKTV.m3u8
+#EXTINF:-1 tvg-name="Diso综合英" tvg-logo="https://live.fanmingming.cn/tv/Diso综合英.png" group-title="其他频道",Diso综合英
+http://61.221.215.25:8800/hls/1/index.m3u8
+#EXTINF:-1 tvg-name="EuroSport 1" tvg-logo="https://live.fanmingming.cn/tv/EuroSport 1.png" group-title="其他频道",EuroSport 1
+http://s1.an94tv.cfd/astro/eurosport1/AKTV.m3u8
+#EXTINF:-1 tvg-name="EuroSport 2" tvg-logo="https://live.fanmingming.cn/tv/EuroSport 2.png" group-title="其他频道",EuroSport 2
+http://s1.an94tv.cfd/astro/eurosport2/AKTV.m3u8
+#EXTINF:-1 tvg-name="HITS" tvg-logo="https://live.fanmingming.cn/tv/HITS.png" group-title="其他频道",HITS
+http://s1.an94tv.cfd/taiwan/hits/AKTV.m3u8
+#EXTINF:-1 tvg-name="Japan News 24H LIVE" tvg-logo="https://live.fanmingming.cn/tv/Japan News 24H LIVE.png" group-title="其他频道",Japan News 24H LIVE
+http://s1.an94tv.cfd/aktvjp/japannews24hlive/AKTV.m3u8
+#EXTINF:-1 tvg-name="Love Nature HD" tvg-logo="https://live.fanmingming.cn/tv/Love Nature HD.png" group-title="其他频道",Love Nature HD
+http://s1.an94tv.cfd/aktv/lovenaturehd/AKTV.m3u8
+#EXTINF:-1 tvg-name="MagellanTV頻道" tvg-logo="https://live.fanmingming.cn/tv/MagellanTV頻道.png" group-title="其他频道",MagellanTV頻道
+http://s1.an94tv.cfd/taiwan/magellantv/AKTV.m3u8
+#EXTINF:-1 tvg-name="NBA TV" tvg-logo="https://live.fanmingming.cn/tv/NBA TV.png" group-title="其他频道",NBA TV
+http://s1.an94tv.cfd/astro/nbatv/AKTV.m3u8
+#EXTINF:-1 tvg-name="NHK新闻英" tvg-logo="https://live.fanmingming.cn/tv/NHK新闻英.png" group-title="其他频道",NHK新闻英
+http://61.221.215.25:8800/hls/51/index.m3u8
+#EXTINF:-1 tvg-name="NHK新闻英" tvg-logo="https://live.fanmingming.cn/tv/NHK新闻英.png" group-title="其他频道",NHK新闻英
+http://61.221.215.25:8800/hls/51/index.m3u8
+#EXTINF:-1 tvg-name="NHK新闻频英" tvg-logo="https://live.fanmingming.cn/tv/NHK新闻频英.png" group-title="其他频道",NHK新闻频英
+http://61.221.215.25:8800/hls/51/index.m3u8
+#EXTINF:-1 tvg-name="TNT SPORTS 1" tvg-logo="https://live.fanmingming.cn/tv/TNT SPORTS 1.png" group-title="其他频道",TNT SPORTS 1
+http://s1.an94tv.cfd/astro/tntsports1/AKTV.m3u8
+#EXTINF:-1 tvg-name="TNT SPORTS 2" tvg-logo="https://live.fanmingming.cn/tv/TNT SPORTS 2.png" group-title="其他频道",TNT SPORTS 2
+http://s1.an94tv.cfd/astro/tntsports2/AKTV.m3u8
+#EXTINF:-1 tvg-name="TNT SPORTS 3" tvg-logo="https://live.fanmingming.cn/tv/TNT SPORTS 3.png" group-title="其他频道",TNT SPORTS 3
+http://s1.an94tv.cfd/astro/tntsports3/AKTV.m3u8
+#EXTINF:-1 tvg-name="amc电影英" tvg-logo="https://live.fanmingming.cn/tv/amc电影英.png" group-title="其他频道",amc电影英
+http://61.221.215.25:8800/hls/43/index.m3u8
+#EXTINF:-1 tvg-name="tvbs闽南" tvg-logo="https://live.fanmingming.cn/tv/tvbs闽南.png" group-title="其他频道",tvbs闽南
+http://61.221.215.25:8800/hls/9/index.m3u8
+#EXTINF:-1 tvg-name="unifi Sports 1" tvg-logo="https://live.fanmingming.cn/tv/unifi Sports 1.png" group-title="其他频道",unifi Sports 1
+http://s1.an94tv.cfd/astro/unifisports1/AKTV.m3u8
+#EXTINF:-1 tvg-name="三立LIVE" tvg-logo="https://live.fanmingming.cn/tv/三立LIVE.png" group-title="其他频道",三立LIVE
+http://s1.an94tv.cfd/zhongtian/live/AKTV.m3u8
+#EXTINF:-1 tvg-name="三立戏剧" tvg-logo="https://live.fanmingming.cn/tv/三立戏剧.png" group-title="其他频道",三立戏剧
+http://61.221.215.25:8800/hls/41/index.m3u8
+#EXTINF:-1 tvg-name="三立戏剧频特" tvg-logo="https://live.fanmingming.cn/tv/三立戏剧频特.png" group-title="其他频道",三立戏剧频特
+http://61.221.215.25:8800/hls/41/index.m3u8
+#EXTINF:-1 tvg-name="中天娱乐" tvg-logo="https://live.fanmingming.cn/tv/中天娱乐.png" group-title="其他频道",中天娱乐
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 tvg-name="中天娱乐频特" tvg-logo="https://live.fanmingming.cn/tv/中天娱乐频特.png" group-title="其他频道",中天娱乐频特
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 tvg-name="中天新聞" tvg-logo="https://live.fanmingming.cn/tv/中天新聞.png" group-title="其他频道",中天新聞
+http://222.128.55.152:9080/live/fc.m3u8
+#EXTINF:-1 tvg-name="中天新闻台" tvg-logo="https://live.fanmingming.cn/tv/中天新闻台.png" group-title="其他频道",中天新闻台
+http://s1.an94tv.cfd/zhongtian/CH-0/AKTV.m3u8
+#EXTINF:-1 tvg-name="八大戏剧" tvg-logo="https://live.fanmingming.cn/tv/八大戏剧.png" group-title="其他频道",八大戏剧
+http://61.221.215.25:8800/hls/39/index.m3u8
+#EXTINF:-1 tvg-name="八大戏剧频特" tvg-logo="https://live.fanmingming.cn/tv/八大戏剧频特.png" group-title="其他频道",八大戏剧频特
+http://61.221.215.25:8800/hls/39/index.m3u8
+#EXTINF:-1 tvg-name="八大第一" tvg-logo="https://live.fanmingming.cn/tv/八大第一.png" group-title="其他频道",八大第一
+http://61.221.215.25:8800/hls/55/index.m3u8
+#EXTINF:-1 tvg-name="八大综合" tvg-logo="https://live.fanmingming.cn/tv/八大综合.png" group-title="其他频道",八大综合
+http://61.221.215.25:8800/hls/56/index.m3u8
+#EXTINF:-1 tvg-name="动物星球国" tvg-logo="https://live.fanmingming.cn/tv/动物星球国.png" group-title="其他频道",动物星球国
+http://61.221.215.25:8800/hls/57/index.m3u8
+#EXTINF:-1 tvg-name="台视新聞" tvg-logo="https://live.fanmingming.cn/tv/台视新聞.png" group-title="其他频道",台视新聞
+http://222.128.55.152:9080/live/ts.m3u8
+#EXTINF:-1 tvg-name="国际空间站 (NASA)" tvg-logo="https://live.fanmingming.cn/tv/国际空间站 (NASA).png" group-title="其他频道",国际空间站 (NASA)
+http://s1.an94tv.cfd/zhongtian/nasa/AKTV.m3u8
+#EXTINF:-1 tvg-name="天映經典(1080)" tvg-logo="https://live.fanmingming.cn/tv/天映經典(1080).png" group-title="其他频道",天映經典(1080)
+http://s1.an94tv.cfd/aktv/1080/AKTV.m3u8
+#EXTINF:-1 tvg-name="寰宇新聞" tvg-logo="https://live.fanmingming.cn/tv/寰宇新聞.png" group-title="其他频道",寰宇新聞
+http://222.128.55.152:9080/live/hy.m3u8
+#EXTINF:-1 tvg-name="新视觉HD" tvg-logo="https://live.fanmingming.cn/tv/新视觉HD.png" group-title="其他频道",新视觉HD
+http://120.76.248.139/live/bfgd/4200000249.m3u8
+#EXTINF:-1 tvg-name="日テレNEWS LIVE" tvg-logo="https://live.fanmingming.cn/tv/日テレNEWS LIVE.png" group-title="其他频道",日テレNEWS LIVE
+http://s1.an94tv.cfd/aktvjp/ntv/AKTV.m3u8
+#EXTINF:-1 tvg-name="明珠剧集台(北美)" tvg-logo="https://live.fanmingming.cn/tv/明珠剧集台(北美).png" group-title="其他频道",明珠剧集台(北美)
+http://s1.an94tv.cfd/aktv/CH-19/AKTV.m3u8
+#EXTINF:-1 tvg-name="朝鲜恩情台" tvg-logo="https://live.fanmingming.cn/tv/朝鲜恩情台.png" group-title="其他频道",朝鲜恩情台
+http://s1.an94tv.cfd/aktv3/CH-0/AKTV.m3u8
+#EXTINF:-1 tvg-name="無線新聞台" tvg-logo="https://live.fanmingming.cn/tv/無線新聞台.png" group-title="其他频道",無線新聞台
+http://s1.an94tv.cfd/aktv/CH-1/AKTV.m3u8
+#EXTINF:-1 tvg-name="纬来精彩" tvg-logo="https://live.fanmingming.cn/tv/纬来精彩.png" group-title="其他频道",纬来精彩
+http://61.221.215.25:8800/hls/48/index.m3u8
+#EXTINF:-1 tvg-name="翡翠" tvg-logo="https://live.fanmingming.cn/tv/翡翠.png" group-title="其他频道",翡翠
+http://222.128.55.152:9080/live/gdfc.m3u8
+#EXTINF:-1 tvg-name="翡翠一台(北美)" tvg-logo="https://live.fanmingming.cn/tv/翡翠一台(北美).png" group-title="其他频道",翡翠一台(北美)
+http://s1.an94tv.cfd/aktv/CH-8/AKTV.m3u8
+#EXTINF:-1 tvg-name="翡翠剧集台(北美)" tvg-logo="https://live.fanmingming.cn/tv/翡翠剧集台(北美).png" group-title="其他频道",翡翠剧集台(北美)
+http://s1.an94tv.cfd/aktv/CH-18/AKTV.m3u8
+#EXTINF:-1 tvg-name="翡翠娛樂台(北美)" tvg-logo="https://live.fanmingming.cn/tv/翡翠娛樂台(北美).png" group-title="其他频道",翡翠娛樂台(北美)
+http://s1.an94tv.cfd/aktv/CH-7/AKTV.m3u8
+#EXTINF:-1 tvg-name="翡翠综合台(北美)" tvg-logo="https://live.fanmingming.cn/tv/翡翠综合台(北美).png" group-title="其他频道",翡翠综合台(北美)
+http://s1.an94tv.cfd/aktv/CH-17/AKTV.m3u8
+#EXTINF:-1 tvg-name="重温经典频道" tvg-logo="https://live.fanmingming.cn/tv/重温经典频道.png" group-title="其他频道",重温经典频道
+http://120.76.248.139/live/bfgd/4200000635.m3u8
+#EXTINF:-1 tvg-name="鳳凰衛視中文台" tvg-logo="https://live.fanmingming.cn/tv/鳳凰衛視中文台.png" group-title="其他频道",鳳凰衛視中文台
+http://s1.an94tv.cfd/aktv/CH-3/AKTV.m3u8
+#EXTINF:-1 tvg-name="鳳凰衛視資訊台" tvg-logo="https://live.fanmingming.cn/tv/鳳凰衛視資訊台.png" group-title="其他频道",鳳凰衛視資訊台
+http://s1.an94tv.cfd/aktv/CH-4/AKTV.m3u8
+#EXTINF:-1 tvg-name="鳳凰衛視香港台" tvg-logo="https://live.fanmingming.cn/tv/鳳凰衛視香港台.png" group-title="其他频道",鳳凰衛視香港台
+http://s1.an94tv.cfd/aktv/CH-5/AKTV.m3u8

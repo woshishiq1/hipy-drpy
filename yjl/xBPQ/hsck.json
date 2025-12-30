@@ -1,0 +1,42 @@
+{//taohuazu@gmail.com
+"站名":"黄仓库",
+"主页url":"http://hscangku.com",
+"直接播放":"1",
+"数组":"class=\"stui-vodlist__box&&</div>",
+"图片":"data-original=\"&&\"",
+"标题":"title=\"&&\"",
+"链接":"href=\"&&\"",
+"副标题":"<span class=\"pic-text text-right\">&&</span>",
+"状态":"状态：&&</p>",
+"导演":"导演：&&</p>",
+"主演":"主演：&&</p>",
+"简介":"简介：&&</p>",
+"搜索url": "/vodsearch/-------------.html?wd={wd}&submit=",
+"搜索模式":"0",
+"搜索数组":"<li>&&</li>",
+"搜索图片":"data-original=\"&&\"",
+"搜索标题":"title=\"&&\"",
+"搜索链接":"href=\"&&\"",
+"播放二次截取": "<div class=\"stui-vodlist__detail\">&&</div>",
+"播放数组": "<h4 class=\"stui-vodlist__detail\"&&</h4>",
+"播放链接前缀":"http://hscangku.com/",
+"列表二次截取": "",
+"播放列表": "<a&&/a>",
+"播放标题": ">&&<",
+"播放链接": "href=\"&&\"",
+"分类":"日韩AV$1#国产系列$2#欧美$3#成人动漫$4",
+"分类url":"/vodtype/{cateId}-{catePg}.html",
+"筛选":{
+"1":[
+{
+"key":"cateId",
+"name":"中文资源",
+"value":[
+{"n":"无码中文","v":"8"},
+{"n":"有码中文","v":"9"},
+{"n":"日本无码","v":"10"},
+{"n":"日本有码","v":"7"}]
+}
+]
+}
+}

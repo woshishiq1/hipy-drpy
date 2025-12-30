@@ -1,0 +1,74 @@
+{
+// 修正日期
+  "author": "20220918",
+//网站名称、首页
+  "name": "98体育录像",
+  "url": "https://m.98zhibo.com",
+//访问请求头
+  "ua": "Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Mobile Safari/537.36",
+//播放请求头
+  "User": "空",
+//列表翻页起始页的页数
+  "qishiye": "1",
+//分类
+  "fenlei": "NBA录像$/nbalx/list_175_#足球录像$/football/list_208_#CBA录像$/cba/list_180_#综合录像$/zonghe/list_196_",
+  "houzhui": ".html",
+  "shifouercijiequ": "0",
+  "jiequqian": "",
+  "jiequhou": "",
+  "jiequshuzuqian": "class=\"lite\"",
+  "jiequshuzuhou": "</li>",
+  "tupianqian": "https://img2.baidu.com/it/u=918943129,3360154568&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=749",
+  "tupianhou": "\"",
+  "biaotiqian": "target=\"_self\">",
+  "biaotihou": "</a>",
+  "lianjieqian": "href='",
+  "lianjiehou": "'",
+//副标题
+  "fubiaotiqian": "class=\"pass_time\">",
+  "fubiaotihou": "</span>",
+//搜索部分
+//0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
+  "ssmoshi": "0",
+  "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+  "sousuohou": "&limit=500",
+  "sousuohouzhui": "/voddetail/",
+  "sousuoshifouercijiequ": "0",
+  "jspic": "pic",
+  "jsname": "name",
+  "jsid": "id",
+  "ssjiequqian": "空",
+  "ssjiequhou": "空",
+  "ssjiequshuzuqian": "空",
+  "ssjiequshuzuhou": "空",
+  "sstupianqian": "空",
+  "sstupianhou": "空",
+  "ssbiaotiqian": "空",
+  "ssbiaotihou": "空",
+  "sslianjieqian": "空",
+  "sslianjiehou": "空",
+//状态，导演，演员，剧情的截取
+  "zhuangtaiqian": "class=\"otherbox\">",
+  "zhuangtaihou": "</p>",
+  "daoyanqian": "导演：",
+  "daoyanhou": "</p>",
+  "zhuyanqian": "主演：",
+  "zhuyanhou": "</p>",
+  "juqingqian": "<span class=\"data\"",
+  "juqinghou": "</span>",
+//播放集数截取部分
+  "bfshifouercijiequ": "0",
+  "bfjiequqian": "空",
+  "bfjiequhou": "空",
+  "bfjiequshuzuqian": "class=\"signals\"",
+  "bfjiequshuzuhou": "</div>",
+  "bfyshifouercijiequ": "0",
+  "bfyjiequqian": "空",
+  "bfyjiequhou": "空",
+  "bfyjiequshuzuqian": ">",
+  "bfyjiequshuzuhou": "<",
+  "bfbiaotiqian": "<span>",
+  "bfbiaotihou": "</span>",
+  "bflianjieqian": "href=\"http",
+  "bflianjiehou": "\""
+}

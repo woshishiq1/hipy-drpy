@@ -1,0 +1,28 @@
+var rule = {
+  title: '樱花动漫',
+  host: 'https://katedm.com/',
+  url: '/list/fyclass-fypage.html',
+  searchUrl: '/search/**----------fypage---.html',
+  searchable: 2,
+  quickSearch: 0,
+  filterable: 0,
+  headers: {
+    'User-Agent': 'MOBILE_UA',
+  },
+  class_parse: '.myui-header__menu li.hidden-sm:gt(0):lt(5);a&&Text;a&&href;/(\\d+).html',
+  play_parse: true,
+  lazy: '',
+  limit: 6,
+  推荐: 'ul.myui-vodlist.clearfix;li;a&&title;a&&data-original;.pic-text&&Text;a&&href',
+  double: true,
+  一级: '.myui-vodlist li;a&&title;a&&data-original;.pic-text&&Text;a&&href',
+  二级: {
+    title: '.myui-content__detail .title&&Text;.myui-content__detail p:eq(-2)&&Text',
+    img: '.myui-content__thumb .lazyload&&data-original',
+    desc: '.myui-content__detail p:eq(0)&&Text;.myui-content__detail p:eq(1)&&Text;.myui-content__detail p:eq(2)&&Text',
+    content: '.content&&Text',
+    tabs: '.nav-tabs:eq(0) li',
+    lists: '.myui-content__list:eq(#id) li',
+  },
+  搜索: '#searchList li;a&&title;.lazyload&&data-original;;a&&href;.pic-tag&&Text',
+}

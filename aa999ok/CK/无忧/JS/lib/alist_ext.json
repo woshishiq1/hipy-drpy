@@ -1,0 +1,66 @@
+[
+{
+	"name": "丫仙女",
+	"server": "http://101.126.71.246:5678/",
+	"startPage": "/",
+	"showAll": false,
+	"search": true,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "每日更新",
+	"server": "http://101.126.71.246:5678/",
+	"startPage": "/每日更新",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "电影",
+	"server": "http://101.126.71.246:5678/",
+	"startPage": "/电影",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "电视剧",
+	"server": "http://101.126.71.246:5678/",
+	"startPage": "/电视剧",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "综艺",
+	"server": "http://101.126.71.246:5678/",
+	"startPage": "/综艺",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+	"name": "纪录片",
+	"server": "http://101.126.71.246:5678/",
+	"startPage": "/纪录片",
+	"showAll": false,
+	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+    	"name": "动漫",
+    	"server": "http://101.126.71.246:5678/",
+    	"startPage": "/动漫",
+    	"showAll": false,
+    	"search": false,
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+},
+{
+        "name": "儿童",
+        "server": "http://101.126.71.246:5678/",
+        "startPage": "/动漫/儿童",
+        "showAll": false,
+        "search": false,
+        "params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+}
+]

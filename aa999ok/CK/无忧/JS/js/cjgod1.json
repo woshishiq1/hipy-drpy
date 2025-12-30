@@ -1,0 +1,60 @@
+{
+  // 首页拉取全自动分类的最长时间,不建议设置很长时间,首次拉取不到的分类会在后续打开时再次拉取,有缓存
+  "filter_timeout": 8,
+  //搜索最长时间,不建议设置很长时间,优先靠前的采集站
+  "search_timeout": 8,
+  //（可选配置 ）期望搜索结果的站源数量，可配和搜索时长共存，俩个条件谁先到立即返回
+  //举例： 搜索时长设置8秒  搜索结果个数设置 10个，比如搜索10个耗时3秒 那就3秒返回结果。
+  "search_count": 8,
+  //屏蔽分类
+  "disable_filters": [
+    "伦理",
+    "三级",
+    "俩性"
+  ],
+  "sites": [
+    //{
+    //    "name": "飞速",
+    //    //地址 不需要带 ?后面的参数
+    //    "url": "https://www.feisuzy.com/api.php/provide/vod/from/fsm3u8",
+    //    // 0 xml采集站  1 json采集站
+    //    "type": 1,
+    //    //专用播放头,可选配置。采集站无特殊要求不要配置,会影响播放性能 json:xxx代表播放格式为json(推荐)， parse:xxx代表播放格式为网页嗅探
+    //    "playUrl": "json:xxxx",
+    //    // 默认0 可选配置。0启用搜索， 1关闭搜索。部分采集站会停用搜索功能
+    //    "disable_search": 0,
+    //    // 默认0 可选配置。0启用分类， 1关闭分类。部分采集站需梯子或分类总是获取失败可以关闭,可加快首页的载入速度
+    //    "disable_filter": 0,
+    //    }
+{"name": "🪨黑木耳","url": "https://www.heimuer.tv/api.php/provide/vod","playUrl": "https://player.heimuer.tv/index.html?url=","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "✨华为吧","url": "https://cjhwba.com/api.php/provide/vod/","playUrl": "https://player.hw8.lol/player?url=","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "💢淘片资源","url": "https://taopianapi.com/cjapi/mc/vod/json.html","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🔵天空资源","url": "https://api.tiankongapi.com/api.php/provide/vod/from/tkm3u8","type":1,"disable_search": 1,"disable_filter": 0},
+{"name": "🦊火狐资源","url": "https://hhzyapi.com/api.php/provide/vod","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🐯虎牙资源","url": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "👌🏻欧克资源","url": "https://api.okzy.org/api.php/provide/vod/from/okm3u8","type": 1,"disable_search": 1,"disable_filter": 0},
+{"name": "🚗快车资源","url": "https://caiji.kczyapi.com/api.php/provide/vod/at/json","type": 1,"disable_search": 1,"disable_filter": 0},
+{"name": "⚡闪电资源","url": "https://sdzyapi.com/api.php/provide/vod/","type": 1,"disable_search": 1,"disable_filter": 0},
+{"name": "🐷八戒资源","url": "http://cj.bajiecaiji.com/inc/apijson_vod.php/from/bjm3u8","type": 1,"disable_search": 1,"disable_filter": 0},
+{"name": "🌸樱花资源","url": "https://m3u8.apiyhzy.com/api.php/provide/vod/","type": 1,"disable_search": 0,"disable_filter": 0},
+{"name": "🍛量子资源","url": "https://lzizy7.com/api.php/provide/vod/from/lzm3u8","type": 1,"disable_search": 0,"disable_filter": 0},
+{"name": "🍝非凡资源","url": "http://ffzy5.tv/api.php/provide/vod/from/ffm3u8","type": 1,"disable_search": 0,"disable_filter": 0},
+{"name": "🚀极速资源","url": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8","playUrl": "","type": 1,"disable_search": 0,"disable_filter": 0},
+{"name": "🛸速播资源","url": "https://subocaiji.com/api.php/provide/vod/from/subm3u8","type": 1,"disable_search": 0,"disable_filter": 0},
+{"name": "🏍️360资源","url": "https://360zy.com/api.php/provide/vod","type": 1,"disable_search": 0,"disable_filter": 0},
+{"name": "🚞最大资源","url": "https://api.zuidapi.com/api.php/provide/vod/","type": 1,"disable_search": 0,"disable_filter": 0},
+{"name": "🎉飘零资源","url": "https://p2100.net/api.php/provide/vod/","type": 1,"disable_search": 0,"disable_filter": 0},
+{"name": "🛩️天翼资源","url": "https://www.911ysw.top/tianyi.php/provide/vod/","type": 1,"disable_search": 0,"disable_filter": 0},
+{"name": "😄小黄人资源","url": "http://iqyi.xiaohuangrentv.com/api.php/provide/vod","type": 1,"disable_search": 0,"disable_filter": 0},
+
+{"name": "🐮红牛资源","url": "https://www.hongniuzy2.com/api.php/provide/vod","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🔆光速资源","url": "https://api.guangsuapi.com/api.php/provide/vod","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🔶影图资源","url": "https://cj.vodimg.top/api.php/provide/vod","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🔷无尽资源","url": "https://api.wujinapi.me/api.php/provide/vod","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🌊新浪资源","url": "https://api.xinlangapi.com/xinlangapi.php/provide/vod","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🐉卧龙资源","url": "https://collect.wolongzyw.com/api.php/provide/vod/","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🌪️暴风影音","url": "https://app.bfzyapi.com/api.php/provide/vod","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🦆鸭鸭资源","url": "https://cj.yayazy.net/api.php/provide/vod/","type":1,"disable_search": 0,"disable_filter": 0},
+{"name": "🐮牛牛资源","url": "https://api.niuniuzy.me/api.php/provide/vod/","type":1,"playUrl": "https://www.hnjiexi.com/m3u8/?url=","disable_search": 0,"disable_filter": 0}
+    ]
+}

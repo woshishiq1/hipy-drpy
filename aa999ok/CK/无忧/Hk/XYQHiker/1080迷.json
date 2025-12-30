@@ -1,0 +1,98 @@
+{
+"规则名": "1080",
+"规则作者": "",
+"请求头参数": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1#Referer$https://www.1080p.club#Cookie$PHPSESSID=nnal43thcea74f1d53r8hvl2db; __51uvsct__K3lSLV7AKWJwpUtT=1; __51vcke__K3lSLV7AKWJwpUtT=ec7a036b-39e4-533c-a7ef-c7329c475a6c; __51vuft__K3lSLV7AKWJwpUtT=1704356748012; cf_clearance=xNokSYSaeRCBvp203MIWiHhCjVOsQKnh_TfRUJDDX9k-1704356749-0-2-bd9e9313.40def54d.ea9fccf3-0.2.1704356749; __vtins__K3lSLV7AKWJwpUtT=%7B%22sid%22%3A%20%22b5d78d1f-0f16-5d3f-80ea-6e9965ebaad8%22%2C%20%22vd%22%3A%208%2C%20%22stt%22%3A%2024954%2C%20%22dr%22%3A%201239%2C%20%22expires%22%3A%201704358572943%2C%20%22ct%22%3A%201704356772943%7D",//User-Agent$MOBILE_UA  User-Agent$PC_UA
+"网页编码格式": "UTF-8",//UTF-8,GBK,GB2312
+"图片是否需要代理": "0",
+"首页片单是否Jsoup写法": "1",
+"是否开启获取首页数据": "1",
+"首页推荐链接": "",
+"首页列表数组规则": "body&&li:has(img)",//lazy lazyload img  [href*^$=]
+"首页片单列表数组规则": "li",
+ /* 
+"首页片单标题": "a&&Text",
+"首页片单链接": "a&&href",
+"首页片单图片": ".lazyload&&data-original",
+"首页片单副标题":".pic-text&&Text",
+"首页片单链接加前缀": "http://www.ngys8.com",
+"首页片单链接加后缀": "",
+ */
+ 
+ "筛选数据": {},
+ /*
+"筛选数据": "ext",
+//{cateId}
+"筛选子分类名称": "",
+"筛选子分类替换词": "",
+//{class}
+"筛选类型名称": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典||古装&战争&青春偶像&喜剧&家庭&犯罪&动作&奇幻&剧情&历史&经典&乡村&情景&商战&网剧&其他||选秀&情感&访谈&播报&旅游&音乐&美食&纪实&曲艺&生活&游戏互动&财经&求职||情感&科幻&热血&推理&搞笑&冒险&萝莉&校园&动作&机战&运动&战争&少年&少女&社会&原创&亲子&益智&励志",
+"筛选类型替换词": "*",
+//{area}
+"筛选地区名称": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他||内地&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||内地&港台&日韩&欧美||内地&日本&欧美&其他",
+"筛选地区替换词": "*",
+//{year}
+"筛选年份名称": "2023&2022&2021&2020&2019&2018&2017&2016&2015&2014&2013&2012&2011",
+"筛选年份替换词": "*",
+//{lang}
+"筛选语言名称": "英语&粤语&闽南语&韩语&日语&其它||英语&粤语&闽南语&韩语&日语&法语&德语&其它||英语&粤语&闽南语&韩语&日语&其它||",
+"筛选语言替换词": "*",
+//{by}
+"筛选排序名称": "时间&人气&评分",
+"筛选排序替换词": "time&hits&score",
+*/
+
+"分类起始页码": "1",
+"分类链接": "https://www.1080p.club/v_show/{cateId}--------{catePg}---.html",//[firstPage=http] {class}{lang}{year}{area}{catePg}{cateId};post",
+"分类名称": "电影&电视剧&动漫&综艺&短剧",
+"分类名称替换词": "1&2&4&3&405",
+"分类片单是否Jsoup写法": "1",
+"分类截取模式": "1",
+//"分类Json数据二次截取":"&&",
+"分类列表数组规则": "body&&.a-con&&.a-con-inner",
+"分类片单标题": "a&&title",
+"分类片单链接": "a&&href",
+"分类片单图片": "img&&data-src",
+"分类片单副标题": "",
+"分类片单链接加前缀": "https://www.1080p.club",
+"分类片单链接加后缀": "",
+"链接是否直接播放": "0",
+"直接播放链接加前缀": "",
+"直接播放链接加后缀": "",
+"直接播放直链视频请求头": "",
+
+"详情是否Jsoup写法": "1",
+"类型详情": "p:contains(类型：)&&Text!类型：",
+"年代详情": "",
+"地区详情": "p:contains(地区：)&&Text!地区：",
+"演员详情": "p:contains(主演：)&&Text!主演：",//&&p:eq(1)&&Text!主演：
+"简介详情": ".juqing&&Text",
+
+"线路列表数组规则": "body&&h1",
+"线路标题": "h1&&Text",//[替换:线路列表1=>磁力||线路列表2=>种子||线路列表3=>嗅探]
+"播放列表数组规则": "body&&.detail-jisu",
+"选集列表数组规则": "a",
+"选集标题链接是否Jsoup写法": "1",
+"选集标题": "a&&Text",
+"选集链接": "a&&href",
+"是否反转选集序列": "0",
+"选集链接加前缀": "https://www.1080p.club",
+"选集链接加后缀": "",
+"分析MacPlayer": "2",
+"是否开启手动嗅探": "0",
+"手动嗅探视频链接关键词": ".m3u8#.mp4",
+"手动嗅探视频链接过滤词": ".js#.html#.xml#=http#.jpg#.png#.htm#src=#xmlns=#.css",
+
+"搜索片单是否Jsoup写法": "1",
+"搜索请求头参数": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1#Referer$https://www.1080p.club#Cookie$PHPSESSID=nnal43thcea74f1d53r8hvl2db; __51uvsct__K3lSLV7AKWJwpUtT=1; __51vcke__K3lSLV7AKWJwpUtT=ec7a036b-39e4-533c-a7ef-c7329c475a6c; __51vuft__K3lSLV7AKWJwpUtT=1704356748012; cf_clearance=xNokSYSaeRCBvp203MIWiHhCjVOsQKnh_TfRUJDDX9k-1704356749-0-2-bd9e9313.40def54d.ea9fccf3-0.2.1704356749; __vtins__K3lSLV7AKWJwpUtT=%7B%22sid%22%3A%20%22b5d78d1f-0f16-5d3f-80ea-6e9965ebaad8%22%2C%20%22vd%22%3A%208%2C%20%22stt%22%3A%2024954%2C%20%22dr%22%3A%201239%2C%20%22expires%22%3A%201704358572943%2C%20%22ct%22%3A%201704356772943%7D",//User-Agent$MOBILE_UA  User-Agent$PC_UA
+"搜索链接": "https://www.1080p.club/v_search/-------------.html?wd={wd}",
+"POST请求数据": "",
+"搜索截取模式": "1",
+"搜索列表数组规则": "body&&.pic",
+"搜索片单图片": "img&&data-src",
+"搜索片单标题": "a&&title",
+"搜索片单链接": "a&&href",
+"搜索片单副标题": "",
+"搜索片单链接加前缀": "https://www.1080p.club",
+"搜索片单链接加后缀": ""
+
+}

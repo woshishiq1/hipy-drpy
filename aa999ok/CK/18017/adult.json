@@ -1,0 +1,3819 @@
+{
+  "spider": "./pg.jar",
+  "wallpaper": "https://gao.chuqiuyu.workers.dev",
+  "lives": [
+	{
+"name":"闲人大湿专用1",
+
+"url":"./lib/adult.txt",
+"type": 0,
+"playerType": 2,
+   "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+	
+	  {
+	"name":"成人 IPTV",
+	"url":"https://parlay12.serv00.net/xhamters/paylist.php",
+	"type": 0,
+"playerType": 2,
+   "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+	      
+  ],
+  "sites": [
+{
+      "key": "随客影视",
+      "name": "🎥｜随客｜補全",
+      "type": 3,
+      ##"jar": "./lib/pq.jar",
+      "jar": "./lib/XBPQ.jar",
+      "api": "csp_XBPQ",
+      "ext": {
+          "请求头": "User-Agent$MOBILE_UA",
+          "编码": "UTF-8",
+          "数组": "lazyload\"&&</a",
+          "图片": "data-original=\"&&\"",
+          "标题": "title=\"&&\"",
+          "副标题": "right\">&&</span>",
+          "链接": "href=\"&&\"",
+          "播放数组": "stui-content__playlist column8 clearfix\">&&</ul>",
+          "播放列表": "<a&&a>",
+          "播放链接": "href=\"&&\"",
+          "播放标题": ">&&</",
+          "跳转播放链接":"var player =*source\":\"&&\"",
+          "线路数组": "stui-pannel__head bottom-line active clearfix\">&&</div",
+          "线路标题": "title\">&&</h3",
+          "分类url": "https://www.suike100.com/l-{cateId}-{catePg}--{by}-{year}-{area}--0.html",
+          "分类": "电影$1#电视$2#综艺$3#动漫$4#短剧$28",
+          "类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#动画片$15#其他片$19||国剧$20#美剧$21#韩剧$22#日剧$23#港剧$24#台剧$25#泰剧$26#外剧$27#短劇$28||空||空||空",
+          "地区": "大陆&香港&台湾&日本&韩国&泰国&美国&法国&英国&德国&印度&其他"
+        }
+        },
+        {
+      "key": "py_jianpian",
+      "name": "荐片(T3)",
+      "type": 3,
+       "api": "./lib/新荐片.py",
+     ### "api": "./lib/py_jianpian.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
+        },  
+        {
+      "key": "php_madou",
+      "name": "🔞麻豆(T4)",
+      "type": 4,
+      "api": "https://doubebly.doube.eu.org/madou.php",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0,
+      "style": {"type": "rect", "ratio": 1.5}
+		},
+
+	  {
+         "key": "jianpian",
+         "name": "荐片",
+         "type": 3,
+        ### "api": "./lib/荐片.js",
+	     "api": "./lib/賤片.js",
+		 "searchable": 1,
+         "filterable": 1,
+         "changeable": 1,
+         "ext": ""
+        },
+	  {
+      "key": "*色猫资源",
+      "name": "*色猫资源",
+      "type": 1,
+      "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*色南国资源",
+      "name": "*色南国资源",
+      "type": 1,
+      "api": "https://api.sexnguon.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*抖阴视频",
+      "name": "*抖阴视频",
+      "type": 1,
+      "api": "https://www.888dav.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*麻豆视频2",
+      "name": "*麻豆视频2",
+      "type": 1,
+      "api": "https://madouse.la/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*蛋蛋视频",
+      "name": "*蛋蛋视频",
+      "type": 1,
+      "api": "https://156.249.29.8/inc/apijson_vod.php",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "*91麻豆",
+      "name": "*91麻豆",
+      "type": 1,
+      "api": "https://91md.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
+      "key": "(18+)环亚资源",
+      "name": "(18+不错)环亚资源",
+      "type": 0,
+      "api": "http://wmcj8.com/inc/sapi.php?ac=videolist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "ms4nii",
+      "name": "美少女资源(已修复)",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "KxrbspE",
+      "name": "淫水机资源(已修复)",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "gdlsE",
+      "name": "香奶儿资源(已修复)",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "kxgav",
+      "name": "白嫖资源(已修复)",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zp066",
+      "name": "🔞花椒资源",
+      "type": 0,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*乐播资源",
+      "name": "🔞乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "zp100",
+      "name": "🔞乐播",
+      "type": 0,
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "💞探探资源💞",
+      "name": "💞探探资源💞",
+      "type": 1,
+      "api": "https://apittzy.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*AIvin",
+      "name": "AIvin",
+      "type": 0,
+      "api": "http://lbapiby.com/api.php/provide/vod/at/xml"
+    },
+    {
+      "key": "kkzy.me",
+      "name": "成人51",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "(18+)JAV名优",
+      "name": "(18+)JAV名优",
+      "type": 0,
+      "api": "http://mygzycj.com/api.php?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "afasu",
+      "name": "小湿妹资源(已修复)",
+      "type": 0,
+      "api": "https://www.afasu.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "KpgxdyE",
+      "name": "黄AV资源(已修复)",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+        {
+            "key": "色播聚合",
+            "name": "色播聚合",
+            "type": 3,
+            "api": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/py/py_色播聚合.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+         
+  {
+      "key": "ap4i156dlyE",
+      "name": "奶茶资源(已修复)",
+      "type": 0,
+      "api": "https://caiji.naichaapi.com/inc/api.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "api.apilyzy.com",
+      "name": "成人71",
+      "type": 1,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "大地采集",
+      "name": "🔞大地av",
+      "type": 0,
+      "api": "https://dadiapi.com/apple_m3u8.php",
+      "playUrl": "https://play.dadiapi.com/watch?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "pgxdy",
+      "name": "🔞PGX电影",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zp128",
+      "name": "🔞鲨鱼影视",
+      "type": 0,
+      "api": "https://shayuapi.com/api.php/Seacms/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*易看资源",
+      "name": "🔞易看资源",
+      "type": 1,
+      "api": "https://api.yikanapi.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "*番号资源",
+      "name": "🔞番号资源",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "xrbsp.com",
+      "name": "成人66",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+
+        {
+            "key": "农夫与少妇",
+            "name": "🔞 农夫与少妇",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./lib/农夫与少妇.json"
+        },
+
+        
+          
+            {
+            "key": "微密猫",
+            "name": "🔞微密猫",
+            "type": 3,
+            "api": "csp_XBPQ",
+	    "jar": "./lib/XBPQ.jar",
+            "ext": {
+                "主页url": "https://maobao.vip/",
+                "首页": "无圣光视频$wushebgguang/无圣光视频",
+                "数组": "\"post grid\"&&\"post grid\"",
+                "图片": "src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "</i>&&</span>",
+                "链接": "href=\"&&\"",
+                "分类url": "https://maobao.vip/mid/{cateId}/page/{catePg};;z",
+                "分类": "无圣光视频$wushebgguang/无圣光视频#微密视频$weme/wmsp#森甜视频$stxl/stsp#网红视频$whxl/whsp"
+            }
+        },
+
+
+    
+
+	  
+{
+        "key": "SOAV",
+            "name": "🔞SOAV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "style": {
+            "type": "rect",
+                "ratio": 1.5
+            },
+            "ext": {
+                "主页url": "https://777080.xyz/",
+                "搜索url": "https://777080.xyz/?s={wd}",
+                "数组": "data-video-uid=&&</div>",
+                "图片": "data-src=\"&&\"",
+                "标题": "alt=\"&&\"",
+                "副标题": "</i>&&</span>",
+                "链接": "href=\"&&\"",
+                "简介": "⚠️少看点，再看你就废了！！！",
+                "分类url": "https://777080.xyz/category/{cateId}/page/{catePg}/;;z",
+                "分类": "國產精選$國產精選#探花約炮$探花約炮#日韓影片$日韓影片#無碼素人$無碼素人#歐美專區$歐美專區#中字動漫$中字動漫"
+            }
+        },
+
+		    
+        
+         
+        
+            
+
+     
+
+       
+   {
+  "key": "JAVDAY",
+  "name": "🔞JAVDAY",
+  "type": 3,
+  "api": "csp_XBPQ",
+  "jar": "./lib/XBPQ.jar",
+  "ext": {
+    "主页url": "https://javday.tv/",
+    "直接播放": "1",
+    "数组": "lazy loaded\"&&</a>",
+    "图片": "style=\"background-image: url(&&);\"",
+    "标题": "class=\"title\"&&</span>",
+    "副标题": "class=\"number\">&&</span>",
+    "简介": "title\"&&</span>",
+    "链接": "href=\"&&\"",
+    "分类url": "https://javday.tv/category/{cateId}/page/{catePg}/",
+    "分类": "新作上市$new-release#有碼$censored#國產AV$chinese-av#無碼流出$uncensored-leaked#糖心VLOG$txvlog#蘿莉社$luolisheus#HongKongDoll$hongkongdoll"
+  }
+   },
+	  
+
+
+	  {
+		"key": "蛙视频",
+            "name": "💕蛙视频",
+            "type": 3,
+            "api": "csp_XBPQ",
+	    "jar": "./lib/XBPQ.jar",
+            "ext": {
+                "主页url": "https://www.wvod.tv/",
+                "数组": "hl-col-lg-2\"&&</a>",
+                "图片": "data-original=\"&&\"",
+                "标题": "title=\"&&\"",
+                "链接": "href=\"&&\"",
+                "简介": "简介：&&</li>",
+                "分类url": "https://www.wvod.tv/vodshow/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+                "分类": "电视剧$21#综艺$22#动漫$23#体育$25#纪录片$24"
+            }
+        },
+
+
+	  {
+      "key": "nu",
+      "name": "Nuu|XBPQ",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./lib/XBPQ.jar",
+      "ext": {
+        "分类url":"https://nuu.su/x/id/{cateId}/page/{catePg}.html",
+        "分类": "電影$1#劇集$2#綜藝$3#動漫$4" 
+       }
+	
+    },
+
+            
+
+
+  
+
+
+
+
+
+            
+
+
+
+	 {
+            "key": "PTT",
+            "name": "ptt",
+            "type": 3,
+            "api": "csp_PTT",
+            "jar": "./lib/custom_spider.jar",
+            "searchable": 1,	
+            "changeable": 1,
+	  "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url="
+        }, 
+
+	  {
+    "key": "pttred",
+    "name": "PTT | 影视",
+    "type": 3,
+    "api": "csp_XBPQ",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "jar": "./lib/XBPQ.jar",
+    "ext": "./lib/pttred.json"
+},
+  
+
+{
+            "key": "黑木耳",
+            "name": "黑木耳",
+            "type": 1,
+            "api": "https://json.heimuer.xyz/api.php/provide/vod",
+            "categories": [
+                "同性片",
+                "虐恋短剧"  
+            ],
+            "searchable": 1,
+            "changeable": 1
+        },
+	
+
+
+	  
+
+
+
+	  
+    {
+      "key": "量子",
+      "name": "量子",
+      "type": 0,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "伦理片"
+      ]
+    },
+{
+  "key": "小幺女|床吧",
+  "name": "小幺女",
+  "type": 3,
+  "playerType": 2,
+  "api": "csp_XBPQ",
+  "searchable": 1,
+  "quickSearch": 1,
+  "filterable": 1,
+  "jar":"./lib/XBPQ.jar",
+  "ext": {
+    "站名": "小幺女",
+    "主页url": "https://xxynhkaa1.buzz/sort/id/245.html",
+    "数组": "class=\"vod_box\">&&</li>",
+    "图片": "url('&&'",
+    "标题": "title=\"&&\"",
+    "链接": "https://xxynhkaa1.buzz/detail+href='/display&&'",
+    "跳转播放链接": "var playUrl = '&&'",
+    "直接播放": "1",
+    "嗅探词": "index.m3u8",
+    "分类数组": "<a&&</a",
+    "分类标题": "target=\"_blank\">&&</a[不包含:<h3>伦理作品</h3>#<h3>成人动漫</h3>#<h3>国产主播</h3>#<h3>自拍专区</h3>]",
+    "分类ID": "href=\"/sort/id/&&.html\"",
+    "分类url": "https://xxynhkaa1.buzz/type/id/{cateId}/{catePg}.html"
+  }
+},
+
+        
+	  
+
+        
+     
+ {
+		"key": "玉兔专场",
+		"name": "玉兔",
+		"type": 1,
+		"api": "https://apiyutu.com/api.php/provide/vod/",
+		"playUrl": "",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1,
+		"categories": [
+		  "精品推荐",
+		  "国产精品",
+		  "主播秀色",
+		  "日本有码",
+		  "日本无码",
+		  "中文字幕",
+		  "童颜巨乳",
+		  "性感人妻",
+		  "强奸乱伦",
+		  "欧美情色",
+		  "童真萝莉",
+		  "三级伦理",
+		  "卡通动漫",
+		  "丝袜OL",
+		  "口爆颜射",
+		  "自拍偷拍",
+		  "日本片商",
+		  "Cosplay",
+		  "素人自拍",
+		  "台湾色情",
+		  "韩国自拍",
+		  "性感港姐",
+		  "东南亚情色",
+		  "凌辱束缚",
+		  "剧情介绍",
+		  "多P 3P",
+		  "91系列",
+		  "网红系列",
+		  "野外系列",
+		  "女仆系列",
+		  "学生中出",
+		  "性感旗袍",
+		  "兽耳作品",
+		  "瑜伽裤",
+		  "骚货护士",
+		  "及膝袜",
+		  "网曝系列",
+		  "麻豆传媒",
+		  "女同人妖",
+		  "恋腿癖"
+		]
+	  },	
+	  {
+		"key": "dadiapi.com",
+		"name": "大地",
+		"type": 0,
+		"api": "http://dadiapi.com/api.php",
+		"quickSearch": 1,
+		"searchable": 1,
+		"filterable": 1
+	  },
+	  {
+		"key": "lbapi9.com",
+		"name": "乐吧",
+		"type": 1,
+		"api": "https://lbapi9.com/api.php/provide/vod/",
+		"quickSearch": 1,
+		"searchable": 1,
+		"filterable": 1
+	  },
+	  {
+		"key": "xrbsp.com",
+		"name": "淫水机",
+		"type": 1,
+		"api": "https://www.xrbsp.com/api/xml.php",
+		"quickSearch": 1,
+		"searchable": 1,
+		"filterable": 1
+	  },
+	  {
+		"key": "处女控",
+		"name": "处女控",
+		"type": 1,
+		"api": "https://ckzy.me/api.php/provide/vod/",
+		"searchable": 1,
+		"quickSearch": 1,
+		"filterable": 1
+	  },
+	  {
+		"key": "易看-伦理",
+		"name": "易看",
+		"type": 1,
+		"api": "https://api.yikanapi.com/api.php/provide/vod/",
+		"searchable": 1,
+		"quickSearch": 1
+	  },
+	  {
+		"key": "*色南国",
+		"name": "色南国",
+		"type": 1,
+		"api": "https://api.sexnguon.com/api.php/provide/vod/",
+		"searchable": 0,
+		"quickSearch": 0
+	  },
+	  {
+		"key": "*AIvin",
+		"name": "AIvin",
+		"type": 0,
+		"api": "http://lbapiby.com/api.php/provide/vod/at/xml"
+	  },
+	  {
+		"key": "美少女",
+		"name": "美少女",
+		"type": 0,
+		"api": "https://www.msnii.com/api/xml.php",
+		"searchable": 0,
+		"quickSearch": 0,
+		"filterable": 1,
+		"jar": "https://share.nite07.com/api/v3/file/source/18178/18.jar?sign=4snwZEDuzr88tmVvCLDre0Jjbt5hOKh7zrtE37bQV30%3D%3A0"
+	  },
+	  {
+		"key": "*香奶儿",
+		"name": "香奶儿",
+		"type": 0,
+		"api": "https://www.gdlsp.com/api/xml.php",
+		"searchable": 0,
+		"quickSearch": 0
+	  },
+	  {
+		"key": "*白嫖",
+		"name": "白嫖",
+		"type": 0,
+		"api": "https://www.kxgav.com/api/xml.php",
+		"searchable": 0,
+		"quickSearch": 0
+	  },
+	  {
+		"key": "*大地",
+		"name": "大地",
+		"type": 0,
+		"api": "https://dadiapi.com/api.php",
+		"searchable": 0,
+		"quickSearch": 0
+	  },
+	  {
+		"key": "*老鸭",
+		"name": "老鸭",
+		"type": 1,
+		"api": "https://api.apilyzy.com/api.php/provide/vod/",
+		"searchable": 0,
+		"quickSearch": 0
+	  },
+        
+
+
+
+ 
+      
+
+    
+    
+        {
+            "key": "*色猫资源",
+            "name": "*色猫资源",
+            "type": 1,
+            "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+            "searchable": 1,
+            "quickSearch": 0
+        },
+        
+        
+        {
+            "key": "*91麻豆",
+            "name": "*91麻豆",
+            "type": 1,
+            "api": "https://91md.me/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 0
+        },
+        
+        {
+            "key": "KxrbspE",
+            "name": "淫水机资源(已修复)",
+            "type": 1,
+            "api": "https://www.xrbsp.com/api/xml.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "gdlsE",
+            "name": "香奶儿资源(已修复)",
+            "type": 0,
+            "api": "https://www.gdlsp.com/api/xml.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "kxgav",
+            "name": "白嫖资源(已修复)",
+            "type": 0,
+            "api": "https://www.kxgav.com/api/xml.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "zp066",
+            "name": "🔞花椒资源",
+            "type": 0,
+            "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "*乐播资源",
+            "name": "🔞乐播资源",
+            "type": 1,
+            "api": "https://lbapi9.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "zp100",
+            "name": "🔞乐播",
+            "type": 0,
+            "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "💞探探资源💞",
+            "name": "💞探探资源💞",
+            "type": 1,
+            "api": "https://apittzy.com/api.php/provide/vod/",
+            "searchable": 0,
+            "quickSearch": 0
+        },
+        {
+            "key": "*AIvin",
+            "name": "AIvin",
+            "type": 0,
+            "api": "http://lbapiby.com/api.php/provide/vod/at/xml"
+        },
+        {
+            "key": "kkzy.me",
+            "name": "成人51",
+            "type": 1,
+            "api": "https://kkzy.me/api.php/provide/vod/",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1
+        },
+        
+        {
+            "key": "afasu",
+            "name": "小湿妹资源(已修复)",
+            "type": 0,
+            "api": "https://www.afasu.com/api/xml.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "KpgxdyE",
+            "name": "黄AV资源(已修复)",
+            "type": 0,
+            "api": "https://www.pgxdy.com/api/xml.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "ap4i156dlyE",
+            "name": "奶茶资源(已修复)",
+            "type": 0,
+            "api": "https://caiji.naichaapi.com/inc/api.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "api.apilyzy.com",
+            "name": "成人71",
+            "type": 1,
+            "api": "https://api.apilyzy.com/api.php/provide/vod/",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1
+        },
+        {
+            "key": "大地采集",
+            "name": "🔞大地av",
+            "type": 0,
+            "api": "https://dadiapi.com/apple_m3u8.php",
+            "playUrl": "https://play.dadiapi.com/watch?url=",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "pgxdy",
+            "name": "🔞PGX电影",
+            "type": 0,
+            "api": "https://www.pgxdy.com/api/xml.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "zp128",
+            "name": "🔞鲨鱼影视",
+            "type": 0,
+            "api": "https://shayuapi.com/api.php/Seacms/vod/at/xml/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "*易看资源",
+            "name": "🔞易看资源",
+            "type": 1,
+            "api": "https://api.yikanapi.com/api.php/provide/vod/",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "*番号资源",
+            "name": "🔞番号资源",
+            "type": 1,
+            "api": "http://fhapi9.com/api.php/provide/vod/",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+        {
+            "key": "xrbsp.com",
+            "name": "成人66",
+            "type": 0,
+            "api": "https://www.xrbsp.com/api/xml.php",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 1
+        },
+         
+    
+    
+    
+        
+    {
+      "key": "18AV",
+      "name": "18AV",
+      "type": 3,
+      "api": "csp_Eighteen",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.485
+      }
+    },
+    
+      
+    {
+      "key": "Jable",
+      "name": "Jable",
+      "type": 3,
+      "api": "csp_Jable",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.77
+      }
+    },
+    {
+      "key": "MissAV",
+      "name": "MissAV",
+      "type": 3,
+      "api": "csp_Miss",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.78
+      }
+    },
+    {
+      "key": "Hanime",
+      "name": "Hanime",
+      "type": 3,
+      "api": "csp_Hanime",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.68
+      }
+    },
+
+
+    
+    {
+      "key": "apilj.com",
+      "name": "成人01",
+      "type": 1,
+      "api": "http://apilj.com/api.php/provide/vod/at/json/",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "dadiapi.com",
+      "name": "成人02",
+      "type": 0,
+      "api": "http://dadiapi.com/api.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "91md.me",
+      "name": "成人03",
+      "type": 1,
+      "api": "http://91md.me/api.php/provide/vod/",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+
+     
+    
+      "key": "bttcj.com",
+      "name": "成人05",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    
+  
+    
+    {
+      "key": "api.sexnguon.com",
+      "name": "成人07",
+      "type": 1,
+      "api": "http://api.sexnguon.com/api.php/provide/vod/",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      
+    
+      "key": "llzxcj.com",
+      "name": "成人09",
+      "type": 0,
+      "api": "http://llzxcj.com/inc/sck.php?ac=videolist",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "f2dcj6.com",
+      "name": "成人10",
+      "type": 0,
+      "api": "http://f2dcj6.com/sapi?ac=videolist",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+
+    
+      "key": "fhapi9.com",
+      "name": "成人12",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    
+    {
+      "key": "lbapiby.com",
+      "name": "成人14",
+      "type": 0,
+      "api": "http://lbapiby.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "api.maozyapi.com",
+      "name": "成人15",
+      "type": 1,
+      "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "msnii.com",
+      "name": "成人16",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "gdlsp.com",
+      "name": "成人17",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+
+    
+      "key": "kxgav.com",
+      "name": "成人19",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "xrbsp.com",
+      "name": "成人20",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "pgxdy.com",
+      "name": "成人21",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "afasu.com",
+      "name": "成人22",
+      "type": 0,
+      "api": "https://www.afasu.com/api/xml.php",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "kkzy.me",
+      "name": "成人23",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    
+      
+    {
+      "key": "apittzy.com",
+      "name": "成人25",
+      "type": 1,
+      "api": "https://apittzy.com/api.php/provide/vod/",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+    {
+      "key": "lbapi9.com",
+      "name": "成人26",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "recordable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      }
+    },
+{
+      "key": "XMVideo",
+      "name": "\uD83D\uDD1E 熊猫视频 | 珍惜",
+      "type": 3,
+      "api": "csp_XMVideo",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "J91",
+      "name": "\uD83D\uDD1E 91 | 珍惜",
+      "type": 3,
+      "api": "csp_J91",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Cg51",
+      "name": "\uD83D\uDD1E 51吃瓜 | 图密√",
+      "type": 3,
+      "api": "csp_Cg51",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "MiMei",
+      "name": "\uD83D\uDD1E 迷妹 | 珍惜",
+      "type": 3,
+      "api": "csp_MiMei",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ROU223",
+      "name": "\uD83D\uDD1E 223ROU | 视频",
+      "type": 3,
+      "api": "csp_ROU223",
+      "searchable": 0,
+      "filterable": 1
+    },
+    {
+      "key": "HiPianZhiBo",
+      "name": "\uD83D\uDD1E 嗨片直播 | 视频",
+      "type": 3,
+      "api": "csp_HiPianZhiBo",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "*博天堂",
+      "name": "🔞博天堂",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "美少女",
+      "name": "🔞美少女",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "*淫水机资源",
+      "name": "🔞淫水机",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*美少女资源",
+      "name": "🔞美少女资源",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "zp024",
+      "name": "🔞BT天堂-伦理",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*KK写真资源",
+      "name": "🔞KK写真资源-伦理",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "zp059",
+      "name": "🔞番号资源",
+      "type": 0,
+      "api": "http://fhapi9.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "zp066",
+      "name": "🔞花椒资源",
+      "type": 0,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "zp100",
+      "name": "🔞乐播",
+      "type": 0,
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "zp123",
+      "name": "🔞色猫资源（慢）",
+      "type": 0,
+      "api": "https://api.maozyapi.com/inc/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*乐播资源",
+      "name": "🔞乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "zp137",
+      "name": "🔞探探资源（慢）",
+      "type": 0,
+      "api": "https://apittzy.com/api.php/provide/vod/at/xml/",
+      "playUrl": "https://jiexi.ttbfp1.com/m3u8/?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "wmcj8.com",
+      "name": "成人07",
+      "type": 0,
+      "api": "http://wmcj8.com/inc/sapi.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "💞博天堂💞",
+      "name": "💞博天堂💞",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "💞美少女资源💞",
+      "name": "💞美少女资源💞",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "bttcj.com",
+      "name": "成人04",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "💞番号资源💞",
+      "name": "💞番号资源💞",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "💞探探资源💞",
+      "name": "💞探探资源💞",
+      "type": 1,
+      "api": "https://apittzy.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "feifei67.com",
+      "name": "成人22",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "💞老鸭资源💞",
+      "name": "💞老鸭资源💞",
+      "type": 1,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "💞乐播资源💞",
+      "name": "💞乐播资源💞",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "msnii.com",
+      "name": "成人46",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "💞大地资源💞",
+      "name": "💞大地资源💞",
+      "type": 0,
+      "api": "https://dadiapi.com/api.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "apittzy.com",
+      "name": "成人47",
+      "type": 1,
+      "api": "https://apittzy.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "💞香奶儿资源💞",
+      "name": "💞香奶儿资源💞",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "api.maozyapi.com",
+      "name": "成人32",
+      "type": 1,
+      "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "lbapi9.com",
+      "name": "成人50",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "cjmygzy.com",
+      "name": "小美眉",
+      "type": 0,
+      "api": "http://cjmygzy.com/inc/sapi.php?ac=videolist",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "*环亚",
+      "name": "环亚",
+      "type": 0,
+      "api": "http://wmcj8.com/inc/sapi.php?ac=videolist"
+    },
+    {
+      "key": "pwd_袜子",
+      "name": "袜子",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "💞白嫖资源💞",
+      "name": "💞白嫖资源💞",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*AIvin",
+      "name": "AIvin",
+      "type": 0,
+      "api": "http://lbapiby.com/api.php/provide/vod/at/xml"
+    },
+    {
+      "key": "kkzy.me",
+      "name": "成人51",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "api.apilyzy.com",
+      "name": "成人71",
+      "type": 1,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "kxgav.com",
+      "name": "成人44",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "番号资源",
+      "name": "番号资源(卡切)",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/at/json",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "探探资源",
+      "name": "探探资源(切)",
+      "type": 1,
+      "api": "https://apittzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "💞淫水机资源💞",
+      "name": "💞淫水机资源💞",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "Sm",
+      "name": "Sm",
+      "type": 0,
+      "api": "https://api.maozyapi.com/inc/api.php"
+    },
+    {
+      "key": "💞色猫资源💞",
+      "name": "💞色猫资源💞",
+      "type": 1,
+      "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "wmcj8",
+      "name": "wmcj8(切)",
+      "type": 0,
+      "api": "http://wmcj8.com/inc/sapi.php",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "(18+)JAV名优",
+      "name": "(18+)JAV名优",
+      "type": 0,
+      "api": "http://mygzycj.com/api.php?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "bttcj",
+      "name": "*博天堂",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "playUrl": "https://jx.kujiexi.net/m3u8.php?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*美少女",
+      "name": "*美少女",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "*9号资源",
+      "name": "*9号资源",
+      "type": 0,
+      "api": "http://fhapi9.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "gdlsp.com",
+      "name": "成人36",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "(18+)SS资源",
+      "name": "(18+)SS资源",
+      "type": 0,
+      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*天堂福利",
+      "name": "*天堂福利",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "*JAV名优",
+      "name": "*JAV名优",
+      "type": 0,
+      "api": "http://mygzycj.com/api.php?ac=list"
+    },
+    {
+      "key": "(18+)乐播",
+      "name": "(18+)乐播",
+      "type": 0,
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "(18+)S猫资源",
+      "name": "(18+)S猫资源",
+      "type": 0,
+      "api": "https://api.maozyapi.com/inc/api.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*Sm",
+      "name": "*Sm",
+      "type": 0,
+      "api": "https://api.maozyapi.com/inc/api.php"
+    },
+    {
+      "key": "*探探",
+      "name": "*探探",
+      "type": 0,
+      "api": "https://apittzy.com/api.php/provide/vod/at/xml",
+      "playUrl": "https://jiexi.ttbfp1.com/m3u8/?url="
+    },
+    {
+      "key": "*乐播",
+      "name": "*乐播",
+      "type": 0,
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml"
+    },
+    {
+      "key": "*白嫖",
+      "name": "*白嫖",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php"
+    },
+    {
+      "key": "*色屌丝资源",
+      "name": "🔞*色屌丝资源",
+      "type": 0,
+      "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*探探资源",
+      "name": "*探探资源",
+      "type": 1,
+      "api": "https://apittzy.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*狼少年",
+      "name": "*狼少年",
+      "type": 0,
+      "api": "http://cjmygzy.com/inc/sapi.php?ac=videolist",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*环亚资源",
+      "name": "*环亚资源",
+      "type": 0,
+      "api": "http://wmcj8.com/inc/sapi.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*色色资源",
+      "name": "*色色资源",
+      "type": 0,
+      "api": "http://secj8.com/inc/sapi.php?ac=videolist",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*JAV名优",
+      "name": "*JAV名优",
+      "type": 0,
+      "api": "http://mygzycj.com/api.php?ac=list"
+    },
+    {
+      "key": "*美少女资源",
+      "name": "*美少女资源",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*狼少年",
+      "name": "*狼少年",
+      "type": 0,
+      "api": "http://cjmygzy.com/inc/sapi.php?ac=videolist"
+    },
+    {
+      "key": "*博天堂",
+      "name": "*博天堂",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "bttcj",
+      "name": "*博天堂",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "playUrl": "https://jx.kujiexi.net/m3u8.php?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*天堂福利",
+      "name": "*天堂福利",
+      "type": 0,
+      "api": "http://bttcj.com/inc/sapi.php",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
+      "key": "*CK资源",
+      "name": "*CK资源",
+      "type": 1,
+      "api": "http://www.feifei67.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*番号资源",
+      "name": "*番号资源",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*9号资源",
+      "name": "*9号资源",
+      "type": 0,
+      "api": "http://fhapi9.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*色猫资源",
+      "name": "*色猫资源",
+      "type": 1,
+      "api": "https://api.maozyapi.com/inc/apijson_vod.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*咪咪资源",
+      "name": "🔞咪咪资源",
+      "type": 0,
+      "api": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "caiji25.com",
+      "name": "成人26",
+      "type": 0,
+      "api": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/xml",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "99zy.pw",
+      "name": "成人25",
+      "type": 1,
+      "api": "http://99zy.pw/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "91md.me",
+      "name": "成人19",
+      "type": 1,
+      "api": "http://91md.me/api.php/provide/vod/",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "💞99资源💞",
+      "name": "💞99资源💞",
+      "type": 1,
+      "api": "http://99zy.pw/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "dadiapi.com",
+      "name": "成人09",
+      "type": 0,
+      "api": "http://dadiapi.com/api.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "sdszyapi.com",
+      "name": "成人20",
+      "type": 0,
+      "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "*色屌丝资源",
+      "name": "*色屌丝资源",
+      "type": 0,
+      "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*咪咪资源",
+      "name": "*咪咪资源",
+      "type": 0,
+      "api": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/xml",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*色屌丝资源",
+      "name": "*色屌丝资源",
+      "type": 0,
+      "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "💞色屌丝资源💞",
+      "name": "💞色屌丝资源💞",
+      "type": 0,
+      "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*色屌丝资源",
+      "name": "*色屌丝资源",
+      "type": 0,
+      "api": "http://sdszyapi.com/home/cjapi/asbb/mc10/vod/xml",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "咪咪资源",
+      "name": "咪咪资源(切)",
+      "type": 0,
+      "api": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/xml",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "💞咪咪资源💞",
+      "name": "💞咪咪资源💞",
+      "type": 0,
+      "api": "http://www.caiji25.com/home/cjapi/p0as/mc10/vod/xml",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*番号",
+      "name": "*番号",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod/"
+    },
+    {
+      "key": "*美少女",
+      "name": "*美少女",
+      "type": 0,
+      "api": "https://www.msnii.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "*乐播资源",
+      "name": "*乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*老鸭资源",
+      "name": "*老鸭资源",
+      "type": 1,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*咪咪",
+      "name": "*咪咪",
+      "type": 0,
+      "api": "http://www.caiji25.com/home/cjapi/p0as/mc/vod/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "cr32",
+      "name": "*咪咪资源站",
+      "type": 0,
+      "api": "http://www.caiji25.com/home/cjapi/p0as/zp/vod/xml",
+      "playUrl": "https://jx.kujiexi.net/m3u8.php?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*99",
+      "name": "*99",
+      "type": 1,
+      "api": "http://99zy.pw/api.php/provide/vod/"
+    },
+    {
+      "key": "*99资源",
+      "name": "*99资源",
+      "type": 1,
+      "api": "http://99zy.pw/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*老鸭2",
+      "name": "*老鸭2",
+      "type": 0,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*老鸭1",
+      "name": "*老鸭1",
+      "type": 1,
+      "api": "https://api.apilyzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*Sm",
+      "name": "*Sm",
+      "type": 0,
+      "api": "https://api.maozyapi.com/inc/api.php"
+    },
+    {
+      "key": "*饮水机",
+      "name": "*饮水机",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "KpgxdyE",
+      "name": "黄AV资源(已修复)",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zp157",
+      "name": "🔞熊猫资源",
+      "type": 0,
+      "api": "http://jcspcj8.com/api?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "gdlsE",
+      "name": "香奶儿资源",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "*热巴资源",
+      "name": "*热巴资源",
+      "type": 1,
+      "api": "http://reba.aishunxs.com/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*白嫖",
+      "name": "*白嫖",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php"
+    },
+    {
+      "key": "*白嫖资源",
+      "name": "*白嫖资源",
+      "type": 0,
+      "api": "https://www.kxgav.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "*黄AV",
+      "name": "*黄AV",
+      "type": 0,
+      "api": "https://www.pgxdy.com/api/xml.php"
+    },
+    {
+      "key": "*淫水机资源",
+      "name": "*淫水机资源",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+    {
+      "key": "xrbsp.com",
+      "name": "成人66",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "quickSearch": 1,
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "zp116",
+      "name": "*泡芙资源",
+      "type": 0,
+      "api": "http://zmcj88.com/api?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "*饮水机",
+      "name": "*饮水机",
+      "type": 0,
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "*香奶儿",
+      "name": "*香奶儿",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php"
+    },
+    {
+      "key": "*香奶儿资源",
+      "name": "*香奶儿资源",
+      "type": 0,
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+
+	          {
+            "key": "PushShare",
+            "name": "🔞我的资源分享a",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./pushshare.a.txt$$$db$$$1"
+        },
+        {
+            "key": "PushShareb",
+            "name": "🔞我的资源分享b",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./pushshare.b.txt$$$db$$$1"
+        },
+        {
+            "key": "PushSharec",
+            "name": "🔞我的资源分享c",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./pushshare.c.txt$$$db$$$1"
+        },
+        {
+            "key": "PushShared",
+            "name": "🔞我的资源分享d",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./pushshare.d.txt$$$db$$$1"
+        },
+        {
+            "key": "PushSharee",
+            "name": "🔞我的资源分享e",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./pushshare.e.txt$$$db$$$1"
+        },
+        {
+            "key": "PushSharef",
+            "name": "🔞我的资源分享f",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./pushshare.f.txt$$$db$$$1"
+        },
+        {
+            "key": "PushShareg",
+            "name": "🔞我的资源分享g",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./pushshare.g.txt$$$db$$$1"
+        },
+        {
+            "key": "PushShare1",
+            "name": "🔞我的资源分享1",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.1.txt$$$$$1"
+        },
+        {
+            "key": "PushShare2",
+            "name": "🔞我的资源分享2",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.2.txt$$$$$1"
+        },
+        {
+            "key": "PushShare3",
+            "name": "🔞我的资源分享3",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.3.txt$$$$$1"
+        },
+        {
+            "key": "PushShare4",
+            "name": "🔞我的资源分享4",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.4.txt$$$$$1"
+        },
+        {
+            "key": "PushShare5",
+            "name": "🔞我的资源分享5",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.5.txt$$$$$1"
+        },
+        {
+            "key": "PushShare6",
+            "name": "🔞我的资源分享6",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.6.txt$$$$$1"
+        },
+        {
+            "key": "PushShare7",
+            "name": "🔞我的资源分享7",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.7.txt$$$$$1"
+        },
+        {
+            "key": "PushShare8",
+            "name": "🔞我的资源分享8",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.8.txt$$$$$1"
+        },
+        {
+            "key": "PushShare9",
+            "name": "🔞我的资源分享9",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.9.txt$$$$$1"
+        },
+        {
+            "key": "PushShare10",
+            "name": "🔞我的资源分享10",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.10.txt$$$$$1"
+        },
+        {
+            "key": "PushShare11",
+            "name": "🔞我的资源分享11",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.11.txt$$$$$1"
+        },
+        {
+            "key": "PushShare12",
+            "name": "🔞我的资源分享12",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.12.txt$$$$$1"
+        },
+        {
+            "key": "PushShare13",
+            "name": "🔞我的资源分享13",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.13.txt$$$$$1"
+        },
+        {
+            "key": "PushShare14",
+            "name": "🔞我的资源分享14",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.14.txt$$$$$1"
+        },
+        {
+            "key": "PushShare15",
+            "name": "🔞我的资源分享15",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.15.txt$$$$$1"
+        },
+        {
+            "key": "PushShare16",
+            "name": "🔞我的资源分享16",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.16.txt$$$$$1"
+        },
+        {
+            "key": "PushShare17",
+            "name": "🔞我的资源分享17",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.17.txt$$$$$1"
+        },
+        {
+            "key": "PushShare18",
+            "name": "🔞我的资源分享18",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.18.txt$$$$$1"
+        },
+        {
+            "key": "PushShare19",
+            "name": "🔞我的资源分享19",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.19.txt$$$$$1"
+        },
+        {
+            "key": "PushShare20",
+            "name": "🔞我的资源分享20",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.20.txt$$$$$1"
+        },
+        {
+            "key": "PushShare21",
+            "name": "🔞我的资源分享21",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.21.txt$$$$$1"
+        },
+        {
+            "key": "PushShare22",
+            "name": "🔞我的资源分享22",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.22.txt$$$$$1"
+        },
+        {
+            "key": "PushShare23",
+            "name": "🔞我的资源分享23",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.23.txt$$$$$1"
+        },
+        {
+            "key": "PushShare24",
+            "name": "🔞我的资源分享24",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.24.txt$$$$$1"
+        },
+        {
+            "key": "PushShare25",
+            "name": "🔞我的资源分享25",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.25.txt$$$$$1"
+        },
+        {
+            "key": "PushShare26",
+            "name": "🔞我的资源分享26",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.26.txt$$$$$1"
+        },
+        {
+            "key": "PushShare27",
+            "name": "🔞我的资源分享27",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.27.txt$$$$$1"
+        },
+        {
+            "key": "PushShare28",
+            "name": "🔞我的资源分享28",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.28.txt$$$$$1"
+        },
+        {
+            "key": "PushShare29",
+            "name": "🔞我的资源分享29",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.29.txt$$$$$1"
+        },
+        {
+            "key": "PushShare30",
+            "name": "🔞我的资源分享30",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.30.txt$$$$$1"
+        },
+        {
+            "key": "PushShare31",
+            "name": "🔞我的资源分享31",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.31.txt$$$$$1"
+        },
+        {
+            "key": "PushShare32",
+            "name": "🔞我的资源分享32",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.32.txt$$$$$1"
+        },
+        {
+            "key": "PushShare33",
+            "name": "🔞我的资源分享33",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.33.txt$$$$$1"
+        },
+        {
+            "key": "PushShare34",
+            "name": "🔞我的资源分享34",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.34.txt$$$$$1"
+        },
+        {
+            "key": "PushShare35",
+            "name": "🔞我的资源分享35",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.35.txt$$$$$1"
+        },
+        {
+            "key": "PushShare36",
+            "name": "🔞我的资源分享36",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.36.txt$$$$$1"
+        },
+        {
+            "key": "PushShare37",
+            "name": "🔞我的资源分享37",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.37.txt$$$$$1"
+        },
+        {
+            "key": "PushShare38",
+            "name": "🔞我的资源分享38",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.38.txt$$$$$1"
+        },
+        {
+            "key": "PushShare39",
+            "name": "🔞我的资源分享39",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.39.txt$$$$$1"
+        },
+        {
+            "key": "PushShare40",
+            "name": "🔞我的资源分享40",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.40.txt$$$$$1"
+        },
+        {
+            "key": "PushShare41",
+            "name": "🔞我的资源分享41",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.41.txt$$$$$1"
+        },
+        {
+            "key": "PushShare42",
+            "name": "🔞我的资源分享42",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.42.txt$$$$$1"
+        },
+        {
+            "key": "PushShare43",
+            "name": "🔞我的资源分享43",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.43.txt$$$$$1"
+        },
+        {
+            "key": "PushShare44",
+            "name": "🔞我的资源分享44",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.44.txt$$$$$1"
+        },
+        {
+            "key": "PushShare45",
+            "name": "🔞我的资源分享45",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.45.txt$$$$$1"
+        },
+        {
+            "key": "PushShare46",
+            "name": "🔞我的资源分享46",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.46.txt$$$$$1"
+        },
+        {
+            "key": "PushShare47",
+            "name": "🔞我的资源分享47",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.47.txt$$$$$1"
+        },
+        {
+            "key": "PushShare48",
+            "name": "🔞我的资源分享48",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.48.txt$$$$$1"
+        },
+        {
+            "key": "PushShare49",
+            "name": "🔞我的资源分享49",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.49.txt$$$$$1"
+        },
+        {
+            "key": "PushShare50",
+            "name": "🔞我的资源分享50",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.50.txt$$$$$1"
+        },
+        {
+            "key": "PushShare51",
+            "name": "🔞我的资源分享51",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.51.txt$$$$$1"
+        },
+        {
+            "key": "PushShare52",
+            "name": "🔞我的资源分享52",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.52.txt$$$$$1"
+        },
+        {
+            "key": "PushShare53",
+            "name": "🔞我的资源分享53",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.53.txt$$$$$1"
+        },
+        {
+            "key": "PushShare54",
+            "name": "🔞我的资源分享54",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.54.txt$$$$$1"
+        },
+        {
+            "key": "PushShare55",
+            "name": "🔞我的资源分享55",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.55.txt$$$$$1"
+        },
+        {
+            "key": "PushShare56",
+            "name": "🔞我的资源分享56",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.56.txt$$$$$1"
+        },
+        {
+            "key": "PushShare57",
+            "name": "🔞我的资源分享57",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.57.txt$$$$$1"
+        },
+        {
+            "key": "PushShare58",
+            "name": "🔞我的资源分享58",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.58.txt$$$$$1"
+        },
+        {
+            "key": "PushShare59",
+            "name": "🔞我的资源分享59",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.59.txt$$$$$1"
+        },
+        {
+            "key": "PushShare60",
+            "name": "🔞我的资源分享60",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.60.txt$$$$$1"
+        },
+        {
+            "key": "PushShare61",
+            "name": "🔞我的资源分享61",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.61.txt$$$$$1"
+        },
+        {
+            "key": "PushShare62",
+            "name": "🔞我的资源分享62",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.62.txt$$$$$1"
+        },
+        {
+            "key": "PushShare63",
+            "name": "🔞我的资源分享63",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.63.txt$$$$$1"
+        },
+        {
+            "key": "PushShare64",
+            "name": "🔞我的资源分享64",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.64.txt$$$$$1"
+        },
+        {
+            "key": "PushShare65",
+            "name": "🔞我的资源分享65",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.65.txt$$$$$1"
+        },
+        {
+            "key": "PushShare66",
+            "name": "🔞我的资源分享66",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.66.txt$$$$$1"
+        },
+        {
+            "key": "PushShare67",
+            "name": "🔞我的资源分享67",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.67.txt$$$$$1"
+        },
+        {
+            "key": "PushShare68",
+            "name": "🔞我的资源分享68",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.68.txt$$$$$1"
+        },
+        {
+            "key": "PushShare69",
+            "name": "🔞我的资源分享69",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.69.txt$$$$$1"
+        },
+        {
+            "key": "PushShare70",
+            "name": "🔞我的资源分享70",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.70.txt$$$$$1"
+        },
+        {
+            "key": "PushShare71",
+            "name": "🔞我的资源分享71",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.71.txt$$$$$1"
+        },
+        {
+            "key": "PushShare72",
+            "name": "🔞我的资源分享72",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.72.txt$$$$$1"
+        },
+        {
+            "key": "PushShare73",
+            "name": "🔞我的资源分享73",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.73.txt$$$$$1"
+        },
+        {
+            "key": "PushShare74",
+            "name": "🔞我的资源分享74",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.74.txt$$$$$1"
+        },
+        {
+            "key": "PushShare75",
+            "name": "🔞我的资源分享75",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.75.txt$$$$$1"
+        },
+        {
+            "key": "PushShare76",
+            "name": "🔞我的资源分享76",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.76.txt$$$$$1"
+        },
+        {
+            "key": "PushShare77",
+            "name": "🔞我的资源分享77",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.77.txt$$$$$1"
+        },
+        {
+            "key": "PushShare78",
+            "name": "🔞我的资源分享78",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.78.txt$$$$$1"
+        },
+        {
+            "key": "PushShare79",
+            "name": "🔞我的资源分享79",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.79.txt$$$$$1"
+        },
+        {
+            "key": "PushShare80",
+            "name": "🔞我的资源分享80",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.80.txt$$$$$1"
+        },
+        {
+            "key": "PushShare81",
+            "name": "🔞我的资源分享81",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.81.txt$$$$$1"
+        },
+        {
+            "key": "PushShare82",
+            "name": "🔞我的资源分享82",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.82.txt$$$$$1"
+        },
+        {
+            "key": "PushShare83",
+            "name": "🔞我的资源分享83",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.83.txt$$$$$1"
+        },
+        {
+            "key": "PushShare84",
+            "name": "🔞我的资源分享84",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.84.txt$$$$$1"
+        },
+        {
+            "key": "PushShare85",
+            "name": "🔞我的资源分享85",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.85.txt$$$$$1"
+        },
+        {
+            "key": "PushShare86",
+            "name": "🔞我的资源分享86",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.86.txt$$$$$1"
+        },
+        {
+            "key": "PushShare87",
+            "name": "🔞我的资源分享87",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.87.txt$$$$$1"
+        },
+        {
+            "key": "PushShare88",
+            "name": "🔞我的资源分享88",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.88.txt$$$$$1"
+        },
+        {
+            "key": "PushShare89",
+            "name": "🔞我的资源分享89",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.89.txt$$$$$1"
+        },
+        {
+            "key": "PushShare90",
+            "name": "🔞我的资源分享90",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.90.txt$$$$$1"
+        },
+        {
+            "key": "PushShare91",
+            "name": "🔞我的资源分享91",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.91.txt$$$$$1"
+        },
+        {
+            "key": "PushShare92",
+            "name": "🔞我的资源分享92",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.92.txt$$$$$1"
+        },
+        {
+            "key": "PushShare93",
+            "name": "🔞我的资源分享93",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.93.txt$$$$$1"
+        },
+        {
+            "key": "PushShare94",
+            "name": "🔞我的资源分享94",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.94.txt$$$$$1"
+        },
+        {
+            "key": "PushShare95",
+            "name": "🔞我的资源分享95",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.95.txt$$$$$1"
+        },
+        {
+            "key": "PushShare96",
+            "name": "🔞我的资源分享96",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.96.txt$$$$$1"
+        },
+        {
+            "key": "PushShare97",
+            "name": "🔞我的资源分享97",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.97.txt$$$$$1"
+        },
+        {
+            "key": "PushShare98",
+            "name": "🔞我的资源分享98",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.98.txt$$$$$1"
+        },
+        {
+            "key": "PushShare99",
+            "name": "🔞我的资源分享99",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.99.txt$$$$$1"
+        },
+        {
+            "key": "PushShare100",
+            "name": "🔞我的资源分享100",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.100.txt$$$$$1"
+        },
+        {
+            "key": "PushShare101",
+            "name": "🔞我的资源分享101",
+            "type": 3,
+            "api": "csp_PushShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 0,
+            "timeout": 60,
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.101.txt$$$$$1"
+        },
+       {
+
+            "key": "PushShare101",
+
+            "name": "🔞我的资源分享101",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.101.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare102",
+
+            "name": "🔞我的资源分享102",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.102.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare103",
+
+            "name": "🔞我的资源分享103",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.103.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare104",
+
+            "name": "🔞我的资源分享104",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.104.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare105",
+
+            "name": "🔞我的资源分享105",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.105.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare106",
+
+            "name": "🔞我的资源分享106",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.106.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare107",
+
+            "name": "🔞我的资源分享107",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.107.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare108",
+
+            "name": "🔞我的资源分享108",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.108.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare109",
+
+            "name": "🔞我的资源分享109",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.109.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare110",
+
+            "name": "🔞我的资源分享110",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.110.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare111",
+
+            "name": "🔞我的资源分享111",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.111.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare112",
+
+            "name": "🔞我的资源分享112",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.112.txt$$$$$1"
+
+        },
+
+        {
+
+            "key": "PushShare113",
+
+            "name": "🔞我的资源分享113",
+
+            "type": 3,
+
+            "api": "csp_PushShare",
+
+            "searchable": 1,
+
+            "quickSearch": 1,
+
+            "changeable": 1,
+
+            "filterable": 0,
+
+            "timeout": 60,
+
+            "ext": "./lib/tokenm.json$$$./lib/pushshare.113.txt$$$$$1"
+
+        },
+
+        
+
+            
+
+ 
+    {
+      "key": "*KK写真资源",
+      "name": "*KK写真资源",
+      "type": 1,
+      "api": "https://kkzy.me/api.php/provide/vod/",
+      "searchable": 0,
+      "quickSearch": 0
+    },
+	  
+    {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "changeable": 0
+    }
+  ],
+  "rules": [
+    {
+      "name": "量子廣告",
+      "hosts": [
+        "vip.lz",
+        "hd.lz"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+      ]
+    },
+    {
+      "name": "非凡廣告",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+      ]
+    }
+  ]
+}

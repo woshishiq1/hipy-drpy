@@ -68,32 +68,10 @@
 			"changeable": 1
 		},
 		{
-			"key": "界影视_js",
-			"name": "界影视JS",
-			"type": 3,
-			"api": "./js/界影视.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
 			"key": "金牌影院_js",
 			"name": "金牌影院JS",
 			"type": 3,
 			"api": "./js/金牌影院.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "Emby_js",
-			"name": "EmbyJS",
-			"type": 3,
-			"api": "./js/Emby.js",
 			"style": {
 				"type": "rect",
 				"ratio": 1.33
@@ -109,13 +87,6 @@
 				"type": "rect",
 				"ratio": 1.33
 			},
-			"changeable": 1
-		},
-		{
-			"key": "xiaoya-emby_js",
-			"name": "xiaoya-embyJS",
-			"type": 3,
-			"api": "./js/xiaoya-emby.js",
 			"changeable": 1
 		},
 		{
@@ -163,12 +134,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "旺旺短剧",
-			"name": "旺旺短剧",
-			"type": 1,
-			"api": "http://zhangqun66.com/ww.php"
-		},
-		{
 			"key": "看球",
 			"name": "看球",
 			"type": 3,
@@ -191,33 +156,10 @@
 			"changeable": 1
 		},
 		{
-			"key": "荐片采集",
-			"name": "荐片采集",
-			"type": 1,
-			"api": "http://zhangqun66.com/jianpian1.php",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
 			"key": "哔哩",
 			"name": "哔哩哔哩",
 			"type": 3,
 			"api": "csp_Bilibili",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "爱瓜TV",
-			"name": "爱瓜TV",
-			"type": 4,
-			"api": "http://zhangqun66.com/aigua.php",
-			"searchable": 1,
 			"style": {
 				"type": "rect",
 				"ratio": 1.33
@@ -230,17 +172,6 @@
 			"type": 4,
 			"api": "http://139.185.42.4:14888/TV/lives.php",
 			"searchable": 1,
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "jable",
-			"name": "JableFQ+",
-			"type": 3,
-			"api": "csp_Jable",
 			"style": {
 				"type": "rect",
 				"ratio": 1.33
@@ -344,13 +275,6 @@
 			"playerType": 2,
 			"url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true",
 			"ua": "bingcha/1.1 (mianfeifenxiang) "
-		},
-		{
-			"name": "央视频",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/ysp.m3u",
-			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-			"logo": "http://diyp5.112114.xyz/{name}.png",
-			"ua": "okhttp/5.0.0-alpha.14"
 		},
 		{
 			"name": "Sports",

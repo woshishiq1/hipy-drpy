@@ -540,15 +540,6 @@
             "filterable": 1
         },
         {
-            "key": "二三",
-            "name": "🍊二三影视",
-            "type": 3,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "http://a.cfys.xn--fiqs8s"
-            }
-        },
-        {
             "key": "金牌影视",
             "name": "🏅金牌影视",
             "type": 3,
@@ -1153,18 +1144,6 @@
             }
         },
         {
-            "key": "莱米",
-            "name": "🍙莱米影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "http://laiget-1313189639.cos.ap-guangzhou.myqcloud.com/laimi.txt",
-                "dataKey": "ce032244d093b3e2",
-                "dataIv": "ce032244d093b3e2"
-            }
-        },
-        {
             "key": "灵虎",
             "name": "🐅灵虎影视",
             "type": 3,
@@ -1322,30 +1301,6 @@
             }
         },
         {
-            "key": "坚果",
-            "name": "🍊坚果影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt",
-                "dataKey": "2015692015692015",
-                "dataIv": "2015692015692015"
-            }
-        },
-        {
-            "key": "星空2",
-            "name": "🍊星空影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://xkcms.xkgzs.xyz",
-                "dataKey": "AJcdjkAjkdJDkvcd",
-                "dataIv": "AJcdjkAjkdJDkvcd"
-            }
-        },
-        {
             "key": "数字",
             "name": "♾️数字影视",
             "type": 3,
@@ -1371,19 +1326,6 @@
             }
         },
         {
-            "key": "爱看",
-            "name": "🍊爱看影视",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://wiffxm.cn",
-                "dataKey": "AvwBFPUtGTEYPbY4",
-                "dataIv": "AvwBFPUtGTEYPbY4"
-            }
-        },
-        {
             "key": "八天",
             "name": "🍵八天影视",
             "type": 3,
@@ -1405,19 +1347,6 @@
                 "url": "http://www.zjcvod.com",
                 "dataKey": "ab4e9a421675f14b",
                 "dataIv": "ab4e9a421675f14b"
-            }
-        },
-        {
-            "key": "星星",
-            "name": "🌟星星影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://starani.qcanime.xyz",
-                "dataKey": "123456789StarAni",
-                "dataIv": "123456789StarAni",
-                "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
             }
         },
         {
@@ -1678,19 +1607,6 @@
             }
         },
         {
-            "key": "椰子",
-            "name": "🍊椰子影视",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://103.109.20.117:6699",
-                "dataKey": "xxm9N4P9rS2zjdyz",
-                "dataIv": "xxm9N4P9rS2zjdyz"
-            }
-        },
-        {
             "key": "剧猫",
             "name": "🐈剧猫影视",
             "type": 3,
@@ -1730,19 +1646,6 @@
             }
         },
         {
-            "key": "麻花",
-            "name": "🌯麻花影视1",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://49.235.114.19:150",
-                "dataKey": "q7gj4f9br3fls6nh",
-                "dataIv": "q7gj4f9br3fls6nh"
-            }
-        },
-        {
             "key": "冷心",
             "name": "🍊冷心影视",
             "type": 3,
@@ -1751,17 +1654,6 @@
                 "url": "https://dy.58ys.vip",
                 "dataKey": "JEWibY1AgWF0V1xx",
                 "dataIv": "JEWibY1AgWF0V1xx"
-            }
-        },
-        {
-            "key": "火猫",
-            "name": "🐱火猫1080P",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://103.23.148.70:14500",
-                "dataKey": "J6AIORKJ3PQOJKM8",
-                "dataIv": "J6AIORKJ3PQOJKM8"
             }
         },
         {

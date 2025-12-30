@@ -1,0 +1,677 @@
+{
+  "novelConfigList": [
+    {
+      "bookSourceUrl": "https://www.jjmhw2.top",
+      "bookSourceType": "1",
+      "bookSourceName": "漫小肆",
+      "bookSourceGroup": "lemon",
+      "bookSourceComment": "",
+      "loginUrl": "",
+      "bookUrlPattern": "",
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "searchUrl": "https://www.jjmhw2.top/search?keyword={keywords}",
+      "exploreUrl": [
+        {
+          "title": "首页",
+          "url": "/booklist?page={{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "性感",
+          "url": "/booklist?page={{page}}&tag=性感&area=-1&end=-1",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "长腿",
+          "url": "/booklist?page={{page}}&tag=长腿&area=-1&end=-1",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "巨乳",
+          "url": "/booklist?page={{page}}&tag=巨乳&area=-1&end=-1",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "调教",
+          "url": "/booklist?page={{page}}&tag=调教&area=-1&end=-1",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "同居",
+          "url": "/booklist?page={{page}}&tag=同居&area=-1&end=-1",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "淫乱",
+          "url": "/booklist?page={{page}}&tag=淫乱&area=-1&end=-1"
+        },
+        {
+          "title": "偷情",
+          "url": "/booklist?page={{page}}&tag=偷情&area=-1&end=-1"
+        },
+        {
+          "title": "出轨",
+          "url": "/booklist?page={{page}}&tag=出轨&area=-1&end=-1"
+        },
+        {
+          "title": "正妹",
+          "url": "/booklist?page={{page}}&tag=正妹&area=-1&end=-1"
+        },
+        {
+          "title": "御姐",
+          "url": "/booklist?page={{page}}&tag=御姐&area=-1&end=-1"
+        },
+        {
+          "title": "完结",
+          "url": "/booklist?page={{page}}&tag=全部&area=-1&end=1"
+        },
+        {
+          "title": "连载",
+          "url": "/booklist?page={{page}}&tag=全部&area=-1&end=0"
+        }
+      ],
+      "enabled": true,
+      "enabledExplore": true,
+      "weight": 0,
+      "customOrder": 0,
+      "lastUpdateTime": 1619883443705,
+      "ruleHome": {
+        "bookList": "ul.mh-list li",
+        "name": "div.mh-item-detali h2.title a@text",
+        "bookUrl": "div.mh-item-detali h2.title a@href",
+        "coverUrl": "div.mh-item p.mh-cover@style",
+        "intro": "div.mh-item-detali p.chapter@text",
+        "kind": "",
+        "lastChapter": "",
+        "wordCount": ""
+      },
+      "ruleSearch": {
+        "bookList": "ul.mh-list li",
+        "name": "div.mh-item-detali h2.title a@text",
+        "author": "",
+        "intro": "",
+        "bookUrl": "div.mh-item-detali h2.title a@href",
+        "urlSuffix": "",
+        "coverUrl": "div.mh-item p.mh-cover@style"
+      },
+      "ruleExplore": {
+        "loadMoreType": 1,
+        "loadMoreFun": "document.querySelector('#detail-list-more')?.click();"
+      },
+      "ruleBookInfo": {
+        "name": "div.info h1@text",
+        "author": "",
+        "kind": "div.info p.tip span.block.ticai a@text",
+        "lastChapter": "div.info .bottom a.btn-2@href",
+        "intro": "div.info p.content@text",
+        "coverUrl": "div.cover img@src"
+      },
+      "ruleToc": {
+        "needReversed": false,
+        "chapterList": "#detail-list-select li",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+      },
+      "ruleContent": {
+        "content": "#content .comicpage img@data-original",
+        "replaceRegex": "",
+        "title": ""
+      }
+    },
+    {
+      "bookSourceUrl": "https://www.mhua5.com",
+      "bookSourceType": "1",
+      "bookSourceName": "漫画屋",
+      "bookSourceGroup": "lemon",
+      "bookSourceComment": "",
+      "loginUrl": "",
+      "bookUrlPattern": "",
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "searchUrl": "https://www.mhua5.com/index.php/search?key={keywords}",
+      "exploreUrl": [
+        {
+          "title": "首页",
+          "url": "/index.php/category/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "国漫",
+          "url": "/index.php/category/city/42/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "日漫",
+          "url": "/index.php/category/city/45/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "韩漫",
+          "url": "/index.php/category/city/44/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "热血",
+          "url": "/index.php/category/tags/6/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "穿越",
+          "url": "/index.php/category/tags/14/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "玄幻",
+          "url": "/index.php/category/tags/10/page/{{page}}"
+        },
+        {
+          "title": "异能",
+          "url": "/index.php/category/tags/59/page/{{page}}"
+        },
+        {
+          "title": "恋爱",
+          "url": "/index.php/category/tags/17/page/{{page}}"
+        },
+        {
+          "title": "修真",
+          "url": "/index.php/category/tags/12/page/{{page}}"
+        },
+        {
+          "title": "纯爱",
+          "url": "/index.php/category/tags/51/page/{{page}}"
+        },
+        {
+          "title": "悬疑",
+          "url": "/index.php/category/tags/18/page/{{page}}"
+        },
+        {
+          "title": "奇幻",
+          "url": "/index.php/category/tags/53/page/{{page}}"
+        },
+        {
+          "title": "武侠",
+          "url": "/index.php/category/tags/58/page/{{page}}"
+        },
+        {
+          "title": "连载",
+          "url": "/index.php/category/finish/1/page/{{page}}"
+        },
+        {
+          "title": "完结",
+          "url": "/index.php/category/finish/2/page/{{page}}"
+        }
+      ],
+      "enabled": true,
+      "enabledExplore": true,
+      "weight": 0,
+      "customOrder": 0,
+      "lastUpdateTime": 1619883443705,
+      "ruleHome": {
+        "bookList": "div.cate-comic-list.clearfix .common-comic-item",
+        "name": "p.comic__title a@text",
+        "bookUrl": "p.comic__title a@href",
+        "author": "",
+        "coverUrl": "a.cover img@data-original",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "wordCount": ""
+      },
+      "ruleSearch": {
+        "bookList": ".common-comic-item",
+        "name": "p.comic__title a@text",
+        "author": "",
+        "intro": "p.comic-feature@text",
+        "bookUrl": "p.comic__title a@href",
+        "urlSuffix": "",
+        "coverUrl": "img@data-original"
+      },
+      "ruleExplore": {
+        "loadMoreType": 1,
+        "loadMoreFun": "document.querySelector('.chapter__more a .down')?.click();"
+      },
+      "ruleBookInfo": {
+        "name": "p.comic-title.j-comic-title@text",
+        "author": "div.comic-author span.name a@text",
+        "kind": "div.comic-status span.text b a@text",
+        "lastChapter": "#lastchap",
+        "intro": "div.comic-intro p.intro-total@text",
+        "coverUrl": "div.de-info__cover img@src"
+      },
+      "ruleToc": {
+        "needReversed": true,
+        "chapterList": "div.chapter__list ul.chapter__list-box li.j-chapter-item",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+      },
+      "ruleContent": {
+        "content": "div.rd-article__pic img@data-original",
+        "replaceRegex": "",
+        "title": ""
+      }
+    },
+    {
+      "bookSourceUrl": "https://manhuafree.com",
+      "bookSourceType": "1",
+      "bookSourceName": "GoDa漫画",
+      "bookSourceGroup": "lemon",
+      "bookSourceComment": "",
+      "loginUrl": "",
+      "bookUrlPattern": "",
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "searchUrl": "https://manhuafree.com/s/{keywords}?page=1",
+      "exploreUrl": [
+        {
+          "title": "首页",
+          "url": "/",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "国漫",
+          "url": "/manga-genre/cn/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "日漫",
+          "url": "/manga-genre/jp/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "韩漫",
+          "url": "/manga-genre/kr/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "穿越",
+          "url": "/manga-tag/chuanyue/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "奇幻",
+          "url": "/manga-tag/qihuan/page/{{page}}"
+        },
+        {
+          "title": "异能",
+          "url": "/manga-tag/yineng/page/{{page}}"
+        },
+        {
+          "title": "恋爱",
+          "url": "/manga-tag/lianai/page/{{page}}"
+        },
+        {
+          "title": "修仙",
+          "url": "/manga-tag/xiuxian/page/{{page}}"
+        },
+        {
+          "title": "系统",
+          "url": "/manga-tag/xitong/page/{{page}}"
+        },
+        {
+          "title": "复仇",
+          "url": "/manga-tag/fuchou/page/{{page}}"
+        },
+        {
+          "title": "玄幻",
+          "url": "/manga-tag/xuanhuan/page/{{page}}"
+        },
+        {
+          "title": "热血",
+          "url": "/manga-tag/rexue/page/{{page}}"
+        },
+        {
+          "title": "大女主",
+          "url": "/manga-tag/danvzhu/page/{{page}}"
+        }
+      ],
+      "enabled": true,
+      "enabledExplore": true,
+      "weight": 0,
+      "customOrder": 0,
+      "lastUpdateTime": 1619883443705,
+      "ruleHome": {
+        "bookList": "div.cardlist > div",
+        "name": "h3.cardtitle",
+        "bookUrl": "a@href",
+        "author": "",
+        "coverUrl": "img.card@src",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "",
+        "wordCount": ""
+      },
+      "ruleSearch": {
+        "bookList": ".pb-2",
+        "name": "h3.cardtitle@text",
+        "author": "",
+        "intro": "",
+        "bookUrl": "a@href",
+        "urlSuffix": "",
+        "coverUrl": "img@src"
+      },
+      "ruleExplore": {
+        "loadMoreType": 3,
+        "loadMoreFun": "https://manhuafree.com/chapterlist/{bookid}"
+      },
+      "ruleBookInfo": {
+        "name": "h1",
+        "author": "div.text-small a span",
+        "kind": "div.text-sm a span",
+        "lastChapter": "#lastchap",
+        "intro": "p.text-medium",
+        "coverUrl": "div.aspect-3-4 > img@src"
+      },
+      "ruleToc": {
+        "needReversed": true,
+        "chapterList": ".chapteritem",
+        "chapterName": ".chaptertitle@text",
+        "chapterUrl": "a@href"
+      },
+      "ruleContent": {
+        "content": "#chapcontent img",
+        "replaceRegex": "",
+        "title": ""
+      }
+    },
+    {
+      "bookSourceUrl": "https://www.fengchemh.com",
+      "bookSourceType": "1",
+      "bookSourceName": "风车漫画",
+      "bookSourceGroup": "lemon",
+      "bookSourceComment": "",
+      "loginUrl": "",
+      "bookUrlPattern": "",
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "searchUrl": "https://www.fengchemh.com/search?key={keywords}",
+      "exploreUrl": [
+        {
+          "title": "首页",
+          "url": "/",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "原创",
+          "url": "/category/list/1/tags/531/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "偶像",
+          "url": "/category/list/1/tags/533/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "青春",
+          "url": "/category/list/1/tags/539/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "穿越",
+          "url": "/category/list/1/tags/556/page/{{page}}",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "奇幻",
+          "url": "/category/list/1/tags/565/page/{{page}}"
+        },
+        {
+          "title": "异能",
+          "url": "/category/list/1/tags/577/page/{{page}}"
+        },
+        {
+          "title": "恋爱",
+          "url": "/category/list/1/tags/542/page/{{page}}"
+        },
+        {
+          "title": "修仙",
+          "url": "/category/list/1/tags/598/page/{{page}}"
+        },
+        {
+          "title": "系统",
+          "url": "/category/list/1/tags/586/page/{{page}}"
+        },
+        {
+          "title": "武侠",
+          "url": "/category/list/1/tags/590/page/{{page}}"
+        },
+        {
+          "title": "末日",
+          "url": "/category/list/1/tags/600/page/{{page}}"
+        },
+        {
+          "title": "体育",
+          "url": "/category/list/1/tags/616/page/{{page}}"
+        },
+        {
+          "title": "修真",
+          "url": "/category/list/1/tags/617/page/{{page}}"
+        }
+      ],
+      "enabled": true,
+      "enabledExplore": true,
+      "weight": 0,
+      "customOrder": 0,
+      "lastUpdateTime": 1619883443705,
+      "ruleHome": {
+        "bookList": "li.col-xs-4.col-md-3.col-lg-2",
+        "name": "div.name h3 a",
+        "bookUrl": "div.name h3 a@href",
+        "author": "",
+        "coverUrl": "div.pic div.img-wrapper@data-original",
+        "intro": "",
+        "kind": "",
+        "lastChapter": "div.name p.item-status",
+        "wordCount": ""
+      },
+      "ruleSearch": {
+        "bookList": ".pb-2",
+        "name": "h3.cardtitle@text",
+        "author": "",
+        "intro": "",
+        "bookUrl": "a@href",
+        "urlSuffix": "",
+        "coverUrl": "img@src"
+      },
+      "ruleExplore": {
+        "loadMoreType": 4,
+        "loadMoreFun": ""
+      },
+      "ruleBookInfo": {
+        "name": "div.info h1 a",
+        "author": "span.col-xs-12.col-sm-6.col-md-4.text-overflow",
+        "kind": "span.col-xs-12.col-sm-6.col-md-12.text-overflow a",
+        "lastChapter": "span.col-xs-12:not(.col-sm-6):not(.col-md-12) a",
+        "intro": "div.more-box p",
+        "coverUrl": "div.pic img@data-original"
+      },
+      "ruleToc": {
+        "needReversed": false,
+        "chapterList": "#ewave-playlist-1 li",
+        "chapterName": "a.text-overflow@text",
+        "chapterUrl": "a@href"
+      },
+      "ruleContent": {
+        "content": "div.more-box li img@data-src",
+        "replaceRegex": "",
+        "title": ""
+      }
+    },
+    {
+      "bookSourceUrl": "https://www.baozimh.com",
+      "bookSourceType": "1",
+      "bookSourceName": "包子漫画",
+      "bookSourceGroup": "lemon",
+      "bookSourceComment": "",
+      "loginUrl": "",
+      "bookUrlPattern": "",
+      "header": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+      "searchUrl": "https://www.baozimh.com/search?q={keywords}",
+      "detailUrl": "https://www.baozimh.com/comic/{{comic_id}}",
+      "exploreUrl": [
+        {
+          "title": "首页",
+          "url": "/api/bzmhq/amp_comic_list?type=all&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "古风",
+          "url": "/api/bzmhq/amp_comic_list?type=gufeng&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "科幻",
+          "url": "/api/bzmhq/amp_comic_list?type=kehuan&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "悬疑",
+          "url": "/api/bzmhq/amp_comic_list?type=xuanyi&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "穿越",
+          "url": "/api/bzmhq/amp_comic_list?type=chuanyue&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn",
+          "style": {
+            "layout_wrapBefore": true
+          }
+        },
+        {
+          "title": "奇幻",
+          "url": "/api/bzmhq/amp_comic_list?type=qihuan&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn"
+        },
+        {
+          "title": "异能",
+          "url": "/api/bzmhq/amp_comic_list?type=yineng&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn"
+        },
+        {
+          "title": "恋爱",
+          "url": "/api/bzmhq/amp_comic_list?type=lianai&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn"
+        },
+        {
+          "title": "剧情",
+          "url": "/api/bzmhq/amp_comic_list?type=juqing&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn"
+        },
+        {
+          "title": "搞笑",
+          "url": "/api/bzmhq/amp_comic_list?type=gaoxiao&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn"
+        },
+        {
+          "title": "武侠",
+          "url": "/api/bzmhq/amp_comic_list?type=wuxia&region=all&state=all&filter=*&page={{page}}&limit=21&language=cn"
+        },
+        {
+          "title": "韩漫",
+          "url": "/api/bzmhq/amp_comic_list?type=all&region=kr&state=all&filter=*&page={{page}}&limit=21&language=cn"
+        },
+        {
+          "title": "日漫",
+          "url": "/api/bzmhq/amp_comic_list?type=all&region=jp&state=all&filter=*&page={{page}}&limit=21&language=cn"
+        },
+        {
+          "title": "欧美",
+          "url": "/api/bzmhq/amp_comic_list?type=all&region=en&state=all&filter=*&page={{page}}&limit=21&language=cn"
+        }
+      ],
+      "enabled": true,
+      "enabledExplore": true,
+      "weight": 0,
+      "customOrder": 0,
+      "lastUpdateTime": 1619883443705,
+      "ruleHome": {
+        "bookList": "json",
+        "name": "name",
+        "bookUrl": "comic_id&&/comic/",
+        "author": "https://static-tw.baozimh.com/cover/{{topic_img}}?w=285&h=375&q=100",
+        "coverUrl": "topic_img",
+        "intro": "items",
+        "kind": "",
+        "lastChapter": "div.name p.item-status",
+        "wordCount": ""
+      },
+      "ruleSearch": {
+        "bookList": ".comics-card",
+        "name": "h3.text-truncate@text",
+        "author": "small.tags@text",
+        "intro": "",
+        "bookUrl": "a.comics-card__poster@href",
+        "urlSuffix": "",
+        "coverUrl": "amp-img@src"
+      },
+      "ruleExplore": {
+        "loadMoreType": 4,
+        "loadMoreFun": "document.querySelector('#button_show_all_chatper')?.click();"
+      },
+      "ruleBookInfo": {
+        "name": "h1.comics-detail__title",
+        "author": "h2.comics-detail__author",
+        "kind": "div.tag-list span.tag",
+        "lastChapter": "div.supporting-text a",
+        "intro": "p.comics-detail__desc",
+        "coverUrl": "amp-img@src"
+      },
+      "ruleToc": {
+        "needReversed": false,
+        "chapterList": "#chapter-items .comics-chapters, #chapters_other_list .comics-chapters",
+        "chapterName": "a.comics-chapters__item div span@text",
+        "chapterUrl": "a.comics-chapters__item@href"
+      },
+      "ruleContent": {
+        "content": "div.chapter-main amp-img,img@data-src",
+        "replaceRegex": "",
+        "title": ""
+      }
+    }
+  ]
+}
+
+
+

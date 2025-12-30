@@ -12,52 +12,6 @@
 			"changeable": 0
 		},
 		{
-			"key": "139fm多分类",
-			"name": "139fm多分类",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=139fm多分类",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "18",
-			"name": "18",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=18",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "91网爆黑料",
-			"name": "91网爆黑料",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=91网爆黑料",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "DSYS",
-			"name": "DSYS",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=DSYS",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-
-
-		{
 			"key": "UVod",
 			"name": "UVod",
 			"type": 4,
@@ -68,196 +22,6 @@
 			},
 			"changeable": 1
 		},
-		{
-			"key": "cam4",
-			"name": "cam4",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=cam4",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "cctv",
-			"name": "cctv",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=cctv",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "epo",
-			"name": "epo",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=epo",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-
-		{
-			"key": "stripchat",
-			"name": "stripchat",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=stripchat",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "uaa有声",
-			"name": "uaa有声",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=uaa有声",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "一个区",
-			"name": "一个区",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=一个区",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "七区",
-			"name": "七区",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=七区",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "两个BT",
-			"name": "两个BT",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=两个BT",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "九个区",
-			"name": "九个区",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=九个区",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "云云",
-			"name": "云云",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=云云",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "优酷视频",
-			"name": "优酷视频",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=优酷视频",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "八戒影视",
-			"name": "八戒影视",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=八戒影视",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "努努影院",
-			"name": "努努影院",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=努努影院",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "厂长资源",
-			"name": "厂长资源",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=厂长资源",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "哇哇",
-			"name": "哇哇",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=哇哇",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-
-		{
-			"key": "四虎视频",
-			"name": "四虎视频",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=四虎视频",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "国外剧",
-			"name": "国外剧",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=国外剧",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-
 		{
 			"key": "天天动漫",
 			"name": "天天动漫",
@@ -296,40 +60,6 @@
 			"name": "小鸭子看看",
 			"type": 4,
 			"api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "影视工厂",
-			"name": "影视工厂",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=影视工厂",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-
-		{
-			"key": "推特",
-			"name": "推特",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=推特",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "星芽短剧",
-			"name": "星芽短剧",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=星芽短剧",
 			"style": {
 				"type": "rect",
 				"ratio": 1.33
@@ -403,87 +133,10 @@
 			"changeable": 1
 		},
 		{
-			"key": "色播聚合",
-			"name": "色播聚合",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=色播聚合",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
 			"key": "芒果TV",
 			"name": "芒果TV",
 			"type": 4,
 			"api": "http://zhangqun1818.serv00.net:5052/?sp=芒果TV",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "花都影院",
-			"name": "花都影院",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=花都影院",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "葡萄5区",
-			"name": "葡萄5区",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=葡萄5区",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "金牌",
-			"name": "金牌",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=金牌",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "非凡资源.min",
-			"name": "非凡资源.min",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=非凡资源.min",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "韩国BJ",
-			"name": "韩国BJ",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=韩国BJ",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "韩国色情电影",
-			"name": "韩国色情电影",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=韩国色情电影",
 			"style": {
 				"type": "rect",
 				"ratio": 1.33
@@ -502,8 +155,63 @@
 			"changeable": 1
 		},
 		{
+			"key": "91网爆黑料",
+			"name": "🔞91网爆黑料",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net:5052/?sp=91网爆黑料",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "推特",
+			"name": "🔞推特",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net:5052/?sp=推特",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "cam4",
+			"name": "🔞cam4",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net:5052/?sp=cam4",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "花都影院",
+			"name": "🔞花都影院",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net:5052/?sp=花都影院",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
+			"key": "韩国色情电影",
+			"name": "🔞韩国色情电影",
+			"type": 4,
+			"api": "http://zhangqun1818.serv00.net:5052/?sp=韩国色情电影",
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		},
+		{
 			"key": "香蕉视频",
-			"name": "香蕉视频",
+			"name": "🔞香蕉视频",
 			"type": 4,
 			"api": "http://zhangqun1818.serv00.net:5052/?sp=香蕉视频",
 			"style": {

@@ -87,8 +87,14 @@
 			"api": "https://xn--fjq53n.xyz/Ting/yinyue/网易云音乐1.py"
 		},
 		{
+			"key": "YYMP3音乐网",
+			"name": "🎵YYMP3｜音乐",
+			"type": 3,
+			"api": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py/YYMP3音乐网.py"
+		},
+		{
 			"key": "爱玩音乐网",
-			"name": "🎼爱玩┃音乐(l)",
+			"name": "🎼爱玩｜音乐(l)",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 0,
@@ -117,7 +123,7 @@
 		},
 		{
 			"key": "米兔音乐",
-			"name": "🎼米兔┃音乐",
+			"name": "🎼米兔｜音乐",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 0,
@@ -160,7 +166,7 @@
 		},
 		{
 			"key": "悦听音乐网",
-			"name": "🎼悦听┃音乐(l)",
+			"name": "🎼悦听｜音乐(l)",
 			"type": 3,
 			"api": "csp_XBPQ",
 			"searchable": 0,
@@ -187,3 +193,6 @@
 		}
 	]
 }
+
+
+

@@ -42,10 +42,25 @@
       "quickSearch": 0
     },
     {
+      "key": "杏吧资源",
+      "name": "杏吧资源",
+      "type": 0,
+      "api": "https://xingba222.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 0
+    },
+    {
       "key": "*91麻豆",
       "name": "*91麻豆",
       "type": 1,
       "api": "https://91md.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0
+    },{
+      "key": "幸资源",
+      "name": "幸资源",
+      "type": 0,
+      "api": "https://xzybb1.com/api.php/provide/vod/at/xml",
       "searchable": 1,
       "quickSearch": 0
     }

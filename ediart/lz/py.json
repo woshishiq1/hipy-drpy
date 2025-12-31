@@ -1,6 +1,5 @@
 {
-	"spider": "",
-	"wallpaper": "",
+	"wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 	"sites": [{
 			"key": "js_douban",
 			"name": "豆瓣(js)",

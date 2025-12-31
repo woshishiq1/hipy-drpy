@@ -1,5 +1,5 @@
 {
-  "spider": "http://oss4liview.moji.com/thd_file/2025/12/29/32a803c53515f9bb63248226e947b15f.jpg;md5;00ad7f75377a5a34219d2fab9cebbe57",
+  "spider": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -358,6 +358,16 @@
       }
     },
     {
+      "key": "zuiWanQingFeng",
+      "name": "醉挽清风",
+      "type": 4,
+      "api": "http://我不是.摸鱼儿.com/api/yyutx.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+
+    },
+    {
       "key": "🈵 醉挽清风 | 解析",
       "name": "🈵 醉挽清风 | 解析",
       "type": 3,
@@ -709,7 +719,7 @@
     {
       "name": "自定",
       "type": 1,
-      "url": "http://111.92.242.214/jx2.php?url="
+      "url": "http://111.92.242.214/jx.php?url="
 
     },
     {

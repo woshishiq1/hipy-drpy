@@ -484,6 +484,20 @@
 			"ext": ""
 		},
 		{
+            "key": "py_爱瓜(T3)",
+            "name": "py_爱瓜(T3)",
+            "type": 3,
+            "api": "./py/爱瓜.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }   
+        },
+		{
 			"key": "js_youyou",
 			"name": "悠悠视频(T3)",
 			"type": 3,
@@ -972,6 +986,12 @@
 			"name": "== 6 =="
 		},
 		{
+			"key": "py_YYMP3",
+			"name": "YYMP3(T3)",
+			"type": 3,
+			"api": "./py/yymp3.py"
+		},
+		{
 			"key": "hipy_js_KTV歌厅[听]1",
 			"name": "KTV歌厅",
 			"type": 3,
@@ -1055,7 +1075,7 @@
 			"url": "./lib/iptv.m3u"
 		},
 		{
-			"name": "cluntop",
+			"name": "cluntop_test",
 			"type": 0,
 			"url": "./lib/iptv_test.m3u"
 		},
@@ -1065,7 +1085,7 @@
 			"url": "https://gh.clun.top/raw.githubusercontent.com/Mursor/LIVE/main/iptv.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.4.0.0"
+			"ua": "okHttp/Mod-1.5.0.0"
 		},
 		{
 			"name": "tv_jp",
@@ -1096,7 +1116,7 @@
 			"url": "https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/main/huyayqk.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.4.0.0"
+			"ua": "okHttp/Mod-1.5.0.0"
 		},
 		{
 			"name": "肥羊B站直播",
@@ -1104,7 +1124,7 @@
 			"url": "https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/main/bililive.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.4.0.0"
+			"ua": "okHttp/Mod-1.5.0.0"
 		},
 		{
 			"name": "肥羊斗鱼一起看",
@@ -1112,7 +1132,7 @@
 			"url": "https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/main/douyuyqk.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.4.0.0"
+			"ua": "okHttp/Mod-1.5.0.0"
 		},
 		{
 			"name": "肥羊YY轮播",
@@ -1120,7 +1140,7 @@
 			"url": "https://gh.clun.top/raw.githubusercontent.com/mursor1985/LIVE/main/yylunbo.m3u",
 			"playerType": 2,
 			"timeout": 10,
-			"ua": "okHttp/Mod-1.4.0.0"
+			"ua": "okHttp/Mod-1.5.0.0"
 		},
 		{
 			"name": "YTLive",

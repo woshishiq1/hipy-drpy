@@ -2,43 +2,43 @@
 	"urls": [
 		{
 			"name": "4K",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/4K.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/4K.json"
 		},
 		{
 			"name": "潇洒无盘",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/xs.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/xs.json"
 		},
 		{
 			"name": "嗷呜弹幕",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/aowu/config.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/aowu/config.json"
 		},
 		{
 			"name": "潇洒",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/api.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/api.json"
 		},
 		{
 			"name": "音乐",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/music.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/music.json"
 		},
 		{
 			"name": "老张在线",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/api.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/api.json"
 		},
 		{
 			"name": "老张JAR",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/aa.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/aa.json"
 		},
 		{
 			"name": "T4+",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/T4.json"
 		},
 		{
 			"name": "PY本地+",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py.json"
 		},
 		{
 			"name": "PY在线+",
-			"url": "https://gb.hfr1107.top/https://raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py2.json"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/py2.json"
 		}
 	]
 }

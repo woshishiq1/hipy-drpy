@@ -22,7 +22,7 @@
 		},
 		{
 			"key": "好莱坞",
-			"name": "好莱坞",
+			"name": "好莱坞(py)",
 			"type": 3,
 			"api": "./py/好莱坞.py",
 			"searchable": 1,
@@ -32,7 +32,7 @@
 		},
 		{
 			"key": "LIBVIO",
-			"name": "LIBVIO",
+			"name": "LIBVIO(py)",
 			"type": 3,
 			"api": "./py/LIBVIO.py",
 			"searchable": 1,
@@ -62,42 +62,42 @@
 		},
 		{
 			"key": "4KVM",
-			"name": "4KVM",
+			"name": "4KVM(py)",
 			"type": 3,
 			"api": "./py/4KVM.py",
 			"changeable": 1
 		},
 		{
 			"key": "小鸡暴走",
-			"name": "小鸡暴走",
+			"name": "小鸡暴走(py)",
 			"type": 3,
 			"api": "./py/小鸡暴走.py",
 			"changeable": 1
 		},
 		{
 			"key": "河马短剧",
-			"name": "河马短剧",
+			"name": "河马短剧(py)",
 			"type": 3,
 			"api": "./py/河马短剧.py",
 			"changeable": 1
 		},
 		{
 			"key": "芒果TV",
-			"name": "芒果TV",
+			"name": "芒果TV(py)",
 			"type": 3,
 			"api": "./py/芒果TV.py",
 			"changeable": 1
 		},
 		{
 			"key": "八戒影视",
-			"name": "八戒影视",
+			"name": "八戒影视(py)",
 			"type": 3,
 			"api": "./py/八戒影视.py",
 			"changeable": 1
 		},
 		{
 			"key": "企鹅体育",
-			"name": "企鹅体育",
+			"name": "企鹅体育(py)",
 			"type": 3,
 			"searchable": 1,
 			"api": "./py/企鹅体育.py",
@@ -105,203 +105,215 @@
 		},
 		{
 			"key": "麦田影院",
-			"name": "麦田影院",
+			"name": "麦田影院(py)",
 			"type": 3,
 			"api": "./py/麦田影院.py",
 			"changeable": 1
 		},
 		{
 			"key": "山有木兮",
-			"name": "山有木兮",
+			"name": "山有木兮(py)",
 			"type": 3,
 			"api": "./py/山有木兮.py",
 			"changeable": 1
 		},
 		{
 			"key": "哇哇",
-			"name": "哇哇",
+			"name": "哇哇(py)",
 			"type": 3,
 			"api": "./py/哇哇.py",
 			"changeable": 1
 		},
 		{
 			"key": "YYMP3音乐网",
-			"name": "YYMP3音乐网",
+			"name": "YYMP3音乐网(py)",
 			"type": 3,
 			"api": "./py/YYMP3音乐网.py",
 			"changeable": 1
 		},
 		{
 			"key": "bili",
-			"name": "bili",
+			"name": "bili(py)",
 			"type": 3,
 			"api": "./py/bili.py",
 			"changeable": 1
 		},
 		{
 			"key": "随机小姐姐",
-			"name": "随机小姐姐",
+			"name": "随机小姐姐(py)",
 			"type": 3,
 			"api": "./py/随机小姐姐.py",
 			"changeable": 1
 		},
 		{
 			"key": "欣欣影视",
-			"name": "欣欣影视",
+			"name": "欣欣影视(py)",
 			"type": 3,
 			"api": "./py/欣欣影视.py",
 			"changeable": 1
 		},
 		{
 			"key": "土豆浏览器",
-			"name": "土豆浏览器",
+			"name": "土豆浏览器(py)",
 			"type": 3,
 			"api": "./py/土豆浏览器.py",
 			"changeable": 1
 		},
 		{
 			"key": "小红影视",
-			"name": "小红影视",
+			"name": "小红影视(py)",
 			"type": 3,
 			"api": "./py/小红影视.py",
 			"changeable": 1
 		},
 		{
 			"key": "国外剧",
-			"name": "国外剧",
+			"name": "国外剧(py)",
 			"type": 3,
 			"api": "./py/国外剧.py",
 			"changeable": 1
 		},
 		{
 			"key": "优酷视频",
-			"name": "优酷视频",
+			"name": "优酷视频(py)",
 			"type": 3,
 			"api": "./py/优酷视频.py",
 			"changeable": 1
 		},
 		{
 			"key": "剧王短剧",
-			"name": "剧王短剧",
+			"name": "剧王短剧(py)",
 			"type": 3,
 			"api": "./py/剧王短剧.py",
 			"changeable": 1
 		},
 		{
 			"key": "厂长资源",
-			"name": "厂长资源",
+			"name": "厂长资源(py)",
 			"type": 3,
 			"api": "./py/厂长资源.py",
 			"changeable": 1
 		},
 		{
 			"key": "哔哩视频",
-			"name": "哔哩视频",
+			"name": "哔哩视频(py)",
 			"type": 3,
 			"api": "./py/哔哩视频.py",
 			"changeable": 1
 		},
 		{
 			"key": "奇优动漫",
-			"name": "奇优动漫",
+			"name": "奇优动漫(py)",
 			"type": 3,
 			"api": "./py/奇优动漫.py",
 			"changeable": 1
 		},
 		{
 			"key": "永乐视频",
-			"name": "永乐视频",
+			"name": "永乐视频(py)",
 			"type": 3,
 			"api": "./py/永乐视频.py",
 			"changeable": 1
 		},
 		{
 			"key": "星芽短剧",
-			"name": "星芽短剧",
+			"name": "星芽短剧(py)",
 			"type": 3,
 			"api": "./py/星芽短剧.py",
 			"changeable": 1
 		},
 		{
 			"key": "甜圈短剧",
-			"name": "甜圈短剧",
+			"name": "甜圈短剧(py)",
 			"type": 3,
 			"api": "./py/甜圈短剧.py",
 			"changeable": 1
 		},
 		{
 			"key": "电影猎手",
-			"name": "电影猎手",
+			"name": "电影猎手(py)",
 			"type": 3,
 			"api": "./py/电影猎手.py",
 			"changeable": 1
 		},
 		{
 			"key": "界影视",
-			"name": "界影视",
+			"name": "界影视(py)",
 			"type": 3,
 			"api": "./py/界影视.py",
 			"changeable": 1
 		},
 		{
 			"key": "荐片",
-			"name": "荐片",
+			"name": "荐片(py)",
 			"type": 3,
 			"api": "./py/荐片.py",
 			"changeable": 1
 		},
 		{
 			"key": "骚火影视",
-			"name": "骚火影视",
+			"name": "骚火影视(py)",
 			"type": 3,
 			"api": "./py/骚火影视.py",
 			"changeable": 1
 		},
 		{
+            "key": "采集合集py",
+            "name": "采集合集(py)+",
+            "type": 3,
+            "api": "./py/采集合集.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "playerType": 2,
+            "ext": "0"
+        },
+		{
 			"key": "91rb",
-			"name": "🔞91rb",
+			"name": "🔞91rb(py)",
 			"type": 3,
 			"api": "./py/91rb.py",
 			"changeable": 1
 		},
 		{
 			"key": "DSYS",
-			"name": "🔞DSYS",
+			"name": "🔞DSYS(py)",
 			"type": 3,
 			"api": "./py/DSYS.py",
 			"changeable": 1
 		},
 		{
 			"key": "lav",
-			"name": "🔞lav",
+			"name": "🔞lav(py)",
 			"type": 3,
 			"api": "./py/lav.py",
 			"changeable": 1
 		},
 		{
 			"key": "色播聚合",
-			"name": "🔞色播聚合",
+			"name": "🔞色播聚合(py)",
 			"type": 3,
 			"api": "./py/色播聚合.py",
 			"changeable": 1
 		},
 		{
 			"key": "一个区",
-			"name": "🔞一个区",
+			"name": "🔞一个区(py)",
 			"type": 3,
 			"api": "./py/一个区.py",
 			"changeable": 1
 		},
 		{
 			"key": "九个区",
-			"name": "🔞九个区",
+			"name": "🔞九个区(py)",
 			"type": 3,
 			"api": "./py/九个区.py",
 			"changeable": 1
 		},
 		{
 			"key": "香蕉视频",
-			"name": "🔞香蕉视频",
+			"name": "🔞香蕉视频(py)",
 			"type": 3,
 			"api": "./py/香蕉视频.py",
 			"changeable": 1
@@ -319,14 +331,14 @@
 		},
 		{
 			"key": "小红薯",
-			"name": "🔞小红薯",
+			"name": "🔞小红薯(py)",
 			"type": 3,
 			"api": "./py/小红薯.py",
 			"changeable": 1
 		},
 		{
 			"key": "推特",
-			"name": "🔞推特",
+			"name": "🔞推特(py)",
 			"type": 3,
 			"api": "./py/推特.py",
 			"changeable": 1

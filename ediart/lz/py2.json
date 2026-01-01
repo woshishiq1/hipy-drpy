@@ -4,10 +4,10 @@
 			"key": "js_douban",
 			"name": "豆瓣(js)",
 			"type": 3,
-			"api": "./douban_min.js",
+			"api": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/路飞豆瓣.js",
 			"searchable": 0,
 			"quickSearch": 0,
-			"filterable": 1,
+			"filterable": 0,
 			"changeable": 0
 		},
 		{
@@ -319,14 +319,6 @@
 			"ext": "https://59.125.210.231:4433",
 			"playerType": 1,
 			"epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-		},
-		{
-			"name": "肥羊国内直播",
-			"type": 3,
-			"api": "csp_Feiyang",
-			"url": "tv.m3u",
-			"ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/allinone;md5;https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/md5",
-			"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
 		}
 	]
 }

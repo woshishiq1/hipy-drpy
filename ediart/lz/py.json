@@ -314,17 +314,17 @@
 			"changeable": 1
 		},
 		{
-            "key": "采集合集py",
-            "name": "采集合集(py)+",
-            "type": 3,
-            "api": "./py/采集合集.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "playerType": 2,
-            "ext": "0"
-        },
+			"key": "采集合集py",
+			"name": "采集合集(py)+",
+			"type": 3,
+			"api": "./py/采集合集.py",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"playerType": 2,
+			"ext": "0"
+		},
 		{
 			"key": "91rb",
 			"name": "🔞91rb(py)",
@@ -398,6 +398,15 @@
 			"type": 3,
 			"api": "./py/推特.py",
 			"changeable": 1
+		},
+		{
+			"key": "kemono",
+			"name": "🔞kemono(py)",
+			"type": 3,
+			"api": "./py/kemono.py",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
 		}
 	],
 	"parses": [{

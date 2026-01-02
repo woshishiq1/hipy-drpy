@@ -13,94 +13,6 @@
 			"indexs": 0
 		},
 		{
-			"key": "apple_js",
-			"name": "小苹果JS",
-			"type": 3,
-			"api": "./js/apple.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "永乐影视_js",
-			"name": "永乐影视JS",
-			"type": 3,
-			"api": "./js/永乐视频.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "海龟_js",
-			"name": "海龟JS",
-			"type": 3,
-			"api": "./js/海龟.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "韩剧网_js",
-			"name": "韩剧网JS",
-			"type": 3,
-			"api": "./js/韩剧网.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "荐片_js",
-			"name": "荐片JS",
-			"type": 3,
-			"api": "./js/荐片.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "金牌影院_js",
-			"name": "金牌影院JS",
-			"type": 3,
-			"api": "./js/金牌影院.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "鬼片之家_js",
-			"name": "鬼片之家JS",
-			"type": 3,
-			"api": "./js/鬼片之家.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
-			"key": "聚合短剧_js",
-			"name": "聚合短剧JS",
-			"type": 3,
-			"api": "./js/聚合短剧.js",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},
-		{
 			"key": "Cntv",
 			"name": "CNTV",
 			"type": 3,
@@ -289,25 +201,19 @@
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
 		},
 		{
-			"name": "JackTV",
+			"name": "Jacktv",
 			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
-		},
-		{
-			"name": "MyTvSuper",
-			"url": "http://xtvantsc.xyz/mytv.m3u"
-		},
-		{
-			"name": "4GTV",
-			"url": "http://xtvantsc.xyz/litv_ts.php",
-			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-			"logo": "http://diyp5.112114.xyz/{name}.png"
 		},
 		{
 			"name": "catvod",
 			"url": "https://iptv.catvod.com/tv.m3u"
 		},
 		{
-			"name": "Smart",
+			"name": "SMT-muchen",
+			"url": "https://tv.ediart.ggff.net/smt"
+		},
+		{
+			"name": "SMT-catvod",
 			"url": "https://live.catvod.com/tv.m3u"
 		}
 	],

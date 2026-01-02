@@ -366,8 +366,7 @@
 		"static-mozai.4gtv.tv",
 		"s3t3d2y8.afcdn.net"
 	],
-	"lives": [
-		{
+	"lives": [{
 			"name": "冰茶",
 			"type": 0,
 			"playerType": 2,
@@ -375,14 +374,32 @@
 			"ua": "bingcha/1.1 (mianfeifenxiang) "
 		},
 		{
-			"name": "政治时事",
-			"url": "http://zhangqun66.com/141.php"
+			"name": "Sports",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
 		},
 		{
-			"name": "野火直播",
-			"url": "./野火改.txt",
-			"epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-			"logo": "https://epg.112114.xyz/logo/{name}.png"
+			"name": "港台",
+			"url": "http://152.32.229.52:5050/?type=m3u&proxy=true"
+		},
+		{
+			"name": "英超+NBA",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
+		},
+		{
+			"name": "Jacktv",
+			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+		},
+		{
+			"name": "catvod",
+			"url": "https://iptv.catvod.com/tv.m3u"
+		},
+		{
+			"name": "SMT-muchen",
+			"url": "https://tv.ediart.ggff.net/smt"
+		},
+		{
+			"name": "SMT-catvod",
+			"url": "https://live.catvod.com/tv.m3u"
 		}
 	]
 }

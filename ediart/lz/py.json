@@ -11,6 +11,62 @@
 			"changeable": 0
 		},
 		{
+			"key": "apple_js",
+			"name": "小苹果JS",
+			"type": 3,
+			"api": "./js/apple.js",
+			"changeable": 1
+		},
+		{
+			"key": "永乐影视_js",
+			"name": "永乐影视JS",
+			"type": 3,
+			"api": "./js/永乐视频.js",
+			"changeable": 1
+		},
+		{
+			"key": "海龟_js",
+			"name": "海龟JS",
+			"type": 3,
+			"api": "./js/海龟.js",
+			"changeable": 1
+		},
+		{
+			"key": "韩剧网_js",
+			"name": "韩剧网JS",
+			"type": 3,
+			"api": "./js/韩剧网.js",
+			"changeable": 1
+		},
+		{
+			"key": "荐片_js",
+			"name": "荐片JS",
+			"type": 3,
+			"api": "./js/荐片.js",
+			"changeable": 1
+		},
+		{
+			"key": "金牌影院_js",
+			"name": "金牌影院JS",
+			"type": 3,
+			"api": "./js/金牌影院.js",
+			"changeable": 1
+		},
+		{
+			"key": "鬼片之家_js",
+			"name": "鬼片之家JS",
+			"type": 3,
+			"api": "./js/鬼片之家.js",
+			"changeable": 1
+		},
+		{
+			"key": "聚合短剧_js",
+			"name": "聚合短剧JS",
+			"type": 3,
+			"api": "./js/聚合短剧.js",
+			"changeable": 1
+		},
+		{
 			"key": "js_guan_fang_cai_ji",
 			"name": "官方采集(js)",
 			"type": 3,
@@ -425,82 +481,39 @@
 		}
 	],
 	"lives": [{
-			"name": "全量四季在线",
-			"type": "0",
-			"ua": "okhttp/3.15",
+			"name": "冰茶",
+			"type": 0,
+			"playerType": 2,
+			"url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true",
+			"ua": "bingcha/1.1 (mianfeifenxiang) "
+		},
+		{
+			"name": "Sports",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
+		},
+		{
+			"name": "港台",
+			"url": "http://152.32.229.52:5050/?type=m3u&proxy=true"
+		},
+		{
+			"name": "英超+NBA",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
+		},
+		{
+			"name": "Jacktv",
 			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
 		},
 		{
-			"name": "体育直播",
-			"type": 3,
-			"api": "./py/体育直播.py",
-			"ext": {}
+			"name": "catvod",
+			"url": "https://iptv.catvod.com/tv.m3u"
 		},
 		{
-			"name": "SMT(py)",
-			"type": 3,
-			"api": "./py/lives-SMT.py",
-			"ext": {}
+			"name": "SMT-muchen",
+			"url": "https://tv.ediart.ggff.net/smt"
 		},
 		{
-			"name": "iptv345",
-			"type": 3,
-			"api": "./py/lives-iptv345.py",
-			"ext": {}
-		},
-		{
-			"name": "zxbv",
-			"type": 3,
-			"api": "./py/live_zxbv.py",
-			"ext": {}
-		},
-		{
-			"name": "kzb",
-			"type": 3,
-			"api": "./py/lives-kzb.py",
-			"ext": {}
-		},
-		{
-			"name": "直播bx5kge(js)",
-			"type": 3,
-			"url": "https://b6f56s23.bx5kge.com/assets/js/tv.js",
-			"api": "./js/直播bx5kge.min.js",
-			"ext": {}
-		},
-		{
-			"name": "快直播(js)",
-			"type": 3,
-			"url": "https://jzb5kqln.huajiaedu.com",
-			"api": "./js/快直播.min.js",
-			"ext": {}
-		},
-		{
-			"name": "MY live-catvod",
-			"type": "0",
-			"ua": "okhttp/3.15",
+			"name": "SMT-catvod",
 			"url": "https://live.catvod.com/tv.m3u"
-		},
-		{
-			"name": "MY live-catvod-local",
-			"type": "0",
-			"ua": "okhttp/3.15",
-			"url": "http://127.0.0.1:9978/file/lives/Live-catvod.txt"
-		},
-		{
-			"name": "MQiTV",
-			"api": "csp_MQiTV",
-			"jar": "https://slink.ltd/https://raw.githubusercontent.com/sqspot/tac/refs/heads/main/jar/fmMQiTV.jar",
-			"ext": "https://59.125.210.231:4433",
-			"playerType": 1,
-			"epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-		},
-		{
-			"name": "肥羊国内直播",
-			"type": 3,
-			"api": "csp_Feiyang",
-			"url": "tv.m3u",
-			"ext": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/allinone;md5;https://mirror.ghproxy.com/https://raw.githubusercontent.com/lystv/fmapp/ok/apk/allinone/v7/md5",
-			"jar": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
 		}
 	]
 }

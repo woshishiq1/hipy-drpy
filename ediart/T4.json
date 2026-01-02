@@ -217,12 +217,20 @@
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
 		},
 		{
-			"name": "咪咕直播",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+			"name": "Jacktv",
+			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
 		},
 		{
-			"name": "JackTV",
-			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+			"name": "catvod",
+			"url": "https://iptv.catvod.com/tv.m3u"
+		},
+		{
+			"name": "SMT-muchen",
+			"url": "https://tv.ediart.ggff.net/smt"
+		},
+		{
+			"name": "SMT-catvod",
+			"url": "https://live.catvod.com/tv.m3u"
 		},
 		{
 			"name": "MyTvSuper",
@@ -243,36 +251,17 @@
 			"url": "https://tv.iill.top/m3u/Gather"
 		},
 		{
-			"name": "BeeSport直播",
-			"type": 3,
-			"api": "https://tvbot.dpdns.org/live_beesports.py",
-			"ext": {
-
-			},
-			"header": {
-				"Referer": "https://p.lioncdn.net/"
-			}
-		},
-		{
 			"name": "易发",
 			"type": 0,
-			"url": "https://cdn.jsdelivr.net/gh/fafa002/yf2025@main/yiyifafa.txt",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
 			"epg": "https://epg.v1.mk/json?ch={name}&date={date}",
 			"logo": "https://epg.v1.mk/logo/{name}.png",
 			"timeout": 10
 		},
 		{
-			"name": "秘密花园",
-			"type": 0,
-			"url": "https://down.nigx.cn/mmhy.zzong6599.workers.dev",
-			"playerType": 1,
-			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-			"logo": "http://diyp5.112114.xyz/{name}.png"
-		},
-		{
 			"name": "备用直播一",
 			"type": 0,
-			"url": "https://cdn.jsdelivr.net/gh/PizazzGY/TV@master/output/user_result.txt",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/PizazzGY/TV/refs/heads/master/output/user_result.txt",
 			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://diyp5.112114.xyz/{name}.png",
 			"timeout": 10
@@ -280,10 +269,22 @@
 		{
 			"name": "备用直播二",
 			"type": 0,
-			"url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@refs/heads/gd/output/result.m3u",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/result.txt",
 			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://diyp5.112114.xyz/{name}.png",
 			"timeout": 10
+		},
+		{
+			"name": "🔞madou",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/madou.m3u"
+		},
+		{
+			"name": "🔞秘密花园",
+			"type": 0,
+			"url": "https://down.nigx.cn/mmhy.zzong6599.workers.dev",
+			"playerType": 1,
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png"
 		}
 	],
 	"headers": [{

@@ -270,7 +270,7 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "https://www.mfsp4k.top",
+                "url": "https://www.26mf4k.top",
                 "dataKey": "1234567887654321",
                 "dataIv": "1234567887654321"
             }
@@ -779,20 +779,10 @@
             "filterable": 1
         },
         {
-            "key": "笒鬼短剧",
-            "name": "笒鬼｜短剧",
+            "key": "七猫短剧",
+            "name": "七猫｜短剧",
             "type": 3,
-            "api": "csp_CenguiDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-        },
-        {
-            "key": "百度短剧",
-            "name": "百度｜短剧",
-            "type": 3,
-            "api": "csp_BaiduDJ",
+            "api": "csp_QiMaoDJ",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -1545,8 +1535,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩演唱会.json"
+                "json": "./json/哔哩哔哩演唱会.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -1562,8 +1552,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩听书.json"
+                "json": "./json/哔哩哔哩听书.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -1579,8 +1569,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩相声.json"
+                "json": "./json/哔哩哔哩相声.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -1596,8 +1586,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩小品.json"
+                "json": "./json/哔哩哔哩小品.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",
@@ -1613,8 +1603,8 @@
             "quickSearch": 0,
             "filterable": 0,
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
-                "json": "./json/哔哩哔哩戏曲.json"
+                "json": "./json/哔哩哔哩戏曲.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
                 "type": "rect",

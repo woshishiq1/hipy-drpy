@@ -326,6 +326,17 @@
 			"ext": "0"
 		},
 		{
+            "key": "MissAV-py",
+            "name": "🔞MissAV(py)",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./py/爱AV.py", 
+            "order_num": 5,
+            "ext": ""
+        },
+		{
 			"key": "91rb",
 			"name": "🔞91rb(py)",
 			"type": 3,

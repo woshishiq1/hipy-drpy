@@ -8,7 +8,7 @@ const _http = axios.create({
   timeout: 60 * 1000,
   httpsAgent: new https.Agent({ keepAlive: true, rejectUnauthorized: false }),
   httpAgent: new http.Agent({ keepAlive: true }),
-  baseURL: "http://192.168.50.50:1514",   盘搜服务地址
+  baseURL: "http://192.168.50.50:1514",   //盘搜服务地址
 });
 
 const init = async (server) => {

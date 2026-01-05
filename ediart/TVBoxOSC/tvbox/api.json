@@ -187,6 +187,17 @@
             }
         },
         {
+            "key": "随看",
+            "name": "随看｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://suikan.tpmbt.cn",
+                "dataKey": "pHQsm6wjYaCuSPEz",
+                "dataIv": "pHQsm6wjYaCuSPEz"
+            }
+        },
+        {
             "key": "雨滴",
             "name": "雨滴｜APP",
             "type": 3,
@@ -1311,8 +1322,8 @@
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "quickSearch": 0,
+            "filterable": 0
         },
         {
             "key": "糖果",
@@ -1320,8 +1331,8 @@
             "type": 3,
             "api": "csp_TGSou",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "quickSearch": 0,
+            "filterable": 0
         },
         {
             "key": "百酷",

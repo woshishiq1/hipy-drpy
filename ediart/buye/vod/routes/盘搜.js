@@ -8,7 +8,7 @@ const _http = axios.create({
   timeout: 60 * 1000,
   httpsAgent: new https.Agent({ keepAlive: true, rejectUnauthorized: false }),
   httpAgent: new http.Agent({ keepAlive: true }),
-  baseURL: "http://192.168.50.50:1514",   //盘搜服务地址
+  baseURL: "https://so.252035.xyz",   //盘搜服务地址
 });
 
 const init = async (server) => {
@@ -115,7 +115,7 @@ const search = async ({ page, quick, wd }) => {
 
   try {
     const checkRes = await _http.post(
-      "http://192.168.50.50:7024/api/v1/links/check", // 盘搜校验服务地址，没有则删除，保留双引号
+      "https://pancheck.banye.tech:7777/api/v1/links/check", // 盘搜校验服务地址，没有则删除，保留双引号
       {
         links: uniqueLinks,
         selected_platforms: [

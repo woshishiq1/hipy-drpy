@@ -31,7 +31,7 @@
             "url": "https://sub.ottiptv.cc/huyayqk.m3u",
             "playerType": 2,
             "timeout": 10,
-            "ua": "okHttp/Mod-1.4.0.0"
+            "ua": "okHttp/Mod-1.5.0.0"
         },
         {
             "name": "斗鱼一起看",
@@ -39,7 +39,7 @@
             "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
             "playerType": 2,
             "timeout": 10,
-            "ua": "okHttp/Mod-1.4.0.0"
+            "ua": "okHttp/Mod-1.5.0.0"
         },
         {
             "name": "B站直播",
@@ -47,7 +47,7 @@
             "url": "https://sub.ottiptv.cc/bililive.m3u",
             "playerType": 2,
             "timeout": 10,
-            "ua": "okHttp/Mod-1.4.0.0"
+            "ua": "okHttp/Mod-1.5.0.0"
         },
         {
             "name": "YY轮播",
@@ -55,7 +55,7 @@
             "url": "https://sub.ottiptv.cc/yylunbo.m3u",
             "playerType": 2,
             "timeout": 10,
-            "ua": "okHttp/Mod-1.4.0.0"
+            "ua": "okHttp/Mod-1.5.0.0"
         }
     ],
     "sites": [
@@ -939,6 +939,21 @@
             "ext": {
                 "host": "https://173220859-1333208043.cos.ap-shanghai.myqcloud.com/1.json",
                 "ver": 2
+            }
+        },
+        {
+            "key": "py_肥猫_APP",
+            "name": " 🐱肥猫影视",
+            "type": 3,
+            "api": "./py/肥猫.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "host": "http://103.236.61.192:8006",
+                "api": "/api.php/getappapi",
+                "datakey": "123456789abcdefg",
+                "dataiv": "123456789abcdefg"
             }
         },
         {
@@ -4888,9 +4903,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/250918",
+                "作者": "🍊小橙子/20260105",
                 "站名": "南瓜影院",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@PHPSESSID=lfbed6pm84ft55e4a10d1pmdmi；； Hm_tf_sfhmwlxzce8=1758157275；； Hm_lvt_sfhmwlxzce8=1758157275；； X_CACHE_KEY=d86e31e83a94818563ebe966a1e1455b；； Hm_lpvt_sfhmwlxzce8=1758158040；； recente=%5B%7B%22vod_name%22%3A%22%E8%B5%B4%E5%B1%B1%E6%B5%B7%22%2C%22vod_url%22%3A%22https%3A%2F%2Flantianyu.org%2Fpplay%2F147301-1-1.html%22%2C%22vod_part%22%3A%22%E7%AC%AC01%E9%9B%86%22%7D%5D&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@PHPSESSID=hu61qebk510nrggsmd4clm6v74&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -4898,11 +4913,11 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://lantianyu.org/",
+                "主页url": "https://www.lyzchs.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://lantianyu.org/p/{cateId}-{catePg}.html",
-                "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju#",
+                "分类url": "https://www.lyzchs.com/ngsanshow/{cateId}--------{catePg}---.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#",
                 "二次截取": "",
                 "数组": "lazyload&&</a>",
                 "标题": "title=\"&&\"",
@@ -4915,12 +4930,12 @@
                 "状态": "状态：&&</p>",
                 "导演": "导演：&&</p>",
                 "主演": "主演：&&</p>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+col-pd detail\">&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "stui-pannel__head bottom-line active clearfix&&</div>",
-                "线路标题": "title\">&&</h3",
+                "线路数组": "data-toggle&&</a>",
+                "线路标题": "tab\">&&</a>",
                 "播放二次截取": "",
-                "播放数组": "<ul class=\"stui-content__playlist clearfix&&</ul>",
+                "播放数组": "macplus-content__playlist&&</ul>",
                 "倒序": "0",
                 "播放列表": "<a&&</a>",
                 "播放标题": ">&&</a>",
@@ -4929,7 +4944,7 @@
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://lantianyu.org/search/{wd}----------{pg}---.html",
+                "搜索url": "https://www.lyzchs.com/ngsansearch/{wd}----------{pg}---.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",

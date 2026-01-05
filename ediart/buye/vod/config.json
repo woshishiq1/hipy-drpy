@@ -20,12 +20,18 @@
     "star2": "https://1.star2.cn"
   },
   "vods": [
-    { "key": "wogg", "name": "玩偶", "url": "https://www.wogg.one" },
+    {
+      "key": "wogg",
+      "name": "玩偶",
+      "url": "https://www.wogg.one",
+      "filters": "https://raw.githubusercontent.com/vodspider/release/main/filters/wogg.json"
+    },
     {
       "key": "mogg",
       "name": "木偶",
-      "url": "https://tv.91muou.icu",
-      "proxy": false
+      "url": "https://666.666291.xyz",
+      "proxy": false,
+      "filters": "https://raw.githubusercontent.com/vodspider/release/main/filters/mogg.json"
     }
   ],
   "tgclient": {
@@ -62,5 +68,12 @@
     "api": "csp_DanmakuSpider",
     "searchable": 1,
     "ext": "http://127.0.0.1:9321/938944"
-  }
+  },
+  "iptv": [
+    {
+      "key": "iptv",
+      "name": "这个只对安卓壳有效",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"
+    }
+  ]
 }

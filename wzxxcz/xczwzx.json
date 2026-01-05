@@ -457,6 +457,26 @@
             }
         },
         {
+            "key": "老丫",
+            "name": "🍞老雅影视",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "api": "./js/fox.js",
+            "ext": {
+                "host": "https://cms99api.ystva.com"
+            }
+        },
+        {
+            "key": "聚搜2",
+            "name": "🚗JUSOU影视",
+            "type": 3,
+            "api": "./py/JUSOU.py",
+            "ext": "http://118.89.203.120:8365/"
+        },
+        {
             "key": "聚搜",
             "name": "🐢聚搜影视",
             "type": 3,

@@ -32,12 +32,14 @@
 	"vods": [{
 			"key": "wogg",
 			"name": "玩偶",
-			"url": "https://wogg.xxooo.cf"
+			"url": "https://wogg.xxooo.cf",
+            "filters": "https://down.nigx.cn/raw.githubusercontent.com/vodspider/release/main/filters/wogg.json"
 		},
 		{
 			"key": "mogg",
 			"name": "木偶",
-			"url": "https://www.muou.site"
+			"url": "https://666.666291.xyz",
+            "filters": "https://down.nigx.cn/raw.githubusercontent.com/vodspider/release/main/filters/mogg.json"
 		},
 		{
 			"key": "labi",

@@ -69,34 +69,13 @@
       "filterable": 1,
       "ext": "https://yp.wya6.cn/nbwj/哔哩视频.js"
     },
-    {
-      "key": "景天",
-      "name": "💖随缘➊4k",
-      "type": 3,
-      "api": "csp_HBcms10Dou",
-      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/qq/"
-    },
-    {
-      "key": "茂茂",
-      "name": "💖随缘➋4k",
-      "type": 3,
-      "api": "csp_HBcms10Dou",
-      "ext": "https://zy.sh0o.cn/api.php/provide/vod/from/mgtv/"
-    },
-      {
-      "key": "yanshi1",
-      "name": "📢🌈哥哥4K",
-      "type": 3,
-      "jar": "http://123.207.224.130:7033/ZC4K.jar",
-      "api": "csp_ZC4K",
-      "ext": "YUhSMGNEb3ZMekV5TXk0eU1EY3VNakkwTGpFek1EbzNNRE16TDJGd2FTNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },  
+
     {
       "key": "二小",
       "name": "🦢二小┃4K",
       "type": 3,
       "api": "csp_ErXiaoGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -114,7 +93,7 @@
       "name": "🤩双星┃4K",
       "type": 3,
       "api": "csp_Star2Guard",
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
       "searchable": 1,
       "filterable": 1,
       "changeable": 0,
@@ -135,7 +114,7 @@
       "name": "👽玩偶┃4K",
       "type": 3,
       "api": "csp_WoggGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
@@ -152,7 +131,7 @@
       "name": "🪵木偶┃4K",
       "type": 3,
       "api": "csp_MuouGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -170,7 +149,7 @@
       "name": "💒小飒┃4K",
       "type": 3,
       "api": "csp_XsayangGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -188,7 +167,7 @@
       "name": "💌至臻┃4K",
       "type": 3,
       "api": "csp_ZhiZhenGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -206,7 +185,7 @@
       "name": "🐯虎斑┃4K",
       "type": 3,
       "api": "csp_HuBanGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -224,7 +203,7 @@
       "name": "👠蜡笔┃4K",
       "type": 3,
       "api": "csp_LabiGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -242,7 +221,7 @@
       "name": "💖多多┃4K弹幕",
       "type": 3,
       "api": "csp_DuoDuoGuard",
-      "jar": "http://oss4liview.moji.com/thd_file/2025/12/31/304721934f09bb6602c3f0a6cd154607.jpg;md5;e8f825112622dc0da002217b29e03bed",
+      "jar": "http://oss4liview.moji.com/thd_file/2026/01/05/e8223f500ba2abc0fa2701b61183345a.jpg;md5;5d393d3803182a41ddb6a67c9f3cdf6d",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -256,34 +235,7 @@
       "timeout": 25
     },
 
-    {
-      "key": "竹生",
-      "name": "💖免扫网盘❶|4K",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09"
-    },
-    {
-      "key": "归安",
-      "name": "💖免扫网盘❷|4K",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5"
-    },
-    {
-      "key": "薄心",
-      "name": "💖免扫网盘❸|4K",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMWxjbmhwWVc4akl5TmxjbmhwWVc4PQ=="
-    },
-    {
-      "key": "甜橙",
-      "name": "💖免扫网盘❹|4K",
-      "type": 3,
-      "api": "csp_HBT4",
-      "ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09"
-    },
+
     {
       "key": "立播",
       "name": "💖免扫网盘❺|4K",
@@ -304,6 +256,12 @@
       "name": "自定",
       "type": 1,
       "url": "https://niubi.69mini.com/api/?key=gxXYmlvw4xX4PaXlCJ&url="
+
+    },
+    {
+      "name": "自定1",
+      "type": 1,
+      "url": "http://zhuimi.xn--v4q818bf34b.com/moyu/zhuimi?token=zRCPQqhl&url="
 
     }
 

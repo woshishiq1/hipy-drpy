@@ -1,1 +1,459 @@
-dmFyIHJ1bGUgPSB7CiAgICBhdXRob3I6ICflsI/lj6/kuZAvMjQwNTI2L+esrOS4gOeJiCcsCiAgICB0aXRsZTogJ+WKqOa8q+W3tOWjq1vmvKtdJywKICAgIGhvc3Q6ICdodHRwOi8vZG04NC5zaXRlJywKICAgIGhvc3RKczogJ3ByaW50KEhPU1QpO2xldCBodG1sPXJlcXVlc3QoSE9TVCx7aGVhZGVyczp7IlVzZXItQWdlbnQiOk1PQklMRV9VQX19KTtsZXQgc3JjPSBqc3AucGRmaChodG1sLCJ1bCYmYTplcSgwKSYmaHJlZiIpO3ByaW50KHNyYyk7SE9TVD1zcmMnLAogICAgaGVhZGVyczogewogICAgICAgICdVc2VyLUFnZW50JzogJ01PQklMRV9VQScKICAgIH0sCiAgICDnvJbnoIE6ICd1dGYtOCcsCiAgICB0aW1lb3V0OiA1MDAwLAoKICAgIGhvbWVVcmw6ICcvJywKICAgIHVybDogJy9zaG93LWZ5Y2xhc3MtLWZ5ZmlsdGVyLWZ5cGFnZS5odG1sJywKICAgIGZpbHRlcl91cmw6ICd7e2ZsLmJ5fX0te3tmbC5jbGFzc319LS17e2ZsLnllYXJ9fScsCiAgICBkZXRhaWxVcmw6ICcnLAogICAgc2VhcmNoVXJsOiAnL3MtKiotLS0tLS0tLS1meXBhZ2UuaHRtbCcsCiAgICBzZWFyY2hhYmxlOiAxLAogICAgcXVpY2tTZWFyY2g6IDEsCiAgICBmaWx0ZXJhYmxlOiAxLAoKICAgIGNsYXNzX25hbWU6ICflm73kuqfliqjmvKsm5pel5pys5Yqo5ryrJuasp+e+juWKqOa8qybnlLXlvbEnLAogICAgY2xhc3NfdXJsOiAnMSYyJjMmNCcsCiAgICBmaWx0ZXJfZGVmOiB7fSwKCiAgICBwcm94eV9ydWxlOiAnJywKICAgIHNuaWZmZXI6IDAsCiAgICBpc1ZpZGVvOiAnJywKICAgIHBsYXlfcGFyc2U6IHRydWUsCiAgICBwYXJzZV91cmw6ICcnLAogICAgbGF6eTogYGpzOgpsZXQgaHRtbCA9IHJlcXVlc3QoaW5wdXQpOwpsZXQga3VybCA9IHBkZmgoaHRtbCwnYm9keSYmaWZyYW1lJykubWF0Y2goL3NyYz0iKC4qPykiLylbMV07CmlucHV0PSBrdXJsCmAsCgogICAgbGltaXQ6IDksCiAgICBkb3VibGU6IGZhbHNlLAogICAg5o6o6I2QOiAnKicsCiAgICAvL+WIl+ihqDvmoIfpopg75Zu+54mHO+aPj+i/sDvpk77mjqU76K+m5oOFKOWPr+S4jeWGmSkKICAgIOS4gOe6pzogJy52X2xpc3QgbGk7YSYmdGl0bGU7YSYmZGF0YS1iZzsuZGVzYyYmVGV4dDthJiZocmVmJywKICAgIOS6jOe6pzogewogICAgICAgIC8v5ZCN56ewO+exu+WeiwogICAgICAgICJ0aXRsZSI6ICJoMSYmVGV4dDttZXRhW25hbWUqPWNsYXNzXSYmY29udGVudCIsCiAgICAgICAgLy/lm77niYcKICAgICAgICAiaW1nIjogImltZyYmc3JjIiwKICAgICAgICAvL+S4u+imgeaPj+i/sDvlubTku7075Zyw5Yy6O+a8lOWRmDvlr7zmvJQKICAgICAgICAiZGVzYyI6ICJtZXRhW25hbWUqPXVwZGF0ZV9kYXRlXSYmY29udGVudDttZXRhW25hbWUqPXJlbGVhc2VfZGF0ZV0mJmNvbnRlbnQ7bWV0YVtuYW1lKj1hcmVhXSYmY29udGVudDttZXRhW25hbWUqPWFjdG9yXSYmY29udGVudDttZXRhW25hbWUqPWRpcmVjdG9yXSYmY29udGVudCIsCiAgICAgICAgLy/nroDku4sKICAgICAgICAiY29udGVudCI6ICJwOmVxKC0yKSYmVGV4dCIsCiAgICAgICAgLy/nur/ot6/mlbDnu4QKICAgICAgICAidGFicyI6ICIudGFiX2NvbnRyb2wmJmxpIiwKICAgICAgICAvL+e6v+i3r+agh+mimAogICAgICAgICJ0YWJfdGV4dCI6ICJib2R5JiZUZXh0IiwKICAgICAgICAvL+aSreaUvuaVsOe7hCDpgInpm4bliJfooagKICAgICAgICAibGlzdHMiOiAiLnBsYXlfbGlzdDplcSgjaWQpJiZhIiwKICAgICAgICAvL+mAiembhuagh+mimAogICAgICAgICJsaXN0X3RleHQiOiAiYm9keSYmVGV4dCIsCiAgICAgICAgLy/pgInpm4bpk77mjqUKICAgICAgICAibGlzdF91cmwiOiAiYSYmaHJlZiIKICAgIH0sCiAgICDmkJzntKI6ICcqJywKCiAgICBmaWx0ZXI6ICdINHNJQUFBQUFBQUFBKzJXYlVzcVFSVEgzKy9IbU5lKzBMV24yMWVKWGxnSVJVK1EzVUJFc0xUYUNyWXRTbTljYjJSUTJZT1ZGVUZhOW1XY0dmMFdqYzZjTXhQRnN0RGxjZ1hmN2UvMzkrem8yWFBVbEVVaVpIVE1TcEdaZUpLTWtzblpXQ0pCUW1RK05oY1h5S3QxZXJRdGVEazIrMU9Jc1JTWkY1cXVsZHZaY2tjTElPbVFzcWNiOUxtdXJBTEltUE9MNVFzcVV3QVpkM082VGdGbUYyK3RweTNJSkdCMnZtdlVTY0R6S21mTnhqR2NKd0hyc3BWV0tRTjFFaUJyWlY1NXcxV1pBcnluZDhTdmQrR2VFdkN6YjVWWlpvVzlYUEY5N0lDcDB1UHBFRFk1R1k4dDZoNnp3bE83OEJpd3gzYllIbEN1ZTJuNHFQWlIwMGUwajVqZTF0NDJmVmo3c09FalA5Q0xTOE9QYUQ5aSttSHRoMDAvcFAyUTZRZTFIL3pZcjRtazBTMTNqOVoyUG5WTE4xSEEwclI0S2R5NVdhdXh1MzJWVEUwdkpmU3p2czFSWjEwbGljbUZ4WGpuV0dzOFpCSDdyKzNFK2w3NzhBSW1Ra0tRbmZEYkplcTU5T1lLTWdsNkRxdjByWUFUMkFVODc3aEVmMWZnUEFsQmRvSVZhK0xkUVoyRUlEdkJWcTk1SGpNSm1OM1hXYzZCVEFLK2w4TUc5U0JUZ0hVckhzdmtvVTRDWm02WmUvQThGZWk2YmU1VXNhNExtRDJVMm45TytNRWx4TWo5cmUycHJZMyt6MXZyOTJ2bFcrZTNtVDdiOStVVzllZTVsK1o1NEYvTXMvaWIwbnd0NnY4c0hmajJQT2VMZFBNYzZpUUUrZWIzbldlbnlySnJjSjZFL2p6M3pqeGI2WGVxQ1JxcWJBd0FBQT09Jwp9
+var rule = {
+    author: '小可乐/240526/第一版',
+    title: '动漫巴士[漫]',
+    host: 'http://dm84.site',
+    hostJs: 'print(HOST);let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}});let src= jsp.pdfh(html,"ul&&a:eq(0)&&href");print(src);HOST=src',
+    headers: {
+        'User-Agent': 'MOBILE_UA'
+    },
+    编码: 'utf-8',
+    timeout: 5000,
+
+    homeUrl: '/',
+    url: '/show-fyclass--fyfilter-fypage.html',
+    filter_url: '{{fl.by}}-{{fl.class}}--{{fl.year}}',
+    detailUrl: '',
+    searchUrl: '/s-**---------fypage.html',
+    searchable: 1,
+    quickSearch: 1,
+    filterable: 1,
+
+    class_name: '国产动漫&日本动漫&欧美动漫&电影',
+    class_url: '1&2&3&4',
+    filter_def: {},
+
+    proxy_rule: '',
+    sniffer: 0,
+    isVideo: '',
+    play_parse: true,
+    parse_url: '',
+    lazy: `js:
+let html = request(input);
+let kurl = pdfh(html,'body&&iframe').match(/src="(.*?)"/)[1];
+input= kurl
+`,
+
+    limit: 9,
+    double: false,
+    推荐: '*',
+    //列表;标题;图片;描述;链接;详情(可不写)
+    一级: '.v_list li;a&&title;a&&data-bg;.desc&&Text;a&&href',
+    二级: {
+        //名称;类型
+        "title": "h1&&Text;meta[name*=class]&&content",
+        //图片
+        "img": "img&&src",
+        //主要描述;年份;地区;演员;导演
+        "desc": "meta[name*=update_date]&&content;meta[name*=release_date]&&content;meta[name*=area]&&content;meta[name*=actor]&&content;meta[name*=director]&&content",
+        //简介
+        "content": "p:eq(-2)&&Text",
+        //线路数组
+        "tabs": ".tab_control&&li",
+        //线路标题
+        "tab_text": "body&&Text",
+        //播放数组 选集列表
+        "lists": ".play_list:eq(#id)&&a",
+        //选集标题
+        "list_text": "body&&Text",
+        //选集链接
+        "list_url": "a&&href"
+    },
+    搜索: '*',
+
+    filter: {
+        "1": [{
+                "key": "class",
+                "name": "类型",
+                "value": [{
+                    "n": "全部",
+                    "v": ""
+                }, {
+                    "n": "奇幻",
+                    "v": "奇幻"
+                }, {
+                    "n": "战斗",
+                    "v": "战斗"
+                }, {
+                    "n": "玄幻",
+                    "v": "玄幻"
+                }, {
+                    "n": "穿越",
+                    "v": "穿越"
+                }, {
+                    "n": "科幻",
+                    "v": "科幻"
+                }, {
+                    "n": "武侠",
+                    "v": "武侠"
+                }, {
+                    "n": "热血",
+                    "v": "热血"
+                }, {
+                    "n": "耽美",
+                    "v": "耽美"
+                }, {
+                    "n": "搞笑",
+                    "v": "搞笑"
+                }, {
+                    "n": "动态漫画",
+                    "v": "动态漫画"
+                }]
+            },
+            {
+                "key": "year",
+                "name": "时间",
+                "value": [{
+                    "n": "全部",
+                    "v": ""
+                }, {
+                    "n": "2026",
+                    "v": "2026"
+                }, {
+                    "n": "2025",
+                    "v": "2025"
+                }, {
+                    "n": "2024",
+                    "v": "2024"
+                }, {
+                    "n": "2023",
+                    "v": "2023"
+                }, {
+                    "n": "2021",
+                    "v": "2021"
+                }, {
+                    "n": "2022",
+                    "v": "2022"
+                }, {
+                    "n": "2020",
+                    "v": "2020"
+                }, {
+                    "n": "2019",
+                    "v": "2019"
+                }, {
+                    "n": "2018",
+                    "v": "2018"
+                }, {
+                    "n": "2017",
+                    "v": "2017"
+                }, {
+                    "n": "2016",
+                    "v": "2016"
+                }, {
+                    "n": "2015",
+                    "v": "2015"
+                }]
+            },
+            {
+                "key": "by",
+                "name": "排序",
+                "value": [{
+                    "n": "时间",
+                    "v": "time"
+                }, {
+                    "n": "人气",
+                    "v": "hits"
+                }, {
+                    "n": "评分",
+                    "v": "score"
+                }]
+            }
+        ],
+        "2": [{
+                "key": "class",
+                "name": "类型",
+                "value": [{
+                    "n": "全部",
+                    "v": ""
+                }, {
+                    "n": "冒险",
+                    "v": "冒险"
+                }, {
+                    "n": "战斗",
+                    "v": "战斗"
+                }, {
+                    "n": "奇幻",
+                    "v": "奇幻"
+                }, {
+                    "n": "后宫",
+                    "v": "后宫"
+                }, {
+                    "n": "励志",
+                    "v": "励志"
+                }, {
+                    "n": "校园",
+                    "v": "校园"
+                }, {
+                    "n": "热血",
+                    "v": "热血"
+                }, {
+                    "n": "机战",
+                    "v": "机战"
+                }, {
+                    "n": "搞笑",
+                    "v": "搞笑"
+                }, {
+                    "n": "悬疑",
+                    "v": "悬疑"
+                }, {
+                    "n": "治愈",
+                    "v": "治愈"
+                }, {
+                    "n": "百合",
+                    "v": "百合"
+                }, {
+                    "n": "恐怖",
+                    "v": "恐怖"
+                }, {
+                    "n": "推理",
+                    "v": "推理"
+                }, {
+                    "n": "恋爱",
+                    "v": "恋爱"
+                }, {
+                    "n": "泡面番",
+                    "v": "泡面番"
+                }]
+            },
+            {
+                "key": "year",
+                "name": "时间",
+                "value": [{
+                    "n": "全部",
+                    "v": ""
+                }, {
+                    "n": "2026",
+                    "v": "2026"
+                }, {
+                    "n": "2025",
+                    "v": "2025"
+                }, {
+                    "n": "2024",
+                    "v": "2024"
+                }, {
+                    "n": "2023",
+                    "v": "2023"
+                }, {
+                    "n": "2021",
+                    "v": "2021"
+                }, {
+                    "n": "2022",
+                    "v": "2022"
+                }, {
+                    "n": "2020",
+                    "v": "2020"
+                }, {
+                    "n": "2019",
+                    "v": "2019"
+                }, {
+                    "n": "2018",
+                    "v": "2018"
+                }, {
+                    "n": "2017",
+                    "v": "2017"
+                }, {
+                    "n": "2016",
+                    "v": "2016"
+                }, {
+                    "n": "2015",
+                    "v": "2015"
+                }]
+            },
+            {
+                "key": "by",
+                "name": "排序",
+                "value": [{
+                    "n": "时间",
+                    "v": "time"
+                }, {
+                    "n": "人气",
+                    "v": "hits"
+                }, {
+                    "n": "评分",
+                    "v": "score"
+                }]
+            }
+        ],
+        "3": [{
+                "key": "class",
+                "name": "类型",
+                "value": [{
+                    "n": "全部",
+                    "v": ""
+                }, {
+                    "n": "冒险",
+                    "v": "冒险"
+                }, {
+                    "n": "战斗",
+                    "v": "战斗"
+                }, {
+                    "n": "奇幻",
+                    "v": "奇幻"
+                }, {
+                    "n": "科幻",
+                    "v": "科幻"
+                }, {
+                    "n": "奇幻",
+                    "v": "奇幻"
+                }, {
+                    "n": "热血",
+                    "v": "热血"
+                }, {
+                    "n": "搞笑",
+                    "v": "搞笑"
+                }, {
+                    "n": "百合",
+                    "v": "百合"
+                }]
+            },
+            {
+                "key": "year",
+                "name": "时间",
+                "value": [{
+                    "n": "全部",
+                    "v": ""
+                }, {
+                    "n": "2026",
+                    "v": "2026"
+                }, {
+                    "n": "2025",
+                    "v": "2025"
+                }, {
+                    "n": "2024",
+                    "v": "2024"
+                }, {
+                    "n": "2023",
+                    "v": "2023"
+                }, {
+                    "n": "2021",
+                    "v": "2021"
+                }, {
+                    "n": "2022",
+                    "v": "2022"
+                }, {
+                    "n": "2020",
+                    "v": "2020"
+                }, {
+                    "n": "2019",
+                    "v": "2019"
+                }, {
+                    "n": "2018",
+                    "v": "2018"
+                }, {
+                    "n": "2017",
+                    "v": "2017"
+                }, {
+                    "n": "2016",
+                    "v": "2016"
+                }, {
+                    "n": "2015",
+                    "v": "2015"
+                }]
+            },
+            {
+                "key": "by",
+                "name": "排序",
+                "value": [{
+                    "n": "时间",
+                    "v": "time"
+                }, {
+                    "n": "人气",
+                    "v": "hits"
+                }, {
+                    "n": "评分",
+                    "v": "score"
+                }]
+            }
+        ],
+        "4": [{
+                "key": "class",
+                "name": "类型",
+                "value": [{
+                    "n": "全部",
+                    "v": ""
+                }, {
+                    "n": "冒险",
+                    "v": "冒险"
+                }, {
+                    "n": "动作",
+                    "v": "动作"
+                }, {
+                    "n": "奇幻",
+                    "v": "奇幻"
+                }, {
+                    "n": "科幻",
+                    "v": "科幻"
+                }, {
+                    "n": "喜剧",
+                    "v": "喜剧"
+                }, {
+                    "n": "治愈",
+                    "v": "治愈"
+                }, {
+                    "n": "搞笑",
+                    "v": "搞笑"
+                }, {
+                    "n": "爱情",
+                    "v": "爱情"
+                }]
+            },
+            {
+                "key": "year",
+                "name": "时间",
+                "value": [{
+                    "n": "全部",
+                    "v": ""
+                }, {
+                    "n": "2026",
+                    "v": "2026"
+                }, {
+                    "n": "2025",
+                    "v": "2025"
+                }, {
+                    "n": "2024",
+                    "v": "2024"
+                }, {
+                    "n": "2023",
+                    "v": "2023"
+                }, {
+                    "n": "2021",
+                    "v": "2021"
+                }, {
+                    "n": "2022",
+                    "v": "2022"
+                }, {
+                    "n": "2020",
+                    "v": "2020"
+                }, {
+                    "n": "2019",
+                    "v": "2019"
+                }, {
+                    "n": "2018",
+                    "v": "2018"
+                }, {
+                    "n": "2017",
+                    "v": "2017"
+                }, {
+                    "n": "2016",
+                    "v": "2016"
+                }, {
+                    "n": "2015",
+                    "v": "2015"
+                }]
+            },
+            {
+                "key": "by",
+                "name": "排序",
+                "value": [{
+                    "n": "时间",
+                    "v": "time"
+                }, {
+                    "n": "人气",
+                    "v": "hits"
+                }, {
+                    "n": "评分",
+                    "v": "score"
+                }]
+            }
+        ]
+    }
+}

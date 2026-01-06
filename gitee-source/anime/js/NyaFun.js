@@ -1,1 +1,13 @@
-bXViYW4u55+t6KeGMi7kuoznuqcuaW1nID0gJy5kZXRhaWwtcGljJiZpbWcmJmRhdGEtc3JjJzsKdmFyIHJ1bGUgPSB7CiAgICB0aXRsZTogJ055YUZ1bicsCiAgICDmqKHmnb86J+efreinhjInLAogICAgaG9zdDogJ2h0dHBzOi8vd3d3Lm55YWZ1bi5uZXQnLAogICAgaG9tZVVybDonL21hcC5odG1sJywKCXVybDogJy9pbmRleC5waHAvYXBpL3ZvZCN0eXBlPWZ5Y2xhc3MmcGFnZT1meXBhZ2UnLAogICAgY2xhc3NfbmFtZTon55Wq5YmnJuWJp+WcuicsCiAgICBjbGFzc191cmw6JzImMScsCiAgICBkZXRhaWxVcmw6Jy9iYW5ndW1pL2Z5aWQuaHRtbCcsCiAgICDmjqjojZA6Jy5ib3JkZXItYm94IC5wdWJsaWMtbGlzdC1ib3g7YSYmdGl0bGU7LmxhenkmJmRhdGEtc3JjOy5wdWJsaWMtbGlzdC1wcmImJlRleHQ7YSYmaHJlZicsCiAgICBkb3VibGU6IGZhbHNlLCAvLyDmjqjojZDlhoXlrrnmmK/lkKblj4zlsYLlrprkvY0KfQ==
+muban.短视2.二级.img = '.detail-pic&&img&&data-src';
+var rule = {
+    title: 'NyaFun',
+    模板:'短视2',
+    host: 'https://www.nyafun.net',
+    homeUrl:'/map.html',
+	url: '/index.php/api/vod#type=fyclass&page=fypage',
+    class_name:'番剧&剧场',
+    class_url:'2&1',
+    detailUrl:'/bangumi/fyid.html',
+    推荐:'.border-box .public-list-box;a&&title;.lazy&&data-src;.public-list-prb&&Text;a&&href',
+    double: false, // 推荐内容是否双层定位
+}

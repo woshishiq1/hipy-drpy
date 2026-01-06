@@ -1,79 +1,28 @@
 [{
-	"name": "影视",
+	"name": "OK影视标准版",
 	"list": [{
-			"name": "OK影视手机版",
-			"url": "https://h5ai.celin.netlib.re/Android/mobile-arm64_v8a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
-			"version": "py-v8a"
-		},
-		{
-			"name": "OK影视手机版",
-			"url": "https://h5ai.celin.netlib.re/Android/mobile-armeabi_v7a.apk",
+			"name": "OK影视32位手机版",
+			"url": "https://down.nigx.cn/github.com/ediart/tvbox/releases/latest/download/mobile-armeabi_v7a.apk",
 			"icon": "https://d.dayeapp.net/y.jpg",
 			"version": "py-v7a"
 		},
 		{
-			"name": "OK影视电视版",
-			"url": "https://h5ai.celin.netlib.re/Android/leanback-arm64_v8a.apk",
+			"name": "OK影视64位手机版",
+			"url": "https://down.nigx.cn/github.com/ediart/tvbox/releases/latest/download/mobile-arm64_v8a.apk",
 			"icon": "https://d.dayeapp.net/y.jpg",
 			"version": "py-v8a"
 		},
 		{
-			"name": "OK影视电视版",
-			"url": "https://h5ai.celin.netlib.re/Android/leanback-armeabi_v7a.apk",
+			"name": "OK影视32位电视版",
+			"url": "https://down.nigx.cn/github.com/ediart/tvbox/releases/latest/download/leanback-armeabi_v7a.apk",
 			"icon": "https://d.dayeapp.net/y.jpg",
 			"version": "py-v7a"
 		},
 		{
-			"name": "OK影视安卓4.x版",
-			"url": "https://h5ai.celin.netlib.re/Android/安卓4.x-OK影视.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
-			"version": "py-v7a"
-		},
-		{
-			"name": "OK影视Pro手机版",
-			"url": "https://h5ai.celin.netlib.re/Android/OK影视Pro-手机版.apk",
+			"name": "OK影视64位电视版",
+			"url": "https://down.nigx.cn/github.com/ediart/tvbox/releases/latest/download/leanback-arm64_v8a.apk",
 			"icon": "https://d.dayeapp.net/y.jpg",
 			"version": "py-v8a"
-		},
-		{
-			"name": "OK影视Pro电视版",
-			"url": "https://h5ai.celin.netlib.re/Android/OK影视Pro-电视版-32位.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
-			"version": "py-v7a"
-		},
-		{
-			"name": "OK影视Pro电视版",
-			"url": "https://h5ai.celin.netlib.re/Android/OK影视Pro-电视版-64位.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
-			"version": "py-v8a"
-		},
-		{
-			"name": "蜂蜜影视手机版",
-			"url": "https://gb.hfr1107.top/https://github.com/FongMi/Release/blob/fongmi/apk/mobile-arm64_v8a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
-			"version": "py-v8a"
-		},
-		{
-			"name": "蜂蜜影视手机版",
-			"url": "https://gb.hfr1107.top/https://github.com/FongMi/Release/blob/fongmi/apk/mobile-arm64_v7a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
-			"version": "py-v7a"
-		},
-		{
-			"name": "蜂蜜影视电视版",
-			"url": "https://gb.hfr1107.top/https://github.com/FongMi/Release/blob/fongmi/apk/leanback-arm64_v8a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
-			"version": "py-v8a"
-		},
-		{
-			"name": "蜂蜜影视电视版",
-			"url": "https://gb.hfr1107.top/https://github.com/FongMi/Release/blob/fongmi/apk/leanback-armeabi_v7a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
-			"version": "py-v7a"
 		}
 	]
-
 }]
-
-

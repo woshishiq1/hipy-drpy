@@ -23,13 +23,14 @@
             }
         },
         {
-            "key": "椰子",
-            "name": "椰子｜APP",
+            "key": "花柳",
+            "name": "花柳｜APP",
             "type": 3,
             "changeable": 0,
             "api": "csp_AppFox",
             "ext": {
-                "host": "http://103.109.20.117:550"
+                "host": "http://nico.oiio.fun",
+                "ver": 2
             }
         },
         {
@@ -158,6 +159,17 @@
                 "dataKey": "staraugust123456",
                 "dataIv": "staraugust123456",
                 "version": "120"
+            }
+        },
+        {
+            "key": "气球",
+            "name": "气球｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://vv.229d.cn",
+                "dataKey": "8888888888888888",
+                "dataIv": "8888888888888888"
             }
         },
         {
@@ -1150,8 +1162,8 @@
             "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
-            "ext": "https://000.hfr1107.top/tool/yc/market.json",
-            "jar": "https://000.hfr1107.top/tool/yc/fm.jar"
+            "ext": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/market.json",
+            "jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
         }
     ],
     "parses": [

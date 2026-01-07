@@ -336,7 +336,13 @@
       "type": 3,
       "api": "csp_HBconfig"
     },
-
+    {
+      "key": "tenteng",
+      "name": "落日|自定",
+      "type": 3,
+      "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
+      "ext": "http://103.45.162.207:25252/仅供测试/lib/腾腾.js"
+    },
       {
       "key": "新腾极4k",
       "name": "💖新腾极4k",
@@ -677,7 +683,7 @@
     {
       "name": "自定：请先设置",
       "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
+      "url": "https://tv.69mini.com/api/index?parsesId=3&appid=10002&videoUrl=http://103.45.162.207:13131/%E5%B0%8F%E8%99%8E%E6%96%91.php?url="
     }
 
   

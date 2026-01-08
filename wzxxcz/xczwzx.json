@@ -689,19 +689,6 @@
             "ext": "https://hnytxj.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
         {
-            "key": "金牌",
-            "name": "🏅金牌影视备",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://dtqj1.gg1080.com:443/dtjp.txt",
-                "dataKey": "kecbio48dsq131ed",
-                "dataIv": "kecbio48dsq131ed"
-            }
-        },
-        {
             "key": "柠檬",
             "name": "🍋柠檬影院",
             "type": 3,
@@ -709,17 +696,6 @@
             "playerType": 2,
             "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
-        },
-        {
-            "key": "椰子",
-            "name": "🍊椰子影视",
-            "type": 3,
-            "changeable": 0,
-            "api": "csp_AppFox",
-            "ext": {
-                "host": "https://yzysap.oss-cn-hangzhou.aliyuncs.com/yzysapp.json",
-                "ver": 2
-            }
         },
         {
             "key": "花柳",
@@ -806,19 +782,6 @@
             }
         },
         {
-            "key": "小猫",
-            "name": "🐈小猫影视",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
-                "dataKey": "xmyxmyxywlkjxywl",
-                "dataIv": "xmyxmyxywlkjxywl"
-            }
-        },
-        {
             "key": "瑞奇",
             "name": "🍊瑞奇影视",
             "type": 3,
@@ -828,18 +791,6 @@
                 "url": "http://rqxk.gdata.fun",
                 "dataKey": "yangruiqiYsapp00",
                 "dataIv": "yangruiqiYsapp00"
-            }
-        },
-        {
-            "key": "优势",
-            "name": "🍊优势影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://zxy-ys.810211.dpdns.org",
-                "dataKey": "1234567890123456",
-                "dataIv": "1234567890123456"
             }
         },
         {
@@ -1471,19 +1422,6 @@
             }
         },
         {
-            "key": "火锅",
-            "name": "🍊火锅影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://ios.hgyx.vip",
-                "dataKey": "062dec75d039980e",
-                "dataIv": "062dec75d039980e",
-                "ua": "Dart/3.5 (dart:io)"
-            }
-        },
-        {
             "key": "八天",
             "name": "🍵八天影视",
             "type": 3,
@@ -1585,19 +1523,6 @@
             }
         },
         {
-            "key": "布雷",
-            "name": "🌩️布雷影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/blurl.txt",
-                "dataKey": "5f2b7ed203a3a581",
-                "dataIv": "5f2b7ed203a3a581",
-                "version": "120"
-            }
-        },
-        {
             "key": "仓鼠",
             "name": "🐹仓鼠影视",
             "type": 3,
@@ -1635,17 +1560,6 @@
             }
         },
         {
-            "key": "雨滴",
-            "name": "💧雨滴影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
-                "dataKey": "685bf108bc47b67d",
-                "dataIv": "685bf108bc47b67d"
-            }
-        },
-        {
             "key": "白鸽",
             "name": "🕊️白鸽影视",
             "type": 3,
@@ -1659,32 +1573,6 @@
             }
         },
         {
-            "key": "奇奇",
-            "name": "🍊奇奇影视",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://103.236.61.192:8006",
-                "dataKey": "123456789abcdefg",
-                "dataIv": "123456789abcdefg"
-            }
-        },
-        {
-            "key": "剧猫",
-            "name": "🐈剧猫影视",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://zjm-1302383509.cos.ap-guangzhou.myqcloud.com/zjm.txt",
-                "dataKey": "zjmznbl2026zcxgb",
-                "dataIv": "zjmznbl2026zcxgb"
-            }
-        },
-        {
             "key": "剧梦",
             "name": "🍊剧梦影视",
             "type": 3,
@@ -1695,19 +1583,6 @@
                 "url": "https://www.jumengwu.com",
                 "dataKey": "1f0a873caf2550a5",
                 "dataIv": "1f0a873caf2550a5"
-            }
-        },
-        {
-            "key": "缘梦",
-            "name": "🍊缘梦影视",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://www.zipfve.cn",
-                "dataKey": "1234567890987654",
-                "dataIv": "1234567890987654"
             }
         },
         {
@@ -7408,41 +7283,6 @@
             "api": "csp_SP360"
         },
         {
-            "key": "腾讯视频1",
-            "name": "🐚腾讯4K",
-            "type": 3,
-            "api": "https://tvbox.catvod.com/xs/js/drpy2.min.js",
-            "ext": "https://tvbox.catvod.com/xs/js/腾讯视频.js"
-        },
-        {
-            "key": "优酷视频1",
-            "name": "🐚优酷4K",
-            "type": 3,
-            "api": "https://tvbox.catvod.com/xs/js/drpy2.min.js",
-            "ext": "https://tvbox.catvod.com/xs/js/优酷视频.js"
-        },
-        {
-            "key": "芒果视频1",
-            "name": "🐚芒果4K",
-            "type": 3,
-            "api": "https://tvbox.catvod.com/xs/js/drpy2.min.js",
-            "ext": "https://tvbox.catvod.com/xs/js/芒果视频.js"
-        },
-        {
-            "key": "爱奇艺1",
-            "name": "🐚奇异4K",
-            "type": 3,
-            "api": "https://tvbox.catvod.com/xs/js/drpy2.min.js",
-            "ext": "https://tvbox.catvod.com/xs/js/爱奇艺.js"
-        },
-        {
-            "key": "360影视1",
-            "name": "🐚3604K",
-            "type": 3,
-            "api": "https://ghfast.top/https://raw.githubusercontent.com/1771245847/TvBox/master/js/drpy2.min.js",
-            "ext": "https://ghfast.top/https://raw.githubusercontent.com/1771245847/TvBox/master/js/360.js"
-        },
-        {
             "key": "麒麟影视",
             "name": "🐲麒麟影视",
             "type": 3,
@@ -7453,9 +7293,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251108",
+                "作者": "🍊小橙子/20260108",
                 "站名": "麒麟影视",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@__mxau__c2-4I3kFmdR=faa483a2-bb47-4476-873b-b73dd4558866；； __mxaf__c2-4I3kFmdR=1758346481；； SITE_TOTAL_ID=aa4cd6acbd9cea692b26991de6279a9c；； Hm_lvt_dec24c6e9b46272f08d73cefed60abe9=1762581980；； HMACCOUNT=EBE46A2770C06691；； tips=ok；； PHPSESSID=s8bgqeqjb29h15bkl21ajssqm3；； mac_history=%7Blog%3A%5B%7B%22name%22%3A%22%E4%B8%89%E6%B1%9F%E6%BD%AE%22%2C%22link%22%3A%22%2Findex.php%2Fvod%2Fdetail%2Fid%2F69600.html%22%2C%22pic%22%3A%22https%3A%2F%2Fvip.dytt-img.com%2Fupload%2Fvod%2F20251013-1%2F18524bd00f0187450ececfe1fb3baf28.jpg%22%7D%2C%7B%22name%22%3A%22%E5%A4%A9%E5%9C%B0%E5%89%91%E5%BF%83%22%2C%22link%22%3A%22%2Findex.php%2Fvod%2Fdetail%2Fid%2F71170.html%22%2C%22pic%22%3A%22https%3A%2F%2Fvip.dytt-img.com%2Fupload%2Fvod%2F20251025-1%2F089830e695f8e43e3ebbe1d172ea827f.jpg%22%7D%2C%7B%22name%22%3A%22%E9%87%8D%E5%BD%B1%22%2C%22link%22%3A%22%2Findex.php%2Fvod%2Fdetail%2Fid%2F71192.html%22%2C%22pic%22%3A%22https%3A%2F%2Fvip.dytt-img.com%2Fupload%2Fvod%2F20251026-1%2F77ff7ae687bdeb513ec0c375ee3685fd.jpg%22%7D%5D%7D；； Hm_lpvt_dec24c6e9b46272f08d73cefed60abe9=1762605896；； __mxas__c2-4I3kFmdR=%7B%22sid%22%3A%22f748656b-f936-42ad-a452-f6955b1f6d21%22%2C%22vd%22%3A5%2C%22stt%22%3A23%2C%22dr%22%3A13%2C%22expires%22%3A1762607696%2C%22ct%22%3A1762605896%7D；； __mxav__c2-4I3kFmdR=46&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@Hm_lvt_754096d71b932e95ce44433d61fdba25=1767854540；； HMACCOUNT=17BED804ED862610；； Hm_lpvt_754096d71b932e95ce44433d61fdba25=1767855111&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -7463,46 +7303,49 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://www.70ys.site/",
+                "主页url": "https://www.honda-kyoka.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://www.70ys.site/index.php/vod/show/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#剧集$2#动漫$4#少儿$46#短剧$5#",
+                "分类url": "https://www.honda-kyoka.com/qlyysw/{cateId}--------{catePg}---.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#",
                 "二次截取": "",
-                "数组": "/vod/detail&&</a>",
+                "数组": "<div class=\"a-con-inner\"&&</div>",
                 "标题": "title=\"&&\"",
-                "图片": "data-original=\"&&\"",
-                "副标题": "<p class=\"tc_wz\">&&</p>",
-                "链接": "/index.php/vod/detail/id/+/id/&&\"",
-                "影片年代": "年份：&&</p>",
-                "影片地区": "地区：&&</p>",
-                "影片类型": "类型：&&</p>",
-                "状态": "状态：&&</p>",
-                "导演": "导演：&&</p>",
-                "主演": "主演：&&</p>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
-                "线路二次截取": "",
-                "线路数组": "tab-switch swiper-slide&&</li>",
-                "线路标题": "<a*>&&<",
-                "播放二次截取": "playlist-tab\">&&</body>[替换:class=\"clear\">>tab-content]",
-                "播放数组": "id=\"tab_con_playlist&&tab-content",
+                "图片": "data-src=\"&&\"",
+                "副标题": "<span class=\"s4 text-left\">&&</span>",
+                "链接": "/qlyypy/+/qlyydt/&&.html+-1-1.html",
+                "影片年代": "年份：&&</div>",
+                "影片地区": "地区：&&</div>",
+                "影片类型": "类型：&&</div>",
+                "状态": "状态：&&</div>",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+ysinfotext\">&&</div>",
+                "线路二次截取": "xianlu\">&&</div>",
+                "线路数组": "<a&&</a>",
+                "多线二次截取": "xianlu\">&&</div>",
+                "多线数组": "<a&&/a>",
+                "线路标题": ">&&<",
+                "多线链接": "href=\"&&\"",
+                "播放二次截取": "",
+                "播放数组": "jisu\"&&xianlu",
                 "倒序": "0",
-                "播放列表": "<a&&</a>[不包含:点此报错！]",
-                "播放标题": ">&&<",
+                "播放列表": "<a&&/a>",
+                "播放标题": ">&&</a",
                 "播放链接": "href=\"&&\"",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.70ys.site/index.php/vod/search/page/{pg}/wd/{wd}.html",
+                "搜索url": "https://www.honda-kyoka.com/qlyysc/{wd}----------{pg}---.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",
-                "搜索数组": "/vod/detail&&</a>",
-                "搜索标题": "",
-                "搜索图片": "img src=\"&&\"",
-                "搜索副标题": "",
-                "搜索链接": "/index.php/vod/detail/id/+/id/&&\"",
+                "搜索数组": "<div class=\"pic\"&&</div>",
+                "搜索标题": "title=\"&&\"",
+                "搜索图片": "data-src=\"&&\"",
+                "搜索副标题": "<div class=\"state\">&&</div>",
+                "搜索链接": "/qlyypy/+/qlyydt/&&.html+-1-1.html",
                 "筛选": "1",
                 "类型": "",
                 "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",

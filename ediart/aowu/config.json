@@ -797,12 +797,70 @@
 			"ua": "bingcha/1.1 (mianfeifenxiang) "
 		},
 		{
+			"name": "Sports",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
+		},
+		{
+			"name": "港台",
+			"url": "http://152.32.229.52:5050/?type=m3u&proxy=true"
+		},
+		{
+			"name": "英超+NBA",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
+		},
+		{
+			"name": "Jacktv",
+			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+		},
+		{
 			"name": "catvod",
 			"url": "https://iptv.catvod.com/tv.m3u"
 		},
 		{
 			"name": "SMT",
 			"url": "https://live.catvod.com/tv.m3u"
+		},
+		{
+			"name": "MyTvSuper",
+			"url": "http://xtvantsc.xyz/mytv.m3u"
+		},
+		{
+			"name": "4GTV",
+			"url": "http://xtvantsc.xyz/litv_ts.php",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png"
+		},
+		{
+			"name": "1080",
+			"url": "http://xtvantsc.xyz/1080.m3u"
+		},
+		{
+			"name": "Gather直播",
+			"url": "https://tv.iill.top/m3u/Gather"
+		},
+		{
+			"name": "易发",
+			"type": 0,
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
+			"epg": "https://epg.v1.mk/json?ch={name}&date={date}",
+			"logo": "https://epg.v1.mk/logo/{name}.png",
+			"timeout": 10
+		},
+		{
+			"name": "备用直播一",
+			"type": 0,
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/PizazzGY/TV/refs/heads/master/output/user_result.txt",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png",
+			"timeout": 10
+		},
+		{
+			"name": "备用直播二",
+			"type": 0,
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/result.txt",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png",
+			"timeout": 10
 		}
 	],
 	"headers": [{

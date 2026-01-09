@@ -1,11 +1,7 @@
 预处理: $js.toString(() => {
-        const SLIDE_CK = 'slide_cookie';
-        let huadong_Cookie = getItem(SLIDE_CK);
-        if (huadong_Cookie) {
-            rule_fetch_params.headers.Cookie = huadong_Cookie;
-        }
-        let new_html = request(HOST);
-        if (/人机身份验证/.test(new_html)) {
+        let slidecookie = getItem('slidecookie');        
+        let new_html = request(HOST,{Headers:{Cookie:slidecookie}});
+        if (/滑动验证|人机身份验证/.test(new_html)) {
             let new_src = pdfh(new_html, 'script[src*="huadong"]&&src');
             if (new_src) {
                 if (!new_src.startsWith('http')) {
@@ -27,9 +23,8 @@
                 hhtml = request(yz_url, { withHeaders: true});
                 json = JSON.parse(hhtml);
                 let setCk = Object.keys(json).find(it => it.toLowerCase() === 'set-cookie');
-                let huadong_cookie = setCk ? json[setCk].split(';')[0] : '';
-                rule_fetch_params.headers.Cookie = huadong_cookie;
-                setItem(SLIDE_CK, huadong_cookie);
+                slidecookie = setCk ? json[setCk].split(';')[0] : '';                               
+                setItem(RULE_CK, slidecookie);
             }
         }
     }),

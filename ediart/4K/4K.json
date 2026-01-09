@@ -1,4 +1,3 @@
-
 {
 	"sites": [{
 			"name": "豆瓣 | 嗷呜",
@@ -292,6 +291,42 @@
 			}
 		},
 		{
+			"key": "labi_bh",
+			"name": "蜡笔BH | 4K",
+			"type": 3,
+			"api": "csp_HBT4",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qVTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXNZV0pwSXlNamJHRmlhUT09",
+			"jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/banhu.webp"
+		},
+		{
+			"key": "ouge_bh",
+			"name": "讴歌BH | 4K",
+			"type": 3,
+			"api": "csp_HBT4",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXZkV2RsSXlNamIzVm5aUT09",
+			"jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/banhu.webp"
+		},
+		{
+			"key": "zhizhen_bh",
+			"name": "至臻BH | 4K",
+			"type": 3,
+			"api": "csp_HBT4",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"ext": "YUhSMGNEb3ZMekUxTkM0eU1Ua3VNVEV6TGpFek9qUTROall2ZEdWemRDNXdhSEEvYzJsMFpUMXRhV2hrY2lNakkyMXBhR1J5",
+			"jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/banhu.webp"
+		},
+		{
 			"key": "panso",
 			"name": "盘搜 | 4K",
 			"type": 4,
@@ -309,7 +344,7 @@
 			"searchable": 0,
 			"changeable": 0,
 			"ext": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/market.json",
-		    "jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
+			"jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
 		}
 	],
 	"lives": [{
@@ -320,27 +355,11 @@
 			"ua": "bingcha/1.1 (mianfeifenxiang) "
 		},
 		{
-			"name": "Sports",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
-		},
-		{
-			"name": "港台",
-			"url": "http://152.32.229.52:5050/?type=m3u&proxy=true"
-		},
-		{
-			"name": "英超+NBA",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
-		},
-		{
-			"name": "Jacktv",
-			"url": "https://php.946985.filegear-sg.me/jackTV.m3u"
-		},
-		{
 			"name": "catvod",
 			"url": "https://iptv.catvod.com/tv.m3u"
 		},
 		{
-			"name": "SMT-catvod",
+			"name": "SMT",
 			"url": "https://live.catvod.com/tv.m3u"
 		}
 	],

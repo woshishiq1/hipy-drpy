@@ -271,6 +271,14 @@
 			"timeout": 10
 		},
 		{
+			"name": "备用直播三",
+			"type": 0,
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png",
+			"timeout": 10
+		},
+		{
 			"name": "🔞madou",
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/madou.m3u"
 		},

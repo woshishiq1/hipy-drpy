@@ -2,27 +2,28 @@
 	"name": "OK影视标准版",
 	"list": [{
 			"name": "OK影视32位手机版",
-			"url": "https://down.nigx.cn/github.com/ediart/tvbox/releases/latest/download/mobile-armeabi_v7a.apk",
+			"url": "https://pan.celin.indevs.in/webdav/OK客户端/mobile-armeabi_v7a.apk",
 			"icon": "https://d.dayeapp.net/y.jpg",
 			"version": "py-v7a"
 		},
 		{
 			"name": "OK影视64位手机版",
-			"url": "https://down.nigx.cn/github.com/ediart/tvbox/releases/latest/download/mobile-arm64_v8a.apk",
+			"url": "https://pan.celin.indevs.in/webdav/OK客户端/mobile-arm64_v8a.apk",
 			"icon": "https://d.dayeapp.net/y.jpg",
 			"version": "py-v8a"
 		},
 		{
 			"name": "OK影视32位电视版",
-			"url": "https://down.nigx.cn/github.com/ediart/tvbox/releases/latest/download/leanback-armeabi_v7a.apk",
+			"url": "https://pan.celin.indevs.in/webdav/OK客户端/leanback-armeabi_v7a.apk",
 			"icon": "https://d.dayeapp.net/y.jpg",
 			"version": "py-v7a"
 		},
 		{
 			"name": "OK影视64位电视版",
-			"url": "https://down.nigx.cn/github.com/ediart/tvbox/releases/latest/download/leanback-arm64_v8a.apk",
+			"url": "https://pan.celin.indevs.in/webdav/OK客户端/leanback-arm64_v8a.apk",
 			"icon": "https://d.dayeapp.net/y.jpg",
 			"version": "py-v8a"
 		}
 	]
 }]
+

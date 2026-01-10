@@ -314,7 +314,7 @@
         {"key": "csp_XYQBiu_大米星球","name": "🍚大米星球","type": 3,"api": "csp_XBPQ",
     "searchable": 1,"quickSearch": 1,"filterable": 1,
     "jar":"https://gitee.com/youngxiayang/YJL/raw/master/JAR/xsDM.jar",
-    "ext": "https://codeberg.org/a526898155/TVBOX/raw/branch/main/xBPQ/keke.json"},
+    "ext": "https://codeberg.org/yjl/TVBOX/raw/branch/main/xBPQ/ssw.json"},
         //{"key": "csp_XYQHiker_九八剧","name":"🍷九八剧(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/custom_spider.jar","ext":"https://ghfast.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/refs/heads/main/XYQHiker/九八剧.json"},
         {"key":"采集之王","name":"🍺潇洒采集┃合集","type":3,
         "api":"https://gitee.com/youngxiayang/TVBOX/raw/main/js/lib/drpy2.min.js",

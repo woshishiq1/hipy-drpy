@@ -37,18 +37,6 @@
 			"api": "https://py.doube.eu.org/v2/spider?site=8a0bbe9e97c4429a517cd2ece3f6772b"
 		},
 		{
-			"key": "py_小红影视",
-			"name": "🍎小红影视(T4)",
-			"type": 4,
-			"api": "https://py.doube.eu.org/v2/spider?site=01d44f1ecd9383f273c0c24989ad87c3"
-		},
-		{
-			"key": "py_低端影视",
-			"name": "🍎低端影视(T4)",
-			"type": 4,
-			"api": "https://py.doube.eu.org/v2/spider?site=a4108870c8bac363add59bf0101e2884"
-		},
-		{
 			"key": "py_新韩剧网",
 			"name": "🍎新韩剧网(T4)",
 			"type": 4,
@@ -110,17 +98,18 @@
 			"api": "http://zhangqun1818.serv00.net/zh/2243.php"
 		},
 		{
-			"api": "https://learnpython.ggff.net/2BT",
-			"key": "2BT",
-			"name": "2BT",
+			"api": "https://learnpython.ggff.net/yongle",
+			"key": "yongle",
+			"name": "永乐视频",
 			"type": 4
 		},
 		{
-			"api": "https://learnpython.ggff.net/4KFS",
-			"key": "4KFS",
-			"name": "4KFS",
+			"api": "https://learnpython.ggff.net/4K",
+			"key": "4KAV",
+			"name": "4KAV",
 			"type": 4
-		}, {
+		},
+		{
 			"api": "https://learnpython.ggff.net/4KVMYS",
 			"key": "4KVMYS",
 			"name": "4KVMYS",
@@ -194,7 +183,7 @@
 			"searchable": 0,
 			"changeable": 0,
 			"ext": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/market.json",
-		    "jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
+			"jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
 		}
 	],
 	"lives": [{

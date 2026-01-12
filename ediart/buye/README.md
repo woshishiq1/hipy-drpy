@@ -1,3 +1,21 @@
+# 可用壳
+- 影视
+    ```text
+    https://github.com/FongMi/Release
+    ```
+- uz影视
+    ```text
+    https://t.me/uzVideoApp
+    ```
+- MiraPlay
+    ```text
+    https://apps.apple.com/us/app/miraplay/id6749287494?l=zh-Hans-CN
+    ```
+- JSTV
+    ```text
+    https://t.me/jstvapp
+    ```
+
 # 更新说明
 目前player和spider项目合并在一起了，actions自动发布的时候会一起编译提交，所以非必要，不需要更新player
 - 2025/12/26
@@ -123,10 +141,3 @@ http://localhost:3000/redirect/xxx
   "xxx": "https://www.baidu.com"
 }
 ```
-
----
-
-## ⚠️ 强烈建议
-
-- 不要在云服务器上运行
-- 使用家庭网络环境以降低封号和访问失败风险

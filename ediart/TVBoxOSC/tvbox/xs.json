@@ -1,6 +1,6 @@
 {
     "spider": "./spider.jar",
-    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
+    "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
     "sites": [
         {
@@ -1542,6 +1542,12 @@
             "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
             "logo": "https://epg.v1.mk/logo/{name}.png",
             "timeout": 10
+        },
+        {
+            "name": "IPTV Pro",
+            "url": "https://tv123.cc.cd/iptvpro.txt",
+            "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://diyp5.112114.xyz/{name}.png"
         },
         {
             "name": "备用直播一",

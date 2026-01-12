@@ -3,70 +3,74 @@
 	"list": [{
 			"name": "OK影视32位手机版",
 			"url": "https://pan.ediart.ggff.net/webdav/OK客户端/mobile-armeabi_v7a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v7a"
 		},
 		{
 			"name": "OK影视64位手机版",
 			"url": "https://pan.ediart.ggff.net/webdav/OK客户端/mobile-arm64_v8a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v8a"
 		},
 		{
 			"name": "OK影视32位电视版",
 			"url": "https://pan.ediart.ggff.net/webdav/OK客户端/leanback-armeabi_v7a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v7a"
 		},
 		{
 			"name": "OK影视64位电视版",
 			"url": "https://pan.ediart.ggff.net/webdav/OK客户端/leanback-arm64_v8a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v8a"
 		},
 		{
 			"name": "OK PRO 64位手机版",
 			"url": "https://pan.ediart.ggff.net/webdav/OK客户端/OK影视Pro-手机版.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
+			"version": "py-v8a"
+		},
+		{
+			"name": "OK PRO 64位模拟器版",
+			"url": "https://pan.ediart.ggff.net/webdav/OK客户端/OK影视Pro-手机版-模拟器.apk",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v8a"
 		},
 		{
 			"name": "OK PRO 32位电视版",
 			"url": "https://pan.ediart.ggff.net/webdav/OK客户端/OK影视Pro-电视版-32位.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v7a"
 		},
 		{
 			"name": "OK PRO 64位电视版",
 			"url": "https://pan.ediart.ggff.net/webdav/OK客户端/OK影视Pro-电视版-64位.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v8a"
 		},
 		{
 			"name": "FM影视32位手机版",
 			"url": "https://pan.ediart.ggff.net/webdav/FM客户端/mobile-armeabi_v7a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v7a"
 		},
 		{
 			"name": "FM影视64位手机版",
 			"url": "https://pan.ediart.ggff.net/webdav/FM客户端/mobile-arm64_v8a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v8a"
 		},
 		{
 			"name": "FM影视32位电视版",
 			"url": "https://pan.ediart.ggff.net/webdav/FM客户端/leanback-armeabi_v7a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v7a"
 		},
 		{
 			"name": "FM影视64位电视版",
 			"url": "https://pan.ediart.ggff.net/webdav/FM客户端/leanback-arm64_v8a.apk",
-			"icon": "https://d.dayeapp.net/y.jpg",
+			"icon": "https://i.kkb.xx.kg/image/2YsZNmlfc8sWXwFukNXI4m.jpg",
 			"version": "py-v8a"
 		}
 	]
 }]
-
-

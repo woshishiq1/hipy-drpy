@@ -424,6 +424,12 @@
 			"timeout": 10
 		},
 		{
+			"name": "IPTV Pro",
+			"url": "https://tv123.cc.cd/iptvpro.txt",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png"
+		},
+		{
 			"name": "备用直播一",
 			"type": 0,
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/PizazzGY/TV/refs/heads/master/output/user_result.txt",

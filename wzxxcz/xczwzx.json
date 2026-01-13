@@ -1446,6 +1446,17 @@
             }
         },
         {
+            "key": "奇奇",
+            "name": "🐎奇奇影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "ext": {
+                "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
+                "dataKey": "123456789abcdefg",
+                "dataIv": "123456789abcdefg"
+            }
+        },
+        {
             "key": "星星",
             "name": "🌠星星影视",
             "type": 3,
@@ -1643,6 +1654,12 @@
                 "dataKey": "1f0a873caf2550a5",
                 "dataIv": "1f0a873caf2550a5"
             }
+        },
+        {
+            "key": "饺子影视",
+            "name": "🥟饺子影视",
+            "type": 3,
+            "api": "csp_Jiaozi"
         },
         {
             "key": "孜然影视",
@@ -11289,13 +11306,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "莫小影视",
-            "name": "🍊莫小影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": "./XBPQ/莫小影视.json"
         },
         {
             "key": "面包影视",
@@ -35532,6 +35542,56 @@
             "name": "☯️自动解析聚合",
             "type": 3,
             "url": "Web"
+        },
+        {
+            "name": "⛲春天",
+            "type": 0,
+            "url": "https://jx.2s0.cn/player/?url="
+        },
+        {
+            "name": "🍊BBKDJ",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url="
+        },
+        {
+            "name": "☁️云解析",
+            "type": 0,
+            "url": "https://yparse.ik9.cc/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
+                }
+            }
+        },
+        {
+            "name": "🍊4k解析",
+            "type": 1,
+            "url": "http://103.163.47.120:7777/api/?key=yvgfYsmenad7cqm4b2&url="
+        },
+        {
+            "name": "🍊定制无限制",
+            "type": 1,
+            "url": "http://121.40.174.45:777/测试接口/4K解析.php?url="
+        },
+        {
+            "name": "🌃夏夜",
+            "type": 1,
+            "url": "http://8.155.50.80/xiayexk.php?url=",
+            "ext": {
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+        {
+            "name": "🍊HD3",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
         },
         {
             "name": "🦐虾米",

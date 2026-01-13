@@ -10,7 +10,7 @@
  * percent: 80,60
  * returnType: dom
  * timeout: 30
- * keywords: 系统安全验证|系统提示......|人机验证
+ * keywords: 系统安全验证|系统提示|人机验证
  * blockImages: true
  * blockList: *.[ico|png|jpeg|jpg|gif|webp]*|*.css
  *
@@ -90,7 +90,7 @@ async function categoryContent(tid, pg, filter, extend) {
     console.log(`分类: tid=${tid}, pg=${pg}`);
 	const document = await Java.wvOpen(`${baseUrl}/vodshow[/area/${extend?.area}][/by/${extend?.sort}][/class/${extend?.cate}]/id/${extend?.type||tid}[/year/${extend?.year}]/page/${pg||1}.html`);
 	
-    const pagecount = parseInt($('#page a[title="尾页"]')?.href?.match(/page\/(\d+)/)?.[1] || '1');
+    const pagecount = parseInt(document.querySelector('#page a[title="尾页"]')?.href?.match(/page\/(\d+)/)?.[1] || '1');
     return { 
         code: 1, 
         msg: "数据列表", 
@@ -120,32 +120,64 @@ async function detailContent(ids) {
         total: 1
     };
 }
-async function onCaptcha(code, cookie, header) {
-	console.log('获取到的id', code, cookie, header);
-	Java.showAlertDialog("剧圈圈", "收到验证码" + code);
-	if (code == '789') return false;
-	return true;
-}
+
 /**
- * 搜索
+ * 搜索  
  */
 async function searchContent(key, quick, pg) {
-	// 使用 getSearchCode 获取验证码
-	const result = ({
-		site: '剧圈圈',
-		url: "https://www.jqqzx.top/index.php/verify/index.html?" + Date.now(),
-		header: {
-			'Referer': baseUrl
-		}
-	});
-	
-	console.log('获取到的验证码:', result.code);
-	
-	// 如果用户取消或未输入验证码
-	if (!result || !result.input) {
-		return { list: [] };
-	}
+    const searchUrl = `${baseUrl}/vodsearch${key}/page/${pg || 1}.html`;
+    
+    // 检查是否有验证码需要校验
+    const captcha = Java.getSearchCode();
+    if (captcha && captcha.success) {
+        console.log('获取到的cookie:', captcha.cookie);
+        const verifyRes = await Java.req(`${baseUrl}/index.php/ajax/verify_check?type=search&verify=${captcha.code}`, {
+            headers: { "Cookie": captcha.cookie }
+        });
+        console.log('验证码校验结果:', verifyRes.body);
+    }
+    
+    // 发起搜索请求
+    const res = await Java.req(searchUrl, {
+        headers: captcha?.cookie ? { "Cookie": captcha.cookie } : {}
+    });
+    
+    // 检测是否需要验证码
+    if (!res?.doc?.title?.includes("搜索结果")) {
+        // 需要验证码，返回验证码请求
+        return {
+            SearchCode: true, // 标记需要验证码
+            site: '剧圈圈',  // 验证码站点标题
+            autoOcr: true,    // 是否自动识别验证码
+            url: `${baseUrl}/index.php/verify/index.html?${Date.now()}`
+        };
+    }
+    
+    const vods = [];
+    res?.doc?.querySelectorAll('.module-card-item').forEach(item => {
+        const link = item.querySelector('.module-card-item-title a');
+        const img = item.querySelector('.module-item-pic img');
+        const desc = item.querySelector('.module-info-item-content');
+        vods.push({
+            vod_id: link?.getAttribute('href') || '',
+            vod_name: link?.textContent?.trim() || '',
+            vod_pic: img?.getAttribute('data-original') || img?.getAttribute('src') || '',
+            vod_remarks: desc?.textContent?.trim() || ''
+        });
+    });
+
+    return {
+        code: 1,
+        msg: "数据列表",
+        list: vods, 
+        page: pg, 
+        pagecount: parseInt(res?.doc?.querySelector("#page > a:nth-child(9)")?.href?.match(/page\/(\d+)/)?.[1] || '1'),
+        limit: 16, 
+        total: parseInt(res?.doc?.querySelector("strong.mac_total")?.textContent || '0')
+    };
+
 }
+
 
 /**
  * 播放器
@@ -195,7 +227,7 @@ function parseDetailPage() {
     
     // 解析播放列表
     const playUrls = [];
-    document.querySelectorAll('.his-tab-list').forEach(list => {  // 修正：使用 querySelectorAll
+    document.querySelectorAll('.his-tab-list').forEach(list => {
         const eps = [...list.querySelectorAll('.module-play-list-link')].map(link => {
             const name = link.querySelector('span')?.textContent?.trim();
             const url = baseUrl + link.getAttribute('href');
@@ -227,7 +259,3 @@ function parseDetailPage() {
         vod_play_url: playUrls.join('$$$')
     }];
 }
-
-/* ---------------- 导出对象 ---------------- */
-const spider = { init, homeContent, homeVideoContent, categoryContent, detailContent, searchContent, playerContent, action, onCaptcha };
-spider;

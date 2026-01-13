@@ -157,7 +157,3 @@ function formatTime(timestamp, format = 'YYYY-MM-DD HH:mm:ss') {
     return format.replace(/YYYY|MM|DD|HH|mm|ss/g, matched => map[matched]);
 }
 
-/* ---------------- 导出对象 ---------------- */
-const spider = { init, homeContent, homeVideoContent, categoryContent, detailContent, searchContent, playerContent, formatTime };
-spider;
-

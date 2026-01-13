@@ -795,45 +795,6 @@
             "ext": "./XBPQ/雪花.json"
         },
         {
-            "key": "盘搜",
-            "name": "盘搜｜搜索",
-            "type": 3,
-            "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0
-        },
-        {
-            "key": "酷乐",
-            "name": "酷乐｜搜索",
-            "type": 3,
-            "api": "csp_KuLe"
-        },
-        {
-            "key": "鬼鬼",
-            "name": "鬼鬼｜搜索",
-            "type": 3,
-            "api": "csp_GuiGui"
-        },
-        {
-            "key": "混合",
-            "name": "混合｜搜索",
-            "type": 3,
-            "api": "csp_HunHePan"
-        },
-        {
-            "key": "兄弟",
-            "name": "兄弟｜搜索",
-            "type": 3,
-            "api": "csp_XiongDiPan"
-        },
-        {
-            "key": "天翼",
-            "name": "天翼｜搜索",
-            "type": 3,
-            "api": "csp_TianYiSo"
-        },
-        {
             "key": "88看球",
             "name": "88｜看球",
             "type": 3,
@@ -1514,8 +1475,12 @@
             "url": "https://iptv.catvod.com/tv.m3u"
         },
         {
-            "name": "SMT",
+            "name": "SMT-catvod",
             "url": "https://live.catvod.com/tv.m3u"
+        },
+        {
+            "name": "SMT",
+            "url": "http://96.44.160.246:9999/smt.php"
         },
         {
             "name": "MyTvSuper",

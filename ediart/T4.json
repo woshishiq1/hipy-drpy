@@ -238,8 +238,12 @@
 			"url": "https://iptv.catvod.com/tv.m3u"
 		},
 		{
-			"name": "SMT",
+			"name": "SMT-catvod",
 			"url": "https://live.catvod.com/tv.m3u"
+		},
+		{
+			"name": "SMT",
+			"url": "http://96.44.160.246:9999/smt.php"
 		},
 		{
 			"name": "MyTvSuper",

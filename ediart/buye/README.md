@@ -1,4 +1,4 @@
-# 可用壳
+# 可用壳（排名根据公开发布时间）
 - 影视
     ```text
     https://github.com/FongMi/Release
@@ -10,6 +10,10 @@
 - MiraPlay
     ```text
     https://apps.apple.com/us/app/miraplay/id6749287494?l=zh-Hans-CN
+    ```
+- PeekPili
+    ```text
+    https://github.com/ingriddaleusag-dotcom/PeekPiliRelease
     ```
 - JSTV
     ```text

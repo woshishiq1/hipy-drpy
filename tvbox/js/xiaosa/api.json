@@ -49,6 +49,17 @@
             }
         },
         {
+            "key": "木瓜",
+            "name": "木瓜｜APP",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://www.yezitv.top/dtym.json",
+                "ver": 2
+            }
+        },
+        {
             "key": "花柳",
             "name": "花柳｜APP",
             "type": 3,
@@ -568,6 +579,21 @@
             "ext": {
                 "site": [
                     "http://103.45.162.207:20720"
+                ]
+            }
+        },
+        {
+            "key": "闪电",
+            "name": "闪电｜4K",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://sd.sduc.site"
                 ]
             }
         },

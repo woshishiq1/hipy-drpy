@@ -731,6 +731,17 @@
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
         },
         {
+            "key": "木瓜",
+            "name": "🍈木瓜影院",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://www.yezitv.top/dtym.json",
+                "ver": 2
+            }
+        },
+        {
             "key": "花柳",
             "name": "🌸花柳影视",
             "type": 3,
@@ -12485,9 +12496,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/250703",
+                "作者": "🍊小橙子/20260114",
                 "站名": "飘零影院",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 14；； V2136A Build/UP1A.231005.007；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36&&Cookie@gg_iscookie=1；； PHPSESSID=dp6gqin4iogi9e3es10t347cfn；； __zdzu__c1-jf1fibMe=b157301d-a7ec-4f14-a2f4-77da3cba83bb；； __zdzf__c1-jf1fibMe=1750170471；； _ga=GA1.1.597734863.1750170471；； mx_style=black；； gg_iscookie=1；； mac_history_mxpro=%5B%7B%22vod_name%22%3A%22%E5%BD%BC%E5%B2%B8%E7%81%AF%E5%A1%94%22%2C%22vod_url%22%3A%22https%3A%2F%2Fwww.5o5k.com%2Fvodplay%2F250703-7-1.html%22%2C%22vod_part%22%3A%22%E7%AC%AC01%E9%9B%86%22%7D%5D；； _ok1_=q2UYtDz0owcYjk576zwMWw2YcOJmKjJEQKMrjQOPE0S4g5RuPOlWfKqQ64ovOr1LCgv82jOLOAFIpUikMX1r2PQRa7HfR1DdrHUonhM5ondhnJz7HF/ElDFX02mdITXs；； _clck=skonx8%7C2%7Cfwv%7C0%7C1994；； gg_show_number6333=1；； __zdzs__c1-jf1fibMe=%7B%22sid%22%3A%22d92d78cb-a1e5-4bf8-8a17-b4d7c89f2ad3%22%2C%22vd%22%3A27%2C%22stt%22%3A38153%2C%22dr%22%3A3%2C%22expires%22%3A1752008624%2C%22ct%22%3A1750208624%7D；； __zdzv__c1-jf1fibMe=27；； _ga_C9CB9ZY4FS=GS2.1.s1750208584$o4$g1$t1750208624$j20$l0$h1991547924；； _clsk=1gauhhg%7C1750208625143%7C3%7C1%7Cq.clarity.ms%2Fcollect&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@_ym_uid=1768374588542757872；； _ym_d=1768374588；； _ym_isad=2&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -12495,46 +12506,46 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://www.tzqjdy.com/",
+                "主页url": "https://www.timeijj.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://www.tzqjdy.com/vodshow/{cateId}-{area}---{lang}----{catePg}---{year}/",
-                "分类": "电影$dianying#电视剧$dsj#综艺$zongyi#动漫$dongman#爽文短剧$shuangwenduanju#4K电影$4kdianying#体育赛事$tiyusaishi#",
+                "分类url": "https://www.timeijj.com/pls/{cateId}/page/{catePg}.html",
+                "分类": "韩剧大全$hanju#经典日剧$riju#天天美剧$oumeiju#动漫画$dongman#综艺秀$zongyi#",
                 "二次截取": "",
-                "数组": "/voddetail/&&</a>",
+                "数组": "lazyload&&</a>",
                 "标题": "title=\"&&\"",
                 "图片": "data-original=\"&&\"",
-                "副标题": "<div class=\"module-item-note\">&&</div>",
-                "链接": "/voddetail/+&&\"",
-                "影片年代": "年份：&&</div>",
-                "影片地区": "地区：&&</div>",
-                "影片类型": "类型：&&</div>",
-                "状态": "状态：&&</div>",
-                "导演": "导演：&&</div>",
-                "主演": "主演：&&</div>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+module-info-introduction-content\">&&</div>",
+                "副标题": "<span class=\"pic-text text-right\">&&</span>",
+                "链接": "href=\"&&\"",
+                "影片年代": "年份：&&</p>",
+                "影片地区": "地区：&&</p>",
+                "影片类型": "类型：&&</p>",
+                "状态": "状态：&&</p>",
+                "导演": "导演：&&</p>",
+                "主演": "主演：&&</p>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+detail col-pd\">&&</div>",
                 "线路二次截取": "",
-                "线路数组": "data-dropdown&&</div>",
-                "线路标题": "<span>&&<",
+                "线路数组": "data-toggle&&</a>",
+                "线路标题": ">&&</a>[不包含:线路1]",
                 "播放二次截取": "",
-                "播放数组": "<div class=\"module-play-list-content&&</div>",
+                "播放数组": "stui-content__playlist clearfix&&</ul>",
                 "倒序": "0",
                 "播放列表": "<a&&</a>",
-                "播放标题": "<span>&&<",
+                "播放标题": ">&&</a>",
                 "播放链接": "href=\"&&\"",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.tzqjdy.com/vodsearch/{wd}----------{pg}---/",
+                "搜索url": "https://www.timeijj.com/ss/wd/{wd}/page/{pg}.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",
-                "搜索数组": "/voddetail/&&</a>",
-                "搜索标题": "alt=\"&&\"",
+                "搜索数组": "lazyload&&</a>",
+                "搜索标题": "title=\"&&\"",
                 "搜索图片": "data-original=\"&&\"",
-                "搜索副标题": "<div class=\"module-item-note\">&&</div>",
-                "搜索链接": "/voddetail/+&&\"",
+                "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
+                "搜索链接": "href=\"&&\"",
                 "筛选": "1",
                 "类型": "",
                 "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
@@ -35604,27 +35615,12 @@
             }
         },
         {
-            "name": "🍊4k解析",
-            "type": 1,
-            "url": "http://103.163.47.120:7777/api/?key=yvgfYsmenad7cqm4b2&url="
-        },
-        {
             "name": "🍊HD3",
             "type": 0,
             "url": "https://jx.yparse.com/index.php?url=",
             "ext": {
                 "header": {
                     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-                }
-            }
-        },
-        {
-            "name": "🌃夏夜4k",
-            "type": 1,
-            "url": "http://8.155.50.80/xiayexk.php?url=",
-            "ext": {
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
                 }
             }
         },

@@ -5,11 +5,11 @@
  * 最后更新：2026-1-2 02:46:31
  * 发布页 https://m.yangshipin.cn/
  * @config
- * debug: true
+ * debug: false
  * blockList: *.[ico|png|jpeg|jpg|gif|webp]*|*.css
  */
 
-const baseUrl = 'https://m.yangshipin.cn/';
+const baseUrl = 'https://m.yangshipin.cn';
 const headers = {
 	'user-agent': 'Mozilla/5.0 (Linux; Android 12; HarmonyOS; ELS-AN10; HMSCore 6.11.0.302) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 HuaweiBrowser/13.0.3.320 Mobile Safari/537.36'
 };
@@ -37,6 +37,7 @@ async function homeContent(filter) {
  * 首页推荐视频
  */
 async function homeVideoContent() {
+    Java.wvOpen(`${baseUrl}/tv?pid=600001859`);
     return { list: [] };
 }
 
@@ -125,7 +126,7 @@ async function searchContent(key, quick, pg) {
  * 播放器
  */
 async function playerContent(flag, id, vipFlags) {
-	// Java.showWebView();
+	//Java.showWebView();
 	let playUrl = `https://m.yangshipin.cn/tv?pid=${id}&ptag=4_1.0.5.15187_copy,4_1.0.0.20034_copy`;
 	if (flag == '节目回看') {
 		const ids = id.split("_"); 
@@ -157,3 +158,24 @@ function formatTime(timestamp, format = 'YYYY-MM-DD HH:mm:ss') {
     return format.replace(/YYYY|MM|DD|HH|mm|ss/g, matched => map[matched]);
 }
 
+
+if (typeof window.hasCheckedLogin === 'undefined') {
+    window.hasCheckedLogin = true;
+    
+    let cookies = Java.getCookies('https://m.yangshipin.cn');
+
+    if (!cookies || !cookies.includes('vuserid')) {
+        let confirmed = Java.showConfirmDialog('提示', '央视频已限制登录后才可以观看，点击确定后请自行登录！');
+        
+        if (confirmed) {
+            let t = setInterval(() => {
+                let p = document.querySelector("#v-live-video");
+                if (p?.play) {
+                    p.play();
+                    Java.showWebView();
+                    clearInterval(t);
+                }
+            }, 100);
+        }
+    }
+}

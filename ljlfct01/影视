@@ -1,5 +1,5 @@
 {
-  "spider": "./ls/moyu.php;md5;f5a2aa9e1417fc4f2dbecaed17c3cfd2",
+  "spider": "./res/moyu/moyu.php;md5;f5a2aa9e1417fc4f2dbecaed17c3cfd2",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -315,32 +315,7 @@
 
   ],
   "sites": [
-    {
-      "key": "drpy_js_豆瓣",
-      "name": "导航|小虎斑的口粮",
-      "type": 3,
-      "api": "csp_Douban",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/douban.json"
-    },
-    {
-      "key": "提醒",
-      "api": "csp_Douban2",
-      "name": "仅用作学习交流使用，请于24小时之内进行清除",
-      "type": 3
-    },
-    {
-      "key": "测试",
-      "name": "应用|更新",
-      "type": 3,
-      "api": "csp_Market",
-      "ext": "aHR0cHM6Ly84OTI0LmtzdG9yZS5zcGFjZS9odWJhbi9tYXJrLmpzb24="
-    },
-    {
-      "key": "设置",
-      "name": "网弹|设置",
-      "type": 3,
-      "api": "csp_Config"
-    },
+
 
       {
       "key": "新腾极4k",
@@ -403,8 +378,8 @@
       "key": "🈵 小满万全 | 解析",
       "name": "💖 芒芒 | 4k",
       "type": 3,
-      "api": "csp_LessIsMore",
-     "jar": "https://www.lintech.work/超大杯/custom_spider_20251016.tms;md5;04b565f0ad83c26c1ecd0ae04f747466",
+     "api": "https://gitee.com/xuyicheng11/wanglin/raw/master/lib/drpy2.min.js",
+
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -420,6 +395,7 @@
       "name": "醉挽｜清风",
       "type": 4,
       "api": "http://我不是.摸鱼儿.com/api/yyutx.php",
+     "jar": "./res/moyu/moyu.php;md5;f5a2aa9e1417fc4f2dbecaed17c3cfd2",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
@@ -645,42 +621,86 @@
       "timeout": 25
     },
 
-        {
-            "key": "猫抓",
-            "name": "猫抓",
-            "type": 3,
-            "api": "csp_AppGet",
-            "jar": "https://img2.gelonghui.com/library/caa22-82cdc278-148a-46bf-9aaf-c6aee2b5d124.png;md5;caa22b5d283ec2bdc63f65b9310ea232",
-            "ext": "https://www.mfsp4k.top|1234567887654321"
-        },
 
-    {
-      "key": "立播",
-      "name": "💖免扫网盘❺|4K",
-      "type": 4,
-      "api": "http://8088880.xyz:8080/video/libo?token=698d04ebe00a6369",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    }
+
+        {
+            "key": "labi",
+            "name": "白嫖｜蜡笔｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/labi?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "木偶",
+            "name": "白嫖｜木偶｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/muou?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "categories": [
+                "电影",
+                "剧集",
+                "动漫",
+                "短剧",
+                "纪录片"
+            ]
+        },
+        {
+            "key": "ouge",
+            "name": "白嫖｜讴歌｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/ouge?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "libo",
+            "name": "白嫖｜立播｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/libo?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "xbky",
+            "name": "白嫖｜快映｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/xbky?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "huban",
+            "name": "白嫖｜虎斑｜4K",
+            "type": 4,
+            "api": "http://8088880.xyz:8080/video/hb?token=698d04ebe00a6369",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        }
 
 
 
   ],
   "parses": [
     {
-      "name": "自定：请先设置",
+      "name": "自定",
       "type": 1,
       "url": "http://jiexi.fc8001.top/cbXboBuEiZzbibeg.php?url="
-    },
-    {
-      "name": "晴天4K Q1026038872",
-      "type": 1,
-      "url": "http://chaoqianys.top:98/api/?key=L2av6NzxJOuvG3VG1p&url="
-
-
     }
+
   
 
   

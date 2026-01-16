@@ -378,8 +378,7 @@
       "key": "🈵 小满万全 | 解析",
       "name": "💖 芒芒 | 4k",
       "type": 3,
-     "api": "https://gitee.com/xuyicheng11/wanglin/raw/master/lib/drpy2.min.js",
-
+      "api": "csp_LessIsMore",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -699,6 +698,11 @@
       "name": "自定",
       "type": 1,
       "url": "http://jiexi.fc8001.top/cbXboBuEiZzbibeg.php?url="
+    },
+    {
+      "name": "自定1",
+      "type": 1,
+      "url": "https://coffee.1ljx.com:32000/api/?key=36d3e7f8-f971-44a7-9063-5db4f218491d&url="
     }
 
   

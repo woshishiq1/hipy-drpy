@@ -35877,6 +35877,36 @@
             "url": "Web"
         },
         {
+            "name": "🦐解析0",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "mgtv",
+                    "芒果",
+                    "imgo",
+                    "letv",
+                    "乐视",
+                    "pptv",
+                    "PPTV",
+                    "sohu",
+                    "bilibili",
+                    "哔哩哔哩",
+                    "哔哩"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/5.3.2"
+                }
+            }
+        },
+        {
             "name": "⛲春天",
             "type": 0,
             "url": "https://jx.2s0.cn/player/?url="
@@ -35945,6 +35975,21 @@
             "name": "🍊线路3",
             "type": 1,
             "url": "https://jx.nnxv.cn/tv.php?url="
+        },
+        {
+            "name": "🍊线路4",
+            "type": 1,
+            "url": "https://www.nxflv.com/?url="
+        },
+        {
+            "name": "🍊线路5",
+            "type": 1,
+            "url": "https://jx.xmflv.com/?url="
+        },
+        {
+            "name": "🍊线路6",
+            "type": 1,
+            "url": "https://jx.jsonplayer.com/player/?url="
         },
         {
             "name": "🦐虾米",

@@ -23,16 +23,22 @@
             "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro2"
         },
         {
-            "name": "斯玛特直播1(梯子)",
+            "name": "斯玛特直播(梯子)",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯瑪特直播源1"
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯玛特直播源1"
+       },
+       {
+            "name": "斯玛特直播(免翻)",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯玛特直播源2"
         },
         {
-            "name": "斯玛特直播2",
+            "name": "斯玛特直播",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯瑪特直播源2"
+            "url": "http://58.152.30.33:21015/xsmt/smt.php"
         },
         {
             "name": "央卫频道",
@@ -771,6 +777,28 @@
             }
         },
         {
+            "key": "麒麟",
+            "name": "🐲麒麟影院",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "https://qh.70qh.top",
+                "ver": 2
+            }
+        },
+        {
+            "key": "粉象",
+            "name": "🐘粉象影院",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://121.40.131.51:2556/host.json",
+                "ver": 2
+            }
+        },
+        {
             "key": "恋鱼",
             "name": "🦈恋鱼影视",
             "type": 3,
@@ -861,7 +889,7 @@
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
@@ -878,7 +906,7 @@
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "url": "https://juziapp.tpmbt.cn",
@@ -894,7 +922,7 @@
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt",
@@ -910,7 +938,7 @@
             "type": 3,
             "api": "csp_AppQi",
             "changeable": "1",
-            "quickSearch": 0,
+            "quickSearch": 1,
             "filterable": 1,
             "ext": {
                 "site": "https://guwozj-1319364746.cos.ap-guangzhou.myqcloud.com/guwo.txt",
@@ -1486,18 +1514,6 @@
             }
         },
         {
-            "key": "星星",
-            "name": "🌠星星影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "http://110.81.153.7:1963/get.txt",
-                "dataKey": "k7L9mQ2xR4pW8n88",
-                "dataIv": "k7L9mQ2xR4pW8n88",
-                "version": "305"
-            }
-        },
-        {
             "key": "气球",
             "name": "🍊气球影视",
             "type": 3,
@@ -1529,18 +1545,6 @@
                 "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
                 "dataKey": "88689667dce61725",
                 "dataIv": "88689667dce61725"
-            }
-        },
-        {
-            "key": "八天",
-            "name": "🍵八天影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "https://dy.8ttv.cn",
-                "dataKey": "1111111111111111",
-                "dataIv": "1111111111111111"
             }
         },
         {
@@ -4743,6 +4747,29 @@
                 "api": "/api.php/getappapi",
                 "datakey": "1234567890123456",
                 "dataiv": "1234567890123456"
+            }
+        },
+        {
+            "key": "火锅",
+            "name": "🍊火锅影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://ios.hgyx.vip",
+                "dataKey": "062dec75d039980e",
+                "dataIv": "062dec75d039980e",
+                "ua": "Dart/3.5 (dart:io)"
+            }
+        },
+        {
+            "key": "天峰",
+            "name": " ⛰天峰影院",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://zxy-ys.810211.dpdns.org",
+                "dataKey": "1234567890123456",
+                "dataIv": "1234567890123456"
             }
         },
         {
@@ -11412,6 +11439,13 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "小镇影视",
+            "name": "🏙️小镇影视",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/小镇影视.json"
         },
         {
             "key": "面包影视",
@@ -35848,7 +35882,7 @@
             "url": "https://jx.2s0.cn/player/?url="
         },
         {
-            "name": "🍊淡若青风4k",
+            "name": "🍊淡若青风",
             "type": 1,
             "url": "http://121.40.174.45:299/api/?key=C929E46077B4A0H&url=",
             "ext": {
@@ -35896,6 +35930,21 @@
                     "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
                 }
             }
+        },
+        {
+            "name": "🍊默认1",
+            "type": 1,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
+        },
+        {
+            "name": "🍊推荐2",
+            "type": 1,
+            "url": "https://www.1717yun.com/beiyongjiexi/?url="
+        },
+        {
+            "name": "🍊线路3",
+            "type": 1,
+            "url": "https://jx.nnxv.cn/tv.php?url="
         },
         {
             "name": "🦐虾米",

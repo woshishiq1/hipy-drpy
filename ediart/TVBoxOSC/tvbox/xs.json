@@ -1514,10 +1514,6 @@
             "url": "http://152.32.229.52:5050/?type=m3u&proxy=true"
         },
         {
-            "name": "英超+NBA",
-            "url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/epl_nba.m3u"
-        },
-        {
             "name": "Jacktv",
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
         },
@@ -1558,6 +1554,10 @@
             "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
             "logo": "https://epg.v1.mk/logo/{name}.png",
             "timeout": 10
+        },
+        {
+            "name": "YouTube直播",
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubelive.m3u"
         },
         {
             "name": "备用直播一",

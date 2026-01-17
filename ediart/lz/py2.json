@@ -362,6 +362,10 @@
 			"timeout": 10
 		},
 		{
+			"name": "YouTube直播",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubelive.m3u"
+		},
+		{
 			"name": "备用直播一",
 			"type": 0,
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/PizazzGY/TV/refs/heads/master/output/user_result.txt",

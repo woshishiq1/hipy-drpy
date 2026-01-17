@@ -1,8 +1,8 @@
 {
     "spider": "./tvbox.jar",
-    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1747813141071/20250521_153801.gif",
+    "logo": "https://img.meituan.net/portalweb/2d4b59b4fe3ab8c5fbe1150a68f52448586638.gif",
     "wallpaper": "https://t.alcy.cc/acg",
-    "warningText": "学习使用，资源来源于网络，请勿贩卖，请加载24小时后删除，出现其他问题与作者无关，请知悉！",
+    "warningText": "学习使用,资源来源于网络,请勿贩卖,请加载24小时后删除,出现其他问题与作者无关,请知悉！",
     "lives": [
         {
             "name": "✨范明明✨",
@@ -50,13 +50,20 @@
             }
         },
         {
-            "key": "采集",
-            "name": "🌀采集┃线路",
+            "key": "热播",
+            "name": "🔥热播┃秒播",
             "type": 3,
-            "api": "csp_Ptt",
+            "api": "csp_TianTian",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1
+            "filterable": 1,
+            "ext": "http://v.rbotv.cn"
+        },
+        {
+            "key": "新荐片",
+            "name": "🧲新荐片丨磁力",
+            "type": 3,
+            "api": "./lib/新荐片.py"
         },
         {
             "key": "Tgsoukk",
@@ -100,19 +107,6 @@
             "changeable": 1
         },
         {
-            "key": "奥秘",
-            "name": "🔴奥秘┃4K",
-            "type": 3,
-            "api": "csp_Mogg",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "timeout": 30,
-            "ext": {
-                "site": "https://vip.omii.top"
-            }
-        },
-        {
             "key": "虎斑",
             "name": "🔴虎斑┃4K",
             "type": 3,
@@ -151,15 +145,15 @@
             }
         },
         {
-            "key": "闪电网盘",
-            "name": "🔴闪电┃4K",
+            "key": "小斑网盘",
+            "name": "🔴小斑┃4K",
             "type": 3,
             "api": "csp_Mogg",
             "searchable": 1,
             "quickSearch": 1,
             "changeable": 1,
             "ext": {
-                "site": "http://1.95.79.193,http://1.95.79.193:666"
+                "site": "http://xhban.xyz"
             }
         },
         {
@@ -172,6 +166,19 @@
             "changeable": 1,
             "ext": {
                 "site": "http://mihdr.top"
+            }
+        },
+        {
+            "key": "闪电",
+            "name": "🔴闪电┃4K",
+            "type": 3,
+            "api": "csp_Mogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "timeout": 30,
+            "ext": {
+                "site": "https://sd.sduc.site"
             }
         },
         {
@@ -198,7 +205,30 @@
                 "site": "http://www.labi88.sbs,http://feimaoai.site,https://feimao666.fun,http://feimao888.fun"
             }
         },
-        
+        {
+            "key": "夸搜",
+            "name": "🌀夸克丨搜索",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=quark&wd="
+        },
+        {
+            "key": "uc搜",
+            "name": "🌀UC丨搜索",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=uc&wd="
+        },
+        {
+            "key": "baidu搜",
+            "name": "🌀百度丨搜索",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=baidu&wd="
+        },
+        {
+            "key": "tianyi搜",
+            "name": "🌀天翼丨搜索",
+            "type": 4,
+            "api": "https://so.yinpai.xyz/api.php?type=tianyi&wd="
+        },
         {
             "key": "push_agent",
             "name": "⛽手机┃推送",

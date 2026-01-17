@@ -11,34 +11,24 @@
             "ua": "bingcha/1.1(mianfeifenxiang)"
         },
         {
-            "name": "iptvpro直播",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro"
-        },
-        {
-            "name": "iptvpro直播2",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro2"
-        },
-        {
             "name": "斯玛特直播(梯子)",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯玛特直播源1"
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯玛特直播源666"
         },
         {
-            "name": "斯玛特直播(免翻)",
+            "name": "litv直播(梯子)",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/斯玛特直播源2"
+            "url": "http://ezc.xtvantsc.xyz/litv.php"
         },
         {
-            "name": "litv直播",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/litv直播"
+            "name": "YouTubeLive(梯子)",
+            "ua": "okhttp/3.0",
+            "playerType": 2,
+            "url": "https://raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubelive.txt ",
+            "epg": "https://epg.v1.mk/json?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
         },
         {
             "name": "斯玛特直播",
@@ -62,25 +52,25 @@
             "name": "港台大陆频道",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆频道"
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆"
         },
         {
             "name": "港台大陆频道无18",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆频道无18内容"
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆无18内容"
         },
         {
             "name": "xxx视频资源",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源(免番强)"
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源"
         },
         {
             "name": "海角社区博主",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/海角社区博主(免番强)"
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/海角社区博主"
         },
         {
             "name": "虎牙一起看",

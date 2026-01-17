@@ -420,6 +420,10 @@
 			"url": "https://tv.iill.top/m3u/Gather"
 		},
 		{
+			"name": "YouTube直播",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubelive.m3u"
+		},
+		{
 			"name": "易发",
 			"type": 0,
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt",

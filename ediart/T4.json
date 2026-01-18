@@ -1,44 +1,99 @@
 {
-	"spider": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png",
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
 	"sites": [{
-			"name": "💬嗷嗚彈幕",
-			"key": "💬嗷嗚彈幕",
-			"type": 3,
-			"api": "csp_GoConfigAmns",
+			"api": "https://newtv.ggff.net/douban?token=P69Phb_y",
 			"indexs": 0,
-			"searchable": 0,
-			"filterable": 0,
-			"quickSearch": 0,
-			"changeable": 0
+			"key": "豆瓣首页",
+			"name": "豆瓣首页",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
+			"key": "月佬瓜子影视",
+			"name": "月佬瓜子影视",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/uvod?token=P69Phb_y",
+			"key": "Qile优视频",
+			"name": "Qile优视频",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/aigua?token=P69Phb_y",
+			"key": "嗷呜爱瓜TV",
+			"name": "嗷呜爱瓜TV",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/pingguo?token=P69Phb_y",
+			"key": "嗷呜小苹果",
+			"name": "嗷呜小苹果",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/duboku?token=P69Phb_y",
+			"key": "独播库",
+			"name": "独播库",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/oule?token=P69Phb_y",
+			"key": "欧乐影院",
+			"name": "欧乐影院",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/jianpian?token=P69Phb_y",
+			"key": "荐片",
+			"name": "荐片",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/jubaba?token=P69Phb_y",
+			"key": "嗷呜剧爸爸",
+			"name": "嗷呜剧爸爸",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/yongle?token=P69Phb_y",
+			"key": "恰逢永乐",
+			"name": "恰逢永乐",
+			"type": 4
+		},
+		{
+			"api": "https://newtv.ggff.net/ikanbot?token=P69Phb_y",
+			"key": "爱看机器人",
+			"name": "爱看机器人",
+			"type": 4
 		},
 		{
 			"key": "py_小苹果",
-			"name": "🍎小苹果(T4)",
+			"name": "小苹果",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=9037cfae7c64405111e0e364401adb60"
 		},
 		{
 			"key": "py_官方采集789",
-			"name": "🍎官方采集789(T4)",
+			"name": "官方采集",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63"
 		},
 		{
 			"key": "py_动漫巴士",
-			"name": "🍎动漫巴士(T4)",
+			"name": "动漫巴士",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89"
 		},
 		{
 			"key": "py_欧乐影院",
-			"name": "🍎欧乐影院(T4)",
+			"name": "欧乐影院",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=8a0bbe9e97c4429a517cd2ece3f6772b"
 		},
 		{
 			"key": "py_新韩剧网",
-			"name": "🍎新韩剧网(T4)",
+			"name": "新韩剧网",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=2a7cc0edf96108c9d57420ff57c654c6"
 		},
@@ -112,7 +167,7 @@
 		{
 			"api": "https://learnpython.ggff.net/XPGGGGG",
 			"key": "XPGGGGG",
-			"name": "小苹果",
+			"name": "XPG",
 			"type": 4
 		},
 		{
@@ -142,7 +197,7 @@
 		{
 			"api": "https://learnpython.ggff.net/TGstymei",
 			"key": "TGstymei",
-			"name": "瓜子",
+			"name": "GuaZi",
 			"type": 4
 		},
 		{
@@ -198,16 +253,6 @@
 			"key": "XHSM",
 			"name": "🔞XHSM",
 			"type": 4
-		},
-		{
-			"key": "market",
-			"name": "应用｜商店",
-			"type": 3,
-			"api": "csp_Market",
-			"searchable": 0,
-			"changeable": 0,
-			"ext": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/market.json",
-			"jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
 		}
 	],
 	"lives": [{

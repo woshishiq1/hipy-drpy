@@ -1,5 +1,5 @@
 {
-  "spider": "./res/moyu/moyu.php;md5;f5a2aa9e1417fc4f2dbecaed17c3cfd2",
+  "spider": "http://oss4liview.moji.com/thd_file/2026/01/14/f358450036e27e7d05e72fd116753108.jpg;md5;eff2819b1a4dd3c22c17cad6ad645f57",
   "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
   "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
   "lives": [
@@ -316,7 +316,17 @@
   ],
   "sites": [
 
-
+    {
+      "key": "二小",
+      "name": "🦢二小┃4K",
+      "type": 3,
+      "api": "csp_ErXiaoGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 25
+    },
       {
       "key": "新腾极4k",
       "name": "💖新腾极4k",
@@ -399,29 +409,12 @@
       "quickSearch": 1,
       "changeable": 0
     }, 
-    {
-      "key": "二小",
-      "name": "🦢二小┃4K",
-      "type": 3,
-      "api": "csp_ErXiaoGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "cookie": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/4K/js/qk.png",
-        "uc_cookie": "http://14.103.129.80:999/暗黑4k奇迹/lib/uc.js",
-        "baidu_cookie": "http://14.103.129.80:999/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/bd.txt"
-      },
-      "timeout": 25
-    },
+
     {
       "key": "双星",
       "name": "🤩双星┃4K",
       "type": 3,
       "api": "csp_Star2Guard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "filterable": 1,
       "changeable": 0,
@@ -440,7 +433,6 @@
       "name": "👽玩偶┃4K",
       "type": 3,
       "api": "csp_WoggGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
@@ -456,7 +448,6 @@
       "name": "🌟立播┃4K",
       "type": 3,
       "api": "csp_LibvioGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
@@ -472,7 +463,6 @@
       "name": "👠蜡笔┃4K",
       "type": 3,
       "api": "csp_LabiGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -489,7 +479,6 @@
       "name": "🪵木偶┃4K",
       "type": 3,
       "api": "csp_MuouGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -506,7 +495,6 @@
       "name": "🪅多多┃4K",
       "type": 3,
       "api": "csp_DuoDuoGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -523,7 +511,6 @@
       "name": "💒小飒┃4K",
       "type": 3,
       "api": "csp_XsayangGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -540,7 +527,6 @@
       "name": "💌至臻┃4K",
       "type": 3,
       "api": "csp_ZhiZhenGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -557,7 +543,6 @@
       "name": "🐯虎斑┃4K",
       "type": 3,
       "api": "csp_HuBanGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -574,7 +559,6 @@
       "name": "🍀种子┃4K",
       "type": 3,
       "api": "csp_SeedHubGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
@@ -591,7 +575,6 @@
       "name": "🎥光影┃4K",
       "type": 3,
       "api": "csp_GuanyingGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "filterable": 1,
       "changeable": 0,
@@ -607,7 +590,6 @@
       "name": "🍊云集┃4K",
       "type": 3,
       "api": "csp_YunJiGuard",
-     "jar": "https://13537.kstore.vip/%E6%B5%8B%E8%AF%95/%E5%85%8D%E6%89%AB.webp",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,

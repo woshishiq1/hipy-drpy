@@ -28,11 +28,17 @@
             "ua": "okhttp/5.3.2",
             "url": "http://ezc.xtvantsc.xyz/litv.php"
         },
-         {
+        {
             "name": "jackTV",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+        },
+        {
+            "name": "台湾TV",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
         },
         {
             "name": "斯玛特直播",
@@ -737,6 +743,24 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "金牌",
+            "name": "🏅金牌影视备",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": "1",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": "https://dtqj.ggtvb.cc/dtjp.txt",
+                "dataKey": "eecbio48dsq131ee",
+                "dataIv": "eecbio48dsq131ee",
+                "search": "searchList4",
+                "version": "305",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
         },
         {
             "key": "金牌影视",

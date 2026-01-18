@@ -28,11 +28,17 @@
             "ua": "okhttp/5.3.2",
             "url": "http://ezc.xtvantsc.xyz/litv.php"
         },
-         {
+        {
             "name": "jackTV",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+        },
+        {
+            "name": "台湾TV",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
         },
         {
             "name": "斯玛特直播",
@@ -297,7 +303,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://103.45.162.207:20720"
+                    "http://xhban.xyz:20720"
                 ]
             }
         },
@@ -312,7 +318,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "http://xhban.xyz"
+                    "http://xsayang.fun:12512"
                 ]
             }
         },

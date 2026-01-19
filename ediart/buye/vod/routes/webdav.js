@@ -64,6 +64,8 @@ const _category = async ({ id, page, filter, filters }) => {
       vod_id: row.isDir ? `${id}/${row.name}` : row.id,
       vod_name: row.name,
       vod_pic: "",
+      vod_pict: Array.from(row.name)[0],
+      ratio: 2,
       vod_remarks:
         row.isDir && row.updatedAt
           ? dayjs(row.updatedAt).format("MM-DD HH:mm")

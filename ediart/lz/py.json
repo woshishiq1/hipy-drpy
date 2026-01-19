@@ -337,6 +337,13 @@
             "ext": ""
         },
 		{
+			"key": "Hanime",
+			"name": "🔞Hanime(py)",
+			"type": 3,
+			"api": "./py/Hanime.py",
+			"changeable": 1
+		},
+		{
 			"key": "91rb",
 			"name": "🔞91rb(py)",
 			"type": 3,

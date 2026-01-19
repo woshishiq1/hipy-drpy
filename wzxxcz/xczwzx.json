@@ -47,12 +47,6 @@
             "url": "http://58.152.30.33:21015/xsmt/smt.php"
         },
         {
-            "name": "央卫频道",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://tv1288.xyz/migu.php"
-        },
-        {
             "name": "港台频道",
             "type": 0,
             "ua": "okhttp/5.3.2",

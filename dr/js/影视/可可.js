@@ -1,3 +1,4 @@
+muban.首图2.二级.lists = '.stui-content__playlist:eq(#id) li:not(:contains(APP秒播))';
 var rule = {
     模板: '首图2',
     title: '可可',

@@ -1,4 +1,5 @@
-globalThis.h_ost = 'https://api.jkyai.top';
+//globalThis.h_ost = 'https://api.jkyai.top';
+globalThis.h_ost = 'https://yunzhiapi.cn';
 
 var rule = {
     title: '百度短剧[短]',

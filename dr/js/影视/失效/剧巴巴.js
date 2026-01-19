@@ -1,3 +1,4 @@
+//修正，有效
 globalThis.verifyBox = function(url) {
     const sendRequest = (requestUrl, options = {}) => {
         const res = request(requestUrl, {
@@ -33,21 +34,11 @@ globalThis.verifyBox = function(url) {
         return CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(result.join('')));
     };
   
-    const getPhpSessionId = (response) => {
-        const cookies = response['set-cookie'] || [];
-        const cookieArr = Array.isArray(cookies) ? cookies : [cookies];
-        const phpsessid = cookieArr.find(c => c?.includes('PHPSESSID'))?.split(';')[0]?.trim();
-        return phpsessid || '';
-    };
+    if (!/人机验证|防火墙正在检查/.test(html)) return html;
 
-    let verifycookie = getPhpSessionId(firstRes);
-    
-    if (!/人机验证|防火墙正在检查/.test(html)) {
-        return {
-            cookie: verifycookie,
-            content: html
-        };
-    }
+    const cookies = firstRes['set-cookie'] || [];
+    const cookieArr = Array.isArray(cookies) ? cookies : [cookies];
+    const phpsessid = cookieArr.find(c => c?.includes('PHPSESSID'))?.split(';')[0]?.trim();
 
     const tokenMatch = html.match(/var token = encrypt\("([^"]+)"\)/);
     const key = tokenMatch ? tokenMatch[1] : '';
@@ -62,7 +53,7 @@ globalThis.verifyBox = function(url) {
             'content-type': 'application/x-www-form-urlencoded',
             'origin': rule.host,
             'referer': rule.host,
-            'cookie': verifycookie || ''
+            'cookie': phpsessid || ''
         },
         withHeaders: true,
         method: 'POST',
@@ -77,41 +68,40 @@ globalThis.verifyBox = function(url) {
 
     if (verifyMsg.msg === 'ok') {
         const start = Date.now();
-        while (Date.now() - start < 1000) {
+        while (Date.now() - start < 1500) {
             // 空循环，等待1秒
         }
 
         const finalRes = request(url, {
             headers: {
-                'cookie': verifycookie || ''
+                'cookie': phpsessid || ''
             },
             withHeaders: false,
             redirect: false,
             method: 'GET'
         });
 
-        const finalContent = typeof finalRes === 'string' ? finalRes : (finalRes.body || finalRes);        
-        return {
-            success: true,
-            cookie: verifycookie,
-            content: finalContent,
-            message: '验证通过'
-        };
+        return typeof finalRes === 'string' ? finalRes : (finalRes.body || finalRes);
     }
 
-    return {
-        success: false,
-        cookie: verifycookie,
-        content: html,
-        message: '验证失败'
-    };
+    return html;
 };
 
 
 var rule = {
     类型: '影视',
     title: '剧巴巴',
-    host: 'https://www.jubaba.cc',
+    host: 'https://www.jubaba.vip',
+    //host: 'https://www.jubaba.cc',
+    //hostJs: 'let html=request(HOST,{headers:{"User-Agent":MOBILE_UA}}); let src= jsp.pdfh(html,".content-top&&a:eq(0)&&href");HOST=src',
+    hostJs: $js.toString(() => {
+        rule.headers = rule.headers || {};
+        let Html = globalThis.verifyBox(HOST);
+        const src = jsp.pdfh(Html, "a&&href");
+        if (src && src.startsWith("http")) {
+            HOST = src;
+        }
+    }),
     headers: {
         'User-Agent': 'MOBILE_UA'
     },
@@ -129,16 +119,25 @@ var rule = {
     class_url: '1&2&3&4',
     filter_def: {},
     play_parse: true,
+    /*lazy: $js.toString(() => {
+        let pclick = 'document.querySelector("#playleft iframe").contentWindow.document.querySelector("#start").click()';
+        input = {
+            parse: 1,
+            url: input,
+            js: pclick,
+            click: pclick
+        }
+    }),*/
     lazy: "js:var html=JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);var url=html.url;if(html.encrypt=='1'){url=unescape(url)}else if(html.encrypt=='2'){url=unescape(base64Decode(url))}if(/m3u8|mp4/.test(url)){input=url}else{input}",
     limit: 9,
     double: false,
+    //推荐: '.lazyload;.lazyload&&title;.lazyload&&data-original;.text-right&&Text;a&&href',
     推荐: $js.toString(() => {
-        let result = globalThis.verifyBox(MY_URL);
-        if (result.cookie) globalThis.phpSessionCookie = result.cookie;
+        let html = globalThis.verifyBox(MY_URL);
         let d = [];
-        let list = pdfa(result.content, '.lazyload');
+        let list = pdfa(html, '.lazyload');
         list.forEach(it => {
-            let title = pdfh(it, '.title&&Text');
+            let title = pdfh(it, '.lazyload&&title');
             let href = pdfh(it, 'a&&href');
             let pic = pdfh(it, '.lazyload&&data-original');
             let remark = pdfh(it, '.text-right&&Text') || '';
@@ -153,16 +152,20 @@ var rule = {
         setResult(d);
     }),
     一级: $js.toString(() => {
-        let result = globalThis.verifyBox(MY_URL);
-        if (result.cookie) globalThis.phpSessionCookie = result.cookie;
-        
+        let html = globalThis.verifyBox(MY_URL);
         let d = [];
-        pdfa(result.content, '.ewave-vodlist li').forEach(it => {
+        let list = pdfa(html, '.ewave-vodlist li');
+        list.forEach(it => {
+            let title = pdfh(it, '.title&&Text');
+            let href = pdfh(it, 'a.thumb-link&&href');
+            let pic = pdfh(it, '.ewave-vodlist__thumb&&data-original');
+            let remark = pdfh(it, '.pic-text&&Text') || '';
+            let score = pdfh(it, '.pic-tag-h&&Text') || '';
             d.push({
-                title: pdfh(it, '.title&&Text'),
-                img: pdfh(it, '.ewave-vodlist__thumb&&data-original'),
-                desc: (pdfh(it, '.pic-text&&Text') || '') + ' ' + (pdfh(it, '.pic-tag-h&&Text') || ''),
-                url: pdfh(it, 'a.thumb-link&&href')
+                title: title,
+                img: pic,
+                desc: remark + ' ' + score,
+                url: href
             });
         });
         setResult(d);

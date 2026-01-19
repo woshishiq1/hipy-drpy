@@ -69,31 +69,31 @@
 		},
 		{
 			"key": "py_小苹果",
-			"name": "小苹果",
+			"name": "小苹果M",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=9037cfae7c64405111e0e364401adb60"
 		},
 		{
 			"key": "py_官方采集789",
-			"name": "官方采集",
+			"name": "官方采集M",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=006849a2c19a6be413be5017be468c63"
 		},
 		{
 			"key": "py_动漫巴士",
-			"name": "动漫巴士",
+			"name": "动漫巴士M",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89"
 		},
 		{
 			"key": "py_欧乐影院",
-			"name": "欧乐影院",
+			"name": "欧乐影院M",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=8a0bbe9e97c4429a517cd2ece3f6772b"
 		},
 		{
 			"key": "py_新韩剧网",
-			"name": "新韩剧网",
+			"name": "新韩剧网M",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=2a7cc0edf96108c9d57420ff57c654c6"
 		},

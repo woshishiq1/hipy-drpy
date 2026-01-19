@@ -13,8 +13,10 @@
 {"key":"csp_Aid","name":"🚑急救教学┃SP","type":3,"api":"csp_FirstAid","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"rect","ratio":3.8}},
 //{"key": "csp_LocalFile","name": "💻本地视频","type": 3,"api": "csp_LocalFile","jar":"./sp/XYQ.jar?md5=07f7e56adbda0c328398d7d663ff75a5"},
 {"key": "csp_接口信息","name": "🍔本地包拉取🍔","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"indexs": 0,"ext": "./market/market.json","jar": "./sp/mk.jar?md5=5400486b7884dd01de5a306e34724c3c"},
-//{"key": "dr_测试","name": "🌐测试[DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./test/js源测试/测试.js"},
-//{"key": "py_测试","name": "🌐测试[PY]","type": 3,"api": "./test/py源测试/测试.py","searchable": 1,"quickSearch": 1,"filterable": 1},
+//{"key": "dr_测试","name": "🌐dr_测试[DR]","type": 3,"api": "./libs/drpy2.min.js","click":"document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./test/dr源测试/DR测试.js"},
+//{"key": "py_测试","name": "🌐py_测试[PY]","type": 3,"api": "./test/py源测试/PY测试.py"},
+//{"key":"cat_测试","name":"🌐cat_测试[CAT]","type":3,"api":"./test/cat源测试/CAT测试.js"},
+//{"key": "csp_测试","name": "🌐csp_测试[XBPQ]","type": 3,"api": "csp_XBPQ","ext": "./test/XBPQ源测试/XBPQ测试.json"},
 
 //{"key": "dr_模板[优]","name": "🍒模板[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/模板[优].js"},
 {"key": "dr_可可影视[优]","name": "🍒可可影视[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/可可影视[优].js"},
@@ -52,7 +54,7 @@
 {"key": "dr_番薯短剧[短]","name": "🥝番薯短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/番薯短剧[短].js"},
 
 {"key": "dr_星芽短剧[短]","name": "🥝星芽短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/星芽短剧[短].js"},
-{"key": "dr_甜圈短剧[短]","name": "🥝甜圈短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/甜圈短剧[短].js"},
+{"key": "dr_甜圈短剧[短]","name": "🥝甜圈短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/dr_甜圈短剧[短].js"},
 {"key": "dr_番茄短剧[短]","name": "🥝番茄短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/番茄短剧[短].js"},
 {"key": "dr_锦鲤短剧[短]","name": "🥝锦鲤短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/锦鲤短剧[短].js"},
 {"key": "dr_围观短剧[短]","name": "🥝围观短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/围观短剧[短].js"},
@@ -70,7 +72,7 @@
 {"key": "py_碎片剧场[短]","name": "🥝碎片剧场[短][PY]","type": 3,"api": "./py/短/碎片剧场.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_锦鲤短剧[短]","name": "🥝锦鲤短剧[短][PY]","type": 3,"api": "./py/短/锦鲤短剧.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 
-{"key":"cat_聚合短剧[短]","name":"🥝聚合短剧[短][CAT]","type":3,"api":"./cat/聚合短剧[短].js"},
+{"key":"cat_聚合短剧[短]","name":"🥝聚合短剧[短][CAT]","type":3,"api":"./cat/短/cat_聚合短剧[短].js"},
 
 {"key": "csp_XBPQ_番茄","name": "🥝番茄[短]┃XBPQ","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./json/XBPQ/短/番茄.json"},
 {"key": "T1_旺旺短剧","name": "🥝旺旺短剧[短][T1]","type": 1,"api": "https://api.wwzy.tv/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"filterable": 1,"categories": ["短剧"]},
@@ -130,11 +132,13 @@
 {"key": "dr_AppGet_沐沐","name": "🍐沐沐[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/模板/AppGet模板.js?type=url&params=http://xk.ys088.cn$1846397456616237$1846397456616237"},
 
 //{"key": "dr_模板","name": "🍊模板[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/模板.js"},
+{"key": "dr_大米影视","name": "🍊大米影视[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/大米影视.js"},
+{"key": "dr_菊朵朵","name": "🍊菊朵朵[影][DR]","type": 3,"api": "./libs/drpy2.min.js","click":"document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./js/影视/菊朵朵.js"},
+{"key": "dr_985影视","name": "🍊985影视[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/985影视.js"},
 {"key": "dr_孜然影视","name": "🍊孜然影视[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/孜然影视.js"},
 {"key": "dr_剧哥哥","name": "🍊剧哥哥[影][DR]","type": 3,"api": "./libs/drpy2.min.js","click":"document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./js/影视/剧哥哥.js"},
 {"key": "dr_老地方影视","name": "🍊老地方[影][DR]","type": 3,"api": "./libs/drpy2.min.js","click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./js/影视/老地方影视.js"},
 {"key": "dr_全网影视","name": "🍊全网影视[影][DR]","type": 3,"api": "./libs/drpy2.min.js","click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./js/影视/全网影视.js"},
-{"key": "dr_剧多多","name": "🍊剧多多[影][DR]","type": 3,"api": "./libs/drpy2.min.js","click":"document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./js/影视/剧多多.js"},
 {"key": "dr_游子视频","name": "🍊游子视频[影][DR]","type": 3,"api": "./libs/drpy2.min.js","click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./js/影视/游子视频.js"},
 {"key": "dr_剧巴巴","name": "🍊剧巴巴[影][DR]","type": 3,"api": "./libs/drpy2.min.js","click":"document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./js/影视/剧巴巴.js"},
 {"key": "dr_万象影视","name": "🍊万象影视[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/万象影视.js"},

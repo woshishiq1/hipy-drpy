@@ -11,6 +11,24 @@
             "ua": "bingcha/1.1(mianfeifenxiang)"
         },
         {
+            "name": "斯玛特直播",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://58.152.30.33:21015/xsmt/smt.php"
+        },
+        {
+            "name": "港台频道",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://ku9.fr.to/ku9/1768502278.txt"
+        },
+        {
+            "name": "jackTV",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+        },
+        {
             "name": "斯玛特直播(梯子)",
             "type": 0,
             "ua": "okhttp/5.3.2",
@@ -29,34 +47,10 @@
             "url": "http://ezc.xtvantsc.xyz/litv.php"
         },
         {
-            "name": "jackTV",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
-        },
-        {
-            "name": "台湾TV",
+            "name": "台湾TV(梯子)",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
-        },
-        {
-            "name": "斯玛特直播",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://58.152.30.33:21015/xsmt/smt.php"
-        },
-        {
-            "name": "央卫频道",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://tv1288.xyz/migu.php"
-        },
-        {
-            "name": "港台频道",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://ku9.fr.to/ku9/1768502278.txt"
         },
         {
             "name": "港台大陆频道",

@@ -297,9 +297,9 @@
 "jar": "https://oss4liview.moji.com/thd_file/2025/12/07/572a7f8c53797024586e6323a765802e.jpg",
 "style":{"type":"rect","ratio":1},"searchable":0,"quickSearch":0,"changeable":0},
         //XYQ规则区
-   {"key":"聚搜","name":"🚗聚搜┃影视","type":3,"api":"https://13826.kstore.vip/AppToV5.py",
-   "jar":"https://img2.gelonghui.com/library/13bd3-7518cfc8-98dd-4e8f-afc1-5f697fbf01fb.png",
-   "ext":"http://101.35.85.16:5555"},
+   {"key":"巧技2","name":"🚗聚搜┃影视","type":3,"searchable":1,"quickSearch":1,"api":"csp_qiao2","playerType":2,
+     "jar":"https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/6a1bc5995387e053/qij.png;md5;eb1ed5578b0a9ac5f3e6c6ee04b813e6",
+     "ext":"7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"},
       {"key":"天天","name":"💯小米天天┃影视","type":3,"quickSearch":1,"searchable":1,"api":"csp_AppRJ",
       "jar":"https://gitee.com/youngxiayang/YJL/raw/master/JAR/xiaomDM.jar",
       "ext":"vxw35/hHSj07Q+maxQzOVMq1rjRCOTXpUCx8iKu5jIg="},

@@ -420,14 +420,6 @@
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubelive.m3u"
 		},
 		{
-			"name": "易发",
-			"type": 0,
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
-			"epg": "https://epg.v1.mk/json?ch={name}&date={date}",
-			"logo": "https://epg.v1.mk/logo/{name}.png",
-			"timeout": 10
-		},
-		{
 			"name": "备用直播一",
 			"type": 0,
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/PizazzGY/TV/refs/heads/master/output/user_result.txt",

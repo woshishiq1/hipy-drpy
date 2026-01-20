@@ -305,14 +305,6 @@
 			"url": "https://tv.iill.top/m3u/Gather"
 		},
 		{
-			"name": "易发",
-			"type": 0,
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
-			"epg": "https://epg.v1.mk/json?ch={name}&date={date}",
-			"logo": "https://epg.v1.mk/logo/{name}.png",
-			"timeout": 10
-		},
-		{
 			"name": "YouTube直播",
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubelive.m3u"
 		},
@@ -330,6 +322,14 @@
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/result.txt",
 			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://diyp5.112114.xyz/{name}.png",
+			"timeout": 10
+		},
+		{
+			"name": "易发+",
+			"type": 0,
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
+			"epg": "https://epg.v1.mk/json?ch={name}&date={date}",
+			"logo": "https://epg.v1.mk/logo/{name}.png",
 			"timeout": 10
 		},
 		{

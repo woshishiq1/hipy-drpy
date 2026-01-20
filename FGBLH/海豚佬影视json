@@ -59,6 +59,15 @@
         "api": "http://www.meowtv.cn/js/drpy2.min.js"
         },
         {
+      "key": "柠檬",
+      "name": "🐬柠檬｜追剧",
+      "type": 3,
+      "api": "csp_Nmvod",
+      "playerType": 2,
+      "jar": "http://14.103.129.80:999/奇迹云2kmax/jar/柠檬.jar",
+      "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+      },
+        {
 			"key": "爱瓜TV",
 			"name": "🐬爱瓜TV｜追剧",
 			"type": 4,
@@ -136,12 +145,6 @@
         },
 {"name":"🐬小苹果🍎｜追剧","key":"小苹果丨影视","type":3,"api":"csp_XpgAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
 {"name":"🐬厂长🏭｜追剧","key":"厂长丨影视","type":3,"api":"csp_CzzyAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-        {
-			"api": "https://learnpython.ggff.net/XHYSPY",
-			"key": "XHYSPY",
-			"name": "🐬XHYSPY｜追剧",
-			"type": 4
-		},
 {"name":"🐬豪堪短剧🎦｜短剧","key":"豪堪短剧","type":3,"api":"csp_HHkkAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
 {"name":"🐬盒马短剧📺｜短剧","key":"盒马短剧","type":3,"api":"csp_HemaAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
 {"name":"🐬拜拜短剧🎞️｜短剧","key":"拜拜短剧","type":3,"api":"csp_BddjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
@@ -254,6 +257,27 @@
             "searchable": 1,
             "filterable": 0
         },
+         {
+      "key": "fqzy资源",
+      "name": "🐬国产资源｜🔞",
+      "type": 1,
+      "api": "https://fqzy.me//api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "黑料网曝",
+        "国产大制作",
+        "偷拍自拍",
+        "高清无码",
+        "乱伦毁三观",
+        "淫乱学生",
+        "主播女网红",
+        "高清有码",
+        "中文字幕",
+        "动漫精选",
+        "欧美精品"
+      ]
+    },
         {
             "key": "91",
             "name": "🐬91麻豆｜🔞(梯子)",
@@ -264,6 +288,11 @@
         }
         ],
     "parses": [
+          {
+             "name": "虾米解析",
+             "type": 0,
+              "url": "https://jx.xmflv.cc/?url="
+           },
           {
             "name": "解析0",
             "type": 0,

@@ -11,6 +11,13 @@
 			"changeable": 0
 		},
 		{
+			"key": "独播库_js",
+			"name": "独播库JS",
+			"type": 3,
+			"api": "./js/独播库.js",
+			"changeable": 1
+		},
+		{
 			"key": "apple_js",
 			"name": "小苹果JS",
 			"type": 3,

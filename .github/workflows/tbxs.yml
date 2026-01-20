@@ -52,7 +52,8 @@ jobs:
             [leexuben]="https://github.com/leexuben/TVBOX-merge.git"
             [yjl]="https://github.com/YJL20190405/TVBOX.git"
             [zheng1976]="https://github.com/zheng197600/tvbox.git"
-            [FGBLH]="https://github.com/FGBLH/FG.git"   # 新增仓库
+            [FGBLH]="https://github.com/FGBLH/FG.git"
+            [yihad168]="https://github.com/yihad168/tv.git"   # 新增仓库
           )
 
           for name in "${!repos[@]}"; do
@@ -66,7 +67,7 @@ jobs:
 
           echo "==== 同步完成 ===="
 
-          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH -type f -exec touch {} +
+          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 -type f -exec touch {} +
 
       - name: Download and extract NewTVBox
         run: |
@@ -83,7 +84,7 @@ jobs:
 
       - name: Commit and push to default branch
         run: |
-          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ Tomorrow/ aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH
+          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ Tomorrow/ aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168
           git commit -m "Sync all subprojects + NewTVBox" || echo "No changes"
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           git push origin $DEFAULT_BRANCH

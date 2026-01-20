@@ -1,0 +1,116 @@
+MusicFree订阅源：
+	
+	https://musicfreepluginshub.2020818.xyz/plugins.json
+
+	元力音乐（MusicFree）
+		新：https://13413.kstore.vip/yuanli/yuanli.json
+		主：http://music.haitangw.net/%E5%85%83%E5%8A%9B%E9%9F%B3%E4%B9%90.json
+		备：https://13413.kstore.space/musicfree.json
+
+*****************************************************************************************
+lx-music:
+	1、野花白云外链:https://pan.vma.cc/pan/down.php/28a6d8f0d49206a73b6b2f7d3bc10c57.js
+	2、聚合白云外链:https://pan.vma.cc/pan/down.php/ced97e675907dee1f8eb330ad8330f80.js
+	3、星海白云外链:https://pan.vma.cc/pan/down.php/f3a7e7f9962c0272ff813d9686886b22.js
+	4、长青白云外链:https://pan.vma.cc/pan/down.php/bd695a5e020df26625fb9b3570192e40.js
+
+
+数据源接口(注意查看分割线，应用不同接口不同，并不是都通用！！！！)
+
+***************************************************************************************************************
+ ok影视、影视仓、TVbox、easybox接口
+
+    ok接口
+	内部：http://ok321.top/tv
+	外部：http://ok321.top/ok
+	内部接口(备用) https://10352.kstore.vip/tv
+	外部接口(备用) https://10352.kstore.vip/ok
+
+   饭太硬
+	主：http://www.饭太硬.com/tv
+	备1：http://www.饭太硬.net/tv
+	以上接口无效使用该接口：https://gitee.com/xxoooo/fan/raw/master/in.bmp
+
+   王二小放牛娃
+	新接口：https://9280.kstore.vip/newwex.json
+	主：http://tvbox.王二小放牛娃.top
+		http://tv.999888123.xyz
+	备：http://tv.999888987.xyz
+		https://9280.kstore.vip/wex.json
+
+   在线PG
+	主：https://www.252035.xyz/p/jsm.json
+	备：https://cnb.cool/fish2018/pg/-/git/raw/master/jsm.json
+
+   在线真心
+	主：https://www.252035.xyz/z/FongMi.json
+	备：https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json
+
+   摸鱼儿
+	主：http://我不是.摸鱼儿.com
+	备1：http://我不是.摸鱼儿.top
+	备2：http://我不是.摸鱼儿.xyz
+
+   小米（搜弹幕）
+	主：http://mitvbox.xyz/%E5%B0%8F%E7%B1%B3/DEMO.json
+	备1：https://13826.kstore.space/DEMO.json
+	备2：https://cnb.cool/xiaomideyun/xiaomideyun/-/git/raw/main/mi.json
+
+   嗷呜（搜弹幕）
+	 https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/config
+
+   肥猫
+	主：http://肥猫.com
+	备1：http://hello.肥猫.com
+	备2：https://6296.kstore.vip/fm.gif
+
+
+	catvod
+		接口 1 - 自用省心
+		https://tvbox.catvod.com/catvod.json
+		接口 2 - PG
+		https://tvbox.catvod.com/jsm.json
+		接口 3 - 真心
+		https://tvbox.catvod.com/FongMi.json
+		接口 4 - 潇洒
+		https://tvbox.catvod.com/xs/api.json
+		接口 5 - 嗷呜弹幕
+		https://tvbox.catvod.com/aw/config.json
+
+
+	Vox(peekpili深度兼容)：
+		http://rihou.cc:88/demo.php
+	
+********************************************************************************************************
+
+ UZ影视
+    使用方法：uz影视 -> 设置 -> 数据管理 -> 右上角➕号 -> 输入链接或分享码 -> 确定
+	分享码：6666，1111，2222
+
+********************************************************************************************************
+
+ 魔力云播 猫爪（猫影视）PeekPili  MiraPlay JSTV（ios专用）接口：
+	http://wexfnw:wexfnw@cat.xn--4kq62z5rby2qupq9ub.top/index.js.md5
+	http://wexfnw:wexfnw@cat.999888987.xyz/index.js.md5
+	http://wexfnw:wexfnw@cat.999888123.xyz/index.js.md5
+
+ 魔力云播 MiraPlay专用接口：
+	https://9280.kstore.vip/cat/index.js.md5
+
+ 雪乃猫源(猫爪，猫影视，PeekPili,JSTV)：
+	https://9764.kstore.space/xuenai/catvod/index.js.md5
+
+ 沐辰(猫爪，猫影视，PeekPili,JSTV)：
+	https://gh-proxy.org/https://raw.githubusercontent.com/4TVBox/Cat/refs/heads/main/index.js.md5
+
+
+**********************************************************************************************************
+
+小猫影视
+	使用方法：设置 -> 视频源管理 -> 填入链接 -> 点击右上角小飞机按钮
+	https://gh-proxy.org/https://raw.githubusercontent.com/d1y/kitty/gh-pages/x.json
+	https://gh-proxy.org/https://raw.githubusercontent.com/d1y/kitty/gh-pages/vod.json
+	https://gh-proxy.org/https://raw.githubusercontent.com/d1y/kitty/gh-pages/t4.json
+	https://gh-proxy.org/https://raw.githubusercontent.com/d1y/kitty/gh-pages/lives.json
+
+

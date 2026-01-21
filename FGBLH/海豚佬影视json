@@ -1,4 +1,3 @@
-
 {
     "spider": "./tvbox.jar",
     "logo": "https://pic.616pic.com/bg_w1180/00/05/06/RoTR1jeT9X.jpg",
@@ -58,7 +57,7 @@
         "ext": "http://www.meowtv.cn/js/meow.php?file=sgsp",
         "api": "http://www.meowtv.cn/js/drpy2.min.js"
         },
-        {
+      {
       "key": "量子2k",
       "name": "🐬量子影视｜追剧",
       "type": 1,

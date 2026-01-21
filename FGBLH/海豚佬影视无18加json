@@ -59,6 +59,32 @@
         "api": "http://www.meowtv.cn/js/drpy2.min.js"
         },
         {
+      "key": "量子2k",
+      "name": "🐬量子影视｜追剧",
+      "type": 1,
+      "api": "http://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "playurl": "json:https://lziplayer.com/?url=",
+      "categories": [
+        "国产剧",
+        "国产动漫",
+        "泰国剧",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "动漫",
+        "体育",
+        "剧情片",
+        "动作片",
+        "爱情片",
+        "喜剧片"
+      ]
+      },
+      {
       "key": "柠檬",
       "name": "🐬柠檬｜追剧",
       "type": 3,
@@ -456,6 +482,12 @@
       ]
     }
   ],
+"doh": [
+    {"name": "Google","url": "https://dns.google/dns-query","ips": ["8.8.4.4","8.8.8.8"]},
+    {"name": "Cloudflare","url": "https://cloudflare-dns.com/dns-query","ips": ["1.1.1.1","1.0.0.1","2606:4700:4700::1111","2606:4700:4700::1001"]},
+    {"name": "AdGuard","url": "https://dns.adguard.com/dns-query","ips": ["94.140.14.140","94.140.14.141"]},
+    {"name": "DNSWatch","url": "https://resolver2.dns.watch/dns-query","ips": ["84.200.69.80","84.200.70.40"]},
+    {"name": "Quad9","url": "https://dns.quad9.net/dns-quer","ips": ["9.9.9.9","149.112.112.112"]}],
 "lives": [
         {
             "name": "🐬jackTV(梯子)",
@@ -463,12 +495,12 @@
             "ua": "okhttp/5.3.2",
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
         },
-         {
-            "name": "🐬地方港台",
+        {
+            "name": "🐬冰茶",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/地方港台"
-        },  
+            "url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true"
+        }, 
         {
             "name": "🐬斯玛特直播(梯子)",
             "type": 0,

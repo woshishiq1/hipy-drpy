@@ -185,9 +185,7 @@
 {"key": "鲸鱼","name": "🐋小米┃鲸鱼","quickSearch": 1,"searchable": 1,"type": 3,"api": "csp_AppQi",
             "jar":"https://gitee.com/youngxiayang/YJL/raw/master/JAR/xiaomDM.jar",
 			"ext": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json|AAdgrdghjfgswerA|okhttp/3.10.0"},
-                 {"key":"AppQi1","name":"🎴小米┃爱盈","type":3,"api":"csp_AppQi","changeable":"1","quickSearch":0,"filterable":1,
-                 "jar":"https://gitee.com/youngxiayang/YJL/raw/master/JAR/xiaomDM.jar",
-                 "ext":"https://aysappto.oss-cn-chengdu.aliyuncs.com/qj3.txt|sda1231sasddad21|okhttp/3.10.0"},
+             
                  {"key":"AppQi3","name":"💣小米┃爆炸","type":3,"api":"csp_AppQi","changeable":"1","quickSearch":0,"filterable":1,
                  "jar":"https://gitee.com/youngxiayang/YJL/raw/master/JAR/xiaomDM.jar",
                  "ext":"https://dtqj1.gg1080.com/dtjp.txt|kecbio48dsq131ed|okhttp/3.10.0"},

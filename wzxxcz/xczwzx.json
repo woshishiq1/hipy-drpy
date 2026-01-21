@@ -45,7 +45,7 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/地方港台"
-        }, 
+        },
         {
             "name": "anboxtv(免翻)",
             "type": 0,
@@ -63,7 +63,7 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
-        }, 
+        },
         {
             "name": "港台大陆频道",
             "type": 0,
@@ -81,12 +81,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源"
-        },
-        {
-            "name": "海角社区博主",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/海角社区博主"
         },
         {
             "name": "虎牙一起看",
@@ -35895,6 +35889,11 @@
             "name": "☯️自动解析聚合",
             "type": 3,
             "url": "Web"
+        },
+        {
+            "name": "🦐虾米解析",
+            "type": 0,
+            "url": "https://jx.xmflv.cc/?url="
         },
         {
             "name": "🦐解析0",

@@ -57,7 +57,17 @@
         "ext": "http://www.meowtv.cn/js/meow.php?file=sgsp",
         "api": "http://www.meowtv.cn/js/drpy2.min.js"
         },
-      {
+        {
+            "key": "还行",
+            "name": "🦄还行4K｜追剧",
+            "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",
+            "type": 3,
+            "api": "csp_AppYs",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "http://m51.gotto.top/api.php/v1.vod"
+        },
+       {
       "key": "量子2k",
       "name": "🦄量子影视｜追剧",
       "type": 1,
@@ -300,6 +310,24 @@
         "欧美精品"
       ]
     },
+        {
+            "key": "lsb资源|AV",
+            "name": "🦄lsb资源｜🔞",
+            "type": 1,
+            "api": "https://apilsbzy1.com/api.php/provide/vod/",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 0
+        },
+        {
+            "key": "性细胞|AV",
+            "name": "🦄性细胞｜🔞",
+            "type": 1,
+            "api": "https://www.xxibaozyw.com/api.php/provide/vod/",
+            "quickSearch": 1,
+            "searchable": 1,
+            "filterable": 0
+        },
         {
             "key": "91",
             "name": "🦄91麻豆｜🔞(梯子)",
@@ -596,17 +624,29 @@
     {"name": "Quad9","url": "https://dns.quad9.net/dns-quer","ips": ["9.9.9.9","149.112.112.112"]}],
 "lives": [
         {
-            "name": "🦄jackTV(梯子)",
+            "name": "🦄地方直播",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+            "url": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+        }, 
+        {
+            "name": "🦄anboxtv",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://tv.anboxtv.online/tv"
         },
-         {
+        {
             "name": "🦄冰茶",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true"
         }, 
+        {
+            "name": "🦄jackTV(梯子)",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+        },
         {
             "name": "🦄litv直播(梯子)",
             "type": 0,

@@ -62,7 +62,7 @@
             "changeable": 0,
             "api": "csp_AppFox",
             "ext": {
-                "host": "http://121.40.131.51:2556/host.json",
+                "host": "http://host1.sopython.top/host.json",
                 "ver": 2
             }
         },
@@ -153,6 +153,17 @@
                 "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
                 "dataKey": "123456789abcdefg",
                 "dataIv": "123456789abcdefg"
+            }
+        },
+        {
+            "key": "火狐",
+            "name": "火狐｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "http://122.114.171.79:568/huohushipin.txt",
+                "dataKey": "huohushipingetap",
+                "dataIv": "huohushipingetap"
             }
         },
         {

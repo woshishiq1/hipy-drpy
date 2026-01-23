@@ -23,6 +23,7 @@
       "epg": "https://m3u.ibert.me/epg/112114_xyz.xml",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
    },
+
 {
             "name": "SmartTV",
             "url": "http://live.catvod.com/tv.m3u",
@@ -38,6 +39,28 @@
             "timeout": 30,
             "playerType": 1
         },
+
+  {
+      "name": "Gather",
+      "url": "https://tv.iill.top/m3u/Gather",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+      "logo": "https://diyp.112114.xyz/logo/{name}.png",
+      "ua": "okhttp/4.12.0"
+    },
+
+ {
+      "name": "TAIWAN LITV",
+       "url": "https://raw.githubusercontent.com/Hsudavid/app/main/TAIWAN LITV.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
+      "logo": "https://diyp.112114.xyz/logo/{name}.png",
+      "ua": "okhttp/4.12.0"
+ },
+
+    {
+      "name": "YT",
+      "url": "https://raw.githubusercontent.com/KAN314go/k/refs/heads/main/tv/yt.m3u"
+    },
+
 
  {
       "name": "🔕歐華167🔓🔓VPN",

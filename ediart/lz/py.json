@@ -11,6 +11,13 @@
 			"changeable": 0
 		},
 		{
+			"key": "3Q影视_js",
+			"name": "3Q影视JS",
+			"type": 3,
+			"api": "./js/3Q影视.js",
+			"changeable": 1
+		},
+		{
 			"key": "独播库_js",
 			"name": "独播库JS",
 			"type": 3,

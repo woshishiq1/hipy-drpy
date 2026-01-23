@@ -7512,6 +7512,7 @@ http://conecdg.me:80/Andrielly.Silva/Br131221/3942889
 ################################################
 
 ################################################
+https://gitlab.com/xiaohaozizhuizhuizhui/iptv/-/raw/master/18.json?ref_type=heads
 
 
 http://185.225.115.68:8080/get.php?username=8gULQeqH3I&password=kbuahRdUJV&type=m3u_plus
@@ -8452,458 +8453,197 @@ http://linwei.endl.site/litv.php?token=xxxx&id=litv-longturn20
 
 
 
+#EXTINF:-1 group-title="LiTV立視",TVBS新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv072
+#EXTINF:-1 group-title="LiTV立視",東森新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv152
+#EXTINF:-1 group-title="LiTV立視",東森財經台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv153
+#EXTINF:-1 group-title="LiTV立視",民視新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv13
+#EXTINF:-1 group-title="LiTV立視",中天新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv009
+#EXTINF:-1 group-title="LiTV立視",華視新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv052
+#EXTINF:-1 group-title="LiTV立視",中視新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv074
+#EXTINF:-1 group-title="LiTV立視",台視新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv051
+#EXTINF:-1 group-title="LiTV立視",寰宇新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-longturn14
+#EXTINF:-1 group-title="LiTV立視",寰宇台灣台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv156
+#EXTINF:-1 group-title="LiTV立視",鏡新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv075
+#EXTINF:-1 group-title="LiTV立視",非凡新聞台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv010
 
-#EXTINF:-1 group-title="四季4gTV",中天新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%AD%E5%A4%A9%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",TVBS新聞
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E6%96%B0%E8%81%9E
-#EXTINF:-1 group-title="四季4gTV",民視新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",東森新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",華視新聞
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%8F%AF%E8%A6%96%E6%96%B0%E8%81%9E
-#EXTINF:-1 group-title="四季4gTV",鏡電視新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%8F%A1%E9%9B%BB%E8%A6%96%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",東森財經新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B2%A1%E7%B6%93%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",中視新聞HD
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%AD%E8%A6%96%E6%96%B0%E8%81%9E
-#EXTINF:-1 group-title="四季4gTV",寰宇新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",寰宇新聞台灣台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%AF%B0%E5%AE%87%E6%96%B0%E8%81%9E%E5%8F%B0%E7%81%A3%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",三立新聞INEWS
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%89%E7%AB%8B%E6%96%B0%E8%81%9EiNEWS
-#EXTINF:-1 group-title="四季4gTV",BLOOMBERG TV
-https://4gtv.946985.filegear-sg.me/playlist?channel=Bloomberg%20TV
-#EXTINF:-1 group-title="四季4gTV",SBN全球財經台
-https://4gtv.946985.filegear-sg.me/playlist?channel=SBN%E5%85%A8%E7%90%83%E8%B2%A1%E7%B6%93%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",FRANCE24 英文台
-https://4gtv.946985.filegear-sg.me/playlist?channel=FRANCE24%20%E8%8B%B1%E6%96%87%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",半島國際新聞台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%8D%8A%E5%B3%B6%E5%9C%8B%E9%9A%9B%E6%96%B0%E8%81%9E%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",NHK WORLD-JAPAN
-https://4gtv.946985.filegear-sg.me/playlist?channel=NHK%20WORLD-JAPAN
-#EXTINF:-1 group-title="四季4gTV",CNBC ASIA 財經台
-https://4gtv.946985.filegear-sg.me/playlist?channel=CNBC%20Asia%20%E8%B2%A1%E7%B6%93%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",DW德國之聲
-https://4gtv.946985.filegear-sg.me/playlist?channel=DW%E5%BE%B7%E5%9C%8B%E4%B9%8B%E8%81%B2
-#EXTINF:-1 group-title="四季4gTV",民視第一台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E7%AC%AC%E4%B8%80%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",民視台灣台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E5%8F%B0%E7%81%A3%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",民視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96
-#EXTINF:-1 group-title="四季4gTV",三立綜合台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%89%E7%AB%8B%E7%B6%9C%E5%90%88%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",華視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%8F%AF%E8%A6%96
-#EXTINF:-1 group-title="四季4gTV",中視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%AD%E8%A6%96
-#EXTINF:-1 group-title="四季4gTV",中視經典台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%AD%E8%A6%96%E7%B6%93%E5%85%B8%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",中視菁采台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%B8%AD%E8%A6%96%E8%8F%81%E9%87%87%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",八大綜藝台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%85%AB%E5%A4%A7%E7%B6%9C%E8%97%9D%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",TVBS精采台
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E7%B2%BE%E9%87%87%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",民視綜藝台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E7%B6%9C%E8%97%9D%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",TVBS
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS
-#EXTINF:-1 group-title="四季4gTV",TVBS歡樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E6%AD%A1%E6%A8%82%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",TVBS綜藝台
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E7%B6%9C%E8%97%9D%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",TVBS台劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=TVBS%E5%8F%B0%E5%8A%87%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",靖天綜合台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E7%B6%9C%E5%90%88%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",靖天日本台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E6%97%A5%E6%9C%AC%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",KLT-靖天國際台
-https://4gtv.946985.filegear-sg.me/playlist?channel=KLT-%E9%9D%96%E5%A4%A9%E5%9C%8B%E9%9A%9B%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",靖天資訊台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E8%B3%87%E8%A8%8A%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",NICE TV 靖天歡樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=Nice%20TV%20%E9%9D%96%E5%A4%A9%E6%AD%A1%E6%A8%82%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",新唐人亞太台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%96%B0%E5%94%90%E4%BA%BA%E4%BA%9E%E5%A4%AA%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",ARIRANG阿里郎頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=ARIRANG%E9%98%BF%E9%87%8C%E9%83%8E%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",GLOBAL TREKKER
-https://4gtv.946985.filegear-sg.me/playlist?channel=Global%20Trekker
-#EXTINF:-1 group-title="四季4gTV",原住民族電視台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%97%8F%E9%9B%BB%E8%A6%96%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",客家電視台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%AE%A2%E5%AE%B6%E9%9B%BB%E8%A6%96%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",國會頻道1
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%9C%8B%E6%9C%83%E9%A0%BB%E9%81%931
-#EXTINF:-1 group-title="四季4gTV",國會頻道2
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%9C%8B%E6%9C%83%E9%A0%BB%E9%81%932
-#EXTINF:-1 group-title="四季4gTV",好消息
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%A5%BD%E6%B6%88%E6%81%AF
-#EXTINF:-1 group-title="四季4gTV",好消息2台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%A5%BD%E6%B6%88%E6%81%AF2%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",大愛電視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%A4%A7%E6%84%9B%E9%9B%BB%E8%A6%96
-#EXTINF:-1 group-title="四季4gTV",大愛二台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%A4%A7%E6%84%9B%E4%BA%8C%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",人間衛視
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%BA%BA%E9%96%93%E8%A1%9B%E8%A6%96
-#EXTINF:-1 group-title="四季4gTV",民視旅遊台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E6%97%85%E9%81%8A%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",亞洲旅遊台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E4%BA%9E%E6%B4%B2%E6%97%85%E9%81%8A%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",愛爾達生活旅遊台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%84%9B%E7%88%BE%E9%81%94%E7%94%9F%E6%B4%BB%E6%97%85%E9%81%8A%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",FUN探索娛樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=fun%E6%8E%A2%E7%B4%A2%E5%A8%9B%E6%A8%82%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",幸福空間居家台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%B9%B8%E7%A6%8F%E7%A9%BA%E9%96%93%E5%B1%85%E5%AE%B6%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",LOVE NATURE
-https://4gtv.946985.filegear-sg.me/playlist?channel=Love%20Nature
-#EXTINF:-1 group-title="四季4gTV",HISTORY
-https://4gtv.946985.filegear-sg.me/playlist?channel=History%20%E6%AD%B7%E5%8F%B2%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",LUXE TV Channel
-https://4gtv.946985.filegear-sg.me/playlist?channel=LUXE%20TV%20Channel
-#EXTINF:-1 group-title="四季4gTV",TV5MONDE STYLE HD 生活時尚
-https://4gtv.946985.filegear-sg.me/playlist?channel=TV5MONDE%20STYLE%20HD%20%E7%94%9F%E6%B4%BB%E6%99%82%E5%B0%9A
-#EXTINF:-1 group-title="四季4gTV",MAGELLANTV頻道 (麥哲倫頻道) 
-https://4gtv.946985.filegear-sg.me/playlist?channel=MagellanTV%E9%A0%BB%E9%81%93%20%28%E9%BA%A5%E5%93%B2%E5%80%AB%E9%A0%BB%E9%81%93%29
-#EXTINF:-1 group-title="四季4gTV",LIFETIME 娛樂頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=Lifetime%20%E5%A8%9B%E6%A8%82%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",ROCK ENTERTAINMENT
-https://4gtv.946985.filegear-sg.me/playlist?channel=ROCK%20Entertainment
-#EXTINF:-1 group-title="四季4gTV",八大精彩台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%85%AB%E5%A4%A7%E7%B2%BE%E5%BD%A9%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",靖天育樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E8%82%B2%E6%A8%82%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",豬哥亮歌廳秀
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%B1%AC%E5%93%A5%E4%BA%AE%E6%AD%8C%E5%BB%B3%E7%A7%80
-#EXTINF:-1 group-title="四季4gTV",MTV
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9F%93%E5%9C%8B%E5%A8%9B%E6%A8%82%E5%8F%B0%20KMTV
-#EXTINF:-1 group-title="四季4gTV",愛爾達娛樂台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%84%9B%E7%88%BE%E9%81%94%E5%A8%9B%E6%A8%82%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",民視影劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%B0%91%E8%A6%96%E5%BD%B1%E5%8A%87%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",公視戲劇
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%85%AC%E8%A6%96%E6%88%B2%E5%8A%87
-#EXTINF:-1 group-title="四季4gTV",采昌影劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%87%87%E6%98%8C%E5%BD%B1%E5%8A%87%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",靖天戲劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E6%88%B2%E5%8A%87%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",靖洋戲劇台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E6%B4%8B%E6%88%B2%E5%8A%87%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",靖天映畫
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E6%98%A0%E7%95%AB
-#EXTINF:-1 group-title="四季4gTV",靖天電影台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E9%9B%BB%E5%BD%B1%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",影迷數位電影台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%BD%B1%E8%BF%B7%E6%95%B8%E4%BD%8D%E9%9B%BB%E5%BD%B1%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",AMC電影台
-https://4gtv.946985.filegear-sg.me/playlist?channel=amc%E9%9B%BB%E5%BD%B1%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",CINEMAWORLD
-https://4gtv.946985.filegear-sg.me/playlist?channel=CinemaWorld
-#EXTINF:-1 group-title="四季4gTV",My Cinema Europe HD 我的歐洲電影
-https://4gtv.946985.filegear-sg.me/playlist?channel=My%20Cinema%20Europe%20HD%20%E6%88%91%E7%9A%84%E6%AD%90%E6%B4%B2%E9%9B%BB%E5%BD%B1
-#EXTINF:-1 group-title="四季4gTV",經典電影台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E7%B6%93%E5%85%B8%E9%9B%BB%E5%BD%B1%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",電影原聲台CMUSIC
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9B%BB%E5%BD%B1%E5%8E%9F%E8%81%B2%E5%8F%B0CMusic
-#EXTINF:-1 group-title="四季4gTV",CI 罪案偵查頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=CI%20%E7%BD%AA%E6%A1%88%E5%81%B5%E6%9F%A5%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",視納華仁紀實頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%A6%96%E7%B4%8D%E8%8F%AF%E4%BB%81%E7%B4%80%E5%AF%A6%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",影迷數位紀實台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%BD%B1%E8%BF%B7%E6%95%B8%E4%BD%8D%E7%B4%80%E5%AF%A6%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",戲劇免費看 1台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%88%B2%E5%8A%87%E5%85%8D%E8%B2%BB%E7%9C%8B%201%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",LIVEABC互動英語頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=LiveABC%E4%BA%92%E5%8B%95%E8%8B%B1%E8%AA%9E%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",ELTV生活英語台
-https://4gtv.946985.filegear-sg.me/playlist?channel=ELTV%E7%94%9F%E6%B4%BB%E8%8B%B1%E8%AA%9E%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",MOMO親子台
-https://4gtv.946985.filegear-sg.me/playlist?channel=MOMO%E8%A6%AA%E5%AD%90%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",NICK JR.
-https://4gtv.946985.filegear-sg.me/playlist?channel=Nick%20Jr.%20%E5%85%92%E7%AB%A5%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",尼克兒童頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E5%B0%BC%E5%85%8B%E5%85%92%E7%AB%A5%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",DREAMWORKS
-https://4gtv.946985.filegear-sg.me/playlist?channel=DreamWorks%20%E5%A4%A2%E5%B7%A5%E5%BB%A0%E5%8B%95%E7%95%AB
-#EXTINF:-1 group-title="四季4gTV",靖天卡通台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E5%A4%A9%E5%8D%A1%E9%80%9A%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",靖洋卡通Nice Bingo
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9D%96%E6%B4%8B%E5%8D%A1%E9%80%9ANice%20Bingo
-#EXTINF:-1 group-title="四季4gTV",金光布袋戲
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%87%91%E5%85%89%E5%B8%83%E8%A2%8B%E6%88%B2
-#EXTINF:-1 group-title="四季4gTV",霹靂布袋戲
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%9C%B9%E9%9D%82%E5%B8%83%E8%A2%8B%E6%88%B2
-#EXTINF:-1 group-title="四季4gTV",經典卡通台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E7%B6%93%E5%85%B8%E5%8D%A1%E9%80%9A%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",精選動漫台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E7%B2%BE%E9%81%B8%E5%8B%95%E6%BC%AB%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",MTV LIVE HD
-https://4gtv.946985.filegear-sg.me/playlist?channel=MTV%20Live%20HD%20%E9%9F%B3%E6%A8%82%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",MEZZO LIVE HD
-https://4gtv.946985.filegear-sg.me/playlist?channel=Mezzo%20Live%20HD
-#EXTINF:-1 group-title="四季4gTV",CLASSICA 古典樂
-https://4gtv.946985.filegear-sg.me/playlist?channel=CLASSICA%20%E5%8F%A4%E5%85%B8%E6%A8%82
-#EXTINF:-1 group-title="四季4gTV",INULTRA
-https://4gtv.946985.filegear-sg.me/playlist?channel=INULTRA
-#EXTINF:-1 group-title="四季4gTV",TRACE URBAN
-https://4gtv.946985.filegear-sg.me/playlist?channel=TRACE%20Urban
-#EXTINF:-1 group-title="四季4gTV",TRACE SPORT STARS
-https://4gtv.946985.filegear-sg.me/playlist?channel=TRACE%20Sport%20Stars
-#EXTINF:-1 group-title="四季4gTV",ROCK ACTION
-https://4gtv.946985.filegear-sg.me/playlist?channel=ROCK%20Action
-#EXTINF:-1 group-title="四季4gTV",HITS頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=HITS%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",車迷TV
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E8%BB%8A%E8%BF%B7TV
-#EXTINF:-1 group-title="四季4gTV",GINX Esports TV
-https://4gtv.946985.filegear-sg.me/playlist?channel=GINX%20Esports%20TV
-#EXTINF:-1 group-title="四季4gTV",PET CLUB TV
-https://4gtv.946985.filegear-sg.me/playlist?channel=Pet%20Club%20TV
-#EXTINF:-1 group-title="四季4gTV",滾動力ROLLOR
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%BB%BE%E5%8B%95%E5%8A%9Brollor
-#EXTINF:-1 group-title="四季4gTV",達文西頻道
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E9%81%94%E6%96%87%E8%A5%BF%E9%A0%BB%E9%81%93
-#EXTINF:-1 group-title="四季4gTV",智林體育台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%99%BA%E6%9E%97%E9%AB%94%E8%82%B2%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",時尚運動X
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%99%82%E5%B0%9A%E9%81%8B%E5%8B%95X
-#EXTINF:-1 group-title="四季4gTV",東森購物一台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9%E4%B8%80%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",東森購物二台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9%E4%BA%8C%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",東森購物三台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9%E4%B8%89%E5%8F%B0
-#EXTINF:-1 group-title="四季4gTV",東森購物四台
-https://4gtv.946985.filegear-sg.me/playlist?channel=%E6%9D%B1%E6%A3%AE%E8%B3%BC%E7%89%A9%E5%9B%9B%E5%8F%B0
+#EXTINF:-1 group-title="LiTV立視",華視
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv041
+#EXTINF:-1 group-title="LiTV立視",中視
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv040
+#EXTINF:-1 group-title="LiTV立視",台視
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv066
+#EXTINF:-1 group-title="LiTV立視",民視
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv002
+#EXTINF:-1 group-title="LiTV立視",民視
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv155
+#EXTINF:-1 group-title="LiTV立視",民視旅遊台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv07
+#EXTINF:-1 group-title="LiTV立視",亞洲旅遊台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv076
+#EXTINF:-1 group-title="LiTV立視",Smart知識台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang19
 
+#EXTINF:-1 group-title="LiTV立視",靖天日本台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv047
+#EXTINF:-1 group-title="LiTV立視",靖天育樂台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv062
+#EXTINF:-1 group-title="LiTV立視",靖天映畫台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv055
+#EXTINF:-1 group-title="LiTV立視",靖天國際台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv063
+#EXTINF:-1 group-title="LiTV立視",靖天資訊台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv065
+#EXTINF:-1 group-title="LiTV立視",靖天電影台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv061
+#EXTINF:-1 group-title="LiTV立視",靖天綜合台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv046
+#EXTINF:-1 group-title="LiTV立視",靖天戲劇台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv058
+#EXTINF:-1 group-title="LiTV立視",靖天歡樂台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv054
+#EXTINF:-1 group-title="LiTV立視",靖洋戲劇台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv045
+#EXTINF:-1 group-title="LiTV立視",靖天卡通台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv044
+#EXTINF:-1 group-title="LiTV立視",靖洋卡通台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv057
 
+#EXTINF:-1 group-title="LiTV立視",龍華電影台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang03
+#EXTINF:-1 group-title="LiTV立視",龍華經典台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang21
+#EXTINF:-1 group-title="LiTV立視",龍華洋片台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang02
+#EXTINF:-1 group-title="LiTV立視",龍華日韓台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang11
+#EXTINF:-1 group-title="LiTV立視",龍華偶像台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang12
+#EXTINF:-1 group-title="LiTV立視",龍華戲劇台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang18
+#EXTINF:-1 group-title="LiTV立視",龍華卡通台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang01
 
+#EXTINF:-1 group-title="LiTV立視",amc電影台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv017
+#EXTINF:-1 group-title="LiTV立視",我的歐洲電影
+http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv10
+#EXTINF:-1 group-title="LiTV立視",影迷數位電影台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv011
+
+#EXTINF:-1 group-title="LiTV立視",Pet Club TV
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv110
+#EXTINF:-1 group-title="LiTV立視",ELTA娛樂台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv070
+#EXTINF:-1 group-title="LiTV立視",TVBS
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv073
+#EXTINF:-1 group-title="LiTV立視",TVBS精采台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv067
+#EXTINF:-1 group-title="LiTV立視",TVBS歡樂台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv068
+#EXTINF:-1 group-title="LiTV立視",八大精彩台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv034
+#EXTINF:-1 group-title="LiTV立視",八大綜藝台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv039
+#EXTINF:-1 group-title="LiTV立視",中天亞洲台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv109
+#EXTINF:-1 group-title="LiTV立視",中視菁采台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv064
+#EXTINF:-1 group-title="LiTV立視",中視經典台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv080
+#EXTINF:-1 group-title="LiTV立視",公視戲劇台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv042
+#EXTINF:-1 group-title="LiTV立視",台灣戲劇台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang22
+#EXTINF:-1 group-title="LiTV立視",民視台灣台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv001
+#EXTINF:-1 group-title="LiTV立視",民視第一台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv003
+#EXTINF:-1 group-title="LiTV立視",民視綜藝台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv004
+#EXTINF:-1 group-title="LiTV立視",民視影劇台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv09
+#EXTINF:-1 group-title="LiTV立視",采昌影劇台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv049
+#EXTINF:-1 group-title="LiTV立視",非凡商業台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv048
+#EXTINF:-1 group-title="LiTV立視",視納華仁紀實頻道
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv013
+#EXTINF:-1 group-title="LiTV立視",達文西頻道
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv018
+#EXTINF:-1 group-title="LiTV立視",影迷數位紀實台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv15
+#EXTINF:-1 group-title="LiTV立視",韓國娛樂台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv016
+#EXTINF:-1 group-title="LiTV立視",ArirangTV
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv079
+
+#EXTINF:-1 group-title="LiTV立視",台視財經台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv056
+#EXTINF:-1 group-title="LiTV立視",寰宇財經台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv158
+#EXTINF:-1 group-title="LiTV立視",Classica古典樂
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv059
+#EXTINF:-1 group-title="LiTV立視",ELTV生活英語
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang20
+#EXTINF:-1 group-title="LiTV立視",GINXEsportsTV
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv053
+#EXTINF:-1 group-title="LiTV立視",MezzoLive
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv083
+#EXTINF:-1 group-title="LiTV立視",TraceSports
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv077
+#EXTINF:-1 group-title="LiTV立視",TraceUrban
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv082
+#EXTINF:-1 group-title="LiTV立視",VOA美國之音
+http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv03
+#EXTINF:-1 group-title="LiTV立視",好消息
+http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv16
+#EXTINF:-1 group-title="LiTV立視",好消息2台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-ftv17
+#EXTINF:-1 group-title="LiTV立視",客家電視台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv043
+#EXTINF:-1 group-title="LiTV立視",時尚運動X
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv014
+#EXTINF:-1 group-title="LiTV立視",國會頻道1
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv084
+#EXTINF:-1 group-title="LiTV立視",國會頻道2
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv085
+#EXTINF:-1 group-title="LiTV立視",第1商業台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv104
+#EXTINF:-1 group-title="LiTV立視",博斯高球二台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang06
+#EXTINF:-1 group-title="LiTV立視",博斯高球台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang05
+#EXTINF:-1 group-title="LiTV立視",博斯無限二台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang13
+#EXTINF:-1 group-title="LiTV立視",博斯無限台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang10
+#EXTINF:-1 group-title="LiTV立視",博斯運動一台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang07
+#EXTINF:-1 group-title="LiTV立視",博斯運動二台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang08
+#EXTINF:-1 group-title="LiTV立視",博斯網球台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang09
+#EXTINF:-1 group-title="LiTV立視",博斯魅力台
+http://ezc.xtvantsc.xyz/litv.php?id=litv-xinchuang04
+#EXTINF:-1 group-title="LiTV立視",智林體育台
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv101
+#EXTINF:-1 group-title="LiTV立視",豬哥亮歌廳秀
+http://ezc.xtvantsc.xyz/litv.php?id=4gtv-4gtv006
 
 
 ################################################
-
-
-
-
-
-#EXTINF:-1 group-title="四季4gTV",Plus綜合
-http://free.cnlive.club/channel/6429ae4c.m3u8
-#EXTINF:-1 group-title="四季4gTV",鳳凰衛視
-http://free.cnlive.club/channel/n496e6eec.m3u8
-#EXTINF:-1 group-title="四季4gTV",鳳凰資訊
-http://free.cnlive.club/channel/n4966a4fb.m3u8
-#EXTINF:-1 group-title="四季4gTV",鳳凰香港
-http://free.cnlive.club/channel/n49654430.m3u8
-#EXTINF:-1 group-title="四季4gTV",中天新聞
-http://free.cnlive.club/channel/41d8a09d.m3u8
-#EXTINF:-1 group-title="四季4gTV",有線新聞
-http://free.cnlive.club/channel/7289243e.m3u8
-#EXTINF:-1 group-title="四季4gTV",無線新聞
-http://free.cnlive.club/channel/n3fad9608.m3u8
-#EXTINF:-1 group-title="四季4gTV",無線翡翠
-http://free.cnlive.club/channel/n7549189d.m3u8
-#EXTINF:-1 group-title="四季4gTV",無線華麗
-http://free.cnlive.club/channel/n177a7044.m3u8
-#EXTINF:-1 group-title="四季4gTV",無線明珠
-http://free.cnlive.club/channel/n75ab7db0.m3u8
-#EXTINF:-1 group-title="四季4gTV",無線娛樂
-http://free.cnlive.club/channel/nac85e88.m3u8
-#EXTINF:-1 group-title="四季4gTV",千禧經典
-http://free.cnlive.club/channel/n1ab8717e.m3u8
-#EXTINF:-1 group-title="四季4gTV",VIUTV'粵
-http://free.cnlive.club/channel/78204936.m3u8
-#EXTINF:-1 group-title="四季4gTV",VIUTV'英
-http://free.cnlive.club/channel/necd2834.m3u8
-#EXTINF:-1 group-title="四季4gTV",RTHK-31
-http://free.cnlive.club/channel/n8badbb5.m3u8
-#EXTINF:-1 group-title="四季4gTV",RTHK-32
-http://free.cnlive.club/channel/n8badbb4.m3u8
-#EXTINF:-1 group-title="四季4gTV",美亞電影
-http://free.cnlive.club/channel/5824ef5e.m3u8
-#EXTINF:-1 group-title="四季4gTV",天映頻道
-http://free.cnlive.club/channel/n7e466c41.m3u8
-#EXTINF:-1 group-title="四季4gTV",天映頻道
-http://free.cnlive.club/channel/5150b0a1.m3u8
-#EXTINF:-1 group-title="四季4gTV",天映經典
-http://free.cnlive.club/channel/n7e49c99a.m3u8
-#EXTINF:-1 group-title="四季4gTV",龍華電影
-http://free.cnlive.club/channel/66c77727.m3u8
-#EXTINF:-1 group-title="四季4gTV",龍祥電影
-http://free.cnlive.club/channel/67548a4f.m3u8
-#EXTINF:-1 group-title="四季4gTV",緯來電影
-http://free.cnlive.club/channel/581b458b.m3u8
-#EXTINF:-1 group-title="四季4gTV",Astro 愛奇藝
-http://free.cnlive.club/channel/n367ccbbb.m3u8
-#EXTINF:-1 group-title="四季4gTV",Astro QJ國
-http://free.cnlive.club/channel/n2d0f5476.m3u8
-#EXTINF:-1 group-title="四季4gTV",Astro aod
-http://free.cnlive.club/channel/fa50a06.m3u8
-#EXTINF:-1 group-title="四季4gTV",Astro aec
-http://free.cnlive.club/channel/36f451f2.m3u8
-#EXTINF:-1 group-title="四季4gTV",Astro 歡喜
-http://free.cnlive.club/channel/n129801d1.m3u8
-#EXTINF:-1 group-title="四季4gTV",寰宇新聞
-http://free.cnlive.club/channel/n43c34be8.m3u8
-#EXTINF:-1 group-title="四季4gTV",東森新聞
-http://free.cnlive.club/channel/n88aa83.m3u8
-#EXTINF:-1 group-title="四季4gTV",TVBS新聞
-http://free.cnlive.club/channel/n69ccce92.m3u8
-#EXTINF:-1 group-title="四季4gTV",年代新聞
-http://free.cnlive.club/channel/49184630.m3u8
-#EXTINF:-1 group-title="四季4gTV",非凡新聞
-http://free.cnlive.club/channel/6302a884.m3u8
-#EXTINF:-1 group-title="四季4gTV",民視新聞
-http://free.cnlive.club/channel/n4b747ee6.m3u8
-#EXTINF:-1 group-title="四季4gTV",中視新聞
-http://free.cnlive.club/channel/428f1dfa.m3u8
-#EXTINF:-1 group-title="四季4gTV",台視新聞
-http://free.cnlive.club/channel/452d9d57.m3u8
-#EXTINF:-1 group-title="四季4gTV",公視
-http://free.cnlive.club/channel/3b838b0c.m3u8
-#EXTINF:-1 group-title="四季4gTV",民視
-http://free.cnlive.club/channel/n4d0434cf.m3u8
-#EXTINF:-1 group-title="四季4gTV",中視
-http://free.cnlive.club/channel/dc53f4d.m3u8
-#EXTINF:-1 group-title="四季4gTV",華視
-http://free.cnlive.club/channel/560bcbee.m3u8
-#EXTINF:-1 group-title="四季4gTV",台視
-http://free.cnlive.club/channel/5ef6ab90.m3u8
-#EXTINF:-1 group-title="四季4gTV",TVBS
-http://free.cnlive.club/channel/154f9d73.m3u8
-#EXTINF:-1 group-title="四季4gTV",TVBS歡樂
-http://free.cnlive.club/channel/n69c10b55.m3u8
-#EXTINF:-1 group-title="四季4gTV",民視台灣
-http://free.cnlive.club/channel/n4bbbe8c9.m3u8
-#EXTINF:-1 group-title="四季4gTV",中視經典
-http://free.cnlive.club/channel/4291e438.m3u8
-#EXTINF:-1 group-title="四季4gTV",公視台語
-http://free.cnlive.club/channel/3ccf6783.m3u8
-#EXTINF:-1 group-title="四季4gTV",台視綜合
-http://free.cnlive.club/channel/45306b98.m3u8
-#EXTINF:-1 group-title="四季4gTV",中天娛樂
-http://free.cnlive.club/channel/41d6f491.m3u8
-#EXTINF:-1 group-title="四季4gTV",中天綜合
-http://free.cnlive.club/channel/41db6ede.m3u8
-#EXTINF:-1 group-title="四季4gTV",中天亞洲
-http://free.cnlive.club/channel/41d5ac2a.m3u8
-#EXTINF:-1 group-title="四季4gTV",八大第一
-http://free.cnlive.club/channel/2733018a.m3u8
-#EXTINF:-1 group-title="四季4gTV",八大綜合
-http://free.cnlive.club/channel/27420c52.m3u8
-#EXTINF:-1 group-title="四季4gTV",八大戲劇
-http://free.cnlive.club/channel/26d54426.m3u8
-#EXTINF:-1 group-title="四季4gTV",八大娛樂
-http://free.cnlive.club/channel/26b73cff.m3u8
-#EXTINF:-1 group-title="四季4gTV",東森綜合
-http://free.cnlive.club/channel/n31b0a4.m3u8
-#EXTINF:-1 group-title="四季4gTV",東森戲劇
-http://free.cnlive.club/channel/n9e78d0.m3u8
-#EXTINF:-1 group-title="四季4gTV",東森洋片
-http://free.cnlive.club/channel/n7160b4.m3u8
-#EXTINF:-1 group-title="四季4gTV",東森電影
-http://free.cnlive.club/channel/n5502f4.m3u8
-#EXTINF:-1 group-title="四季4gTV",東森幼幼
-http://free.cnlive.club/channel/naa6d18.m3u8
-#EXTINF:-1 group-title="四季4gTV",東森超視
-http://free.cnlive.club/channel/4210df69.m3u8
-#EXTINF:-1 group-title="四季4gTV",東森財經
-http://free.cnlive.club/channel/209f9e70.m3u8
-#EXTINF:-1 group-title="四季4gTV",寰宇財經
-http://free.cnlive.club/channel/n4332074a.m3u8
-#EXTINF:-1 group-title="四季4gTV",華藝綜合
-http://free.cnlive.club/channel/5af2eef0.m3u8
-#EXTINF:-1 group-title="四季4gTV",AXN電影
-http://free.cnlive.club/channel/n4e27c899.m3u8
-#EXTINF:-1 group-title="四季4gTV",CINEMAX
-http://free.cnlive.club/channel/7c7a1311.m3u8
-#EXTINF:-1 group-title="四季4gTV",HBO高清
-http://free.cnlive.club/channel/2d329e1c.m3u8
-#EXTINF:-1 group-title="四季4gTV",HBO家庭
-http://free.cnlive.club/channel/n54fc5ba0.m3u8
-#EXTINF:-1 group-title="四季4gTV",好萊電影
-http://free.cnlive.club/channel/n2db95de5.m3u8
-#EXTINF:-1 group-title="四季4gTV",龍華經典
-http://free.cnlive.club/channel/66c892d4.m3u8
-#EXTINF:-1 group-title="四季4gTV",龍華戲劇
-http://free.cnlive.club/channel/66c51883.m3u8
-#EXTINF:-1 group-title="四季4gTV",龍華偶像
-http://free.cnlive.club/channel/66c2f564.m3u8
-#EXTINF:-1 group-title="四季4gTV",龍華洋片
-http://free.cnlive.club/channel/66c68ce7.m3u8
-#EXTINF:-1 group-title="四季4gTV",緯來日本
-http://free.cnlive.club/channel/58197296.m3u8
-#EXTINF:-1 group-title="四季4gTV",緯來體育
-http://free.cnlive.club/channel/5816d06e.m3u8
-#EXTINF:-1 group-title="四季4gTV",緯來綜合
-http://free.cnlive.club/channel/581c693b.m3u8
-#EXTINF:-1 group-title="四季4gTV",緯來育樂
-http://free.cnlive.club/channel/581c988d.m3u8
-#EXTINF:-1 group-title="四季4gTV",緯來精彩
-http://free.cnlive.club/channel/581c2f1a.m3u8
-#EXTINF:-1 group-title="四季4gTV",靖天國際
-http://free.cnlive.club/channel/63189371.m3u8
-#EXTINF:-1 group-title="四季4gTV",靖天卡通
-http://free.cnlive.club/channel/63181d62.m3u8
-#EXTINF:-1 group-title="四季4gTV",大愛1台
-http://free.cnlive.club/channel/46f9ba85.m3u8
-#EXTINF:-1 group-title="四季4gTV",大愛2台
-http://free.cnlive.club/channel/46f0bf6e.m3u8
-#EXTINF:-1 group-title="四季4gTV",好消息2
-http://free.cnlive.club/channel/n5e3decc0.m3u8
-#EXTINF:-1 group-title="四季4gTV",三立台灣
-http://free.cnlive.club/channel/642f20a.m3u8
-#EXTINF:-1 group-title="四季4gTV",三立戲劇
-http://free.cnlive.club/channel/6748da0.m3u8
-#EXTINF:-1 group-title="四季4gTV",三立綜合
-http://free.cnlive.club/channel/6e155cc.m3u8
-#EXTINF:-1 group-title="四季4gTV",三立都會
-http://free.cnlive.club/channel/72452bb.m3u8
-#EXTINF:-1 group-title="四季4gTV",ELTA影劇
-http://free.cnlive.club/channel/n2109392b.m3u8
-#EXTINF:-1 group-title="四季4gTV",ELTA綜合
-http://free.cnlive.club/channel/n20929de1.m3u8
-#EXTINF:-1 group-title="四季4gTV",ELTA體育1
-http://free.cnlive.club/channel/n6cd87fd.m3u8
-#EXTINF:-1 group-title="四季4gTV",ELTA體育2
-http://free.cnlive.club/channel/n6cd87de.m3u8
-#EXTINF:-1 group-title="四季4gTV",ELTA體育3
-http://free.cnlive.club/channel/n6cd87bf.m3u8
-#EXTINF:-1 group-title="四季4gTV",博斯無限
-http://free.cnlive.club/channel/47dd89d5.m3u8
-#EXTINF:-1 group-title="四季4gTV",博斯網球
-http://free.cnlive.club/channel/4838e3b3.m3u8
-#EXTINF:-1 group-title="四季4gTV",博斯運動1
-http://free.cnlive.club/channel/n3a1a5ced.m3u8
-#EXTINF:-1 group-title="四季4gTV",博斯運動2
-http://free.cnlive.club/channel/n3a1a4bf9.m3u8
-#EXTINF:-1 group-title="四季4gTV",博斯高球1
-http://free.cnlive.club/channel/n34996e5a.m3u8
-#EXTINF:-1 group-title="四季4gTV",博斯高球2
-http://free.cnlive.club/channel/n34995d66.m3u8
-#EXTINF:-1 group-title="四季4gTV",美食星球
-http://free.cnlive.club/channel/5939fd4b.m3u8
-#EXTINF:-1 group-title="四季4gTV",亞洲美食
-http://free.cnlive.club/channel/4258879f.m3u8
-#EXTINF:-1 group-title="四季4gTV",亞洲旅遊
-http://free.cnlive.club/channel/852ca6f.m3u8
-#EXTINF:-1 group-title="四季4gTV",亞洲TLC
-http://free.cnlive.club/channel/34964cb6.m3u8
-#EXTINF:-1 group-title="四季4gTV",EYETV旅遊
-http://free.cnlive.club/channel/28efa38.m3u8
-#EXTINF:-1 group-title="四季4gTV",EYETV戲劇
-http://free.cnlive.club/channel/27dadb3.m3u8
-#EXTINF:-1 group-title="四季4gTV",MTV
-http://free.cnlive.club/channel/731620b3.m3u8
-#EXTINF:-1 group-title="四季4gTV",ARIRANG
-http://free.cnlive.club/channel/5a358dea.m3u8
 
 
 
@@ -9363,6 +9103,12 @@ https://php.946985.filegear-sg.me/mytv265.php?id=TRUR
 https://php.946985.filegear-sg.me/mytv265.php?id=NSWD
 
 
+#EXTINF:-1 group-title="MYTV",鳳凰電影
+http://iot-mqqt.111yao.cn:8080/live/diyp_fhdy.m3u8
+#EXTINF:-1 group-title="MYTV",星空電影
+http://iot-mqqt.111yao.cn:8080/live/diyp_starmovies.m3u8
+#EXTINF:-1 group-title="MYTV",星空音樂
+http://iot-mqqt.111yao.cn:8080/live/diyp_channelv.m3u8
 
 
 ################################################
@@ -9824,10 +9570,27 @@ https://fl1.moveonjoy.com/YES_NETWORK/index.m3u8
 
 
 
+
+#EXTINF:-1 group-title="體育世界",CCTV5
+https://iptv.catvod.com/live.php?id=CCTV5
+#EXTINF:-1 group-title="體育世界",CCTV5+
+https://iptv.catvod.com/live.php?id=CCTV5%2B
+
+
+
 #EXTINF:-1 group-title="體育世界",CCTV5
 http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv5
 #EXTINF:-1 group-title="體育世界",CCTV5+
 http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv5p
+
+
+#EXTINF:-1 tvg-id="ES: EUROSPORT 1" tvg-name="USL: EUROSPORT 1" tvg-logo="https://tenwafers.xyz:443/images/a8ZLybME7nvmZTj1j3E8s2-cc3QANGsiQWLH8D7JUoifcO0giv-gD2-I4rC9mR67khGcF4r_lhCnTOPqWUY04g.png" group-title="體育世界",USL: EUROSPORT 1
+http://hardcoremedia.xyz:80/NW3Vk7xXwW/8375773282/249549
+#EXTINF:-1 tvg-id="ES: EUROSPORT 2" tvg-name="USL: EUROSPORT 2" tvg-logo="https://tenwafers.xyz:443/images/a8ZLybME7nvmZTj1j3E8s2-cc3QANGsiQWLH8D7JUoifcO0giv-gD2-I4rC9mR67GdO1StzZzzcWFIjzL7XGpg.png" group-title="體育世界",USL: EUROSPORT 2
+http://hardcoremedia.xyz:80/NW3Vk7xXwW/8375773282/249550
+
+
+
 
 #EXTINF:-1 tvg-id="Eurosport 1 HD" tvg-name="Eurosport 1" tvg-logo="http://163.172.89.228/~msepg/logos/united-kingdom/eurosport-1-uk.png" group-title="體育世界",Eurosport 1
 http://lunar.pm:8080/Mrdon/4782314540/20965
@@ -9844,6 +9607,11 @@ http://hardcoremedia.xyz:80/NW3Vk7xXwW/8375773282/117033
 
 
 
+
+
+
+
+
 #EXTINF:-1 tvg-id="TNT Sports 1 HD" tvg-name="TNT-BT Sport 1" tvg-logo="http://163.172.89.228/~msepg/logos/united-kingdom/tntsports1.png" group-title="體育世界",TNT-BT Sport 1
 http://lunar.pm:8080/Mrdon/4782314540/100775
 #EXTINF:-1 tvg-id="TNT Sports 2 HD" tvg-name="TNT-BT Sport 2" tvg-logo="http://163.172.89.228/~msepg/logos/united-kingdom/tntsports2.png" group-title="體育世界",TNT-BT Sport 2
@@ -9852,6 +9620,24 @@ http://lunar.pm:8080/Mrdon/4782314540/100776
 http://lunar.pm:8080/Mrdon/4782314540/100777
 #EXTINF:-1 tvg-id="TNT Sports 4 HD" tvg-name="TNT-BT Sport 4 " tvg-logo="http://163.172.89.228/~msepg/logos/united-kingdom/tntsports4.png" group-title="體育世界",TNT-BT Sport 4 
 http://lunar.pm:8080/Mrdon/4782314540/100778
+
+
+
+#EXTINF:-1 tvg-id="TNTSports1.uk" tvg-name="TNT SPORTS 1 HD" tvg-logo="https://media.info/l/o/1/1539.1690027797.png" group-title="體育世界",TNT SPORTS 1 HD
+http://hardcoremedia.xyz:80/NW3Vk7xXwW/8375773282/258596
+#EXTINF:-1 tvg-id="TNTSports2.uk" tvg-name="TNT SPORTS 2 HD" tvg-logo="https://media.info/l/o/1/1540.1690027877.png" group-title="體育世界",TNT SPORTS 2 HD
+http://hardcoremedia.xyz:80/NW3Vk7xXwW/8375773282/258601
+#EXTINF:-1 tvg-id="TNTSports3.uk" tvg-name="TNT SPORTS 3 HD" tvg-logo="https://media.info/l/o/5/5712.1690027954.png" group-title="體育世界",TNT SPORTS 3 HD
+http://hardcoremedia.xyz:80/NW3Vk7xXwW/8375773282/258606
+#EXTINF:-1 tvg-id="TNTSports4.uk" tvg-name="TNT SPORTS 4 HD" tvg-logo="https://media.info/l/o/1/1491.1690027975.png" group-title="體育世界",TNT SPORTS 4 HD
+http://hardcoremedia.xyz:80/NW3Vk7xXwW/8375773282/258611
+
+
+
+
+
+
+
 
 
 #EXTINF:-1 tvg-id="NBA TV Canada TV HD" tvg-name="CA: NBA TV" tvg-logo="http://163.172.89.228/~msepg/logos/canada/nba-tv-ca.png" group-title="體育世界",CA: NBA TV
@@ -9921,200 +9707,7 @@ https://jmp2.uk/plu-6549306c83595c000815a696.m3u8
 
 
 
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Premier Sports 1
-http://vocotv.pro:80/robins/robins/715574
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Premier Sports 2
-http://vocotv.pro:80/robins/robins/715573
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Premier Sports 3
-http://vocotv.pro:80/robins/robins/715572
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Premier Sports 4
-http://vocotv.pro:80/robins/robins/715571
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Premier Sports 5
-http://vocotv.pro:80/robins/robins/715570
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Premier Sports 6
-http://vocotv.pro:80/robins/robins/715569
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Premier Sports 7
-http://vocotv.pro:80/robins/robins/715568
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Premier Sports 8
-http://vocotv.pro:80/robins/robins/715567
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Now Sports 1
-http://vocotv.pro:80/robins/robins/715566
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Now Sports 2
-http://vocotv.pro:80/robins/robins/715565
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Now Sports 3
-http://vocotv.pro:80/robins/robins/715564
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Now Sports 4
-http://vocotv.pro:80/robins/robins/715563
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Now Sports 5
-http://vocotv.pro:80/robins/robins/715562
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Now Sports 6
-http://vocotv.pro:80/robins/robins/715561
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Now Sports 7
-http://vocotv.pro:80/robins/robins/715560
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now Sports PRIME
-http://vocotv.pro:80/robins/robins/715559
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Now Sports 4K 616
-http://vocotv.pro:80/robins/robins/715558
-#EXTINF:-1 tvg-id="gj" tvg-logo="https://v0.ekuai.asia/tvbox/gy/999/logo.php" group-title="體育世界",Now HK Now Sports 4K 617
-http://vocotv.pro:80/robins/robins/715557
 
-
-#EXTINF:-1 group-title="體育世界",ASTRO SUPERSPORTS PL 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/766852.ts
-#EXTINF:-1 group-title="體育世界",ASTRO SUPERSPORTS PL 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/766853.ts
-#EXTINF:-1 group-title="體育世界",ASTRO SUPERSPORTS GRANDSTAND
-http://line.lebiptv.me/live/km6m4950/pqGB5365/766854.ts
-#EXTINF:-1 group-title="體育世界",ASTRO SUPERSPORTS FOOTBALL
-http://line.lebiptv.me/live/km6m4950/pqGB5365/766855.ts
-#EXTINF:-1 group-title="體育世界",BEIN SPORTS 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1016907.ts
-#EXTINF:-1 group-title="體育世界",BEIN SPORTS 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1016908.ts
-#EXTINF:-1 group-title="體育世界",BEIN SPORTS 3
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1016909.ts
-#EXTINF:-1 group-title="體育世界",BEIN SPORTS 4
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1016910.ts
-#EXTINF:-1 group-title="體育世界",BEIN SPORTS 5
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1016911.ts
-#EXTINF:-1 group-title="體育世界",BEIN SPORTS 6
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1016912.ts
-#EXTINF:-1 group-title="體育世界",BEIN SPORTS 7
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1016913.ts
-#EXTINF:-1 group-title="體育世界",BEIN SPORTS 8
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1016914.ts
-#EXTINF:-1 group-title="體育世界",BEIN SPORTS 9
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1016915.ts
-#EXTINF:-1 group-title="體育世界",EQUIDIA
-http://line.lebiptv.me/live/km6m4950/pqGB5365/832129.ts
-#EXTINF:-1 group-title="體育世界",ESPN NEWS
-http://line.lebiptv.me/live/km6m4950/pqGB5365/487783.ts
-#EXTINF:-1 group-title="體育世界",ESPN 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/487782.ts
-#EXTINF:-1 group-title="體育世界",ESPN 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/487781.ts
-#EXTINF:-1 group-title="體育世界",ESPN U
-http://line.lebiptv.me/live/km6m4950/pqGB5365/487778.ts
-#EXTINF:-1 group-title="體育世界",EUROSPORT 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577985.ts
-#EXTINF:-1 group-title="體育世界",EUROSPORT 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577984.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827982.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827981.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 3
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827980.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 4
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827979.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 5
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827978.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 6
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827977.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 7
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827976.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 8
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827975.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 9
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827974.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 10
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827973.ts
-#EXTINF:-1 group-title="體育世界",HUB PREMIER SPORTS 11
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827972.ts
-#EXTINF:-1 group-title="體育世界",M.LALIGA 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/505621.ts
-#EXTINF:-1 group-title="體育世界",M.LALIGA 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/505623.ts
-#EXTINF:-1 group-title="體育世界",M.LALIGA 3
-http://line.lebiptv.me/live/km6m4950/pqGB5365/505625.ts
-#EXTINF:-1 group-title="體育世界",M.LALIGA 4
-http://line.lebiptv.me/live/km6m4950/pqGB5365/505627.ts
-#EXTINF:-1 group-title="體育世界",M.LALIGA 5
-http://line.lebiptv.me/live/km6m4950/pqGB5365/505628.ts
-#EXTINF:-1 group-title="體育世界",NOW HK PREMIER SPORTS 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827940.ts
-#EXTINF:-1 group-title="體育世界",NOW HK PREMIER SPORTS 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827939.ts
-#EXTINF:-1 group-title="體育世界",NOW HK PREMIER SPORTS 3
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827938.ts
-#EXTINF:-1 group-title="體育世界",NOW HK PREMIER SPORTS 4
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827937.ts
-#EXTINF:-1 group-title="體育世界",NOW HK PREMIER SPORTS 5
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827936.ts
-#EXTINF:-1 group-title="體育世界",NOW HK PREMIER SPORTS 6
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827935.ts
-#EXTINF:-1 group-title="體育世界",NOW HK PREMIER SPORTS 7
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827934.ts
-#EXTINF:-1 group-title="體育世界",NOW HK PREMIER SPORTS 8
-http://line.lebiptv.me/live/km6m4950/pqGB5365/827933.ts
-#EXTINF:-1 group-title="體育世界",NOW SPORTS 1
-http://line.lebiptv.me/km6m4950/pqGB5365/802488
-#EXTINF:-1 group-title="體育世界",NOW SPORTS 2
-http://line.lebiptv.me/km6m4950/pqGB5365/802487
-#EXTINF:-1 group-title="體育世界",NOW SPORTS 3
-http://line.lebiptv.me/km6m4950/pqGB5365/802486
-#EXTINF:-1 group-title="體育世界",NOW SPORTS 4
-http://line.lebiptv.me/km6m4950/pqGB5365/802485
-#EXTINF:-1 group-title="體育世界",NOW SPORTS 5
-http://line.lebiptv.me/km6m4950/pqGB5365/802484
-#EXTINF:-1 group-title="體育世界",NOW SPORTS 6
-http://line.lebiptv.me/km6m4950/pqGB5365/802483
-#EXTINF:-1 group-title="體育世界",NOW SPORTS 7
-http://line.lebiptv.me/km6m4950/pqGB5365/802482
-#EXTINF:-1 group-title="體育世界",PREMIER SPORTS LALIGA
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577982.ts
-#EXTINF:-1 group-title="體育世界",PREMIER SPORTS 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577981.ts
-#EXTINF:-1 group-title="體育世界",RACING 240
-http://line.lebiptv.me/live/km6m4950/pqGB5365/1125022.ts
-#EXTINF:-1 group-title="體育世界",RACING.COM
-http://line.lebiptv.me/live/km6m4950/pqGB5365/259849.ts
-#EXTINF:-1 group-title="體育世界",RACING TV UK
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577958.ts
-#EXTINF:-1 group-title="體育世界",SKY RACING 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/879881.ts
-#EXTINF:-1 group-title="體育世界",SKY RACING 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/879880.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699776.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699774.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 3
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699752.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 4
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699750.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 5
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699748.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 6
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699746.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 7
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699744.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 8
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699742.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 9
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699740.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORT 10
-http://line.lebiptv.me/live/km6m4950/pqGB5365/699738.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORTS MIX
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577989.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORTS MAIN EVENTS
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577997.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORTS NEWS
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577994.ts
-#EXTINF:-1 group-title="體育世界",SKY SPORTS PREMIER LEAGUE
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577996.ts 
-#EXTINF:-1 group-title="體育世界",SKY SPORTS RACING
-http://line.lebiptv.me/live/km6m4950/pqGB5365/577988.ts
-#EXTINF:-1 group-title="體育世界",TSN 1
-http://line.lebiptv.me/live/km6m4950/pqGB5365/487807.ts
-#EXTINF:-1 group-title="體育世界",TSN 2
-http://line.lebiptv.me/live/km6m4950/pqGB5365/487806.ts
-#EXTINF:-1 group-title="體育世界",TSN 3
-http://line.lebiptv.me/live/km6m4950/pqGB5365/487805.ts
-#EXTINF:-1 group-title="體育世界",TSN 4
-http://line.lebiptv.me/live/km6m4950/pqGB5365/487804.ts
-#EXTINF:-1 group-title="體育世界",TSN 5
-http://line.lebiptv.me/live/km6m4950/pqGB5365/487803.ts
 
 
 
@@ -15443,7 +15036,17 @@ https://jpzy01.com/20230626/MAFTOVhW/1000kb/hls/index.m3u8
 https://vip.lz-cdn16.com/20221222/1040_850899a7/index.m3u8
 #EXTINF:-1 group-title="蓬萊仙山 ADULT",不扣紐的女孩(李麗珍)
 https://ukzyll.ukubf6.com/20220525/ghXe6urh/index.m3u8?t=1764512564766
-#EXTINF:-1 group-title="蓬萊仙山 ADULT",愛很爛(無碼)
-https://jpzy01.com/20211123/ds6ASR5i/index.m3u8?t=1764491676709
-#EXTINF:-1 group-title="蓬萊仙山 ADULT",還枝格格
-https://v.huosucdn.com/20250727/yLcU5Ndf/index.m3u8?t=1764510211129
+
+#EXTINF:-1 group-title="蓬萊仙山 ADULT",彩虹E
+https://img.wjwj.top/2026/01/21/66ddced193f5517d1c1fe63510e75f75.mp4
+#EXTINF:-1 group-title="蓬萊仙山 ADULT",彩虹粉
+https://img.wjwj.top/2026/01/21/c820752d4d8531fc138e0346544b0894.mp4
+#EXTINF:-1 group-title="蓬萊仙山 ADULT",彩虹紫
+https://img.wjwj.top/2026/01/21/d6e2e05899a4dd94a67972aeec2032e0.mp4
+#EXTINF:-1 group-title="蓬萊仙山 ADULT",彩虹
+https://img.wjwj.top/2026/01/15/71319d602ddf54ab23aff3ad514c7fa6.mp4
+#EXTINF:-1 group-title="蓬萊仙山 ADULT",野草
+https://img.wjwj.top/2026/01/14/9d512deeb3792d42a21c0e3909c40a24.mp4
+
+
+

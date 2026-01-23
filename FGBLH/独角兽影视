@@ -58,6 +58,49 @@
         "api": "http://www.meowtv.cn/js/drpy2.min.js"
         },
         {
+            "name": "🦄糖心｜追剧",
+            "key": "TnewGr",
+            "type": 3,
+            "api": "csp_TnewGrAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
+            
+        },
+        {
+            "name": "🦄金牌｜追剧",
+            "key": "JinPai",
+            "type": 3,
+            "api": "csp_JinPaiAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
+            
+        },
+         {
+            "name": "🦄伊外｜追剧",
+            "key": "YIys",
+            "type": 3,
+            "api": "csp_YIysAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
+            
+        },
+        {
+            "key": "泥泥视频(ku)",
+            "name": "🦄泥视影视｜追剧",
+            "type": 3,
+            "api": "http://rihou.cc:88/js/drpy2.min.js",
+            "ext": "http://rihou.cc:88/js/泥泥视频.js"
+        },
+        {
             "key": "还行",
             "name": "🦄还行4K｜追剧",
             "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",
@@ -630,17 +673,17 @@
             "url": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         }, 
         {
-            "name": "🦄AnboxTV",
+            "name": "🦄AnboxTV斯玛特",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://tv.anboxtv.online/tv"
         },
         {
-            "name": "🦄冰茶",
+            "name": "🦄4gTV(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true"
-        }, 
+            "url": "http://4gtv.iill.top/4gtv.m3u"
+        },
         {
             "name": "🦄jackTV(梯子)",
             "type": 0,
@@ -648,13 +691,13 @@
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
         },
         {
-            "name": "🦄litv直播(梯子)",
+            "name": "🦄litv直播(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "http://ezc.xtvantsc.xyz/litv.php"
         },
        {
-            "name": "🦄台湾TV(梯子)",
+            "name": "🦄台湾TV(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"

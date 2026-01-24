@@ -10,10 +10,10 @@
             "url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true"
         },
         {
-            "name": "飞杨移动通",
+            "name": "经典TV",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://xcz.iptv365.org/fyyd.txt"
+            "url": "https://chuxinya.top/f/vlyxFA/JDTV.txt"
         },
         {
             "name": "电视ZB",
@@ -32,18 +32,30 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
-        }, 
-        {
-            "name": "飞扬",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://chuxinya.top/f/QnyjCo/飞扬直播.txt"
         },
         {
-            "name": "斯玛特直播",
+            "name": "猫影视",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "http://58.152.30.33:21015/xsmt/smt.php"
+            "url": "http://rihou.cc:555/gggg.nzk"
+        },
+        {
+            "name": "电视多TV",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt"
+        },
+        {
+            "name": "hzxs800274",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://119.91.7.169:5501/jumibao21.php"
+        },
+        {
+            "name": "剧迷宝",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gitee.com/hzxs800274/iptv/raw/master/live/TV"
         },
         {
             "name": "港台频道",
@@ -52,22 +64,40 @@
             "url": "http://ku9.fr.to/ku9/1768502278.txt"
         },
         {
-            "name": "jackTV(梯子)",
+            "name": "catvod",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+            "url": "https://iptv.catvod.com/tv.m3u"
         },
         {
-            "name": "litv直播(梯子)",
+            "name": "catvod(备用)",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "http://ezc.xtvantsc.xyz/litv.php"
+            "url": "https://live.catvod.com/tv.m3u"
         },
         {
-            "name": "台湾TV(梯子)",
+            "name": "zwssina",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
+            "url": "https://gitee.com/zwssina/yunduanyuan/raw/master/SB"
+        },
+        {
+            "name": "青龙电视",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://d.kstore.dev/download/15366/6988.txt"
+        },
+        {
+            "name": "卡卡西",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt"
+        },
+        {
+            "name": "szwxk",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gitee.com/szwxk/watch-television/raw/master/wxk1.m3u"
         },
         {
             "name": "港台大陆频道",

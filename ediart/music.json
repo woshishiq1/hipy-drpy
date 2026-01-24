@@ -1,6 +1,42 @@
 {
 	"spider": "https://xn--fjq53n.xyz/Ting/jar/Lge.jar",
 	"sites": [{
+			"key": "T4-yinyue5",
+			"name": "🎵大全｜音乐",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/yinyue5.php"
+		},
+		{
+			"key": "T4-qingting",
+			"name": "🎵蜻蜓｜电台",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/qingting.php"
+		},
+		{
+			"key": "T4-mvzb",
+			"name": "🎵MV｜音乐",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/mvzb.php"
+		},
+		{
+			"key": "T4-aha",
+			"name": "🎵啊哈｜音乐",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/aha.php"
+		},
+		{
+			"key": "T4-suishenting",
+			"name": "🎵随身听｜相声评书",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/suishenting.php"
+		},
+		{
+			"key": "T4-tangdou",
+			"name": "🎵糖豆｜音乐",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/tangdou.php"
+		},
+		{
 			"key": "啊哈DJ网",
 			"name": "🎵啊哈DJ｜音乐",
 			"type": 3,
@@ -193,6 +229,3 @@
 		}
 	]
 }
-
-
-

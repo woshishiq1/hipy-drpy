@@ -213,6 +213,42 @@
 			"type": 4
 		},
 		{
+			"key": "T4-yinyue5",
+			"name": "🎵大全｜音乐",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/yinyue5.php"
+		},
+		{
+			"key": "T4-qingting",
+			"name": "🎵蜻蜓｜电台",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/qingting.php"
+		},
+		{
+			"key": "T4-mvzb",
+			"name": "🎵MV｜音乐",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/mvzb.php"
+		},
+		{
+			"key": "T4-aha",
+			"name": "🎵啊哈｜音乐",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/aha.php"
+		},
+		{
+			"key": "T4-suishenting",
+			"name": "🎵随身听｜相声评书",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/suishenting.php"
+		},
+		{
+			"key": "T4-2024热门",
+			"name": "🎵热门MV｜音乐",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/bili.php?id=2024"
+		},
+		{
 			"api": "https://learnpython.ggff.net/SSZBO",
 			"key": "SSZBO",
 			"name": "🔞SSZBO",

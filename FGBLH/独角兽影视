@@ -94,13 +94,6 @@
             
         },
         {
-            "key": "泥泥视频(ku)",
-            "name": "🦄泥视影视｜追剧",
-            "type": 3,
-            "api": "http://rihou.cc:88/js/drpy2.min.js",
-            "ext": "http://rihou.cc:88/js/泥泥视频.js"
-        },
-        {
             "key": "还行",
             "name": "🦄还行4K｜追剧",
             "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",

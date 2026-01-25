@@ -1,7 +1,7 @@
 const config = {
     host: 'http://zqq.i234.me:12345',/*Emby服务器URL (例如 http://localhost:8096)*/
     userId: "40a02f8503ce4de49d58331a282dcea1",/*Emby_userId (通过账号密码获取)*/
-    token: "f44eb8dce16c4d988e985c5a55ca1e97",/*Emby_token (通过账号密码获取)*/
+    token: "664785413703444e8478400d91acdbbc",/*Emby_token (通过账号密码获取)*/
     deviceId: "ea27caf7-9a51-4209-b1a5-374bf30c2ffd",
     clientVersion: "4.9.0.31"
 };

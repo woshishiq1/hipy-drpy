@@ -345,12 +345,6 @@
 			"type": 4
 		},
 		{
-			"key": "T4-yinyue5",
-			"name": "🎵大全｜音乐",
-			"type": 4,
-			"api": "https://catbox.n13.club/t9/yinyue5.php"
-		},
-		{
 			"key": "T4-qingting",
 			"name": "🎵蜻蜓｜电台",
 			"type": 4,
@@ -452,7 +446,7 @@
 		},
 		{
 			"name": "SMT",
-			"url": "http://96.44.160.246:9999/smt.php"
+			"url": "http://159.69.45.173:9999/smt.php"
 		},
 		{
 			"name": "MyTvSuper",
@@ -474,7 +468,7 @@
 		},
 		{
 			"name": "YouTube直播",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtubelive.m3u"
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtube.m3u"
 		},
 		{
 			"name": "备用直播一",

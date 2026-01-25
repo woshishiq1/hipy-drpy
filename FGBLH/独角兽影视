@@ -672,12 +672,6 @@
             "url": "https://tv.anboxtv.online/tv"
         },
         {
-            "name": "🦄iptv台湾频道",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptv台湾频道"
-        },
-        {
             "name": "🦄4gTV(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp",

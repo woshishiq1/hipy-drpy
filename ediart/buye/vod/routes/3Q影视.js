@@ -198,7 +198,7 @@ const _detail = async ({ id }) => {
             'vod_area': data.vod_area,
             'vod_actor': data.vod_actor,
             'vod_director': data.vod_director,
-            'vod_content': data.vod_content,
+            'vod_content': data.vod_content.replace(/<[^>]+>/g, '').trim(),
             'vod_play_from': shows.join('$$$'),
             'vod_play_url': play_urls.join('$$$'),
             'type_name': data.vod_class

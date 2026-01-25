@@ -8,9 +8,6 @@ let headers = {
 
 async function init(cfg) {}
 
-/**
- * 辅助函数：将API返回的视频列表转为标准vod格式
- */
 function json2vods(arr) {
     let videos = [];
     if (!arr) return videos;
@@ -175,7 +172,7 @@ async function detail(id) {
         'vod_area': data.vod_area,
         'vod_actor': data.vod_actor,
         'vod_director': data.vod_director,
-        'vod_content': data.vod_content,
+        'vod_content': data.vod_content.replace(/<[^>]+>/g, '').trim(),
         'vod_play_from': shows.join('$$$'),
         'vod_play_url': play_urls.join('$$$'),
         'type_name': data.vod_class
@@ -251,4 +248,3 @@ export function __jsEvalReturn() {
         play: play
     };
 }
-

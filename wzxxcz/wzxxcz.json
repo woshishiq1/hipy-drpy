@@ -1155,7 +1155,7 @@
             "name": "🏅金牌影视备",
             "type": 3,
             "api": "csp_AppQi",
-            "changeable": "1",
+            "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
@@ -1226,6 +1226,39 @@
             "ext": {
                 "host": "http://host1.sopython.top/host.json",
                 "ver": 2
+            }
+        },
+        {
+            "key": "搜搜",
+            "name": "🔎搜搜影视",
+            "type": 3,
+            "api": "csp_AppFox",
+            "ext": "https://www.zjcvod.com"
+        },
+        {
+            "key": "火花",
+            "name": "🔥火花影视",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://huohua.itcxo.cn"
+            }
+        },
+        {
+            "key": "顾我",
+            "name": "🐘顾我影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/pgqj.json",
+                "dataKey": "kj37zs29q22jk96t",
+                "dataIv": "kj37zs29q22jk96t",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -1308,7 +1341,7 @@
             "name": "🍊爱盈影视",
             "type": 3,
             "api": "csp_AppQi",
-            "changeable": "1",
+            "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
@@ -5094,6 +5127,17 @@
             }
         },
         {
+            "key": "芬奇",
+            "name": "🐘芬奇影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://wsapi.dafenqi.mom/yuming.txt",
+                "dataKey": "bH5mI8iK0tK7aQ5x",
+                "dataIv": "bH5mI8iK0tK7aQ5x"
+            }
+        },
+        {
             "key": "火狐",
             "name": "🦊火狐影视",
             "type": 3,
@@ -5114,6 +5158,41 @@
                 "url": "http://www.winter1.fun",
                 "dataKey": "abcdefghigklmn11",
                 "dataIv": "abcdefghigklmn11"
+            }
+        },
+        {
+            "key": "优兔",
+            "name": "🐇优兔影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "ext": {
+                "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
+                "dataKey": "UrWKPnmQWJA8AQzd",
+                "dataIv": "UrWKPnmQWJA8AQzd"
+            }
+        },
+        {
+            "key": "缘梦",
+            "name": "🍊缘梦影视",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://165.99.42.137:5432",
+                "dataKey": "1234567890987654",
+                "dataIv": "1234567890987654"
+            }
+        },
+        {
+            "key": "王子",
+            "name": "🤴王子影视",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.95112475.xyz",
+                "dataKey": "5a9w6x58dsq6z3a6",
+                "dataIv": "5a9w6x58dsq6z3a6"
             }
         },
         {
@@ -35541,6 +35620,41 @@
                 "日韩综艺",
                 "欧美综艺"
             ]
+        },
+        {
+            "key": "菲菲影院",
+            "name": "🕊️菲菲影院",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://www.cdzywl.com/",
+                "二次截取": "",
+                "数组": "lazyload&&</a>",
+                "标题": "title=\"&&\"",
+                "图片": "data-original=\"&&\"",
+                "副标题": "<span class=\"pic-text text-right\">&&</span>",
+                "链接": "href=\"&&\"",
+                "影片年代": "年份：&&</p>",
+                "影片地区": "地区：&&</p>",
+                "影片类型": "类型：&&</p>",
+                "状态": "状态：&&</p>",
+                "导演": "导演：&&</p>",
+                "主演": "主演：&&</p>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
+                "线路二次截取": "",
+                "线路数组": "\\#playlist&&</a>",
+                "线路标题": "tab\">&&</a>",
+                "播放二次截取": "",
+                "播放数组": "myui-content__list sort-list clearfix&&</ul>",
+                "倒序": "0",
+                "播放列表": "<a&&</a>",
+                "播放标题": ">&&</a>",
+                "播放链接": "href=\"&&\"",
+                "分类url": "https://www.cdzywl.com/vodshow/{cateId}--------{catePg}---.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$25#"
+            }
         },
         {
             "key": "风车动漫",

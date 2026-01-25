@@ -754,7 +754,7 @@
             "name": "🏅金牌影视备",
             "type": 3,
             "api": "csp_AppQi",
-            "changeable": "1",
+            "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
@@ -825,6 +825,39 @@
             "ext": {
                 "host": "http://host1.sopython.top/host.json",
                 "ver": 2
+            }
+        },
+        {
+            "key": "搜搜",
+            "name": "🔎搜搜影视",
+            "type": 3,
+            "api": "csp_AppFox",
+            "ext": "https://www.zjcvod.com"
+        },
+        {
+            "key": "火花",
+            "name": "🔥火花影视",
+            "type": 3,
+            "changeable": 0,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://huohua.itcxo.cn"
+            }
+        },
+        {
+            "key": "顾我",
+            "name": "🐘顾我影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/pgqj.json",
+                "dataKey": "kj37zs29q22jk96t",
+                "dataIv": "kj37zs29q22jk96t",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -907,7 +940,7 @@
             "name": "🍊爱盈影视",
             "type": 3,
             "api": "csp_AppQi",
-            "changeable": "1",
+            "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
@@ -4693,6 +4726,17 @@
             }
         },
         {
+            "key": "芬奇",
+            "name": "🐘芬奇影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://wsapi.dafenqi.mom/yuming.txt",
+                "dataKey": "bH5mI8iK0tK7aQ5x",
+                "dataIv": "bH5mI8iK0tK7aQ5x"
+            }
+        },
+        {
             "key": "火狐",
             "name": "🦊火狐影视",
             "type": 3,
@@ -4713,6 +4757,41 @@
                 "url": "http://www.winter1.fun",
                 "dataKey": "abcdefghigklmn11",
                 "dataIv": "abcdefghigklmn11"
+            }
+        },
+        {
+            "key": "优兔",
+            "name": "🐇优兔影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "ext": {
+                "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
+                "dataKey": "UrWKPnmQWJA8AQzd",
+                "dataIv": "UrWKPnmQWJA8AQzd"
+            }
+        },
+        {
+            "key": "缘梦",
+            "name": "🍊缘梦影视",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://165.99.42.137:5432",
+                "dataKey": "1234567890987654",
+                "dataIv": "1234567890987654"
+            }
+        },
+        {
+            "key": "王子",
+            "name": "🤴王子影视",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "https://app.95112475.xyz",
+                "dataKey": "5a9w6x58dsq6z3a6",
+                "dataIv": "5a9w6x58dsq6z3a6"
             }
         },
         {
@@ -23888,9 +23967,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251011",
+                "作者": "🍊小橙子/20260125",
                 "站名": "三米影视",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@Hm_lvt_b5ae74542caad9afd832166fc4e4a0c8=1760165871；； HMACCOUNT=21F8EC1C8D8BE050；； Hm_lpvt_b5ae74542caad9afd832166fc4e4a0c8=1760166956&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@PHPSESSID=gqfer8oona6cg32sog1pv2gquk&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -23898,16 +23977,16 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://www.wushangming.com/",
+                "主页url": "https://www.polyaviationbuyer.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://www.wushangming.com/minsw/{cateId}--------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#",
+                "分类url": "https://www.polyaviationbuyer.com/vodtype/{cateId}-{catePg}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#动画片$35#短剧$36#",
                 "二次截取": "",
-                "数组": "thumbnail&&</a>",
-                "标题": "alt=\"&&\"",
+                "数组": "<a class=\"video-link&&</a>",
+                "标题": "title=\"&&\"",
                 "图片": "data-original=\"&&\"",
-                "副标题": "<span class=\"video-grade\">&&</span>",
+                "副标题": "<div class=\"video-duration\">&&</div>",
                 "链接": "href=\"&&\"",
                 "影片年代": "年份：&&</li>",
                 "影片地区": "地区：&&</li>",
@@ -23915,12 +23994,12 @@
                 "状态": "状态：&&</li>",
                 "导演": "导演：&&</li>",
                 "主演": "主演：&&</li>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+剧情介绍：&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "aria-expanded&&</a>",
-                "线路标题": ">&&</a>",
+                "线路数组": "#ewave-playlist&&</li>",
+                "线路标题": ">&&<",
                 "播放二次截取": "",
-                "播放数组": "<ul class=\"detail-play-list tab-pane ff-playurl clearfix&&</ul>",
+                "播放数组": "<ul class=\"row ewave-playlist-sort-content&&</ul>",
                 "倒序": "0",
                 "播放列表": "<a&&</a>",
                 "播放标题": ">&&</a>",
@@ -23929,14 +24008,14 @@
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.wushangming.com/minsc/{wd}----------{pg}---.html",
+                "搜索url": "https://www.polyaviationbuyer.com/vodsearch/{wd}----------{pg}---.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",
-                "搜索数组": "thumbnail&&</a>",
-                "搜索标题": "alt=\"&&\"",
+                "搜索数组": "<a class=\"detail-img-link&&</a>",
+                "搜索标题": "title=\"&&\"",
                 "搜索图片": "data-original=\"&&\"",
-                "搜索副标题": "<span class=\"video-grade\">&&</span>",
+                "搜索副标题": "",
                 "搜索链接": "href=\"&&\"",
                 "筛选": "1",
                 "类型": "",

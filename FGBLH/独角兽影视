@@ -662,55 +662,61 @@
         {
             "name": "🦄地方直播",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         }, 
         {
             "name": "🦄AnboxTV斯玛特",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://tv.anboxtv.online/tv"
+        },
+        {
+            "name": "🦄iptv台湾频道",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptv台湾频道"
         },
         {
             "name": "🦄4gTV(梯子台湾节点)",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "http://4gtv.iill.top/4gtv.m3u"
         },
         {
             "name": "🦄jackTV(梯子)",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
         },
         {
             "name": "🦄litv直播(梯子台湾节点)",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "http://ezc.xtvantsc.xyz/litv.php"
         },
        {
             "name": "🦄台湾TV(梯子台湾节点)",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
         }, 
         {
             "name": "🦄港台大陆频道",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆"
         },
         {
             "name": "🦄港台大陆频道无18",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆无18内容"
         },
         {
             "name": "🦄xxx视频资源",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源"
         }
     ]

@@ -484,19 +484,19 @@
 			"ext": ""
 		},
 		{
-            "key": "py_爱瓜(T3)",
-            "name": "py_爱瓜(T3)",
-            "type": 3,
-            "api": "./py/爱瓜.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            }   
-        },
+			"key": "py_爱瓜(T3)",
+			"name": "py_爱瓜(T3)",
+			"type": 3,
+			"api": "./py/爱瓜.py",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"changeable": 0,
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			}
+		},
 		{
 			"key": "js_youyou",
 			"name": "悠悠视频(T3)",

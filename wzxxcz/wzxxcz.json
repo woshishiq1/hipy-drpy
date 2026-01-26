@@ -1058,7 +1058,7 @@
             "changeable": 1,
             "api": "./js/fox.js",
             "ext": {
-                "host": "https://cms99api.ystva.com"
+                "host": "http://host1.sopython.top/host.json"
             }
         },
         {
@@ -2064,6 +2064,15 @@
                 "dataKey": "1f0a873caf2550a5",
                 "dataIv": "1f0a873caf2550a5"
             }
+        },
+        {
+            "key": "麻雀",
+            "name": "🐦麻雀1080P",
+            "type": 3,
+            "quickSearch": 1,
+            "searchable": 1,
+            "api": "./js/麻雀视频.js",
+            "ext": ""
         },
         {
             "key": "饺子影视",

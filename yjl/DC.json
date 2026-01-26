@@ -1,19 +1,24 @@
 {
-    "urls": [
+"urls": [
 {"name": "诗曼","url": "https://gitee.com/youngxiayang/TVBOX/raw/main/ysm.json"},
 {"name": "OK大佬","url": "http://ok321.top/tv"},
 {"name": "饭硬了","url": "http://www.饭太硬.com/tv"},
 {"name": "猫肥了","url": "http://hello.肥猫.com"},
-{"name": "欧大歌","url": "https://xn--anna-wn6lw489o.v.nxog.top/m"},
+{"name": "摸大鱼","url": "https://6800.kstore.vip/fish.json"}, 
 {"name": "摸小鱼","url": "http://我不是.摸鱼儿.top"},
 {"name": "放牛二","url": "https://9280.kstore.vip/newwex.json"},
 {"name": "潇洒哥","url": "https://9877.kstore.space/AnotherD/api.json"},
 {"name": "雷小米","url": "http://miqk.cc/小米/DEMO.json"},
 {"name": "虎小斑","url": "http://hb.小虎斑.site:25252/仅供测试"},
+{"name": "欧大歌","url": "https://xn--anna-wn6lw489o.v.nxog.top/m"},
 {"name": "驸马爷","url": "http://fmys.top/fmys.json"},
 {"name": "宝盒4K","url": "http://宝盒接口.top"},
 {"name": "欧歌单仓","url": "https://xn--anna-wn6lw489o.v.nxog.top/nxog/oua.php"}, 
 {"name": "虎斑弹幕弹窗","url": "http://hb.小虎斑.site:25252/仅供测试/hbtcr.json"}, 
 {"name": "诗曼测试即时","url": "https://codeberg.org/yjl/TVBOX/raw/branch/main/ysm.json"},
-{"name": "诗曼测试bgithub","url": "https://raw.bgithub.xyz/YJL20190405/TVBOX/refs/heads/main/ysm.json"}]
+{"name": "诗曼测试bgithub","url": "https://raw.bgithub.xyz/YJL20190405/TVBOX/refs/heads/main/ysm.json"},
+{"name": "我的单仓","url": "https://gitee.com/youngxiayang/TVBOX/raw/main/DC.json"},
+{"name": "视频壁纸","url": "https://api.yujn.cn/api/pcfjsp.php"},
+{"name": "动漫壁纸","url": "https://api.yujn.cn/api/gzl_ACG.php"},
+ {"name": "关键词壁纸","url": "https://wp.upx8.com/api.php?content=风景"}]
 }

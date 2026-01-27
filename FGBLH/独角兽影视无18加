@@ -1,3 +1,4 @@
+
 {
     "spider": "./tvbox.jar",
     "logo": "https://media.istockphoto.com/id/1364557568/zh/%E5%90%91%E9%87%8F/cartoon-beautiful-unicorn-head-is-on-the-cloud-with-beautiful-flowers.jpg?s=612x612&w=0&k=20&c=ropRezqZLaDSd9j2Ijl0uq75WYY631JePgie0HKN9UU=",
@@ -289,6 +290,12 @@
 			"api": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89"
 		},
         {
+            "key": "cat_嗷呜动漫",
+            "name": "🦄嗷呜｜动漫",
+            "type": 3,
+            "api": "./js/cat_嗷呜动漫.js"
+        },
+       {
 			"key": "market",
 			"name": "🦄OK影视应用更新",
 			"type": 3,
@@ -300,6 +307,7 @@
 		}
         ],
     "parses": [
+{"name":"蜗牛解析","type":1,"url":"http://175.178.118.205:3302/api/?key=nZV75E7qb8s7tktEik&url=","ext":{"flag":["JSGZ","JSXL","JSJP"],"header":{"User-Agent":"okhttp/4.9.1"}}},           
             {
              "name": "虾米解析",
              "type": 0,
@@ -567,7 +575,7 @@
             "ua": "okhttp",
             "url": "https://tv.anboxtv.online/tv"
         },
-        {
+         {
             "name": "🦄4gTV(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp",
@@ -591,6 +599,12 @@
             "ua": "okhttp",
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
         }, 
+        {
+			"name": "🦄YouTube直播(梯子)",
+			"type": 0,
+            "ua": "okhttp",
+            "url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtube.m3u"
+		},
         {
             "name": "🦄港台大陆频道无18",
             "type": 0,

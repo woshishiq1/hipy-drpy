@@ -66,8 +66,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
-            
+            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"  
         },
         {
             "name": "🦄金牌｜追剧",
@@ -78,8 +77,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "changeable": 1,
-            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
-            
+            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"  
         }, 
          {
             "name": "🦄伊外｜追剧",
@@ -91,7 +89,6 @@
             "quickSearch": 1,
             "changeable": 1,
             "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
-            
         },
         {
             "key": "还行",
@@ -103,7 +100,25 @@
             "quickSearch": 1,
             "ext": "http://m51.gotto.top/api.php/v1.vod"
         },
-       {
+        {
+			"key": "T4-huaxiaozhu111",
+			"name": "🦄花小猪｜追剧",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/huaxiaozhu.php"
+		},
+        {
+			"key": "T4-jimi",
+			"name": "🦄吉米｜追剧",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/jimi.php"
+		},
+		{
+			"key": "T4-batian",
+			"name": "🦄八天｜追剧",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/batian.php"
+		},
+        {
       "key": "量子2k",
       "name": "🦄量子影视｜追剧",
       "type": 1,
@@ -222,7 +237,13 @@
 {"name":"🦄锦鲤短剧🐠｜短剧","key":"锦鲤短剧","type":3,"api":"csp_JLdjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
 {"name":"🦄喵喵短剧🐱｜短剧","key":"喵喵短剧","type":3,"api":"csp_QmdjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
 {"name":"🦄星星短剧⭐｜短剧","key":"星星短剧","type":3,"api":"csp_XydjAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"https://jihulab.com/yoursmile2/TVBox/-/raw/main/custom_spider.jar"},
-            {"key": "csp_Kugou",
+          {
+			"key": "T4-hongguo",
+			"name": "🦄红果短剧🍎｜短剧",
+			"type": 4,
+			"api": "https://catbox.n13.club/ai/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7.php"
+		 },     
+          {"key": "csp_Kugou",
 "name": "🦄酷狗音乐｜音乐",
 "type": 3,
 "api": "csp_Kugou",

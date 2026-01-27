@@ -1182,9 +1182,8 @@
             "name": "🏅金牌影视备",
             "type": 3,
             "api": "csp_AppQi",
+            "searchable": 1,
             "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
             "ext": {
                 "site": "https://dtqj.ggtvb.cc/dtjp.txt",
                 "dataKey": "eecbio48dsq131ee",
@@ -1215,8 +1214,9 @@
             "key": "木瓜",
             "name": "🍈木瓜影院",
             "type": 3,
-            "changeable": 0,
             "api": "csp_AppFox",
+            "searchable": 1,
+            "changeable": 1,
             "ext": {
                 "host": "http://www.yezitv.top/dtym.json",
                 "ver": 2
@@ -1226,8 +1226,9 @@
             "key": "花柳",
             "name": "🌸花柳影视",
             "type": 3,
-            "changeable": 0,
             "api": "csp_AppFox",
+            "searchable": 1,
+            "changeable": 1,
             "ext": {
                 "host": "http://nico.oiio.fun",
                 "ver": 2
@@ -1237,8 +1238,9 @@
             "key": "麒麟",
             "name": "🐲麒麟影院",
             "type": 3,
-            "changeable": 0,
             "api": "csp_AppFox",
+            "searchable": 1,
+            "changeable": 1,
             "ext": {
                 "host": "https://qh.70qh.top",
                 "ver": 2
@@ -1248,8 +1250,9 @@
             "key": "粉象",
             "name": "🐘粉象影院",
             "type": 3,
-            "changeable": 0,
             "api": "csp_AppFox",
+            "searchable": 1,
+            "changeable": 1,
             "ext": {
                 "host": "http://host1.sopython.top/host.json",
                 "ver": 2
@@ -1260,14 +1263,17 @@
             "name": "🔎搜搜影视",
             "type": 3,
             "api": "csp_AppFox",
+            "searchable": 1,
+            "changeable": 1,
             "ext": "https://www.zjcvod.com"
         },
         {
             "key": "火花",
             "name": "🔥火花影视",
             "type": 3,
-            "changeable": 0,
             "api": "csp_AppFox",
+            "searchable": 1,
+            "changeable": 1,
             "ext": {
                 "host": "http://huohua.itcxo.cn"
             }
@@ -1277,9 +1283,8 @@
             "name": "🐘顾我影视",
             "type": 3,
             "api": "csp_AppQi",
+            "searchable": 1,
             "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
             "ext": {
                 "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/pgqj.json",
                 "dataKey": "kj37zs29q22jk96t",
@@ -1369,9 +1374,8 @@
             "name": "🍊爱盈影视",
             "type": 3,
             "api": "csp_AppQi",
+            "searchable": 1,
             "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
             "ext": {
                 "site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt",
                 "dataKey": "sjvlwnhk6h9znl61",
@@ -1898,8 +1902,9 @@
             "key": "小猪",
             "name": "🐗小猪影视",
             "type": 3,
-            "quickSearch": 1,
             "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
             "ext": {
                 "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
                 "dataKey": "seb5tq9mykp2w9ry",
@@ -2023,18 +2028,6 @@
                 "字母值": "*",
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
-            }
-        },
-        {
-            "key": "鲸鱼",
-            "name": "🐳鲸鱼影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppQi",
-            "ext": {
-                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/1.json",
-                "dataKey": "AAdgrdghjfgswerA",
-                "dataIv": "AAdgrdghjfgswerA"
             }
         },
         {
@@ -35793,6 +35786,7 @@
             "key": "漫国动漫",
             "name": "🤣漫国动漫",
             "type": 3,
+            "searchable": 1,
             "api": "csp_AppSy",
             "ext": {
                 "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",

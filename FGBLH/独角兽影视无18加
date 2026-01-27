@@ -570,12 +570,30 @@
             "url": "https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         }, 
         {
-            "name": "🦄AnboxTV斯玛特",
+            "name": "🦄地方直播2",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/地方直播2"
+        }, 
+        {
+            "name": "🦄anboxtv斯玛特",
             "type": 0,
             "ua": "okhttp",
             "url": "https://tv.anboxtv.online/tv"
         },
          {
+            "name": "🦄catvod斯玛特",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://live.catvod.com/tv.m3u"
+        },
+        {
+            "name": "🦄易佬直播源",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://gc.gt.tc/o/i/HKTV.txt"
+        }, 
+        {
             "name": "🦄4gTV(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp",
@@ -599,12 +617,6 @@
             "ua": "okhttp",
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
         }, 
-        {
-			"name": "🦄YouTube直播(梯子)",
-			"type": 0,
-            "ua": "okhttp",
-            "url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtube.m3u"
-		},
         {
             "name": "🦄港台大陆频道无18",
             "type": 0,

@@ -2,7 +2,7 @@ name: Sync GitHub Repos to Subfolders and unzip to master
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每6小时运行一次（UTC时间）
+    - cron: '0 */6 * * *'  # 每6小时运行一次（UTC）
   workflow_dispatch:
 
 concurrency:
@@ -37,7 +37,6 @@ jobs:
         run: |
           echo "==== 开始同步 Git 仓库 ===="
 
-          # 定义需要同步的仓库及文件夹名
           declare -A repos=(
             [dr]="https://github.com/jak0099/dr.git"
             [tvbox]="https://github.com/cluntop/tvbox.git"
@@ -53,7 +52,8 @@ jobs:
             [yjl]="https://github.com/YJL20190405/TVBOX.git"
             [zheng1976]="https://github.com/zheng197600/tvbox.git"
             [FGBLH]="https://github.com/FGBLH/FG.git"
-            [yihad168]="https://github.com/yihad168/tv.git"   # 新增仓库
+            [yihad168]="https://github.com/yihad168/tv.git"
+            [cpu_iy]="https://gitee.com/cpu-iy/iy.git"   # 新增 Gitee 仓库
           )
 
           for name in "${!repos[@]}"; do
@@ -67,7 +67,8 @@ jobs:
 
           echo "==== 同步完成 ===="
 
-          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 -type f -exec touch {} +
+          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy \
+            -type f -exec touch {} +
 
       - name: Download and extract NewTVBox
         run: |
@@ -84,7 +85,7 @@ jobs:
 
       - name: Commit and push to default branch
         run: |
-          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ Tomorrow/ aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168
+          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ Tomorrow/ aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy
           git commit -m "Sync all subprojects + NewTVBox" || echo "No changes"
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
           git push origin $DEFAULT_BRANCH

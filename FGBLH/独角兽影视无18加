@@ -594,6 +594,12 @@
             "url": "http://gc.gt.tc/o/i/HKTV.txt"
         }, 
         {
+            "name": "🦄全球直播",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://tv.anbox.ip-ddns.com/live"
+        },
+        {
             "name": "🦄4gTV(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp",

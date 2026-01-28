@@ -706,6 +706,12 @@
             "url": "http://live.catvod.com/tv.m3u"
         },
         {
+            "name": "🦄全球直播",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://tv.anbox.ip-ddns.com/live"
+        },
+        {
             "name": "🦄易佬直播源",
             "type": 0,
             "ua": "okhttp/5.3.2",

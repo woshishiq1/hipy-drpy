@@ -10,6 +10,12 @@
             "url": "https://chuxinya.top/f/1W2viq/雨露免费宝.txt"
         },
         {
+            "name": "飞扬",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://chuxinya.top/f/2xLkt8/12.28飞扬直播.txt"
+        },
+        {
             "name": "hzxs800274",
             "type": 0,
             "ua": "okhttp/5.3.2",
@@ -128,6 +134,12 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://gitee.com/szwxk/watch-television/raw/master/wxk1.m3u"
+        },
+        {
+            "name": "52xiaobai",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://52xiaobai.cn/ceshi/zb.php"
         },
         {
             "name": "港台大陆频道",
@@ -27856,14 +27868,6 @@
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
             }
-        },
-        {
-            "key": "MGTV",
-            "name": "🍊MGTV",
-            "type": 3,
-            "playerType": "2",
-            "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-            "ext": "https://tvbox.catvod.com/js/mgtv.js"
         },
         {
             "key": "星辰影院1",

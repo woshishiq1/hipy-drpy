@@ -730,18 +730,6 @@
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
         },
         {
-            "name": "🦄litv直播(梯子台湾节点)",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "http://ezc.xtvantsc.xyz/litv.php"
-        },
-       {
-            "name": "🦄台湾TV(梯子台湾节点)",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
-        }, 
-        {
             "name": "🦄港台大陆频道",
             "type": 0,
             "ua": "okhttp",

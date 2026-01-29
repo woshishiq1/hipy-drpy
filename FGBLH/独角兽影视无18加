@@ -600,6 +600,12 @@
             "url": "http://tv.anbox.ip-ddns.com/live"
         },
         {
+            "name": "🦄台湾频道(梯子台湾节点)",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://epg.pw/test_channels_taiwan.m3u"
+        },
+        {
             "name": "🦄4gTV(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp",

@@ -730,6 +730,12 @@
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
         },
         {
+            "name": "🦄台湾频道(梯子台湾节点)",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://epg.pw/test_channels_taiwan.m3u"
+        },
+        {
             "name": "🦄港台大陆频道",
             "type": 0,
             "ua": "okhttp",

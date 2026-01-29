@@ -48,14 +48,6 @@
       "ua": "okhttp/4.12.0"
     },
 
- {
-      "name": "TAIWAN LITV",
-       "url": "https://raw.githubusercontent.com/Hsudavid/app/main/TAIWAN LITV.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-      "logo": "https://diyp.112114.xyz/logo/{name}.png",
-      "ua": "okhttp/4.12.0"
- },
-
     {
       "name": "四季TV直播",
       "url": "http://ezc.xtvantsc.xyz/litv.php"
@@ -74,12 +66,6 @@
       "epg": "https://epg.946985.xyz/t.xml.gz",
 				"logo": "https://epg.112114.xyz/logo/{name}.png"
     }, 
-
-   {
-    "name": "🍑落日💎冰雪💎bxtv💎 20250706🍄💔",
-    "url": "http://bxtv.3a.ink/live.m3u",
-    "ua":  "okhttp/3.15"
-  },
 
     {
       "name": "台灣酒店",
@@ -100,18 +86,8 @@
     },
 
     {
-      "name": "油管",
-      "url": "http://github.com/cm851228/my51228888/raw/refs/heads/main/youtube.txt"
-    },
-
-    {
       "name": "直播",
       "url": "http://github.com/cm851228/my51228888/raw/refs/heads/main/js.txt"
-    },
-
-    {
-      "name": "馬來",
-      "url": "http://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro"
     },
 
    {
@@ -181,10 +157,7 @@
       "name": "💔四季2💔",
       "url": "https://raw.githubusercontent.com/SWCZ56/abszm-zby/refs/heads/main/4gtv.m3u"
     },
-    {
-      "name": "💔四季3💔",
-      "url": "https://raw.githubusercontent.com/wallinwind/Surge/refs/heads/main/4gtv.m3u"
-    },
+
     {
       "name": "💔GPT💔",
       "url": "https://raw.githubusercontent.com/SWCZ56/abszm-zby/refs/heads/main/zby.m3u"
@@ -193,19 +166,10 @@
       "name": "💔斯玛特💔",
       "url": "http://tv123.vvvv.ee/tv.m3u"
     },
-    {
-      "name": "💔越南VN💔",
-      "url": "https://gitlab.com/vuachoigame1996/iptv/-/raw/main/IPTV%20VN?ref_type=heads"
-    },
 
     {
-      "name": "💔ofiii💔",
+      "name": "💔ofiii歐飛💔",
       "url": "https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/ofiii.m3u"
-    },
-
-    {
-      "name": "💔beesports💔",
-      "url": "https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/beesports.m3u"
     },
 
     {
@@ -244,7 +208,7 @@
     },
 
  {
-    "name" : "🐟🐟 LITV-GO 状态监控 V2.0 20250724【挂T台湾美国】🧑🏻‍🌾",
+    "name" : "XXX LITV-GO XXXX",
     "type" : 0,
     "url": "http://154.219.113.217:8080/vipsir?type=m3u&token=112233",
    "playerType":2,
@@ -271,19 +235,19 @@
             "url": "https://mohzxfwmoecv.us-east-1.clawcloudrun.com/Sub.m3u"
  },
  {
-            "name": "🍈📺4gtv 美东clawcloudrun部署 20250901 【挂T💔】",
+            "name": "🍈📺掛點 4gtv 20250901 💔】",
             "type": "0",
             "url": "http://4gtv2025002.3556578307.qzz.io/?type=m3u&proxy=false",
 	  "playerType":2,
    "ext": { }
  },
   {
-   "name": "🍄💔breezy选节点20250608【挂T台湾非CF节点】🌸",
+   "name": "🍄💔掛點 breezy选节点 20250608🌸",
    "type": "0",
    "url":"https://breezy-audrie-zspace-7524863c.koyeb.app/snowai?type=m3u&token=leifeng"
  },
  {
-            "name": "🌸💔掛點【STV】订阅链接 20250822🐟",
+            "name": "🌸💔掛點【STV】 20250822🐟",
             "type": 0,
             "url": "https://php.946985.xyz/stv.m3u",
             "ua": "okhttp/3.15",
@@ -298,16 +262,7 @@
 "logo":"https://epg.112114.xyz/logo/{name}.png",
    "ua":"judy/5.2.1"
 }, 
- {
-            "name": "💔掛點IPTV研究所M3U令牌【过期时间：9/4/2025, 11:35:26 AM】",
-            "type": "0",
-            "pass": true,
-             "ua": "okhttp/3.15",
-            "url": "https://iptv.mydiver.eu.org/get.php?username=tg_5i8xc0r6&password=r80ef6xbpwwy&type=m3u_plus",
-   "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
-"logo":"https://epg.112114.xyz/logo/{name}.png"
-             
- },
+
  {
     "name" : "🧑晓峰4Gtv+5008 V2.0接口20250711【挂T红杏香港台湾美】🧑🏻‍🌾",
     "type" : 0,
@@ -315,6 +270,7 @@
   "playerType":2,
       "ext": { }
   },
+
  {
     "name" : "💔220.132.15.209:5008 V2.0 接口20250818 V01【挂T台湾】🧑🏻‍🌾",
     "type" : 0,

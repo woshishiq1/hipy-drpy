@@ -2,6 +2,12 @@
 	"spider": "https://xn--fjq53n.xyz/Ting/jar/Lge.jar",
 	"sites": [
 		{
+			"key": "163music",
+			"name": "🎵网易云｜音乐",
+			"type": 4,
+			"api": "http://114.66.51.127:8728/Nathan/wyy.php"
+		},
+		{
 			"key": "T4-qingting",
 			"name": "🎵蜻蜓｜电台",
 			"type": 4,

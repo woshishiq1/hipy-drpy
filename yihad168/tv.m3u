@@ -1224,6 +1224,51 @@ http://23.237.228.134/live8/hebei.m3u8
 http://23.237.228.134/live8/gansu.m3u8
 
 
+#EXTINF:-1 group-title="中國大陸",CCTV1
+http://t.061899.xyz/tl/tl.php?id=cctv1
+#EXTINF:-1 group-title="中國大陸",CCTV2
+http://t.061899.xyz/tl/tl.php?id=cctv2
+#EXTINF:-1 group-title="中國大陸",CCTV3
+http://t.061899.xyz/tl/tl.php?id=cctv3
+#EXTINF:-1 group-title="中國大陸",CCTV4
+http://t.061899.xyz/tl/tl.php?id=cctv4
+#EXTINF:-1 group-title="中國大陸",CCTV5
+http://t.061899.xyz/tl/tl.php?id=cctv5
+#EXTINF:-1 group-title="中國大陸",CCTV5+
+http://t.061899.xyz/tl/tl.php?id=cctv5p
+#EXTINF:-1 group-title="中國大陸",CCTV6
+http://t.061899.xyz/tl/tl.php?id=cctv6
+#EXTINF:-1 group-title="中國大陸",CCTV7
+http://t.061899.xyz/tl/tl.php?id=cctv7
+#EXTINF:-1 group-title="中國大陸",CCTV8
+http://t.061899.xyz/tl/tl.php?id=cctv8
+#EXTINF:-1 group-title="中國大陸",CCTV9
+http://t.061899.xyz/tl/tl.php?id=cctv9
+#EXTINF:-1 group-title="中國大陸",CCTV10
+http://t.061899.xyz/tl/tl.php?id=cctv10
+#EXTINF:-1 group-title="中國大陸",CCTV11
+http://t.061899.xyz/tl/tl.php?id=cctv11
+#EXTINF:-1 group-title="中國大陸",CCTV12
+http://t.061899.xyz/tl/tl.php?id=cctv12
+#EXTINF:-1 group-title="中國大陸",CCTV13
+http://t.061899.xyz/tl/tl.php?id=cctv13
+#EXTINF:-1 group-title="中國大陸",CCTV14
+http://t.061899.xyz/tl/tl.php?id=cctv14
+#EXTINF:-1 group-title="中國大陸",CCTV15
+http://t.061899.xyz/tl/tl.php?id=cctv15
+#EXTINF:-1 group-title="中國大陸",CCTV16
+http://t.061899.xyz/tl/tl.php?id=cctv16
+#EXTINF:-1 group-title="中國大陸",CCTV17
+http://t.061899.xyz/tl/tl.php?id=cctv17
+#EXTINF:-1 group-title="中國大陸",CHC家庭影院
+http://t.061899.xyz/tl/dq.php?id=jtyy
+#EXTINF:-1 group-title="中國大陸",CHC動作電影
+http://t.061899.xyz/tl/dq.php?id=dzdy
+#EXTINF:-1 group-title="中國大陸",CHC高清電影
+http://t.061899.xyz/tl/dq.php?id=ymdy
+
+
+
 #########################################
 
 
@@ -1646,6 +1691,102 @@ http://m.061899.xyz/mg/cctv5p
 http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv5
 #EXTINF:-1 group-title="體育世界",CCTV5+
 http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv5p
+
+
+
+#EXTINF:-1 group-title="體育世界",KTLA
+http://fuegotv.site/live/ndsz4od7te/loik7sbi0q/279327.ts
+
+
+
+
+#EXTINF:-1 group-title="體育世界",ELEVEN SPORTS 1
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=814327
+#EXTINF:-1 group-title="體育世界",ELEVEN SPORTS 2
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=814326
+#EXTINF:-1 group-title="體育世界",ELEVEN SPORTS 3
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=814325
+#EXTINF:-1 group-title="體育世界",ELEVEN SPORTS 4
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=814324
+#EXTINF:-1 group-title="體育世界",BEIN SPORTS 1
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=1178453
+#EXTINF:-1 group-title="體育世界",BEIN SPORTS 2
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=1178452
+#EXTINF:-1 group-title="體育世界",BEIN SPORTS 3
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=1178451
+#EXTINF:-1 group-title="體育世界",BEIN SPORTS 4
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=1178450
+#EXTINF:-1 group-title="體育世界",BEIN SPORTS 5
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=1178449
+#EXTINF:-1 group-title="體育世界",BEIN SPORTS 6
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=1178448
+#EXTINF:-1 group-title="體育世界",BEIN SPORTS 7
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=1178447
+#EXTINF:-1 group-title="體育世界",BEIN SPORTS 8
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=1178446
+#EXTINF:-1 group-title="體育世界",BEIN SPORTS 9
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=1178445
+#EXTINF:-1 group-title="體育世界",ESPN 1 NL
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=891520
+#EXTINF:-1 group-title="體育世界",ESPN 2 NL
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=891519
+#EXTINF:-1 group-title="體育世界",ESPN 3 NL
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=891518
+#EXTINF:-1 group-title="體育世界",ESPN 4 NL
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=891517
+#EXTINF:-1 group-title="體育世界",FOX SPORTS 1
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=487776
+#EXTINF:-1 group-title="體育世界",FOX SPORTS 2
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=469343
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 1
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=802488
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 2
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827981
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 3
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827979
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 4
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827978
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 5
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827977
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 6
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827976
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 7
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827975
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 8
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827974
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 9
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827973
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 10
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827972
+#EXTINF:-1 group-title="體育世界",HUB PREMIER 11
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=827971
+#EXTINF:-1 group-title="體育世界",NOW SPORTS 1
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=802488
+#EXTINF:-1 group-title="體育世界",NOW SPORTS 2
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=802487
+#EXTINF:-1 group-title="體育世界",NOW SPORTS 3
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=802486
+#EXTINF:-1 group-title="體育世界",NOW SPORTS 4
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=802485
+#EXTINF:-1 group-title="體育世界",NOW SPORTS 5
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=802484
+#EXTINF:-1 group-title="體育世界",NOW SPORTS 6
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=802483
+#EXTINF:-1 group-title="體育世界",NOW SPORTS 7
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=802482
+#EXTINF:-1 group-title="體育世界",TNT SPORTS 1
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=578001
+#EXTINF:-1 group-title="體育世界",TNT SPORTS 2
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=578000
+#EXTINF:-1 group-title="體育世界",TNT SPORTS 3
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=577999
+#EXTINF:-1 group-title="體育世界",TNT SPORTS 4
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=577998
+#EXTINF:-1 group-title="體育世界",TNT SPORTS 5
+http://dragon1977.com:80/play/live.php?extension=ts&mac=00:1A:79:81:F8:6D&stream=577997
+
+
+
 
 #EXTINF:-1 tvg-id="eurosport1.fr" tvg-name="FR: EUROSPORT 1" tvg-logo="https://docdog.top/logo/countries/fr/EUROSPORT_1.png" group-title="體育世界",FR: EUROSPORT 1
 http://protzpwcf1.top:8080/pro3831767104449/252df4faac14/305

@@ -1728,7 +1728,7 @@
 	],
 	"disabled_wallpaper": "",
 	"wallpaper": "./img/0.jpg",
-	"spider": "./jar/xbpq.jar",
 	"logo": "./img/pg.gif",
+	"spider": "./pg.jar",
 	"warningText": "1"
 }

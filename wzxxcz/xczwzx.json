@@ -22,6 +22,12 @@
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         },
         {
+            "name": "卡卡西",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt"
+        },
+        {
             "name": "卡卡西强",
             "type": 0,
             "ua": "okhttp/5.3.2",
@@ -128,12 +134,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://d.kstore.dev/download/15366/6988.txt"
-        },
-        {
-            "name": "卡卡西",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/kakaxi-1/IPTV/main/ipv4.txt"
         },
         {
             "name": "szwxk",

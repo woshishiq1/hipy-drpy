@@ -725,15 +725,6 @@
             "ext": "http://118.89.203.120:8365/"
         },
         {
-            "key": "AI二",
-            "name": "🐢聚搜影视",
-            "type": 3,
-            "api": "csp_qiao2",
-            "playerType": 2,
-            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/refs/heads/main/jar/fxz250711.jar",
-            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"
-        },
-        {
             "key": "巧技2",
             "name": "🔍搜艘影视",
             "type": 3,
@@ -801,10 +792,7 @@
             "key": "瓜子影视",
             "name": "🍉瓜子影视",
             "type": 3,
-            "api": "csp_Gz360",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "api": "csp_Gz360"
         },
         {
             "key": "金牌",
@@ -1535,10 +1523,9 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
-                "dataKey": "seb5tq9mykp2w9ry",
-                "dataIv": "seb5tq9mykp2w9ry",
-                "search": "qearchList",
+                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/zhuzhuxia.txt",
+                "dataKey": "j8sr6d93yp49db3p",
+                "dataIv": "j8sr6d93yp49db3p",
                 "init": "initV122",
                 "ua": "okhttp/3.10.0"
             }
@@ -1551,9 +1538,12 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/a.txt",
+                "url": "http://110.42.67.221:8007",
                 "dataKey": "123456789abcdefg",
-                "dataIv": "123456789abcdefg"
+                "dataIv": "123456789abcdefg",
+                "search": "searchList7",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -4784,6 +4774,21 @@
             }
         },
         {
+            "key": "鲸鱼",
+            "name": "🐋鲸鱼影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json",
+                "dataKey": "AAdgrdghjfgsABC1",
+                "dataIv": "AAdgrdghjfgsABC1",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "芬奇",
             "name": "🐘芬奇影视",
             "type": 3,
@@ -4936,10 +4941,7 @@
             "key": "苹果影视",
             "name": "🍎苹果1080P",
             "type": 3,
-            "api": "csp_LiteApple",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "api": "csp_LiteApple"
         },
         {
             "key": "低端影视",
@@ -11489,7 +11491,6 @@
             "name": "🔥骚火影视",
             "type": 3,
             "api": "csp_SaoHuo",
-            "playerType": 2,
             "ext": "https://shdy5.us"
         },
         {
@@ -31517,9 +31518,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251216",
+                "作者": "🍊小橙子/20260130",
                 "站名": "猪猪影视",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@PHPSESSID=06plhliu2oc8tq1o4l7k23uvaf&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@PHPSESSID=64qcob72b314ur3ngh2a3amlkj&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -31527,45 +31528,45 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://lyzccl.com/",
+                "主页url": "https://www.dlhcyy.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://lyzccl.com/vodshow/{cateId}--------{catePg}---{year}.html",
+                "分类url": "https://www.dlhcyy.com/vodshow/{cateId}--------{catePg}---{year}.html",
                 "分类": "电影$1#电视剧$2#综艺$3#动漫$4#动画片$35#短剧$36#",
                 "二次截取": "",
-                "数组": "lazyload&&</p>",
-                "标题": "<a*>&&</a>",
+                "数组": "lazyload&&</a>",
+                "标题": "title=\"&&\"",
                 "图片": "data-original=\"&&\"",
-                "副标题": "<span class=\"video-title text-nowrap ml-xs-0 mr-xs-0\">&&</span>",
+                "副标题": "<span class=\"pic-text text-right\">&&</span>",
                 "链接": "href=\"&&\"",
-                "影片年代": "年份：&&</li>",
-                "影片地区": "地区：&&</li>",
-                "影片类型": "类型：&&</li>",
-                "状态": "状态：&&</li>",
+                "影片年代": "年份：&&</p>",
+                "影片地区": "地区：&&</p>",
+                "影片类型": "类型：&&</p>",
+                "状态": "状态：&&</p>",
                 "导演": "导演：&&</p>",
                 "主演": "主演：&&</p>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+剧情：&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "#ewave-playlist&&</li",
-                "线路标题": "javascript:;\">&&<",
+                "线路数组": "data-toggle&&</a>",
+                "线路标题": ">&&</a",
                 "播放二次截取": "",
-                "播放数组": "id=\"ewave-playlist&&</ul>",
+                "播放数组": "<ul class=\"stui-content__playlist clearfix&&</ul>",
                 "倒序": "0",
                 "播放列表": "<a&&</a>",
-                "播放标题": ">&&<",
+                "播放标题": ">&&</a>",
                 "播放链接": "href=\"&&\"",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://lyzccl.com/vodsearch/{wd}----------{pg}---.html",
+                "搜索url": "https://www.dlhcyy.com/vodsearch/{wd}----------{pg}---.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",
                 "搜索数组": "lazyload&&</a>",
                 "搜索标题": "title=\"&&\"",
                 "搜索图片": "data-original=\"&&\"",
-                "搜索副标题": "",
+                "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
                 "搜索链接": "href=\"&&\"",
                 "筛选": "1",
                 "类型": "",

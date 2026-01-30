@@ -296,30 +296,6 @@
 			"jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
 		},
         {
-			"api": "https://learnpython.ggff.net/HLBTY",
-			"key": "HLBTY",
-			"name": "🦄黑料网｜🔞",
-			"type": 4
-		},
-        {
-			"api": "https://learnpython.ggff.net/51xiG",
-			"key": "51xiG",
-			"name": "🦄51吃瓜｜🔞",
-			"type": 4
-		},
-         {
-			"api": "https://learnpython.ggff.net/7QU",
-			"key": "7QU",
-			"name": "🦄七区视频｜🔞",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/XHSM",
-			"key": "XHSM",
-			"name": "🦄瑟佬传媒系列｜🔞",
-			"type": 4
-		},
-        {
             "key": "黄色仓库|AV",
             "name": "🦄黄色仓库(旧)｜🔞",
             "type": 1,
@@ -718,10 +694,16 @@
             "url": "http://gc.gt.tc/o/i/HKTV.txt"
         }, 
         {
-            "name": "🦄4gTV(梯子台湾节点)",
+            "name": "🦄四季直播",
             "type": 0,
             "ua": "okhttp",
-            "url": "http://4gtv.iill.top/4gtv.m3u"
+            "url": "http://github.com/cm851228/2025jar/raw/refs/heads/main/litv.txt"
+        },
+        {
+            "name": "🦄iptvpro直播",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://hufa.zabc.net:8080/iptvpro.txt"
         },
         {
             "name": "🦄jackTV(梯子)",

@@ -1,6 +1,7 @@
 {   
      "wallpaper": "https://www.yumus.cn/api/?target=img&brand=360&type=0",//4k=0,meinv=1，aiqing=2，风景=3，动漫=5，mingxing=6，萌宠动物=7，游戏=8，汽车=9，炫酷=10，剧照=11，junshi=12，体育壁纸=13，wenzi=14
-    //"wallpaper": "https://api.yujn.cn/api/gzl_ACG.php",//动漫壁纸
+    "logo": "https://codeberg.org/yjl/TVBOX/raw/branch/main/ysm20260131012405.jpg",
+  //"wallpaper": "https://api.yujn.cn/api/gzl_ACG.php",//动漫壁纸
     //"wallpaper": "https://api.yujn.cn/api/pcfjsp.php",//动漫视频壁纸
     //"wallpaper": "https://wp.upx8.com/api.php?content=风景",//自定关键字
     //"wallpaper": "http://qej6c.716888.xyz/fenlei/api/beijing.php",//动态壁纸

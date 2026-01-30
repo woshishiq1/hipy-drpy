@@ -40,6 +40,12 @@
             "url": "https://kakaxi.indevs.in/ipv4.txt"
         },
         {
+            "name": "飞扬直播",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://chuxinya.top/f/QnyjCo/飞扬直播.txt"
+        },
+        {
             "name": "冰茶",
             "type": 0,
             "ua": "okhttp/5.3.2",

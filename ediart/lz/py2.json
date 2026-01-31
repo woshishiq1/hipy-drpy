@@ -321,11 +321,15 @@
 		},
 		{
 			"name": "catvod",
-			"url": "https://iptv.catvod.com/tv.m3u"
+			"url": "https://iptv.catvod.com/tv.m3u",
+			"ua": "Goiptv/8.8.8",
+			"type": 0
 		},
 		{
 			"name": "SMT-catvod",
-			"url": "https://live.catvod.com/tv.m3u"
+			"url": "https://live.catvod.com/tv.m3u",
+			"ua": "Goiptv/8.8.8",
+			"type": 0
 		},
 		{
 			"name": "SMT",

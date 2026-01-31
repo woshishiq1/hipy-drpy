@@ -285,66 +285,6 @@
 			"api": "https://catbox.n13.club/t9/beilehu.php"
 		},
 		{
-			"api": "https://learnpython.ggff.net/4K",
-			"key": "4K",
-			"name": "4KAV",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/XHYSPY",
-			"key": "XHYSPY",
-			"name": "XHYSPY",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/XPGGGGG",
-			"key": "XPGGGGG",
-			"name": "XPG",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/4KVMYS",
-			"key": "4KVMYS",
-			"name": "4KVMYS",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/CCTVPY",
-			"key": "CCTVPY",
-			"name": "CCTVPY",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/LIBVIO",
-			"key": "LIBVIO",
-			"name": "LIBVIO",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/QGUSP",
-			"key": "QGUSP",
-			"name": "QGUSP",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/TGstymei",
-			"key": "TGstymei",
-			"name": "GuaZi",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/TXSPPY",
-			"key": "TXSPPY",
-			"name": "TXSPPY",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/XHJWPY",
-			"key": "XHJWPY",
-			"name": "XHJWPY",
-			"type": 4
-		},
-		{
 			"key": "T4-qingting",
 			"name": "🎵蜻蜓｜电台",
 			"type": 4,
@@ -373,48 +313,6 @@
 			"name": "🎵糖豆｜音乐",
 			"type": 4,
 			"api": "https://catbox.n13.club/t9/tangdou.php"
-		},
-		{
-			"api": "https://learnpython.ggff.net/SSZBO",
-			"key": "SSZBO",
-			"name": "🔞SSZBO",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/Phb",
-			"key": "Phb",
-			"name": "🔞PornHub",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/HLBTY",
-			"key": "HLBTY",
-			"name": "🔞黑料不打烊",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/51xiG",
-			"key": "51xiG",
-			"name": "🔞51xiG",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/7QU",
-			"key": "7QU",
-			"name": "🔞7QU",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/1zbjjj",
-			"key": "1zbjjj",
-			"name": "🔞1zbjjj",
-			"type": 4
-		},
-		{
-			"api": "https://learnpython.ggff.net/XHSM",
-			"key": "XHSM",
-			"name": "🔞XHSM",
-			"type": 4
 		}
 	],
 	"lives": [{
@@ -438,11 +336,15 @@
 		},
 		{
 			"name": "catvod",
-			"url": "https://iptv.catvod.com/tv.m3u"
+			"url": "https://iptv.catvod.com/tv.m3u",
+			"ua": "Goiptv/8.8.8",
+			"type": 0
 		},
 		{
 			"name": "SMT-catvod",
-			"url": "https://live.catvod.com/tv.m3u"
+			"url": "https://live.catvod.com/tv.m3u",
+			"ua": "Goiptv/8.8.8",
+			"type": 0
 		},
 		{
 			"name": "SMT",

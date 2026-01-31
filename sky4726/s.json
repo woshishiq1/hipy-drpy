@@ -1,5 +1,5 @@
 {
-   "spider": "http://aby1.69coo.com/axiang/sky4726/pg.jar",
+   "spider": "https://cnb.cool/sky4726.pp.ua/sk/-/releases/download/20250811/pg.png",
    "logo": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1720314090387/ol.txt",
    "wallpaper": "https://www.wexwp.cc/bizhi.php",
    "sites": [
@@ -83,6 +83,40 @@
          "filterable": 1,
          "timeout": 60,
          "ext": ""
+      },
+      {
+        "name": "苹果|秒播",
+        "key": "Xpg",
+        "type": 3,
+        "api": "csp_XpgAmns",
+        "jar": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png",
+        "searchable": 1,
+        "filterable": 1,
+        "quickSearch": 1,
+        "changeable": 1
+      },
+      {
+        "name": "春天|秒播",
+        "key": "NewGr",
+        "type": 3,
+        "api": "csp_NewGrAmns",
+        "jar": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png",
+        "searchable": 1,
+        "filterable": 1,
+        "quickSearch": 1,
+        "changeable": 1,
+        "ext": "BG6DUQMDRsRW0hbHAYRFwFNSUoESx4PHgAPBksaHRRWXkcFLQEDFwIMCBhEXkBZVVteWx8XHEVIVT8zHlAtMRIyLDszASEtF0sAMj8ONj0BLCofKAo2PCc4ET8TQT0JFjArVzRYRVpEDRRKX1sTPx8LLwkgOCtUQBc1HAUXOC0SSiIoSU9HS1AWFhUuDANUXEYRAAQXFhAVHBYPGwcPC1NJRRUOBQwGABUtGhsWAEVIVRUBAhU4BRZUU0pJWwIYFxkEABcoCAQcAEVMRAcNBUsAEQ4YGh9JCw4VFVNJRQUfFz0YCRgGHxsACEVIVVRHXUcUDxUWBwQAGAEcVkhHVkNVSkcHABUFDwsMSl9bRktEQlVFDw=="
+      },
+      {
+        "name": "糖心|秒播",
+        "key": "TnewGr",
+        "type": 3,
+        "api": "csp_TnewGrAmns",
+        "jar": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png",
+        "searchable": 1,
+        "filterable": 1,
+        "quickSearch": 1,
+        "changeable": 1
       },
       {
          "key": "采集之王",
@@ -171,6 +205,17 @@
          "changeable": 1,
          "quickSearch": 1,
          "filterable": 1
+      },
+      {
+        "name": "酷狗|音乐",
+        "key": "KuGou",
+        "type": 3,
+        "api": "csp_KuGouAmns",
+        "jar": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png",
+        "searchable": 1,
+        "filterable": 1,
+        "quickSearch": 1,
+        "changeable": 0
       },
       {
          "key": "drpy_js_博看听书",

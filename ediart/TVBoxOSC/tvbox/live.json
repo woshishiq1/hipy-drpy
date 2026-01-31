@@ -33,12 +33,16 @@
 			"url": "https://iptv.catvod.com/tv.m3u"
 		},
 		{
-			"name": "SMT-catvod",
-			"url": "https://live.catvod.com/tv.m3u"
+			"name": "catvod",
+			"url": "https://iptv.catvod.com/tv.m3u",
+			"ua": "Goiptv/8.8.8",
+			"type": 0
 		},
 		{
-			"name": "SMT",
-			"url": "http://159.69.45.173:9999/smt.php"
+			"name": "SMT-catvod",
+			"url": "https://live.catvod.com/tv.m3u",
+			"ua": "Goiptv/8.8.8",
+			"type": 0
 		},
 		{
 			"name": "MyTvSuper",

@@ -697,13 +697,13 @@
             "name": "🦄四季直播",
             "type": 0,
             "ua": "okhttp",
-            "url": "http://github.com/cm851228/2025jar/raw/refs/heads/main/litv.txt"
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
         },
         {
             "name": "🦄iptvpro直播",
             "type": 0,
             "ua": "okhttp",
-            "url": "http://hufa.zabc.net:8080/iptvpro.txt"
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro"
         },
         {
             "name": "🦄jackTV(梯子)",
@@ -716,6 +716,12 @@
             "type": 0,
             "ua": "okhttp",
             "url": "https://epg.pw/test_channels_taiwan.m3u"
+        },
+        {
+            "name": "🦄安博(梯子)",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/安博"
         },
         {
             "name": "🦄港台大陆频道",

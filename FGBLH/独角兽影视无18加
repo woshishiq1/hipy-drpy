@@ -307,7 +307,6 @@
 		}
         ],
     "parses": [
-{"name":"蜗牛解析","type":1,"url":"http://175.178.118.205:3302/api/?key=nZV75E7qb8s7tktEik&url=","ext":{"flag":["JSGZ","JSXL","JSJP"],"header":{"User-Agent":"okhttp/4.9.1"}}},           
             {
              "name": "虾米解析",
              "type": 0,
@@ -598,12 +597,6 @@
             "type": 0,
             "ua": "okhttp",
             "url": "http://tv.anbox.ip-ddns.com/live"
-        },
-         {
-            "name": "🦄四季直播",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
         },
         {
             "name": "🦄台湾频道(梯子台湾节点)",

@@ -5,7 +5,7 @@
 			"key": "163music",
 			"name": "🎵网易云｜音乐",
 			"type": 4,
-			"api": "http://114.66.51.127:8728/Nathan/wyy.php"
+			"api": "http://vps.9yidc.cn:25555/alger.php/provide/vod"
 		},
 		{
 			"key": "T4-qingting",
@@ -230,4 +230,5 @@
 		}
 	]
 }
+
 

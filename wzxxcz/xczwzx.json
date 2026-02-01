@@ -32829,9 +32829,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251230",
+                "作者": "🍊小橙子/20260201",
                 "站名": "明星影院",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@clothes=white；； UM_distinctid=19b6e9491fd9f-0e1415e61a19ab-9092117-76fb6-19b6e9491ff392；； closeclick=closeclick；； mac_history_dianying=%5B%7B%22vod_name%22%3A%22%E8%80%81%E8%88%85%22%2C%22vod_url%22%3A%22https%3A%2F%2Fmxvod.com%2Fvodplay%2F496568-1-1.html%22%2C%22vod_part%22%3A%22%E7%AC%AC1%E9%9B%86%22%7D%5D；； CNZZDATA1281448822=1452566518-1767086789-%7C1767086851&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@clothes=white；； PHPSESSID=crdk7vfglju58vloinmbs11age；； mac_history_dianying=%5B%7B%22vod_name%22%3A%22%E8%80%81%E8%88%85%22%2C%22vod_url%22%3A%22https%3A%2F%2Fmxvid.com%2Fvodplay%2F496568-1-1.html%22%2C%22vod_part%22%3A%22%E7%AC%AC1%E9%9B%86%22%7D%5D&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -32839,10 +32839,10 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://mxvod.com/",
+                "主页url": "https://mxvid.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://mxvod.com/vodshow/{cateId}--------{catePg}---{year}.html",
+                "分类url": "https://mxvid.com/vodshow/{cateId}--------{catePg}---{year}.html",
                 "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju#",
                 "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
                 "数组": "module-item-pic&&module-item\"",
@@ -32856,21 +32856,21 @@
                 "状态": "状态：&&</div>",
                 "导演": "导演：&&</div>",
                 "主演": "主演：&&</div>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+video-info-item video-info-content vod_content\">&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+剧情：&&</div>",
                 "线路二次截取": "",
                 "线路数组": "data-dropdown-value&&</small>",
                 "线路标题": ">&&</span>",
                 "播放二次截取": "",
                 "播放数组": "scroll-content&&</div></div>",
                 "倒序": "0",
-                "播放列表": "<a&&/a>",
+                "播放列表": "<a&&</a>",
                 "播放标题": "<span>&&</span>",
                 "播放链接": "href=\"&&\"",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://mxvod.com/vodsearch/{wd}----------{pg}---.html",
+                "搜索url": "https://mxvid.com/vodsearch/{wd}----------{pg}---.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-search-item]",
@@ -36153,21 +36153,6 @@
             "name": "☯️自动解析聚合",
             "type": 3,
             "url": "Web"
-        },
-        {
-            "name": "🐌蜗牛解析",
-            "type": 1,
-            "url": "http://175.178.118.205:3302/api/?key=nZV75E7qb8s7tktEik&url=",
-            "ext": {
-                "flag": [
-                    "JSGZ",
-                    "JSXL",
-                    "JSJP"
-                ],
-                "header": {
-                    "User-Agent": "okhttp/4.9.1"
-                }
-            }
         },
         {
             "name": "🦐虾米解析",

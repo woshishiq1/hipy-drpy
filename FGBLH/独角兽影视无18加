@@ -587,12 +587,6 @@
             "url": "http://live.catvod.com/tv.m3u"
         },
         {
-            "name": "🦄易佬直播源",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://gc.gt.tc/o/i/HKTV.txt"
-        }, 
-        {
             "name": "🦄全球直播",
             "type": 0,
             "ua": "okhttp",

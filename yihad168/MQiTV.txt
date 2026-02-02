@@ -58,6 +58,62 @@
       "url": "https://ds65.tv1288.xyz"
     },
 
+   {
+            "name": "🦄安博",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/安博"
+        },
+        {
+            "name": "🦄港台大陆频道",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆"
+        },
+
+        {
+            "name": "🦄台湾频道",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://epg.pw/test_channels_taiwan.m3u"
+         {
+            "name": "🦄Gather",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://tv.iill.top/m3u/Gather"
+        },
+        {
+            "name": "🦄iptvpro直播",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro"
+        },
+        {
+            "name": "🦄jackTV",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+        },
+
+        {
+            "name": "🦄anboxtv斯玛特",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://tv.anboxtv.online/tv"
+        },
+         {
+            "name": "🦄catvod斯玛特",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://live.catvod.com/tv.m3u"
+        },
+        {
+            "name": "🦄全球直播",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://tv.anbox.ip-ddns.com/live"
+        },
+
  {
       "name": "🔕歐華167🔓🔓VPN",
       "type": 0,
@@ -660,6 +716,7 @@
    "type": "0",
    "url":"https://raw.githubusercontent.com/KAN314go/7/refs/heads/main/drpy_js/18%E9%80%9F%E5%BA%A6%E5%BE%88%E5%BF%AB.txt"
  },
+
   {
       "name": "🔞💔💎x1pd2💎💔",
       "type": 0,
@@ -674,9 +731,16 @@
     },
 
  {
-      "name": "🔞💔💎4TIGER18+💎💔",
+      "name": "🔞xxx視頻資源",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/fudong305/iptv/refs/heads/main/18%2B.m3u",
+      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90",
+      "playerType": 1
+    },
+
+ {
+      "name": "🔞💔💎666💎💔",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/FGBLH/fgrjk2/refs/heads/main/666",
       "playerType": 1
     },
  {
@@ -784,6 +848,12 @@
               "so": "https://raw.githubusercontent.com/cxr9912/cxr2025/refs/heads/main/libp3p.so",
              "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
+   },
+
+    {
+      "name": "🔞haijiao888",
+      "url": "https://raw.githubusercontent.com/FGBLH/fgrjk2/refs/heads/main/haijiao888",
+      "type": 1
    },
 
 

@@ -572,7 +572,7 @@
             "name": "🦄地方直播2",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/地方直播2"
+            "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
         }, 
         {
             "name": "🦄anboxtv斯玛特",
@@ -591,6 +591,12 @@
             "type": 0,
             "ua": "okhttp",
             "url": "http://tv.anbox.ip-ddns.com/live"
+        },
+         {
+            "name": "🦄Gather",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://tv.iill.top/m3u/Gather"
         },
         {
             "name": "🦄台湾频道(梯子台湾节点)",

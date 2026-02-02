@@ -76,18 +76,22 @@
             "type": 0,
             "ua": "okhttp",
             "url": "https://epg.pw/test_channels_taiwan.m3u"
-         {
+             },   
+
+{
             "name": "🦄Gather",
             "type": 0,
             "ua": "okhttp",
             "url": "https://tv.iill.top/m3u/Gather"
         },
+
         {
             "name": "🦄iptvpro直播",
             "type": 0,
             "ua": "okhttp",
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro"
         },
+
         {
             "name": "🦄jackTV",
             "type": 0,

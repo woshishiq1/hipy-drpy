@@ -16,6 +16,12 @@
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1"
         },
         {
+            "name": "咪咕央卫体育",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://113.44.65.227:1234"
+        },
+        {
             "name": "地方直播",
             "type": 0,
             "ua": "okhttp/5.3.2",
@@ -11811,6 +11817,18 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "爱看机器1人",
+            "name": "🥇爱看影视",
+            "type": 3,
+            "api": "./js/爱看机器人.js"
+        },
+        {
+            "key": "耐看",
+            "name": "🥇耐看影视",
+            "type": 3,
+            "api": "./js/耐看.js"
         },
         {
             "key": "小镇影视",
@@ -35811,6 +35829,12 @@
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
             }
+        },
+        {
+            "key": "剧和短剧",
+            "name": "🍊聚合短剧",
+            "type": 3,
+            "api": "./js/聚合短剧.js"
         },
         {
             "key": "甜圈短剧",

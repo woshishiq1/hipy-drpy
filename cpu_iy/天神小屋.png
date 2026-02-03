@@ -35,25 +35,25 @@
                 "name": "本地库【ff】",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/本地库【ff】.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/源.png",
-                "version": "2026.01.17版"
+                "version": "2026.02.03版"
             },
             {
                 "name": "备用库【ff】",
                 "url": "https://wget.la/https://raw.githubusercontent.com/IY-CPU/test/main/本地库【ff】.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/源.png",
-                "version": "2026.01.17版"
+                "version": "2026.02.03版"
             },
             {
                 "name": "本地【小虎斑】",
                 "url": "https://gitee.com/cpu-iy/iy/raw/master/小虎斑.zip",
                 "icon": "https://img0.baidu.com/it/u=3403550249,2192222310&fm=253&fmt=auto?w=800&h=804",
-                "version": "14.5.3"
+                "version": "14.5.7"
             },
             {
                 "name": "缘起【天神IY】",
                 "url": "https://gitee.com/cpu-iy/iy/raw/master/缘起【天神IY】.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/源.png",
-                "version": "2026.01.24版"
+                "version": "2026.02.03版"
             },
             {
                 "name": "真心全量包1",
@@ -77,13 +77,13 @@
                 "name": "本地【PG】1",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/本地【PG】1.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/源.png",
-                "version": "20260103-1733版"
+                "version": "20260123-2045版"
             },
             {
                 "name": "本地【PG】2",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/本地【PG】2.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/源.png",
-                "version": "20260103-1733版"
+                "version": "20260123-2045版"
             }
         ]
     },
@@ -94,19 +94,13 @@
                 "name": "天神IY手机版",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY手机版.apk",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "3.6.2_py_64位"
+                "version": "3.6.7_py_64位"
             },
             {
                 "name": "倾心壁纸",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test1/main/倾心壁纸_1.4.7",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/倾心壁纸.png",
                 "version": "1.4.7_手机64位"
-            },
-            {
-                "name": "影视仓手机版",
-                "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/影视仓_3.2.5.apk",
-                "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/影视仓.png",
-                "version": "3.2.5_去广告版"
             },
             {
                 "name": "Via原版",
@@ -171,31 +165,31 @@
                 "name": "天神IY电视版",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY电视版.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "3.6.2_电视32位"
+                "version": "3.6.7_电视32位"
             },
             {
                 "name": "天神IY海信版",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY海信版.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "3.6.2_非共存"
+                "version": "3.6.7_非共存"
             },
             {
                 "name": "天神IY电视版",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY电视64位版.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "3.6.2_电视64位"
+                "version": "3.6.7_电视64位"
             },
             {
                 "name": "天神IY电视全内置版",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY电视全内置版.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "3.6.2_内置32位"
+                "version": "3.6.7_内置32位"
             },
             {
                 "name": "天神IY海信全内置版",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY海信全内置版.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "3.6.2_内置非共存"
+                "version": "3.6.7_内置非共存"
             },
             {
                 "name": "天神IY电视版",

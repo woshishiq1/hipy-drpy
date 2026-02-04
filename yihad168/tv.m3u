@@ -182,7 +182,11 @@ http://74.91.26.218:82/live/ptsse.m3u8
 
 
 
+
+
 #########################################
+
+
 
 
 
@@ -543,950 +547,14 @@ http://litv.msbot.dpdns.org/li.php?id=4gtv-4gtv016
 
 #########################################
 
-#EXTINF:-1 tvg-id="BBC1.uk" tvg-name="UK - BBC 1 FHD" tvg-logo="http://103.176.90.118/picons/logos/UK/BBC-1.png" group-title="|UK| GENERAL",UK - BBC 1 FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577274
-#EXTINF:-1 tvg-id="BBC2.uk" tvg-name="UK - BBC 2 FHD" tvg-logo="https://logo.protv.cc/piconsnew/bbc2.png" group-title="|UK| GENERAL",UK - BBC 2 FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577272
-#EXTINF:-1 tvg-id="BBC3CBBC.uk" tvg-name="UK - BBC 3 CBBC FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/BBC-3-CBBC.png" group-title="|UK| GENERAL",UK - BBC 3 CBBC FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577270
-#EXTINF:-1 tvg-id="CBeebies.uk" tvg-name="UK - BBC 4 CBEEBIES FHD" tvg-logo="https://logo.protv.cc/piconsnew/bbc4cbeebies.png" group-title="|UK| GENERAL",UK - BBC 4 CBEEBIES FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577268
-#EXTINF:-1 tvg-id="ITV1.uk" tvg-name="UK - ITV 1 FHD" tvg-logo="http://103.176.90.118/picons/logos/ITV-1.png" group-title="|UK| GENERAL",UK - ITV 1 FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577265
-#EXTINF:-1 tvg-id="ITV2.uk" tvg-name="UK - ITV 2 FHD" tvg-logo="https://logo.protv.cc/piconsnew/itv2.png" group-title="|UK| GENERAL",UK - ITV 2 FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577263
-#EXTINF:-1 tvg-id="ITV3.uk" tvg-name="UK - ITV 3 FHD" tvg-logo="https://logo.protv.cc/piconsnew/itv3.png" group-title="|UK| GENERAL",UK - ITV 3 FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577261
-#EXTINF:-1 tvg-id="ITV4.uk" tvg-name="UK - ITV 4 FHD" tvg-logo="https://logo.protv.cc/piconsnew/itv4.png" group-title="|UK| GENERAL",UK - ITV 4 FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577259
-#EXTINF:-1 tvg-id="Channel4.uk" tvg-name="UK - CHANNEL 4 FHD" tvg-logo="https://logo.protv.cc/piconsnew/channel4.png" group-title="|UK| GENERAL",UK - CHANNEL 4 FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577257
-#EXTINF:-1 tvg-id="Channel5.uk" tvg-name="UK - CHANNEL 5 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/channel5.png" group-title="|UK| GENERAL",UK - CHANNEL 5 FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577256
-#EXTINF:-1 tvg-id="E4.uk" tvg-name="UK - E4 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/e4.png" group-title="|UK| GENERAL",UK - E4 FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577255
-#EXTINF:-1 tvg-id="CBBC.uk" tvg-name="UK - CBBC FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/cbbc.png" group-title="|UK| GENERAL",UK - CBBC FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577254
-#EXTINF:-1 tvg-id="4Seven.uk" tvg-name="UK - 4SEVEN FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/4seven.png" group-title="|UK| GENERAL",UK - 4SEVEN FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577253
-#EXTINF:-1 tvg-id="U.and.alibi.HD.uk" tvg-name="UK - ALIBI FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/alibi.png" group-title="|UK| GENERAL",UK - ALIBI FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577252
+
+https://tvstar.top:443/get.php?username=0211539317&password=0211539317&type=m3u_plus
+http://mytv.digital:80/get.php?username=hevern1996&password=mIovw2mgx6&type=m3u_plus
+http://line.hello-ott.xyz/get.php?username=jCp4YyMfXc&password=nowo2O4ogJ&type=m3u_plus
 
 
 
 #########################################
-
-
-
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-name="UK - SKY NEWS UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/SKY-NEWS.png" group-title="World News",UK - SKY NEWS UHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577229
-#EXTINF:-1 tvg-id="BBCNews.uk" tvg-name="UK - BBC NEWS FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/BBC-NEWS.png" group-title="World News",UK - BBC NEWS FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577227
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-name="UK - BBC WORLD NEWS UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/BBC-WORLD-NEWS.png" group-title="World News",UK - BBC WORLD NEWS UHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577226
-#EXTINF:-1 tvg-id="" tvg-name="UK - BLOOMBERG FHD" tvg-logo="https://logo.protv.cc/piconsnew/bloomberg.png" group-title="World News",UK - BLOOMBERG FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577221
-#EXTINF:-1 tvg-id="uk.CNN" tvg-name="UK - CNN FHD" tvg-logo="https://logo.protv.cc/piconsnew/cnn.png" group-title="World News",UK - CNN FHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577220
-#EXTINF:-1 tvg-id="CNN.uk" tvg-name="UK - CNN INTERNATIONAL" tvg-logo="https://logo.protv.cc/piconsnew/cnninternational.png" group-title="World News",UK - CNN INTERNATIONAL
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577219
-#EXTINF:-1 tvg-id="" tvg-name="UK - FRANCE 24" tvg-logo="https://logo.protv.cc/piconsnew/france24.png" group-title="World News",UK - FRANCE 24
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577218
-#EXTINF:-1 tvg-id="" tvg-name="UK - RT AMERICA UHD" tvg-logo="http://51.158.145.100/picons/logos/UK/RT-AMERICA.png" group-title="World News",UK - RT AMERICA UHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577217
-#EXTINF:-1 tvg-id="" tvg-name="UK - RT DOCUMENTRY UHD" tvg-logo="http://51.158.145.100/picons/logos/UK/RT-DOCUMENTRY.png" group-title="World News",UK - RT DOCUMENTRY UHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577216
-#EXTINF:-1 tvg-id="" tvg-name="UK - RT NEWS UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/RT-NEWS.png" group-title="World News",UK - RT NEWS UHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577215
-#EXTINF:-1 tvg-id="" tvg-name="UK - RT UK UHD" tvg-logo="http://51.158.145.100/picons/logos/UK/RT-UK.png" group-title="World News",UK - RT UK UHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577214
-#EXTINF:-1 tvg-id="AlJazeeraEnglish.uk" tvg-name="UK - AL JAZEERA EN UHD" tvg-logo="https://logo.protv.cc/piconsnew/aljazeeraenglish.png" group-title="World News",UK - AL JAZEERA EN UHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577213
-#EXTINF:-1 tvg-id="" tvg-name="UK - ARISE NEWS" tvg-logo="http://103.176.90.118/picons/logos/UK/ARISE-NEWS.jpeg" group-title="World News",UK - ARISE NEWS
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/998384
-#EXTINF:-1 tvg-id="" tvg-name="UK - TRT WORLD" tvg-logo="http://51.158.145.100/picons/logos/logos/trtworld.png" group-title="World News",UK - TRT WORLD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577212
-#EXTINF:-1 tvg-id="CNBC.uk" tvg-name="UK - CNBC" tvg-logo="http://51.158.145.100/picons/logos/logos/cnbc.png" group-title="World News",UK - CNBC
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577211
-#EXTINF:-1 tvg-id="" tvg-name="UK - I24NEWS EN" tvg-logo="http://51.158.145.100/picons/logos/logos/i24news.png" group-title="World News",UK - I24NEWS EN
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577210
-#EXTINF:-1 tvg-id="EuroNews.uk" tvg-name="UK - EURONEWS EN UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/euronews.png" group-title="World News",UK - EURONEWS EN UHD
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577209
-#EXTINF:-1 tvg-id="EuroNews.uk" tvg-name="UK - EURONEWS" tvg-logo="http://51.158.145.100/picons/logos/logos/euronews.png" group-title="World News",UK - EURONEWS
-http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/577208
-
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="bbcnews.uk" tvg-name="BBC  NEWS" tvg-logo="https://logo.m3uassets.com/bbcnews.png" group-title="World News",BBC  NEWS
-http://mytv.digital:80/hevern1996/mIovw2mgx6/42226
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="bbcnews.uk" tvg-name="BBC NEWS UK" tvg-logo="https://logo.m3uassets.com/bbcnews.png" group-title="World News",BBC NEWS UK
-http://mytv.digital:80/hevern1996/mIovw2mgx6/51090
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="bbcnews.uk" tvg-name="BBC News HD" tvg-logo="https://logo.m3uassets.com/bbcnews.png" group-title="World News",BBC News HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/51142
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="FNCHD" tvg-name="US: FOX NEWS" tvg-logo="https://logo.m3uassets.com/foxnews.png" group-title="World News",US: FOX NEWS
-http://mytv.digital:80/hevern1996/mIovw2mgx6/51128
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="N12NJHD" tvg-name="News 12 New Jersey" tvg-logo="https://logo.m3uassets.com/news12newjersey.png" group-title="World News",News 12 New Jersey
-http://mytv.digital:80/hevern1996/mIovw2mgx6/51502
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="N12LIHD" tvg-name="News 12 Long Island" tvg-logo="https://logo.m3uassets.com/news12longisland.png" group-title="World News",News 12 Long Island
-http://mytv.digital:80/hevern1996/mIovw2mgx6/51505
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="ZA: CGTN NEWS" tvg-name="CGTN News" tvg-logo="https://logo.m3uassets.com/cgtnnews.png" group-title="World News",CGTN News
-http://mytv.digital:80/hevern1996/mIovw2mgx6/53285
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="BLOOEHD" tvg-name="[CH411] Bloomberg" tvg-logo="https://logo.m3uassets.com/bloomberg.png" group-title="World News",[CH411] Bloomberg
-http://mytv.digital:80/hevern1996/mIovw2mgx6/53287
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="BBCWSAP" tvg-name="BBC World News" tvg-logo="https://logo.m3uassets.com/bbcworldnews.png" group-title="World News",BBC World News
-http://mytv.digital:80/hevern1996/mIovw2mgx6/53377
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="NWSNTHD" tvg-name="CTV News Channel HD CA" tvg-logo="https://logo.m3uassets.com/ctvnewschannel.png" group-title="World News",CTV News Channel HD CA
-http://mytv.digital:80/hevern1996/mIovw2mgx6/54307
-
-
-
-
-#########################################
-
-
-
-
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skypremiere.uk" tvg-name="Sky Cinema Premiere FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-premiere-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Premiere FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496047
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skypremiere.uk" tvg-name="Sky Cinema Premier HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-premiere-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Premier HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496048
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skypremiere.uk" tvg-name="Sky Cinema Premier" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-premiere-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Premier
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496049
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyaction.uk" tvg-name="Sky Cinema Action FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-action-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Action FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496068
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyaction.uk" tvg-name="Sky Cinema Action HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-action-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Action HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496069
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyaction.uk" tvg-name="Sky Cinema Action" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-action-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Action
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496070
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skycinemacomedy.uk" tvg-name="Sky Cinema Comedy FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-comedy-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Comedy FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496050
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skycinemacomedy.uk" tvg-name="Sky Cinema Comedy HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-comedy-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Comedy HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496051
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skycinemacomedy.uk" tvg-name="Sky Cinema Comedy" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-comedy-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Comedy
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496052
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skythriller.uk" tvg-name="Sky Cinema Thriller FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-thriller-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Thriller FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496042
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skythriller.uk" tvg-name="Sky Cinema Thriller HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-thriller-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Thriller HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496043
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skythriller.uk" tvg-name="Sky Cinema Thriller" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-thriller-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Thriller
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496044
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyselect.uk" tvg-name="Sky Cinema select FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-hits-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema select FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496062
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyselect.uk" tvg-name="Sky Cinema select HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-hits-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema select HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496063
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyselect.uk" tvg-name="Sky Cinema select" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-hits-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema select
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496064
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyscifihorror.uk" tvg-name="Sky Cinema SciFi Horror FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-sci-fi-and-horror-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema SciFi Horror FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496039
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyscifihorror.uk" tvg-name="Sky Cinema Scifi Horror HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-sci-fi-and-horror-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Scifi Horror HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496040
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyscifihorror.uk" tvg-name="Sky Cinema Scifi Horror" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-sci-fi-and-horror-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Scifi Horror
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496041
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyfamily.uk" tvg-name="Sky Cinema Family FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-family-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Family FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496055
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyfamily.uk" tvg-name="Sky Cinema Family HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-family-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Family HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496060
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyfamily.uk" tvg-name="Sky Cinema Family" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-family-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Family
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496061
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyhits.uk" tvg-name="Sky Cinema Hits FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-hits-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Hits FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496065
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyhits.uk" tvg-name="Sky Cinema Hits HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-hits-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Hits HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496066
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyhits.uk" tvg-name="Sky Cinema Hits" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-hits-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Hits
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496067
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skydrama.uk" tvg-name="Sky Cinema Drama FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-drama-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Drama FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496053
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skydrama.uk" tvg-name="Sky Cinema Drama HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-drama-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Drama HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496054
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skydrama.uk" tvg-name="Sky Cinema Drama" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-drama-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Drama
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496056
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skygreats.uk" tvg-name="Sky Cinema Greats FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-greats-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Greats FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496057
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skygreats.uk" tvg-name="Sky Cinema Greats HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-greats-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Greats HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496058
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skygreats.uk" tvg-name="Sky Cinema Greats" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-greats-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Greats
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496059
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyanimation.uk" tvg-name="Sky Cinema Animation FHD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-animation-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Animation FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496045
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="skyanimation.uk" tvg-name="Sky Cinema Animation HD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/sky-cinema-animation-hz-uk.png?raw=true" group-title="UK | Sky Movies",Sky Cinema Animation HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496046
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="film4.uk" tvg-name="Film4 FHD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Film4_logo_2018.svg/1200px-Film4_logo_2018.svg.png" group-title="UK | Sky Movies",Film4 FHD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496071
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="film4.uk" tvg-name="Film4 HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Film4_logo_2018.svg/1200px-Film4_logo_2018.svg.png" group-title="UK | Sky Movies",Film4 HD
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496072
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="film4.uk" tvg-name="Film4" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Film4_logo_2018.svg/1200px-Film4_logo_2018.svg.png" group-title="UK | Sky Movies",Film4
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496073
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="film4plus1.uk" tvg-name="Film4 +1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/film-4-plus-uk.png?raw=true" group-title="UK | Sky Movies",Film4 +1
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496074
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="legendxtra.uk" tvg-name="Legend xtra" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/legend-xtra-uk.png?raw=true" group-title="UK | Sky Movies",Legend xtra
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496079
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="greatmovies.uk" tvg-name="Great Mystery" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/great-mystery-uk.png?raw=true" group-title="UK | Sky Movies",Great Mystery
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496080
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="greatmoviessplus1.uk" tvg-name="Great Mystery +1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/great-mystery-plus-uk.png?raw=true" group-title="UK | Sky Movies",Great Mystery +1
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496081
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="greataction.uk" tvg-name="Great Action" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-action-uk.png" group-title="UK | Sky Movies",Great Action
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496082
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="greatactionplus1.uk" tvg-name="Great Action +1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/great-action-plus-uk.png" group-title="UK | Sky Movies",Great Action +1
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496083
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="talkingpictures.uk" tvg-name="Talking Pictures" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/talking-pictures-tv-uk.png" group-title="UK | Sky Movies",Talking Pictures
-http://mytv.digital:80/hevern1996/mIovw2mgx6/496084
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="cinemax.us" tvg-name="US Cinemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/1200px-Cinemax_%28Yellow%29.svg.png" group-title="USA | Movies",US Cinemax
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499150
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hbo.us" tvg-name="US HBO (East)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-us.png?raw=true" group-title="USA | Movies",US HBO (East)
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499151
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hbowest.us" tvg-name="US HBO (West)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-us.png?raw=true" group-title="USA | Movies",US HBO (West)
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499152
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hbo2.us" tvg-name="US HBO 2 (East)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hd/hbo-2-hd-us.png?raw=true" group-title="USA | Movies",US HBO 2 (East)
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499153
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hbocomedy.us" tvg-name="US HBO COMEDY East" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-comedy-hz-us.png?raw=true" group-title="USA | Movies",US HBO COMEDY East
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499155
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hbocomedypacific.us" tvg-name="US HBO Comedy (West)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hbo-comedy-hz-us.png?raw=true" group-title="USA | Movies",US HBO Comedy (West)
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499156
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hbosignature.us" tvg-name="US HBO Signature (East)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hd/hbo-signature-hd-us.png?raw=true" group-title="USA | Movies",US HBO Signature (East)
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499159
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hbosignaturepacific.us" tvg-name="US HBO Signature (West)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hd/hbo-signature-hd-us.png?raw=true" group-title="USA | Movies",US HBO Signature (West)
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499160
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hbozone.us" tvg-name="US HBO Zone (East)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hd/hbo-zone-hd-us.png?raw=true" group-title="USA | Movies",US HBO Zone (East)
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499161
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hbozonepacific.us" tvg-name="US HBO Zone (West)" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hd/hbo-zone-hd-us.png?raw=true" group-title="USA | Movies",US HBO Zone (West)
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499162
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mgmpacific.us" tvg-name="MGM+ West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-us.png?raw=true" group-title="USA | Movies",MGM+ West
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499165
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mgmhits.us" tvg-name="MGM+ Hits" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-hits-us.png?raw=true" group-title="USA | Movies",MGM+ Hits
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499166
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mgmdrivein.us" tvg-name="MGM+ Drive-In" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-drive-in-us.png?raw=true" group-title="USA | Movies",MGM+ Drive-In
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499167
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="mgmmarquee.us" tvg-name="MGM+ Marquee" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/mgm-plus-marquee-us.png?raw=true" group-title="USA | Movies",MGM+ Marquee
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499168
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="hdnetmovies.us" tvg-name="HDNet Movies" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/hdnet-movies-us.png?raw=true" group-title="USA | Movies",HDNet Movies
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499169
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="shoxbet.us" tvg-name="SHO x BET" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/sho-bet-us.png?raw=true" group-title="USA | Movies",SHO x BET
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499172
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="showtime.us" tvg-name="Showtime" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-us.png?raw=true" group-title="USA | Movies",Showtime
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499174
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="showtime2.us" tvg-name="Showtime 2" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="USA | Movies",Showtime 2
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499175
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="showtimeextreme.us" tvg-name="Showtime Extreme" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-extreme-us.png?raw=true" group-title="USA | Movies",Showtime Extreme
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499176
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="showtimefamilyzone.us" tvg-name="Showtime Family Zone" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-family-zone-us.png?raw=true" group-title="USA | Movies",Showtime Family Zone
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499177
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="showtimenext.us" tvg-name="Showtime Next" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-next-us.png?raw=true" group-title="USA | Movies",Showtime Next
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499178
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="showtimeshowcase.us" tvg-name="Showtime Showcase" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-showcase-us.png?raw=true" group-title="USA | Movies",Showtime Showcase
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499179
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="showtimewomen.us" tvg-name="Showtime Women" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-women-us.png?raw=true" group-title="USA | Movies",Showtime Women
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499181
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzcinema.us" tvg-name="Starz Cinema" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-cinema-us.png?raw=true" group-title="USA | Movies",Starz Cinema
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499183
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzcomedy.us" tvg-name="Starz Comedy" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-comedy-us.png?raw=true" group-title="USA | Movies",Starz Comedy
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499184
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzedge.us" tvg-name="Starz Edge" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-edge-us.png?raw=true" group-title="USA | Movies",Starz Edge
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499185
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzencore.us" tvg-name="Starz Encore" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-us.png?raw=true" group-title="USA | Movies",Starz Encore
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499186
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzencoreaction.us" tvg-name="Starz Encore Action" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-action-us.png?raw=true" group-title="USA | Movies",Starz Encore Action
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499187
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzencoreblack.us" tvg-name="Starz Encore Black" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-black-us.png?raw=true" group-title="USA | Movies",Starz Encore Black
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499188
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzencoreclassics.us" tvg-name="Starz Encore Classic" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-classic-us.png?raw=true" group-title="USA | Movies",Starz Encore Classic
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499189
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzencorefamily.us" tvg-name="Starz Encore Family" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-family-us.png?raw=true" group-title="USA | Movies",Starz Encore Family
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499191
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzencoresuspense.us" tvg-name="Starz Encore Suspense" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-suspense-us.png?raw=true" group-title="USA | Movies",Starz Encore Suspense
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499192
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzencorewest.us" tvg-name="Starz Encore West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-us.png?raw=true" group-title="USA | Movies",Starz Encore West
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499193
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzencorewesterns.us" tvg-name="Starz Encore Westerns" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-encore-westerns-us.png?raw=true" group-title="USA | Movies",Starz Encore Westerns
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499194
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzinblack.us" tvg-name="Starz in Black" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-in-black-us.png?raw=true" group-title="USA | Movies",Starz in Black
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499195
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzkidsfamily.us" tvg-name="Starz Kids & Family" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-kids-and-family-us.png?raw=true" group-title="USA | Movies",Starz Kids & Family
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499196
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="starzwest.us" tvg-name="Starz West" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true" group-title="USA | Movies",Starz West
-http://mytv.digital:80/hevern1996/mIovw2mgx6/499197
-#EXTINF:-1 xui-id="{XUI_ID}" tvg-id="itv3plus1.uk" tvg-name="ITV3 +1" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-kingdom/itv-3-plus-uk.png?raw=true" group-title="UK | +1 Channels",ITV3 +1
-http://mytv.digital:80/hevern1996/mIovw2mgx6/504066
-
-
-
-
-#########################################
-
-
-
-#########################################
-
-
-
-#########################################
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="MY Colors Tamil" tvg-logo="" group-title="MALAYSIA",MY Colors Tamil
-https://tvstar.top:443/live/0211539317/0211539317/142957.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV Alhijrah" tvg-logo="" group-title="MALAYSIA",MY TV Alhijrah
-https://tvstar.top:443/live/0211539317/0211539317/142958.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Comedy Central" tvg-logo="" group-title="MALAYSIA",MY Comedy Central
-https://tvstar.top:443/live/0211539317/0211539317/142959.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY WARNER TV" tvg-logo="" group-title="MALAYSIA",MY WARNER TV
-https://tvstar.top:443/live/0211539317/0211539317/142960.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Nat Geo Wild" tvg-logo="" group-title="MALAYSIA",MY Nat Geo Wild
-https://tvstar.top:443/live/0211539317/0211539317/142961.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVN" tvg-logo="" group-title="MALAYSIA",MY TVN
-https://tvstar.top:443/live/0211539317/0211539317/142962.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVN Movies" tvg-logo="" group-title="MALAYSIA",MY TVN Movies
-https://tvstar.top:443/live/0211539317/0211539317/142963.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY NHK_World_Japan" tvg-logo="" group-title="MALAYSIA",MY NHK_World_Japan
-https://tvstar.top:443/live/0211539317/0211539317/142964.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Channel News Asia" tvg-logo="" group-title="MALAYSIA",MY Channel News Asia
-https://tvstar.top:443/live/0211539317/0211539317/142965.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY ABC Australia" tvg-logo="" group-title="MALAYSIA",MY ABC Australia
-https://tvstar.top:443/live/0211539317/0211539317/142966.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY France24" tvg-logo="" group-title="MALAYSIA",MY France24
-https://tvstar.top:443/live/0211539317/0211539317/142967.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Baby TV" tvg-logo="" group-title="MALAYSIA",MY Baby TV
-https://tvstar.top:443/live/0211539317/0211539317/142968.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro AEC (D)" tvg-logo="" group-title="MALAYSIA",MY Astro AEC (D)
-https://tvstar.top:443/live/0211539317/0211539317/142969.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY BBC_Cbeebies" tvg-logo="" group-title="MALAYSIA",MY BBC_Cbeebies
-https://tvstar.top:443/live/0211539317/0211539317/142970.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY SCM" tvg-logo="" group-title="MALAYSIA",MY SCM
-https://tvstar.top:443/live/0211539317/0211539317/142971.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Boomerang" tvg-logo="" group-title="MALAYSIA",MY Boomerang
-https://tvstar.top:443/live/0211539317/0211539317/142972.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Cinema_World" tvg-logo="" group-title="MALAYSIA",MY Cinema_World
-https://tvstar.top:443/live/0211539317/0211539317/142973.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Nick JR" tvg-logo="" group-title="MALAYSIA",MY Nick JR
-https://tvstar.top:443/live/0211539317/0211539317/142974.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY MTV Asia" tvg-logo="" group-title="MALAYSIA",MY MTV Asia
-https://tvstar.top:443/live/0211539317/0211539317/142975.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV9" tvg-logo="" group-title="MALAYSIA",MY TV9
-https://tvstar.top:443/live/0211539317/0211539317/142976.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV8" tvg-logo="" group-title="MALAYSIA",MY TV8
-https://tvstar.top:443/live/0211539317/0211539317/142977.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY NTV7" tvg-logo="" group-title="MALAYSIA",MY NTV7
-https://tvstar.top:443/live/0211539317/0211539317/142978.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV3" tvg-logo="" group-title="MALAYSIA",MY TV3
-https://tvstar.top:443/live/0211539317/0211539317/142979.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV2 (D)" tvg-logo="" group-title="MALAYSIA",MY TV2 (D)
-https://tvstar.top:443/live/0211539317/0211539317/142980.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV1" tvg-logo="" group-title="MALAYSIA",MY TV1
-https://tvstar.top:443/live/0211539317/0211539317/142981.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Nat Geo Asia" tvg-logo="" group-title="MALAYSIA",MY Nat Geo Asia
-https://tvstar.top:443/live/0211539317/0211539317/142982.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Animax" tvg-logo="" group-title="MALAYSIA",MY Animax
-https://tvstar.top:443/live/0211539317/0211539317/142983.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Zee Cinema (D)" tvg-logo="" group-title="MALAYSIA",MY Zee Cinema (D)
-https://tvstar.top:443/live/0211539317/0211539317/142984.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Zee TV" tvg-logo="" group-title="MALAYSIA",MY Zee TV
-https://tvstar.top:443/live/0211539317/0211539317/142985.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY BBC_Earth" tvg-logo="" group-title="MALAYSIA",MY BBC_Earth
-https://tvstar.top:443/live/0211539317/0211539317/142986.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY LuxeTV" tvg-logo="" group-title="MALAYSIA",MY LuxeTV
-https://tvstar.top:443/live/0211539317/0211539317/142987.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Euronews" tvg-logo="" group-title="MALAYSIA",MY Euronews
-https://tvstar.top:443/live/0211539317/0211539317/142988.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY BBC World News" tvg-logo="" group-title="MALAYSIA",MY BBC World News
-https://tvstar.top:443/live/0211539317/0211539317/142989.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY DW" tvg-logo="" group-title="MALAYSIA",MY DW
-https://tvstar.top:443/live/0211539317/0211539317/142990.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Sky News" tvg-logo="" group-title="MALAYSIA",MY Sky News
-https://tvstar.top:443/live/0211539317/0211539317/142991.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY HBO" tvg-logo="" group-title="MALAYSIA",MY HBO
-https://tvstar.top:443/live/0211539317/0211539317/142992.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY HBO_RED" tvg-logo="" group-title="MALAYSIA",MY HBO_RED
-https://tvstar.top:443/live/0211539317/0211539317/142993.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Bollyone" tvg-logo="" group-title="MALAYSIA",MY Astro Bollyone
-https://tvstar.top:443/live/0211539317/0211539317/142994.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY BOLLYONE_HD_50fps" tvg-logo="" group-title="MALAYSIA",MY BOLLYONE_HD_50fps
-https://tvstar.top:443/live/0211539317/0211539317/142995.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Colors" tvg-logo="" group-title="MALAYSIA",MY Colors
-https://tvstar.top:443/live/0211539317/0211539317/142996.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Colors Tamil" tvg-logo="" group-title="MALAYSIA",MY Colors Tamil
-https://tvstar.top:443/live/0211539317/0211539317/142997.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY K+" tvg-logo="" group-title="MALAYSIA",MY K+
-https://tvstar.top:443/live/0211539317/0211539317/142998.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Phoenix" tvg-logo="" group-title="MALAYSIA",MY Phoenix
-https://tvstar.top:443/live/0211539317/0211539317/142999.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Star Vijay" tvg-logo="" group-title="MALAYSIA",MY Star Vijay
-https://tvstar.top:443/live/0211539317/0211539317/143000.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY SUN TV" tvg-logo="" group-title="MALAYSIA",MY SUN TV
-https://tvstar.top:443/live/0211539317/0211539317/143001.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY SUN Music" tvg-logo="" group-title="MALAYSIA",MY SUN Music
-https://tvstar.top:443/live/0211539317/0211539317/143002.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVB News" tvg-logo="" group-title="MALAYSIA",MY TVB News
-https://tvstar.top:443/live/0211539317/0211539317/143003.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Awesome TV" tvg-logo="" group-title="MALAYSIA",MY Awesome TV
-https://tvstar.top:443/live/0211539317/0211539317/143004.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY 8TV" tvg-logo="" group-title="MALAYSIA",MY 8TV
-https://tvstar.top:443/live/0211539317/0211539317/143005.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY ABC Australia" tvg-logo="" group-title="MALAYSIA",MY ABC Australia
-https://tvstar.top:443/live/0211539317/0211539317/143006.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Arena Bola" tvg-logo="" group-title="MALAYSIA",MY Astro Arena Bola
-https://tvstar.top:443/live/0211539317/0211539317/143007.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Adithya" tvg-logo="" group-title="MALAYSIA",MY Adithya
-https://tvstar.top:443/live/0211539317/0211539317/143008.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY AFC" tvg-logo="" group-title="MALAYSIA",MY AFC
-https://tvstar.top:443/live/0211539317/0211539317/143009.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Animal Planet" tvg-logo="" group-title="MALAYSIA",MY Animal Planet
-https://tvstar.top:443/live/0211539317/0211539317/143010.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Animax" tvg-logo="" group-title="MALAYSIA",MY Animax
-https://tvstar.top:443/live/0211539317/0211539317/143011.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY beIN Sports 5" tvg-logo="" group-title="MALAYSIA",MY beIN Sports 5
-https://tvstar.top:443/live/0211539317/0211539317/143012.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro AOD 363" tvg-logo="" group-title="MALAYSIA",MY Astro AOD 363
-https://tvstar.top:443/live/0211539317/0211539317/143013.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro AOD 351" tvg-logo="" group-title="MALAYSIA",MY Astro AOD 351
-https://tvstar.top:443/live/0211539317/0211539317/143014.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY beIN Sports 4" tvg-logo="" group-title="MALAYSIA",MY beIN Sports 4
-https://tvstar.top:443/live/0211539317/0211539317/143015.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro AOD 353" tvg-logo="" group-title="MALAYSIA",MY Astro AOD 353
-https://tvstar.top:443/live/0211539317/0211539317/143016.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro AOD 362" tvg-logo="" group-title="MALAYSIA",MY Astro AOD 362
-https://tvstar.top:443/live/0211539317/0211539317/143017.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Arena 1" tvg-logo="" group-title="MALAYSIA",MY Astro Arena 1
-https://tvstar.top:443/live/0211539317/0211539317/143018.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Arena 2" tvg-logo="" group-title="MALAYSIA",MY Astro Arena 2
-https://tvstar.top:443/live/0211539317/0211539317/143019.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY ARENA_HD_50fps" tvg-logo="" group-title="MALAYSIA",MY ARENA_HD_50fps
-https://tvstar.top:443/live/0211539317/0211539317/143020.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Arena (D)" tvg-logo="" group-title="MALAYSIA",MY Astro Arena (D)
-https://tvstar.top:443/live/0211539317/0211539317/143021.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Arena 2 (D)" tvg-logo="" group-title="MALAYSIA",MY Astro Arena 2 (D)
-https://tvstar.top:443/live/0211539317/0211539317/143022.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Awani" tvg-logo="" group-title="MALAYSIA",MY Astro Awani
-https://tvstar.top:443/live/0211539317/0211539317/143023.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Awani (D)" tvg-logo="" group-title="MALAYSIA",MY Astro Awani (D)
-https://tvstar.top:443/live/0211539317/0211539317/143024.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY KTV" tvg-logo="" group-title="MALAYSIA",MY KTV
-https://tvstar.top:443/live/0211539317/0211539317/143025.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Sun Life" tvg-logo="" group-title="MALAYSIA",MY Sun Life
-https://tvstar.top:443/live/0211539317/0211539317/143026.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Box Office" tvg-logo="" group-title="MALAYSIA",MY Astro Box Office
-https://tvstar.top:443/live/0211539317/0211539317/143027.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Ceria" tvg-logo="" group-title="MALAYSIA",MY Astro Ceria
-https://tvstar.top:443/live/0211539317/0211539317/143028.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Citra" tvg-logo="" group-title="MALAYSIA",MY Astro Citra
-https://tvstar.top:443/live/0211539317/0211539317/143029.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Oasis" tvg-logo="" group-title="MALAYSIA",MY Astro Oasis
-https://tvstar.top:443/live/0211539317/0211539317/143030.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Premier 1" tvg-logo="" group-title="MALAYSIA",MY Astro Premier 1
-https://tvstar.top:443/live/0211539317/0211539317/143031.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Prima" tvg-logo="" group-title="MALAYSIA",MY Astro Prima
-https://tvstar.top:443/live/0211539317/0211539317/143032.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Rania" tvg-logo="" group-title="MALAYSIA",MY Astro Rania
-https://tvstar.top:443/live/0211539317/0211539317/143033.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Ria" tvg-logo="" group-title="MALAYSIA",MY Astro Ria
-https://tvstar.top:443/live/0211539317/0211539317/143034.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Sensasi" tvg-logo="" group-title="MALAYSIA",MY Astro Sensasi
-https://tvstar.top:443/live/0211539317/0211539317/143035.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 1 (D)" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 1 (D)
-https://tvstar.top:443/live/0211539317/0211539317/143036.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 2 (D)" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 2 (D)
-https://tvstar.top:443/live/0211539317/0211539317/143037.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 2_50fps" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 2_50fps
-https://tvstar.top:443/live/0211539317/0211539317/143038.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 3 (D)" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 3 (D)
-https://tvstar.top:443/live/0211539317/0211539317/143039.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 3_50fps" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 3_50fps
-https://tvstar.top:443/live/0211539317/0211539317/143040.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 4 (D)" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 4 (D)
-https://tvstar.top:443/live/0211539317/0211539317/143041.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport UHD/4K" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport UHD/4K
-https://tvstar.top:443/live/0211539317/0211539317/143042.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 4_50fps" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 4_50fps
-https://tvstar.top:443/live/0211539317/0211539317/143043.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 5" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 5
-https://tvstar.top:443/live/0211539317/0211539317/143044.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 5 (D)" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 5 (D)
-https://tvstar.top:443/live/0211539317/0211539317/143045.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport 5_50fps" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport 5_50fps
-https://tvstar.top:443/live/0211539317/0211539317/143046.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Supersport_50fps" tvg-logo="" group-title="MALAYSIA",MY Astro Supersport_50fps
-https://tvstar.top:443/live/0211539317/0211539317/143048.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Tutor TV SK" tvg-logo="" group-title="MALAYSIA",MY Astro Tutor TV SK
-https://tvstar.top:443/live/0211539317/0211539317/143049.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Tutor TV SMK" tvg-logo="" group-title="MALAYSIA",MY Astro Tutor TV SMK
-https://tvstar.top:443/live/0211539317/0211539317/143050.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Tutor TV UPSR" tvg-logo="" group-title="MALAYSIA",MY Astro Tutor TV UPSR
-https://tvstar.top:443/live/0211539317/0211539317/143051.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Shuang Hing" tvg-logo="" group-title="MALAYSIA",MY Astro Shuang Hing
-https://tvstar.top:443/live/0211539317/0211539317/143052.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Vaanavil" tvg-logo="" group-title="MALAYSIA",MY Astro Vaanavil
-https://tvstar.top:443/live/0211539317/0211539317/143053.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Vellithirai" tvg-logo="" group-title="MALAYSIA",MY Astro Vellithirai
-https://tvstar.top:443/live/0211539317/0211539317/143054.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Aura" tvg-logo="" group-title="MALAYSIA",MY Astro Aura
-https://tvstar.top:443/live/0211539317/0211539317/143055.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Cricket" tvg-logo="" group-title="MALAYSIA",MY Astro Cricket
-https://tvstar.top:443/live/0211539317/0211539317/143056.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Xiao Tai Yang" tvg-logo="" group-title="MALAYSIA",MY Astro Xiao Tai Yang
-https://tvstar.top:443/live/0211539317/0211539317/143057.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY AXN" tvg-logo="" group-title="MALAYSIA",MY AXN
-https://tvstar.top:443/live/0211539317/0211539317/143058.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY beIN Sports" tvg-logo="" group-title="MALAYSIA",MY beIN Sports
-https://tvstar.top:443/live/0211539317/0211539317/143059.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY beIN Sports 2 (D)" tvg-logo="" group-title="MALAYSIA",MY beIN Sports 2 (D)
-https://tvstar.top:443/live/0211539317/0211539317/143060.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY beIN Sports 2 50fps (D)" tvg-logo="" group-title="MALAYSIA",MY beIN Sports 2 50fps (D)
-https://tvstar.top:443/live/0211539317/0211539317/143061.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY beIN Sports 3" tvg-logo="" group-title="MALAYSIA",MY beIN Sports 3
-https://tvstar.top:443/live/0211539317/0211539317/143062.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY beIN Sports 3 50fps (D)" tvg-logo="" group-title="MALAYSIA",MY beIN Sports 3 50fps (D)
-https://tvstar.top:443/live/0211539317/0211539317/143063.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY beIN Sports 50fps (D)" tvg-logo="" group-title="MALAYSIA",MY beIN Sports 50fps (D)
-https://tvstar.top:443/live/0211539317/0211539317/143064.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Bernama" tvg-logo="" group-title="MALAYSIA",MY Bernama
-https://tvstar.top:443/live/0211539317/0211539317/143065.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Bloomberg TV" tvg-logo="" group-title="MALAYSIA",MY Bloomberg TV
-https://tvstar.top:443/live/0211539317/0211539317/143067.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY BOO" tvg-logo="" group-title="MALAYSIA",MY BOO
-https://tvstar.top:443/live/0211539317/0211539317/143068.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Boomerang" tvg-logo="" group-title="MALAYSIA",MY Boomerang
-https://tvstar.top:443/live/0211539317/0211539317/143069.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Cartoon Network" tvg-logo="" group-title="MALAYSIA",MY Cartoon Network
-https://tvstar.top:443/live/0211539317/0211539317/143070.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Celestial Classic Movies" tvg-logo="" group-title="MALAYSIA",MY Celestial Classic Movies
-https://tvstar.top:443/live/0211539317/0211539317/143071.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY CCTV4" tvg-logo="" group-title="MALAYSIA",MY CCTV4
-https://tvstar.top:443/live/0211539317/0211539317/143072.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Celestial" tvg-logo="" group-title="MALAYSIA",MY Celestial
-https://tvstar.top:443/live/0211539317/0211539317/143073.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY CGTN" tvg-logo="" group-title="MALAYSIA",MY CGTN
-https://tvstar.top:443/live/0211539317/0211539317/143074.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Citra Entertainment" tvg-logo="" group-title="MALAYSIA",MY Astro Citra Entertainment
-https://tvstar.top:443/live/0211539317/0211539317/143075.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Cinemax" tvg-logo="" group-title="MALAYSIA",MY Cinemax
-https://tvstar.top:443/live/0211539317/0211539317/143076.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY CNA" tvg-logo="" group-title="MALAYSIA",MY CNA
-https://tvstar.top:443/live/0211539317/0211539317/143077.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY CNBC" tvg-logo="" group-title="MALAYSIA",MY CNBC
-https://tvstar.top:443/live/0211539317/0211539317/143078.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY CNBC" tvg-logo="" group-title="MALAYSIA",MY CNBC
-https://tvstar.top:443/live/0211539317/0211539317/143079.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY CNN" tvg-logo="" group-title="MALAYSIA",MY CNN
-https://tvstar.top:443/live/0211539317/0211539317/143080.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Crime Investigation" tvg-logo="" group-title="MALAYSIA",MY Crime Investigation
-https://tvstar.top:443/live/0211539317/0211539317/143081.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY CTI Asia" tvg-logo="" group-title="MALAYSIA",MY CTI Asia
-https://tvstar.top:443/live/0211539317/0211539317/143082.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Discovery Channel" tvg-logo="" group-title="MALAYSIA",MY Discovery Channel
-https://tvstar.top:443/live/0211539317/0211539317/143083.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY DISCOVERY ASIA (D)" tvg-logo="" group-title="MALAYSIA",MY DISCOVERY ASIA (D)
-https://tvstar.top:443/live/0211539317/0211539317/143084.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Discovery Science" tvg-logo="" group-title="MALAYSIA",MY Discovery Science
-https://tvstar.top:443/live/0211539317/0211539317/143085.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Discovery Asia" tvg-logo="" group-title="MALAYSIA",MY Discovery Asia
-https://tvstar.top:443/live/0211539317/0211539317/143086.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Disney Junior" tvg-logo="" group-title="MALAYSIA",MY Disney Junior
-https://tvstar.top:443/live/0211539317/0211539317/143087.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Dmax" tvg-logo="" group-title="MALAYSIA",MY Dmax
-https://tvstar.top:443/live/0211539317/0211539317/143088.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Egg (D)" tvg-logo="" group-title="MALAYSIA",MY Egg (D)
-https://tvstar.top:443/live/0211539317/0211539317/143089.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY eGG_Network" tvg-logo="" group-title="MALAYSIA",MY eGG_Network
-https://tvstar.top:443/live/0211539317/0211539317/143090.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Eurosport" tvg-logo="" group-title="MALAYSIA",MY Eurosport
-https://tvstar.top:443/live/0211539317/0211539317/143091.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Eurosport (D)" tvg-logo="" group-title="MALAYSIA",MY Eurosport (D)
-https://tvstar.top:443/live/0211539317/0211539317/143092.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Food Network" tvg-logo="" group-title="MALAYSIA",MY Food Network
-https://tvstar.top:443/live/0211539317/0211539317/143093.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY France 24" tvg-logo="" group-title="MALAYSIA",MY France 24
-https://tvstar.top:443/live/0211539317/0211539317/143094.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY GO Shop 4" tvg-logo="" group-title="MALAYSIA",MY GO Shop 4
-https://tvstar.top:443/live/0211539317/0211539317/143095.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY GOLF_CHANNEL_HD_50fps" tvg-logo="" group-title="MALAYSIA",MY GOLF_CHANNEL_HD_50fps
-https://tvstar.top:443/live/0211539317/0211539317/143096.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY GO Shop" tvg-logo="" group-title="MALAYSIA",MY GO Shop
-https://tvstar.top:443/live/0211539317/0211539317/143097.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY GO Shop 2" tvg-logo="" group-title="MALAYSIA",MY GO Shop 2
-https://tvstar.top:443/live/0211539317/0211539317/143098.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY GO Shop 3" tvg-logo="" group-title="MALAYSIA",MY GO Shop 3
-https://tvstar.top:443/live/0211539317/0211539317/143099.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY HBO" tvg-logo="" group-title="MALAYSIA",MY HBO
-https://tvstar.top:443/live/0211539317/0211539317/143100.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY HBO Family" tvg-logo="" group-title="MALAYSIA",MY HBO Family
-https://tvstar.top:443/live/0211539317/0211539317/143101.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY HBO Hits" tvg-logo="" group-title="MALAYSIA",MY HBO Hits
-https://tvstar.top:443/live/0211539317/0211539317/143102.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY HGTV" tvg-logo="" group-title="MALAYSIA",MY HGTV
-https://tvstar.top:443/live/0211539317/0211539317/143103.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY History" tvg-logo="" group-title="MALAYSIA",MY History
-https://tvstar.top:443/live/0211539317/0211539317/143104.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Hits" tvg-logo="" group-title="MALAYSIA",MY Hits
-https://tvstar.top:443/live/0211539317/0211539317/143105.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Hits Movies" tvg-logo="" group-title="MALAYSIA",MY Hits Movies
-https://tvstar.top:443/live/0211539317/0211539317/143106.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Hua Hee Dai" tvg-logo="" group-title="MALAYSIA",MY Astro Hua Hee Dai
-https://tvstar.top:443/live/0211539317/0211539317/143107.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY iQIYI" tvg-logo="" group-title="MALAYSIA",MY iQIYI
-https://tvstar.top:443/live/0211539317/0211539317/143108.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY KBS World" tvg-logo="" group-title="MALAYSIA",MY KBS World
-https://tvstar.top:443/live/0211539317/0211539317/143110.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY KBS World (D)" tvg-logo="" group-title="MALAYSIA",MY KBS World (D)
-https://tvstar.top:443/live/0211539317/0211539317/143111.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Kix" tvg-logo="" group-title="MALAYSIA",MY Kix
-https://tvstar.top:443/live/0211539317/0211539317/143112.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Lifetime" tvg-logo="" group-title="MALAYSIA",MY Lifetime
-https://tvstar.top:443/live/0211539317/0211539317/143113.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Premier 2" tvg-logo="" group-title="MALAYSIA",MY Astro Premier 2
-https://tvstar.top:443/live/0211539317/0211539317/143114.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro SuperSport Events 3" tvg-logo="" group-title="MALAYSIA",MY Astro SuperSport Events 3
-https://tvstar.top:443/live/0211539317/0211539317/143115.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro SuperSport Events 4" tvg-logo="" group-title="MALAYSIA",MY Astro SuperSport Events 4
-https://tvstar.top:443/live/0211539317/0211539317/143116.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro SuperSport Events 5" tvg-logo="" group-title="MALAYSIA",MY Astro SuperSport Events 5
-https://tvstar.top:443/live/0211539317/0211539317/143117.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro SuperSport Events 6" tvg-logo="" group-title="MALAYSIA",MY Astro SuperSport Events 6
-https://tvstar.top:443/live/0211539317/0211539317/143118.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Moonbug Kids" tvg-logo="" group-title="MALAYSIA",MY Moonbug Kids
-https://tvstar.top:443/live/0211539317/0211539317/143119.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY MTV" tvg-logo="" group-title="MALAYSIA",MY MTV
-https://tvstar.top:443/live/0211539317/0211539317/143120.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Nat Geo Wild" tvg-logo="" group-title="MALAYSIA",MY Nat Geo Wild
-https://tvstar.top:443/live/0211539317/0211539317/143121.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY National Geographic" tvg-logo="" group-title="MALAYSIA",MY National Geographic
-https://tvstar.top:443/live/0211539317/0211539317/143122.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Nick JR" tvg-logo="" group-title="MALAYSIA",MY Nick JR
-https://tvstar.top:443/live/0211539317/0211539317/143123.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Nickelodeon" tvg-logo="" group-title="MALAYSIA",MY Nickelodeon
-https://tvstar.top:443/live/0211539317/0211539317/143124.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY NTV7" tvg-logo="" group-title="MALAYSIA",MY NTV7
-https://tvstar.top:443/live/0211539317/0211539317/143125.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Sun News" tvg-logo="" group-title="MALAYSIA",MY Sun News
-https://tvstar.top:443/live/0211539317/0211539317/143126.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY One" tvg-logo="" group-title="MALAYSIA",MY One
-https://tvstar.top:443/live/0211539317/0211539317/143127.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Paramount" tvg-logo="" group-title="MALAYSIA",MY Paramount
-https://tvstar.top:443/live/0211539317/0211539317/143128.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Phoenix News" tvg-logo="" group-title="MALAYSIA",MY Phoenix News
-https://tvstar.top:443/live/0211539317/0211539317/143129.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY PRIMEtime" tvg-logo="" group-title="MALAYSIA",MY PRIMEtime
-https://tvstar.top:443/live/0211539317/0211539317/143130.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Quan Jia" tvg-logo="" group-title="MALAYSIA",MY Astro Quan Jia
-https://tvstar.top:443/live/0211539317/0211539317/143131.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY RUGBY_PASS_50fps" tvg-logo="" group-title="MALAYSIA",MY RUGBY_PASS_50fps
-https://tvstar.top:443/live/0211539317/0211539317/143133.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Showcase Movies" tvg-logo="" group-title="MALAYSIA",MY Showcase Movies
-https://tvstar.top:443/live/0211539317/0211539317/143134.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Sky News" tvg-logo="" group-title="MALAYSIA",MY Sky News
-https://tvstar.top:443/live/0211539317/0211539317/143135.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Sports SPO TV" tvg-logo="" group-title="MALAYSIA",MY Sports SPO TV
-https://tvstar.top:443/live/0211539317/0211539317/143136.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY SPOTV (D)" tvg-logo="" group-title="MALAYSIA",MY SPOTV (D)
-https://tvstar.top:443/live/0211539317/0211539317/143137.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY SPOTV2" tvg-logo="" group-title="MALAYSIA",MY SPOTV2
-https://tvstar.top:443/live/0211539317/0211539317/143138.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TA-DAA!" tvg-logo="" group-title="MALAYSIA",MY TA-DAA!
-https://tvstar.top:443/live/0211539317/0211539317/143139.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TLC" tvg-logo="" group-title="MALAYSIA",MY TLC
-https://tvstar.top:443/live/0211539317/0211539317/143140.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV Okey" tvg-logo="" group-title="MALAYSIA",MY TV Okey
-https://tvstar.top:443/live/0211539317/0211539317/143141.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV OKEY (D)" tvg-logo="" group-title="MALAYSIA",MY TV OKEY (D)
-https://tvstar.top:443/live/0211539317/0211539317/143142.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV2" tvg-logo="" group-title="MALAYSIA",MY TV2
-https://tvstar.top:443/live/0211539317/0211539317/143143.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV3" tvg-logo="" group-title="MALAYSIA",MY TV3
-https://tvstar.top:443/live/0211539317/0211539317/143144.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV9" tvg-logo="" group-title="MALAYSIA",MY TV9
-https://tvstar.top:443/live/0211539317/0211539317/143145.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVBS Asia" tvg-logo="" group-title="MALAYSIA",MY TVBS Asia
-https://tvstar.top:443/live/0211539317/0211539317/143146.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVBS News" tvg-logo="" group-title="MALAYSIA",MY TVBS News
-https://tvstar.top:443/live/0211539317/0211539317/143147.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVB Classic" tvg-logo="" group-title="MALAYSIA",MY TVB Classic
-https://tvstar.top:443/live/0211539317/0211539317/143148.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVB E News" tvg-logo="" group-title="MALAYSIA",MY TVB E News
-https://tvstar.top:443/live/0211539317/0211539317/143149.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVB Jade" tvg-logo="" group-title="MALAYSIA",MY TVB Jade
-https://tvstar.top:443/live/0211539317/0211539317/143150.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVB Xing He" tvg-logo="" group-title="MALAYSIA",MY TVB Xing He
-https://tvstar.top:443/live/0211539317/0211539317/143151.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY tvN" tvg-logo="" group-title="MALAYSIA",MY tvN
-https://tvstar.top:443/live/0211539317/0211539317/143152.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVN (D)" tvg-logo="" group-title="MALAYSIA",MY TVN (D)
-https://tvstar.top:443/live/0211539317/0211539317/143153.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY tvN Movies" tvg-logo="" group-title="MALAYSIA",MY tvN Movies
-https://tvstar.top:443/live/0211539317/0211539317/143154.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TVS" tvg-logo="" group-title="MALAYSIA",MY TVS
-https://tvstar.top:443/live/0211539317/0211539317/143155.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY TV Alhijrah" tvg-logo="" group-title="MALAYSIA",MY TV Alhijrah
-https://tvstar.top:443/live/0211539317/0211539317/143156.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Vinmeen" tvg-logo="" group-title="MALAYSIA",MY Astro Vinmeen
-https://tvstar.top:443/live/0211539317/0211539317/143157.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Astro Warna" tvg-logo="" group-title="MALAYSIA",MY Astro Warna
-https://tvstar.top:443/live/0211539317/0211539317/143158.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY Warner TV" tvg-logo="" group-title="MALAYSIA",MY Warner TV
-https://tvstar.top:443/live/0211539317/0211539317/143159.ts
-#EXTINF:-1 tvg-id="" tvg-name="MY WWE Network" tvg-logo="https://theovertimer.com/wp-content/uploads/2019/12/WWENetwork-750x430.jpg" group-title="MALAYSIA",MY WWE Network
-https://tvstar.top:443/live/0211539317/0211539317/143160.ts
-
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="ID (VD) NHK World Japan" tvg-logo="" group-title="INDONESIA",ID (VD) NHK World Japan
-https://tvstar.top:443/live/0211539317/0211539317/151135.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID (VD) FashionTV L'Original" tvg-logo="" group-title="INDONESIA",ID (VD) FashionTV L'Original
-https://tvstar.top:443/live/0211539317/0211539317/151138.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID (VD) Rock Action" tvg-logo="" group-title="INDONESIA",ID (VD) Rock Action
-https://tvstar.top:443/live/0211539317/0211539317/151142.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID (VD) ROCK Entertainment" tvg-logo="" group-title="INDONESIA",ID (VD) ROCK Entertainment
-https://tvstar.top:443/live/0211539317/0211539317/151143.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID (VD) Champions TV 3" tvg-logo="" group-title="INDONESIA",ID (VD) Champions TV 3
-https://tvstar.top:443/live/0211539317/0211539317/151151.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID (VD) Kompas TV" tvg-logo="" group-title="INDONESIA",ID (VD) Kompas TV
-https://tvstar.top:443/live/0211539317/0211539317/151164.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID (VD) Indosiar" tvg-logo="" group-title="INDONESIA",ID (VD) Indosiar
-https://tvstar.top:443/live/0211539317/0211539317/151171.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Bein Sport 3 HD (D)" tvg-logo="" group-title="INDONESIA",ID Bein Sport 3 HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151173.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID CNBC INDONESIA (D)" tvg-logo="" group-title="INDONESIA",ID CNBC INDONESIA (D)
-https://tvstar.top:443/live/0211539317/0211539317/151175.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID CNN INDONESIA (D)" tvg-logo="" group-title="INDONESIA",ID CNN INDONESIA (D)
-https://tvstar.top:443/live/0211539317/0211539317/151176.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID INDOSIAR (D)" tvg-logo="" group-title="INDONESIA",ID INDOSIAR (D)
-https://tvstar.top:443/live/0211539317/0211539317/151177.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID BERITA SATU WORLD (D)" tvg-logo="" group-title="INDONESIA",ID BERITA SATU WORLD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151178.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID BERITA SATU (D)" tvg-logo="" group-title="INDONESIA",ID BERITA SATU (D)
-https://tvstar.top:443/live/0211539317/0211539317/151179.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TVKU (D)" tvg-logo="" group-title="INDONESIA",ID TVKU (D)
-https://tvstar.top:443/live/0211539317/0211539317/151180.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MNC Sports 3 HD (D)" tvg-logo="" group-title="INDONESIA",ID MNC Sports 3 HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151181.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Bein Sports 1 HD (D)" tvg-logo="" group-title="INDONESIA",ID Bein Sports 1 HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151182.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MNC News HD (D)" tvg-logo="" group-title="INDONESIA",ID MNC News HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151183.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Indonesia Movie Channels HD (D)" tvg-logo="" group-title="INDONESIA",ID Indonesia Movie Channels HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151184.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID RCTI HD (D)" tvg-logo="" group-title="INDONESIA",ID RCTI HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151185.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Soccer Channel HD (D)" tvg-logo="" group-title="INDONESIA",ID Soccer Channel HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151186.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MNC Sports 2 HD (D)" tvg-logo="" group-title="INDONESIA",ID MNC Sports 2 HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151187.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MNC Sports HD (D)" tvg-logo="" group-title="INDONESIA",ID MNC Sports HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151188.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Galaxy Premium HD (D)" tvg-logo="" group-title="INDONESIA",ID Galaxy Premium HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151189.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Galaxy HD (D)" tvg-logo="" group-title="INDONESIA",ID Galaxy HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151190.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Asian Food Network HD (D)" tvg-logo="" group-title="INDONESIA",ID Asian Food Network HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151191.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID NickJr HD (D)" tvg-logo="" group-title="INDONESIA",ID NickJr HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151192.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID SPOTV 2 HD (D)" tvg-logo="" group-title="INDONESIA",ID SPOTV 2 HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151193.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID SPOTV HD (D)" tvg-logo="" group-title="INDONESIA",ID SPOTV HD (D)
-https://tvstar.top:443/live/0211539317/0211539317/151194.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID SEA Channel (D)" tvg-logo="" group-title="INDONESIA",ID SEA Channel (D)
-https://tvstar.top:443/live/0211539317/0211539317/151195.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID NHK World Japan (D)" tvg-logo="" group-title="INDONESIA",ID NHK World Japan (D)
-https://tvstar.top:443/live/0211539317/0211539317/151196.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Cinemax (D)" tvg-logo="" group-title="INDONESIA",ID Cinemax (D)
-https://tvstar.top:443/live/0211539317/0211539317/151197.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Arirang Korea (D)" tvg-logo="" group-title="INDONESIA",ID Arirang Korea (D)
-https://tvstar.top:443/live/0211539317/0211539317/151198.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Celestial Movies (D)" tvg-logo="" group-title="INDONESIA",ID Celestial Movies (D)
-https://tvstar.top:443/live/0211539317/0211539317/151199.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID SCM (D)" tvg-logo="" group-title="INDONESIA",ID SCM (D)
-https://tvstar.top:443/live/0211539317/0211539317/151200.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Fox News (D)" tvg-logo="" group-title="INDONESIA",ID Fox News (D)
-https://tvstar.top:443/live/0211539317/0211539317/151201.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID CNN (D)" tvg-logo="" group-title="INDONESIA",ID CNN (D)
-https://tvstar.top:443/live/0211539317/0211539317/151202.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID History (D)" tvg-logo="" group-title="INDONESIA",ID History (D)
-https://tvstar.top:443/live/0211539317/0211539317/151203.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Discovery Channel (D)" tvg-logo="" group-title="INDONESIA",ID Discovery Channel (D)
-https://tvstar.top:443/live/0211539317/0211539317/151204.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Nat Geo Wild (D)" tvg-logo="" group-title="INDONESIA",ID Nat Geo Wild (D)
-https://tvstar.top:443/live/0211539317/0211539317/151205.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID HBO Signature (D)" tvg-logo="" group-title="INDONESIA",ID HBO Signature (D)
-https://tvstar.top:443/live/0211539317/0211539317/151206.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Sony ONE (D)" tvg-logo="" group-title="INDONESIA",ID Sony ONE (D)
-https://tvstar.top:443/live/0211539317/0211539317/151207.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Animax (D)" tvg-logo="" group-title="INDONESIA",ID Animax (D)
-https://tvstar.top:443/live/0211539317/0211539317/151208.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID AXN (D)" tvg-logo="" group-title="INDONESIA",ID AXN (D)
-https://tvstar.top:443/live/0211539317/0211539317/151209.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Lifetime (D)" tvg-logo="" group-title="INDONESIA",ID Lifetime (D)
-https://tvstar.top:443/live/0211539317/0211539317/151210.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID News Asia Channel (D)" tvg-logo="" group-title="INDONESIA",ID News Asia Channel (D)
-https://tvstar.top:443/live/0211539317/0211539317/151211.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID HBO Hits (D)" tvg-logo="" group-title="INDONESIA",ID HBO Hits (D)
-https://tvstar.top:443/live/0211539317/0211539317/151212.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Crime Investigation (D)" tvg-logo="" group-title="INDONESIA",ID Crime Investigation (D)
-https://tvstar.top:443/live/0211539317/0211539317/151214.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Warner TV (D)" tvg-logo="" group-title="INDONESIA",ID Warner TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151215.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID CNBC (D)" tvg-logo="" group-title="INDONESIA",ID CNBC (D)
-https://tvstar.top:443/live/0211539317/0211539317/151216.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Nat Geo (D)" tvg-logo="" group-title="INDONESIA",ID Nat Geo (D)
-https://tvstar.top:443/live/0211539317/0211539317/151217.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Nickelodeon (D)" tvg-logo="" group-title="INDONESIA",ID Nickelodeon (D)
-https://tvstar.top:443/live/0211539317/0211539317/151218.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TV5 Monde Asia (D)" tvg-logo="" group-title="INDONESIA",ID TV5 Monde Asia (D)
-https://tvstar.top:443/live/0211539317/0211539317/151219.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Animal Planet (D)" tvg-logo="" group-title="INDONESIA",ID Animal Planet (D)
-https://tvstar.top:443/live/0211539317/0211539317/151220.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Cartoon Network (D)" tvg-logo="" group-title="INDONESIA",ID Cartoon Network (D)
-https://tvstar.top:443/live/0211539317/0211539317/151221.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Baby TV" tvg-logo="" group-title="INDONESIA",ID Baby TV
-https://tvstar.top:443/live/0211539317/0211539317/151222.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID FMN (D)" tvg-logo="" group-title="INDONESIA",ID FMN (D)
-https://tvstar.top:443/live/0211539317/0211539317/151223.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Fight Sports (D)" tvg-logo="" group-title="INDONESIA",ID Fight Sports (D)
-https://tvstar.top:443/live/0211539317/0211539317/151224.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Disney XD" tvg-logo="" group-title="INDONESIA",ID Disney XD
-https://tvstar.top:443/live/0211539317/0211539317/151225.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MiaoMI (D)" tvg-logo="" group-title="INDONESIA",ID MiaoMI (D)
-https://tvstar.top:443/live/0211539317/0211539317/151226.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID CGTN (D)" tvg-logo="" group-title="INDONESIA",ID CGTN (D)
-https://tvstar.top:443/live/0211539317/0211539317/151227.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Bein Sport 2 (D)" tvg-logo="" group-title="INDONESIA",ID Bein Sport 2 (D)
-https://tvstar.top:443/live/0211539317/0211539317/151228.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Bandung TV (D)" tvg-logo="" group-title="INDONESIA",ID Bandung TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151229.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Tawaf TV (D)" tvg-logo="" group-title="INDONESIA",ID Tawaf TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151230.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID LifeStyle Fashion (D)" tvg-logo="" group-title="INDONESIA",ID LifeStyle Fashion (D)
-https://tvstar.top:443/live/0211539317/0211539317/151231.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID OK TV (D)" tvg-logo="" group-title="INDONESIA",ID OK TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151232.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Kids TV (D)" tvg-logo="" group-title="INDONESIA",ID Kids TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151233.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID DW (D)" tvg-logo="" group-title="INDONESIA",ID DW (D)
-https://tvstar.top:443/live/0211539317/0211539317/151234.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID France24 (D)" tvg-logo="" group-title="INDONESIA",ID France24 (D)
-https://tvstar.top:443/live/0211539317/0211539317/151235.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Al Jazeera English (D)" tvg-logo="" group-title="INDONESIA",ID Al Jazeera English (D)
-https://tvstar.top:443/live/0211539317/0211539317/151236.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Hits (D)" tvg-logo="" group-title="INDONESIA",ID Hits (D)
-https://tvstar.top:443/live/0211539317/0211539317/151237.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Music TV (D)" tvg-logo="" group-title="INDONESIA",ID Music TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151238.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID BBC Cbeebies (D)" tvg-logo="" group-title="INDONESIA",ID BBC Cbeebies (D)
-https://tvstar.top:443/live/0211539317/0211539317/151239.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID IDX (D)" tvg-logo="" group-title="INDONESIA",ID IDX (D)
-https://tvstar.top:443/live/0211539317/0211539317/151240.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MNC Infotainment (D)" tvg-logo="" group-title="INDONESIA",ID MNC Infotainment (D)
-https://tvstar.top:443/live/0211539317/0211539317/151241.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Life (D)" tvg-logo="" group-title="INDONESIA",ID Life (D)
-https://tvstar.top:443/live/0211539317/0211539317/151242.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Muslim TV (D)" tvg-logo="" group-title="INDONESIA",ID Muslim TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151243.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MNC Entertainment (D)" tvg-logo="" group-title="INDONESIA",ID MNC Entertainment (D)
-https://tvstar.top:443/live/0211539317/0211539317/151244.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Vision Prime (D)" tvg-logo="" group-title="INDONESIA",ID Vision Prime (D)
-https://tvstar.top:443/live/0211539317/0211539317/151245.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MNC Shop Smart (D)" tvg-logo="" group-title="INDONESIA",ID MNC Shop Smart (D)
-https://tvstar.top:443/live/0211539317/0211539317/151246.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Zee Bioskop (D)" tvg-logo="" group-title="INDONESIA",ID Zee Bioskop (D)
-https://tvstar.top:443/live/0211539317/0211539317/151247.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Thrill (D)" tvg-logo="" group-title="INDONESIA",ID Thrill (D)
-https://tvstar.top:443/live/0211539317/0211539317/151248.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID ANTV (D)" tvg-logo="" group-title="INDONESIA",ID ANTV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151249.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID HBO Family (D)" tvg-logo="" group-title="INDONESIA",ID HBO Family (D)
-https://tvstar.top:443/live/0211539317/0211539317/151250.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TVN Movies (D)" tvg-logo="" group-title="INDONESIA",ID TVN Movies (D)
-https://tvstar.top:443/live/0211539317/0211539317/151251.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TVN (D)" tvg-logo="" group-title="INDONESIA",ID TVN (D)
-https://tvstar.top:443/live/0211539317/0211539317/151252.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Al Quran Al Karem (D)" tvg-logo="" group-title="INDONESIA",ID Al Quran Al Karem (D)
-https://tvstar.top:443/live/0211539317/0211539317/151253.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID HITS Movies (D)" tvg-logo="" group-title="INDONESIA",ID HITS Movies (D)
-https://tvstar.top:443/live/0211539317/0211539317/151254.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TV One (D)" tvg-logo="" group-title="INDONESIA",ID TV One (D)
-https://tvstar.top:443/live/0211539317/0211539317/151255.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TransTV (D)" tvg-logo="" group-title="INDONESIA",ID TransTV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151256.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MNC TV (D)" tvg-logo="" group-title="INDONESIA",ID MNC TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151257.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Metro TV (D)" tvg-logo="" group-title="INDONESIA",ID Metro TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151258.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID iNews (D)" tvg-logo="" group-title="INDONESIA",ID iNews (D)
-https://tvstar.top:443/live/0211539317/0211539317/151259.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID GTV (D)" tvg-logo="" group-title="INDONESIA",ID GTV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151260.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID MNC Shop Trendy (D)" tvg-logo="" group-title="INDONESIA",ID MNC Shop Trendy (D)
-https://tvstar.top:443/live/0211539317/0211539317/151261.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Trans7 (D)" tvg-logo="" group-title="INDONESIA",ID Trans7 (D)
-https://tvstar.top:443/live/0211539317/0211539317/151262.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID KompasTV (D)" tvg-logo="" group-title="INDONESIA",ID KompasTV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151264.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID BaliTV (D)" tvg-logo="" group-title="INDONESIA",ID BaliTV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151265.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID &TV (D)" tvg-logo="" group-title="INDONESIA",ID &TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151266.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Reformed 21 (D)" tvg-logo="" group-title="INDONESIA",ID Reformed 21 (D)
-https://tvstar.top:443/live/0211539317/0211539317/151267.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID NET. (D)" tvg-logo="" group-title="INDONESIA",ID NET. (D)
-https://tvstar.top:443/live/0211539317/0211539317/151268.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TRT World (D)" tvg-logo="" group-title="INDONESIA",ID TRT World (D)
-https://tvstar.top:443/live/0211539317/0211539317/151269.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID RT English (D)" tvg-logo="" group-title="INDONESIA",ID RT English (D)
-https://tvstar.top:443/live/0211539317/0211539317/151270.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID RTV (D)" tvg-logo="" group-title="INDONESIA",ID RTV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151271.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID EWTN (D)" tvg-logo="" group-title="INDONESIA",ID EWTN (D)
-https://tvstar.top:443/live/0211539317/0211539317/151272.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Zee TV (D)" tvg-logo="" group-title="INDONESIA",ID Zee TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151273.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Zee Cinema (D)" tvg-logo="" group-title="INDONESIA",ID Zee Cinema (D)
-https://tvstar.top:443/live/0211539317/0211539317/151274.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID ZING (D)" tvg-logo="" group-title="INDONESIA",ID ZING (D)
-https://tvstar.top:443/live/0211539317/0211539317/151275.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Daai TV (D)" tvg-logo="" group-title="INDONESIA",ID Daai TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151276.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID HBO (D)" tvg-logo="" group-title="INDONESIA",ID HBO (D)
-https://tvstar.top:443/live/0211539317/0211539317/151277.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID KIX (D)" tvg-logo="" group-title="INDONESIA",ID KIX (D)
-https://tvstar.top:443/live/0211539317/0211539317/151278.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Cinema World (D)" tvg-logo="" group-title="INDONESIA",ID Cinema World (D)
-https://tvstar.top:443/live/0211539317/0211539317/151279.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Boomerang (D)" tvg-logo="" group-title="INDONESIA",ID Boomerang (D)
-https://tvstar.top:443/live/0211539317/0211539317/151280.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Jak TV (D)" tvg-logo="" group-title="INDONESIA",ID Jak TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151281.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID HGTV (D)" tvg-logo="" group-title="INDONESIA",ID HGTV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151282.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Euronews (D)" tvg-logo="" group-title="INDONESIA",ID Euronews (D)
-https://tvstar.top:443/live/0211539317/0211539317/151283.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Bloomberg (D)" tvg-logo="" group-title="INDONESIA",ID Bloomberg (D)
-https://tvstar.top:443/live/0211539317/0211539317/151284.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Besmart (D)" tvg-logo="" group-title="INDONESIA",ID Besmart (D)
-https://tvstar.top:443/live/0211539317/0211539317/151285.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID NHK World Premium (D)" tvg-logo="" group-title="INDONESIA",ID NHK World Premium (D)
-https://tvstar.top:443/live/0211539317/0211539317/151286.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Berita Satu (D)" tvg-logo="" group-title="INDONESIA",ID Berita Satu (D)
-https://tvstar.top:443/live/0211539317/0211539317/151287.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID BBC World News" tvg-logo="" group-title="INDONESIA",ID BBC World News
-https://tvstar.top:443/live/0211539317/0211539317/151288.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID CGTN Documentary (D)" tvg-logo="" group-title="INDONESIA",ID CGTN Documentary (D)
-https://tvstar.top:443/live/0211539317/0211539317/151289.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID BBC Earth" tvg-logo="" group-title="INDONESIA",ID BBC Earth
-https://tvstar.top:443/live/0211539317/0211539317/151290.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID CCM (D)" tvg-logo="" group-title="INDONESIA",ID CCM (D)
-https://tvstar.top:443/live/0211539317/0211539317/151291.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TV9 (D)" tvg-logo="" group-title="INDONESIA",ID TV9 (D)
-https://tvstar.top:443/live/0211539317/0211539317/151293.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TVRI (D)" tvg-logo="" group-title="INDONESIA",ID TVRI (D)
-https://tvstar.top:443/live/0211539317/0211539317/151294.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID TV Muhammadiyah (D)" tvg-logo="" group-title="INDONESIA",ID TV Muhammadiyah (D)
-https://tvstar.top:443/live/0211539317/0211539317/151295.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID AnhuiTV  (D)" tvg-logo="" group-title="INDONESIA",ID AnhuiTV  (D)
-https://tvstar.top:443/live/0211539317/0211539317/151296.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Xing Kong TV (D)" tvg-logo="" group-title="INDONESIA",ID Xing Kong TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151297.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Shanghai Dragon TV (D)" tvg-logo="" group-title="INDONESIA",ID Shanghai Dragon TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151298.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Jiangsu TV (D)" tvg-logo="" group-title="INDONESIA",ID Jiangsu TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151299.ts
-#EXTINF:-1 tvg-id="" tvg-name="ID Hunan TV (D)" tvg-logo="" group-title="INDONESIA",ID Hunan TV (D)
-https://tvstar.top:443/live/0211539317/0211539317/151300.ts
-
 
 
 
@@ -3922,45 +2990,102 @@ http://mytv.digital:80/hevern1996/mIovw2mgx6/821793
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 2 HD VIP" tvg-logo="http://ltv-reloaded.xyz:2095/images/tvlogos/FOXSports2.png" group-title="體育世界",US: Fox Sports 2 HD VIP
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24022
-#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 2 HD" tvg-logo="http://ltv-reloaded.xyz:2095/images/tvlogos/FOXSports2.png" group-title="體育世界",US: Fox Sports 2 HD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24023
-#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 2 FHD" tvg-logo="http://ltv-reloaded.xyz:2095/images/tvlogos/FOXSports2.png" group-title="體育世界",US: Fox Sports 2 FHD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24024
-#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 1" tvg-logo="https://cdn.mitvstatic.com/channels/cl_fox-sports-1-hd_m.png" group-title="體育世界",US: Fox Sports 1
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24025
-#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 1 FHD" tvg-logo="https://cdn.mitvstatic.com/channels/cl_fox-sports-1-hd_m.png" group-title="體育世界",US: Fox Sports 1 FHD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24026
-#EXTINF:-1 tvg-id="" tvg-name="US: Fox Sports 1 HD" tvg-logo="https://cdn.mitvstatic.com/channels/cl_fox-sports-1-hd_m.png" group-title="體育世界",US: Fox Sports 1 HD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24027
-#EXTINF:-1 tvg-id="" tvg-name="US: Fox Soccer Plus HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2f/Fox_Soccer_Plus_%28Flat%29.svg/revision/latest?cb=20210112104241" group-title="體育世界",US: Fox Soccer Plus HD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24028
-#EXTINF:-1 tvg-id="" tvg-name="US: Bally Sports San Diego HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bally_Sports_San_Diego_logo.svg/1200px-Bally_Sports_San_Diego_logo.svg.png" group-title="體育世界",US: Bally Sports San Diego HD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24029
 
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN News HD" tvg-logo="https://archive.org/download/EspnNews/espn%20news.png" group-title="體育世界",US: ESPN News HD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24042
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN U HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e1/ESPNU_HD_1.png/revision/latest?cb=20221002035929" group-title="體育世界",US: ESPN U HD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24043
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 1 HD" tvg-logo="https://tinyurl.com/y5xm55ya" group-title="體育世界",US: ESPN 1 HD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24044
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 2 VIP" tvg-logo="http://ltv-reloaded.xyz:2095/images/tvlogos/espn2.png" group-title="體育世界",US: ESPN 2 VIP
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24045
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 2" tvg-logo="http://ltv-reloaded.xyz:2095/images/tvlogos/espn2.png" group-title="體育世界",US: ESPN 2
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24046
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 2 HD" tvg-logo="http://ltv-reloaded.xyz:2095/images/tvlogos/espn2.png" group-title="體育世界",US: ESPN 2 HD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24047
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 2 FHD VIP" tvg-logo="http://ltv-reloaded.xyz:2095/images/tvlogos/espn2.png" group-title="體育世界",US: ESPN 2 FHD VIP
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24048
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 2 FHD" tvg-logo="http://ltv-reloaded.xyz:2095/images/tvlogos/espn2.png" group-title="體育世界",US: ESPN 2 FHD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24049
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 1 VIP" tvg-logo="https://tinyurl.com/y5xm55ya" group-title="體育世界",US: ESPN 1 VIP
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24050
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 1 FHD" tvg-logo="https://tinyurl.com/y5xm55ya" group-title="體育世界",US: ESPN 1 FHD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24051
-#EXTINF:-1 tvg-id="" tvg-name="US: ESPN 3 FHD" tvg-logo="http://ltv-reloaded.xyz:2095/images/tvlogos/espn3.png" group-title="體育世界",US: ESPN 3 FHD
-http://canal-pro.xyz:8080/percycordova/78CBU8fxc76/24052
+#EXTINF:-1 tvg-id="starsports1hd.in" tvg-name="CRIC || STAR SPORTS 1 ENG ᴴᴰ" tvg-logo="http://greenpa1.com/starsports1.png" group-title="體育世界",CRIC || STAR SPORTS 1 ENG ᴴᴰ
+https://tvstar.top:443/live/0211539317/0211539317/148.ts
+#EXTINF:-1 tvg-id="starsports2hd.in" tvg-name="CRIC || STAR SPORTS 2 ENGLISH ᴴᴰ" tvg-logo="http://greenpa1.com/starsports2.png" group-title="體育世界",CRIC || STAR SPORTS 2 ENG ᴴᴰ
+https://tvstar.top:443/live/0211539317/0211539317/239.ts
+#EXTINF:-1 tvg-id="starsportsselect1hd.in" tvg-name="CRIC || STAR SPORTS SELECT 1 ᴴᴰ" tvg-logo="https://static.epg.best/in/StarSportsSelect1.in.png" group-title="體育世界",CRIC || STAR SPORTS SELECT 1 ᴴᴰ
+https://tvstar.top:443/live/0211539317/0211539317/238.ts
+#EXTINF:-1 tvg-id="starsportsselecthd2.in" tvg-name="CRIC || STAR SPORTS SELECT 2 ᴴᴰ" tvg-logo="https://static.epg.best/in/StarSportsSelect2.in.png" group-title="體育世界",CRIC || STAR SPORTS SELECT 2 ᴴᴰ
+https://tvstar.top:443/live/0211539317/0211539317/148801.ts
+
+
+#EXTINF:-1 group-title="體育世界",TNT SPORT 1
+https://tvstar.top:443/live/0211539317/0211539317/23564.ts
+#EXTINF:-1 group-title="體育世界",TNT SPORT 2
+https://tvstar.top:443/live/0211539317/0211539317/23565.ts
+
+
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 1 FHD" tvg-logo="http://starapk1.com/logo/rugby.png" group-title="體育世界",Sky Sport 1 FHD
+https://tvstar.top:443/live/0211539317/0211539317/23997.ts
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 2 FHD" tvg-logo="http://starapk1.com/logo/rugby.png" group-title="體育世界",Sky Sport 2 FHD
+https://tvstar.top:443/live/0211539317/0211539317/23998.ts
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 3 FHD" tvg-logo="http://starapk1.com/logo/rugby.png" group-title="體育世界",Sky Sport 3 FHD
+https://tvstar.top:443/live/0211539317/0211539317/23999.ts
+#EXTINF:-1 tvg-id="" tvg-name="Sky Sport 4 FHD" tvg-logo="http://starapk1.com/logo/rugby.png" group-title="體育世界",Sky Sport 4 FHD
+https://tvstar.top:443/live/0211539317/0211539317/24000.ts
+#EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 5 FHD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7a/SkySportNZ5_2019.png/revision/latest?cb=20190902040033" group-title="體育世界",NZ: Sky Sport 5 FHD
+https://tvstar.top:443/live/0211539317/0211539317/24001.ts
+#EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 6 FHD" tvg-logo="https://static.sky.co.nz/sky/channel-logos/051_sky_sport_6_logo_stack_rgb.png" group-title="體育世界",NZ: Sky Sport 6 FHD
+https://tvstar.top:443/live/0211539317/0211539317/24002.ts
+#EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 7 FHD" tvg-logo="" group-title="體育世界",NZ: Sky Sport 7 FHD
+https://tvstar.top:443/live/0211539317/0211539317/24003.ts
+#EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 8 FHD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9c/SkySportNZ8_2019.png/revision/latest?cb=20190902040627" group-title="體育世界",NZ: Sky Sport 8 FHD
+https://tvstar.top:443/live/0211539317/0211539317/24004.ts
+#EXTINF:-1 tvg-id="" tvg-name="NZ: Sky Sport 9 FHD" tvg-logo="" group-title="體育世界",NZ: Sky Sport 9 FHD
+https://tvstar.top:443/live/0211539317/0211539317/24005.ts
+
+
+
+
+#EXTINF:-1 tvg-id="skysportsf1.uk" tvg-name="UK: Sky Sports F1 (4K)" tvg-logo="https://b.top4top.io/p_247364akp1.png" group-title="體育世界",UK: Sky Sports F1 (4K)
+https://tvstar.top:443/live/0211539317/0211539317/122181.ts
+#EXTINF:-1 tvg-id="skysportsnews.uk" tvg-name="UK || SKY SPORTS NEWS" tvg-logo="https://i.ibb.co/YBWQ2XMg/sky-news.png" group-title="體育世界",UK || SKY SPORTS NEWS
+https://tvstar.top:443/live/0211539317/0211539317/122408.ts
+#EXTINF:-1 tvg-id="skysportsmainevent.uk" tvg-name="UK || SKY SPORTS MAIN EVENT" tvg-logo="https://i.ibb.co/hFqWZn8V/sky-mainevent.png" group-title="體育世界",UK || SKY SPORTS MAIN EVENT
+https://tvstar.top:443/live/0211539317/0211539317/122409.ts
+#EXTINF:-1 tvg-id="skysportspremiereleague.uk" tvg-name="UK || SKY SPORTS PREMIER LEAGUE" tvg-logo="https://i.ibb.co/yFfm6BsT/sky-pl.png" group-title="體育世界",UK || SKY SPORTS PREMIER LEAGUE
+https://tvstar.top:443/live/0211539317/0211539317/122410.ts
+#EXTINF:-1 tvg-id="skysportsfootball.uk" tvg-name="UK || SKY SPORTS FOOTBALL" tvg-logo="https://i.ibb.co/BH2Y4Rhj/sky-football.png" group-title="體育世界",UK || SKY SPORTS FOOTBALL
+https://tvstar.top:443/live/0211539317/0211539317/122411.ts
+#EXTINF:-1 tvg-id="skysportscricket.uk" tvg-name="UK || SKY SPORTS CRICKET" tvg-logo="https://i.ibb.co/GvnHGbtm/sky-cricket.png" group-title="體育世界",UK || SKY SPORTS CRICKET
+https://tvstar.top:443/live/0211539317/0211539317/122412.ts
+#EXTINF:-1 tvg-id="skysportsnfl.uk" tvg-name="UK || SKY SPORTS ACTION" tvg-logo="https://i.ibb.co/whnZLzHs/sky-action.png" group-title="體育世界",UK || SKY SPORTS ACTION
+https://tvstar.top:443/live/0211539317/0211539317/122413.ts
+#EXTINF:-1 tvg-id="4seven.uk" tvg-name="UK || SKY SPORTS PLUS" tvg-logo="https://i.ibb.co/xq8cn9zX/sky-arena.png" group-title="體育世界",UK || SKY SPORTS PLUS
+https://tvstar.top:443/live/0211539317/0211539317/122414.ts
+#EXTINF:-1 tvg-id="skysportsracing.uk" tvg-name="UK || SKY SPORTS RACING" tvg-logo="https://i.ibb.co/sv3x4KtD/sky-racing.png" group-title="體育世界",UK || SKY SPORTS RACING
+https://tvstar.top:443/live/0211539317/0211539317/122415.ts
+#EXTINF:-1 tvg-id="skysportsmix.uk" tvg-name="UK || SKY SPORTS MIX" tvg-logo="https://i.ibb.co/qMJs58BY/sky-mix.png" group-title="體育世界",UK || SKY SPORTS MIX
+https://tvstar.top:443/live/0211539317/0211539317/122416.ts
+#EXTINF:-1 tvg-id="skysportsgolf.uk" tvg-name="UK || SKY SPORTS GOLF" tvg-logo="https://i.ibb.co/R4C5VJFZ/sky-golf.png" group-title="體育世界",UK || SKY SPORTS GOLF
+https://tvstar.top:443/live/0211539317/0211539317/122417.ts
+
+
+#EXTINF:-1 tvg-id="" tvg-name="US: NAT GEO WILD" tvg-logo="" group-title="體育世界",US: NAT GEO WILD
+https://tvstar.top:443/live/0211539317/0211539317/1008.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: TBS HD" tvg-logo="" group-title="體育世界",US: TBS HD
+https://tvstar.top:443/live/0211539317/0211539317/1009.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: NBA TV" tvg-logo="" group-title="體育世界",US: NBA TV
+https://tvstar.top:443/live/0211539317/0211539317/1010.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: ESPN" tvg-logo="" group-title="體育世界",US: ESPN
+https://tvstar.top:443/live/0211539317/0211539317/1011.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: NBA Network" tvg-logo="" group-title="體育世界",US: NBA Network
+https://tvstar.top:443/live/0211539317/0211539317/1012.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: NHL Network" tvg-logo="" group-title="體育世界",US: NHL Network
+https://tvstar.top:443/live/0211539317/0211539317/1013.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: MLB Network" tvg-logo="" group-title="體育世界",US: MLB Network
+https://tvstar.top:443/live/0211539317/0211539317/1014.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: NFL Network" tvg-logo="" group-title="體育世界",US: NFL Network
+https://tvstar.top:443/live/0211539317/0211539317/1015.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: RED BULL TV" tvg-logo="" group-title="體育世界",US: RED BULL TV
+https://tvstar.top:443/live/0211539317/0211539317/1016.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA: TSN 5" tvg-logo="" group-title="體育世界",USA: TSN 5
+https://tvstar.top:443/live/0211539317/0211539317/1017.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA: TSN 4" tvg-logo="" group-title="體育世界",USA: TSN 4
+https://tvstar.top:443/live/0211539317/0211539317/1018.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA: TSN 3" tvg-logo="" group-title="體育世界",USA: TSN 3
+https://tvstar.top:443/live/0211539317/0211539317/1019.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA: TSN 2" tvg-logo="" group-title="體育世界",USA: TSN 2
+https://tvstar.top:443/live/0211539317/0211539317/1020.ts
+#EXTINF:-1 tvg-id="" tvg-name="USA: TSN 1" tvg-logo="" group-title="體育世界",USA: TSN 1
+https://tvstar.top:443/live/0211539317/0211539317/1021.ts
+
+
+
+
+
 
 
 
@@ -5534,6 +4659,8 @@ http://mypanel-4k.com:80/movie/me52pjdqa6/dt2t9r16ja/327384.mkv
 #EXTINF:-1 group-title="mypanel CONCERTS",The Rolling Stones:Live from Amsterdam 1995
 http://mypanel-4k.com:80/movie/me52pjdqa6/dt2t9r16ja/327385.mkv
 
+
+
 #########################################
 
 
@@ -5899,7 +5026,7 @@ https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240126480392.mp4
 #EXTINF:-1 group-title="韓國女團",韓團MTV-184
 https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240355262537.mp4
 #EXTINF:-1 group-title="韓國女團",韓團MTV-185
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240355734488.mp4%EF%BB%BF
+https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240355734488.mp4
 #EXTINF:-1 group-title="韓國女團",韓團MTV-186
 https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240237453313.mp4
 #EXTINF:-1 group-title="韓國女團",韓團MTV-187
@@ -5924,39 +5051,6 @@ https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240370230905.mp4
 https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240160716008.mp4
 #EXTINF:-1 group-title="韓國女團",韓團MTV-198
 https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240389662042.mp4
-#EXTINF:-1 group-title="韓國女團",MTV-麥可·傑克森
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgw9ma4gUo3YLDvgU.mp4m//play/u/57349687/p/1/e/6/t/1/240250429573.mp4#https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgw9ma4gUo3YLDvgU.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞1
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAguOCe9wUotr-RqQU.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞2
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAguuCe9wUoyKfU-gI.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞3
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgl_Ce9wUo6t-WdQ.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞4
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgmeCe9wUoiJmTxgc.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞5
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgj_Ce9wUoqtHxJQ.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞6
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgmuCe9wUokNHLuAQ.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞7
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgneCe9wUouKLe8Ac.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞8
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgyd_e9wUoiNbEwAc.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞9
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAg3N_e9wUogdbOaQ.mp4
-#EXTINF:-1 group-title="韓國女團",印度歌舞10
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAg1t_e9wUouM_i8wM.mp4
-#EXTINF:-1 group-title="韓國女團",印度神曲1
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAg56m04gUokIbBswU.mp4
-#EXTINF:-1 group-title="韓國女團",印度神曲2
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAg45qY9wUonJT41gc.mp4
-#EXTINF:-1 group-title="韓國女團",印度神曲3
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAgvZ6k4wUo0cGkhgQ.mp4
-#EXTINF:-1 group-title="韓國女團",印度神曲4
-http://15799848.s21v.faiusr.com/58/ABUIABA6GAAghrTW4gUojKzXlwI.mp4
-
-
-
 
 
 
@@ -6004,10 +5098,27 @@ https://nl.utako.moe/pigoo/index.m3u8
 https://nl.utako.moe/v_paradise/index.m3u8
 
 
+
 #EXTINF:-1 tvg-id="" tvg-name="XX: ASIAN TV" tvg-logo="http://51.158.145.100/picons/logos/EUROPE/XXX.png" group-title="私密頻道 ADULT",XX: ASIAN TV
 http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629329
 #EXTINF:-1 tvg-id="" tvg-name="XX: NUART TV" tvg-logo="http://51.158.145.100/picons/logos/EUROPE/XXX.png" group-title="私密頻道 ADULT",XX: NUART TV
 http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629260
+
+
+#EXTINF:-1 group-title="私密頻道 ADULT",Adult Asian
+http://91.218.50.136:8080/Rose35torres/iB7101/916027
+#EXTINF:-1 tvg-id="" tvg-name="XXX| ASIAN" tvg-logo="https://lo1.in/xx/p18.png" group-title="私密頻道 ADULT",XXX| ASIAN
+http://mytv-extra.com:80/V713SWTY/D8T8KGTL/134492
+#EXTINF:-1 tvg-id="" tvg-name="XXX| Asian 1" tvg-logo="https://lo1.in/xx/p18.png" group-title="私密頻道 ADULT",XXX| Asian 1
+http://mytv-extra.com:80/V713SWTY/D8T8KGTL/1090277
+#EXTINF:-1 tvg-id="" tvg-name="XXX| Asian Girls 2" tvg-logo="https://lo1.in/xx/p18.png" group-title="私密頻道 ADULT",XXX| Asian Girls 2
+http://mytv-extra.com:80/V713SWTY/D8T8KGTL/1090309
+
+#EXTINF:-1 tvg-id="" tvg-name="XXX: MCTV Asian" tvg-logo="https://docdog.top/logo/countries/xxx/porn18.png" group-title="私密頻道 ADULT",XXX: MCTV Asian
+http://protzpwcf1.top:8080/pro3831767104449/252df4faac14/617
+#EXTINF:-1 tvg-id="" tvg-name="XXX: PHub-Asian" tvg-logo="https://docdog.top/logo/countries/xxx/porn18.png" group-title="私密頻道 ADULT",XXX: PHub-Asian
+http://protzpwcf1.top:8080/pro3831767104449/252df4faac14/698
+
 
 
 #EXTINF:-1 group-title="私密頻道 ADULT",汝工作室

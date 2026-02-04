@@ -362,7 +362,7 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "site": "https://snysw.xyz/mf4kzs327.txt",
+                "site": "https://snysw.xyz/mf4kev328.txt",
                 "dataKey": "1234567887654321",
                 "dataIv": "1234567887654321"
             }
@@ -483,7 +483,8 @@
             "changeable": 1,
             "style": {
                 "type": "list"
-            }
+            },
+            "timeout": 60
         },
         {
             "key": "甜圈短剧",

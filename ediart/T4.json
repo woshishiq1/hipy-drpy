@@ -1,68 +1,68 @@
 {
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
 	"sites": [{
-			"api": "https://newtv.ggff.net/douban?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/douban?token=fhJadO1R",
 			"indexs": 0,
 			"key": "豆瓣首页",
 			"name": "豆瓣首页",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/guazi?token=fhJadO1R",
 			"key": "月佬瓜子影视",
 			"name": "月佬瓜子影视",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/uvod?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/uvod?token=fhJadO1R",
 			"key": "Qile优视频",
 			"name": "Qile优视频",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/aigua?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/aigua?token=fhJadO1R",
 			"key": "嗷呜爱瓜TV",
 			"name": "嗷呜爱瓜TV",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/pingguo?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/pingguo?token=fhJadO1R",
 			"key": "嗷呜小苹果",
 			"name": "嗷呜小苹果",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/duboku?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/duboku?token=fhJadO1R",
 			"key": "独播库",
 			"name": "独播库",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/oule?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/oule?token=fhJadO1R",
 			"key": "欧乐影院",
 			"name": "欧乐影院",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/jianpian?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/jianpian?token=fhJadO1R",
 			"key": "荐片",
 			"name": "荐片",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/jubaba?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/jubaba?token=fhJadO1R",
 			"key": "嗷呜剧爸爸",
 			"name": "嗷呜剧爸爸",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/yongle?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/yongle?token=fhJadO1R",
 			"key": "恰逢永乐",
 			"name": "恰逢永乐",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/ikanbot?token=P69Phb_y",
+			"api": "https://newtv.ggff.net/ikanbot?token=fhJadO1R",
 			"key": "爱看机器人",
 			"name": "爱看机器人",
 			"type": 4

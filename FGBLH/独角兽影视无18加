@@ -599,6 +599,12 @@
             "url": "https://tv.iill.top/m3u/Gather"
         },
         {
+            "name": "🦄Mytv",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://tv.iill.top/m3u/MyTV"
+        },
+        {
             "name": "🦄台湾频道(梯子台湾节点)",
             "type": 0,
             "ua": "okhttp",

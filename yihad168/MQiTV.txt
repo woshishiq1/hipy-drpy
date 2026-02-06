@@ -89,7 +89,7 @@
             "name": "🦄iptvpro直播",
             "type": 0,
             "ua": "okhttp",
-            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro"
+            "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro.txt"
         },
 
         {
@@ -117,6 +117,14 @@
             "ua": "okhttp",
             "url": "http://tv.anbox.ip-ddns.com/live"
         },
+
+        {
+            "name": "🦄anboxtv斯玛特",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://tv.anboxtv.online/tv"
+        },
+
 
  {
       "name": "🔕歐華167🔓🔓VPN",
@@ -842,6 +850,12 @@
     {
       "name": "🔞ZBSS3",
       "url": "https://raw.githubusercontent.com/shenjh2023/2024tv/refs/heads/main/ZBSS3.txt",
+      "type": 1
+   },
+
+    {
+      "name": "🔞ZBSS1",
+      "url": "https://raw.githubusercontent.com/shenjh2023/2024tv/refs/heads/main/ZBSS1.txt",
       "type": 1
    },
 

@@ -699,6 +699,12 @@
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro.txt"
         },
         {
+            "name": "🦄Mytv",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://tv.iill.top/m3u/MyTV"
+        },
+       {
             "name": "🦄jackTV(梯子)",
             "type": 0,
             "ua": "okhttp",

@@ -1,7 +1,7 @@
 {
     "spider": "./xcz.jar",
-    "wallpaper": "https://xcz.iptv365.org/xcz.php",
-    "logo": "https://xcz.iptv365.org/logo.php",
+    "wallpaper": "./xcz.php",
+    "logo": "./logo.php",
     "lives": [
         {
             "name": "Jsnzkpg",
@@ -253,6 +253,16 @@
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
+        },
+        {
+            "key": "应用商店",
+            "name": "🍊应用商店",
+            "type": 3,
+            "api": "csp_Market",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "./json/market.json"
         },
         {
             "key": "预告",

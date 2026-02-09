@@ -1,13 +1,16 @@
 var rule = {
     title: '星之阁[短]',
     host: 'https://api.xingzhige.com',
+    homeUrl: '/API/playlet/?keyword=推荐榜&page=1',
     url: '/API/playlet/?keyword=fyclass&page=fypage',
-    searchUrl: '/API/playlet/?keyword=**&page=1',
+    searchUrl: '/API/playlet/?keyword=**&page=fypage',
+    detailUrl:'/API/playlet/?book_id=fyid',
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
     headers: {
-        'User-Agent': 'MOBILE_UA'
+        'User-Agent': 'okhttp/3.12.11',
+        'Content-Type': 'application/json; charset=utf-8'
     },
     timeout: 5000,
     class_parse: $js.toString(() => {
@@ -77,70 +80,98 @@ var rule = {
         ];
         input = classes;
     }),
-    play_parse: true,
+    play_parse: true,    
     double: true,
     推荐: $js.toString(() => {
-        let html = request('https://api.xingzhige.com/API/playlet/?keyword=推荐榜');
-        let data = JSON.parse(html).data;
-        VODS = data.map(item => ({
-            vod_id: 'https://api.cenguigui.cn/api/duanju/api.php?book_id=' + item.book_id,
-            vod_name: item.title,
-            vod_pic: item.cover,
-            vod_remarks: item.type
-        }));
+        let html = request(input);
+        let data = JSON.parse(html);
+        if (data && data.data) {
+            VODS = data.data.map(item => ({
+                vod_id: `${item.book_id}@${item.author}`,
+                vod_name: item.title,
+                vod_pic: item.cover,
+                vod_remarks: item.type
+            }));
+        } else {
+            VODS = [];
+        }
     }),
     一级: $js.toString(() => {
         let html = request(input);
-        let data = JSON.parse(html).data;
-        VODS = data.map(item => ({
-            vod_id: 'https://api.cenguigui.cn/api/duanju/api.php?book_id=' + item.book_id,
-            vod_name: item.title,
-            vod_pic: item.cover,
-            vod_remarks: item.type
-        }));
-    }),
-    二级: $js.toString(() => {
-        let html = request(input);
         let data = JSON.parse(html);
-        let vod_name = data.title || '';
-        let vod_pic = data.cover || '';
-        let vod_remarks = data.duration || '';
-        let vod_actor = data.author || '';
-        let vod_content = data.desc ? data.desc : '';
-        let vod_play_from = '默认线路';
-        let vod_play_url = '';
-        
-        if (data.data && data.data.length > 0) {
-            vod_play_url = data.data.map((item, index) => 
-                '第' + (index + 1) + '集$' + 'https://api.cenguigui.cn/api/duanju/api.php?video_id=' + item.video_id + '&quality=1080p'
-            ).join('#');
+        if (data && data.data) {
+            VODS = data.data.map(item => ({
+                vod_id: `${item.book_id}@${item.author}`,
+                vod_name: item.title,
+                vod_pic: item.cover,
+                vod_remarks: item.type
+            }));
+        } else {
+            VODS = [];
         }
+    }),    
+    二级: $js.toString(() => {
+        let [kid, kactor] = input.split('@');
+        let html = request(kid);
+        let kdetail = JSON.parse(html);
+        let detail = kdetail.data.detail || {};
+        let video_list = kdetail.data.video_list || [];        
+        let kurls = video_list.map((it) => {
+            return `${it.title}$${it.video_id}`
+        }).join('#');
         
         VOD = {
-            vod_name: vod_name,
-            vod_pic: vod_pic,
-            vod_remarks: vod_remarks,
-            vod_actor: vod_actor,
-            vod_content: vod_content,
-            vod_play_from: vod_play_from,
-            vod_play_url: vod_play_url
-        };
+            vod_id: kid,
+            vod_name: detail.title || '',
+            vod_pic: detail.cover || '',
+            type_name: detail.category_schema || '',
+            vod_remarks: `共${detail.total || 0}集 · ${detail.duration || ''}`,
+            vod_director: detail.record_number || '',
+            vod_actor: kactor, 
+            vod_content: detail.desc || '',
+            vod_play_from: '星之阁专线',
+            vod_play_url: kurls
+        }
     }),
     搜索: $js.toString(() => {
         let html = request(input);
-        let data = JSON.parse(html).data;
-        VODS = data.map(item => ({
-            vod_id: 'https://api.cenguigui.cn/api/duanju/api.php?book_id=' + item.book_id,
-            vod_name: item.title,
-            vod_pic: item.cover,
-            vod_remarks: item.type
-        }));
-    }),
-    lazy: $js.toString(() => {
-        let html = request(input);
         let data = JSON.parse(html);
-        if (data && data.code === 200 && data.data && data.data.url) {
-            input = data.data.url;
+        if (data && data.data) {
+            VODS = data.data.map(item => ({
+                vod_id: `${item.book_id}@${item.author}`, 
+                vod_name: item.title,
+                vod_pic: item.cover,
+                vod_remarks: item.type
+            }));
+        } else {
+            VODS = [];
+        }
+    }),    
+    lazy: $js.toString(() => {
+        let video_id = input;
+        let qualities = ['1080p', '720p'];
+        let video_url = '';        
+        for (let i = 0; i < qualities.length; i++) {
+            let quality = qualities[i];
+            let api_url = HOST + '/API/playlet/?video_id=' + video_id + '&quality=' + quality;
+            try {
+                let html = request(api_url, {
+                    headers: {
+                        'User-Agent': 'okhttp/3.12.11',
+                        'Content-Type': 'application/json; charset=utf-8'
+                    }
+                });
+                let data = JSON.parse(html);
+                if (data && data.data && data.data.video && data.data.video.url) {
+                    video_url = data.data.video.url;
+                    break;
+                }
+            } catch (e) {
+                continue;
+            }
+        }        
+        if (video_url) {
+            input = video_url;
         } else {
             input = input;
         }

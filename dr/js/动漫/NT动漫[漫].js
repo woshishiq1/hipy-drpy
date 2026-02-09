@@ -3,6 +3,7 @@ var rule = {
     title: 'NT动漫',
     host: 'http://www.ntdm8.com',
     homeUrl: '/type/riben.html',
+    // url:'/show/fyclass--------fypage---.html',
     url: '/show/fyclassfyfilter.html',
     filterable: 1, //是否启用分类筛选,
     filter_url: '--{{fl.by}}-{{fl.class}}--{{fl.letter}}---fypage---{{fl.year}}',
@@ -13,6 +14,9 @@ var rule = {
             "value": [{
                 "n": "全部",
                 "v": ""
+            }, {
+                "n": "2026",
+                "v": "2026"
             }, {
                 "n": "2025",
                 "v": "2025"
@@ -340,6 +344,9 @@ var rule = {
                 "n": "全部",
                 "v": ""
             }, {
+                "n": "2026",
+                "v": "2026"
+            }, {
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -665,6 +672,9 @@ var rule = {
             "value": [{
                 "n": "全部",
                 "v": ""
+            }, {
+                "n": "2026",
+                "v": "2026"
             }, {
                 "n": "2025",
                 "v": "2025"

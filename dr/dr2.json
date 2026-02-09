@@ -41,7 +41,7 @@
 {"key": "dr_03影院[优]","name": "🍒03影院[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/03影院[优].js"},
 {"key": "dr_金牌[优]","name": "🍒金牌[影][DR]","type": 3,"api": "./libs/drpy2.min.js","click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./js/影视/金牌[优].js"},
 {"key": "dr_厂长资源[优]","name": "🍒厂长资源[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/厂长资源[优].js"},
-
+  
 //{"key":"csp_厂长","name":"🍒厂长[影][SP]","type":3,"api":"csp_NewCzGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"jar": "./sp/fty.jpg;md5;9b3e327c02439fe4e1d6223beca9ed17"},
 
 //{"key": "dr_模板[短]","name": "🥝模板[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/模板[短].js"},
@@ -55,6 +55,7 @@
 
 {"key": "dr_星芽短剧[短]","name": "🥝星芽短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/星芽短剧[短].js"},
 {"key": "dr_甜圈短剧[短]","name": "🥝甜圈短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/dr_甜圈短剧[短].js"},
+{"key": "dr_甜圈短剧2[短]","name": "🥝甜圈短剧2[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/甜圈短剧[短].js"},
 {"key": "dr_番茄短剧[短]","name": "🥝番茄短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/番茄短剧[短].js"},
 {"key": "dr_锦鲤短剧[短]","name": "🥝锦鲤短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/锦鲤短剧[短].js"},
 {"key": "dr_围观短剧[短]","name": "🥝围观短剧[短][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/短剧/围观短剧[短].js"},
@@ -67,11 +68,15 @@
 {"key": "py_剧王短剧[短]","name": "🥝剧王短剧[短][PY]","type": 3,"api": "./py/短/剧王短剧.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_星星短剧[短]","name": "🥝星星短剧[短][PY]","type": 3,"api": "./py/短/星星短剧.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_七猫短剧[短]","name": "🥝七猫短剧[短][PY]","type": 3,"api": "./py/短/七猫短剧.py","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key": "py_牛牛短剧[短]","name": "🥝牛牛短剧[短][PY]","type": 3,"api": "./py/短/牛牛.py","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key": "py_牛牛短剧[短]","name": "🥝牛牛短剧[短][PY]","type": 3,"api": "./py/短/牛牛短剧.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_西饭短剧[短]","name": "🥝西饭短剧[短][PY]","type": 3,"api": "./py/短/西饭短剧.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_碎片剧场[短]","name": "🥝碎片剧场[短][PY]","type": 3,"api": "./py/短/碎片剧场.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_锦鲤短剧[短]","name": "🥝锦鲤短剧[短][PY]","type": 3,"api": "./py/短/锦鲤短剧.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 
+
+{"key": "全能短剧","name": "🥝全能短剧[短][SP]","type": 3,"api": "csp_DuanJuCen","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {"classes": "./sp/json/duanjucen.json"},"jar": "./sp/vox.jar?md5=1058ddfeb9b54e8775761a44398a3aa6"},
+{"key": "星之阁短剧AI","name": "🥝星之阁短剧[短][SP]","type": 3,"api": "csp_XingZhiGe","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {"classes": "./sp/json/duanjucen.json"},"jar": "./sp/vox.jar?md5=1058ddfeb9b54e8775761a44398a3aa6"},
+        
 {"key":"cat_聚合短剧[短]","name":"🥝聚合短剧[短][CAT]","type":3,"api":"./cat/短/cat_聚合短剧[短].js"},
 
 {"key": "csp_XBPQ_番茄","name": "🥝番茄[短]┃XBPQ","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./json/XBPQ/短/番茄.json"},
@@ -106,6 +111,7 @@
 {"key": "py_央视片库","name": "🍑央视片库[影][PY]","type": 3,"api": "./py/综/央视片库.py"},
 {"key": "py_看客TV","name": "🍑看客TV[影][PY]","type": 3,"api": "./py/综/看客TV.py"},
 {"key": "py_壹影视","name": "🍑壹影视[影][PY]","type": 3,"api": "./py/综/壹影视.py"},
+{"key": "py_独播库","name": "🍑独播库[影][PY]","type": 3,"api": "./py/综/独播库.py"},
 {"key": "py_老地方影院","name": "🍑老地方[影][PY]","type": 3,"api": "./py/综/老地方影院.py"},
 {"key": "py_47电影天堂","name": "🍑电影天堂[影][PY]","type": 3,"api": "./py/综/47电影天堂.py"},
 {"key": "py_4K影视","name": "🍑4K影视[影][PY]","type": 3,"api": "./py/综/4K影视.py"},
@@ -126,12 +132,16 @@
 {"key": "py_懒懒视频","name": "🍑懒懒[影][PY]","type": 3,"api": "./py/综/懒懒视频.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_麻雀视频","name": "🍑麻雀[影][PY]","type": 3,"api": "./py/综/麻雀视频.py"},
 
+
 //{"key": "dr_AppGet_模板","name": "🍐模板[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/模板/AppGet模板.js?type=url&params=域名$key$iv"},
 {"key": "dr_AppGet_橘子","name": "🍐橘子[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/模板/AppGet模板.js?type=url&params=https://api1.bffree.cn$2015692015692015$2015692015692015"},
 {"key": "dr_AppGet_外剧","name": "🍐外剧[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/模板/AppGet模板.js?type=url&params=https://guowaiju.com$7xv16h7qgkrs9b1p$7xv16h7qgkrs9b1p"},
 {"key": "dr_AppGet_沐沐","name": "🍐沐沐[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/模板/AppGet模板.js?type=url&params=http://xk.ys088.cn$1846397456616237$1846397456616237"},
 
+//{"key": "wv_jqqzx","name": "🍆剧圈圈[VOD]","api": "csp_WvSpider","type": "3","ext": "./vod/剧圈圈.js","searchable": 1,"filterable": 1,"switchable": 1,"jar": "./sp/WvSpider.jar"},
+
 //{"key": "dr_模板","name": "🍊模板[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/模板.js"},
+{"key": "dr_329K影视","name": "🍊329K影视[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/329K影视.js"},
 {"key": "dr_大米影视","name": "🍊大米影视[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/大米影视.js"},
 {"key": "dr_菊朵朵","name": "🍊菊朵朵[影][DR]","type": 3,"api": "./libs/drpy2.min.js","click":"document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();","ext": "./js/影视/菊朵朵.js"},
 {"key": "dr_985影视","name": "🍊985影视[影][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/影视/985影视.js"},
@@ -406,6 +416,8 @@
 {"key": "dr_MuteFun[漫]","name": "🍇MuteFun[漫][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/动漫/MuteFun[漫].js"},
 {"key": "dr_趣漫[漫]","name": "🍇趣漫[漫][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/动漫/趣漫[漫].js"},
 {"key": "dr_樱之空[漫]","name": "🍇樱之空[漫][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/动漫/樱之空[漫].js"},
+{"key": "dr_风铃动漫[漫]","name": "🍇风铃动漫[漫][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/动漫/风铃动漫[漫].js"},
+{"key": "dr_异世界[漫]","name": "🍇异世界[漫][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/动漫/异世界[漫].js"},
 
 {"key": "py_三号动漫APP","name": "🍇三号动漫[漫][PY]","type": 3,"api": "./py/app/三号动漫APP.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_嗷呜动漫","name": "🍇嗷呜动漫[漫][PY]","type": 3,"api": "./py/漫/嗷呜动漫.py","searchable": 1,"quickSearch": 1,"filterable": 1},
@@ -414,7 +426,12 @@
 {"key": "py_2k动漫","name": "🍇2k动漫[漫][PY]","type": 3,"api": "./py/模板//skapp.py","ext": {"host": "https://dmsk.oss-rg-china-mainland.aliyuncs.com/dmapp/dmapi.txt","key": "ygcnbcobcegtgigg","iv": "4058263969143708"}},
 {"key": "py_番薯动漫","name": "🍇番薯动漫[漫][PY]","type": 3,"api": "./py/模板/AppGet.py","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"host": "https://new.app.bytegooty.com","api": "/api.php/getappapi","datakey": "N4yj7l7xKxHF4*gz","dataiv": "N4yj7l7xKxHF4*gz"}},
 {"key": "py_方舟动漫","name": "🍇方舟动漫[漫][PY]","type": 3,"api": "./py/模板/AppGet.py","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"host": "https://www.cyfz.vip","api": "/api.php/getappapi","datakey": "e72cdfd629e8895d","dataiv": "e72cdfd629e8895d"}},
-        
+
+{"key": "py_云屋动漫","name": "🍇云屋动漫[漫][PY]","type": 3,"api": "./py/模板/AppGet.py","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"host": "https://www.yunwuee.icu","api": "/api.php/getappapi","datakey": "ygcnb9bdcmb8aeiw","dataiv": "ygcnb9bdcmb8aeiw"}},
+{"key": "py_卡卡动漫","name": "🍇卡卡动漫[漫][PY]","type": 3,"api": "./py/模板/AppGet.py","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"host": "http://154.201.90.53:8002","api": "/api.php/getappapi","datakey": "123456789abcdefg","dataiv": "123456789abcdefg"}},
+{"key": "py_丫丫动漫","name": "🍇丫丫动漫[漫][PY]","type": 3,"api": "./py/模板/AppGet.py","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"host": "http://tv.yy-fun.cc","api": "/api.php/getappapi","datakey": "qkxnwkfjwpcnwycl","dataiv": "qkxnwkfjwpcnwycl"}},
+{"key": "py_元咲动漫","name": "🍇元咲动漫[漫][PY]","type": 3,"api": "./py/模板/AppGet.py","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": {"host": "http://cic.aicg.fun","api": "/api.php/getappapi","datakey": "2c4h36abd96se10u","dataiv": "2c4h36abd96se10u"}},
+   
 {"key": "dr_酷我听书[听]","name": "🍋酷我听书[听][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/听书/酷我听书[听].js"},
 {"key": "dr_博看听书[听]","name": "🍋博看听书[听][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/听书/博看听书[听].js"},
 {"key": "dr_六月听书[听]","name": "🍋六月听书[听][DR]","type": 3,"api": "./libs/drpy2.min.js","ext": "./js/听书/六月听书[听].js"},
@@ -451,8 +468,10 @@
 
 {"key": "py_网易云","name": "🍈网易云[音][PY]","type": 3,"api": "./py/音/网易云音乐.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_深港音乐","name": "🍈深港音乐[音][PY]","type": 3,"api": "./py/音/深港音乐汇.py","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key": "py_爱听音乐","name": "🍈爱听音乐[音][PY]","type": 3,"api": "./py/音/爱听音乐网.py","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key": "py_爱听音乐","name": "🍈爱听音乐[音][PY]","type": 3,"api": "./py/音/爱听音乐.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "py_HIFI音乐","name": "🍈HIFI音乐[音][PY]","type": 3,"api": "./py/音/HIFI音乐APP.py","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key": "py_YY音乐","name": "🍈YY音乐[音][PY]","type": 3,"api": "./py/音/yymp3.py","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key": "py_枫叶音乐","name": "🍈枫叶音乐[音][PY]","type": 3,"api": "./py/音/枫叶音乐.py","searchable": 1,"quickSearch": 1,"filterable": 1},
 
 {"key":"dr_央视合集[央]","name":"🥭央视合集[央][DR]","type":3,"api":"./libs/drpy2.min.js","ext":"./js/官源/央视合集[央].js"},
 {"key":"dr_央视大全[央]","name":"🥭央视大全[央][DR]","type":3,"api":"./libs/drpy2.min.js","ext":"./js/官源/央视大全[央].js"},
@@ -589,7 +608,7 @@
 
 "rules":[
 //{"name":"魔都[正则❅时长]","hosts":["modujx","play.modujx11"],"regex":["13.201"]},
-{"name":"硬核[正则❅时长]","hosts":["ryplay","svip.ryplay","cdn.ryplay"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6\\.633333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8\\.333333,[\\s\\S].*?\\.ts","#EXTINF:2\\.933333,[\\s\\S].*?\\.ts","10.6","11.68","9.36","8.68","18.12","11.266667","8.24"]},
+{"name":"硬核[正则❅时长]","hosts":["ryplay","svip.ryplay","cdn.ryplay"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:(?:6\\.633333),[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8\\.333333,[\\s\\S].*?\\.ts","#EXTINF:2\\.933333,[\\s\\S].*?\\.ts","10.6","11.68","9.36","8.68","18.12","11.266667","8.24","20"]},
 {"name": "鸭鸭[正则❅时长]","hosts": ["v2.qdhdcate","qdhdcate","v2.ffhij","ffhij"],"regex": ["#EXTINF:3\\.080000,[\\s\\S]*?(#EXTINF:\\d+\\.\\d+,[\\s\\S]*?){14}"]},     
 //{"name":"非凡[正则❅时长]","hosts":["ffzy","vip.ffzy","svipsvip.ffzy","vip.ffzy-play2","ffzy-play2","hd.ffzy","ffzy-online5","cachem3u8.2s0"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:(?:2\\.966667|2\\.433333|6\\.666667|6\\.667|6\\.6|6\\.000000|5\\.800000|5\\.266667),[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1171(057).*?\\.ts","#EXTINF.*?\\s+.*?6d7b(077).*?\\.ts","#EXTINF.*?\\s+.*?6718a(403).*?\\.ts"]},
 //{"name": "量子[正则❅时长]","hosts": ["lz","vip1.lz","vip.lz","hd.lz",".cdnlz"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7\\.166667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?08646.*?\\.ts","17.19","19.63"]},
@@ -660,6 +679,8 @@
 "lives":[
 {"name":"IPTV-v4","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u","ua": "okhttp/3.15","epg":"https://e.erw.cc/all.xml","logo":"https://epg.v1.mk/logo/{name}.png"},
 {"name":"IPTV-result","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u","ua": "okhttp/3.15","epg":"https://e.erw.cc/all.xml","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name": "港澳","url": "https://live.catvod.com/tv.m3u","epg": "http://epg.51zmt.top:8000/e.xml","ua": "Goiptv/8.8.8","catchup": {"type": "append","replace": "livemode=1,livemode=4","source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},
+{"name": "咪咕","type": 0,"url": "https://iptv.catvod.com/tv.m3u","ua": "Goiptv/8.8.8","timeout": 10,"playerType": 2},
 {"name":"CCSH","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.txt","ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"雷蒙","type":0,"url":"https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt","ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name": "myIPTV", "type": 0, "url": "https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u"}, 

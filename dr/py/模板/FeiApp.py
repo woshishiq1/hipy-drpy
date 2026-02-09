@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # 本资源来源于互联网公开渠道，仅可用于个人学习爬虫技术。
 # 严禁将其用于任何商业用途，下载后请于 24 小时内删除，搜索结果均来自源站，本人不承担任何责任。
 
@@ -18,11 +19,29 @@ class Spider(Spider):
             self.host = host.rstrip('/')
 
     def homeContent(self, filter):
-        response = self.fetch(f'{self.host}/api.php?type=getsort', headers=self.headers,verify=False).json()
-        classes = []
+        response = self.fetch(f'{self.host}/api.php?type=getsort', headers=self.headers, verify=False).json()
+        classes, filters = [], {}
         for i in response['list']:
-            classes.append({'type_id':i['type_id'],'type_name':i['type_name']})
-        return {'class': classes}
+            type_id = i['type_id']
+            classes.append({'type_id': type_id, 'type_name': i['type_name']})
+            if 'type_extend' in i:
+                extend = i['type_extend']
+                filter_list = []
+                if 'class' in extend and extend['class']:
+                    value_list = [{"n": "全部", "v": "全部"}]
+                    for val in extend['class'].split(','):
+                        if val.strip():
+                            value_list.append({"n": val.strip(), "v": val.strip()})
+                    filter_list.append({"key": "class", "name": "类型", "init": "全部", "value": value_list})
+                if 'year' in extend and extend['year']:
+                    value_list = [{"n": "全部", "v": "全部"}]
+                    for val in extend['year'].split(','):
+                        if val.strip():
+                            value_list.append({"n": val.strip(), "v": val.strip()})
+                    filter_list.append({"key": "year", "name": "年份", "init": "全部", "value": value_list})
+                if filter_list:
+                    filters[type_id] = filter_list
+        return {'class': classes, 'filters': filters}
 
     def homeVideoContent(self):
         response = self.fetch(f'{self.host}/api.php?type=getHome', headers=self.headers,verify=False).json()
@@ -47,13 +66,16 @@ class Spider(Spider):
         return {'list': response['list'], 'page': pg}
 
     def detailContent(self, ids):
-        response = self.fetch(f'{self.host}/api.php?type=getVodinfo&id={ids[0]}', headers=self.headers,verify=False).json()
-        show = ''
-        vod_play_url = ''
+        response = self.fetch(f'{self.host}/api.php?type=getVodinfo&id={ids[0]}', headers=self.headers, verify=False).json()
+        show = []
+        vod_play_url = []
         for i in response['vod_player']['list']:
-            show += i.get('from','') + '$$$'
-            play_url = i.get('url','')
-            vod_play_url += '#'.join(f"{item}@{ids[0]}" for item in play_url.split('#')) + '$$$'
+            if i.get('ps', '') == i.get('from', ''):
+                show.append(i.get('from', ''))
+            else:
+                show.append(f"{i.get('ps', '').replace('(广告勿信)', '')}\u2005({i.get('from', '')})")
+            play_url = i.get('url', '')
+            vod_play_url.append('#'.join(f"{item}@{ids[0]}" for item in play_url.split('#')))
         videos = [{
             'vod_name': response.get('vod_name'),
             'vod_pic': response.get('vod_pic'),
@@ -64,26 +86,27 @@ class Spider(Spider):
             'vod_content': response.get('vod_blurb'),
             'vod_remarks': response.get('vod_remarks'),
             'vod_lang': response.get('vod_lang'),
-            'vod_play_from': show.rstrip('$$$'),
-            'vod_play_url': vod_play_url.rstrip('$$$')
+            'vod_play_from': '$$$'.join(show),
+            'vod_play_url': '$$$'.join(vod_play_url)
         }]
         return {'list': videos}
 
     def playerContent(self, flag, id, vipflags):
-        jx, ua = 0, 'Dalvik/2.1.0 (Linux; U; Android 14; Xiaomi 15 Build/SQ3A.220705.004)'
+        jx, ua, url = 0, 'Dalvik/2.1.0 (Linux; U; Android 14; Xiaomi 15 Build/SQ3A.220705.004)', ''
         ua2 = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36'
-        vodurl, vodid = id.split('@')
-        if re.match(r'https?:\/\/.*\.(m3u8|mp4|flv)', vodurl):
-            url = vodurl
-        else:
-            try:
-                response = self.fetch(f'{self.host}/api.php?type=jx&vodurl={vodurl}&vodid={vodid}', headers=self.headers,verify=False).json()
-                url = response['url']
-                if not url.startswith('http') or url == vodurl:
-                    jx, url, ua = 1, vodurl, ua2
-            except Exception:
-                jx, url, ua = 1, vodurl, ua2
-        return {'jx': jx, 'parse': 0, 'url': url,'header': {'User-Agent': ua}}
+        vod_url, vod_id = id.split('@')
+        try:
+            response = self.fetch(f'{self.host}/api.php?type=jx&vodurl={vod_url}&vodid={vod_id}', headers=self.headers, verify=False).json()
+            play_url = response['url']
+            if url.startswith('http'):
+                url = play_url
+        except Exception:
+            pass
+        if not url:
+            url = vod_url
+            if re.search(r'(?:www\.iqiyi|v\.qq|v\.youku|www\.mgtv|www\.bilibili)\.com', vod_url):
+                jx, ua = 1, ua2
+        return {'jx': jx, 'parse': 0, 'url': url, 'header': {'User-Agent': ua}}
 
     def getName(self):
         pass

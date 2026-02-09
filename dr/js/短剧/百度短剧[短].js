@@ -72,7 +72,7 @@ var rule = {
     }),
     
     lazy: $js.toString(() => {
-        let item = JSON.parse(request(`https://api.jkyai.top/API/bddjss.php?video_id=${input}`));
+        let item = JSON.parse(request(`https://yunzhiapi.cn/API/bddjss.php?video_id=${input}`));
         let qualities = item.data.qualities;
         let urls = [];
         

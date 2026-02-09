@@ -36,7 +36,7 @@ const aggConfig = {
   },
   platform: {
     百度: {
-      host: 'https://api.jkyai.top',
+      host: 'https://yunzhiapi.cn',
       url1: '/API/bddjss.php?name=fyclass&page=fypage',
       url2: '/API/bddjss.php?id=fyid',
       search: '/API/bddjss.php?name=**&page=fypage'
@@ -109,8 +109,8 @@ const aggConfig = {
     { name: '西饭短剧', id: '西饭' },
     { name: '软鸭短剧', id: '软鸭' },
     { name: '七猫短剧', id: '七猫' },
-   // { name: '牛牛短剧', id: '牛牛' },
-    //{ name: '百度短剧', id: '百度' },
+    //{ name: '牛牛短剧', id: '牛牛' },
+    { name: '百度短剧', id: '百度' },
     { name: '围观短剧', id: '围观' },
     { name: '碎片剧场', id: '碎片' }
   ],
@@ -1409,7 +1409,7 @@ async function detail(id) {
 //播放
 async function play(flag, id, flags) {
   if (/百度/.test(flag)) {
-    const response = await request(`https://api.jkyai.top/API/bddjss.php?video_id=${id}`);
+    const response = await request(`https://yunzhiapi.cn/API/bddjss.php?video_id=${id}`);
     const item = JSON.parse(response);
     if (item && item.data && item.data.qualities) {
       let qualities = item.data.qualities;

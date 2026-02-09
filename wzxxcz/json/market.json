@@ -5,7 +5,7 @@
       {
         "name": "应用商店",
         "url": "",
-        "icon": "./yysdlogo.jpg",
+        "icon": "https://xcz.iptv365.org/yysdlogo.jpg",
         "version": " "
       }
     ]
@@ -16,31 +16,31 @@
       {
         "name": "手机端(64位)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/mobile-arm64_v8a-3.6.8.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.6.8"
       },
       {
         "name": "手机端(32位)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/mobile-armeabi_v7a-3.6.8.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.6.8"
       },
       {
         "name": "电视端(64位)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/leanback-arm64_v8a-3.6.8.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.6.8"
       },
       {
         "name": "电视端(32位)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/leanback-armeabi_v7a-3.6.8.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.6.8"
       },
       {
         "name": "电视端(海信)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/hxzb-OKys-3.6.8.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.6.8"
       }
     ]
@@ -51,31 +51,31 @@
       {
         "name": "手机端(64位)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-sjb-3.9.9.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.9.9"
       },
       {
         "name": "手机端(模拟器)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-sjb-3.9.9.-.mnq.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.9.9"
       },
       {
         "name": "电视端(64位)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-dsb-64.-3.9.9.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.9.9"
       },
       {
         "name": "电视端(32位)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-dsb-32.-3.9.9.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.9.9"
       },
       {
         "name": "电视端(海信)",
         "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/hxzb-OKys-3.6.8.apk",
-        "icon": "./yysdok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.9.9"
       }
     ]
@@ -86,25 +86,25 @@
       {
         "name": "手机端(64位)",
         "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
-        "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "Fongmi"
       },
       {
         "name": "手机端(32位)",
         "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
-        "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "Fongmi"
       },
       {
         "name": "电视端(64位)",
         "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
-        "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "Fongmi"
       },
       {
         "name": "电视端(32位)",
         "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
-        "icon": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260206/w52b/500X500/ok.png",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "Fongmi"
       }
     ]

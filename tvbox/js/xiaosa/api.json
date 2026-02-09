@@ -203,6 +203,19 @@
             }
         },
         {
+            "key": "旗星",
+            "name": "旗星｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "http://ys.qist.top/dtym.txt",
+                "dataKey": "2SWSPFxugBLPPOKo",
+                "dataIv": "2SWSPFxugBLPPOKo"
+            }
+        },
+        {
             "key": "缘梦",
             "name": "缘梦｜APP",
             "type": 3,

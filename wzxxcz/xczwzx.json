@@ -40,6 +40,78 @@
             "url": "http://113.44.65.227:1234"
         },
         {
+            "name": "迪基",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://1.94.31.214/live/live9/dgtv.txt"
+        },
+        {
+            "name": "蜂巢",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://ibox.x10.mx/555.txt"
+        },
+        {
+            "name": "米米",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gitee.com/yimi321/tv/raw/master/tv.png"
+        },
+        {
+            "name": "CXS",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://16227.kstore.space/cxs.txt"
+        },
+        {
+            "name": "guovin",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gongdian.top/tv/guovin"
+        },
+        {
+            "name": "migu",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://www.52top.com.cn:678/downloads/migu.txt"
+        },
+        {
+            "name": "体育",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://www.52top.com.cn:678/list.php?fileid=ty.php"
+        },
+        {
+            "name": "小南",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://a.xncjys.xyz/dszb/xnds.txt"
+        },
+        {
+            "name": "vBMSZ",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://pan.ymxx.net/f/vBMSZ/临时测试.txt"
+        },
+        {
+            "name": "wy",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://43.251.226.89:8080/live.txt"
+        },
+        {
+            "name": "蚂蚁",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://ox.my.to//i/蚂蚁.txt"
+        },
+        {
+            "name": "q1017673817",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt"
+        },
+        {
             "name": "小白",
             "type": 0,
             "ua": "okhttp/5.3.2",
@@ -4029,16 +4101,6 @@
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
             }
-        },
-        {
-            "key": "3Q影视",
-            "name": "🍊3Q影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XBPQ/3Q影视.json"
         },
         {
             "key": "Vision TV+",

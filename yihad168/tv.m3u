@@ -130,6 +130,157 @@ https://nl.utako.moe/pigoo/index.m3u8
 https://nl.utako.moe/v_paradise/index.m3u8
 
 
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEOKMCajXKrOHBEsE_ANAs9x2NAOqFndMug&s",NHK-G (Tokyo) HD 
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEOKMCajXKrOHBEsE_ANAs9x2NAOqFndMug&s",NHK-G (Tokyo)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEOKMCajXKrOHBEsE_ANAs9x2NAOqFndMug&s",NHK-G (Osaka)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/NHKE%E3%83%86%E3%83%AC%E3%83%AD%E3%82%B42020-.png",NHK-E HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/NHKE%E3%83%86%E3%83%AC%E3%83%AD%E3%82%B42020-.png",NHK-E
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/NHK_BS.png",NHK BS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/64/NHK_BS4K.svg/revision/latest/scale-to-width-down/250?cb=20231124144931",NHK BSP4K
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://obs.line-scdn.net/0haKF4nC9TPmR7TS0Rt-lBM0MbMhVIKyRtWSsiCw4dYFQCYXtmTyhtB14ZaEheL35mWyIiAV9KNQNfeSpnEw/w644",Nippon TV HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://obs.line-scdn.net/0haKF4nC9TPmR7TS0Rt-lBM0MbMhVIKyRtWSsiCw4dYFQCYXtmTyhtB14ZaEheL35mWyIiAV9KNQNfeSpnEw/w644",Nippon TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHg99C_CWkM_xXR7GqCrffrCYmS-EsK2776w&s",TBS HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHg99C_CWkM_xXR7GqCrffrCYmS-EsK2776w&s",TBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://inboundnavi.jp/wp-content/uploads/2016/04/%E3%83%95%E3%82%B8%E3%83%86%E3%83%AC%E3%83%93-%E3%83%AD%E3%82%B4.png",Fuji TV HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://inboundnavi.jp/wp-content/uploads/2016/04/%E3%83%95%E3%82%B8%E3%83%86%E3%83%AC%E3%83%93-%E3%83%AD%E3%82%B4.png",Fuji TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-137-400x400.png",TV NEXT
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/1200px-TV_Asahi_Logo.svg.png",Asahi HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TV_Asahi_Logo.svg/1200px-TV_Asahi_Logo.svg.png",Asahi
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/TV_Tokyo_logo_2023.svg/2560px-TV_Tokyo_logo_2023.svg.png",TV Tokyo HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/TV_Tokyo_logo_2023.svg/2560px-TV_Tokyo_logo_2023.svg.png",TV Tokyo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://asianwiki.com/images/9/9e/ABC-TV-Osaka-pr1.png",ABC
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/ultimatepopculture/images/a/aa/Ktv_logo.png/revision/latest?cb=20200821080929",Kansai TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.tv-osaka.co.jp/dtv/images/tvologo.gif",TV Osaka
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mainichi_Broadcasting_System_logo.svg/2560px-Mainichi_Broadcasting_System_logo.svg.png",MBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Yomiuri_Telecasting_Corporation_Logo.svg/1200px-Yomiuri_Telecasting_Corporation_Logo.svg.png",YTV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0b/SUN_TV_logo.png",SUN TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx07
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-160-400x400.png",MONDO TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/2560px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png",TOKYO MX1 HD
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd08
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/2560px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png",TOKYO MX1
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj7cyWxyUUfn8XAeTVL6iYTXSqKR2mXsdNU14e33svP9FRPPGCCKG4RZtP2SstET37aQo&usqp=CAU",BS Asahi
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://i0.wp.com/www.audioworkshop.jp/wordpress/wp-content/uploads/2020/03/22-BS-FUJI-770x480.jpg?fit=770%2C480",BS Fuji TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/1200px-BS4_logo.svg.png",BS Nippon TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bs-tokyo-jp.png",BS TV Tokyo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://bs.tbs.co.jp/sns/images/SNSichiran_bstbs_new_540.jpg",BS-TBS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/90/JCOM_BS_2.png/revision/latest/scale-to-width-down/1000?cb=20250825145119",JCOM BS
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7f/BS10_STAR_CHANNEL.png",BS10 star channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/movie_plus_jp.png",Movie Plus
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/33/Ch_prime_logo.png/revision/latest?cb=20200215064334",WOWOW Prime
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0d/E4c594f6-3687-40d8-b8b7-af85a0378c97.png/revision/latest?cb=20200215065013",WOWOW Cinema
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6f/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88-2019-11-12-1443463.png/revision/latest?cb=20200215064659",WOWOW Live
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nihon_eiga_senmon.png",Nihon Eiga Senmon Channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/jj/jidaigeki.png",Jidaigeki Senmon
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/eisei_gekijo.png",Eisei Gekijo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/drama/images/5/54/Family_gekijo.jpg/revision/latest/scale-to-width-down/400?cb=20190809211640&path-prefix=es",Family Gekijo
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/tt/toei_channel.png",Toei Channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/cc/channel_ginga.png",Channel Ginga
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/ll/lala_tv.png",LaLa TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="http://asian.ynnhcwdf.com:9083/query/s/zD22iesg6Np63Z-FtiU0yQ==.jpg?type=live&thumbnail=thumbnail_small.jpg",Home Drama Channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-154-400x400.png",Takarazuka Sky Stage
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e6/TABI_Channel.svg/revision/latest/scale-to-width-down/250?cb=20151205150819",TABI Channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/1200px-MTV_2021_%28brand_version%29.svg.png",MTV Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.tabloid0120.com/wp-content/uploads/2019/12/SPACE-SHOWER-TV_logo_fixw_640_hq.jpg",SPACE SHOWER TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/mm/music_japan_tv.png",Music Japan TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kayo-pops-jp.png",Kayo Pops
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://i3.gamebiz.jp/media/14956665-536d-457c-ad23-900d816d9c86.jpg",BS Animax
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/kk/kidsstation.png",Kids Staton TV
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/disneychannel/images/2/2c/DisneyChannel2019Logo.png/revision/latest?cb=20220729130459",Disney Channel Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/disney_junior_us.png",Disney Junior Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/192_wannyan.png",ワンニャンチャンネル
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-pet-cmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNPheBHJ0E3ix72_H2kSWP5iMm-R19w5L9UQ&s",National Geographic Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/discovery-channel-east-us.png",Discovery Channel Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/250px-History_%282021%29.svg.png",History Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/250px-2018_Animal_Planet_logo.svg.png",Animal Planet Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.starcat.co.jp/ch/upload/channel/69/jsports1_logo.jpg",J Sports 1
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.starcat.co.jp/ch/upload/channel/70/jsports2_logo.jpg",J Sports 2
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-158-400x400.png",J Sports 3
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2b/J_Sports_4.svg/revision/latest/scale-to-width-down/360?cb=20200914144257",J Sports 4
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Nittele_G%2B_logo.svg/1280px-Nittele_G%2B_logo.svg.png",Nittere G+
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/%E3%82%B9%E3%82%AB%E3%82%A4A%E3%83%AD%E3%82%B4.jpg/500px-%E3%82%B9%E3%82%AB%E3%82%A4A%E3%83%AD%E3%82%B4.jpg",Sky A
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/prowrestling/images/3/3e/Gaora_TV.jpg/revision/latest?cb=20160629182330",Gaora Sports
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/gg/golf-network-jp.png",Golf Network
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/iwumbyvpeslmassnufui",Green Channel
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tsuri_vision.png",Fishing Vision
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://static.wikia.nocookie.net/neon-district/images/7/73/CNN_Japan_Logo.png/revision/latest?cb=20240222174127",CNNj
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/BBC_Japan_Box_Ident.svg/1200px-BBC_Japan_Box_Ident.svg.png",BBC News Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
+#EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tbs-news-jp.png",TBS News
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
+
+
+
 
 #########################################
          台灣數位電視台
@@ -175,6 +326,12 @@ http://74.91.26.218:82/live/ptsse.m3u8
 
 
 
+#EXTINF:-1 group-title="台灣",中天新聞
+http://free.cnlive.club/channel/41d8a09d.m3u8
+#EXTINF:-1 group-title="台灣",TVBS
+http://free.cnlive.club/channel/154f9d73.m3u8
+#EXTINF:-1 group-title="台灣",東森新聞
+http://free.cnlive.club/channel/n88aa83.m3u8
 
 
 #########################################
@@ -2898,6 +3055,286 @@ http://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
 http://antvlive.ab5c6921.cdnviet.com/antv/chunklist.m3u8
 
 
+#EXTINF:-1 group-title="韓國頻道" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lzY0CqKE62NiMboM_-HizbzkBjSXP7zDiuIu1xsgtOlFM=s900-c-k-c0x00ffffff-no-rj",K-Drama
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=425
+#EXTINF:-1 group-title="韓國頻道" tvg-logo="https://cdn.mos.cms.futurecdn.net/7JgVkbVefaceTZjRcBZxwj.jpg",RomCom K-Drama
+https://tinyurl.com/3h2e4rtz
+#EXTINF:-1 group-title="韓國頻道" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f4/Kpop_TV_Play.png/revision/latest?cb=20230625152624",K-POP TV play
+https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/chunks.m3u8
+#EXTINF:-1 group-title="韓國頻道" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3P-nVkTDzY0CMTdeQmffbjuKItoZ9pPkDeA&s",YG TV
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=424
+#EXTINF:-1 group-title="韓國頻道" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/Arirang_logo.png",Arirang TV
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 group-title="韓國頻道" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/JIBS_%EC%A0%9C%EC%A3%BC%EB%B0%A9%EC%86%A1.svg/250px-JIBS_%EC%A0%9C%EC%A3%BC%EB%B0%A9%EC%86%A1.svg.png",JIBS SBS
+http://123.140.197.22/stream/1/play.m3u8
+#EXTINF:-1 group-title="韓國頻道" tvg-logo="https://yt3.googleusercontent.com/no8fqWNb5b7mQAsbgkTD4s0ffrMSVERn0m2XJkp6ZCqo8MsBHKkkfl_FTG4HtUKHhCpuPE17bT4=s900-c-k-c0x00ffffff-no-rj",ABN TV
+https://vod2.abn.co.kr/IPHONE/abn.m3u8
+#EXTINF:-1 group-title="韓國頻道" tvg-logo="https://play-lh.googleusercontent.com/SzUVoIqN6VV37DEau__D8QkDu1SQvByxbIC6pws9y-dwHnruLBwldJ6KARLLggqMpGc",Korea TV
+https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
+
+
+
+
+
+#########################################
+             MALAYSIA TV
+#########################################
+
+
+
+#EXTINF:-1 group-title="MALAYSIA TV" tvg-logo="https://i.imgur.com/lDWySXo.jpg",SNAP
+https://d1sq2slp9afh7o.cloudfront.net/smil:snap/chunklist_b2596000_slENG.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA TV" tvg-logo="https://i.imgur.com/zAG288y.jpg",ROLL
+https://d1sq2slp9afh7o.cloudfront.net/smil:roll/chunklist_b2596000_slENG.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA TV" tvg-logo="https://i.imgur.com/ucPfsBx.jpg",APETITO
+https://d1sq2slp9afh7o.cloudfront.net/smil:apetito/chunklist_b2596000_slENG.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA TV" tvg-logo="https://i.imgur.com/gajUXKJ.jpg",AURA
+https://d1sq2slp9afh7o.cloudfront.net/smil:aura/chunklist_b2596000_slENG.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA TV" tvg-logo="https://i.imgur.com/e1MNVHP.jpg",FITRAH
+https://d1sq2slp9afh7o.cloudfront.net/smil:fitrah/chunklist_b2596000_slENG.m3u8
+
+
+#EXTINF:-1 group-title="MALAYSIA TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3V2KGWAWKy03_qpUCVBO3t1V7A20RQTqEQ&s",QVC UK
+https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3V2KGWAWKy03_qpUCVBO3t1V7A20RQTqEQ&s",QVC UK Beauty
+https://qvcuk-live.akamaized.net/hls/live/2097112/qby/master.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3V2KGWAWKy03_qpUCVBO3t1V7A20RQTqEQ&s",QVC UK Style
+https://qvcuk-live.akamaized.net/hls/live/2097112/qst/master.m3u8
+
+#EXTINF:-1 group-title="MALAYSIA TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3V2KGWAWKy03_qpUCVBO3t1V7A20RQTqEQ&s",QVC UK Extra
+https://qvcuk-live.akamaized.net/hls/live/2097112/qex/master.m3u8
+
+
+#EXTINF:-1 group-title="MALAYSIA TV",寰宇新聞台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34870
+#EXTINF:-1 group-title="MALAYSIA TV",鏡新聞
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34876
+#EXTINF:-1 group-title="MALAYSIA TV",中天新聞
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34899
+#EXTINF:-1 group-title="MALAYSIA TV",中天綜合
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34898
+#EXTINF:-1 group-title="MALAYSIA TV",TVBS
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34915
+#EXTINF:-1 group-title="MALAYSIA TV",TVBS新聞
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34783
+#EXTINF:-1 group-title="MALAYSIA TV",TVBS歡樂台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34913
+#EXTINF:-1 group-title="MALAYSIA TV",TVBS精采台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34912
+#EXTINF:-1 group-title="MALAYSIA TV",東森戲劇
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34906
+#EXTINF:-1 group-title="MALAYSIA TV",東森新聞
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34905
+#EXTINF:-1 group-title="MALAYSIA TV",東森洋片
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34904
+#EXTINF:-1 group-title="MALAYSIA TV",東森電影
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34903
+#EXTINF:-1 group-title="MALAYSIA TV",東森綜合
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34902
+#EXTINF:-1 group-title="MALAYSIA TV",東森財經
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34901
+#EXTINF:-1 group-title="MALAYSIA TV",中視經典
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34851
+#EXTINF:-1 group-title="MALAYSIA TV",三立綜合
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34907
+#EXTINF:-1 group-title="MALAYSIA TV",華視新聞
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34886
+#EXTINF:-1 group-title="MALAYSIA TV",年代新聞
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34869
+#EXTINF:-1 group-title="MALAYSIA TV",非凡新聞HD
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34832
+#EXTINF:-1 group-title="MALAYSIA TV",八大綜合
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34892
+#EXTINF:-1 group-title="MALAYSIA TV",客家電視臺
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34871
+#EXTINF:-1 group-title="MALAYSIA TV",好消息
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34791
+#EXTINF:-1 group-title="MALAYSIA TV",好消息
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34839
+#EXTINF:-1 group-title="MALAYSIA TV",好消息2
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34873
+#EXTINF:-1 group-title="MALAYSIA TV",動物星球
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34889
+#EXTINF:-1 group-title="MALAYSIA TV",博斯無限
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34885
+#EXTINF:-1 group-title="MALAYSIA TV",博斯運動1
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34884
+#EXTINF:-1 group-title="MALAYSIA TV",博斯運動2
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34883
+#EXTINF:-1 group-title="MALAYSIA TV",博斯高球2
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34881
+#EXTINF:-1 group-title="MALAYSIA TV",好萊塢電影台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34872
+#EXTINF:-1 group-title="MALAYSIA TV",時尚運動 X
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34864
+#EXTINF:-1 group-title="MALAYSIA TV",愛爾達體育1台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34857
+#EXTINF:-1 group-title="MALAYSIA TV",愛爾達體育2台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34865
+#EXTINF:-1 group-title="MALAYSIA TV",愛爾達體育3台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34866
+#EXTINF:-1 group-title="MALAYSIA TV",緯來電影
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34852
+#EXTINF:-1 group-title="MALAYSIA TV",緯來育樂
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34855
+#EXTINF:-1 group-title="MALAYSIA TV",緯來育樂
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34849
+#EXTINF:-1 group-title="MALAYSIA TV",美亞電影
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34848
+#EXTINF:-1 group-title="MALAYSIA TV",靖天卡通
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34842
+#EXTINF:-1 group-title="MALAYSIA TV",靖天國際台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34841
+#EXTINF:-1 group-title="MALAYSIA TV",靖天映畫
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34838
+#EXTINF:-1 group-title="MALAYSIA TV",靖天電影台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34836
+#EXTINF:-1 group-title="MALAYSIA TV",靖洋戲劇
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34833
+#EXTINF:-1 group-title="MALAYSIA TV",龍華偶像
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34830
+#EXTINF:-1 group-title="MALAYSIA TV",龍華戲劇
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34829
+#EXTINF:-1 group-title="MALAYSIA TV",龍華洋片
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34828
+#EXTINF:-1 group-title="MALAYSIA TV",龍華電影
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34827
+#EXTINF:-1 group-title="MALAYSIA TV",龍祥電影
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34825
+#EXTINF:-1 group-title="MALAYSIA TV",半島國際新聞台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34888
+#EXTINF:-1 group-title="MALAYSIA TV",ASIA TRAVEL
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34925
+#EXTINF:-1 group-title="MALAYSIA TV",ASIA TRAVEL
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34796
+#EXTINF:-1 group-title="MALAYSIA TV",ASIAN ACTION
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34847
+#EXTINF:-1 group-title="MALAYSIA TV",Baby TV
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34929
+#EXTINF:-1 group-title="MALAYSIA TV",CINEMAX
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34928
+#EXTINF:-1 group-title="MALAYSIA TV",DISCOVERY ASIA
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34788
+#EXTINF:-1 group-title="MALAYSIA TV",DMAX
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34877
+#EXTINF:-1 group-title="MALAYSIA TV",ELTA綜合
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34920
+#EXTINF:-1 group-title="MALAYSIA TV",ELTV
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34834
+#EXTINF:-1 group-title="MALAYSIA TV",Ginx Esports TV
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34919
+#EXTINF:-1 group-title="MALAYSIA TV",HBO FAMILY
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34824
+#EXTINF:-1 group-title="MALAYSIA TV",HBO HD
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34918
+
+
+#EXTINF:-1 group-title="MALAYSIA TV",8 TV
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34619
+#EXTINF:-1 group-title="MALAYSIA TV",CHANNEL U
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34774
+#EXTINF:-1 group-title="MALAYSIA TV",CHANNEL 8
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34775
+#EXTINF:-1 group-title="MALAYSIA TV",CHANNEL 5
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34776
+#EXTINF:-1 group-title="MALAYSIA TV",CHANNEL NEWS ASIA
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34782
+
+
+#EXTINF:-1 group-title="MALAYSIA TV",TVB 星河
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34560
+#EXTINF:-1 group-title="MALAYSIA TV",TVB 經典台
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34555
+#EXTINF:-1 group-title="MALAYSIA TV",TVBS ASIA
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34561
+#EXTINF:-1 group-title="MALAYSIA TV",ASTRO IQIYI
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34553
+#EXTINF:-1 group-title="MALAYSIA TV",天映頻道
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34674
+#EXTINF:-1 group-title="MALAYSIA TV",8 TV
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34619
+#EXTINF:-1 group-title="MALAYSIA TV",ALJAZEERA
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34680
+#EXTINF:-1 group-title="MALAYSIA TV",ANIMAL PLANET
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34589
+#EXTINF:-1 group-title="MALAYSIA TV",ANIPLUS
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34616
+#EXTINF:-1 group-title="MALAYSIA TV",ASTRO ARENA 2
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34649
+#EXTINF:-1 group-title="MALAYSIA TV",ASTRO CERIA
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34590
+#EXTINF:-1 group-title="MALAYSIA TV",ASTRO CRICKET
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34615
+#EXTINF:-1 group-title="MALAYSIA TV",ASTRO SUPERSPORT 1
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34535
+#EXTINF:-1 group-title="MALAYSIA TV",ASTRO SUPERSPORT 2
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34534
+#EXTINF:-1 group-title="MALAYSIA TV",ASTRO SUPERSPORT 3
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34533
+#EXTINF:-1 group-title="MALAYSIA TV",ASTRO SUPERSPORT 4
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34531
+#EXTINF:-1 group-title="MALAYSIA TV",ASTRO SUPERSPORT 5
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34532
+#EXTINF:-1 group-title="MALAYSIA TV",AXN
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34597
+#EXTINF:-1 group-title="MALAYSIA TV",BBC NEWS
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34578
+#EXTINF:-1 group-title="MALAYSIA TV",BEIN SPORTS 3
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34632
+#EXTINF:-1 group-title="MALAYSIA TV",BERNAMA NEWS
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34575
+#EXTINF:-1 group-title="MALAYSIA TV",CBEEBIES
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34645
+#EXTINF:-1 group-title="MALAYSIA TV",CCTV 4
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34563
+#EXTINF:-1 group-title="MALAYSIA TV",CHUTTI TV
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34549
+#EXTINF:-1 group-title="MALAYSIA TV",CINEMA WORLD
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34625
+#EXTINF:-1 group-title="MALAYSIA TV",CNN
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34577
+#EXTINF:-1 group-title="MALAYSIA TV",COLORS TAMIL
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34672
+#EXTINF:-1 group-title="MALAYSIA TV",DISCOVERY CHANEL
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34586
+#EXTINF:-1 group-title="MALAYSIA TV",DW
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34643
+#EXTINF:-1 group-title="MALAYSIA TV",EUROSPORT
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34611
+#EXTINF:-1 group-title="MALAYSIA TV",FRANCE 24
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34640
+#EXTINF:-1 group-title="MALAYSIA TV",FRANCE24
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34679
+#EXTINF:-1 group-title="MALAYSIA TV",GOLF CHANNEL
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34613
+#EXTINF:-1 group-title="MALAYSIA TV",HISTORY
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34588
+#EXTINF:-1 group-title="MALAYSIA TV",KBS WORLD
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34567
+#EXTINF:-1 group-title="MALAYSIA TV",NTV7
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34621
+#EXTINF:-1 group-title="MALAYSIA TV",SUN MUSIC
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34681
+#EXTINF:-1 group-title="MALAYSIA TV",SUN MUSIC
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34548
+#EXTINF:-1 group-title="MALAYSIA TV",SUN TV
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34552
+#EXTINF:-1 group-title="MALAYSIA TV",TV 1
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34618
+#EXTINF:-1 group-title="MALAYSIA TV",TV 2
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34536
+#EXTINF:-1 group-title="MALAYSIA TV",TV 9
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34620
+#EXTINF:-1 group-title="MALAYSIA TV",WWE
+http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34612
+
+
 
 #########################################
                  抖音K歌
@@ -4348,6 +4785,8 @@ https://z88.ubtvfans.com/live/rx5/2914/d540481f8b60b8caaa55cd9976a37e88/index.m3
 #EXTINF:-1 group-title="私密頻道 ADULT",奧視頻道
 https://z88.ubtvfans.com/live/rx5/2915/dc96726c46e474959909a7a2d77d5280/index.m3u8
 
+#EXTINF:-1 group-title="私密頻道 ADULT",極限電影台(flv)
+http://hls-pull-usmanriaz.speedws.com/live/hktv-sstv0768.flv
 
 
 

@@ -1,68 +1,74 @@
 {
 	"wallpaper": "https://深色壁纸.xxooo.cf/",
 	"sites": [{
-			"api": "https://newtv.ggff.net/douban?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/douban?token=dt7oO7x4",
 			"indexs": 0,
 			"key": "豆瓣首页",
 			"name": "豆瓣首页",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/guazi?token=fhJadO1R",
+			"key": "zhuanxiang",
+			"name": "专享4K",
+			"type": 4,
+			"api": "http://sspa8.top:99/php/%E4%B8%93%E4%BA%AB.php"
+		},
+		{
+			"api": "https://newtv.ggff.net/guazi?token=dt7oO7x4",
 			"key": "月佬瓜子影视",
 			"name": "月佬瓜子影视",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/uvod?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/uvod?token=dt7oO7x4",
 			"key": "Qile优视频",
 			"name": "Qile优视频",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/aigua?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/aigua?token=dt7oO7x4",
 			"key": "嗷呜爱瓜TV",
 			"name": "嗷呜爱瓜TV",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/pingguo?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/pingguo?token=dt7oO7x4",
 			"key": "嗷呜小苹果",
 			"name": "嗷呜小苹果",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/duboku?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/duboku?token=dt7oO7x4",
 			"key": "独播库",
 			"name": "独播库",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/oule?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/oule?token=dt7oO7x4",
 			"key": "欧乐影院",
 			"name": "欧乐影院",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/jianpian?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/jianpian?token=dt7oO7x4",
 			"key": "荐片",
 			"name": "荐片",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/jubaba?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/jubaba?token=dt7oO7x4",
 			"key": "嗷呜剧爸爸",
 			"name": "嗷呜剧爸爸",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/yongle?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/yongle?token=dt7oO7x4",
 			"key": "恰逢永乐",
 			"name": "恰逢永乐",
 			"type": 4
 		},
 		{
-			"api": "https://newtv.ggff.net/ikanbot?token=fhJadO1R",
+			"api": "https://newtv.ggff.net/ikanbot?token=dt7oO7x4",
 			"key": "爱看机器人",
 			"name": "爱看机器人",
 			"type": 4
@@ -165,12 +171,6 @@
 			"api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
 		},
 		{
-			"key": "T4-feiliu",
-			"name": "直播-飞流(T4)",
-			"type": 4,
-			"api": "https://catbox.n13.club/ai/飞流影视.php"
-		},
-		{
 			"key": "T4-lianyu",
 			"name": "影视-恋鱼(T4)",
 			"type": 4,
@@ -255,12 +255,6 @@
 			"api": "https://catbox.n13.club/t9/batian.php"
 		},
 		{
-			"key": "T4-douyu",
-			"name": "直播-斗鱼(T4)",
-			"type": 4,
-			"api": "https://catbox.n13.club/ai/斗鱼直播.php"
-		},
-		{
 			"key": "T4-tianfeng",
 			"name": "影视-天峰(T4)",
 			"type": 4,
@@ -301,6 +295,18 @@
 			"name": "影视-YY轮播(T4)",
 			"type": 4,
 			"api": "https://catbox.n13.club/t9/yylb.php"
+		},
+		{
+			"key": "T4-feiliu",
+			"name": "直播-飞流(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/ai/飞流影视.php"
+		},
+		{
+			"key": "T4-douyu",
+			"name": "直播-斗鱼(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/ai/斗鱼直播.php"
 		},
 		{
 			"key": "T4-jijiu",

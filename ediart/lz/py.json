@@ -333,6 +333,13 @@
 			"ext": "0"
 		},
 		{
+			"key": "vf.py",
+			"name": "🔞vf(py)",
+			"type": 3,
+			"api": "./py/vf.py",
+			"changeable": 1
+		},
+		{
             "key": "MissAV-py",
             "name": "🔞MissAV(py)",
             "type": 3,

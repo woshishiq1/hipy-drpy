@@ -165,6 +165,12 @@
 			"api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
 		},
 		{
+			"key": "T4-feiliu",
+			"name": "直播-飞流(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/ai/飞流影视.php"
+		},
+		{
 			"key": "T4-lianyu",
 			"name": "影视-恋鱼(T4)",
 			"type": 4,
@@ -207,6 +213,36 @@
 			"api": "https://catbox.n13.club/ai/%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7.php"
 		},
 		{
+			"key": "T4-j嗷呜动漫",
+			"name": "动漫-嗷呜(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/嗷呜动漫.php"
+		},
+		{
+			"key": "T4-金牌影视",
+			"name": "影视-金牌2(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/金牌影视.php"
+		},
+		{
+			"key": "T4-麻雀",
+			"name": "影视-麻雀(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/麻雀视频.php"
+		},
+		{
+			"key": "T4-山有木兮.php",
+			"name": "影视-木兮(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/山有木兮.php"
+		},
+		{
+			"key": "T4-哇哇",
+			"name": "影视-哇哇(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/哇哇影视.php"
+		},
+		{
 			"key": "T4-jimi",
 			"name": "影视-吉米(T4)",
 			"type": 4,
@@ -217,6 +253,12 @@
 			"name": "影视-八天(T4)",
 			"type": 4,
 			"api": "https://catbox.n13.club/t9/batian.php"
+		},
+		{
+			"key": "T4-douyu",
+			"name": "直播-斗鱼(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/ai/斗鱼直播.php"
 		},
 		{
 			"key": "T4-tianfeng",
@@ -285,34 +327,64 @@
 			"api": "https://catbox.n13.club/t9/beilehu.php"
 		},
 		{
+			"key": "T4-qiertiyu",
+			"name": "体育-企鹅(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/qietiyu.php"
+		},
+		{
+			"key": "T4-360kq",
+			"name": "体育-看球(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/360kq.php"
+		},
+		{
+			"key": "T4-bookan",
+			"name": "🎵听书-博看(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/bookan.php"
+		},
+		{
+			"key": "T4-tangdou",
+			"name": "🎵音乐-糖豆(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/tangdou.php"
+		},
+		{
+			"key": "T4-djuu",
+			"name": "🎵音乐-DJUU(T4)",
+			"type": 4,
+			"api": "https://catbox.n13.club/t9/djuu.php"
+		},
+		{
 			"key": "T4-qingting",
-			"name": "🎵蜻蜓｜电台",
+			"name": "🎵音乐-蜻蜓(T4)",
 			"type": 4,
 			"api": "https://catbox.n13.club/t9/qingting.php"
 		},
 		{
 			"key": "T4-mvzb",
-			"name": "🎵MV｜音乐",
+			"name": "🎵音乐-MV(T4)",
 			"type": 4,
 			"api": "https://catbox.n13.club/t9/mvzb.php"
 		},
 		{
 			"key": "T4-aha",
-			"name": "🎵啊哈｜音乐",
+			"name": "🎵音乐-啊哈(T4)",
 			"type": 4,
 			"api": "https://catbox.n13.club/t9/aha.php"
 		},
 		{
 			"key": "T4-suishenting",
-			"name": "🎵随身听｜相声评书",
+			"name": "🎵其他-随身听(T4)",
 			"type": 4,
 			"api": "https://catbox.n13.club/t9/suishenting.php"
 		},
 		{
-			"key": "T4-tangdou",
-			"name": "🎵糖豆｜音乐",
+			"key": "T4-2024热门",
+			"name": "🎵音乐-热门MV(T4)",
 			"type": 4,
-			"api": "https://catbox.n13.club/t9/tangdou.php"
+			"api": "https://catbox.n13.club/t9/bili.php?id=2024"
 		}
 	],
 	"lives": [{
@@ -321,6 +393,12 @@
 			"playerType": 2,
 			"url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true",
 			"ua": "bingcha/1.1 (mianfeifenxiang) "
+		},
+		{
+			"name": "央视卫视",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/ysws.txt",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png"
 		},
 		{
 			"name": "Sports",

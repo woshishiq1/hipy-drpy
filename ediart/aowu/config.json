@@ -2,8 +2,8 @@
 	"spider": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png",
 	"logo": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/logo.gif",
 	"sites": [{
-			"name": "💬嗷嗚|彈幕",
-			"key": "嗷嗚|彈幕",
+			"name": "💬嗷嗚|彈幕|豆瓣",
+			"key": "GoConfig",
 			"type": 3,
 			"api": "csp_GoConfigAmns",
 			"indexs": 1,
@@ -13,19 +13,32 @@
 			"changeable": 0
 		},
 		{
-			"name": "🍉短剧|导航",
-			"key": "短剧|导航",
+			"name": "😈嗷嗚|短剧|导航",
+			"key": "DjHggg",
 			"type": 3,
 			"api": "csp_HgggAmns",
 			"indexs": 1,
 			"searchable": 0,
 			"filterable": 0,
 			"quickSearch": 0,
-			"changeable": 0
+			"changeable": 0,
+			"ext": "short_play"
+		},
+		{
+			"name": "🐲嗷嗚|漫剧|导航",
+			"key": "MjHggg",
+			"type": 3,
+			"api": "csp_HgggAmns",
+			"indexs": 1,
+			"searchable": 0,
+			"filterable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": "comic_series"
 		},
 		{
 			"name": "⚙️配置|中心",
-			"key": "配置|中心",
+			"key": "MyConfig",
 			"type": 3,
 			"api": "csp_MyConfigAmns",
 			"searchable": 0,
@@ -35,7 +48,7 @@
 		},
 		{
 			"name": "📁本地|播放",
-			"key": "本地|播放",
+			"key": "MyLocal",
 			"type": 3,
 			"api": "csp_MyLocalAmns",
 			"searchable": 0,
@@ -44,8 +57,8 @@
 			"changeable": 0
 		},
 		{
-			"name": "☁️我的挎鈳",
-			"key": "我的挎鈳",
+			"name": "☁️我的|挎鈳",
+			"key": "MyQuark",
 			"type": 3,
 			"api": "csp_MyQuarkAmns",
 			"searchable": 0,
@@ -55,8 +68,8 @@
 			"ext": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/json/quark.json"
 		},
 		{
-			"name": "☁️我的佰渡",
-			"key": "我的佰渡",
+			"name": "☁️我的|佰渡",
+			"key": "MyBaidu",
 			"type": 3,
 			"api": "csp_MyBaiduAmns",
 			"searchable": 0,
@@ -66,8 +79,36 @@
 			"ext": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/json/baidu.json"
 		},
 		{
-			"name": "🐙GitHub|商店",
-			"key": "GitHub|商店",
+			"name": "🎉Bili|合集",
+			"key": "Bili",
+			"type": 3,
+			"api": "csp_BiliAmns",
+			"searchable": 1,
+			"filterable": 1,
+			"quickSearch": 1,
+			"changeable": 1,
+			"ext": {
+				"json": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/json/bili.json",
+				"cookie": ""
+			},
+			"style": {
+				"type": "rect",
+				"ratio": 1.433
+			}
+		},
+		{
+			"name": "🎸酷狗|音乐",
+			"key": "KuGou",
+			"type": 3,
+			"api": "csp_KuGouAmns",
+			"searchable": 1,
+			"filterable": 1,
+			"quickSearch": 1,
+			"changeable": 0
+		},
+		{
+			"name": "🐙GHub|商店",
+			"key": "GitHub",
 			"type": 3,
 			"api": "csp_GitHubAmns",
 			"searchable": 0,
@@ -78,7 +119,7 @@
 		},
 		{
 			"name": "🤪玩偶|4K",
-			"key": "玩偶|4K",
+			"key": "woWogg",
 			"type": 3,
 			"api": "csp_WoggAmns",
 			"searchable": 1,
@@ -92,7 +133,7 @@
 		},
 		{
 			"name": "😀蜡笔|4K",
-			"key": "蜡笔|4K",
+			"key": "lbWobg",
 			"type": 3,
 			"api": "csp_WobgAmns",
 			"searchable": 1,
@@ -106,7 +147,7 @@
 		},
 		{
 			"name": "😄二小|4K",
-			"key": "二小|4K",
+			"key": "exWobg",
 			"type": 3,
 			"api": "csp_WobgAmns",
 			"searchable": 1,
@@ -114,13 +155,13 @@
 			"quickSearch": 1,
 			"changeable": 1,
 			"ext": {
-				"sites": "http://erxiaofn.click,http://2xiaopan.fun,http://erxiaofn.site,https://www.erixaopan.fun",
+				"sites": "http://erxiaofn.click,http://2xiaopan.fun,http://erxiaofn.site,https://www.erixaopan.fun,https://wexwp.cc,https://xhww.net",
 				"filters": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/json/woex.json"
 			}
 		},
 		{
 			"name": "😆虎斑|4K",
-			"key": "虎斑|4K",
+			"key": "hbWobg",
 			"type": 3,
 			"api": "csp_WobgAmns",
 			"searchable": 1,
@@ -134,7 +175,7 @@
 		},
 		{
 			"name": "🤠至臻|4K",
-			"key": "至臻|4K",
+			"key": "zzWobg",
 			"type": 3,
 			"api": "csp_WobgAmns",
 			"searchable": 1,
@@ -148,7 +189,7 @@
 		},
 		{
 			"name": "🤓多多|4K",
-			"key": "多多|4K",
+			"key": "ddWobg",
 			"type": 3,
 			"api": "csp_WobgAmns",
 			"searchable": 1,
@@ -162,7 +203,7 @@
 		},
 		{
 			"name": "🥸欧哥|4K",
-			"key": "欧哥|4K",
+			"key": "ogWobg",
 			"type": 3,
 			"api": "csp_WobgAmns",
 			"searchable": 1,
@@ -175,33 +216,22 @@
 			}
 		},
 		{
-			"name": "🎉Bili|合集",
-			"key": "Bili|合集",
-			"type": 3,
-			"api": "csp_BiliAmns",
-			"searchable": 1,
-			"filterable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"ext": {
-				"json": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/json/bili.json",
-				"cookie": ""
-			}
-		},
-		{
-			"name": "🎬瓜子|秒播",
-			"key": "瓜子|秒播",
+			"name": "🥔瓜子|秒播",
+			"key": "Guazi",
 			"type": 3,
 			"api": "csp_GuaziAmns",
 			"searchable": 1,
 			"filterable": 1,
 			"quickSearch": 1,
 			"changeable": 1,
-			"ext": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/json/guazi.json"
+			"ext": {
+				"sites": "",
+				"filters": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/json/guazi.json"
+			}
 		},
 		{
 			"name": "☕韩剧|秒播",
-			"key": "韩剧|秒播",
+			"key": "Hxq",
 			"type": 3,
 			"api": "csp_HxqAmns",
 			"searchable": 1,
@@ -211,7 +241,7 @@
 		},
 		{
 			"name": "🌱春天|秒播",
-			"key": "春天|秒播",
+			"key": "NewGr",
 			"type": 3,
 			"api": "csp_NewGrAmns",
 			"searchable": 1,
@@ -221,8 +251,18 @@
 			"ext": "BG6DUQMDRsRW0hbHAYRFwFNSUoESx4PHgAPBksaHRRWXkcFLQEDFwIMCBhEXkBZVVteWx8XHEVIVT8zHlAtMRIyLDszASEtF0sAMj8ONj0BLCofKAo2PCc4ET8TQT0JFjArVzRYRVpEDRRKX1sTPx8LLwkgOCtUQBc1HAUXOC0SSiIoSU9HS1AWFhUuDANUXEYRAAQXFhAVHBYPGwcPC1NJRRUOBQwGABUtGhsWAEVIVRUBAhU4BRZUU0pJWwIYFxkEABcoCAQcAEVMRAcNBUsAEQ4YGh9JCw4VFVNJRQUfFz0YCRgGHxsACEVIVVRHXUcUDxUWBwQAGAEcVkhHVkNVSkcHABUFDwsMSl9bRktEQlVFDw=="
 		},
 		{
+			"name": "🍑糖心|秒播",
+			"key": "TnewGr",
+			"type": 3,
+			"api": "csp_TnewGrAmns",
+			"searchable": 1,
+			"filterable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"name": "🎪伊外|秒播",
-			"key": "伊外|秒播",
+			"key": "YIys",
 			"type": 3,
 			"api": "csp_YIysAmns",
 			"searchable": 1,
@@ -232,7 +272,7 @@
 		},
 		{
 			"name": "🎯荐片|秒播",
-			"key": "荐片|秒播",
+			"key": "JPian",
 			"type": 3,
 			"api": "csp_JPianAmns",
 			"searchable": 1,
@@ -243,7 +283,7 @@
 		},
 		{
 			"name": "🔥热播|秒播",
-			"key": "热播|秒播",
+			"key": "Rbys",
 			"type": 3,
 			"api": "csp_RbysAmns",
 			"searchable": 1,
@@ -254,7 +294,7 @@
 		},
 		{
 			"name": "🥇金牌|秒播",
-			"key": "金牌|秒播",
+			"key": "JinPai",
 			"type": 3,
 			"api": "csp_JinPaiAmns",
 			"searchable": 1,
@@ -263,8 +303,8 @@
 			"changeable": 1
 		},
 		{
-			"name": "🍏苹果|秒播",
-			"key": "苹果|秒播",
+			"name": "🍎苹果|秒播",
+			"key": "Xpg",
 			"type": 3,
 			"api": "csp_XpgAmns",
 			"searchable": 1,
@@ -273,8 +313,8 @@
 			"changeable": 1
 		},
 		{
-			"name": "🎭杜北|秒播",
-			"key": "杜北|秒播",
+			"name": "🪁杜北|秒播",
+			"key": "Dubk",
 			"type": 3,
 			"api": "csp_DubkAmns",
 			"searchable": 1,
@@ -284,8 +324,18 @@
 			"ext": "https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/json/dubk.json"
 		},
 		{
+			"name": "👀注视|2K",
+			"key": "Gaze",
+			"type": 3,
+			"api": "csp_GazeAmns",
+			"searchable": 1,
+			"filterable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"name": "🏆高端|2K",
-			"key": "高端|2K",
+			"key": "Ddys",
 			"type": 3,
 			"api": "csp_DdysAmns",
 			"searchable": 1,
@@ -295,7 +345,7 @@
 		},
 		{
 			"name": "🍿哔嘀|2K",
-			"key": "哔嘀|2K",
+			"key": "Bidys",
 			"type": 3,
 			"api": "csp_BidysAmns",
 			"searchable": 1,
@@ -305,7 +355,7 @@
 		},
 		{
 			"name": "🏭厂长|2K",
-			"key": "厂长|2K",
+			"key": "Czzy",
 			"type": 3,
 			"api": "csp_CzzyAmns",
 			"searchable": 1,
@@ -315,7 +365,7 @@
 		},
 		{
 			"name": "📽️LBV|2K",
-			"key": "LBV|2K",
+			"key": "Libvio",
 			"type": 3,
 			"api": "csp_LibvioAmns",
 			"searchable": 1,
@@ -325,7 +375,7 @@
 		},
 		{
 			"name": "📀俩BT|2K",
-			"key": "俩BT|2K",
+			"key": "Bttwo",
 			"type": 3,
 			"api": "csp_BttwoAmns",
 			"searchable": 1,
@@ -334,8 +384,8 @@
 			"changeable": 1
 		},
 		{
-			"name": "🎦豪堪|短剧",
-			"key": "豪堪|短剧",
+			"name": "🍭豪堪|短剧",
+			"key": "HHkk",
 			"type": 3,
 			"api": "csp_HHkkAmns",
 			"searchable": 1,
@@ -344,8 +394,8 @@
 			"changeable": 1
 		},
 		{
-			"name": "📺盒马|短剧",
-			"key": "盒马|短剧",
+			"name": "🛸盒马|短剧",
+			"key": "Hema",
 			"type": 3,
 			"api": "csp_HemaAmns",
 			"searchable": 1,
@@ -354,8 +404,8 @@
 			"changeable": 1
 		},
 		{
-			"name": "🎞️拜拜|短剧",
-			"key": "拜拜|短剧",
+			"name": "🧸拜拜|短剧",
+			"key": "Bddj",
 			"type": 3,
 			"api": "csp_BddjAmns",
 			"searchable": 1,
@@ -364,8 +414,18 @@
 			"changeable": 1
 		},
 		{
+			"name": "🎀围观|短剧",
+			"key": "Wgdj",
+			"type": 3,
+			"api": "csp_WgdjAmns",
+			"searchable": 1,
+			"filterable": 1,
+			"quickSearch": 1,
+			"changeable": 1
+		},
+		{
 			"name": "🐠锦鲤|短剧",
-			"key": "锦鲤|短剧",
+			"key": "JLdj",
 			"type": 3,
 			"api": "csp_JLdjAmns",
 			"searchable": 1,
@@ -375,7 +435,7 @@
 		},
 		{
 			"name": "🍩甜圈|短剧",
-			"key": "甜圈|短剧",
+			"key": "TQdj",
 			"type": 3,
 			"api": "csp_TQdjAmns",
 			"searchable": 1,
@@ -385,7 +445,7 @@
 		},
 		{
 			"name": "🐱喵喵|短剧",
-			"key": "喵喵|短剧",
+			"key": "Qmdj",
 			"type": 3,
 			"api": "csp_QmdjAmns",
 			"searchable": 1,
@@ -395,7 +455,7 @@
 		},
 		{
 			"name": "⭐星星|短剧",
-			"key": "星星|短剧",
+			"key": "Xydj",
 			"type": 3,
 			"api": "csp_XydjAmns",
 			"searchable": 1,
@@ -405,7 +465,7 @@
 		},
 		{
 			"name": "🎂岁岁|短剧",
-			"key": "岁岁|短剧",
+			"key": "Spdj",
 			"type": 3,
 			"api": "csp_SpdjAmns",
 			"searchable": 1,
@@ -415,7 +475,7 @@
 		},
 		{
 			"name": "🍈爱瓜|墙外",
-			"key": "爱瓜|墙外",
+			"key": "AiGua",
 			"type": 3,
 			"api": "csp_AiGuaAmns",
 			"searchable": 1,
@@ -425,7 +485,7 @@
 		},
 		{
 			"name": "📹U视|墙外",
-			"key": "U视|墙外",
+			"key": "YouSP",
 			"type": 3,
 			"api": "csp_YouSPAmns",
 			"searchable": 1,
@@ -435,7 +495,7 @@
 		},
 		{
 			"name": "🍕欧乐|墙外",
-			"key": "欧乐|墙外",
+			"key": "Olyy",
 			"type": 3,
 			"api": "csp_OlyyAmns",
 			"searchable": 1,
@@ -445,7 +505,7 @@
 		},
 		{
 			"name": "⛵壹帆|墙外",
-			"key": "壹帆|墙外",
+			"key": "Aiyf",
 			"type": 3,
 			"api": "csp_AiyfAmns",
 			"searchable": 1,
@@ -455,7 +515,7 @@
 		},
 		{
 			"name": "🔍fish|盘搜",
-			"key": "fish|盘搜",
+			"key": "FishPs",
 			"type": 3,
 			"api": "csp_FishPsAmns",
 			"searchable": 1,
@@ -465,7 +525,7 @@
 		},
 		{
 			"name": "🔍RB|盘搜",
-			"key": "RB|盘搜",
+			"key": "RbPs",
 			"type": 3,
 			"api": "csp_RbPsAmns",
 			"searchable": 1,
@@ -475,7 +535,7 @@
 		},
 		{
 			"name": "🔍短剧|盘搜",
-			"key": "短剧|盘搜",
+			"key": "DuanjPs",
 			"type": 3,
 			"api": "csp_DuanjPsAmns",
 			"searchable": 1,
@@ -484,8 +544,8 @@
 			"changeable": 0
 		},
 		{
-			"key": "push_agent",
-			"name": "🛴推送",
+			"name": "🛴推送|播放",
+			"key": "Push",
 			"type": 3,
 			"api": "csp_PushAmns",
 			"searchable": 0,
@@ -562,30 +622,49 @@
 	"doh": [{
 			"name": "Google",
 			"url": "https://dns.google/dns-query",
-			"ips": ["8.8.4.4", "8.8.8.8"]
+			"ips": [
+				"8.8.4.4",
+				"8.8.8.8"
+			]
 		},
 		{
 			"name": "Cloudflare",
 			"url": "https://cloudflare-dns.com/dns-query",
-			"ips": ["1.1.1.1", "1.0.0.1", "2606:4700:4700::1111", "2606:4700:4700::1001"]
+			"ips": [
+				"1.1.1.1",
+				"1.0.0.1",
+				"2606:4700:4700::1111",
+				"2606:4700:4700::1001"
+			]
 		},
 		{
 			"name": "AdGuard",
 			"url": "https://dns.adguard.com/dns-query",
-			"ips": ["94.140.14.140", "94.140.14.141"]
+			"ips": [
+				"94.140.14.140",
+				"94.140.14.141"
+			]
 		},
 		{
 			"name": "DNSWatch",
 			"url": "https://resolver2.dns.watch/dns-query",
-			"ips": ["84.200.69.80", "84.200.70.40"]
+			"ips": [
+				"84.200.69.80",
+				"84.200.70.40"
+			]
 		},
 		{
 			"name": "Quad9",
 			"url": "https://dns.quad9.net/dns-quer",
-			"ips": ["9.9.9.9", "149.112.112.112"]
+			"ips": [
+				"9.9.9.9",
+				"149.112.112.112"
+			]
 		}
 	],
-	"ads": ["mozai.4gtv.tv"],
+	"ads": [
+		"mozai.4gtv.tv"
+	],
 	"ijk": [{
 			"group": "软解码",
 			"options": [{
@@ -745,58 +824,123 @@
 			]
 		}
 	],
-	"proxy": ["raw.githubusercontent.com", "googlevideo.com", "cdn.v82u1l.com", "cdn.iz8qkg.com", "cdn.kin6c1.com", "c.biggggg.com", "c.olddddd.com", "haiwaikan.com", "www.histar.tv", "youtube.com", "uhibo.com", ".*boku.*", ".*nivod.*", ".*ulivetv.*", "iill.top"],
+	"proxy": [
+		"raw.githubusercontent.com",
+		"googlevideo.com",
+		"cdn.v82u1l.com",
+		"cdn.iz8qkg.com",
+		"cdn.kin6c1.com",
+		"c.biggggg.com",
+		"c.olddddd.com",
+		"haiwaikan.com",
+		"www.histar.tv",
+		"youtube.com",
+		"uhibo.com",
+		".*boku.*",
+		".*nivod.*",
+		".*ulivetv.*",
+		"iill.top"
+	],
 	"rules": [{
 			"name": "cl",
-			"hosts": ["magnet"],
-			"regex": ["最新", "直播", "更新"]
+			"hosts": [
+				"magnet"
+			],
+			"regex": [
+				"最 新",
+				"直 播",
+				"更 新"
+			]
 		},
 		{
 			"name": "火山嗅探",
-			"hosts": ["huoshan.com"],
-			"regex": ["item_id="]
+			"hosts": [
+				"huoshan.com"
+			],
+			"regex": [
+				"item_id="
+			]
 		},
 		{
 			"name": "抖音嗅探",
-			"hosts": ["douyin.com"],
-			"regex": ["is_play_url="]
+			"hosts": [
+				"douyin.com"
+			],
+			"regex": [
+				"is_play_url="
+			]
 		},
 		{
 			"name": "农民嗅探",
-			"hosts": ["toutiaovod.com"],
-			"regex": ["video/tos/cn"]
+			"hosts": [
+				"toutiaovod.com"
+			],
+			"regex": [
+				"video/tos/cn"
+			]
 		},
 		{
 			"name": "七新嗅探",
-			"hosts": ["api.52wyb.com"],
-			"regex": ["m3u8?pt=m3u8"]
+			"hosts": [
+				"api.52wyb.com"
+			],
+			"regex": [
+				"m3u8?pt=m3u8"
+			]
 		},
 		{
 			"name": "夜市",
-			"hosts": ["yeslivetv.com"],
-			"script": ["document.getElementsByClassName('vjs-big-play-button')[0].click()"]
+			"hosts": [
+				"yeslivetv.com"
+			],
+			"script": [
+				"document.getElementsByClassName('vjs-big-play-button')[0].click()"
+			]
 		},
 		{
 			"name": "毛驴",
-			"hosts": ["www.maolvys.com"],
-			"script": ["document.getElementsByClassName('swal-buttonswal-button--confirm')[0].click()"]
+			"hosts": [
+				"www.maolvys.com"
+			],
+			"script": [
+				"document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+			]
 		},
 		{
 			"name": "czzy",
-			"hosts": ["10086.cn"],
-			"regex": ["/storageWeb/servlet/downloadServlet"]
+			"hosts": [
+				"10086.cn"
+			],
+			"regex": [
+				"/storageWeb/servlet/downloadServlet"
+			]
 		},
 		{
 			"name": "bdys",
-			"hosts": ["bytetos.com", "byteimg.com", "bytednsdoc.com", "pstatp.com"],
-			"regex": ["/tos-cn"],
-			"exclude": [".m3u8"]
+			"hosts": [
+				"bytetos.com",
+				"byteimg.com",
+				"bytednsdoc.com",
+				"pstatp.com"
+			],
+			"regex": [
+				"/tos-cn"
+			],
+			"exclude": [
+				".m3u8"
+			]
 		},
 		{
 			"name": "bdys10",
-			"hosts": ["bdys10.com"],
-			"regex": ["/obj/"],
-			"exclude": [".m3u8"]
+			"hosts": [
+				"bdys10.com"
+			],
+			"regex": [
+				"/obj/"
+			],
+			"exclude": [
+				".m3u8"
+			]
 		}
 	],
 	"lives": [{

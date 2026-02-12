@@ -15,33 +15,33 @@
     "list": [
       {
         "name": "手机端(64位)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/mobile-arm64_v8a-3.6.8.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/mobile-arm64_v8a-3.6.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.6.8"
+        "version": "3.6.9"
       },
       {
         "name": "手机端(32位)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/mobile-armeabi_v7a-3.6.8.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/mobile-armeabi_v7a-3.6.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.6.8"
+        "version": "3.6.9"
       },
       {
         "name": "电视端(64位)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/leanback-arm64_v8a-3.6.8.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/leanback-arm64_v8a-3.6.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.6.8"
+        "version": "3.6.9"
       },
       {
         "name": "电视端(32位)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/leanback-armeabi_v7a-3.6.8.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/leanback-armeabi_v7a-3.6.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.6.8"
+        "version": "3.6.9"
       },
       {
         "name": "电视端(海信)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/hxzb-OKys-3.6.8.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/hxzb-OKys-3.6.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.6.8"
+        "version": "3.6.9"
       }
     ]
   },
@@ -50,33 +50,33 @@
     "list": [
       {
         "name": "手机端(64位)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-sjb-3.9.9.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-sjb-5.0.0.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.9.9"
+        "version": "5.0.0"
       },
       {
         "name": "手机端(模拟器)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-sjb-3.9.9.-.mnq.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-sjb-5.0.0.-.mnq.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.9.9"
+        "version": "5.0.0"
       },
       {
         "name": "电视端(64位)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-dsb-64.-3.9.9.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-dsb-64.-5.0.0.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.9.9"
+        "version": "5.0.0"
       },
       {
         "name": "电视端(32位)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-dsb-32.-3.9.9.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/OKysPro-dsb-32.-5.0.0.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.9.9"
+        "version": "5.0.0"
       },
       {
         "name": "电视端(海信)",
-        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/hxzb-OKys-3.6.8.apk",
+        "url": "https://ghfile.geekertao.top/https://github.com/wzxxcz/OK-APP/releases/download/OK-APP/hxzb-OKys-3.6.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.9.9"
+        "version": "5.0.0"
       }
     ]
   },

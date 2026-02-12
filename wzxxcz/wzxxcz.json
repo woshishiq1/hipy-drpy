@@ -22,10 +22,10 @@
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         },
         {
-            "name": "jp",
+            "name": "讴歌",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://gitflic.ru/project/utako/utako/blob/raw?file=jp.m3u"
+            "url": "https://xn--dkw0c.v.nxog.top/m/tv/?ou=d4"
         },
         {
             "name": "咪咕央卫体育",
@@ -1438,6 +1438,24 @@
             "playerType": 2,
             "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
             "ext": "7lj763gg402i7942503g839jg74h8h88highi40799jh6i6k454419l0l5184k0g549h0kg2i01i838i2h42g891lgg1"
+        },
+        {
+            "key": "橘皮",
+            "name": "💡橘皮影视",
+            "type": 3,
+            "api": "csp_Jpys",
+            "playerType": 1,
+            "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+            "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
+        },
+        {
+            "key": "优质",
+            "name": "💡优质影视",
+            "type": 3,
+            "api": "csp_Qiji",
+            "playerType": 2,
+            "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
+            "ext": "7lj763gg402i7942433293i0g9458881hig7j94k818g326i51491kljlk134k401g9g54gk8j5i9097751kh28kh9kj11kjl92k6046l0gkj8l630892glj67g61h48g3kjiigkg0263k6h955430429ill43307gk8k0602hh09lh0j6jh7h"
         },
         {
             "key": "韩圈",
@@ -35206,7 +35224,7 @@
                 "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+des_xy\">&&</div>",
                 "线路二次截取": "",
                 "线路数组": "ptit clearfix\">&&</div>",
-                "线路标题": ">&&<", 
+                "线路标题": ">&&<",
                 "播放二次截取": "",
                 "播放数组": "<ul class=\"ulli clearfix&&</ul>",
                 "倒序": "0",

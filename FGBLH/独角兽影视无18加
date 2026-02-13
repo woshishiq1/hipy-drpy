@@ -606,6 +606,12 @@
             "ua": "okhttp",
             "url": "https://tv.iill.top/m3u/MyTV"
         },
+         {
+            "name": "🦄港台",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://feer-cdn-bp.xpnb.qzz.io/xnkl.txt"
+        },
         {
             "name": "🦄台湾频道(梯子台湾节点)",
             "type": 0,

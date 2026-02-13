@@ -707,6 +707,12 @@
             "url": "https://tv.iill.top/m3u/MyTV"
         },
        {
+            "name": "🦄港台",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://feer-cdn-bp.xpnb.qzz.io/xnkl.txt"
+        },
+       {
             "name": "🦄jackTV(梯子)",
             "type": 0,
             "ua": "okhttp",

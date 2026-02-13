@@ -401,10 +401,20 @@
 			"ua": "bingcha/1.1 (mianfeifenxiang) "
 		},
 		{
+			"name": "央视频",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/ysp.txt",
+			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+			"logo": "http://diyp5.112114.xyz/{name}.png"
+		},
+		{
 			"name": "央视卫视",
 			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/ysws.txt",
 			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://diyp5.112114.xyz/{name}.png"
+		},
+		{
+			"name": "江苏移动",
+			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/JSCM.m3u"
 		},
 		{
 			"name": "Sports",

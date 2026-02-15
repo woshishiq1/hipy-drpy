@@ -92,6 +92,22 @@
             "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/iptvpro.txt"
         },
 
+       {
+            "name": "🦄港台",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://feer-cdn-bp.xpnb.qzz.io/xnkl.txt"
+        },
+
+       {
+            "name": "🦄4GTV港台",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://xtvantsc.xyz/4gtv.txt"
+        },
+
+
+
         {
             "name": "🦄jackTV",
             "type": 0,

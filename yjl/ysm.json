@@ -28,9 +28,9 @@
         "api":"https://gitee.com/youngxiayang/TVBOX/raw/main/js/lib/drpy2.min.js",
         "ext":"https://gitee.com/youngxiayang/YJL/raw/master/JS/%E8%8C%AB%E8%8C%AB.js"}, 
         {"key":"三六零","name":"🏖三六零┃潇洒","type":3,"api":"csp_SP360","jar":"https://gitee.com/youngxiayang/YJL/raw/master/JAR/xsDM.jar"}, 
-            {"key": "Introduce","name": "🐠摸鱼┃设置中心","type": 3,
+            {"key": "FishConfig","name": "🐠摸鱼┃设置中心","type": 3,
            "jar":"https://gitee.com/youngxiayang/YJL/raw/master/JAR/myDM.jar",   
-            "api": "csp_Introduce"},
+           "api": "csp_FishConfig"},
 {"key":"配置中心","name":"🆗配置┃中心","type":3,"api":"csp_AweSomeGuard","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43},
 "ext":{"sp":"Config"}},
         //网盘资源区OK猫JAR

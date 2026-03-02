@@ -40,6 +40,16 @@
             "ext": "https://www.nntv.in/api.php/v1.vod"
         },
         {
+            "key": "闪影",
+            "name": "闪影｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+        },
+        {
             "key": "奇奇",
             "name": "奇奇｜APP",
             "type": 3,

@@ -1569,18 +1569,6 @@
             "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
         },
         {
-            "key": "麒麟",
-            "name": "🐲麒麟影院",
-            "type": 3,
-            "api": "csp_AppFox",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "host": "https://qh.70qh.top",
-                "ver": 2
-            }
-        },
-        {
             "key": "咕噜",
             "name": "🐨咕噜影视",
             "type": 3,
@@ -1592,15 +1580,6 @@
                 "key": "guluyinghua_123",
                 "sign": "679543610991810f19698c187e5e106e"
             }
-        },
-        {
-            "key": "搜搜",
-            "name": "🔎搜搜影视",
-            "type": 3,
-            "api": "csp_AppFox",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": "https://www.zjcvod.com"
         },
         {
             "key": "奇奇",
@@ -2427,19 +2406,6 @@
                     "x-app-version-code": "22",
                     "x-app-version-name": "2.2.0"
                 }
-            }
-        },
-        {
-            "key": "白鸽",
-            "name": "🕊️白鸽影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://cy.baige.asia",
-                "dataKey": "599D0FE5178642FD",
-                "dataIv": "599D0FE5178642FD"
             }
         },
         {

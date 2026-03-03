@@ -4715,6 +4715,98 @@
             }
         },
         {
+            "key": "蓝鹰",
+            "name": "🦅蓝鹰影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
+                "dataKey": "ca94b06ca359d80e",
+                "dataIv": "ca94b06ca359d80e",
+                "init": "initV120",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "段友",
+            "name": "🍊段友影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://shangjihuoke.com",
+                "dataKey": "8E2DC386FD452D05",
+                "dataIv": "8E2DC386FD452D05"
+            }
+        },
+        {
+            "key": "黑猫",
+            "name": "🐈黑猫影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "http://app1-0-0.87333.cc",
+                "dataKey": "VwsHxkCViDXEExWa",
+                "dataIv": "VwsHxkCViDXEExWa"
+            }
+        },
+        {
+            "key": "灵虎",
+            "name": "🐅灵虎影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://bind.315999.xyz/89.txt",
+                "dataKey": "#getapp@TMD@2025",
+                "dataIv": "#getapp@TMD@2025"
+            }
+        },
+        {
+            "key": "驿站",
+            "name": "🍊驿站影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
+                "dataKey": "dyyztvapiappyyds",
+                "dataIv": "dyyztvapiappyyds"
+            }
+        },
+        {
+            "key": "缘梦",
+            "name": "🍊缘梦影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "http://165.99.42.137:5432",
+                "dataKey": "1234567890987654",
+                "dataIv": "1234567890987654",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "小羊",
+            "name": "🐏小羊影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://xy4k.com/url.txt",
+                "dataKey": "7SDWjknU34zqFbVr",
+                "dataIv": "7SDWjknU34zqFbVr"
+            }
+        },
+        {
             "key": "七壹",
             "name": "💰七壹影视",
             "type": 3,
@@ -4794,19 +4886,6 @@
                 "site": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
                 "dataKey": "xmyxmyxywlkjxywl",
                 "dataIv": "xmyxmyxywlkjxywl"
-            }
-        },
-        {
-            "key": "气球",
-            "name": "🍊气球影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://vv.229d.cn",
-                "dataKey": "8888888888888888",
-                "dataIv": "8888888888888888"
             }
         },
         {
@@ -35643,7 +35722,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "类型": "短剧"
+            "genre": "shortdrama"
         },
         {
             "key": "锦鲤短剧",
@@ -35654,7 +35733,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "类型": "短剧"
+            "genre": "shortdrama"
         },
         {
             "key": "星阁短剧",
@@ -35665,7 +35744,18 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "类型": "短剧"
+            "genre": "shortdrama"
+        },
+        {
+            "key": "碎片",
+            "name": "🗞️碎片短剧",
+            "type": 3,
+            "api": "csp_SuipianDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "genre": "shortdrama"
         },
         {
             "key": "星芽短剧",
@@ -35676,7 +35766,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "类型": "短剧"
+            "genre": "shortdrama"
         },
         {
             "key": "河马短剧",
@@ -35698,7 +35788,7 @@
             "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "类型": "短剧"
+            "genre": "shortdrama"
         },
         {
             "key": "短剧场短剧",

@@ -127,22 +127,6 @@
             }
         },
         {
-            "key": "小猪",
-            "name": "小猪｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/aoteman.txt",
-                "dataKey": "lp3d4t53y9t5db8y",
-                "dataIv": "lp3d4t53y9t5db8y",
-                "search": "searchLisl3",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "鲸鱼",
             "name": "鲸鱼｜APP",
             "type": 3,
@@ -417,6 +401,17 @@
             "name": "星阁｜短剧",
             "type": 3,
             "api": "csp_XinggeDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "类型": "短剧"
+        },
+        {
+            "key": "碎片",
+            "name": "碎片｜短剧",
+            "type": 3,
+            "api": "csp_SuipianDJ",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,

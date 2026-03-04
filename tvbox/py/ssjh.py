@@ -9,7 +9,7 @@ BASE_URL = "http://api.hclyz.com:81/mf"
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 TARGET_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "lib"))
-M3U_FILE = os.path.join(TARGET_DIR, "18/sbjh.m3u")
+M3U_FILE = os.path.join(TARGET_DIR, "sbjh.m3u")
 
 BLACK_LIST = ["支付宝风控解除", "依依实力带飞"]
 

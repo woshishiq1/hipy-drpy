@@ -102,5 +102,28 @@
         "version": "Fongmi"
       }
     ]
+  },
+  {
+    "name": "影视仓",
+    "list": [
+      {
+        "name": "手机端",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscsg-3.2.7.1.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "3.2.7.1"
+      },
+      {
+        "name": "电视端",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscds_6.1.9_opt_sign.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "6.1.9"
+      },
+      {
+        "name": "电视端(海信)",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/ysc-6.1.7-32w_dshxb.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "6.1.7"
+      }
+    ]
   }
 ]

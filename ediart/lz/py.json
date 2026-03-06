@@ -84,6 +84,12 @@
 			"changeable": 0
 		},
 		{
+			"key": "网易云音乐.py",
+			"name": "网易云音乐(py)",
+			"type": 3,
+			"api": "./py/网易云音乐.py"
+		},
+		{
 			"key": "世纪音乐.py",
 			"name": "世纪音乐(py)",
 			"type": 3,

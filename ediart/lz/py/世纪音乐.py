@@ -225,7 +225,7 @@ class Spider(Spider):
                     song_id = href.split('/')[-1].replace('.html', '')
                     
                     # 构建播放URL
-                    play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                    play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
                     
                     # 缓存歌曲信息
                     self.home_recommend_cache.append({
@@ -264,7 +264,7 @@ class Spider(Spider):
                     song_id = href.split('/')[-1].replace('.html', '')
                     
                     # 构建播放URL
-                    play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                    play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
                     
                     # 缓存歌曲信息
                     self.home_recommend_cache.append({
@@ -1062,7 +1062,7 @@ class Spider(Spider):
                 song_id = re.search(r'/mp3/([^/]+)\.html', url)
                 if song_id:
                     song_id = song_id.group(1)
-                    play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                    play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
             
             # 创建播放列表 - 当前歌曲优先
             display_name = f"{singer} - {song_name}" if singer else song_name
@@ -1150,7 +1150,7 @@ class Spider(Spider):
                 
                 display_name = f"{artist} - {name}" if artist else name
                 song_id = href.split('/')[-1].replace('.html', '')
-                play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
                 
                 playlist.append(f"{display_name}${self.e64('0@@@@' + play_url)}")
         except Exception as e:
@@ -1172,7 +1172,7 @@ class Spider(Spider):
                     name = a.text()
                     name = self._clean_song_name(name)
                     song_id = href.split('/')[-1].replace('.html', '')
-                    play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                    play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
                     eps.append(f"{name}${self.e64('0@@@@' + play_url)}")
             
             try:
@@ -1186,7 +1186,7 @@ class Spider(Spider):
                         name = a.text()
                         name = self._clean_song_name(name)
                         song_id = href.split('/')[-1].replace('.html', '')
-                        play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                        play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
                         eps.append(f"{name}${self.e64('0@@@@' + play_url)}")
             except:
                 pass
@@ -1687,7 +1687,7 @@ class Spider(Spider):
         pic = doc(".playhimg img, .pic img").eq(0).attr("src")
         
         # 获取当前歌曲的播放URL
-        current_play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+        current_play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
         
         # 创建播放列表 - 当前歌曲优先
         display_name = f"{artist} - {name}" if artist else name
@@ -1780,7 +1780,7 @@ class Spider(Spider):
                     song_name = f"{artist} - {song_name}"
                 
                 song_id = href.split('/')[-1].replace('.html', '')
-                play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
                 
                 playlist.append(f"{song_name}${self.e64('0@@@@' + play_url)}")
         
@@ -2377,7 +2377,7 @@ class Spider(Spider):
                 name = a.text()
                 name = self._clean_song_name(name)
                 song_id = href.split('/')[-1].replace('.html', '')
-                play_url_mp3 = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                play_url_mp3 = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
                 songs.append(f"{name}${self.e64('0@@@@' + play_url_mp3)}")
                 song_count += 1
         
@@ -2432,7 +2432,7 @@ class Spider(Spider):
                         name = a.text()
                         name = self._clean_song_name(name)
                         song_id = href.split('/')[-1].replace('.html', '')
-                        play_url_mp3 = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                        play_url_mp3 = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
                         songs.append(f"{name}${self.e64('0@@@@' + play_url_mp3)}")
                         song_count += 1
                         page_count += 1
@@ -2528,7 +2528,7 @@ class Spider(Spider):
                 name = a.text()
                 name = self._clean_song_name(name)
                 song_id = href.split('/')[-1].replace('.html', '')
-                play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+                play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
                 eps.append(f"{name}${self.e64('0@@@@' + play_url)}")
         
         if eps:
@@ -2538,7 +2538,7 @@ class Spider(Spider):
     def _get_song_detail(self, doc, url):
         song_id = re.search(r'/mp3/([^/]+)\.html', url)
         song_id = song_id.group(1) if song_id else ""
-        play_url = f"{self.host}/data/down.php?ac=music&id={song_id}"
+        play_url = f"music://{self.host}/data/down.php?ac=music&id={song_id}"
         singer = doc(".play_singer .name a").text() or ""
         return {
             "vod_play_url": f"播放${self.e64('0@@@@' + play_url)}",

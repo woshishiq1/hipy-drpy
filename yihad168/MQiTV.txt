@@ -34,6 +34,14 @@
     },
 
     {
+      "name": "MYTV",
+      "url": "http://66.103.204.107/list.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+
+    {
       "name": "四季TV直播",
       "url": "http://ezc.xtvantsc.xyz/litv.php"
     },

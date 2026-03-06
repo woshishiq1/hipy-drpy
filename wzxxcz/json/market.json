@@ -149,5 +149,52 @@
         "version": "6.1.7"
       }
     ]
+  },
+  {
+    "name": "软件社区",
+    "list": [
+      {
+        "name": "酷9魔播多线(32位)",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/k9mbdx_bz32_1776.2_.lz33x_20260302.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "1776.2"
+      },
+      {
+        "name": "酷9魔播多线(64位)",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/k99mbdx_bz64_1776.2_.lz33x_20260302.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "1776.2"
+      },
+      {
+        "name": "Atool工具箱",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/Atool.v1.09.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "1.09"
+      },
+      {
+        "name": "酷我音乐手机版",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/kwyy_12.0.8.5.12085.-bydm.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "12.0.8.5"
+      },
+      {
+        "name": "酷我音乐车机版",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/kwyycjb.7.1.8.21hyb_dm.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "7.1.8.21"
+      },
+      {
+        "name": "炫音KTV",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/xyKTV.2.15.63.2401241253.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "2.15.63"
+      },
+      {
+        "name": "应用管家",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yygjv1.8.3.260212gqb.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "1.8.3"
+      }
+    ]
   }
 ]

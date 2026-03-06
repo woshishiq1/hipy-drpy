@@ -26,6 +26,24 @@
         "version": "3.7.3"
       },
       {
+        "name": "安卓4电视端",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4.x-OKys-2.5.0-xfb.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "2.5.0"
+      },
+      {
+        "name": "安卓5电视端(32位)",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az5zb-OKys-32w-3.7.2.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "3.7.2"
+      },
+      {
+        "name": "安卓5电视端(64位)",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az5zb-OKys-64w-3.7.2.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "3.7.2"
+      },
+      {
         "name": "电视端(64位)",
         "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-arm64_v8a-3.7.3.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
@@ -108,13 +126,19 @@
     "list": [
       {
         "name": "手机端",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscsg-3.2.7.1.apk",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscsjb_3.2.8.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "3.2.7.1"
+        "version": "3.2.8"
+      },
+      {
+        "name": "电视端(安卓4)",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4ysc3.0.6.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "3.0.6"
       },
       {
         "name": "电视端",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscds_6.1.9_opt_sign.apk",
+        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscdsb_6.1.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "6.1.9"
       },

@@ -3681,6 +3681,124 @@ http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34620
 #EXTINF:-1 group-title="MALAYSIA TV",WWE
 http://vipkentken.top:8080/VIP01697172669118799/80fba95604f6/34612
 
+#EXTM3U
+#EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_13"
+#EXTINF:-1 tvg-id="a&e.br" tvg-name="VIVA TV" tvg-logo="http://servidor.vivatele.com/tv/logos/viva.png" group-title="CANAIS ABERTOS",VIVA TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/24
+#EXTINF:-1 tvg-id="GLBRJHD" tvg-name="GLOBO" tvg-logo="http://p6.vc/VCK" group-title="CANAIS ABERTOS",GLOBO
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/1
+#EXTINF:-1 tvg-id="ZYB517" tvg-name="SBT" tvg-logo="http://p6.vc/VBS" group-title="CANAIS ABERTOS",SBT
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/2
+#EXTINF:-1 tvg-id="ZYB515" tvg-name="BAND" tvg-logo="http://p6.vc/VVI" group-title="CANAIS ABERTOS",BAND
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/3
+#EXTINF:-1 tvg-id="ZYB516" tvg-name="RECORD TV" tvg-logo="http://servidor.vivatele.com/tv/logos/record.png" group-title="CANAIS ABERTOS",RECORD TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/13
+#EXTINF:-1 tvg-id="REDERJH" tvg-name="REDE TV" tvg-logo="http://p6.vc/AGY" group-title="CANAIS ABERTOS",REDE TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/16
+#EXTINF:-1 tvg-id="RECNEWH" tvg-name="RECORD NEWS" tvg-logo="http://p6.vc/AWX" group-title="CANAIS ABERTOS",RECORD NEWS
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/23
+#EXTINF:-1 tvg-id="JPNEWS" tvg-name="JOVEM PAN NEWS" tvg-logo="http://p6.vc/VPE" group-title="CANAIS ABERTOS",JOVEM PAN NEWS
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/57
+#EXTINF:-1 tvg-id="cnn.brasil.br" tvg-name="CNN BRASIL" tvg-logo="http://p6.vc/AXC" group-title="CANAIS ABERTOS",CNN BRASIL
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/74
+#EXTINF:-1 tvg-id="CULTUHD" tvg-name="CULTURA" tvg-logo="http://p6.vc/AGR" group-title="CANAIS ABERTOS",CULTURA
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/6
+#EXTINF:-1 tvg-id="FUTRAHD" tvg-name="FUTURA" tvg-logo="http://p6.vc/VCE" group-title="CANAIS ABERTOS",FUTURA
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/9
+#EXTINF:-1 tvg-id="+globosat.br" tvg-name="GAZETA" tvg-logo="https://conteudo.imguol.com.br/c/entretenimento/d4/2019/07/17/logo-tv-gazeta-1563401680791_v2_615x300.jpg" group-title="CANAIS ABERTOS",GAZETA
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/79
+#EXTINF:-1 tvg-id="APARHD" tvg-name="TV APARECIDA" tvg-logo="http://p6.vc/VPS" group-title="CANAIS ABERTOS",TV APARECIDA
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/17
+#EXTINF:-1 tvg-id="cançãonova.br" tvg-name="CANCAO NOVA" tvg-logo="http://p6.vc/VPV" group-title="CANAIS ABERTOS",CANCAO NOVA
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/5
+#EXTINF:-1 tvg-id="" tvg-name="REDE GOSPEL" tvg-logo="https://static.wixstatic.com/media/d978d9_81182dc4b4f44be49f3f05c8ba6431a5~mv2.png" group-title="CANAIS ABERTOS",REDE GOSPEL
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/81
+#EXTINF:-1 tvg-id="RBIHD" tvg-name="RBI" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/e/e3/RBI_TV_Logo.png/150px-RBI_TV_Logo.png" group-title="CANAIS ABERTOS",RBI
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/12
+#EXTINF:-1 tvg-id="" tvg-name="GOSPEL MOVIES" tvg-logo="http://servidor.vivatele.com/tv/logos/gospel.png" group-title="CANAIS ABERTOS",GOSPEL MOVIES
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/52
+#EXTINF:-1 tvg-id="RDVDAHD" tvg-name="REDE VIDA EDUCACAO" tvg-logo="http://p6.vc/VPR" group-title="CANAIS ABERTOS",REDE VIDA EDUCACAO
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/49
+#EXTINF:-1 tvg-id="MLTCULT" tvg-name="EDUCACAO" tvg-logo="http://servidor.vivatele.com/tv/logos/educacao.jpeg" group-title="CANAIS ABERTOS",EDUCACAO
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/8
+#EXTINF:-1 tvg-id="" tvg-name="CANAL SAUDE" tvg-logo="http://servidor.vivatele.com/tv/logos/saude.jpeg" group-title="CANAIS ABERTOS",CANAL SAUDE
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/4
+#EXTINF:-1 tvg-id="CANBOI" tvg-name="CANAL DO BOI" tvg-logo="http://p6.vc/AIA" group-title="CANAIS ABERTOS",CANAL DO BOI
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/7
+#EXTINF:-1 tvg-id="terra.viva.br" tvg-name="TERRA VIVA" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTAd-sBG5wzPZY87XqyHNCzzDzgIR4JQqou-MEs7Q=s512-c-k-c0x00ffffff-no-rj" group-title="CANAIS ABERTOS",TERRA VIVA
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/82
+#EXTINF:-1 tvg-id="" tvg-name="MAIS FAMILIA" tvg-logo="http://servidor.vivatele.com/tv/logos/familia.png" group-title="CANAIS ABERTOS",MAIS FAMILIA
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/10
+#EXTINF:-1 tvg-id="CNLBRSH" tvg-name="TV BRASIL" tvg-logo="http://p6.vc/AIG" group-title="CANAIS ABERTOS",TV BRASIL
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/18
+#EXTINF:-1 tvg-id="SESCTV" tvg-name="SESC  TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFcNk7yKnfllRSAcx1X2lwpvHZWbV5n1kqlMEilz-xow&s" group-title="CANAIS ABERTOS",SESC  TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/48
+#EXTINF:-1 tvg-id="SENADOH" tvg-name="TV SENADO" tvg-logo="http://p6.vc/AHP" group-title="CANAIS ABERTOS",TV SENADO
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/20
+#EXTINF:-1 tvg-id="CAMARAH" tvg-name="TV CAMARA" tvg-logo="http://p6.vc/AHR" group-title="CANAIS ABERTOS",TV CAMARA
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/19
+#EXTINF:-1 tvg-id="fashion.br" tvg-name="FASHION TV" tvg-logo="https://p6.vc/ONW" group-title="CANAIS ABERTOS",FASHION TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/63
+#EXTINF:-1 tvg-id="woohoo.br" tvg-name="WOOHOO" tvg-logo="http://p6.vc/AJW" group-title="CANAIS ABERTOS",WOOHOO
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/73
+#EXTINF:-1 tvg-id="FISHHD" tvg-name="FISH TV" tvg-logo="http://p6.vc/AIR" group-title="CANAIS ABERTOS",FISH TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/21
+#EXTINF:-1 tvg-id="TVRAHD" tvg-name="RA-TIM-BUM" tvg-logo="http://p6.vc/AJV" group-title="CANAIS ABERTOS",RA-TIM-BUM
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/15
+#EXTINF:-1 tvg-id="UNIVEHD" tvg-name="UNIVESP" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/6/6f/Logo_univesp.png?20140905193903" group-title="CANAIS ABERTOS",UNIVESP
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/22
+#EXTINF:-1 tvg-id="" tvg-name="MY TIME MOVIE NETWORK" tvg-logo="http://servidor.vivatele.com/tv/logos/mytime.png" group-title="CANAIS ABERTOS",MY TIME MOVIE NETWORK
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/54
+#EXTINF:-1 tvg-id="TVBRHD" tvg-name="TVE" tvg-logo="http://servidor.vivatele.com/tv/logos/tve.png" group-title="CANAIS ABERTOS",TVE
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/55
+#EXTINF:-1 tvg-id="" tvg-name="GEEKDOT" tvg-logo="http://servidor.vivatele.com/tv/logos/geekdot.jpeg" group-title="CANAIS ABERTOS",GEEKDOT
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/71
+#EXTINF:-1 tvg-id="LONOHDV" tvg-name="LOVE NATURE" tvg-logo="https://lovenature.com/wp-content/uploads/2020/08/love-nature-logo_peacock.png" group-title="CANAIS ABERTOS",LOVE NATURE
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/72
+#EXTINF:-1 tvg-id="" tvg-name="CANAL EDUCAÇÃO" tvg-logo="" group-title="CANAIS ABERTOS",CANAL EDUCAÇÃO
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/92
+#EXTINF:-1 tvg-id="" tvg-name="CANAL LIBRAS" tvg-logo="" group-title="CANAIS ABERTOS",CANAL LIBRAS
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/93
+#EXTINF:-1 tvg-id="" tvg-name="VIAJANDO PELO BRASIL" tvg-logo="http://servidor.vivatele.com/tv/logos/viajando.png" group-title="CANAIS ABERTOS",VIAJANDO PELO BRASIL
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/65
+#EXTINF:-1 tvg-id="" tvg-name="RED BULL  TV" tvg-logo="http://servidor.vivatele.com/tv/logos/redbulltv.png" group-title="CANAIS ABERTOS",RED BULL  TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/46
+#EXTINF:-1 tvg-id="" tvg-name="RADIO JOVEM PAM FM" tvg-logo="https://w7.pngwing.com/pngs/313/989/png-transparent-teresina-jovem-pan-fm-fm-broadcasting-radio-radio-blue-electronics-logo.png" group-title="RADIO",RADIO JOVEM PAM FM
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/47
+#EXTINF:-1 tvg-id="" tvg-name="RADIO FM O DIA AO VIVO" tvg-logo="https://seeklogo.com/images/F/Fm_O_Dia-logo-F0CD3E93CF-seeklogo.com.png" group-title="RADIO",RADIO FM O DIA AO VIVO
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/42
+#EXTINF:-1 tvg-id="" tvg-name="MUSIC TOP" tvg-logo="https://servidor.vivatele.com/tv/logos/musictop.jpeg" group-title="CANAIS ABERTOS",MUSIC TOP
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/99
+#EXTINF:-1 tvg-id="" tvg-name="FUEL TV" tvg-logo="http://servidor.vivatele.com/tv/logos/fueltv.png" group-title="CANAIS ABERTOS",FUEL TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/101
+#EXTINF:-1 tvg-id="" tvg-name="URBAN KIDS" tvg-logo="http://servidor.vivatele.com/tv/logos/urbankids.png" group-title="CANAIS ABERTOS",URBAN KIDS
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/105
+#EXTINF:-1 tvg-id="" tvg-name="URBAN TURBO" tvg-logo="https://www.urbanplay.com.br/archives/15/retrieve" group-title="CANAIS ABERTOS",URBAN TURBO
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/106
+#EXTINF:-1 tvg-id="" tvg-name="URBAN DOCS" tvg-logo="https://www.urbanplay.com.br/archives/18-urban-docs-png_24033-n7svzg0a82k/retrieve" group-title="CANAIS ABERTOS",URBAN DOCS
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/107
+#EXTINF:-1 tvg-id="" tvg-name="URBAN MOVIES" tvg-logo="https://www.urbanplay.com.br/archives/20-urban-movies-png_26568-z0cpuj3tmb/retrieve" group-title="CANAIS ABERTOS",URBAN MOVIES
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/108
+#EXTINF:-1 tvg-id="" tvg-name="URBAN SERIES" tvg-logo="https://www.urbanplay.com.br/archives/21-urban-series-png_21570-1uxfpsxoedh/retrieve" group-title="CANAIS ABERTOS",URBAN SERIES
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/110
+#EXTINF:-1 tvg-id="" tvg-name="URBAN TRAVEL" tvg-logo="https://www.urbanplay.com.br/archives/23-urban-travel-png_22814-vwd27n3oby/retrieve" group-title="CANAIS ABERTOS",URBAN TRAVEL
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/111
+#EXTINF:-1 tvg-id="" tvg-name="MASTER CHEF" tvg-logo="https://imgur.com/W6s8vWC.png" group-title="CANAIS ABERTOS",MASTER CHEF
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/115
+#EXTINF:-1 tvg-id="" tvg-name="GOSPEL CARTOON" tvg-logo="https://imgur.com/5sLv99H.png" group-title="CANAIS ABERTOS",GOSPEL CARTOON
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/117
+#EXTINF:-1 tvg-id="" tvg-name="VIVA E EDUQUE" tvg-logo="https://imgur.com/HnzlMwp.png" group-title="CANAIS ABERTOS",VIVA E EDUQUE
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/118
+#EXTINF:-1 tvg-id="" tvg-name="TOP TV" tvg-logo="https://imgur.com/o9LgTUF.png" group-title="CANAIS ABERTOS",TOP TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/126
+#EXTINF:-1 tvg-id="TVMAXHD" tvg-name="TV MAX" tvg-logo="https://static.wixstatic.com/media/0f057e_8a28dc905a0949ecaeba9368cd313d0d~mv2.png/v1/fill/w_289,h_289,al_c/0f057e_8a28dc905a0949ecaeba9368cd313d0d~mv2.png" group-title="CANAIS ABERTOS",TV MAX
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/56
+#EXTINF:-1 tvg-id="" tvg-name="CANAL UOL" tvg-logo="http://servidor.vivatele.com/tv/logos/uol.jpeg" group-title="CANAIS ABERTOS",CANAL UOL
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/61
+#EXTINF:-1 tvg-id="" tvg-name="ISTV" tvg-logo="" group-title="CANAIS ABERTOS",ISTV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/53
+#EXTINF:-1 tvg-id="" tvg-name="MASTER TV" tvg-logo="" group-title="CANAIS ABERTOS",MASTER TV
+https://gerenciar.vivatele.com:443/viva_padrao/viva2384/98
 
 
 #########################################
@@ -16322,4 +16440,5 @@ https://drive.usercontent.google.com/download?id=1MkpWJaWwprY5hRb_HV9-vR8jsgXf6m
 
 
 ################################################
+
 

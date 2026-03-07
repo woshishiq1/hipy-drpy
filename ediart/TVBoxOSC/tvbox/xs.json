@@ -350,13 +350,6 @@
             "timeout": 60
         },
         {
-            "key": "盘链",
-            "name": "盘链｜4K",
-            "type": 3,
-            "api": "csp_PanLian",
-            "timeout": 60
-        },
-        {
             "key": "甜圈短剧",
             "name": "甜圈｜短剧",
             "type": 3,
@@ -712,16 +705,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./XBPQ/雪花.json"
-        },
-        {
-            "key": "影链",
-            "name": "影链｜搜索",
-            "type": 3,
-            "api": "csp_Yinglian",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
         },
         {
             "key": "88看球",

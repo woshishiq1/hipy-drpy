@@ -79,7 +79,8 @@ proxies:
 
 
 
-  - {name: edgetunnel, server: shopify.com, port: 443, client-fingerprint: randomized, type: vless, uuid: ba55ef37-c33c-4a8f-aafa-2abc85312863, tls: true, tfo: false, skip-cert-verify: false, servername: apk.arises.dynv6.net, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: apk.arises.dynv6.net}}}
+
+
 
   - name: 美国1
     server: usgp2-cdn-route.couldflare-cdn.com

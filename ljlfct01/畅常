@@ -119,12 +119,12 @@
       "api": "csp_Mogg",
       "ext": {
         "tyitoken": "http://127.0.0.1:9978/file/TVBox/tyitoken.txt",
-        "dutoken": "http://127.0.0.1:9978/file/TVBox/dutoken.txt",
+        "dutoken": "http://wang.qijiyun.vip/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/a%E5%B0%8Fbd.txt",
         "p123token": "http://127.0.0.1:9978/file/TVBox/p123token.txt",
-        "token": "http://127.0.0.1:9978/file/TVBox/Altoken.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/qkcookie.txt",
-        "uccookie": "http://127.0.0.1:9978/file/TVBox/uccookie.txt",
-        "tuctoken": "http://127.0.0.1:9978/file/TVBox/tuctoken.txt",
+        "token": "http://wang.qijiyun.vip/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/%E8%8F%B2%E8%8F%B2ck.jpg",
+        "cookie": "http://wang.qijiyun.vip/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/%E8%8F%B2%E8%8F%B2ck.jpg",
+        "uccookie": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
+        "tuctoken": "http://gh.llkk.cc/https://raw.githubusercontent.com/IY-CPU/IY/main/jars/uc.png",
         "site": "http://154.222.27.33:20720/"
       }
     },
@@ -370,7 +370,7 @@
       "name": "落日|自定",
       "type": 3,
       "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/腾腾.js"
+      "ext": "http://wang.qijiyun.vip/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9.js"
     },
     {
       "key": "youyou",
@@ -391,7 +391,17 @@
       "name": "朝阳|自定",
       "type": 3,
       "api": "http://103.45.162.207:25252/仅供测试/lib/drpy2.min.js",
-      "ext": "http://103.45.162.207:25252/仅供测试/lib/茫茫.js"
+      "ext": "http://wang.qijiyun.vip/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9/lib/%E6%9A%97%E9%BB%914k%E5%A5%87%E8%BF%B9mg.js"
+    },
+ {
+      "key": "哔哩哔哩",
+      "name": "💖哔哩哔哩4k",
+      "type": 3,
+      "api": "https://oplist.wya6.cn/d/wydb/xs/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://yp.wya6.cn/nbwj/哔哩视频.js"
     },
     {
       "key": "馆源",
@@ -666,67 +676,13 @@
     }
   ],
   "parses": [
-    {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "Json轮询",
-      "type": 2,
-      "url": "Sequence"
-    },
+
     {
       "name": "自定：请先设置",
       "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getuserjx&url="
-    },
-    {
-      "name": "晴天4K Q1026038872",
-      "type": 1,
-      "url": "http://192.140.163.242:6199/api/index?parsesId=24&appid=10000&videoUrl="
-    },
-    {
-      "name": "虎斑XM",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getXmflvjx&url=",
-      "ext": {
-        "header": {
-          "Accept": "*/*",
-          "Origin": "https://jx.xmflv.com"
-        }
-      }
-    },
-    {
-      "name": "虎斑szy",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getszyjx&url="
-    },
-    {
-      "name": "虎斑mt4K",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getmgtvjx&url="
-    },
-    {
-      "name": "虎斑HJ",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=gethuajx&url="
-    },
-    {
-      "name": "虎斑WS",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getWsjx&url="
-    },
-    {
-      "name": "虎斑AB",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getAbjx&url="
-    },
-    {
-      "name": "虎斑V6",
-      "type": 1,
-      "url": "http://127.0.0.1:9978/proxy?do=seachdanmu&go=getV6jx&url="
+      "url": "http://172.247.44.102:7788/ycdmjk.php?token=zy-d4d6gT5aaiGL%2B60MHyKcB5b01esh1dX95o4cUCuFu%2ByxPA&url="
     }
+
   ],
   "flags": [
     "youku",
@@ -1087,3 +1043,8 @@
     "vip.ffzyad.com"
   ]
 }
+
+
+
+
+

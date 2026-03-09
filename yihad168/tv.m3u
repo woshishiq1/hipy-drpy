@@ -538,29 +538,29 @@ http://74.91.26.218:82/live/ptsse.m3u8
 
 
 
-#EXTINF:-1 group-title="台灣",ASTRO AEC
+#EXTINF:-1 group-title="台灣",Astro AEC
 http://hls.sohu.blog/my.php?id=1
-#EXTINF:-1 group-title="台灣",ASTRO
+#EXTINF:-1 group-title="台灣",Al-Hijrah
 http://hls.sohu.blog/my.php?id=2
 #EXTINF:-1 group-title="台灣",動物星球
 http://hls.sohu.blog/my.php?id=3
-#EXTINF:-1 group-title="台灣",ASTRO AOD
+#EXTINF:-1 group-title="台灣",Astro AOD
 http://hls.sohu.blog/my.php?id=4
-#EXTINF:-1 group-title="台灣",ASTRO AWANI
+#EXTINF:-1 group-title="台灣",Astro AWANI
 http://hls.sohu.blog/my.php?id=5
-#EXTINF:-1 group-title="台灣",ASTRO
+#EXTINF:-1 group-title="台灣",Blippi & Friends
 http://hls.sohu.blog/my.php?id=6
-#EXTINF:-1 group-title="台灣",ASTRO
+#EXTINF:-1 group-title="台灣",ASTRO WARNA
 http://hls.sohu.blog/my.php?id=7
-#EXTINF:-1 group-title="台灣",ASTRO
+#EXTINF:-1 group-title="台灣",K-Plus HD
 http://hls.sohu.blog/my.php?id=8
-#EXTINF:-1 group-title="台灣",ASTRO
+#EXTINF:-1 group-title="台灣",Astro Thangathirai
 http://hls.sohu.blog/my.php?id=9
 #EXTINF:-1 group-title="台灣",M2O
 http://hls.sohu.blog/my.php?id=10
-#EXTINF:-1 group-title="台灣",ASTRO QASIS
+#EXTINF:-1 group-title="台灣",Astro QASIS
 http://hls.sohu.blog/my.php?id=11
-#EXTINF:-1 group-title="台灣",ASTRO PRIMA
+#EXTINF:-1 group-title="台灣",Astro PRIMA
 http://hls.sohu.blog/my.php?id=12
 #EXTINF:-1 group-title="台灣",ASTRO
 http://hls.sohu.blog/my.php?id=13
@@ -613,7 +613,14 @@ http://hls.sohu.blog/my.php?id=37
 #EXTINF:-1 group-title="台灣",DIDIK
 http://hls.sohu.blog/my.php?id=38
 
+#EXTINF:-1 group-title="台灣",TLC
+http://hls.sohu.blog/my.php?id=50
+#EXTINF:-1 group-title="台灣",TV1
+http://hls.sohu.blog/my.php?id=51
 
+
+
+https://content.astro.com.my/channels
 
 
 
@@ -4026,7 +4033,8 @@ https://gerenciar.vivatele.com:443/viva_padrao/viva2384/98
                  抖音K歌
 #########################################
 
-
+#EXTINF:-1 group-title="抖音K歌",寻秦记
+https://live.ottiptv.cc/yy/1382749900
 
 #EXTINF:-1 group-title="抖音K歌",周杰倫MV
 http://huanqiuzhibo.cn/manifest/douyu.php?id=122402

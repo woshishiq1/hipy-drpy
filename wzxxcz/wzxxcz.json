@@ -34,10 +34,10 @@
             "url": "https://gh-proxy.com/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/电视家.m3u"
         },
         {
-            "name": "环球斯玛特",
+            "name": "光辉",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/环球斯玛特"
+            "url": "http://ko.zoho.to/ii/32799.txt"
         },
         {
             "name": "sub",
@@ -88,12 +88,6 @@
             "url": "http://124.71.194.147:1234/"
         },
         {
-            "name": "咪咕央卫体育2",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://113.44.65.227:1234"
-        },
-        {
             "name": "迪基",
             "type": 0,
             "ua": "okhttp/5.3.2",
@@ -110,12 +104,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://gitee.com/yimi321/tv/raw/master/tv.png"
-        },
-        {
-            "name": "CXS",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://16227.kstore.space/cxs.txt"
         },
         {
             "name": "guovin",
@@ -862,13 +850,6 @@
             "timeout": 60
         },
         {
-            "key": "盘链",
-            "name": "🍊盘链4K",
-            "type": 3,
-            "api": "csp_PanLian",
-            "timeout": 60
-        },
-        {
             "key": "人人",
             "name": "🧑人人4K",
             "type": 3,
@@ -880,16 +861,6 @@
             "name": "🍊盘搜搜索",
             "type": 3,
             "api": "csp_PanSou",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "timeout": 60
-        },
-        {
-            "key": "影链",
-            "name": "🍊影链搜索",
-            "type": 3,
-            "api": "csp_Yinglian",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,

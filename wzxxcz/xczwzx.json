@@ -136,40 +136,16 @@
             "url": "http://www.52top.com.cn:678/list.php?fileid=ty.php"
         },
         {
-            "name": "小南",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://a.xncjys.xyz/dszb/xnds.txt"
-        },
-        {
             "name": "vBMSZ",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://pan.ymxx.net/f/vBMSZ/临时测试.txt"
         },
         {
-            "name": "蚂蚁",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://ox.my.to//i/蚂蚁.txt"
-        },
-        {
-            "name": "寻冬观月",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://192.140.163.220:9986/屿风眠星辞雾听澜书禾念安知夏遇秋寻冬观月.txt"
-        },
-        {
             "name": "q1017673817",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/q1017673817/iptvz/refs/heads/main/zubo_all.txt"
-        },
-        {
-            "name": "小白",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://52xiaobai.cn/ceshi/zhibo.php"
         },
         {
             "name": "壹米",
@@ -208,22 +184,10 @@
             "url": "http://119.91.7.169:5501/jumibao21.php"
         },
         {
-            "name": "经典TV",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://chuxinya.top/f/vlyxFA/JDTV.txt"
-        },
-        {
             "name": "电视ZB",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "http://1.94.31.214/live/live9/dgtv.txt"
-        },
-        {
-            "name": "anboxtv",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://tv.anboxtv.online/tv"
         },
         {
             "name": "宫殿",
@@ -262,24 +226,6 @@
             "url": "https://gitee.com/hzxs800274/iptv/raw/master/live/TV"
         },
         {
-            "name": "港台频道",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://ku9.fr.to/ku9/1768502278.txt"
-        },
-        {
-            "name": "catvod",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://iptv.catvod.com/tv.m3u"
-        },
-        {
-            "name": "catvod(备用)",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://live.catvod.com/tv.m3u"
-        },
-        {
             "name": "zwssina",
             "type": 0,
             "ua": "okhttp/5.3.2",
@@ -309,12 +255,6 @@
             "ua": "okhttp/5.3.2",
             "url": "https://chuxinya.top/f/2xLkt8/12.28飞扬直播.txt"
         },
-        {
-            "name": "易佬直播源",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://gc.gt.tc/o/i/HKTV.txt"
-        }, 
         {
             "name": "港台大陆频道",
             "type": 0,
@@ -35981,6 +35921,15 @@
             "type": 3,
             "api": "csp_Kanqiu",
             "gridview": 3,
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "919体育",
+            "name": "⚽919体育",
+            "type": 3,
+            "api": "csp_919Tiyu",
             "style": {
                 "type": "list"
             }

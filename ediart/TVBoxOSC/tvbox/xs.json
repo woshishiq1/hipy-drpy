@@ -62,6 +62,57 @@
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
         },
         {
+            "key": "恋鱼",
+            "name": "恋鱼｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "http://103.117.137.33:2443",
+                "ver": 2
+            }
+        },
+        {
+            "key": "云播",
+            "name": "云播｜APP",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppFox",
+            "ext": "http://app.hktvyb.cc"
+        },
+        {
+            "key": "秒看",
+            "name": "秒看｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://mk1080.top/get.txt",
+                "dataKey": "c60d88b2eep53za8",
+                "dataIv": "c60d88b2eep53za8",
+                "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
+            }
+        },
+        {
+            "key": "金牌",
+            "name": "金牌｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://qj3.ggtvb.cc",
+                "dataKey": "eecbio48dsq13kkk",
+                "dataIv": "eecbio48dsq13kkk",
+                "search": "searchList4",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "奇奇",
             "name": "奇奇｜APP",
             "type": 3,
@@ -263,11 +314,11 @@
             "key": "小羊",
             "name": "小羊｜APP",
             "type": 3,
-            "api": "csp_AppGet",
+            "api": "csp_AppQi",
             "ext": {
-                "site": "https://xy4k.com/url.txt",
-                "dataKey": "7SDWjknU34zqFbVr",
-                "dataIv": "7SDWjknU34zqFbVr"
+                "url": "https://qjappcms410.xy4k.com",
+                "dataKey": "mC6kG4mI1uM8tS4o",
+                "dataIv": "mC6kG4mI1uM8tS4o"
             }
         },
         {

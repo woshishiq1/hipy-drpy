@@ -917,6 +917,7 @@
       "url": "https://d.kstore.dev/download/13045/1_%E7%B2%BE%E5%93%81%E5%BF%AB%E9%A4%90%281%29.txt",
       "playerType": 1
     },
+
   {
       "name": "🔞💔💎18+千部独家传媒无水印💎💔",
       "type": 0,
@@ -984,6 +985,67 @@
       "url": "https://raw.githubusercontent.com/FGBLH/fgrjk2/refs/heads/main/haijiao888",
       "type": 1
    },
+
+
+    {
+      "name": "🦄海豚iptvpro🔞",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "http://hufa.zabc.net:8080/iptvpro.txt"
+    },
+
+    {
+      "name": "備用線路",
+      "url": "https://tv.iill.top/FainTV/list",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+    {
+      "name": "543",
+      "url": "http://66.103.204.107/list.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+     },
+
+    {
+      "name": "543_1",
+      "url": "http://iptv543.com/543.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+
+    },
+
+    {
+      "name": "亚麻蝶",
+      "url": "https://xoxo.cn.mt/Lonely.m3u",
+      "type": 1
+   },
+
+
+    {
+      "name": "60酒店源",
+      "type": 3,
+      "jar": "https://5413.kstore.space/DM/jar/fm.jar",
+      "api": "csp_MQiTV",
+      "epg": "https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz",
+      "ext": [
+        {
+          "name": "60",
+          "url": "http://220.134.196.147:1888"
+        }
+      ]
+    },
+    {
+      "name": "Dream",
+      "url": "http://hufa.zabc.net:8080/dream.txt",
+      "ua": "okhttp/5.1.0"
+    },
+    {
+      "name": "斯馬特2",
+      "url": "http://52xinghe.top/smmmt.php"
+    },
+
 
 
   {

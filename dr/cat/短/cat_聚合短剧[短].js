@@ -816,7 +816,7 @@ async function recommend() {
               return {
                 vod_id: `碎片@${compoundId}`,
                 vod_name: it.title || '',
-                vod_pic: "https://free-api.bighotwind.cc/papaya/papaya-file/files/download/" + it.imageKey + "/" + it.imageName,
+                vod_pic: "https://speed.howdbm.com/papaya/papaya-file/files/download/" + it.imageKey + "/" + it.imageName,
                 vod_remarks: `碎片剧场 | 集数:${it.episodesMax || 0} 播放:${it.hitShowNum || 0}`,
                 vod_content: it.content || it.description || ''
               };
@@ -1098,7 +1098,7 @@ async function category(tid, pg, filter, extend) {
             videos.push({
               vod_id: `碎片@${compoundId}`,
               vod_name: it.title || '',
-              vod_pic: "https://free-api.bighotwind.cc/papaya/papaya-file/files/download/" + it.imageKey + "/" + it.imageName,
+              vod_pic: "https://speed.howdbm.com/papaya/papaya-file/files/download/" + it.imageKey + "/" + it.imageName,
               vod_remarks: `集数:${it.episodesMax || 0} 播放:${it.hitShowNum || 0}`,
               vod_content: it.content || it.description || ''
             });
@@ -1380,7 +1380,7 @@ async function detail(id) {
           vod = {
             vod_id: id,
             vod_name: data.title || '',
-            vod_pic: "https://free-api.bighotwind.cc/papaya/papaya-file/files/download/" + (data.imageKey || '') + "/" + (data.imageName || ''),
+            vod_pic: "https://speed.howdbm.com/papaya/papaya-file/files/download/" + (data.imageKey || '') + "/" + (data.imageName || ''),
             vod_remarks: `共${data.episodesMax || 0}集`,
             vod_content: data.content || data.description || `播放量:${data.hitShowNum || 0} 点赞:${data.likeNum || 0}`,
             vod_play_from: '碎片剧场',
@@ -1391,7 +1391,7 @@ async function detail(id) {
               if (episode.resolutionList && episode.resolutionList.length > 0) {
                 episode.resolutionList.sort((a, b) => b.resolution - a.resolution);
                 let bestResolution = episode.resolutionList[0];
-                playUrl = `https://free-api.bighotwind.cc/papaya/papaya-file/files/download/${bestResolution.fileKey}/${bestResolution.fileName}`;
+                playUrl = `https://speed.howdbm.com/papaya/papaya-file/files/download/${bestResolution.fileKey}/${bestResolution.fileName}`;
               }
               return playUrl ? `${episodeTitle}$${playUrl}` : null;
             }).filter(item => item !== null).join('#')
@@ -1728,7 +1728,7 @@ async function search(wd, quick, pg) {
                 return {
                   vod_id: `碎片@${compoundId}`,
                   vod_name: it.title || '',
-                  vod_pic: "https://free-api.bighotwind.cc/papaya/papaya-file/files/download/" + (it.imageKey || '') + "/" + (it.imageName || ''),
+                  vod_pic: "https://speed.howdbm.com/papaya/papaya-file/files/download/" + (it.imageKey || '') + "/" + (it.imageName || ''),
                   vod_remarks: `碎片剧场 | 集数:${it.episodesMax || 0} 播放:${it.hitShowNum || 0}`,
                   vod_content: it.content || it.description || ''
                 };

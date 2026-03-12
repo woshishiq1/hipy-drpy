@@ -6,9 +6,7 @@ var rule = {
   searchUrl:'',
   searchable:2,
   quickSearch:0,
-  filterable:1,
-  filter:'',
-  filter_url:'',
+  filterable:0,
   headers:{
       'User-Agent':'MOBILE_UA',
   },
@@ -18,6 +16,9 @@ var rule = {
   cate_exclude:'',
   play_parse:true,
   double:true,
+  预处理:$js.toString(()=>{
+
+  }),
   推荐:$js.toString(()=>{
 
   }),
@@ -31,6 +32,6 @@ var rule = {
 
   }),
   lazy:$js.toString(()=>{
-    input = {parse:0,url:input,js:''};
+    
   }),
 }

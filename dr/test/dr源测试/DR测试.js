@@ -149,38 +149,16 @@ var rule = {
             VODS = [];
         }
     }),    
-    /*lazy: $js.toString(() => {
-        let video_id = input;
-        let qualities = ['1080p', '720p', '480p', '360p'];
-        let video_url = '';        
-        for (let i = 0; i < qualities.length; i++) {
-            let quality = qualities[i];
-            let api_url = HOST + '/API/playlet/?video_id=' + video_id + '&quality=' + quality;
-            try {
-                let html = request(api_url, {
-                    headers: {
-                        'User-Agent': 'okhttp/3.12.11',
-                        'Content-Type': 'application/json; charset=utf-8'
-                    }
-                });
-                let data = JSON.parse(html);
-                if (data && data.data && data.data.video && data.data.video.url) {
-                    video_url = data.data.video.url;
-                    break;
-                }
-            } catch (e) {
-                continue;
-            }
-        }        
-        if (video_url) {
-            input = video_url;
-        } else {
-            input = input;
-        }
-    })*/
     lazy: $js.toString(() => {
         const video_id = input;
-        const QUALITY_MAP = {'1080p': '蓝光','720p': '超清','480p': '高清','360p': '标清'};
+        // 清晰度映射，可根据实际调整
+        const QUALITY_MAP = {
+            '1080p': '蓝光',
+            '720p': '超清',
+            '480p': '高清',
+            '360p': '标清'
+        };
+
         function fetchJson(url) {
             try {
                 let headers = {
@@ -193,6 +171,7 @@ var rule = {
                 return null;
             }
         }
+
         let urls = [];
         for (let level in QUALITY_MAP) {
             let display = QUALITY_MAP[level];
@@ -203,9 +182,12 @@ var rule = {
                 urls.push(`星之阁-${display}`, videoUrl);
             }
         }
+
         if (urls.length > 0) {
+            // 返回多清晰度列表，播放器将显示这些选项
             input = { parse: 0, url: urls };
         } else {
+            // 如果全部失败，留空或保留原逻辑（可选）
             input = '';
         }
     })

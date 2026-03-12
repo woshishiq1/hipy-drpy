@@ -2,19 +2,21 @@
 # 本资源来源于互联网公开渠道，仅可用于个人学习爬虫技术。
 # 严禁将其用于任何商业用途，下载后请于 24 小时内删除，搜索结果均来自源站，本人不承担任何责任。
 
-import re,sys,json,urllib3
+from Crypto.Cipher import AES
 from base.spider import Spider
+from Crypto.Util.Padding import unpad
+import re,sys,time,json,base64,secrets,urllib3,hashlib
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 sys.path.append('..')
 
 class Spider(Spider):
-    headers,timeout,ver,uas,parses,custom_parses,host,froms,detail,custom_first,category,cms = {
+    headers,timeout,ver,uas,parses,play_config,custom_parses,host,froms,detail,custom_first,category,cms,app_key,app_sign = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         'Connection': 'Keep-Alive',
         'Accept-Encoding': 'gzip',
         'Accept-Language': 'zh-CN,zh;q=0.8',
         'Cache-Control': 'no-cache'
-    },5,1,{},{},{},'','','','','',''
+    },5,2,{},{},{},{},'','','','','','','',''
 
     def init(self, extend=''):
         ext = extend.strip()
@@ -23,7 +25,9 @@ class Spider(Spider):
         else:
             arr = json.loads(ext)
             host = arr['host']
-            self.ver = 2 if arr.get('ver',2) == 2 else self.ver
+            self.app_key = arr.get('key')
+            self.app_sign = arr.get('sign')
+            self.ver = arr.get('ver')
             cms = arr.get('cms', '').rstrip('/')
             if re.match(r'^https?://.*/vod', cms):
                 if '?' in cms:
@@ -40,9 +44,7 @@ class Spider(Spider):
                 if isinstance(ua,str):
                     self.headers['User-Agent'] = ua
                 elif isinstance(ua,dict):
-                    self.uas = {'host': ua.get('host'), 'config': ua.get('config'), 'home': ua.get('home'),
-                                'category': ua.get('category'),'search': ua.get('search'), 'parse': ua.get('parse'),
-                                'player': ua.get('player')}
+                    self.uas = {'host': ua.get('host'),'config':ua.get('config'),'home':ua.get('home'),'category':ua.get('category'),'search':ua.get('search'),'parse':ua.get('parse'),'player':ua.get('player')}
             self.timeout = arr.get('timeout', 5)
         if not re.match(r'^https?://[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(:\d+)?(/)?$', host):
             headers = self.headers.copy()
@@ -55,6 +57,22 @@ class Spider(Spider):
                 host_ = host_.strip()
             if host_.startswith('http'): host = host_
         self.host = host.rstrip('/')
+        auth_val = bool(self.app_key and self.app_sign)
+        if self.ver == 3 and not auth_val:
+            this_headers2 = self.headers2()
+            custom_ua = self.uas.get('config')
+            if custom_ua: this_headers2['User-Agent'] = custom_ua
+            config_response = self.fetch(f'{self.host}/api.php/Appfox/config', headers=this_headers2, verify=False, timeout=self.timeout).json()
+            config = config_response.get('data',{})
+            app_key, app_sign = config.get('app_key'), config.get('app_sign')
+            if app_key and app_sign:
+                self.app_key, self.app_sign = app_key, app_sign
+            player_list = config_response.get('data', {}).get('playerList', [])
+            jiexi_data_list = config_response.get('data', {}).get('jiexiDataList', [])
+            if player_list:
+                self.play_config = {'playerList': player_list, 'jiexiDataList': jiexi_data_list}
+        elif auth_val:
+            self.ver = 3
 
     def homeContent(self, filter):
         if not self.host or self.category == 0: return None
@@ -85,7 +103,7 @@ class Spider(Spider):
         headers = self.headers.copy()
         custom_ua = self.uas.get('homeVideo',self.uas.get('home'))
         if custom_ua: headers['User-Agent'] = custom_ua
-        if self.ver == 2:
+        if self.ver == 2 or self.ver == 3:
             response = self.fetch(f'{self.host}/api.php/appfox/nav', headers=headers, verify=False, timeout=self.timeout).json()
             navigationId = ''
             for i in response['data']:
@@ -140,9 +158,19 @@ class Spider(Spider):
             response = self.fetch(f'{cms}ac=detail&wd={key}', headers=headers, verify=False, timeout=self.timeout).json()
             self.detail = response['list']
         else:
-            path = f"{self.host}/api.php/Appfox/vod?ac=detail&wd={key}"
-            if self.froms: path += '&from=' + self.froms
-            response = self.fetch(path, headers=headers, verify=False, timeout=self.timeout).json()
+            if self.ver == 3:
+                body = f'{{"ac":"detail","wd":"{key}","pg":"{pg}"}}'
+                this_headers2 = self.headers2(body)
+                if search_ua: this_headers2['User-Agent'] = search_ua
+                res = self.post(f'{self.host}/api.php/appfoxs/vod', headers=this_headers2, data=body, verify=False, timeout=self.timeout).text
+                try:
+                    response = json.loads(res)
+                except Exception:
+                    response = json.loads(self.decrypt(res))
+            else:
+                path = f"{self.host}/api.php/Appfox/vod?ac=detail&wd={key}"
+                if self.froms: path += '&from=' + self.froms
+                response = self.fetch(path, headers=headers, verify=False, timeout=self.timeout).json()
             self.detail = response['list']
         return response
 
@@ -159,18 +187,41 @@ class Spider(Spider):
                 response = self.fetch(f'{cms}ac=detail&ids={ids[0]}', headers=headers, verify=False, timeout=self.timeout).json()
                 video = response.get('list')[0]
             else:
-                detail_response = self.fetch(f"{self.host}/api.php/Appfox/vod?ac=detail&ids={ids[0]}", headers=headers, verify=False, timeout=self.timeout).json()
+                if self.ver == 3:
+                    body = f'{{"ac":"detail","ids":"{ids[0]}"}}'
+                    this_headers2 = self.headers2(body)
+                    if detail_ua:
+                        this_headers2['User-Agent'] = detail_ua
+                    res = self.post(f"{self.host}/api.php/appfoxs/vod",data=body, headers=this_headers2, verify=False, timeout=self.timeout).text
+                    try:
+                        detail_response = json.loads(res)
+                    except Exception:
+                        detail_response = json.loads(self.decrypt(res))
+                else:
+                    detail_response = self.fetch(f"{self.host}/api.php/Appfox/vod?ac=detail&ids={ids[0]}", headers=headers, verify=False, timeout=self.timeout).json()
                 video = detail_response.get('list')[0]
         if not video: return {'list': []}
         play_from = video['vod_play_from'].split('$$$')
         play_urls = video['vod_play_url'].split('$$$')
         try:
             headers = self.headers.copy()
+            if self.ver == 3:
+                headers = self.headers2()
             custom_ua = self.uas.get('config')
             if custom_ua: headers['User-Agent'] = custom_ua
-            config_response = self.fetch(f"{self.host}/api.php/Appfox/config", headers=headers, verify=False, timeout=self.timeout).json()
-            player_list = config_response.get('data', {}).get('playerList', [])
-            jiexi_data_list = config_response.get('data', {}).get('jiexiDataList', [])
+            play_config = self.play_config
+            if not play_config:
+                if self.ver == 3:
+                    res = self.fetch(f"{self.host}/api.php/appfoxs/config", headers=headers, verify=False, timeout=self.timeout).text
+                    try:
+                        config_response = json.loads(res)
+                    except Exception:
+                        config_response = json.loads(self.decrypt(res))
+                else:
+                    config_response = self.fetch(f"{self.host}/api.php/Appfox/config", headers=headers, verify=False, timeout=self.timeout).json()
+                self.play_config = {'playerList': config_response.get('data', {}).get('playerList', []), 'jiexiDataList': config_response.get('data', {}).get('jiexiDataList', [])}
+            player_list = self.play_config.get('playerList', [])
+            jiexi_data_list = self.play_config.get('jiexiDataList', [])
         except Exception:
             return {'list': [video]}
         player_map = {player['playerCode']: player for player in player_list}
@@ -243,9 +294,34 @@ class Spider(Spider):
                         break
             if parsed or parse:
                 break
-        if not(re.match(r'https?:\/\/.*\.(m3u8|mp4|flv|mkv)', url) or parsed == 1):
+        if not(re.match(r'https?://.*\.(m3u8|mp4|flv|mkv)', url) or parsed == 1):
             jx = 1
         return { 'jx': jx, 'parse': parse, 'url': url, 'header': {'User-Agent': player_ua}}
+
+    def decrypt(self,data):
+        try:
+            cipher_data = base64.b64decode(data)
+            k = self.md5(self.app_key)[:16].encode('utf-8')
+            cipher = AES.new(k, AES.MODE_CBC, k[::-1])
+            plaintext_padded = cipher.decrypt(cipher_data)
+            plaintext = unpad(plaintext_padded, AES.block_size)
+            return plaintext.decode('utf-8')
+        except Exception:
+            raise ValueError
+
+    def headers2(self,body=''):
+        timestamp = int(time.time() * 1000)
+        nonce = secrets.choice(range(100000, 1000000))
+        sign = self.md5(f'{self.app_sign}{self.app_key}{timestamp}{nonce}{body}')
+        return {
+            'User-Agent': self.headers['User-Agent'],
+            'Accept-Encoding': 'gzip',
+            'x-security-auth': f'{timestamp}|{nonce}|{sign}',
+            'content-type': 'application/json; charset=utf-8'
+        }
+
+    def md5(self,data):
+        return hashlib.md5(data.encode('utf-8')).hexdigest()
 
     def getName(self):
         pass

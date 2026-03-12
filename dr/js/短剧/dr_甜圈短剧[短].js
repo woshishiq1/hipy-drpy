@@ -2,14 +2,15 @@ var rule = {
     author: '小可乐/2503/第一版',
     title: '甜圈短剧[短]',
     类型: '影视',
-    host: 'https://api.cenguigui.cn',
+    //host: 'https://api.cenguigui.cn',
+    host: 'https://api-v2.cenguigui.cn',
     headers: {
         'User-Agent': 'MOBILE_UA'
     },
     编码: 'utf-8',
     timeout: 5000,
     homeUrl: '/api/duanju/api.php?classname=推荐榜&offset=0',
-    url: '/api/duanju/api.php?classname=fyclass&offset=(fypage-1)',
+    url: '/api/duanju/api.php?classname=fyclass&offset=fypage',
     filter_url: '',
     detailUrl: '/api/duanju/api.php?book_id=fyid',
     searchUrl: '/api/duanju/api.php?name=**&page=fypage',

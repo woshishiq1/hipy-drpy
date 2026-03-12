@@ -7,21 +7,17 @@
 */
 {
 "urls": [
-{"name": "🔥在线本地dr源②","url":"clan://localhost/dr-master/dr2.json"},        
-{"name": "☄️dr②","url":"https://raw.gitmirror.com/jak0099/dr/master/dr2.json"},        
-{"name": "☄️dr②|备用1","url":"https://gh-proxy.com/https://raw.githubusercontent.com/jak0099/dr/master/dr2.json"},        
-{"name": "🍚饭太硬","url":"http://www.饭太硬.com/"},               
-{"name": "🥬菜妮丝","url":"https://tv.菜妮丝.top"},
+{"name": "🔥本地dr②","url":"clan://localhost/dr-master/dr2.json"},        
+{"name": "☄️在线dr②","url":"https://gh-proxy.com/https://raw.githubusercontent.com/jak0099/dr/master/dr2.json"},        
+{"name": "🍚饭太硬","url":"http://www.饭太硬.com/tv"},               
+{"name": "🐠摸鱼儿","url":"http://我不是.摸鱼儿.com"},
+{"name": "🐮放牛娃","url":"http://tvbox.王二小放牛娃.top"},
+{"name": "🍑真心","url":"https://www.252035.xyz/z/FongMi.json"},
+{"name": "🍊嗷呜","url":"https://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/config"},
 {"name": "😺肥猫","url":"https://肥猫.com"}, 
-{"name": "☀OK","url":"http://ok321.top/tv"},
-{"name": "🎏多多","url":"https://git.acwing.com/iduoduo/orange/-/raw/main/config.bin"},
-{"name": "🐬王小二","url":"http://tvbox.王小二放牛娃.top"},
-{"name": "🌽小米","url":"https://mpanso.me/DEMO.json"},               
-{"name": "☁摸鱼儿","url":"http://我不是.摸鱼儿.com"},
-{"name": "⚡雷蒙","url":"https://raw.gitmirror.com/n3rddd/N3RD/master/JN/lemj.json"},        
-{"name": "🌿南风","url":"https://ghproxy.net/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"},               
-{"name": "💥纯一","url":"https://100km.top/0"},               
-{"name": "☃️小白","url":"http://bp.tvbox.cam/"},               
+{"name": "☀OK","url":"http://ok213.top/tv"},
+{"name": "🌿南风","url":"https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"},               
+{"name": "🥬菜妮丝","url":"https://tv.菜妮丝.top"},
 {"name": "🐚讴歌","url":"http://tv.nxog.top/m/"}                        
 ]
 }

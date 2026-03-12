@@ -16,7 +16,7 @@ class Spider(Spider):
         'Accept-Encoding': 'gzip',
         'authorization': '',
         'uuid': ''
-    }, '','https://free-api.bighotwind.cc/papaya/papaya-file/files/download/','com.sha.fragment_5d091235ac87508f_token'
+    }, '','https://speed.howdbm.com/papaya/papaya-file/files/download/','com.sha.fragment_5d091235ac87508f_token'
 
     def init(self, extend=''):
         self.host = 'https://free-api.bighotwind.cc'

@@ -2,10 +2,8 @@ var rule = {
     类型: '影视',
     title: '甜圈短剧[短]',
     host: 'https://mov.cenguigui.cn',
-    //homeUrl: '/duanju/api.php?classname=推荐榜&offset=0',
-    //url: '/duanju/api.php?classname=fyclass&offset=fypage',
-    homeUrl: '/duanju/api.php?name=推荐榜&offset=0',
-    url: '/duanju/api.php?name=fyclass&offset=fypage',
+    homeUrl: '/duanju/api.php?classname=推荐榜&offset=0',
+    url: '/duanju/api.php?classname=fyclass&offset=fypage',
     detailUrl: '/duanju/api.php?book_id=fyid',
     searchUrl: '/duanju/api.php?name=**&page=fypage',
     searchable: 2,
@@ -33,67 +31,29 @@ var rule = {
         qualities.forEach(quality => {
             let baseUrl = `${HOST}/duanju/api.php?video_id=${input}&type=mp4`;
             let url = quality.level ? `${baseUrl}&level=${quality.level}` : baseUrl;
-            urls.push(quality.display, url);
-        });        
+            urls.push(quality.display + " (无API)", url);
+        });
+        qualities.forEach(quality => {
+            let baseUrl = `https://api.cenguigui.cn/api/duanju/api.php?video_id=${input}&type=mp4`;
+            let url = quality.level ? `${baseUrl}&level=${quality.level}` : baseUrl;
+            urls.push(quality.display + " (API)", url);
+        });
         input = {
             parse: 0,
             url: urls
         };
     }),*/
     lazy: $js.toString(() => {
-        const video_id = input;
-        const QUALITY_MAP = {'1080p': '蓝光','720p': '超清','480p': '高清','360p': '标清'};
-        function fetchJson(url, headers) {
-            try {
-                const response = request(url, {
-                    headers
-                });
-                return JSON.parse(response);
-            } catch (error) {
-                return null;
-            }
-        }
-        const starSource = {
-            name: '星之阁',
-            qualities: Object.keys(QUALITY_MAP).map(level => ({
-                display: QUALITY_MAP[level],
-                level: level
-            })),
-            getUrl: function(video_id, quality) {
-                const apiUrl = `https://api.xingzhige.com/API/playlet/?video_id=${video_id}&quality=${quality.level}`;
-                const headers = {
-                    'User-Agent': 'okhttp/3.12.11',
-                    'Content-Type': 'application/json; charset=utf-8'
-                };
-                const data = fetchJson(apiUrl, headers);
-                return data && data.data && data.data.video && data.data.video.url;
-            }
+        let kurl1 = `${HOST}/duanju/api.php?video_id=${input}&type=mp4`;
+        let kurl2 = `https://api.cenguigui.cn/api/duanju/api.php?video_id=${input}&type=mp4`;
+        input = {
+            jx: 0,
+            parse: 0,
+            url: [
+                "默认", kurl1,
+                "API", kurl2
+            ]
         };
-        const donutQualities = Object.keys(QUALITY_MAP).map(level => ({
-            display: QUALITY_MAP[level],
-            level: level
-        }));
-        const donutSource = {
-            name: '甜圈',
-            qualities: donutQualities,
-            getUrl: function(video_id, quality) {
-                const baseUrl = `${HOST}/duanju/api.php?video_id=${video_id}&type=mp4`;
-                return `${baseUrl}&level=${quality.level}`;
-            }
-        };
-        const sources = [starSource, donutSource];
-        const urls = [];
-        const seenUrls = new Set(); 
-        for (const source of sources) {
-            for (const quality of source.qualities) {
-                const videoUrl = source.getUrl(video_id, quality);
-                if (videoUrl && !seenUrls.has(videoUrl)) {
-                    seenUrls.add(videoUrl);
-                    urls.push(`${source.name}-${quality.display}`, videoUrl);
-                }
-            }
-        }        
-        input = { parse: 0, url: urls };
     }),
     推荐: $js.toString(() => {
         let res = request(input, {
@@ -106,7 +66,7 @@ var rule = {
                 vod_id: item.book_id,
                 vod_name: item.title,
                 vod_pic: item.cover,
-                vod_remarks: `${item.type}|${item.episode_cnt}集`
+                vod_remarks: `${item.sub_title}|${item.episode_cnt}集`
             });
         });
     }),
@@ -121,8 +81,7 @@ var rule = {
                 vod_id: item.book_id,
                 vod_name: item.title,
                 vod_pic: item.cover,
-                //vod_remarks: `${item.score}分|${item.episode_cnt}集`
-                vod_remarks: (item.score !== undefined && item.score !== null ? item.score + '分' : item.type) + '|' + item.episode_cnt + '集'
+                vod_remarks: `${item.sub_title}|${item.episode_cnt}集`
             });
         });
     }),
@@ -138,11 +97,10 @@ var rule = {
         VOD = {
             vod_id: item.book_id || '',
             vod_name: item.book_name || item.title || '',
-            //type_name: item.category || '',
+            type_name: item.category || '',
             vod_pic: item.book_pic || item.cover || '',
             vod_content: item.desc || '',
-            vod_remarks: `${item.duration}•共${item.total}集  类型：${item.category}`,
-            vod_director: item.author,
+            vod_remarks: item.duration || '',
             vod_year: item.time || '',
             vod_play_from: '甜圈短剧',
             vod_play_url: playUrls.join("#")

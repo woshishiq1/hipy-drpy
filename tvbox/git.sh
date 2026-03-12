@@ -160,6 +160,7 @@ branch() {
 }
 
 # 5. 提交
+# 5. 提交
 submit() {
     if ! check_git_repo; then return 1; fi
     
@@ -171,13 +172,10 @@ submit() {
     curr=$(git branch --show-current)
     [ -z "$curr" ] && curr="main"
 
-    info_msg "1. 拉取更新..."
-    git pull origin "$curr" > /dev/null 2>&1
-
-    info_msg "2. 添加文件..."
+    info_msg "1. 添加文件..."
     git add .
 
-    info_msg "3. 提交推送..."
+    info_msg "2. 提交推送..."
     msg="Update Up"
     git commit -m "$msg"
     
@@ -188,6 +186,7 @@ submit() {
         git push --set-upstream origin "$curr"
     fi
 }
+
 
 # 6. 状态
 state() {
@@ -223,7 +222,7 @@ show_menu() {
     echo -e "位置: ${YELLOW}$(pwd)${NC}"
     echo -e "固定仓库: ${GREEN}$MY_REPO_URL${NC}"
     echo ""
-    echo "  1) 提交 (一键三连)"
+    echo "  1) 提交 (二连)"
     echo "  2) 拉取 (Pull)"
     echo "  3) 绑定远程仓库 (Fix Remote)"
     echo "  4) 查看状态"

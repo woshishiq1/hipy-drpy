@@ -418,9 +418,8 @@
             "type": 3,
             "api": "csp_PanWebShareCloudPT",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "style": {
                 "type": "list"
             },
@@ -460,7 +459,7 @@
             "genre": "shortdrama"
         },
         {
-            "key": "碎片",
+            "key": "碎片短剧",
             "name": "碎片｜短剧",
             "type": 3,
             "api": "csp_SuipianDJ",

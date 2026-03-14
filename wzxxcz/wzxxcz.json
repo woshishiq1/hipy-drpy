@@ -698,9 +698,8 @@
             "type": 3,
             "api": "csp_PanWebShareCloudLJ",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "style": {
                 "type": "list",
                 "ratio": 1.433
@@ -721,9 +720,8 @@
             "type": 3,
             "api": "csp_PanWebShareCloudHM",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "style": {
                 "type": "list",
                 "ratio": 1.433
@@ -743,9 +741,8 @@
             "type": 3,
             "api": "csp_PanWebShareCloudKF",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "style": {
                 "type": "list",
                 "ratio": 1.433
@@ -764,9 +761,8 @@
             "type": 3,
             "api": "csp_PanWebShareCloudPT",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "style": {
                 "type": "list"
             },
@@ -778,9 +774,8 @@
             "type": 3,
             "api": "csp_PanWebShareCloud123",
             "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "style": {
                 "type": "list",
                 "ratio": 1.433
@@ -798,6 +793,9 @@
             "name": "🌾米搜4K4K弹幕",
             "type": 3,
             "api": "csp_MiSou",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60
         },
         {
@@ -805,6 +803,9 @@
             "name": "🍊即刻4K",
             "type": 3,
             "api": "csp_Jike",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "style": {
                 "type": "list"
             },
@@ -815,6 +816,9 @@
             "name": "🍊双星4K",
             "type": 3,
             "api": "csp_ShuangXing",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "style": {
                 "type": "list"
             },
@@ -825,6 +829,9 @@
             "name": "🧑人人4K",
             "type": 3,
             "api": "csp_RenRen",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60
         },
         {
@@ -852,6 +859,9 @@
             "name": "🍊百酷搜索",
             "type": 3,
             "api": "csp_Baiku",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60
         },
         {
@@ -859,6 +869,9 @@
             "name": "🍊酷乐搜索",
             "type": 3,
             "api": "csp_KuLe",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60
         },
         {
@@ -866,6 +879,9 @@
             "name": "🍊鬼鬼搜索",
             "type": 3,
             "api": "csp_GuiGui",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60
         },
         {
@@ -873,6 +889,9 @@
             "name": "🍊混合搜索",
             "type": 3,
             "api": "csp_HunHePan",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60
         },
         {
@@ -880,6 +899,9 @@
             "name": "🍊兄弟搜索",
             "type": 3,
             "api": "csp_XiongDiPan",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60
         },
         {
@@ -887,6 +909,9 @@
             "name": "🍊天翼搜索",
             "type": 3,
             "api": "csp_TianYiSo",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60
         },
         {
@@ -894,6 +919,9 @@
             "name": "🍊趣盘搜索",
             "type": 3,
             "api": "csp_QuPanSo",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
             "timeout": 60
         },
         {
@@ -16223,80 +16251,38 @@
             }
         },
         {
-            "key": "青苹果影院",
-            "name": "🍏青苹果影院",
+            "key": "易剧集",
+            "name": "🍊易剧集",
             "type": 3,
             "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251015",
-                "站名": "青苹果影院",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@PHPSESSID=2gje4gmfqcv1bkrcg2kj1nl8h7；； _ym_uid=1760502665741594644；； _ym_d=1760502665；； _ym_isad=2&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
-                "图片代理": "0",
-                "直接播放": "0",
-                "播放请求头": "",
-                "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
-                "免嗅": "1",
-                "过滤词": "",
-                "主页url": "https://www.longlihg.com/",
-                "首页": "120",
-                "起始页": "1",
-                "分类url": "https://www.longlihg.com/show/{cateId}--------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$36#",
-                "二次截取": "",
-                "数组": "<li class=\"col8&&</li>",
+                "主页url": "https://www.yytvs.com/",
+                "二次截取": "module-items\"&&id=\"page[替换:module-footer>>module-item]",
+                "数组": "module-item-pic&&module-item\"",
                 "标题": "title=\"&&\"",
-                "图片": "data-original=\"&&\"",
-                "副标题": "<p class=\"text\">&&</p>",
+                "图片": "src=\"&&\"",
+                "副标题": "<div class=\"module-item-text\">&&</div>",
                 "链接": "href=\"&&\"",
-                "影片年代": "年份：&&</p>",
-                "影片地区": "地区：&&</p>",
-                "影片类型": "类型：&&</p>",
-                "状态": "状态：&&</p>",
-                "导演": "导演：&&</p>",
-                "主演": "主演：&&</p>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
+                "影片年代": "年份：&&</div>",
+                "影片地区": "地区：&&</div>",
+                "影片类型": "类型：&&</div>",
+                "状态": "状态：&&</div>",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+剧情：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "<div class=\"panel-hd\">&&</div>",
-                "线路标题": "<h3>&&</h3>",
+                "线路数组": "<div class=\"swiper-wrapper&&/div>",
+                "线路标题": "</i>&&<span",
                 "播放二次截取": "",
-                "播放数组": "<ul class=\"shoutu-playlist sort-list playlist&&</ul>",
+                "播放数组": "anthology-list-play size&&</ul>",
                 "倒序": "0",
-                "播放列表": "<a&&</a>",
-                "播放标题": ">&&</a>",
+                "播放列表": "<li&&/li>",
+                "播放标题": ">&&<",
                 "播放链接": "href=\"&&\"",
-                "解析": "",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "跳转解析": "",
-                "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.longlihg.com/search/{wd}----------{pg}---.html",
-                "搜索模式": "1",
-                "搜索后缀": "",
-                "搜索二次截取": "",
-                "搜索数组": "<li class=\"col8&&</li>",
-                "搜索标题": "title=\"&&\"",
-                "搜索图片": "data-original=\"&&\"",
-                "搜索副标题": "<p class=\"text\">&&</p>",
-                "搜索链接": "href=\"&&\"",
-                "筛选": "1",
-                "类型": "",
-                "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
-                "剧情值": "*",
-                "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他",
-                "地区值": "*",
-                "年份": "1950-2026",
-                "年份值": "*",
-                "语言": "国语&英语&粤语&闽南语&韩语&日语&法语&德语&其它",
-                "语言值": "*",
-                "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
-                "字母值": "*",
-                "排序": "时间&人气&评分",
-                "排序值": "time&hits&score"
+                "分类url": "https://www.yytvs.com/vshow/{cateId}--------{catePg}---{year}.html",
+                "分类": "电影$2#电视剧$1#动漫$3#其他$4#"
             }
         },
         {
@@ -36329,7 +36315,7 @@
             "genre": "shortdrama"
         },
         {
-            "key": "碎片",
+            "key": "碎片短剧",
             "name": "🗞️碎片短剧",
             "type": 3,
             "api": "csp_SuipianDJ",

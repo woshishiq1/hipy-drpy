@@ -15,49 +15,49 @@
     "list": [
       {
         "name": "手机端(64位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-arm64_v8a-3.7.5.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-arm64_v8a-3.7.5.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.7.5"
       },
       {
         "name": "手机端(32位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-armeabi_v7a-3.7.5.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-armeabi_v7a-3.7.5.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.7.5"
       },
       {
         "name": "安卓4电视端",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4.x-OKys-2.5.0-xfb.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4.x-OKys-2.5.0-xfb.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "2.5.0"
       },
       {
         "name": "安卓5电视端(32位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az5zb-OKys-32w-3.7.2.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az5zb-OKys-32w-3.7.2.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.7.2"
       },
       {
         "name": "安卓5电视端(64位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az5zb-OKys-64w-3.7.2.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az5zb-OKys-64w-3.7.2.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.7.2"
       },
       {
         "name": "电视端(64位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-arm64_v8a-3.7.5.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-arm64_v8a-3.7.5.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.7.5"
       },
       {
         "name": "电视端(32位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-armeabi_v7a-3.7.5.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-armeabi_v7a-3.7.5.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.7.5"
       },
       {
         "name": "电视端(海信)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/hxzb-OKys-3.7.5.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/hxzb-OKys-3.7.5.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.7.5"
       }
@@ -68,25 +68,25 @@
     "list": [
       {
         "name": "手机端(64位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.0.6.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.0.6.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "5.0.6"
       },
       {
         "name": "手机端(模拟器)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.0.6.-.mnq.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.0.6.-.mnq.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "5.0.6"
       },
       {
         "name": "电视端(64位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-64w-5.0.6.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-64w-5.0.6.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "5.0.6"
       },
       {
         "name": "电视端(32位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-32w-5.0.6.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-32w-5.0.6.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "5.0.6"
       }
@@ -97,25 +97,25 @@
     "list": [
       {
         "name": "手机端(64位)",
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
+        "url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-arm64_v8a.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "Fongmi"
       },
       {
         "name": "手机端(32位)",
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
+        "url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/mobile-armeabi_v7a.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "Fongmi"
       },
       {
         "name": "电视端(64位)",
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
+        "url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-arm64_v8a.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "Fongmi"
       },
       {
         "name": "电视端(32位)",
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
+        "url": "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/FongMi/Release/fongmi/apk/leanback-armeabi_v7a.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "Fongmi"
       }
@@ -126,25 +126,25 @@
     "list": [
       {
         "name": "手机端",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscsjb_3.2.8.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscsjb_3.2.8.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.2.8"
       },
       {
         "name": "电视端(安卓4)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4ysc3.0.6.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/az4ysc3.0.6.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "3.0.6"
       },
       {
         "name": "电视端",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscdsb_6.1.9.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yscdsb_6.1.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "6.1.9"
       },
       {
         "name": "电视端(海信)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/ysc-6.1.7-32w_dshxb.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/ysc-6.1.7-32w_dshxb.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "6.1.7"
       }
@@ -155,85 +155,85 @@
     "list": [
       {
         "name": "酷9魔播多线(32位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/k9mbdx_bz32_1776.2_.lz33x_20260302.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/k9mbdx_bz32_1776.2_.lz33x_20260302.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1776.2"
       },
       {
         "name": "酷9魔播多线(64位)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/k99mbdx_bz64_1776.2_.lz33x_20260302.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/k99mbdx_bz64_1776.2_.lz33x_20260302.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1776.2"
       },
       {
         "name": "LiveTV(央卫港台)",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/LiveTV_5.4.5.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/LiveTV_5.4.5.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "5.4.5"
       },
       {
         "name": "星火电视",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/xhzbv1.0.50.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/xhzbv1.0.50.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1.0.50"
       },
       {
         "name": "星河直播",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/xhzbv1.0.0.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/xhzbv1.0.0.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1.0.0"
       },
       {
         "name": "Atool工具箱",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/Atool.v1.09.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/Atool.v1.09.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1.09"
       },
       {
         "name": "酷我音乐手机版",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/kwyy_12.0.8.5.12085.-bydm.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/kwyy_12.0.8.5.12085.-bydm.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "12.0.8.5"
       },
       {
         "name": "酷我音乐车机版",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/kwyycjb.7.1.8.21hyb_dm.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/kwyycjb.7.1.8.21hyb_dm.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "7.1.8.21"
       },
       {
         "name": "金调KTV",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/JDKTV.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/JDKTV.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1.1.1"
       },
       {
         "name": "炫音KTV",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/xyKTV.2.15.63.2401241253.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/xyKTV.2.15.63.2401241253.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "2.15.63"
       },
       {
         "name": "飞蓝市场Pro",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/flsc.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/flsc.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1.1.1"
       },
       {
         "name": "当贝市场",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/dbappstore_car2_1.0.3_dangbei.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/dbappstore_car2_1.0.3_dangbei.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "2_1.0.3"
       },
       {
         "name": "应用管家",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yygjgcb.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yygjgcb.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1.8.4"
       },
       {
         "name": "应用管家海信",
-        "url": "https://gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yygjhxb.apk",
+        "url": "https://cdn.gh-proxy.org/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/yygjhxb.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1.8.4"
       }

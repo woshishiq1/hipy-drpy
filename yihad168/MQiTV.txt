@@ -40,6 +40,10 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
 
+    {
+      "name": "日本TV",
+      "url": "https://web.utako.moe/jp.m3u"
+    },
 
     {
       "name": "四季TV直播",

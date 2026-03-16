@@ -64,10 +64,10 @@
             "url": "https://ds65.tv1288.xyz"
         },
         {
-            "name": "飞扬",
+            "name": "夜空",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/aa2ecd174df6786a/飞扬.txt"
+            "url": "https://pan.szfx.top/down.php/4f5dad27633e1293d7ef2317ee9c801e.txt"
         },
         {
             "name": "Guovin",
@@ -502,15 +502,6 @@
             }
         },
         {
-            "key": "麻雀",
-            "name": "🐦麻雀1080P",
-            "type": 3,
-            "quickSearch": 1,
-            "searchable": 1,
-            "api": "./py/Applzxw.py",
-            "ext": "http://118.89.203.120:8365/"
-        },
-        {
             "key": "修罗",
             "name": "🍊修罗磁力",
             "api": "csp_Xlys",
@@ -607,6 +598,17 @@
             "changeable": 0,
             "filterable": 0,
             "timeout": 60
+        },
+        {
+            "key": "多多a",
+            "name": "🔮多多在线",
+            "type": 3,
+            "style": {
+                "type": "rect",
+                "ratio": 1.485
+            },
+            "api": "./py/AppToV5.py",
+            "ext": "http://107.151.246.141:8762"
         },
         {
             "key": "大米影视",
@@ -1009,22 +1011,6 @@
             "type": 3,
             "api": "csp_Jpys",
             "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-        },
-        {
-            "key": "金牌Nox",
-            "name": "🏅金牌Nox",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "https://jp5.ggtvb.cc",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "11:05:5B:0E:DD:14:6A:96:38:28:CB:29:7D:5F:04:57:3F:D6:EC:6A:C4:54:4F:4D:44:72:0A:C1:8E:DD:A9:58",
-                    "x-app-package": "cc.xzsc.user",
-                    "x-app-version-code": "12",
-                    "x-app-version-name": "5.2"
-                }
-            }
         },
         {
             "key": "柠檬",

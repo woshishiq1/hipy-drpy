@@ -64,10 +64,10 @@
             "url": "https://ds65.tv1288.xyz"
         },
         {
-            "name": "飞扬",
+            "name": "夜空",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/aa2ecd174df6786a/飞扬.txt"
+            "url": "https://pan.szfx.top/down.php/4f5dad27633e1293d7ef2317ee9c801e.txt"
         },
         {
             "name": "Guovin",
@@ -969,15 +969,6 @@
             }
         },
         {
-            "key": "麻雀",
-            "name": "🐦麻雀1080P",
-            "type": 3,
-            "quickSearch": 1,
-            "searchable": 1,
-            "api": "./py/Applzxw.py",
-            "ext": "http://118.89.203.120:8365/"
-        },
-        {
             "key": "修罗",
             "name": "🍊修罗磁力",
             "api": "csp_Xlys",
@@ -1074,6 +1065,17 @@
             "changeable": 0,
             "filterable": 0,
             "timeout": 60
+        },
+        {
+            "key": "多多a",
+            "name": "🔮多多在线",
+            "type": 3,
+            "style": {
+                "type": "rect",
+                "ratio": 1.485
+            },
+            "api": "./py/AppToV5.py",
+            "ext": "http://107.151.246.141:8762"
         },
         {
             "key": "大米影视",
@@ -1476,22 +1478,6 @@
             "type": 3,
             "api": "csp_Jpys",
             "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-        },
-        {
-            "key": "金牌Nox",
-            "name": "🏅金牌Nox",
-            "type": 3,
-            "api": "csp_AppNox",
-            "ext": {
-                "url": "https://jp5.ggtvb.cc",
-                "header": {
-                    "content-type": "application/json",
-                    "x-app-signature": "11:05:5B:0E:DD:14:6A:96:38:28:CB:29:7D:5F:04:57:3F:D6:EC:6A:C4:54:4F:4D:44:72:0A:C1:8E:DD:A9:58",
-                    "x-app-package": "cc.xzsc.user",
-                    "x-app-version-code": "12",
-                    "x-app-version-name": "5.2"
-                }
-            }
         },
         {
             "key": "柠檬",
@@ -17401,10 +17387,27 @@
             "name": "☄️蓝光影院",
             "type": 3,
             "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "timeout": 120,
             "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
+                "作者": "🍊小橙子/20260316",
+                "站名": "蓝光影院",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@gg_iscookie=1；； server_name_session=9c8272e37f9e6e6cbcb5801150ea2a8c；； ec_history=%7Blog%3A%5B%7B%22name%22%3A%22%E8%80%81%E8%88%85%22%2C%22url%22%3A%22%2Fvodsearch%2F-------------%2F%22%7D%5D%7D；； PHPSESSID=6su15ajhta8g18u5l85un95k29&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
+                "图片代理": "0",
+                "直接播放": "0",
+                "播放请求头": "",
+                "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
+                "免嗅": "1",
+                "过滤词": "",
                 "主页url": "https://www.hubstc-hp.com/",
+                "首页": "120",
+                "起始页": "1",
+                "分类url": "https://www.hubstc-hp.com/vodshow/{cateId}2222Q-{area}-------{catePg}---/",
+                "分类": "电影$Q#电视剧$k#综艺$N#动漫$m#短剧$S#",
                 "二次截取": "",
                 "数组": "movie-list-item&&</a>",
                 "标题": "title=\"&&影片信息\"",
@@ -17427,8 +17430,33 @@
                 "播放列表": "<a&&</a>",
                 "播放标题": ">&&</a>",
                 "播放链接": "href=\"&&\"",
-                "分类url": "https://www.hubstc-hp.com/vodshow/{cateId}2222Q-{area}-------{catePg}---/",
-                "分类": "电影$Q#电视剧$k#综艺$N#动漫$m#短剧$S#"
+                "解析": "",
+                "跳转播放链接": "var player_*\"url\":\"&&\"",
+                "跳转解析": "",
+                "搜索请求头": "User-Agent$MOBILE_UA",
+                "搜索url": "https://www.hubstc-hp.com/vodsearch/{wd}----------{pg}---/",
+                "搜索模式": "1",
+                "搜索后缀": "",
+                "搜索二次截取": "",
+                "搜索数组": "vod-search-list&&</div>",
+                "搜索标题": "title=\"&&\"",
+                "搜索图片": "data-original=\"&&\"",
+                "搜索副标题": "<div class=\"movie-title txtHide txtHide\">&&</div>",
+                "搜索链接": "href=\"&&\"",
+                "筛选": "1",
+                "类型": "",
+                "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
+                "剧情值": "*",
+                "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他",
+                "地区值": "*",
+                "年份": "1950-2026",
+                "年份值": "*",
+                "语言": "国语&英语&粤语&闽南语&韩语&日语&法语&德语&其它",
+                "语言值": "*",
+                "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
+                "字母值": "*",
+                "排序": "时间&人气&评分",
+                "排序值": "time&hits&score"
             }
         },
         {
@@ -35536,7 +35564,7 @@
                 "线路数组": "module-tab-item tab-item&&/small>",
                 "线路标题": "<span>&&</span>",
                 "播放二次截取": "",
-                "播放数组": "module-play-list-content&&</div></div>", 
+                "播放数组": "module-play-list-content&&</div></div>",
                 "倒序": "0",
                 "播放列表": "<a&&/a>",
                 "播放标题": "<span>&&</span>",

@@ -109,17 +109,16 @@
             "ext": "http://app.hktvyb.cc"
         },
         {
-            "key": "秒看",
-            "name": "秒看｜APP",
+            "key": "星河",
+            "name": "星河｜APP",
             "type": 3,
-            "api": "csp_AppGet",
+            "api": "csp_AppQi",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://mk1080.top/get.txt",
-                "dataKey": "c60d88b2eep53za8",
-                "dataIv": "c60d88b2eep53za8",
-                "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
+                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt",
+                "dataKey": "kj37zs29q22jk96t",
+                "dataIv": "kj37zs29q22jk96t"
             }
         },
         {
@@ -213,8 +212,8 @@
             }
         },
         {
-            "key": "小猪",
-            "name": "小猪｜APP",
+            "key": "花猪",
+            "name": "花猪｜APP",
             "type": 3,
             "api": "csp_AppQi",
             "searchable": 1,
@@ -269,6 +268,31 @@
                 "dataIv": "ca94b06ca359d80e",
                 "init": "initV120",
                 "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "小羊",
+            "name": "小羊｜APP",
+            "type": 3,
+            "api": "csp_AppQi",
+            "ext": {
+                "url": "https://qjappcms410.xy4k.com",
+                "dataKey": "mC6kG4mI1uM8tS4o",
+                "dataIv": "mC6kG4mI1uM8tS4o"
+            }
+        },
+        {
+            "key": "秒看",
+            "name": "秒看｜APP",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://mk1080.top/get.txt",
+                "dataKey": "c60d88b2eep53za8",
+                "dataIv": "c60d88b2eep53za8",
+                "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
             }
         },
         {
@@ -347,17 +371,6 @@
                 "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
                 "dataKey": "dyyztvapiappyyds",
                 "dataIv": "dyyztvapiappyyds"
-            }
-        },
-        {
-            "key": "小羊",
-            "name": "小羊｜APP",
-            "type": 3,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "https://qjappcms410.xy4k.com",
-                "dataKey": "mC6kG4mI1uM8tS4o",
-                "dataIv": "mC6kG4mI1uM8tS4o"
             }
         },
         {

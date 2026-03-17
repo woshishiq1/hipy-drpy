@@ -103,9 +103,19 @@
         "ratio": 1.618
       }
     },
+    {
+      "key": "lvdou",
+      "name": "👑臻彩┃4k",
+      "type": 3,
+      "api": "http://202.189.11.83:8866/asdasd/py/%E8%A7%82%E5%BD%B1.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+   
+    },
             {
       "key": "腾讯弹幕",
-      "name": "👑 腾讯┃SVIP🥇",
+      "name": "👑 腾讯┃SVIP",
       "searchable": 1,
       "type": 3,
       "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
@@ -209,8 +219,36 @@
       "type": 1,
       "url": "https://nm.4688888.xyz/niuma.php?key=rlvpcW7JQzwe21iG&url=",
       "superUrl": "ElYCCOvkbFlMBDdoMgsgQeiYUdjnDn5vsR1I1xqVakAffnLyIVl1r2kEb21LFxbl4pduStKMCoo/LX/ToRyEqhHBZQYKlkhguNj6FQe/QVip4NAYcgUOVlAhazL9ChRg"
+    },
+   {
+      "name": "云",
+      "type": 0,
+      "url": "https://yparse.ik9.cc/index.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
     }
-
   ],
   "rules": [
     {

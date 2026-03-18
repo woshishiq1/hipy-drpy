@@ -990,6 +990,22 @@
             "api": "csp_Gz360"
         },
         {
+            "key": "爱影影院",
+            "name": "💰爱影影院",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q20.txt",
+                "dataKey": "ada211sdfsff3261",
+                "dataIv": "ada211sdfsff3261",
+                "init": "initV122",
+                "search": "mineInfo",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
             "key": "星河",
             "name": "🌌星河影视",
             "type": 3,
@@ -999,7 +1015,9 @@
             "ext": {
                 "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt",
                 "dataKey": "kj37zs29q22jk96t",
-                "dataIv": "kj37zs29q22jk96t"
+                "dataIv": "kj37zs29q22jk96t",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -1160,19 +1178,29 @@
             }
         },
         {
-            "key": "顾我",
-            "name": "🐘顾我影视",
+            "key": "星空",
+            "name": "🌟星空影视",
             "type": 3,
-            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "url": "http://xkos1.xkgzs.xyz",
+                "dataKey": "77jkcdvdodfcdkjk",
+                "dataIv": "77jkcdvdodfcdkjk"
+            }
+        },
+        {
+            "key": "火狐",
+            "name": "🦊火狐影视",
+            "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "url": "http://117.50.204.35:520",
-                "dataKey": "ca94b06ca3c7d80e",
-                "dataIv": "ca94b06ca3c7d80e",
-                "search": "gftvvvvklod",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
+                "url": "http://huohu.yihn.cc",
+                "dataKey": "huohushipingetap",
+                "dataIv": "huohushipingetap"
             }
         },
         {
@@ -1845,20 +1873,6 @@
                 "字母值": "*",
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
-            }
-        },
-        {
-            "key": "爱影",
-            "name": "🍊爱影影视",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q19.txt",
-                "dataKey": "fff32466kkfff616",
-                "dataIv": "fff32466kkfff616",
-                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -4658,9 +4672,12 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q18.txt",
-                "dataKey": "fff32466kkf87666",
-                "dataIv": "fff32466kkf87666"
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q20.txt",
+                "dataKey": "ada211sdfsff3261",
+                "dataIv": "ada211sdfsff3261",
+                "init": "initV122",
+                "search": "mineInfo",
+                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -11111,6 +11128,17 @@
                 "字母值": "*",
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
+            }
+        },
+        {
+            "key": "星辰影视1",
+            "name": "💧星辰影视1",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "分类url": "https://www.sdconglin.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+                "分类": "电视剧$2#短剧$36#电影$1#综艺$3#动漫$4",
+                "简介": "display: none;\">&&<"
             }
         },
         {

@@ -2172,7 +2172,9 @@
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppFox",
-            "ext": "http://app.hktvyb.cc"
+            "ext": {
+                "host": "http://app.hktvyb.cc"
+            }
         },
         {
             "key": "秒看1",
@@ -5129,6 +5131,17 @@
                 "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
                 "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
                 "apisignkey": "lvdoutv-1.0.0"
+            }
+        },
+        {
+            "key": "火猫",
+            "name": "🐈火猫影视",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/fox.json"
             }
         },
         {
@@ -20506,76 +20519,34 @@
             "name": "🏅金牌影院",
             "type": 3,
             "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/250824",
-                "站名": "金牌影院",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@PHPSESSID=uuqian1dprag10ahpi5g66ta53；； _ym_uid=1756047710870583468；； _ym_d=1756047710；； _ym_isad=2&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
-                "图片代理": "0",
-                "直接播放": "0",
-                "播放请求头": "",
-                "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
-                "免嗅": "1",
-                "过滤词": "",
-                "主页url": "http://www.fxbeihu.com/",
-                "首页": "120",
-                "起始页": "1",
-                "分类url": "http://www.fxbeihu.com/show/{cateId}--------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$36#",
+                "主页url": "https://www.joke-home.com/",
                 "二次截取": "",
-                "数组": "lazyload&&</a>",
-                "标题": "title=\"&&\"",
+                "数组": "lazyload&&</p>",
+                "标题": "<a*>&&</a>",
                 "图片": "data-original=\"&&\"",
-                "副标题": "<span class=\"pic-text text-right\">&&</span>",
+                "副标题": "<span class=\"video-title text-nowrap ml-xs-0 mr-xs-0\">&&</span>",
                 "链接": "href=\"&&\"",
-                "影片年代": "年份：&&</p>",
-                "影片地区": "地区：&&</p>",
-                "影片类型": "类型：&&</p>",
-                "状态": "状态：&&</p>",
+                "影片年代": "年份：&&</li>",
+                "影片地区": "地区：&&</li>",
+                "影片类型": "类型：&&</li>",
+                "状态": "状态：&&</li>",
                 "导演": "导演：&&</p>",
                 "主演": "主演：&&</p>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+剧情：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "\\#playlist&&</a>",
-                "线路标题": "tab\">&&<",
+                "线路数组": "#ewave-playlist&&</li>",
+                "线路标题": "javascript:;\">&&<",
                 "播放二次截取": "",
-                "播放数组": "<ul class=\"myui-content__list sort-list clearfix&&</ul>",
+                "播放数组": "id=\"ewave-playlist&&</ul>",
                 "倒序": "0",
-                "播放列表": "<a&&</a>",
-                "播放标题": ">&&<",
+                "播放列表": "<a&&/a>",
+                "播放标题": ">&&</a>",
                 "播放链接": "href=\"&&\"",
-                "解析": "",
-                "跳转播放链接": "var player_*\"url\":\"&&\"",
-                "跳转解析": "",
-                "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "http://www.fxbeihu.com/search/{wd}----------{pg}---.html",
-                "搜索模式": "1",
-                "搜索后缀": "",
-                "搜索二次截取": "",
-                "搜索数组": "lazyload&&</a>",
-                "搜索标题": "title=\"&&\"",
-                "搜索图片": "data-original=\"&&\"",
-                "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
-                "搜索链接": "href=\"&&\"",
-                "筛选": "1",
-                "类型": "",
-                "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",
-                "剧情值": "*",
-                "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他",
-                "地区值": "*",
-                "年份": "1950-2026",
-                "年份值": "*",
-                "语言": "国语&英语&粤语&闽南语&韩语&日语&法语&德语&其它",
-                "语言值": "*",
-                "字母": "A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&0-9",
-                "字母值": "*",
-                "排序": "时间&人气&评分",
-                "排序值": "time&hits&score"
+                "分类url": "https://www.joke-home.com/jpqishow/{cateId}--------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#"
             }
         },
         {
@@ -36671,8 +36642,7 @@
             "style": {
                 "type": "list",
                 "ratio": 1.433
-            },
-            "ext": "./json/quarkShare.json"
+            }
         },
         {
             "key": "UC云盘",
@@ -36685,8 +36655,7 @@
             "style": {
                 "type": "list",
                 "ratio": 1.433
-            },
-            "ext": "./json/ucShare.json"
+            }
         },
         {
             "key": "百度云盘",
@@ -36863,7 +36832,17 @@
             "url": "https://jx.xmflv.com/?url=",
             "ext": {
                 "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "☁️云解",
+            "type": 0,
+            "url": "https://yparse.ik9.cc/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
                 }
             }
         },
@@ -36873,7 +36852,7 @@
             "url": "https://jx.xymp4.cc/?url=",
             "ext": {
                 "header": {
-                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.3124.68"
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
                 }
             }
         },

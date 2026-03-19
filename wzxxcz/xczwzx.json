@@ -1705,7 +1705,9 @@
             "searchable": 1,
             "changeable": 1,
             "api": "csp_AppFox",
-            "ext": "http://app.hktvyb.cc"
+            "ext": {
+                "host": "http://app.hktvyb.cc"
+            }
         },
         {
             "key": "秒看1",
@@ -4662,6 +4664,17 @@
                 "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
                 "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
                 "apisignkey": "lvdoutv-1.0.0"
+            }
+        },
+        {
+            "key": "火猫",
+            "name": "🐈火猫影视",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppFox",
+            "ext": {
+                "host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/fox.json"
             }
         },
         {
@@ -36396,7 +36409,17 @@
             "url": "https://jx.xmflv.com/?url=",
             "ext": {
                 "header": {
-                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+        {
+            "name": "☁️云解",
+            "type": 0,
+            "url": "https://yparse.ik9.cc/index.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
                 }
             }
         },
@@ -36406,7 +36429,7 @@
             "url": "https://jx.xymp4.cc/?url=",
             "ext": {
                 "header": {
-                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.3124.68"
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
                 }
             }
         },

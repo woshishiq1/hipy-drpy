@@ -569,45 +569,164 @@ https://hls.iill.top/api/HBO-Signature/index.m3u8
 
 
 
-
-#EXTINF:-1 group-title="台灣",美亞電影台
-http://pull-vivek.speedws.com/live/aaamydy.flv
-#EXTINF:-1 group-title="台灣",千禧經典
-http://pull-vivek.speedws.com/live/aaamqxjd.flv
-#EXTINF:-1 group-title="台灣",SUPER FREE
-http://pull-vivek.speedws.com/live/aaaSUPERFREE.flv
-#EXTINF:-1 group-title="台灣",華語劇台
-http://pull-vivek.speedws.com/live/aaahyjt.flv
-#EXTINF:-1 group-title="台灣",亞洲劇台
-http://pull-vivek.speedws.com/live/aaayzjt.flv
-#EXTINF:-1 group-title="台灣",黃金華劇台
-http://pull-vivek.speedws.com/live/aaahjhj.flv
-#EXTINF:-1 group-title="台灣",黃金翡翠台
-http://pull-vivek.speedws.com/live/aaahjfc.flv
-#EXTINF:-1 group-title="台灣",戲曲台
-http://pull-vivek.speedws.com/live/aaaxqt.flv
-#EXTINF:-1 group-title="台灣",天映頻道
-http://pull-vivek.speedws.com/live/aaatypd.flv
-#EXTINF:-1 group-title="台灣",天映經典
-http://pull-vivek.speedws.com/live/aaatyjd.flv
-#EXTINF:-1 group-title="台灣",無線跑馬台
-http://pull-vivek.speedws.com/live/aaapm18.flv
-#EXTINF:-1 group-title="台灣",HOY 76
-http://pull-vivek.speedws.com/live/aaahoy76.flv
-#EXTINF:-1 group-title="台灣",HOY 77
-http://pull-vivek.speedws.com/live/aaahoy77.flv
-#EXTINF:-1 group-title="台灣",HOY 78
-http://pull-vivek.speedws.com/live/aaahoy78.flv
-#EXTINF:-1 group-title="台灣",ViuTV
-http://pull-vivek.speedws.com/live/aaaviutv.flv
-#EXTINF:-1 group-title="台灣",ViuTV6
-http://pull-vivek.speedws.com/live/aaaviutv6.flv
-#EXTINF:-1 group-title="台灣",AXN
-http://pull-vivek.speedws.com/live/aaaAXN.flv
-#EXTINF:-1 group-title="台灣",ROCK綜藝娛樂
-http://pull-vivek.speedws.com/live/aaarock1.flv
+#EXTINF:-1 tvg-name="龍華電影" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/龍華電影.png" group-title="台灣",龍華電影台
+http://cdn8.veryfast.filegear-sg.me/163189/lhdy
+#EXTINF:-1 tvg-name="龍華經典台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/龍華經典.png" group-title="台灣",龍華經典台
+http://cdn8.veryfast.filegear-sg.me/163189/lhjd
+#EXTINF:-1 tvg-name="龍華偶像" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/龍華偶像.png" group-title="台灣",龍華偶像台
+http://cdn8.veryfast.filegear-sg.me/163189/lhox
+#EXTINF:-1 tvg-name="龍華日韓台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/龍華日韓.png" group-title="台灣",龍華日韓台
+http://cdn8.veryfast.filegear-sg.me/163189/lhrh
+#EXTINF:-1 tvg-name="龍華戲劇" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/龍華戲劇.png" group-title="台灣",龍華戲劇台
+http://cdn8.veryfast.filegear-sg.me/163189/lhxj
 
 
+#EXTINF:-1 group-title="台灣",緯來日本「Relay」
+https://tv.iill.top/api/VL-Japan/index.m3u8
+#EXTINF:-1 group-title="台灣",緯來體育「Relay」
+https://tv.iill.top/api/VL-Sports/index.m3u8
+#EXTINF:-1 group-title="台灣",緯來電影「Relay」
+https://tv.iill.top/api/VL-Movies/index.m3u8
+#EXTINF:-1 group-title="台灣",緯來綜合「Relay」
+https://tv.iill.top/api/VL-ONTV/index.m3u8
+#EXTINF:-1 group-title="台灣",緯來戲劇「Relay」
+https://tv.iill.top/api/VL-Drama/index.m3u8
+#EXTINF:-1 group-title="台灣",緯來育樂「Relay」
+https://tv.iill.top/api/VL-E/index.m3u8
+#EXTINF:-1 group-title="台灣",年代新聞「Relay」
+https://tv.iill.top/api/Era-News/index.m3u8
+#EXTINF:-1 group-title="台灣",中天綜合「Relay」
+https://tv.iill.top/api/Cti-K/index.m3u8
+#EXTINF:-1 group-title="台灣",中天娛樂「Relay」
+https://tv.iill.top/api/Cti-E/index.m3u8
+#EXTINF:-1 group-title="台灣",東森電影「Relay」
+https://tv.iill.top/api/ET-Movie/index.m3u8
+#EXTINF:-1 group-title="台灣",東森洋片「Relay」
+https://tv.iill.top/api/ET-Foreign-Movie-Channel/index.m3u8
+#EXTINF:-1 group-title="台灣",東森綜合「Relay」
+https://tv.iill.top/api/ET-Variety-Channel/index.m3u8
+#EXTINF:-1 group-title="台灣",東森戲劇「Relay」
+https://tv.iill.top/api/ET-Drama-Channel/index.m3u8
+#EXTINF:-1 group-title="台灣",東森幼幼「Relay」
+https://tv.iill.top/api/YoYo-TV/index.m3u8
+#EXTINF:-1 group-title="台灣",動物星球「Relay」
+https://tv.iill.top/api/Animal-Planet/index.m3u8
+#EXTINF:-1 group-title="台灣",好萊塢電影「Relay」
+https://tv.iill.top/api/Hollywood-Movie/index.m3u8
+#EXTINF:-1 group-title="台灣",龍祥時代「Relay」
+https://tv.iill.top/api/LSTIME-Movie/index.m3u8
+#EXTINF:-1 group-title="台灣",CINEMAX「Relay」
+https://tv.iill.top/api/Cinemax/index.m3u8
+#EXTINF:-1 group-title="台灣",MTV Live「Relay」
+https://tv.iill.top/api/MTV-Live/index.m3u8
+
+
+#EXTINF:-1 group-title="台灣",龍華偶像「ofiii」
+https://tv.iill.top/ofiii/litv-xinchuang12
+#EXTINF:-1 group-title="台灣",龍華卡通「ofiii」
+https://tv.iill.top/ofiii/litv-xinchuang01
+#EXTINF:-1 group-title="台灣",龍華戲劇「ofiii」
+https://tv.iill.top/ofiii/litv-xinchuang18
+#EXTINF:-1 group-title="台灣",龍華日韓「ofiii」
+https://tv.iill.top/ofiii/litv-xinchuang11
+#EXTINF:-1 group-title="台灣",龍華洋片「ofiii」
+https://tv.iill.top/ofiii/litv-xinchuang02
+#EXTINF:-1 group-title="台灣",龍華經典「ofiii」
+https://tv.iill.top/ofiii/litv-xinchuang21
+#EXTINF:-1 group-title="台灣",龍華電影「ofiii」
+https://tv.iill.top/ofiii/litv-xinchuang03
+#EXTINF:-1 group-title="台灣",台視新聞「ofiii」
+https://tv.iill.top/ofiii/4gtv-4gtv051
+#EXTINF:-1 group-title="台灣",台灣戲劇「ofiii」
+https://tv.iill.top/ofiii/litv-xinchuang22
+#EXTINF:-1 group-title="台灣",寰宇財經「ofiii」
+https://tv.iill.top/ofiii/4gtv-4gtv158
+#EXTINF:-1 group-title="台灣",倪珍播新聞「ofiii」
+https://tv.iill.top/ofiii/nnews-zh
+#EXTINF:-1 group-title="台灣",DayStar「ofiii」
+https://tv.iill.top/ofiii/daystar
+#EXTINF:-1 group-title="台灣",第1商業「ofiii」
+https://tv.iill.top/ofiii/4gtv-4gtv104
+#EXTINF:-1 group-title="台灣",Smart知識「ofiii」
+https://tv.iill.top/ofiii/litv-xinchuang19
+
+
+#EXTINF:-1 group-title="台灣",博斯運動 一「CatchPlay」
+https://hls.iill.top/api/Sports-Network/index.m3u8
+#EXTINF:-1 group-title="台灣",博斯運動 二「CatchPlay」
+https://hls.iill.top/api/Football-Channel/index.m3u8
+
+
+#EXTINF:-1 group-title="台灣",Eurosport 1
+https://hls.iill.top/api/Eurosport-1/index.m3u8
+#EXTINF:-1 group-title="台灣",Eurosport 2
+https://hls.iill.top/api/Eurosport-2/index.m3u8
+#EXTINF:-1 group-title="台灣",TNT Sport 1
+https://hls.iill.top/api/TNT-Sports-1/index.m3u8
+#EXTINF:-1 group-title="台灣",TNT Sport 2
+https://hls.iill.top/api/TNT-Sports-2/index.m3u8
+#EXTINF:-1 group-title="台灣",TNT Sport 3
+https://hls.iill.top/api/TNT-Sports-3/index.m3u8
+#EXTINF:-1 group-title="台灣",TNT Sport 4
+https://hls.iill.top/api/TNT-Sports-4/index.m3u8
+#EXTINF:-1 group-title="台灣",beIN Sports 1
+https://hls.iill.top/api/beIN-Sports-1/index.m3u8
+#EXTINF:-1 group-title="台灣",beIN Sports 2
+https://hls.iill.top/api/beIN-Sports-2/index.m3u8
+#EXTINF:-1 group-title="台灣",beIN Sports 3
+https://hls.iill.top/api/beIN-Sports-3/index.m3u8
+#EXTINF:-1 group-title="台灣",beIN Sports 4
+https://hls.iill.top/api/beIN-Sports-4/index.m3u8
+#EXTINF:-1 group-title="台灣",beIN Sports 5
+https://hls.iill.top/api/beIN-Sports-5/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Premier 1
+https://hls.iill.top/api/Hub-Premier-1/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Premier 2
+https://hls.iill.top/api/Hub-Premier-2/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Premier 3
+https://hls.iill.top/api/Hub-Premier-3/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Premier 4
+https://hls.iill.top/api/Hub-Premier-4/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Premier 5
+https://hls.iill.top/api/Hub-Premier-5/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Premier 6
+https://hls.iill.top/api/Hub-Premier-6/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Premier 7
+https://hls.iill.top/api/Hub-Premier-7/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Premier 8
+https://hls.iill.top/api/Hub-Premier-8/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Sports 1
+https://hls.iill.top/api/Hub-Sports-1/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Sports 2
+https://hls.iill.top/api/Hub-Sports-2/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Sports 3
+https://hls.iill.top/api/Hub-Sports-3/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Sports 4
+https://hls.iill.top/api/Hub-Sports-4/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Sports 5
+https://hls.iill.top/api/Hub-Sports-5/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Sports 6
+https://hls.iill.top/api/Hub-Sports-6/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Sports 7
+https://hls.iill.top/api/Hub-Sports-7/index.m3u8
+#EXTINF:-1 group-title="台灣",Hub Sports 8
+https://hls.iill.top/api/Hub-Sports-8/index.m3u8
+#EXTINF:-1 group-title="台灣",Spotv 1
+https://hls.iill.top/api/Spotv-1/index.m3u8
+#EXTINF:-1 group-title="台灣",Spotv 2
+https://hls.iill.top/api/Spotv-2/index.m3u8
+#EXTINF:-1 group-title="台灣",Sky Sports Cricket
+https://tv.iill.top/api/Sky-Sports-Cricket/index.m3u8
+#EXTINF:-1 group-title="台灣",Sky Sports Premier League
+https://tv.iill.top/api/Sky-Sports-EPL/index.m3u8
+#EXTINF:-1 group-title="台灣",Sky Sports F1
+https://tv.iill.top/api/Sky-Sports-F1/index.m3u8
+#EXTINF:-1 group-title="台灣",Sky Sports Mix
+https://tv.iill.top/api/Sky-Sports-Mix/index.m3u8
+#EXTINF:-1 group-title="台灣",Sky Sports Racing
+https://tv.iill.top/api/Sky-Sports-Racing/index.m3u8
+#EXTINF:-1 group-title="台灣",Fight Sports
+https://hls.iill.top/api/Fight-Sports/index.m3u8
 
 
 
@@ -625,6 +744,10 @@ http://o11.163189.xyz/stream/tvb/fct/
 https://o11.163189.xyz/stream/live/hlt/
 #EXTINF:-1 group-title="台灣",華麗翡翠(新加坡)
 http://o11.163189.xyz/stream/live/jade/
+#EXTINF:-1 tvg-id="TVB PLUS" tvg-name="TVBPLUS" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/TVBPLUS.png" group-title="台灣",TVB PLUS
+http://o11.163189.xyz/stream/tvb/tvbp/
+#EXTINF:-1 tvg-name="明珠台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/明珠.png" group-title="台灣",明珠台
+http://o11.163189.xyz/stream/tvb/mzt/
 #EXTINF:-1 group-title="台灣",TVB千禧經典
 https://o11.163189.xyz/stream/live/tvbc/
 #EXTINF:-1 group-title="台灣",TVB星河
@@ -637,8 +760,10 @@ https://o11.163189.xyz/stream/live/aec/
 https://o11.163189.xyz/stream/live/aod/
 #EXTINF:-1 group-title="台灣",Astro QJ
 https://o11.163189.xyz/stream/live/qj/ 
-
-
+#EXTINF:-1 tvg-name="HUAHEEDAI" tvg-logo="https://cdn.jsdelivr.net/gh/luoluowoaini/CCTV4K-LOGO@main/HUA HEE DAI.png" group-title="台灣",ASTRO歡喜台
+http://o11.163189.xyz/stream/live/hxt/
+#EXTINF:-1 tvg-name="IQIYI" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/愛奇藝.png" group-title="台灣",IQIYI
+http://o11.163189.xyz/stream/live/iqiyi/
 
 
 
@@ -707,11 +832,6 @@ http://cdn6.163189.xyz/163189/amzy
 
 
 
-
-
-
-#########################################
-https://content.astro.com.my/channels
 
 
 
@@ -2222,7 +2342,40 @@ http://php.jdshipin.com:8880/TVOD/iptv.php?id=rthk32
 #EXTM3U url-tvg="https://static.188766.xyz/all.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 
 
-
+#EXTINF:-1 group-title="中國大陸",CCTV 1 綜合「Relay」
+https://tv.iill.top/api/CCTV1/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 2 財經「Relay」
+https://tv.iill.top/api/CCTV2/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 3 綜藝「Relay」
+https://tv.iill.top/api/CCTV3/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 5 體育「Relay」
+https://tv.iill.top/api/CCTV5/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 5+ 體育賽事「Relay」
+https://tv.iill.top/api/CCTV5+/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 6 電影「Relay」
+https://tv.iill.top/api/CCTV6/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 7 國防軍事「Relay」
+https://tv.iill.top/api/CCTV7/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 8 電視劇「Relay」
+https://tv.iill.top/api/CCTV8/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 9 記錄「Relay」
+https://tv.iill.top/api/CCTV9/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 10 科教「Relay」
+https://tv.iill.top/api/CCTV10/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 11 戲曲「Relay」
+https://tv.iill.top/api/CCTV11/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 12 社會與法「Relay」
+https://tv.iill.top/api/CCTV12/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 13 新聞「Relay」
+https://tv.iill.top/api/CCTV13/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 14 少兒「Relay」
+https://tv.iill.top/api/CCTV14/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 15 音樂「Relay」
+https://tv.iill.top/api/CCTV15/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 16 奥林匹克「Relay」
+https://tv.iill.top/api/CCTV16/index.m3u8
+#EXTINF:-1 group-title="中國大陸",CCTV 17 農業農村「Relay」
+https://tv.iill.top/api/CCTV17/index.m3u8
 
 
 #EXTINF:-1 group-title="中國大陸",CCTV1

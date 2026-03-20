@@ -15,15 +15,15 @@
     "list": [
       {
         "name": "手机端(64位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-arm64_v8a-5.0.1.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-arm64_v8a-5.0.2.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.1"
+        "version": "5.0.2"
       },
       {
         "name": "手机端(32位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-armeabi_v7a-5.0.1.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-armeabi_v7a-5.0.2.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.1"
+        "version": "5.0.2"
       },
       {
         "name": "安卓4电视端",
@@ -45,21 +45,21 @@
       },
       {
         "name": "电视端(64位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-arm64_v8a-5.0.1.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-arm64_v8a-5.0.2.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.1"
+        "version": "5.0.2"
       },
       {
         "name": "电视端(32位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-armeabi_v7a-5.0.1.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-armeabi_v7a-5.0.2.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.1"
+        "version": "5.0.2"
       },
       {
         "name": "电视端(海信)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/hxzb-OKys-5.0.1.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/hxzb-OKys-5.0.2.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.1"
+        "version": "5.0.2"
       }
     ]
   },
@@ -68,27 +68,27 @@
     "list": [
       {
         "name": "手机端(64位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.0.8.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.0.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.8"
+        "version": "5.0.9"
       },
       {
         "name": "手机端(模拟器)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.0.8.-.mnq.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.0.9.-.mnq.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.8"
+        "version": "5.0.9"
       },
       {
         "name": "电视端(64位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-64w-5.0.8.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-64w-5.0.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.8"
+        "version": "5.0.9"
       },
       {
         "name": "电视端(32位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-32w-5.0.8.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-32w-5.0.9.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.8"
+        "version": "5.0.9"
       }
     ]
   },

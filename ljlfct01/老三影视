@@ -143,15 +143,15 @@
     },    
     {
       "key": "Zwqf",
-      "name": "鱼->醉挽｜清风",
+      "name": "👑->醉挽｜清风",
       "type": 3,
       "api": "csp_Zwqf",
       "searchable": 1,
       "ext": {
-        "url": "https://fishapi.wya6.com/fish/qingfeng/moyu.php",
+        "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
         "token": "moyu996"
       },
-      "jar": "https://pubali.oss-cn-hangzhou.aliyuncs.com/20260317/010702_/ZKIO1gGSaJRo/fish03170106.php;md5;30687668c3a53f274232a5aef02c4ced"
+      "jar": "https://pubali.oss-cn-hangzhou.aliyuncs.com/20260320/125631_/1kDyuccNe5jH/fish03201256.php;md5;c86f495f6bf6f0164efa143c4b8469ec"
     },
     {
       "key": "爱奇艺",
@@ -173,7 +173,12 @@
     {
       "name": "极速",
       "type": 1,
-      "url": "https://nm.4688888.xyz/niuma.php?key=rlvpcW7JQzwe21iG&url="
+      "url": "https://nm.4688888.xyz/niuma.php?key=gqoFOm4WvC2X9Jak0hMLDZzPVsInxf&url="
+    },
+    {
+      "name": "极速2",
+      "type": 1,
+      "url": "http://183.131.83.37:39367/api/index?parsesId=29&appid=10000&videoUrl="
     }
 
 

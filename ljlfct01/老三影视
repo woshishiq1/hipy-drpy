@@ -98,7 +98,7 @@
       "key": "lvdou",
       "name": "👑 臻彩┃SVIP",
       "type": 3,
-      "api": "http://192.140.163.220:40782/mob/lib/%E8%A7%82%E5%BD%B1.py",
+      "api": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%A7%82%E5%BD%B1.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0    
@@ -173,8 +173,17 @@
     {
       "name": "极速",
       "type": 1,
-      "url": "https://nm.4688888.xyz/niuma.php?key=rlvpcW7JQzwe21iG&url="
-   
+      "url": "http://183.131.83.37:38261/api/index?parsesId=27&appid=10000&videoUrl="
+    },
+    {
+      "name": "极速",
+      "type": 1,
+      "url": "http://183.131.83.37:38261/api/index?parsesId=28&appid=10000&videoUrl="
+    },
+    {
+      "name": "极速",
+      "type": 1,
+      "url": "http://183.131.83.37:38261/api/index?parsesId=32&appid=10000&videoUrl="
     }
 
   ],

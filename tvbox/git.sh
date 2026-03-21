@@ -62,8 +62,8 @@ enhanced_submit() {
     echo ""
 
     # 自定义提交信息
-    read -p "📝 输入提交信息 (直接回车默认: Update [当前时间]): " msg
-    [ -z "$msg" ] && msg="Update $(date '+%Y-%m-%d %H:%M:%S')"
+    read -p "📝 输入提交信息 (直接回车默认: Update Up): " msg
+    [ -z "$msg" ] && msg="Update Up"
 
     info_msg "1/3 执行 git add . ..."
     git add .

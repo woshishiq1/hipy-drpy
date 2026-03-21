@@ -1,5 +1,4 @@
 {
-
 	"sites": [
 		{
 			"key": "聚合短剧",
@@ -1065,6 +1064,11 @@
 			"name": "cluntop_test",
 			"type": 0,
 			"url": "./lib/iptv_test.m3u"
+		},
+		{
+			"name": "cluntop_txt",
+			"type": 0,
+			"url": "https://iptv.clun.top/txt"
 		},
 		{
 			"name": "Mursor",

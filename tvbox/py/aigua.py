@@ -15,10 +15,10 @@ class Spider(Spider):
         return "爱瓜TV"
 
     def init(self, extend):
-        self.home_url = 'https://aigua1.com'
+        self.home_url = 'https://aigua8.com'
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
-            "Referer": "https://aigua1.com/",
+            "Referer": "https://aigua8.com/",
         }
         self.image_domain = "https://vres.wbadl.cn"  # 圖片域名
 

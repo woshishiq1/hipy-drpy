@@ -1,7 +1,7 @@
 {
-  "spider": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;c776d10d6247f1b71587d345272043ed",
-  "wallpaper": "https://xn--11x805d.xn--4kq62z5rby2qupq9ub.xyz/",
-  "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
+  "spider": "https://www.lintech.work/超大杯/custom_spider_20260317.tms;md5;00ffb5e634ebfcf790fddfee00a2c8eb",
+  "wallpaper": "",
+  "warningText": "插兜免费整理维护：资源来自网络，无盈利，纯技术分享，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买]",
   "lives": [
     {
       "name": "🐅昭昭TV",
@@ -126,6 +126,49 @@
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
     {
+      "key": "🈵 茶烟书韵 | 解析",
+      "name": "🈵 茶烟书韵 | 解析",
+      "type": 3,
+      "api": "csp_Yyets",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQeiYUdjnDn5vsR1I1xqVakAffnLyIVl1r2kEb21LFxblyiBaH7lVJxnF3O2iuxyg7iYpT0z/4UNM8Wzeib95M6lkGKp9sEO1wIjhkF+wqIgNCTkLzNt1DSniJPxKrLvdeg==",
+        "prefix": "Yvd9RzWDG2KNO2hfELQxQHaG5I5x4DRFWyJezOmwQIP7Vikq+Psu5Womw/m0rVuk",
+        "danmu": ""
+      }
+    },
+    {
+      "key": "🈵 醉挽清风 | 解析",
+      "name": "🈵 醉挽清风 | 解析",
+      "type": 3,
+      "api": "csp_Breeze",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQeiYUdjnDn5vsR1I1xqVakAffnLyIVl1r2kEb21LFxblyiBaH7lVJxnF3O2iuxyg7iYpT0z/4UNM8Wzeib95M6lkGKp9sEO1wIjhkF+wqIgNCTkLzNt1DSniJPxKrLvdeg==",
+        "prefix": "yQemwLacBOL9i5k7nNNyn6Ajp7ci7d+J/yR4KHyM227TGrf3WiEz3lwzLL6Ew7UK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SD0yn9ZecqA5n7b2gQM5STkTwy3Z0URM3F8V2iNba31tM9jzHoBgYmS2PlEzI/nGL2MD/qP/3L43FunoJb60mxu"
+      }
+    },
+    {
+      "key": "🈵 小满万全 | 解析",
+      "name": "🈵 小满万全 | 解析",
+      "type": 3,
+      "api": "csp_LessIsMore",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 1,
+      "ext": {
+        "jxApi": "ElYCCOvkbFlMBDdoMgsgQeiYUdjnDn5vsR1I1xqVakAffnLyIVl1r2kEb21LFxblyiBaH7lVJxnF3O2iuxyg7iYpT0z/4UNM8Wzeib95M6lkGKp9sEO1wIjhkF+wqIgNCTkLzNt1DSniJPxKrLvdeg==",
+        "prefix": "aKKG6Ixij3hB8wa0VvK8Yv8/cUiIhuf2KvoTntbT0UL8PKT/aI27Tv2CqIZh9XBK",
+        "danmu": "Xuuq7MRbO6OAjCXjQNK/X4HdV2ZIABiW2syArSvt9SD0yn9ZecqA5n7b2gQM5STkTwy3Z0URM3F8V2iNba31tM9jzHoBgYmS2PlEzI/nGL2MD/qP/3L43FunoJb60mxu"
+      }
+    },
+    {
       "key": "景天",
       "name": "👑景天|4K弹幕",
       "type": 3,
@@ -166,6 +209,47 @@
       "type": 3,
       "api": "http://210.16.170.84:8866/apia/zjys9/drpy_libs/drpy2.min.js",
       "ext": "https://app.69mini.com/lib1/youku.js"
+    },
+    {
+      "key": "邵氏资源",
+      "name": "🥝爱看┃邵氏影视",
+      "type": 1,
+      "api": "https://p2100.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "邵氏大片",
+        "国产剧",
+        "香港剧",
+        "剧",
+        "海外剧",
+        "欧美剧",
+        "韩国剧",
+        "日本剧",
+        "综艺",
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "片",
+        "剧情片",
+        "战争片",
+        "爱情片",
+        "理论片",
+        "动漫片",
+        "动漫"
+      ]
+    },
+    {
+      "key": "邵氏短剧",
+      "name": "🥝爱看┃邵氏短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "🧕女频$41#🐸反转$42#🐧脑洞$43#🐒穿越$44#🦊仙侠$45#🦉都市$46#123$31",
+        "分类url": "http://www.deyangs.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;mrc"
+      }
     }
 
   ],
@@ -174,12 +258,8 @@
       "name": "极速",
       "type": 1,
       "url": "https://nm.4688888.xyz/niuma.php?key=gqoFOm4WvC2X9Jak0hMLDZzPVsInxf&url="
-    },
-    {
-      "name": "极速2",
-      "type": 1,
-      "url": "http://183.131.83.37:39367/api/index?parsesId=29&appid=10000&videoUrl="
     }
+
 
 
   ],

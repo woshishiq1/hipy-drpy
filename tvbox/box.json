@@ -477,26 +477,12 @@
 			"key": "py_aigua",
 			"name": "爱瓜TV(T3)",
 			"type": 3,
-			"api": "./js/py/plugin/app/爱瓜TVAPP.py",
+			"api": "./py/aigua.py",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
 			"order_num": 5,
 			"ext": ""
-		},
-		{
-			"key": "py_爱瓜(T3)",
-			"name": "py_爱瓜(T3)",
-			"type": 3,
-			"api": "./py/爱瓜.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"changeable": 0,
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			}
 		},
 		{
 			"key": "js_youyou",

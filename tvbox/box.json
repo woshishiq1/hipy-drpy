@@ -1071,6 +1071,11 @@
 			"url": "https://iptv.clun.top/txt"
 		},
 		{
+			"name": "4GTV",
+			"type": 0,
+			"url": "./lib/4gtv.txt"
+		},
+		{
 			"name": "Mursor",
 			"type": "0",
 			"url": "https://gh.clun.top/raw.githubusercontent.com/Mursor/LIVE/main/iptv.m3u",
@@ -1278,29 +1283,8 @@
 			]
 		}
 	],
-	"proxy": [
-		"raw.github*.com",
-		"github.com",
-		"youtube.com",
-		".*boku.*",
-		".*nivod.*",
-		".*ulivetv.*",
-		"missav.ws",
-		"javmulu.net",
-		"www.netflav.com"
-	],
-	"hosts": [
-		"cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-		"cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-		"cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-		"cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-		"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-		"hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
-		"push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
-		"cdn9.163189.xyz=gcore.jsdelivr.net",
-		"cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
-		"studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
-	],
+	"proxy": [],
+	"hosts": [],
 	"rules": [
 		{
 			"host": "*",
@@ -1444,30 +1428,6 @@
 			],
 			"script": [
 				"document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-			]
-		},
-		{
-			"name": "磁力",
-			"hosts": [
-				"magnet"
-			],
-			"regex": [
-				"更多",
-				"社 區",
-				"x u u",
-				"最 新",
-				"直 播",
-				"更 新",
-				"社 区",
-				"有 趣",
-				"英皇体育",
-				"全中文AV在线",
-				"澳门皇冠赌场",
-				"哥哥快来",
-				"美女荷官",
-				"裸聊",
-				"新片首发",
-				"UUE29"
 			]
 		}
 	],
@@ -1719,7 +1679,7 @@
 	],
 	"disabled_wallpaper": "",
 	"wallpaper": "./img/0.jpg",
+	"spider": "./jar/xb.jar",
 	"logo": "./img/pg.gif",
-	"spider": "./pg.jar",
 	"warningText": "1"
 }

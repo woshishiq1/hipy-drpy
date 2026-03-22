@@ -8,6 +8,12 @@
 			"ext": "proxy"
 		},
 		{
+			"key": "py_jable",
+			"name": "jable(T3)",
+			"type": 3,
+			"api": "./py/jable.py"
+		},
+		{
 			"key": "py_七区",
 			"name": "七区(T3)",
 			"type": 3,
@@ -480,20 +486,6 @@
 			"style": {
 				"type": "rect",
 				"ratio": 1.485
-			}
-		},
-		{
-			"key": "Jable",
-			"name": "Jable",
-			"type": 3,
-			"api": "csp_Jable",
-			"searchable": 1,
-			"recordable": 0,
-			"timeout": 60,
-			"ext": "proxy",
-			"style": {
-				"type": "rect",
-				"ratio": 1.77
 			}
 		},
 		{

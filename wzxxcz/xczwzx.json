@@ -489,19 +489,6 @@
             "api": "./js/荐片.js"
         },
         {
-            "key": "仓鼠",
-            "name": "🐹仓鼠影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://cs450appcms.cs4k.top",
-                "dataKey": "cD7wZ7iY6qN3sU1z",
-                "dataIv": "cD7wZ7iY6qN3sU1z"
-            }
-        },
-        {
             "key": "修罗",
             "name": "🍊修罗磁力",
             "api": "csp_Xlys",
@@ -598,17 +585,6 @@
             "changeable": 0,
             "filterable": 0,
             "timeout": 60
-        },
-        {
-            "key": "多多a",
-            "name": "🔮多多在线",
-            "type": 3,
-            "style": {
-                "type": "rect",
-                "ratio": 1.485
-            },
-            "api": "./py/AppToV5.py",
-            "ext": "http://107.151.246.141:8762"
         },
         {
             "key": "大米影视",

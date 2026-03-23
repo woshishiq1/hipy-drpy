@@ -1,0 +1,1718 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>安全考核题库训练系统</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif;
+    }
+    
+    :root {
+      --primary: #3498db;
+      --primary-dark: #2980b9;
+      --primary-light: #e8f4fc;
+      --secondary: #2ecc71;
+      --secondary-dark: #27ae60;
+      --accent: #9b59b6;
+      --accent-dark: #8e44ad;
+      --warning: #e74c3c;
+      --warning-dark: #c0392b;
+      --light: #f8f9fa;
+      --dark: #2c3e50;
+      --gray: #7f8c8d;
+      --gray-light: #ecf0f1;
+      --border: #e1e5eb;
+      --success: #2ecc71;
+      --error: #e74c3c;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      --shadow-light: 0 2px 10px rgba(0, 0, 0, 0.05);
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      --border-radius: 16px;
+      --card-radius: 12px;
+    }
+    
+    body {
+      background: linear-gradient(135deg, #1a2980, #26d0ce);
+      padding: 20px;
+      min-height: 100vh;
+      color: var(--dark);
+      line-height: 1.6;
+    }
+    
+    .container {
+      background: rgba(255, 255, 255, 0.98);
+      padding: 25px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      max-width: 1400px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .container::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 6px;
+      background: linear-gradient(90deg, var(--primary), var(--accent), var(--secondary));
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      position: relative;
+      padding-bottom: 20px;
+    }
+    
+    header::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 2px;
+    }
+    
+    h1 {
+      color: var(--dark);
+      font-size: 2.4rem;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    
+    .subtitle {
+      color: var(--gray);
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    
+    /* 控制栏 */
+    .control-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 20px;
+      padding: 20px;
+      background: var(--light);
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow-light);
+    }
+    
+    .control-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      flex: 1;
+    }
+    
+    select, button {
+      padding: 12px 18px;
+      border: none;
+      border-radius: 8px;
+      background: white;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 600;
+      transition: var(--transition);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    
+    select {
+      flex: 1;
+      min-width: 200px;
+      background: white url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23333'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E") no-repeat right 12px center;
+      background-size: 12px;
+      appearance: none;
+      border: 1px solid var(--border);
+    }
+    
+    button {
+      background: linear-gradient(to right, var(--primary), var(--primary-dark));
+      color: white;
+      min-width: 180px;
+      border: 1px solid transparent;
+    }
+    
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    
+    button:active {
+      transform: translateY(0);
+    }
+    
+    button.secondary {
+      background: linear-gradient(to right, var(--secondary), var(--secondary-dark));
+    }
+    
+    button.warning {
+      background: linear-gradient(to right, var(--warning), var(--warning-dark));
+    }
+    
+    button.info {
+      background: linear-gradient(to right, var(--accent), var(--accent-dark));
+    }
+    
+    .type-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .type-buttons button {
+      flex: 1;
+      min-width: 150px;
+    }
+    
+    /* 统计卡片 */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+    
+    .stat-card {
+      text-align: center;
+      padding: 20px 15px;
+      background: white;
+      border-radius: var(--card-radius);
+      box-shadow: var(--shadow-light);
+      transition: var(--transition);
+    }
+    
+    .stat-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .stat-card h3 {
+      font-size: 1.1rem;
+      color: var(--gray);
+      margin-bottom: 10px;
+    }
+    
+    .stat-value {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--dark);
+    }
+    
+    .timer .stat-value {
+      color: var(--warning);
+    }
+    
+    .progress-container {
+      height: 8px;
+      background: #e0e0e0;
+      border-radius: 4px;
+      margin: 20px 0;
+      overflow: hidden;
+    }
+    
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+    
+    .question-counter {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+      color: var(--gray);
+    }
+    
+    .question-counter span {
+      font-weight: bold;
+      color: var(--primary);
+    }
+    
+    .mode-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      background: var(--primary-light);
+      color: var(--primary);
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-left: 10px;
+    }
+    
+    /* 题目区域 */
+    .question-section {
+      background: white;
+      border-radius: var(--card-radius);
+      padding: 25px;
+      box-shadow: var(--shadow);
+      margin-bottom: 25px;
+    }
+    
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid var(--border);
+    }
+    
+    .question-container {
+      margin-bottom: 25px;
+    }
+    
+    .question-type {
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--primary);
+      font-size: 1.1rem;
+      display: inline-block;
+      padding: 5px 12px;
+      background: #e1f0fa;
+      border-radius: 20px;
+    }
+    
+    .question-text {
+      margin-bottom: 20px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: var(--dark);
+      padding: 20px;
+      background: #f8fafc;
+      border-radius: 8px;
+      border-left: 4px solid var(--primary);
+    }
+    
+    .options {
+      margin-bottom: 25px;
+    }
+    
+    .option {
+      padding: 15px;
+      margin-bottom: 12px;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .option:hover {
+      background: #f8f9fa;
+      border-color: var(--primary);
+    }
+    
+    .option.selected {
+      background: #e1f0fa;
+      border-color: var(--primary);
+    }
+    
+    .option.correct {
+      background: #e8f7ef;
+      border-color: var(--success);
+    }
+    
+    .option.incorrect {
+      background: #fceae9;
+      border-color: var(--error);
+    }
+    
+    .option-letter {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary);
+      color: white;
+      border-radius: 50%;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+    
+    .feedback {
+      padding: 15px;
+      margin-top: 15px;
+      border-radius: 8px;
+      display: none;
+      font-size: 1rem;
+    }
+    
+    .feedback.error {
+      background: #fceae9;
+      color: var(--error);
+      border: 1px solid #f5b7b1;
+    }
+    
+    .feedback.success {
+      background: #e8f7ef;
+      color: var(--success);
+      border: 1px solid #a9dfbf;
+    }
+    
+    .answer-info {
+      margin-top: 15px;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      font-size: 1rem;
+      line-height: 1.6;
+      border-left: 3px solid var(--accent);
+    }
+    
+    .answer-info p {
+      margin-bottom: 10px;
+    }
+    
+    .nav-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .nav-buttons button {
+      min-width: 140px;
+    }
+    
+    .error-message {
+      text-align: center;
+      padding: 15px;
+      color: var(--error);
+      background: #fceae9;
+      border: 1px solid #f5b7b1;
+      border-radius: 8px;
+      margin: 20px 0;
+      display: none;
+    }
+    
+    .hidden {
+      display: none;
+    }
+    
+    .exam-results {
+      display: none;
+      text-align: center;
+      padding: 40px;
+      background: var(--light);
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+    
+    .exam-results h2 {
+      margin-bottom: 25px;
+      color: var(--dark);
+    }
+    
+    .score {
+      font-size: 3.5rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+    
+    .pass {
+      color: var(--success);
+    }
+    
+    .fail {
+      color: var(--error);
+    }
+    
+    .result-message {
+      font-size: 1.4rem;
+      margin-bottom: 30px;
+      font-weight: 600;
+    }
+    
+    /* 移动端优化 */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+      
+      .container {
+        padding: 15px;
+        border-radius: 12px;
+      }
+      
+      h1 {
+        font-size: 1.8rem;
+        flex-direction: column;
+        gap: 5px;
+      }
+      
+      .control-bar {
+        flex-direction: column;
+      }
+      
+      .type-buttons {
+        flex-direction: column;
+      }
+      
+      select, button {
+        width: 100%;
+        padding: 14px 12px;
+      }
+      
+      .stat-card {
+        min-width: calc(50% - 10px);
+        padding: 15px 10px;
+      }
+      
+      .stat-value {
+        font-size: 1.8rem;
+      }
+      
+      .question-text {
+        font-size: 1.1rem;
+        padding: 15px;
+      }
+      
+      .nav-buttons {
+        flex-direction: column;
+      }
+      
+      .nav-buttons button {
+        width: 100%;
+      }
+      
+      .exam-results {
+        padding: 25px 15px;
+      }
+      
+      .score {
+        font-size: 2.8rem;
+      }
+      
+      .result-message {
+        font-size: 1.2rem;
+      }
+      
+      .answer-info {
+        padding: 15px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+      
+      .subtitle {
+        font-size: 0.95rem;
+      }
+      
+      .stat-card {
+        min-width: 100%;
+      }
+      
+      .question-section {
+        padding: 20px 15px;
+      }
+      
+      .question-text {
+        font-size: 1rem;
+      }
+      
+      .option {
+        padding: 12px 10px;
+      }
+    }
+    
+    /* 平板端优化 */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .stat-card {
+        min-width: calc(50% - 10px);
+      }
+    }
+    
+    /* 动画效果 */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.5s ease forwards;
+    }
+    
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(52, 152, 219, 0.4); }
+      70% { box-shadow: 0 0 0 10px rgba(52, 152, 219, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(52, 152, 219, 0); }
+    }
+    
+    .pulse {
+      animation: pulse 2s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="fas fa-shield-alt"></i> 安全考核题库训练系统</h1>
+      <p class="subtitle">支持900+题目 | 顺序练习 + 题型专区 + 错题本 + 模拟考试 | 实时保存学习进度</p>
+    </header>
+    
+    <div class="control-bar">
+      <div class="control-group">
+        <select id="mode-select">
+          <option value="practice">题库练习（顺序练习）</option>
+          <option value="judge">判断题专区</option>
+          <option value="single">单选题专区</option>
+          <option value="multi">多选题专区</option>
+          <option value="exam">模拟考试（50题/90分钟）</option>
+          <option value="wrong">错题练习</option>
+        </select>
+        <button id="start-btn"><i class="fas fa-play"></i> 开始练习/考试</button>
+        <button id="switch-wrong-btn" class="secondary"><i class="fas fa-exchange-alt"></i> 切换到错题练习</button>
+        <button id="clear-wrong-btn" class="warning"><i class="fas fa-trash-alt"></i> 清空错题本</button>
+      </div>
+    </div>
+    
+    <div class="type-buttons">
+      <button id="judge-btn" class="info"><i class="fas fa-check-circle"></i> 判断题专区</button>
+      <button id="single-btn" class="info"><i class="fas fa-dot-circle"></i> 单选题专区</button>
+      <button id="multi-btn" class="info"><i class="fas fa-check-double"></i> 多选题专区</button>
+    </div>
+    
+    <div class="stats">
+      <div class="stat-card">
+        <h3><i class="fas fa-book"></i> 题库总数</h3>
+        <div class="stat-value" id="total-count">9</div>
+      </div>
+      <div class="stat-card">
+        <h3><i class="fas fa-exclamation-triangle"></i> 错题数量</h3>
+        <div class="stat-value" id="wrong-count">0</div>
+      </div>
+      <div class="stat-card timer">
+        <h3><i class="fas fa-clock"></i> 剩余时间</h3>
+        <div class="stat-value" id="time-left">90:00</div>
+      </div>
+      <div class="stat-card">
+        <h3><i class="fas fa-chart-line"></i> 正确率</h3>
+        <div class="stat-value" id="accuracy-rate">0%</div>
+      </div>
+    </div>
+    
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar" style="width: 0%"></div>
+    </div>
+    
+    <div class="question-counter">
+      当前进度: <span id="current-progress">0</span>/<span id="total-questions">0</span>
+      <span class="mode-badge" id="mode-badge">练习模式</span>
+    </div>
+    
+    <div class="error-message" id="error-message"></div>
+    
+    <div class="question-section">
+      <div class="section-title">
+        <i class="fas fa-question-circle"></i>
+        <h2 id="section-title">题目练习区</h2>
+      </div>
+      
+      <div id="practice-area">
+        <div class="question-container fade-in">
+          <div class="question-type" id="question-type">判断题</div>
+          <div class="question-text" id="question-text">请点击"开始练习"按钮加载题目...</div>
+          <div class="options" id="options"></div>
+          <div class="feedback" id="feedback"></div>
+          <div class="answer-info" id="answer-info"></div>
+        </div>
+        
+        <div class="nav-buttons">
+          <button id="prev-btn" disabled><i class="fas fa-arrow-left"></i> 上一题</button>
+          <button id="next-btn"><i class="fas fa-arrow-right"></i> 下一题</button>
+          <button id="submit-btn" class="secondary"><i class="fas fa-paper-plane"></i> 提交答案</button>
+        </div>
+      </div>
+      
+      <div class="exam-mode hidden" id="exam-mode">
+        <div class="question-container fade-in">
+          <div class="question-type" id="exam-question-type">判断题</div>
+          <div class="question-text" id="exam-question-text">考试题目加载中...</div>
+          <div class="options" id="exam-options"></div>
+          <div class="feedback" id="exam-feedback"></div>
+          <div class="answer-info" id="exam-answer-info"></div>
+        </div>
+        
+        <div class="nav-buttons">
+          <button id="exam-prev-btn" disabled><i class="fas fa-arrow-left"></i> 上一题</button>
+          <button id="exam-next-btn"><i class="fas fa-arrow-right"></i> 下一题</button>
+          <button id="exam-submit-btn" class="secondary"><i class="fas fa-paper-plane"></i> 提交答案</button>
+        </div>
+      </div>
+      
+      <div class="exam-results" id="exam-results">
+        <h2><i class="fas fa-award"></i> 考试结果</h2>
+        <div class="score" id="final-score">0 分</div>
+        <div class="result-message" id="result-message"></div>
+        <div class="progress-container">
+          <div class="progress-bar" id="result-bar" style="width: 0%"></div>
+        </div>
+        <button id="restart-exam-btn" class="secondary"><i class="fas fa-redo"></i> 重新开始考试</button>
+        <button id="back-to-practice-btn"><i class="fas fa-home"></i> 返回练习</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // 初始题库数据 - 9道题
+    const originalQuestionBank = [
+      {
+        type: "判断题",
+        text: "在中华人民共和国领域内从事生产经营活动的单位的安全生产，适用《中华人民共和国安全生产法》。",
+        options: ["正确", "错误"],
+        answer: "正确"
+      },
+      {
+        type: "判断题",
+        text: "依据《中华人民共和国安全生产法》，安全生产工作无需坚持中国共产党的领导。",
+        options: ["正确", "错误"],
+        answer: "错误"
+      },
+      {
+        type: "判断题",
+        text: "依据《中华人民共和国安全生产法》，从业人员发现直接危及人身安全的紧急情况时，无权停止作业或者在采取可能的应急措施后撤离作业场所。",
+        options: ["正确", "错误"],
+        answer: "错误"
+      },
+      {
+        type: "单选题",
+        text: "依据《中华人民共和国安全生产法》，从业人员在（ ）人以下的非高危行业的生产经营单位，可以不设置安全生产管理机构，但至少应配备兼职的安全生产管理人员。",
+        options: ["A、200", "B、100", "C、500", "D、1000"],
+        answer: "B"
+      },
+      {
+        type: "单选题",
+        text: "依据《中华人民共和国安全生产法》，属于国家规定的高危行业、领域的生产经营单位，应当投保（ ）。",
+        options: ["A、产品责任保险", "B、安全生产责任保险", "C、火灾公众责任保险", "D、环境污染责任保险"],
+        answer: "B"
+      },
+      {
+        type: "单选题",
+        text: "依据《中华人民共和国安全生产法》，生产经营单位新建、改建、扩建工程项目的（ ），必须与主体工程同时设计、同时施工、同时投入生产和使用。",
+        options: ["A、生活设施", "B、福利设施", "C、安全设施", "D、工作设施"],
+        answer: "C"
+      },
+      {
+        type: "多选题",
+        text: "依据《中华人民共和国道路交通安全法》，申请机动车登记，应当提交以下证明、凭证：（ ）。",
+        options: [
+          "A、机动车所有人的身份证明",
+          "B、机动车来历证明",
+          "C、机动车整车出厂合格证明或者进口机动车进口凭证",
+          "D、车辆购置税的完税证明或者免税凭证",
+          "E、法律、行政法规规定应当在机动车登记时提交的其他证明、凭证"
+        ],
+        answer: "ABCDE"
+      },
+      {
+        type: "多选题",
+        text: "依据《中华人民共和国道路交通安全法》，有下列情形之一的，应当办理相应的登记：（ ）。",
+        options: [
+          "A、机动车所有权发生转移的",
+          "B、机动车登记内容变更的",
+          "C、机动车用作抵押的",
+          "D、机动车报废的",
+          "E、机动车损坏的"
+        ],
+        answer: "ABCD"
+      },
+      {
+        type: "多选题",
+        text: "依据《中华人民共和国道路交通安全法实施条例》，车道信号灯表示：（ ）。",
+        options: [
+          "A、绿色箭头灯亮时，准许本车道车辆按指示方向通行",
+          "B、黄色灯亮时，禁止所有车道车辆通行",
+          "C、黄色灯亮时，禁止本车道车辆通行",
+          "D、红色叉形灯或者箭头灯亮时，禁止本车道车辆通行",
+          "E、红色叉形灯或者箭头灯亮时，禁止所有车道车辆通行"
+        ],
+        answer: "AD"
+      }
+      /* 
+      在这里添加900+题目，格式如下：
+      {
+        type: "判断题/单选题/多选题",
+        text: "题目内容...",
+        options: ["选项A", "选项B", "选项C", "选项D"],
+        answer: "正确答案" // 判断题："正确"/"错误"；单选题："A"/"B"等；多选题："ABCD"/"ABCE"等
+      },
+      */
+    ];
+
+    // 全局变量
+    let questionBank = [...originalQuestionBank];
+    let currentQuestionIndex = 0;
+    let practiceQuestionIndex = 0; // 专门记录顺序练习的位置
+    let judgeQuestionIndex = 0;    // 判断题专区位置
+    let singleQuestionIndex = 0;   // 单选题专区位置
+    let multiQuestionIndex = 0;    // 多选题专区位置
+    let wrongQuestionIndex = 0;    // 错题练习位置
+    let wrongQuestions = [];
+    let isExamMode = false;
+    let examQuestions = [];
+    let examAnswers = [];
+    let examScore = 0;
+    let examTimer = null;
+    let examTimeLeft = 90 * 60;
+    let selectedOptions = [];
+    let examSelectedOptions = [];
+    let answeredQuestions = 0;
+    let correctAnswers = 0;
+    let examCurrentQuestion = 0; // 考试当前题目索引
+    let currentPracticeMode = 'practice'; // 当前练习模式
+
+    // DOM元素
+    const modeSelect = document.getElementById('mode-select');
+    const startBtn = document.getElementById('start-btn');
+    const switchWrongBtn = document.getElementById('switch-wrong-btn');
+    const clearWrongBtn = document.getElementById('clear-wrong-btn');
+    const judgeBtn = document.getElementById('judge-btn');
+    const singleBtn = document.getElementById('single-btn');
+    const multiBtn = document.getElementById('multi-btn');
+    const sectionTitle = document.getElementById('section-title');
+    const modeBadge = document.getElementById('mode-badge');
+    const totalCount = document.getElementById('total-count');
+    const wrongCountEl = document.getElementById('wrong-count');
+    const timeLeft = document.getElementById('time-left');
+    const accuracyRate = document.getElementById('accuracy-rate');
+    const progressBar = document.getElementById('progress-bar');
+    const currentProgress = document.getElementById('current-progress');
+    const totalQuestions = document.getElementById('total-questions');
+    const practiceArea = document.getElementById('practice-area');
+    const examModeDiv = document.getElementById('exam-mode');
+    const examResults = document.getElementById('exam-results');
+    const errorMessage = document.getElementById('error-message');
+    
+    // 初始化
+    function init() {
+      loadFromLocalStorage();
+      updateStats();
+      setupEventListeners();
+      showWelcomeMessage();
+    }
+
+    // 从本地存储加载数据
+    function loadFromLocalStorage() {
+      const savedWrong = localStorage.getItem('wrongQuestions');
+      const savedPracticeIndex = localStorage.getItem('practiceQuestionIndex');
+      const savedJudgeIndex = localStorage.getItem('judgeQuestionIndex');
+      const savedSingleIndex = localStorage.getItem('singleQuestionIndex');
+      const savedMultiIndex = localStorage.getItem('multiQuestionIndex');
+      const savedWrongIndex = localStorage.getItem('wrongQuestionIndex');
+      const savedAnswered = localStorage.getItem('answeredQuestions');
+      const savedCorrect = localStorage.getItem('correctAnswers');
+      
+      if (savedWrong) {
+        try {
+          wrongQuestions = JSON.parse(savedWrong);
+        } catch (e) {
+          console.error('Failed to parse saved wrong questions', e);
+        }
+      }
+      
+      if (savedPracticeIndex) {
+        practiceQuestionIndex = parseInt(savedPracticeIndex) || 0;
+        currentQuestionIndex = practiceQuestionIndex;
+      }
+      
+      if (savedJudgeIndex) {
+        judgeQuestionIndex = parseInt(savedJudgeIndex) || 0;
+      }
+      
+      if (savedSingleIndex) {
+        singleQuestionIndex = parseInt(savedSingleIndex) || 0;
+      }
+      
+      if (savedMultiIndex) {
+        multiQuestionIndex = parseInt(savedMultiIndex) || 0;
+      }
+      
+      if (savedWrongIndex) {
+        wrongQuestionIndex = parseInt(savedWrongIndex) || 0;
+      }
+      
+      if (savedAnswered) {
+        answeredQuestions = parseInt(savedAnswered) || 0;
+      }
+      
+      if (savedCorrect) {
+        correctAnswers = parseInt(savedCorrect) || 0;
+      }
+    }
+
+    // 更新统计信息
+    function updateStats() {
+      totalCount.textContent = originalQuestionBank.length;
+      wrongCountEl.textContent = wrongQuestions.length;
+      
+      // 计算正确率
+      const rate = answeredQuestions > 0 ? Math.round((correctAnswers / answeredQuestions) * 100) : 0;
+      accuracyRate.textContent = `${rate}%`;
+      
+      // 更新进度条
+      if (isExamMode && examQuestions.length > 0) {
+        const progress = ((examCurrentQuestion + 1) / examQuestions.length) * 100;
+        progressBar.style.width = `${progress}%`;
+        currentProgress.textContent = examCurrentQuestion + 1;
+        totalQuestions.textContent = examQuestions.length;
+      } else if (questionBank.length > 0) {
+        const progress = ((currentQuestionIndex + 1) / questionBank.length) * 100;
+        progressBar.style.width = `${progress}%`;
+        currentProgress.textContent = currentQuestionIndex + 1;
+        totalQuestions.textContent = questionBank.length;
+      }
+      
+      updateModeIndicator();
+    }
+
+    // 更新模式指示器
+    function updateModeIndicator() {
+      let modeText = '题库练习';
+      
+      switch(currentPracticeMode) {
+        case 'judge':
+          modeText = '判断题专区';
+          break;
+        case 'single':
+          modeText = '单选题专区';
+          break;
+        case 'multi':
+          modeText = '多选题专区';
+          break;
+        case 'wrong':
+          modeText = '错题练习';
+          break;
+        case 'exam':
+          modeText = '模拟考试';
+          break;
+      }
+      
+      if (isExamMode) {
+        modeText = '模拟考试';
+      }
+      
+      modeBadge.textContent = modeText;
+      sectionTitle.textContent = modeText;
+    }
+
+    // 设置事件监听
+    function setupEventListeners() {
+      startBtn.addEventListener('click', startPracticeOrExam);
+      switchWrongBtn.addEventListener('click', switchToWrongPractice);
+      clearWrongBtn.addEventListener('click', clearWrongQuestions);
+      
+      // 题型专区按钮
+      judgeBtn.addEventListener('click', () => startPractice('judge'));
+      singleBtn.addEventListener('click', () => startPractice('single'));
+      multiBtn.addEventListener('click', () => startPractice('multi'));
+      
+      document.getElementById('prev-btn').addEventListener('click', prevQuestion);
+      document.getElementById('next-btn').addEventListener('click', nextQuestion);
+      document.getElementById('submit-btn').addEventListener('click', submitAnswer);
+      
+      document.getElementById('exam-prev-btn').addEventListener('click', examPrevQuestion);
+      document.getElementById('exam-next-btn').addEventListener('click', examNextQuestion);
+      document.getElementById('exam-submit-btn').addEventListener('click', examSubmitAnswer);
+      
+      document.getElementById('restart-exam-btn').addEventListener('click', restartExam);
+      document.getElementById('back-to-practice-btn').addEventListener('click', backToPractice);
+    }
+
+    // 显示欢迎信息
+    function showWelcomeMessage() {
+      if (questionBank.length > 0) {
+        showQuestion(practiceQuestionIndex);
+      }
+    }
+
+    // 显示题目（练习模式）
+    function showQuestion(index) {
+      if (index < 0 || index >= questionBank.length) return;
+      
+      currentQuestionIndex = index;
+      const question = questionBank[index];
+      
+      // 更新区域标题
+      updateSectionTitle();
+      
+      document.getElementById('question-type').textContent = question.type;
+      document.getElementById('question-text').textContent = `${index + 1}. ${question.text}`;
+      
+      const optionsContainer = document.getElementById('options');
+      optionsContainer.innerHTML = '';
+      
+      question.options.forEach((option, i) => {
+        const optionElement = document.createElement('div');
+        optionElement.className = 'option';
+        optionElement.innerHTML = `
+          <div class="option-letter">${String.fromCharCode(65 + i)}</div>
+          <div class="option-text">${option}</div>
+        `;
+        optionElement.dataset.index = i;
+        optionElement.addEventListener('click', () => selectOption(i));
+        optionsContainer.appendChild(optionElement);
+      });
+      
+      // 重置反馈
+      document.getElementById('feedback').style.display = 'none';
+      document.getElementById('answer-info').innerHTML = '';
+      
+      // 更新导航按钮状态
+      document.getElementById('prev-btn').disabled = index === 0;
+      document.getElementById('next-btn').disabled = index === questionBank.length - 1;
+      
+      // 保存到本地存储
+      saveCurrentProgress();
+      
+      // 重置选择
+      selectedOptions = [];
+      document.querySelectorAll('#options .option').forEach(opt => {
+        opt.classList.remove('selected');
+      });
+      
+      // 添加动画效果
+      document.querySelector('.question-container').classList.remove('fade-in');
+      void document.querySelector('.question-container').offsetWidth;
+      document.querySelector('.question-container').classList.add('fade-in');
+      
+      updateStats();
+    }
+
+    // 更新区域标题
+    function updateSectionTitle() {
+      let title = '题目练习区';
+      switch(currentPracticeMode) {
+        case 'judge':
+          title = '判断题专区';
+          break;
+        case 'single':
+          title = '单选题专区';
+          break;
+        case 'multi':
+          title = '多选题专区';
+          break;
+        case 'wrong':
+          title = '错题练习';
+          break;
+        case 'practice':
+        default:
+          title = '题库练习';
+      }
+      sectionTitle.textContent = title;
+    }
+
+    // 显示题目（考试模式）
+    function showExamQuestion(index) {
+      if (index < 0 || index >= examQuestions.length) return;
+      
+      examCurrentQuestion = index;
+      const question = examQuestions[index];
+      
+      document.getElementById('exam-question-type').textContent = question.type;
+      document.getElementById('exam-question-text').textContent = `${index + 1}. ${question.text}`;
+      
+      const optionsContainer = document.getElementById('exam-options');
+      optionsContainer.innerHTML = '';
+      
+      question.options.forEach((option, i) => {
+        const optionElement = document.createElement('div');
+        optionElement.className = 'option';
+        optionElement.innerHTML = `
+          <div class="option-letter">${String.fromCharCode(65 + i)}</div>
+          <div class="option-text">${option}</div>
+        `;
+        optionElement.dataset.index = i;
+        optionElement.addEventListener('click', () => selectExamOption(i));
+        optionsContainer.appendChild(optionElement);
+      });
+      
+      // 重置反馈
+      document.getElementById('exam-feedback').style.display = 'none';
+      document.getElementById('exam-answer-info').innerHTML = '';
+      
+      // 恢复之前的选择（如果有）
+      if (examSelectedOptions[examCurrentQuestion]) {
+        examSelectedOptions[examCurrentQuestion].forEach(optIndex => {
+          const optionElement = document.querySelector(`#exam-options .option[data-index="${optIndex}"]`);
+          if (optionElement) {
+            optionElement.classList.add('selected');
+          }
+        });
+      }
+      
+      // 更新导航按钮状态
+      document.getElementById('exam-prev-btn').disabled = index === 0;
+      document.getElementById('exam-next-btn').disabled = index === examQuestions.length - 1;
+      
+      // 添加动画效果
+      document.querySelector('#exam-mode .question-container').classList.remove('fade-in');
+      void document.querySelector('#exam-mode .question-container').offsetWidth;
+      document.querySelector('#exam-mode .question-container').classList.add('fade-in');
+      
+      updateStats();
+    }
+
+    // 保存当前进度
+    function saveCurrentProgress() {
+      switch(currentPracticeMode) {
+        case 'practice':
+          localStorage.setItem('practiceQuestionIndex', currentQuestionIndex);
+          break;
+        case 'judge':
+          localStorage.setItem('judgeQuestionIndex', currentQuestionIndex);
+          break;
+        case 'single':
+          localStorage.setItem('singleQuestionIndex', currentQuestionIndex);
+          break;
+        case 'multi':
+          localStorage.setItem('multiQuestionIndex', currentQuestionIndex);
+          break;
+        case 'wrong':
+          localStorage.setItem('wrongQuestionIndex', currentQuestionIndex);
+          break;
+      }
+    }
+
+    // 获取题型文本（转换为内部类型）
+    function getQuestionTypeText(type) {
+      switch(type) {
+        case '单选题': return 'single';
+        case '多选题': return 'multi';
+        case '判断题': return 'judge';
+        default: return 'single';
+      }
+    }
+
+    // 选择选项（练习模式）
+    function selectOption(optionIndex) {
+      const question = questionBank[currentQuestionIndex];
+      const questionType = getQuestionTypeText(question.type);
+      const optionElement = document.querySelector(`#options .option[data-index="${optionIndex}"]`);
+      
+      if (questionType === 'multi') {
+        const index = selectedOptions.indexOf(optionIndex);
+        if (index > -1) {
+          selectedOptions.splice(index, 1);
+          optionElement.classList.remove('selected');
+        } else {
+          selectedOptions.push(optionIndex);
+          optionElement.classList.add('selected');
+        }
+      } else {
+        selectedOptions = [optionIndex];
+        document.querySelectorAll('#options .option').forEach(opt => {
+          opt.classList.remove('selected');
+        });
+        optionElement.classList.add('selected');
+      }
+    }
+
+    // 选择选项（考试模式）
+    function selectExamOption(optionIndex) {
+      const question = examQuestions[examCurrentQuestion];
+      const questionType = getQuestionTypeText(question.type);
+      
+      if (!examSelectedOptions[examCurrentQuestion]) {
+        examSelectedOptions[examCurrentQuestion] = [];
+      }
+      
+      const selectedOptions = examSelectedOptions[examCurrentQuestion];
+      const optionElement = document.querySelector(`#exam-options .option[data-index="${optionIndex}"]`);
+      
+      if (questionType === 'single') {
+        selectedOptions.length = 0;
+        selectedOptions.push(optionIndex);
+        document.querySelectorAll('#exam-options .option').forEach(opt => {
+          opt.classList.remove('selected');
+        });
+        optionElement.classList.add('selected');
+      } else {
+        const index = selectedOptions.indexOf(optionIndex);
+        if (index > -1) {
+          selectedOptions.splice(index, 1);
+          optionElement.classList.remove('selected');
+        } else {
+          selectedOptions.push(optionIndex);
+          optionElement.classList.add('selected');
+        }
+      }
+    }
+
+    // 获取正确答案文本
+    function getCorrectAnswerText(question) {
+      if (Array.isArray(question.answer)) {
+        return question.answer.join('、');
+      } else {
+        return question.answer;
+      }
+    }
+
+    // 获取正确答案索引
+    function getCorrectAnswerIndices(question) {
+      if (question.type === '多选题') {
+        // 多选题的answer是字符串"ABCDE"，需要转换为索引数组
+        const answerString = question.answer;
+        const indices = [];
+        for (let i = 0; i < answerString.length; i++) {
+          const char = answerString.charAt(i);
+          const index = char.charCodeAt(0) - 65; // A=0, B=1, etc.
+          if (index >= 0 && index < question.options.length) {
+            indices.push(index);
+          }
+        }
+        return indices;
+      } else if (question.type === '单选题') {
+        // 单选题的answer是字母字符串，如"A"
+        const index = question.answer.charCodeAt(0) - 65;
+        return index >= 0 ? [index] : [];
+      } else if (question.type === '判断题') {
+        // 判断题的answer是"正确"或"错误"
+        return question.answer === "正确" ? [0] : [1];
+      }
+      return [];
+    }
+
+    // 检查答案是否正确
+    function checkAnswer(question, selectedIndices) {
+      const correctIndices = getCorrectAnswerIndices(question);
+      
+      if (getQuestionTypeText(question.type) === 'multi') {
+        return arraysEqual(selectedIndices.sort(), correctIndices.sort());
+      } else {
+        return selectedIndices.length === 1 && correctIndices.includes(selectedIndices[0]);
+      }
+    }
+
+    // 添加到错题本
+    function addToWrongQuestions(questionIndex) {
+      if (!wrongQuestions.includes(questionIndex)) {
+        wrongQuestions.push(questionIndex);
+        localStorage.setItem('wrongQuestions', JSON.stringify(wrongQuestions));
+        updateStats();
+      }
+    }
+
+    // 从错题本中移除
+    function removeFromWrongQuestions(originalIndex) {
+      const index = wrongQuestions.indexOf(originalIndex);
+      if (index > -1) {
+        wrongQuestions.splice(index, 1);
+        localStorage.setItem('wrongQuestions', JSON.stringify(wrongQuestions));
+        updateStats();
+        
+        if (currentPracticeMode === 'wrong') {
+          // 如果在错题练习模式下，重新过滤题库
+          questionBank = originalQuestionBank.filter((q, idx) => wrongQuestions.includes(idx));
+          
+          if (questionBank.length === 0) {
+            // 如果错题本已清空，显示提示并返回普通练习
+            showError('恭喜！您已答对所有错题，错题本已清空。', 'success');
+            setTimeout(() => {
+              modeSelect.value = 'practice';
+              startPractice('practice');
+            }, 2000);
+          } else if (currentQuestionIndex >= questionBank.length) {
+            // 如果当前索引超出范围，显示第一题
+            currentQuestionIndex = 0;
+            showQuestion(0);
+          } else {
+            // 重新显示当前题目
+            showQuestion(currentQuestionIndex);
+          }
+        }
+        
+        showError('恭喜！您已答对该题，已从错题本中移除。', 'success');
+      }
+    }
+
+    // 上一题（练习模式）
+    function prevQuestion() {
+      if (currentQuestionIndex > 0) {
+        showQuestion(currentQuestionIndex - 1);
+      }
+    }
+
+    // 下一题（练习模式）
+    function nextQuestion() {
+      if (currentQuestionIndex < questionBank.length - 1) {
+        showQuestion(currentQuestionIndex + 1);
+      }
+    }
+
+    // 上一题（考试模式）
+    function examPrevQuestion() {
+      if (examCurrentQuestion > 0) {
+        showExamQuestion(examCurrentQuestion - 1);
+      }
+    }
+
+    // 下一题（考试模式）
+    function examNextQuestion() {
+      if (examCurrentQuestion < examQuestions.length - 1) {
+        showExamQuestion(examCurrentQuestion + 1);
+      }
+    }
+
+    // 提交答案（练习模式）
+    function submitAnswer() {
+      if (selectedOptions.length === 0) {
+        showError('请先选择答案');
+        return;
+      }
+      
+      const question = questionBank[currentQuestionIndex];
+      const isCorrect = checkAnswer(question, selectedOptions);
+      
+      const feedback = document.getElementById('feedback');
+      const answerInfo = document.getElementById('answer-info');
+      
+      feedback.style.display = 'block';
+      if (isCorrect) {
+        feedback.className = 'feedback success';
+        feedback.innerHTML = '<i class="fas fa-check-circle"></i> 回答正确！';
+        correctAnswers++;
+        
+        if (currentPracticeMode === 'wrong') {
+          // 在错题练习模式下，需要找到当前题目在原始题库中的索引
+          const originalIndex = originalQuestionBank.findIndex(q => 
+            q.text === question.text && 
+            q.type === question.type
+          );
+          if (originalIndex !== -1) {
+            // 关键修复：移除错题
+            removeFromWrongQuestions(originalIndex);
+          }
+        }
+      } else {
+        feedback.className = 'feedback error';
+        feedback.innerHTML = '<i class="fas fa-times-circle"></i> 回答错误！';
+        
+        if (currentPracticeMode === 'wrong') {
+          // 在错题练习模式下，找到当前题目在原始题库中的索引
+          const originalIndex = originalQuestionBank.findIndex(q => 
+            q.text === question.text && 
+            q.type === question.type
+          );
+          if (originalIndex !== -1) {
+            addToWrongQuestions(originalIndex);
+          }
+        } else {
+          // 在题型专区和普通练习模式下，记录错题
+          const originalIndex = originalQuestionBank.findIndex(q => 
+            q.text === question.text && 
+            q.type === question.type
+          );
+          if (originalIndex !== -1) {
+            addToWrongQuestions(originalIndex);
+          }
+        }
+      }
+      
+      answeredQuestions++;
+      localStorage.setItem('answeredQuestions', answeredQuestions);
+      localStorage.setItem('correctAnswers', correctAnswers);
+      
+      // 标记正确/错误选项
+      const correctIndices = getCorrectAnswerIndices(question);
+      document.querySelectorAll('#options .option').forEach((opt, i) => {
+        opt.classList.remove('correct', 'incorrect');
+        
+        if (correctIndices.includes(i)) {
+          opt.classList.add('correct');
+        }
+        
+        if (selectedOptions.includes(i) && !correctIndices.includes(i)) {
+          opt.classList.add('incorrect');
+        }
+      });
+      
+      // 显示答案解析
+      answerInfo.innerHTML = `
+        <p><strong><i class="fas fa-lightbulb"></i> 正确答案：</strong>${getCorrectAnswerText(question)}</p>
+        <p><strong><i class="fas fa-comment-dots"></i> 解析：</strong>${getQuestionExplanation(question)}</p>
+      `;
+      
+      // 保存当前进度
+      if (currentPracticeMode === 'practice') {
+        practiceQuestionIndex = currentQuestionIndex;
+        localStorage.setItem('practiceQuestionIndex', practiceQuestionIndex);
+      }
+      
+      updateStats();
+    }
+
+    // 获取题目解析
+    function getQuestionExplanation(question) {
+      if (question.type === '判断题') {
+        if (question.text.includes("适用《中华人民共和国安全生产法》")) {
+          return `根据《中华人民共和国安全生产法》第二条规定，在中华人民共和国领域内从事生产经营活动的单位的安全生产，适用本法。该表述正确。`;
+        } else if (question.text.includes("坚持中国共产党的领导")) {
+          return `根据《中华人民共和国安全生产法》第三条规定，安全生产工作坚持中国共产党的领导。该表述错误。`;
+        } else if (question.text.includes("停止作业")) {
+          return `根据《中华人民共和国安全生产法》第五十五条规定，从业人员发现直接危及人身安全的紧急情况时，有权停止作业或者在采取可能的应急措施后撤离作业场所。该表述错误。`;
+        } else if (question.text.includes("发包或者出租")) {
+          return `根据《中华人民共和国安全生产法》第四十九条规定，生产经营单位不得将生产经营项目、场所、设备发包或者出租给不具备安全生产条件或者相应资质的单位或者个人。该表述错误。`;
+        } else if (question.text.includes("学生实习")) {
+          return `根据《中华人民共和国安全生产法》第二十八条规定，生产经营单位接收中等职业学校、高等学校学生实习的，应当对实习学生进行相应的安全生产教育和培训，提供必要的劳动防护用品。该表述错误。`;
+        }
+      } else if (question.type === '单选题') {
+        if (question.text.includes("人以下的非高危行业")) {
+          return `根据《中华人民共和国安全生产法》第二十四条规定，从业人员在100人以下的非高危行业的生产经营单位，可以不设置安全生产管理机构，但应当配备专职或者兼职的安全生产管理人员。正确答案是B。`;
+        } else if (question.text.includes("投保")) {
+          return `根据《中华人民共和国安全生产法》第五十一条规定，属于国家规定的高危行业、领域的生产经营单位，应当投保安全生产责任保险。正确答案是B。`;
+        } else if (question.text.includes("新建、改建、扩建工程项目")) {
+          return `根据《中华人民共和国安全生产法》第三十一条规定，生产经营单位新建、改建、扩建工程项目的安全设施，必须与主体工程同时设计、同时施工、同时投入生产和使用。正确答案是C。`;
+        } else if (question.text.includes("事故调查处理")) {
+          return `根据《中华人民共和国安全生产法》第八十六条规定，事故调查处理应当按照科学严谨、依法依规、实事求是、注重实效的原则，及时、准确地查清事故原因，查明事故性质和责任。正确答案是A。`;
+        } else if (question.text.includes("订立协议")) {
+          return `根据《中华人民共和国安全生产法》第五十二条规定，生产经营单位不得以任何形式与从业人员订立协议，免除或者减轻其对从业人员因生产安全事故伤亡依法应承担的责任。正确答案是C。`;
+        }
+      } else if (question.type === '多选题') {
+        if (question.text.includes("申请机动车登记")) {
+          return `根据《中华人民共和国道路交通安全法》第九条规定，申请机动车登记，应当提交机动车所有人的身份证明、机动车来历证明、机动车整车出厂合格证明或者进口机动车进口凭证、车辆购置税的完税证明或者免税凭证、法律、行政法规规定应当在机动车登记时提交的其他证明、凭证。正确答案是ABCDE。`;
+        } else if (question.text.includes("办理相应的登记")) {
+          return `根据《中华人民共和国道路交通安全法》第十二条规定，机动车所有权发生转移的、机动车登记内容变更的、机动车用作抵押的、机动车报废的，应当办理相应的登记。正确答案是ABCD。`;
+        } else if (question.text.includes("车道信号灯")) {
+          return `根据《中华人民共和国道路交通安全法实施条例》第三十八条规定，绿色箭头灯亮时，准许本车道车辆按指示方向通行；红色叉形灯或者箭头灯亮时，禁止本车道车辆通行。正确答案是AD。`;
+        } else if (question.text.includes("最高行驶速度")) {
+          return `根据《中华人民共和国道路交通安全法实施条例》第四十六条规定，机动车行驶中进出非机动车道，通过铁路道口、急弯路、窄路、窄桥时；掉头、转弯、下陡坡时；遇雾、雨、雪、沙尘、冰雹，能见度在50米以内时；在冰雪、泥泞的道路上行驶时；牵引发生故障的机动车时，最高行驶速度不得超过每小时30公里。正确答案是ABCDE。`;
+        } else if (question.text.includes("交叉路口")) {
+          return `根据《中华人民共和国道路交通安全法实施条例》第五十二条规定，机动车通过没有交通信号灯控制也没有交通警察指挥的交叉路口，有交通标志、标线控制的，让优先通行的一方先行；没有交通标志、标线控制的，在进入路口前停车瞭望，让右方道路的来车先行；转弯的机动车让直行的车辆先行；相对方向行驶的右转弯的机动车让左转弯的车辆先行。正确答案是ABCD。`;
+        }
+      }
+      return '暂无解析';
+    }
+
+    // 比较两个数组是否相等
+    function arraysEqual(a, b) {
+      if (a === b) return true;
+      if (a == null || b == null) return false;
+      if (a.length !== b.length) return false;
+      
+      for (let i = 0; i < a.length; ++i) {
+        if (a[i] !== b[i]) return false;
+      }
+      return true;
+    }
+
+    // 开始练习或考试
+    function startPracticeOrExam() {
+      const mode = modeSelect.value;
+      
+      if (mode === 'exam') {
+        startExam();
+      } else {
+        startPractice(mode);
+      }
+    }
+
+    // 开始练习
+    function startPractice(mode) {
+      isExamMode = false;
+      practiceArea.style.display = 'block';
+      examModeDiv.style.display = 'none';
+      examResults.style.display = 'none';
+      
+      currentPracticeMode = mode;
+      
+      if (mode === 'wrong') {
+        if (wrongQuestions.length === 0) {
+          showError('错题本为空，请先做题积累错题');
+          return;
+        }
+        
+        // 从原始题库中筛选出错题
+        questionBank = originalQuestionBank.filter((q, index) => wrongQuestions.includes(index));
+        currentQuestionIndex = wrongQuestionIndex || 0;
+        if (currentQuestionIndex >= questionBank.length) {
+          currentQuestionIndex = 0;
+        }
+        showQuestion(currentQuestionIndex);
+      } else if (mode === 'judge' || mode === 'single' || mode === 'multi') {
+        // 题型专区模式
+        let typeFilter = '';
+        if (mode === 'judge') typeFilter = '判断题';
+        else if (mode === 'single') typeFilter = '单选题';
+        else if (mode === 'multi') typeFilter = '多选题';
+        
+        // 过滤对应题型
+        questionBank = originalQuestionBank.filter(q => q.type === typeFilter);
+        
+        if (questionBank.length === 0) {
+          showError(`当前题库中没有${typeFilter}题目`);
+          return;
+        }
+        
+        // 从上次位置开始
+        let savedIndex = 0;
+        if (mode === 'judge') {
+          savedIndex = judgeQuestionIndex;
+        } else if (mode === 'single') {
+          savedIndex = singleQuestionIndex;
+        } else if (mode === 'multi') {
+          savedIndex = multiQuestionIndex;
+        }
+        
+        currentQuestionIndex = Math.min(savedIndex, questionBank.length - 1);
+        showQuestion(currentQuestionIndex);
+      } else {
+        // 普通练习模式
+        questionBank = [...originalQuestionBank];
+        // 显示上次练习的位置
+        currentQuestionIndex = practiceQuestionIndex || 0;
+        if (currentQuestionIndex >= questionBank.length) {
+          currentQuestionIndex = 0;
+        }
+        showQuestion(currentQuestionIndex);
+      }
+      
+      // 更新下拉选择框
+      modeSelect.value = mode;
+      updateModeIndicator();
+    }
+
+    // 切换到错题练习
+    function switchToWrongPractice() {
+      modeSelect.value = 'wrong';
+      startPractice('wrong');
+    }
+
+    // 清空错题本
+    function clearWrongQuestions() {
+      if (confirm('确定要清空错题本吗？')) {
+        wrongQuestions = [];
+        localStorage.setItem('wrongQuestions', JSON.stringify(wrongQuestions));
+        updateStats();
+        showError('错题本已清空', 'success');
+      }
+    }
+
+    // 开始考试
+    function startExam() {
+      isExamMode = true;
+      practiceArea.style.display = 'none';
+      examModeDiv.style.display = 'block';
+      examResults.style.display = 'none';
+      
+      // 重置考试状态
+      examQuestions = [];
+      examAnswers = [];
+      examScore = 0;
+      examTimeLeft = 90 * 60;
+      examCurrentQuestion = 0;
+      examSelectedOptions = [];
+      
+      // 随机选择50道题（如果题库不足50道则全部使用）
+      const shuffled = [...originalQuestionBank].sort(() => 0.5 - Math.random());
+      examQuestions = shuffled.slice(0, Math.min(50, originalQuestionBank.length));
+      
+      // 显示第一题
+      showExamQuestion(0);
+      
+      // 启动计时器
+      startExamTimer();
+      
+      updateStats();
+    }
+
+    // 启动考试计时器
+    function startExamTimer() {
+      if (examTimer) clearInterval(examTimer);
+      
+      examTimer = setInterval(() => {
+        examTimeLeft--;
+        
+        if (examTimeLeft <= 0) {
+          clearInterval(examTimer);
+          examTimeLeft = 0;
+          showExamResults();
+          return;
+        }
+        
+        const minutes = Math.floor(examTimeLeft / 60);
+        const seconds = examTimeLeft % 60;
+        timeLeft.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+      }, 1000);
+    }
+
+    // 提交答案（考试模式）
+    function examSubmitAnswer() {
+      const question = examQuestions[examCurrentQuestion];
+      const selected = examSelectedOptions[examCurrentQuestion] || [];
+      
+      if (selected.length === 0) {
+        showError('请先选择答案');
+        return;
+      }
+      
+      const isCorrect = checkAnswer(question, selected);
+      const feedback = document.getElementById('exam-feedback');
+      const answerInfo = document.getElementById('exam-answer-info');
+      
+      feedback.style.display = 'block';
+      if (isCorrect) {
+        feedback.className = 'feedback success';
+        feedback.innerHTML = '<i class="fas fa-check-circle"></i> 回答正确！';
+        examScore += getQuestionScore(getQuestionTypeText(question.type));
+      } else {
+        feedback.className = 'feedback error';
+        feedback.innerHTML = '<i class="fas fa-times-circle"></i> 回答错误！';
+        
+        // 关键修复：将错题添加到错题本
+        const originalIndex = originalQuestionBank.findIndex(q => 
+          q.text === question.text && 
+          q.type === question.type
+        );
+        if (originalIndex !== -1) {
+          addToWrongQuestions(originalIndex);
+        }
+        
+        // 标记正确/错误选项
+        const correctIndices = getCorrectAnswerIndices(question);
+        document.querySelectorAll('#exam-options .option').forEach((opt, i) => {
+          opt.classList.remove('correct', 'incorrect');
+          
+          if (correctIndices.includes(i)) {
+            opt.classList.add('correct');
+          }
+          
+          if (selected.includes(i) && !correctIndices.includes(i)) {
+            opt.classList.add('incorrect');
+          }
+        });
+      }
+      
+      // 显示答案解析
+      answerInfo.innerHTML = `
+        <p><strong><i class="fas fa-lightbulb"></i> 正确答案：</strong>${getCorrectAnswerText(question)}</p>
+        <p><strong><i class="fas fa-comment-dots"></i> 解析：</strong>${getQuestionExplanation(question)}</p>
+      `;
+      
+      // 禁用选项选择
+      document.querySelectorAll('#exam-options .option').forEach(opt => {
+        opt.style.pointerEvents = 'none';
+      });
+      
+      // 自动跳转到下一题（如果不是最后一题）
+      if (examCurrentQuestion < examQuestions.length - 1) {
+        setTimeout(() => {
+          examNextQuestion();
+        }, 2000);
+      } else {
+        // 最后一题，显示结果
+        setTimeout(() => {
+          showExamResults();
+        }, 2000);
+      }
+    }
+
+    // 获取题目分数
+    function getQuestionScore(type) {
+      switch(type) {
+        case 'single': return 2;
+        case 'multi': return 4;
+        case 'judge': return 2;
+        default: return 0;
+      }
+    }
+
+    // 显示考试结果
+    function showExamResults() {
+      clearInterval(examTimer);
+      examModeDiv.style.display = 'none';
+      examResults.style.display = 'block';
+      
+      // 计算总分
+      const totalScore = examScore;
+      const maxScore = examQuestions.reduce((sum, q) => sum + getQuestionScore(getQuestionTypeText(q.type)), 0);
+      const percentage = Math.round((totalScore / maxScore) * 100);
+      const isPass = totalScore >= 80;
+      
+      // 显示结果
+      document.getElementById('final-score').textContent = `${totalScore} 分`;
+      document.getElementById('final-score').className = isPass ? 'score pass' : 'score fail';
+      
+      document.getElementById('result-message').textContent = isPass 
+        ? '恭喜你，考试合格！' 
+        : '很遗憾，考试不合格，需要达到80分及以上才能合格。';
+      document.getElementById('result-message').style.color = isPass ? '#27ae60' : '#e74c3c';
+      
+      // 更新结果进度条
+      document.getElementById('result-bar').style.width = `${percentage}%`;
+      
+      // 更新统计
+      answeredQuestions += examQuestions.length;
+      correctAnswers += examQuestions.filter((q, i) => {
+        const selected = examSelectedOptions[i] || [];
+        return checkAnswer(q, selected);
+      }).length;
+      
+      localStorage.setItem('answeredQuestions', answeredQuestions);
+      localStorage.setItem('correctAnswers', correctAnswers);
+      updateStats();
+    }
+
+    // 重新开始考试
+    function restartExam() {
+      startExam();
+    }
+
+    // 返回练习
+    function backToPractice() {
+      examResults.style.display = 'none';
+      practiceArea.style.display = 'block';
+      isExamMode = false;
+      startPractice(modeSelect.value);
+    }
+    
+    // 显示错误信息
+    function showError(message, type = 'error') {
+      errorMessage.textContent = message;
+      errorMessage.style.display = 'block';
+      errorMessage.style.background = type === 'success' ? '#e8f7ef' : '#fceae9';
+      errorMessage.style.color = type === 'success' ? '#27ae60' : '#e74c3c';
+      errorMessage.style.borderColor = type === 'success' ? '#a9dfbf' : '#f5b7b1';
+      
+      setTimeout(() => {
+        errorMessage.style.display = 'none';
+      }, 4000);
+    }
+
+    // 页面加载完成后初始化
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

@@ -41,6 +41,11 @@
     },
 
     {
+      "name": "cat",
+      "url": "https://raw.githubusercontent.com/fleung49/star/refs/heads/main/cat"
+    },
+
+    {
       "name": "日本TV",
       "url": "https://web.utako.moe/jp.m3u"
     },
@@ -58,6 +63,11 @@
     {
       "name": "premium",
       "url": "https://gitlab.com/bastikwang/m3u/-/raw/main/premium.gasoline?ref_type=heads"
+    },
+
+    {
+      "name": "zhtv",
+      "url": "https://raw.githubusercontent.com/yewengood/kzb/refs/heads/main/zhtv.txt"
     },
 
         {
@@ -317,7 +327,8 @@
             "timeout": 30,
             "playerType": 2
         }, 
-{
+
+      {
             "name": "Anbox直播",
             "type": 0,
             "url": "http://tv.anbox.ip-ddns.com/live",

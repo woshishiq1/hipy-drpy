@@ -33,8 +33,17 @@
       "ua": "okhttp/4.12.0"
     },
 
+{
+            "name": "MyTV",
+            "type": 0,
+            "url": "https://tv.iill.top/m3u/MyTV",
+            "ua": "okhttp/5.0.0-alpha.14",
+            "timeout": 30,
+            "playerType": 2
+        },
+
     {
-      "name": "MYTV",
+      "name": "MYTV 2",
       "url": "http://66.103.204.107/list.php",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"

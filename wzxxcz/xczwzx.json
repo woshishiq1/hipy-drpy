@@ -1663,6 +1663,37 @@
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
         },
         {
+            "key": "极影",
+            "name": "🍊极影影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://101.201.171.207:802/api.php/app/"
+        },
+        {
+            "key": "晓米",
+            "name": "🍊晓米影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://111.170.58.23:802/api.php/app/"
+        },
+        {
+            "key": "超前",
+            "name": "🍊超前影视",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2,
+            "ext": "http://chaoqianys.top:91/api.php/app/"
+        },
+        {
             "key": "恋鱼",
             "name": "🦈恋鱼影视",
             "type": 3,
@@ -1861,9 +1892,9 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/wenxintishi.txt",
-                "dataKey": "h2t8fjo964j2sl6a",
-                "dataIv": "h2t8fjo964j2sl6a",
+                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/axiba.txt",
+                "dataKey": "h5w3d6g1j9s2h3f6",
+                "dataIv": "h5w3d6g1j9s2h3f6",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -4651,6 +4682,19 @@
             "api": "csp_AppFox",
             "ext": {
                 "host": "https://cunchu8.obs.cn-north-4.myhuaweicloud.com/fox.json"
+            }
+        },
+        {
+            "key": "火锅",
+            "name": "🍊火锅影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://ios.hgyx.vip",
+                "dataKey": "062dec75d039980e",
+                "dataIv": "062dec75d039980e"
             }
         },
         {
@@ -35794,32 +35838,10 @@
             "genre": "shortdrama"
         },
         {
-            "key": "锦鲤短剧",
-            "name": "🍊锦鲤短剧",
-            "type": 3,
-            "api": "csp_JinliDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "genre": "shortdrama"
-        },
-        {
             "key": "星阁短剧",
             "name": "🍊星阁短剧",
             "type": 3,
             "api": "csp_XinggeDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "genre": "shortdrama"
-        },
-        {
-            "key": "碎片短剧",
-            "name": "🗞️碎片短剧",
-            "type": 3,
-            "api": "csp_SuipianDJ",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,

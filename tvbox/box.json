@@ -1433,6 +1433,13 @@
 	],
 	"headers": [
 		{
+			"host": "mgtv.ottiptv.cc",
+			"header": {
+				"User-Agent": "okHttp/Mod-1.5.0.0",
+				"Referer": "https://mgtv.ottiptv.cc/"
+			}
+		},
+		{
 			"host": "hlsztemgsplive.miguvideo.com",
 			"header": {
 				"User-Agent": "bingcha/1.1"

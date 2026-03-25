@@ -643,6 +643,13 @@
             "logo": "https://epg.112114.xyz/logo/{name}.png"
   },
 
+    {
+      "name": "MQiTV",
+      "api": "csp_MQiTV",
+      "jar": "https://10526.kstore.vip/tv.jar",
+      "ext": "https://59.125.210.231:4433"
+    },
+
  {
             "name": "⛲MQiTV🔞",
             "api": "csp_MQiTV",

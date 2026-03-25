@@ -123,61 +123,6 @@
 			"api": "https://php.doube.eu.org/spider/php/麻豆.php"
 		},
 		{
-			"key": "爱瓜TV",
-			"name": "爱瓜TV",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net/aigua1.php"
-		},
-		{
-			"key": "聚合短剧",
-			"name": "聚合短剧",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:6628/?spider=%E8%81%9A%E5%90%88%E7%9F%AD%E5%89%A7"
-		},
-		{
-			"key": "克隆合集",
-			"name": "克隆合集",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net/klhj.php"
-		},
-		{
-			"key": "采集集合",
-			"name": "采集集合+",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net/cj/cjjh.php",
-			"ext": "0"
-		},
-		{
-			"key": "js集合",
-			"name": "js集合",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net/js.php"
-		},
-		{
-			"key": "php集合",
-			"name": "php集合",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net/php.php"
-		},
-		{
-			"key": "python集合",
-			"name": "python集合",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net/py.php"
-		},
-		{
-			"key": "影视文件播放",
-			"name": "影视文件播放",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net/zh/2242.php"
-		},
-		{
-			"key": "清单播放",
-			"name": "清单播放",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net/zh/2243.php"
-		},
-		{
 			"key": "T4-xingzhige",
 			"name": "影视-短剧(T4)",
 			"type": 4,
@@ -414,17 +359,17 @@
 	],
 	"lives": [{
 			"name": "华视央卫",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/hsyw.txt",
+			"url": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/hsyw.txt",
 			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://diyp5.112114.xyz/{name}.png"
 		},
 		{
 			"name": "江苏移动",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/JSCM.m3u"
+			"url": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/JSCM.m3u"
 		},
 		{
 			"name": "Sports",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
+			"url": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
 		},
 		{
 			"name": "港台",
@@ -458,12 +403,12 @@
 		},
 		{
 			"name": "YouTube直播",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtube.m3u"
+			"url": "https://wget.la/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtube.m3u"
 		},
 		{
 			"name": "备用直播一",
 			"type": 0,
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/PizazzGY/TV/refs/heads/master/output/user_result.txt",
+			"url": "https://wget.la/raw.githubusercontent.com/PizazzGY/TV/refs/heads/master/output/user_result.txt",
 			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://diyp5.112114.xyz/{name}.png",
 			"timeout": 10
@@ -471,7 +416,7 @@
 		{
 			"name": "备用直播二",
 			"type": 0,
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/result.txt",
+			"url": "https://wget.la/raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/result.txt",
 			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://diyp5.112114.xyz/{name}.png",
 			"timeout": 10
@@ -483,38 +428,30 @@
 		{
 			"name": "易发+",
 			"type": 0,
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
+			"url": "https://wget.la/raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt",
 			"epg": "https://epg.v1.mk/json?ch={name}&date={date}",
 			"logo": "https://epg.v1.mk/logo/{name}.png",
 			"timeout": 10
 		},
 		{
 			"name": "🔞黄仓国产",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/黄色仓库_国产系列.m3u"
+			"url": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/黄色仓库_国产系列.m3u"
 		},
 		{
 			"name": "🔞黄仓日韩",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/黄色仓库_日韩系列.m3u"
+			"url": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/黄色仓库_日韩系列.m3u"
 		},
 		{
 			"name": "🔞MissAV",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/vod_missav.m3u"
+			"url": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/vod_missav.m3u"
 		},
 		{
 			"name": "🔞madou",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/madou.m3u"
+			"url": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/madou.m3u"
 		},
 		{
 			"name": "🔞8108",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/8108部xxx.m3u"
-		},
-		{
-			"name": "🔞秘密花园",
-			"type": 0,
-			"url": "https://down.nigx.cn/mmhy.zzong6599.workers.dev",
-			"playerType": 1,
-			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-			"logo": "http://diyp5.112114.xyz/{name}.png"
+			"url": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/8108部xxx.m3u"
 		}
 	],
 	"headers": [{

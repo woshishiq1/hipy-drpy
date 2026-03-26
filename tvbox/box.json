@@ -48,13 +48,6 @@
 			"api": "./js/apple.js"
 		},
 		{
-			"key": "tt",
-			"name": "老三",
-			"type": 3,
-			"api": "/js/test/drpy2.min.js",
-			"ext": "/js/test/4k.js"
-		},
-		{
 			"key": "1",
 			"name": "== 1 =="
 		},
@@ -256,60 +249,6 @@
 			"api": "./py/高清电影.py"
 		},
 		{
-			"key": "py_jianpian",
-			"name": "荐片(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/html/新荐片.py",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_光速",
-			"name": "光速(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/光速APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_胖虎",
-			"name": "胖虎(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/胖虎APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_视觉",
-			"name": "视觉(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/视觉APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_哇哇",
-			"name": "哇哇(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/哇哇APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
 			"key": "py_金牌影院",
 			"name": "金牌影院(T3)",
 			"type": 3,
@@ -319,49 +258,6 @@
 			"api": "./py/金牌.py",
 			"order_num": 5,
 			"ext": ""
-		},
-		{
-			"key": "py_皮皮虾",
-			"name": "皮皮虾(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/皮皮虾APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_APPV2",
-			"name": "APPV2(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/APPV2.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_hitv",
-			"name": "hitv(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/hitvAPP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_kzb",
-			"name": "kzd(T3)",
-			"type": 3,
-			"api": "./js/py/aowuplugin/kzb.py",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"changeable": 0
 		},
 		{
 			"key": "py_奇优动漫",
@@ -378,87 +274,10 @@
 			"key": "py_粤漫动漫",
 			"name": "粤漫动漫(T3)",
 			"type": 3,
-			"api": "./js/s/粤漫.py",
+			"api": "./py/粤漫.py",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_三号动漫",
-			"name": "三号动漫(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/三号动漫APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_火车太顺",
-			"name": "火车太顺(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/火车太顺APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_剧多短剧",
-			"name": "剧多短剧(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/剧多短剧APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_红果网页.py",
-			"name": "红果网页(T3)",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "./js/py/plugin/html/红果网页.py",
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_绝对影视",
-			"name": "绝对影视(T3)",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "./js/py/plugin/html/绝对影视.py",
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_嗷呜动漫",
-			"name": "嗷呜动漫(T3)",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "./js/py/plugin/html/嗷呜动漫.py",
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_甜圈短剧",
-			"name": "甜圈短剧(T3)",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "./js/py/plugin/html/甜圈短剧.py",
 			"order_num": 5,
 			"ext": ""
 		},
@@ -477,17 +296,6 @@
 			"name": "爱瓜TV(T3)",
 			"type": 3,
 			"api": "./py/aigua.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "js_youyou",
-			"name": "悠悠视频(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/悠悠APP.py",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -515,27 +323,6 @@
 			"playerType": 2
 		},
 		{
-			"key": "py_猎手",
-			"name": "电影猎手(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/电影猎手.py",
-			"quickSearch": 1,
-			"searchable": 1,
-			"filterable": 0
-		},
-		{
-			"key": "py_美帕",
-			"name": "美帕影视(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/美帕APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"playerType": 2,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
 			"key": "py_嗨皮",
 			"name": "嗨皮影视(T3)",
 			"type": 3,
@@ -554,45 +341,6 @@
 			"playerType": 2
 		},
 		{
-			"key": "py_魔方",
-			"name": "魔方影视(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/魔方影视APP.py",
-			"quickSearch": 1,
-			"filterable": 1,
-			"playerType": 2
-		},
-		{
-			"key": "py_边缘",
-			"name": "边缘影视(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/边缘影视APP.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"playerType": 2,
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_恋鱼",
-			"name": "恋鱼影视(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/恋鱼影视APP.py",
-			"quickSearch": 1,
-			"filterable": 1,
-			"playerType": 2
-		},
-		{
-			"key": "py_若惜",
-			"name": "若惜影视(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/app/若惜追剧APP.py",
-			"quickSearch": 1,
-			"filterable": 1,
-			"playerType": 2
-		},
-		{
 			"key": "py_云速",
 			"name": "云速影视(T3)",
 			"type": 3,
@@ -600,18 +348,6 @@
 			"quickSearch": 1,
 			"filterable": 1,
 			"playerType": 2
-		},
-		{
-			"key": "py_旺旺",
-			"name": "旺旺影视(T3)",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "./js/py/plugin/html/旺旺.py",
-			"playerType": 2,
-			"order_num": 5,
-			"ext": ""
 		},
 		{
 			"key": "py_农牧",
@@ -642,17 +378,6 @@
 			"quickSearch": 1,
 			"searchable": 1,
 			"filterable": 1
-		},
-		{
-			"key": "py_随机小姐姐",
-			"name": "随机小姐姐(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/html/随机小姐姐.py",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"order_num": 5,
-			"ext": ""
 		},
 		{
 			"key": "3.1",

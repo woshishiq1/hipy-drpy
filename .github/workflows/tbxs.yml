@@ -1,129 +1,130 @@
-name: Sync GitHub Repos to Subfolders and unzip to master
+name: Sync GitHub Repos to Subfolders and unzip to master 
 
-on:
-  schedule:
-    - cron: '0 */6 * * *'  # 每6小时运行一次（UTC）
-  workflow_dispatch:
+on: 
+  schedule: 
+    - cron: '0 */6 * * *'
+  workflow_dispatch: 
 
-concurrency:
-  group: sync_job_lock
-  cancel-in-progress: true
+concurrency: 
+  group: sync_job_lock 
+  cancel-in-progress: true 
 
-jobs:
-  sync_and_unzip:
-    runs-on: ubuntu-latest
+jobs: 
+  sync_and_unzip: 
+    runs-on: ubuntu-latest 
 
-    steps:
-      - name: Checkout default branch
-        uses: actions/checkout@v3
+    steps: 
+      - name: Checkout default branch 
+        uses: actions/checkout@v3 
 
-      - name: Set up Git config
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Set up Git config 
+        run: | 
+          git config user.name "github-actions[bot]" 
+          git config user.email "github-actions[bot]@users.noreply.github.com" 
 
-      - name: Reset local repo to remote default branch
-        run: |
-          set -e
-          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
-          echo "Detected default branch: $DEFAULT_BRANCH"
-          git fetch origin $DEFAULT_BRANCH
-          git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH
-          git reset --hard origin/$DEFAULT_BRANCH
-          git clean -fdx
-          echo "✅ Reset 完成"
+      - name: Reset local repo to remote default branch 
+        run: | 
+          set -e 
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
+          echo "Detected default branch: $DEFAULT_BRANCH" 
+          git fetch origin $DEFAULT_BRANCH 
+          git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH 
+          git reset --hard origin/$DEFAULT_BRANCH 
+          git clean -fdx 
+          echo "✅ Reset 完成" 
 
-      - name: Fetch subprojects
-        run: |
-          echo "==== 开始同步 Git 仓库 ===="
+      - name: Fetch subprojects 
+        run: | 
+          echo "==== 开始同步 Git 仓库 ====" 
 
-          declare -A repos=(
-            [dr]="https://github.com/jak0099/dr.git"
-            [tvbox]="https://github.com/cluntop/tvbox.git"
-            [T4]="https://github.com/4TVBox/TVBox.git"
-            [wzxxcz]="https://github.com/wzxxcz/wzxxcz.git"
-            [ljlfct01]="https://github.com/ljlfct01/ljlfct01.github.io.git"
-            [Tomorrow]="https://github.com/tushen6/Tomorrow.git"
-            [aa999ok]="https://github.com/AA999OK/TVBOX.git"
-            [sky4726]="https://github.com/sky4726/sk.git"
-            [ediart]="https://github.com/ediart/tvbox.git"
-            [lemonguo121]="https://github.com/lemonguo121/BoxRes.git"
-            [leexuben]="https://github.com/leexuben/TVBOX-merge.git"
-            [yjl]="https://github.com/YJL20190405/TVBOX.git"
-            [zheng1976]="https://github.com/zheng197600/tvbox.git"
-            [FGBLH]="https://github.com/FGBLH/FG.git"
-            [yihad168]="https://github.com/yihad168/tv.git"
-            [cpu_iy]="https://gitee.com/cpu-iy/iy.git"   # 新增 Gitee 仓库
-          )
+          declare -A repos=( 
+            [dr]="https://github.com/jak0099/dr.git" 
+            [tvbox]="https://github.com/cluntop/tvbox.git" 
+            [T4]="https://github.com/4TVBox/TVBox.git" 
+            [wzxxcz]="https://github.com/wzxxcz/wzxxcz.git" 
+            [ljlfct01]="https://github.com/ljlfct01/ljlfct01.github.io.git" 
+            [Tomorrow]="https://github.com/tushen6/Tomorrow.git" 
+            [aa999ok]="https://github.com/AA999OK/TVBOX.git" 
+            [sky4726]="https://github.com/sky4726/sk.git" 
+            [ediart]="https://github.com/ediart/tvbox.git" 
+            [lemonguo121]="https://github.com/lemonguo121/BoxRes.git" 
+            [leexuben]="https://github.com/leexuben/TVBOX-merge.git" 
+            [yjl]="https://github.com/YJL20190405/TVBOX.git" 
+            [zheng1976]="https://github.com/zheng197600/tvbox.git" 
+            [FGBLH]="https://github.com/FGBLH/FG.git" 
+            [yihad168]="https://github.com/yihad168/tv.git" 
+            [cpu_iy]="https://gitee.com/cpu-iy/iy.git"
+            [reF1nd]="https://github.com/syccccc2333-oss/singbox_config.git"
+          ) 
 
-          for name in "${!repos[@]}"; do
-            echo "→ 同步 $name"
-            rm -rf "$name" temp-"$name"
-            git clone --depth 1 "${repos[$name]}" temp-"$name"
-            mkdir -p "$name"
-            cp -r temp-"$name"/* "$name"/
-            rm -rf temp-"$name"
-          done
+          for name in "${!repos[@]}"; do 
+            echo "→ 同步 $name" 
+            rm -rf "$name" temp-"$name" 
+            git clone --depth 1 "${repos[$name]}" temp-"$name" 
+            mkdir -p "$name" 
+            cp -r temp-"$name"/* "$name"/ 
+            rm -rf temp-"$name" 
+          done 
 
-          echo "==== 同步完成 ===="
+          echo "==== 同步完成 ====" 
 
-          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy \
-            -type f -exec touch {} +
+          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy reF1nd \
+            -type f -exec touch {} + 
 
-      - name: Download and extract NewTVBox
-        run: |
-          echo "==== 开始下载 GitHub 仓库 PizazzGY/NewTVBox ===="
-          mkdir -p gitee-source && rm -rf gitee-source/*
-          curl -L -o github.zip "https://github.com/PizazzGY/NewTVBox/archive/refs/heads/main.zip"
-          if unzip -t github.zip >/dev/null 2>&1; then
-            unzip -q github.zip
-            cp -r NewTVBox-main/* gitee-source/
-            rm -rf NewTVBox-main github.zip
-          else
-            rm -f github.zip
-          fi
+      - name: Download and extract NewTVBox 
+        run: | 
+          echo "==== 开始下载 GitHub 仓库 PizazzGY/NewTVBox ====" 
+          mkdir -p gitee-source && rm -rf gitee-source/* 
+          curl -L -o github.zip "https://github.com/PizazzGY/NewTVBox/archive/refs/heads/main.zip" 
+          if unzip -t github.zip >/dev/null 2>&1; then 
+            unzip -q github.zip 
+            cp -r NewTVBox-main/* gitee-source/ 
+            rm -rf NewTVBox-main github.zip 
+          else 
+            rm -f github.zip 
+          fi 
 
-      - name: Commit and push to default branch
-        run: |
-          git add gitee-source/ dr/ tvbox/ T4/ wzxxcz/ ljlfct01/ Tomorrow/ aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy
-          git commit -m "Sync all subprojects + NewTVBox" || echo "No changes"
-          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
-          git push origin $DEFAULT_BRANCH
+      - name: Commit and push to default branch 
+        run: | 
+          git add . 
+          git commit -m "Sync all subprojects + NewTVBox" || echo "No changes" 
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
+          git push origin $DEFAULT_BRANCH 
 
-      - name: Sync to master branch
-        run: |
-          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')
-          git fetch origin
-          if git show-ref --quiet refs/remotes/origin/master; then
-            git checkout master
-          else
-            git checkout -b master
-          fi
-          git reset --hard origin/$DEFAULT_BRANCH
-          git push origin master || true
+      - name: Sync to master branch 
+        run: | 
+          DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
+          git fetch origin 
+          if git show-ref --quiet refs/remotes/origin/master; then 
+            git checkout master 
+          else 
+            git checkout -b master 
+          fi 
+          git reset --hard origin/$DEFAULT_BRANCH 
+          git push origin master || true 
 
-      - name: Unzip all ZIP files in gitee-source (keep ZIP)
-        run: |
-          cd gitee-source
-          for file in *.zip; do
-            [ -e "$file" ] || continue
-            unzip -o "$file"
-          done
-          cd ..
+      - name: Unzip all ZIP files in gitee-source (keep ZIP) 
+        run: | 
+          cd gitee-source 
+          for file in *.zip; do 
+            [ -e "$file" ] || continue 
+            unzip -o "$file" 
+          done 
+          cd .. 
 
-      - name: Commit and force push 解压内容到 master（保留 zip）
-        run: |
-          git add .
-          git commit -m "重置 master 为最新分支内容并解压 ZIP" || echo "No changes"
-          git push origin master --force
+      - name: Commit and force push 解压内容到 master（保留 zip） 
+        run: | 
+          git add . 
+          git commit -m "重置 master 为最新分支内容并解压 ZIP" || echo "No changes" 
+          git push origin master --force 
 
-  cleanup_runs:
-    runs-on: ubuntu-latest
-    needs: sync_and_unzip
-    steps:
-      - name: Delete old workflow runs
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          retain_days: 3
-          keep_minimum_runs: 10
+  cleanup_runs: 
+    runs-on: ubuntu-latest 
+    needs: sync_and_unzip 
+    steps: 
+      - name: Delete old workflow runs 
+        uses: Mattraks/delete-workflow-runs@v2 
+        with: 
+          token: ${{ secrets.GITHUB_TOKEN }} 
+          retain_days: 3 
+          keep_minimum_runs: 10 

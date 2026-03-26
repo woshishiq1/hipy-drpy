@@ -284,8 +284,12 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
 #EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tbs-news-jp.png",TBS News
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
 
-
+#########################################
 http://protv.fun/get.php?username=4cafe94867&password=48a12d348c&type=m3u_plus
+
+
+
+https://raw.githubusercontent.com/pkj99/demo/refs/heads/main/tv/sourceNavigation.json
 
 #########################################
          台灣數位電視台
@@ -328,6 +332,13 @@ http://74.91.26.218:82/live/pts.m3u8
 http://74.91.26.218:82/live/ptsty.m3u8
 #EXTINF:-1 group-title="台灣",小公視
 http://74.91.26.218:82/live/ptsse.m3u8
+
+
+#EXTINF:-1 group-title="台灣",小公視(PTS+)
+https://livecdn9.ptsplus.tv/pts-youth-B/playlist.m3u8
+#EXTINF:-1 group-title="台灣",小公視(PTS+)
+https://livecdn9.ptsplus.tv/pts-youth-B/3.m3u8
+
 
 #EXTINF:-1 group-title="台灣",TVBS新聞台
 http://74.91.26.218:82/live/tvbsxw.m3u8
@@ -4072,6 +4083,256 @@ http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439267.ts
 
 
 
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="SBO 3: SKY SPORTS BOX OFFICE SD" tvg-logo="http://103.176.90.118/picons/logos/USA/ppv.png" group-title="|UK| PPV EVENTS",SBO 3: SKY SPORTS BOX OFFICE SD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/677309.ts
+#EXTINF:-1 tvg-id="" tvg-name="SBO 4: SKY SPORT BOX OFFICE FHD" tvg-logo="http://103.176.90.118/picons/logos/USA/ppv.png" group-title="|UK| PPV EVENTS",SBO 4: SKY SPORT BOX OFFICE FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/677308.ts
+#EXTINF:-1 tvg-id="" tvg-name="##### [UK] SPORTS UHD #####" tvg-logo="http://51.158.145.100/picons/logos/logos/UK.png" group-title="|UK| SPORTS",##### [UK] SPORTS UHD #####
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/578002.ts
+#EXTINF:-1 tvg-id="TNTSport1.uk" tvg-name="UK - TNT SPORTS 1 UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-1.png" group-title="|UK| SPORTS",UK - TNT SPORTS 1 UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/578001.ts
+#EXTINF:-1 tvg-id="TNTSport2.uk" tvg-name="UK - TNT SPORTS 2 UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-2.png" group-title="|UK| SPORTS",UK - TNT SPORTS 2 UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/578000.ts
+#EXTINF:-1 tvg-id="TNTSport3.uk" tvg-name="UK - TNT SPORTS 3 UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-3.png" group-title="|UK| SPORTS",UK - TNT SPORTS 3 UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577999.ts
+#EXTINF:-1 tvg-id="BTSport4ESPN.uk" tvg-name="UK - TNT SPORTS ESPN UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-ESPN.png" group-title="|UK| SPORTS",UK - TNT SPORTS ESPN UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577998.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SKY SPORTS MAIN EVENTS UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmainevent.png" group-title="|UK| SPORTS",UK - SKY SPORTS MAIN EVENTS UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577997.ts
+#EXTINF:-1 tvg-id="SkySportsPremiereLeague.uk" tvg-name="UK - SKY SPORTS PL UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportspl.png" group-title="|UK| SPORTS",UK - SKY SPORTS PL UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577996.ts
+#EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="UK - SKY SPORTS FOOTBALL UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsfootball.png" group-title="|UK| SPORTS",UK - SKY SPORTS FOOTBALL UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577995.ts
+#EXTINF:-1 tvg-id="SkySportsNews.uk" tvg-name="UK - SKY SPORTS NEWS UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsnews.png" group-title="|UK| SPORTS",UK - SKY SPORTS NEWS UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577994.ts
+#EXTINF:-1 tvg-id="Sky.Sports.NFL.uk" tvg-name="UK - SKY SPORTS NFL UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsnfl.png" group-title="|UK| SPORTS",UK - SKY SPORTS NFL UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577993.ts
+#EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="UK - SKY SPORTS ARENA UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsarena.png" group-title="|UK| SPORTS",UK - SKY SPORTS ARENA UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577992.ts
+#EXTINF:-1 tvg-id="SkySportsCricket.uk" tvg-name="UK - SKY SPORTS CRICKET UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportscricket.png" group-title="|UK| SPORTS",UK - SKY SPORTS CRICKET UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577991.ts
+#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="UK - SKY SPORTS DARTS UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsf1.png" group-title="|UK| SPORTS",UK - SKY SPORTS DARTS UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577990.ts
+#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-name="UK - SKY SPORTS MIX HD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsmix.png" group-title="|UK| SPORTS",UK - SKY SPORTS MIX HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577989.ts
+#EXTINF:-1 tvg-id="SkySportsRacing.uk" tvg-name="UK - SKY SPORTS RACING UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsracing.png" group-title="|UK| SPORTS",UK - SKY SPORTS RACING UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577988.ts
+#EXTINF:-1 tvg-id="SkySportsGolf.uk" tvg-name="UK - SKY SPORTS GOLF UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsgolf.png" group-title="|UK| SPORTS",UK - SKY SPORTS GOLF UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577987.ts
+#EXTINF:-1 tvg-id="Eurosport1.uk" tvg-name="UK - EUROSPORT 1 UHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport1.png" group-title="|UK| SPORTS",UK - EUROSPORT 1 UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577985.ts
+#EXTINF:-1 tvg-id="Eurosport2.uk" tvg-name="UK - EUROSPORT 2 UHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport2.png" group-title="|UK| SPORTS",UK - EUROSPORT 2 UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577984.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - PREMIER SPORT LALIGA TV UHD" tvg-logo="https://logo.protv.cc/piconsnew/premiersport.png" group-title="|UK| SPORTS",UK - PREMIER SPORT LALIGA TV UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577983.ts
+#EXTINF:-1 tvg-id="ViaplaySports1.uk" tvg-name="UK - PREMIER SPORTS 1 UHD" tvg-logo="http://103.176.90.118/picons/logos/POLAND/VIAPLAY.png" group-title="|UK| SPORTS",UK - PREMIER SPORTS 1 UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577982.ts
+#EXTINF:-1 tvg-id="ViaplaySports2.uk" tvg-name="UK - PREMIER SPORT 2 UHD" tvg-logo="http://103.176.90.118/picons/logos/POLAND/VIAPLAY.png" group-title="|UK| SPORTS",UK - PREMIER SPORT 2 UHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577981.ts
+#EXTINF:-1 tvg-id="" tvg-name="##### [UK]  SKY SPORTS FHD #####" tvg-logo="http://51.158.145.100/picons/logos/logos/UK.png" group-title="|UK| SPORTS",##### [UK]  SKY SPORTS FHD #####
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577979.ts
+#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-name="UK - SKY SPORTS MAIN EVENT FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmainevent.png" group-title="|UK| SPORTS",UK - SKY SPORTS MAIN EVENT FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577978.ts
+#EXTINF:-1 tvg-id="SkySportsPremiereLeague.uk" tvg-name="UK - SKY SPORTS PL FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportspl.png" group-title="|UK| SPORTS",UK - SKY SPORTS PL FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577977.ts
+#EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="UK - SKY SPORTS FOOTBALL FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsfootball.png" group-title="|UK| SPORTS",UK - SKY SPORTS FOOTBALL FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577976.ts
+#EXTINF:-1 tvg-id="Sky.Sports.NFL.uk" tvg-name="UK - SKY SPORTS NFL FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsnfl.png" group-title="|UK| SPORTS",UK - SKY SPORTS NFL FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577975.ts
+#EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="UK - SKY SPORTS ARENA FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsarena.png" group-title="|UK| SPORTS",UK - SKY SPORTS ARENA FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577974.ts
+#EXTINF:-1 tvg-id="SkySportsCricket.uk" tvg-name="UK - SKY SPORTS CRICKET FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportscricket.png" group-title="|UK| SPORTS",UK - SKY SPORTS CRICKET FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577973.ts
+#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="UK - SKY SPORTS DARTS FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsf1.png" group-title="|UK| SPORTS",UK - SKY SPORTS DARTS FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577972.ts
+#EXTINF:-1 tvg-id="SkySportsGolf.uk" tvg-name="UK - SKY SPORTS GOLF FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsgolf.png" group-title="|UK| SPORTS",UK - SKY SPORTS GOLF FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577971.ts
+#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-name="UK - SKY SPORTS MIX FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmix.png" group-title="|UK| SPORTS",UK - SKY SPORTS MIX FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577970.ts
+#EXTINF:-1 tvg-id="SkySportsNews.uk" tvg-name="UK - SKY SPORTS NEWS FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsnews.png" group-title="|UK| SPORTS",UK - SKY SPORTS NEWS FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577969.ts
+#EXTINF:-1 tvg-id="SkySportsRacing.uk" tvg-name="UK - SKY SPORTS RACING FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsracing.png" group-title="|UK| SPORTS",UK - SKY SPORTS RACING FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577968.ts
+#EXTINF:-1 tvg-id="TNTSport1.uk" tvg-name="UK - TNT SPORTS 1 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-1.png" group-title="|UK| SPORTS",UK - TNT SPORTS 1 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577967.ts
+#EXTINF:-1 tvg-id="TNTSport2.uk" tvg-name="UK - TNT SPORTS 2 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-2.png" group-title="|UK| SPORTS",UK - TNT SPORTS 2 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577966.ts
+#EXTINF:-1 tvg-id="TNTSport3.uk" tvg-name="UK - TNT SPORTS 3 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-3.png" group-title="|UK| SPORTS",UK - TNT SPORTS 3 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577965.ts
+#EXTINF:-1 tvg-id="BTSport4ESPN.uk" tvg-name="UK - TNT SPORTS ESPN FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-ESPN.png" group-title="|UK| SPORTS",UK - TNT SPORTS ESPN FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577964.ts
+#EXTINF:-1 tvg-id="Eurosport1.uk" tvg-name="UK - EUROSPORT 1 FHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport1.png" group-title="|UK| SPORTS",UK - EUROSPORT 1 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577963.ts
+#EXTINF:-1 tvg-id="Eurosport2.uk" tvg-name="UK - EUROSPORT 2 FHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport2.png" group-title="|UK| SPORTS",UK - EUROSPORT 2 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577962.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - PREMIER SPORT LALIGA TV FHD" tvg-logo="http://103.176.90.118/picons-dino/logos/PREMIER-SPORT-LALIGA-TV.png" group-title="|UK| SPORTS",UK - PREMIER SPORT LALIGA TV FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577961.ts
+#EXTINF:-1 tvg-id="ViaplaySports1.uk" tvg-name="UK - VIAPLAY SPORT 1 FHD" tvg-logo="http://103.176.90.118/picons/logos/POLAND/VIAPLAY.png" group-title="|UK| SPORTS",UK - VIAPLAY SPORT 1 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577960.ts
+#EXTINF:-1 tvg-id="ViaplaySports2.uk" tvg-name="UK - PREMIER SPORTS 2 FHD" tvg-logo="http://103.176.90.118/picons/logos/POLAND/VIAPLAY.png" group-title="|UK| SPORTS",UK - PREMIER SPORTS 2 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577959.ts
+#EXTINF:-1 tvg-id="" tvg-name="##### [UK] SKY SPORTS SD #####" tvg-logo="http://51.158.145.100/picons/logos/logos/UK.png" group-title="|UK| SPORTS",##### [UK] SKY SPORTS SD #####
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577948.ts
+#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-name="UK - SKY SPORTS MAIN EVENT" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmainevent.png" group-title="|UK| SPORTS",UK - SKY SPORTS MAIN EVENT
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577947.ts
+#EXTINF:-1 tvg-id="SkySportsPremiereLeague.uk" tvg-name="UK - SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.protv.cc/piconsnew/skysportspremierleague.png" group-title="|UK| SPORTS",UK - SKY SPORTS PREMIER LEAGUE
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577946.ts
+#EXTINF:-1 tvg-id="Sky.Sports.NFL.uk" tvg-name="UK - SKY SPORTS NFL" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsnfl.png" group-title="|UK| SPORTS",UK - SKY SPORTS NFL
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577945.ts
+#EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="UK - SKY SPORTS ARENA" tvg-logo="https://logo.protv.cc/piconsnew/skysportsarena.png" group-title="|UK| SPORTS",UK - SKY SPORTS ARENA
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577944.ts
+#EXTINF:-1 tvg-id="SkySportsCricket.uk" tvg-name="UK - SKY SPORTS CRICKET" tvg-logo="https://logo.protv.cc/piconsnew/skysportscricket.png" group-title="|UK| SPORTS",UK - SKY SPORTS CRICKET
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577943.ts
+#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="UK - SKY SPORTS DARTS" tvg-logo="https://logo.protv.cc/piconsnew/skysportsf1.png" group-title="|UK| SPORTS",UK - SKY SPORTS DARTS
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577942.ts
+#EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="UK - SKY SPORTS FOOTBALL" tvg-logo="https://logo.protv.cc/piconsnew/skysportsfootball.png" group-title="|UK| SPORTS",UK - SKY SPORTS FOOTBALL
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577941.ts
+#EXTINF:-1 tvg-id="SkySportsGolf.uk" tvg-name="UK - SKY SPORTS GOLF" tvg-logo="https://logo.protv.cc/piconsnew/skysportsgolf.png" group-title="|UK| SPORTS",UK - SKY SPORTS GOLF
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577940.ts
+#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-name="UK - SKY SPORTS MIX" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmix.png" group-title="|UK| SPORTS",UK - SKY SPORTS MIX
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577939.ts
+#EXTINF:-1 tvg-id="SkySportsNews.uk" tvg-name="UK - SKY SPORTS NEWS" tvg-logo="https://logo.protv.cc/piconsnew/skysportsnews.png" group-title="|UK| SPORTS",UK - SKY SPORTS NEWS
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577938.ts
+#EXTINF:-1 tvg-id="SkySportsRacing.uk" tvg-name="UK - SKY SPORTS RACING" tvg-logo="https://logo.protv.cc/piconsnew/skysportsracing.png" group-title="|UK| SPORTS",UK - SKY SPORTS RACING
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577937.ts
+#EXTINF:-1 tvg-id="" tvg-name="##### BEIN SPORTS #####" tvg-logo="http://103.176.90.118/picons/logos/logos/UK.png" group-title="|UK| WORLD SPORTS",##### BEIN SPORTS #####
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828093.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 1 EN FHD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-1FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 1 EN FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828092.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 2 EN FHD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-2FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 2 EN FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828091.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 3 EN FHD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-3FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 3 EN FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828090.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 1 EN HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-1FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 1 EN HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828089.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 2 EN HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-2FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 2 EN HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828088.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 3 EN HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-3HDENG.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 3 EN HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828087.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 1 PREMIUM HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/PREMIUM1HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 1 PREMIUM HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828086.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 2 PREMIUM HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/PREMIUM2HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 2 PREMIUM HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828085.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 3 PREMIUM HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/PREMIUM3HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 3 PREMIUM HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828084.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 1 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sport-1HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 1 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828083.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 2 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sport-2HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 2 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828082.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 3 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sport-3HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 3 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828081.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 4 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-SPORT4.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 4 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828080.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 5 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-SPORT5.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 5 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828079.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 6 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-SPORT6.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 6 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828078.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 7 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-SPORT7.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 7 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828077.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 1 EN SD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-1ENG.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 1 EN SD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828076.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 2 EN SD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-2ENG.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 2 EN SD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828075.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 3 EN SD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-3HDENG.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 3 EN SD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828074.ts
+#EXTINF:-1 tvg-id="" tvg-name="##### BEIN SPORTS ASIA #####" tvg-logo="http://103.176.90.118/picons/logos/logos/UK.png" group-title="|UK| WORLD SPORTS",##### BEIN SPORTS ASIA #####
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828073.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 1 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-1UHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 1 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828072.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 2 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-2UHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 2 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828071.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 3 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-3UHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 3 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828070.ts
+#EXTINF:-1 tvg-id="" tvg-name="##### SUPER SPORTS #####" tvg-logo="http://103.176.90.118/picons/logos/logos/UK.png" group-title="|UK| WORLD SPORTS",##### SUPER SPORTS #####
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828122.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT MAXIMO HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_maximo.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT MAXIMO HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828120.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT ACTION HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_action.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT ACTION HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828119.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPER SPORTS PLAY 1 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_1.png" group-title="|UK| WORLD SPORTS",UK - SUPER SPORTS PLAY 1 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828118.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT PL HD" tvg-logo="http://51.158.145.100/picons/logos/UK/SUPERSPORT-PL.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT PL HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828116.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT LIGA HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_liga.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT LIGA HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828115.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT TENNIS HD" tvg-logo="http://103.176.90.118/picons/logos/UK/supersport_tennis.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT TENNIS HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828114.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT BLITZ HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_blitz.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT BLITZ HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828113.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT PSL HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_psl.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT PSL HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828112.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT GOLF HD" tvg-logo="http://103.176.90.118/picons/logos/SUPERSPORT-GOLF-TV.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT GOLF HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828111.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT GRANDSTAND HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_grandstand.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT GRANDSTAND HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828110.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT MOTORSPORT HD" tvg-logo="http://103.176.90.118/picons/logos/UK/supersport-motorsport.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT MOTORSPORT HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828109.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT FOOTBALL HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_football.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT FOOTBALL HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828108.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT RUGBY HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_rugby.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT RUGBY HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828107.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT CRICKET HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_cricket.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT CRICKET HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828106.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT VARIETY 1 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_variety-1.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT VARIETY 1 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828105.ts
+#EXTINF:-1 tvg-id="SuperSportVariety2.za" tvg-name="UK - SUPERSPORT VARIETY 2 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_variety-2.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT VARIETY 2 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828104.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT VARIETY 3 HD" tvg-logo="http://51.158.145.100/picons/logos/UK/SUPERSPORT-VARIETY-3.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT VARIETY 3 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828103.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT VARIETY 4 HD" tvg-logo="http://51.158.145.100/picons/logos/UK/SUPERSPORT-VARIETY-4.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT VARIETY 4 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828102.ts
+#EXTINF:-1 tvg-id="" tvg-name="##### UK ASTRO SPORTS #####" tvg-logo="http://103.176.90.118/picons/logos/logos/UK.png" group-title="|UK| WORLD SPORTS",##### UK ASTRO SPORTS #####
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828101.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SUPERSPORT 1 4K" tvg-logo="http://51.158.145.100/picons/logos/logos/ASTRO-SUPERSPORTS-1.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SUPERSPORT 1 4K
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828100.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SUPERSPORT 2 4K" tvg-logo="http://51.158.145.100/picons/logos/logos/ASTRO-SUPERSPORTS-2.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SUPERSPORT 2 4K
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828099.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 1 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 1 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828098.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 2 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 2 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828097.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 3 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 3 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828096.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 4 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 4 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828095.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 5 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 5 HD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/828094.ts
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 1" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS1.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 1
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827940.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 2" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS2.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 2
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827939.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 3" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS3.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 3
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827938.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 4" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS4.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 4
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827937.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 5" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS5.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 5
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827936.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 6" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS6.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 6
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827935.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 7" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-NOW-SPORTS.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 7
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827934.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 8" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-NOW-SPORTS.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 8
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827933.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 1" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS1.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 1
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827932.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 2" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS2.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 2
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827931.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 3" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS3.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 3
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827930.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 4" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS4.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 4
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827929.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 5" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS5.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 5
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827928.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 6" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS6.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 6
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827927.ts
+#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 7" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS7.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 7
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/827926.ts
+
+
 
 
 #########################################
@@ -7449,8 +7710,134 @@ http://line.hello-ott.xyz/jCp4YyMfXc/nowo2O4ogJ/1451484
 http://line.hello-ott.xyz/jCp4YyMfXc/nowo2O4ogJ/1451485
 
 
+#EXTINF:-1 group-title="私密頻道 ADULT",Playboy LA[1920x1080]
+http://proxy.nr3.xyz:80/max289/991374465/27483
+#EXTINF:-1 group-title="私密頻道 ADULT",Playboy LA[1920x1080]
+http://proxy.nr3.xyz:80/max289/991374465/27482
+#EXTINF:-1 group-title="私密頻道 ADULT",Playboy LA[1920x1080]
+http://91.218.50.136:8080/Rose35torres/iB7101/1877
+
+
+#EXTINF:-1 group-title="私密頻道 ADULT",Venus[1920x1080]
+http://proxy.nr3.xyz:80/max289/991374465/55
+#EXTINF:-1 group-title="私密頻道 ADULT",Venus[1280x720]
+http://proxy.nr3.xyz:80/max289/991374465/10
+#EXTINF:-1 group-title="私密頻道 ADULT",Venus[1280x720]
+http://proxy.nr3.xyz:80/max289/991374465/9
+#EXTINF:-1 group-title="私密頻道 ADULT",Sexy Hot
+http://sinalmycn.com:80/632035/GqGcFV4ntu/40003
+
+
+
+#EXTINF:-1 group-title="私密頻道 ADULT",Brazzers TV Europe
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629180
+#EXTINF:-1 group-title="私密頻道 ADULT",Brazzers TV Europe
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629261
+#EXTINF:-1 group-title="私密頻道 ADULT",Brazzers TV Europe
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629268
+#EXTINF:-1 group-title="私密頻道 ADULT",Brazzers TV Europe
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629160
+#EXTINF:-1 group-title="私密頻道 ADULT",Brazzers TV Europe
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629250
+#EXTINF:-1 group-title="私密頻道 ADULT",Blue Hustler[1920x1080]
+http://91.218.50.136:8080/Rose35torres/iB7101/2588
+#EXTINF:-1 group-title="私密頻道 ADULT",Hustler HD[1920x1080]
+http://protzpwcf1.top:8080/pro3831767104449/252df4faac14/608
+#EXTINF:-1 group-title="私密頻道 ADULT",Private TV[1920x1080]
+http://tv.zapping.life:8080/eEiiLll09384Ecaiman34RtR/KTap2pdJx7/164546
+#EXTINF:-1 group-title="私密頻道 ADULT",Private TV[1024x576]
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629253
+#EXTINF:-1 group-title="私密頻道 ADULT",Private TV[1024x576]
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629244
+#EXTINF:-1 group-title="私密頻道 ADULT",Private TV[1024x576]
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629139
+#EXTINF:-1 group-title="私密頻道 ADULT",Vivid Red[1920x1080]
+http://91.218.50.136:8080/Rose35torres/iB7101/2590
+#EXTINF:-1 group-title="私密頻道 ADULT",Vivid Red[1280x720]
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629232
+#EXTINF:-1 group-title="私密頻道 ADULT",Vivid Red[1280x720]
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/761153
+#EXTINF:-1 group-title="私密頻道 ADULT",EroLuxe Shemale[1920x1080]
+http://91.218.50.136:8080/Rose35torres/iB7101/2596
+#EXTINF:-1 group-title="私密頻道 ADULT",Babes TV[1280x720]
+http://2k.tstvs.com:80/691eba43db76f/d07ee0f057/629161
+#EXTINF:-1 group-title="私密頻道 ADULT",Babes TV[1280x720]
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74204
+
+
+
+
 
 #########################################
+
+
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="18+  Porn Mix 1" tvg-logo="" group-title="For Adults 18 +",18+  Porn Mix 1
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9736
+#EXTINF:-1 tvg-id="" tvg-name="18+  Porn Mix 2" tvg-logo="" group-title="For Adults 18 +",18+  Porn Mix 2
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9735
+#EXTINF:-1 tvg-id="" tvg-name="18+  Porn Mix 3" tvg-logo="" group-title="For Adults 18 +",18+  Porn Mix 3
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9734
+#EXTINF:-1 tvg-id="" tvg-name="18+  Porn Mix 4" tvg-logo="" group-title="For Adults 18 +",18+  Porn Mix 4
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9733
+#EXTINF:-1 tvg-id="" tvg-name="18+  Porn Mix 5" tvg-logo="" group-title="For Adults 18 +",18+  Porn Mix 5
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9732
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 6" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 6
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9655
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 7" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 7
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9746
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 8" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 8
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/10019
+#EXTINF:-1 tvg-id="" tvg-name="18+  Porn Mix 9" tvg-logo="" group-title="For Adults 18 +",18+  Porn Mix 9
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9644
+#EXTINF:-1 tvg-id="" tvg-name="18+  Porn Mix 10" tvg-logo="" group-title="For Adults 18 +",18+  Porn Mix 10
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9643
+#EXTINF:-1 tvg-id="" tvg-name="+18 Porn Mix 11" tvg-logo="" group-title="For Adults 18 +",+18 Porn Mix 11
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9642
+#EXTINF:-1 tvg-id="" tvg-name="18+  Porn Mix 12" tvg-logo="" group-title="For Adults 18 +",18+  Porn Mix 12
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9641
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 13" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 13
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9640
+#EXTINF:-1 tvg-id="" tvg-name="+18  Porn Mix 14" tvg-logo="" group-title="For Adults 18 +",+18  Porn Mix 14
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9639
+#EXTINF:-1 tvg-id="" tvg-name="+18  Porn Mix 15" tvg-logo="" group-title="For Adults 18 +",+18  Porn Mix 15
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9638
+#EXTINF:-1 tvg-id="" tvg-name="18+  Premium 1 HD" tvg-logo="" group-title="For Adults 18 +",18+  Premium 1 HD
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9647
+#EXTINF:-1 tvg-id="" tvg-name="18+  Premium 2 HD" tvg-logo="" group-title="For Adults 18 +",18+  Premium 2 HD
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9648
+#EXTINF:-1 tvg-id="" tvg-name="18+ Premium 3 HD" tvg-logo="" group-title="For Adults 18 +",18+ Premium 3 HD
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9649
+#EXTINF:-1 tvg-id="" tvg-name="18+ Premium 4 HD" tvg-logo="" group-title="For Adults 18 +",18+ Premium 4 HD
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9650
+#EXTINF:-1 tvg-id="" tvg-name="18+  Premium 5 HD" tvg-logo="" group-title="For Adults 18 +",18+  Premium 5 HD
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9651
+#EXTINF:-1 tvg-id="" tvg-name="18+  Premium 6 HD" tvg-logo="" group-title="For Adults 18 +",18+  Premium 6 HD
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9652
+#EXTINF:-1 tvg-id="" tvg-name="18+  Premium 7 HD" tvg-logo="" group-title="For Adults 18 +",18+  Premium 7 HD
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9653
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 17" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 17
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9738
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 16" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 16
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9740
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 18" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 18
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9739
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 23" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 23
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9741
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 19" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 19
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9742
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 20" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 20
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9743
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 21" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 21
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9744
+#EXTINF:-1 tvg-id="" tvg-name="18+ Porn Mix 22" tvg-logo="" group-title="For Adults 18 +",18+ Porn Mix 22
+http://89.248.173.158:8080/Crach_Iptv/Hekxbjelsofjur628264772new/9745
+
+
+
+
+#########################################
+
 
 
 
@@ -16329,6 +16716,664 @@ https://thm3u8.com/20250728/NCwuLqfw/index.m3u8
 https://jpxm3u8.com/20250729/Dx8lucb9/index.m3u8
 
 
+#########################################
+
+
+
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..艾熙.蘇暢.艾悠.少婦白潔.第六章.綠帽風雲.誰是誰的妻
+https://t0.97img.com/a1002054/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫澀點點..周甯.寂寞翹人妻背著老公偷吃
+https://t0.97img.com/a1001843/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫澀點點...情欲女教師輔導壞學生
+https://t0.97img.com/a1001844/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒三隻狼..被審問的女特工接受全面檢查
+https://t0.97img.com/a1001196/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫澀點點..蘇暢.霸道女上司強取榨精
+https://t0.97img.com/a1001841/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫澀點點...性感女囚犯被玩壞
+https://t0.97img.com/a1001842/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫澀點點...女上司男女全都吃
+https://t0.97img.com/a1001840/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..弟弟的女友與色欲熏心的家人
+https://t0.97img.com/a1001812/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..家庭教師與色欲熏心的家人
+https://t0.97img.com/a1001778/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..觀戰性愛課
+https://t0.97img.com/a1001742/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..媽媽的職業
+https://t0.97img.com/a1000741/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..狐不妖.主播求工作反遭老闆潛規則.性感騷貨跪地承歡
+https://t0.97img.com/a1000900/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..曼曼.網紅騷貨金手指插入.第一深情童老師的潛規則
+https://t0.97img.com/a1000899/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒三隻狼..高考落榜去大哥家住被嫂子勾引
+https://t0.97img.com/a1000895/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..羅娜.李微微.淫亂表姐妹共用肉棒.塞爆濕屄淫水亂噴
+https://t0.97img.com/a1000881/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..直搗少婦深處的愉虐遊戲
+https://t0.97img.com/a1000875/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..甜甜.清純女高中生成年即出道.變態攝影師操壞學生逼
+https://t0.97img.com/a1000870/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..張芸熙.沈娜娜.露露.蛇年新春性愛會館下.反復催眠姦淫不停.旗袍大亂交
+https://t0.97img.com/a1000948/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..夏晴子.李蓉蓉.艾熙.蘇櫻花.吳夢夢.孟若羽.優娜.蕾•利爾•布萊克.鮑魚遊戲.第一集.黑人公分巨屌.瘋狂抽插
+https://t0.97img.com/a1000939/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒.無套系列..蘇暢.吳夢夢.援交記錄.兩女一男榨幹精液
+https://t0.97img.com/a1000935/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..糖糖.亂倫父女求爸爸愛撫.黑絲小蘿莉被乾爹爆操
+https://t0.97img.com/a1000967/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..夏晴子.管明美.韓寶兒.三個姐姐逼我破處.四人群亂倫
+https://t0.97img.com/a1000859/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..艾鯉.雯雯.肉棒懲處婊子姐妹花.美人局復仇記
+https://t0.97img.com/a1000854/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..女職員為求上位忍辱做愛
+https://t0.97img.com/a1000848/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..饑渴女上司強取下屬精液
+https://t0.97img.com/a1000842/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒三隻狼..元旦跨年夜被暗戀已久的女同學酒後打炮
+https://t0.97img.com/a1000835/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫三隻狼..遊戲陪玩肉體技能.蘿莉女僕角色陪練粉嬾蜜穴被肉棒狂插到底
+https://t0.97img.com/a1000804/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..蘇暢.李蓉蓉.新婚妻子與菜老闆下.變態夫妻換伴亂交
+https://t0.97img.com/a1000793/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..小雨.傲慢女王被男僕強上.傲蠻大小姐被操到白漿直流
+https://t0.97img.com/a1000794/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..艾米.黑絲騷貨被癡漢尾隨.上門服務爽到淫語不斷
+https://t0.97img.com/a1000795/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫...人妻老師下海求滿足.黑絲小騷貨被男同事操爽
+https://t0.97img.com/a1000788/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..糖糖.巨乳蘿莉勾引好表哥.亂倫表妹提起長腿狠狠插入
+https://t0.97img.com/a1000777/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..西西.寂寞嫂子勾引好兄弟.各種姿勢把小浪蹄子操爽
+https://t0.97img.com/a1000768/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..艾鯉.優娜.雯雯.聖誕特輯.那一夜的交換禮物.派對群交荒淫聖誕
+https://t0.97img.com/a1000755/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..優娜.黎芷萱.肉棒教訓繼母與阿姨.反被兩女調教榨幹精液
+https://t0.97img.com/a1000911/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒.無套系列..吳夢夢.計程車瘋狂性愛.刺激車震搖晃
+https://t0.97img.com/a1000909/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..蘇暢.新婚妻子與菜老闆.菜攤廁所姦淫嬌妻
+https://t0.97img.com/a1000722/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..孟若羽.巨乳淫妻嫌棄早洩男.白虎騷穴被大雞巴塞滿
+https://t0.97img.com/a1000731/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..沈清棠.癡呆兒子的桃花運.傻兒子操了大胸美少女
+https://t0.97img.com/a1000715/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒..露露.亂倫淫娃勾引富姐夫.撈女式被姐夫狠狠蹂躪
+https://t0.97img.com/a1000717/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒..媛媛.亂倫兒媳被公公借種.未亡人粉嫩小穴被老頭很操
+https://t0.97img.com/a1000706/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒..甜甜.嬌嫩淫娃被贅婿報復.制服誘惑被老公狠狠灌滿
+https://t0.97img.com/a1000704/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒..諾諾.饑渴少婦勾引窮醫生.操得小騷貨高潮迭起
+https://t0.97img.com/a1000682/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒..沐沐.玩弄清純拜金女上司.射滿騷貨淫水直流的小穴
+https://t0.97img.com/a1000681/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒..梁芸菲.輪奸高傲性感女優.前後夾擊操爽小騷貨
+https://t0.97img.com/a1000680/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒..愛愛.亂倫清純畢業學生妹.巨根哥哥猛操妹妹騷穴
+https://t0.97img.com/a1000664/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..蜜蘇.宋雨川.代夫向父獻逼借款.狼父利誘蹂躪嬌妻
+https://t0.97img.com/a1000659/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..夏晴子.女體噴泉潮吹女王
+https://t0.97img.com/a1000652/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..甜心.清純閨蜜被渣男強上.報復性狠操黑絲小淫娃
+https://t0.97img.com/a1000756/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..優娜.性感老闆娘勾引汁男.尾隨強上淫娃爽到表情銷魂
+https://t0.97img.com/a1000751/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..李微微.補習班情緣.稚嫩肉體的誘惑
+https://t0.97img.com/a1000688/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒..涵涵.性感女神為金錢獻身.舔狗逆襲無套狠操夢中情人
+https://t0.97img.com/a1000692/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒.無套系列..吳夢夢.便利店偷竊.巨乳人妻被抓到
+https://t0.97img.com/a1000685/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒..兜兜.女王調教欠債窮髮小.報復村霸瘋狂榨精
+https://t0.97img.com/a1000684/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..魏喬安.台大學霸女優
+https://t0.97img.com/a1000679/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..小茉.為綠帽奴出軌的美人妻.無奈體驗的騷逼
+https://t0.97img.com/a1000604/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..愛玩熊.美女鄰居的特殊要求.內射敏感白虎反差女
+https://t0.97img.com/a1000598/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫三隻狼..溫柔嫵媚妖嬈奶美容師.用她的紅唇給我舔小穴幫我服務
+https://t0.97img.com/a1000594/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..周寧.完成男友的追星夢.情欲遊戲一試上淫
+https://t0.97img.com/a1000590/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..李蓉蓉.艾悠.淫蕩女兒拜別父母.洞房前夕禁斷換妻
+https://t0.97img.com/a1000632/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬.吳夢夢.性愛巡遊的旅行者
+https://t0.97img.com/a1000625/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫三隻狼..清純甜美的學生妹穿上服立馬變騷.水嫩嫩的小穴享受著被填滿的感覺
+https://t0.97img.com/a1000615/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..艾鯉.宅男暈船外送茶.戀上地雷系外送女
+https://t0.97img.com/a1000583/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..草蘿.美足姐姐的背德誘惑.手口足並用強迫內射
+https://t0.97img.com/a1000578/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..優娜.送妻子的生日禮物.情欲遊戲一試上淫
+https://t0.97img.com/a1000577/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..李蔓蔓.魔鬼身材的直播主
+https://t0.97img.com/a1000576/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫三隻狼..在機場迷路遇到了熱心的空姐幫忙帶路.但沒想到空姐竟是淫賤騷貨
+https://t0.97img.com/a1000570/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..李蓉蓉.為夫色誘討債大哥.情欲遊戲一試上淫
+https://t0.97img.com/a1000558/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫三隻狼..若兮.家族的詛咒.獻身大女兒給爹爹解咒
+https://t0.97img.com/a1000449/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..宋雨川.性學兼優的大學生
+https://t0.97img.com/a1000534/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..夏晴子.霏霏.失德教師為金吞精.課後福利淫才教育
+https://t0.97img.com/a1000529/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..密蘇.地下精液兌換錢莊.情欲遊戲一試上淫
+https://t0.97img.com/a1000522/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒絕對領域..吳雙.初探醉酒哥哥的肉棒.好色妹妹趁哥哥醉酒玩弄肉棒
+https://t0.97img.com/a1000520/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..雯雯.我的房東是個萌妹子.處女催租肉體繳付
+https://t0.97img.com/a1000510/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..玥可嵐.探詢真理神秘女子
+https://t0.97img.com/a1000511/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..鐘宛冰.未亡人在靈堂偷情.遺照前被猛幹騷逼
+https://t0.97img.com/a1000557/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..皮皮.盧總直播間狂操沫沫.三隻羊沫沫黑料浮出
+https://t0.97img.com/a1000548/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..優娜.極度配合體操教練
+https://t0.97img.com/a1000425/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..反差少女香舌誘人.人形母狗長腿蠻腰
+https://t0.97img.com/a1000357/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..黑男Ｘ次絕頂高潮初體驗.冷感女優性欲開發.中英字幕
+https://t0.97img.com/a1000348/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..長腿禦姐蝴蝶美穴.蠻腰美臀銷魂後入
+https://t0.97img.com/a1000378/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..愛麗絲.癡漢玩弄女學生.沉溺性侵愛液狂滴.中英字幕
+https://t0.97img.com/a1000375/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..白衣少婦氣質極佳.長腿美臀秀色可餐
+https://t0.97img.com/a1000370/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..身邊的歐巴們
+https://t0.97img.com/a1000364/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫三隻狼..可哥.白絲軟萌妹.被老師無套洗禮
+https://t0.97img.com/a1000293/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..粉嫩學妹奶挺腿長.花穴精緻嬌羞求饒
+https://t0.97img.com/a1000290/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..管明美.溫芮欣.七夕物語.青春時代的巨根陰影
+https://t0.97img.com/a1000285/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..李蓉蓉.七夕物語.老婆愛上巨屌黑人同事
+https://t0.97img.com/a1000271/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..長腿嫩妹眉眼迷離.反差母狗滿面潮紅
+https://t0.97img.com/a1000407/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..巨乳禦姐色氣返場.水乳交融舌吻
+https://t0.97img.com/a1000395/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..蜜蘇.宋南伊.孟若羽.三姑六奶淫中秋.家庭內後宮爭寵
+https://t0.97img.com/a1000391/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..美腿少女嬌羞嫵媚.欲拒還迎腰臀亂顫
+https://t0.97img.com/a1000388/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..百依百順的女人
+https://t0.97img.com/a1000381/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..窈窕學妹反差母狗.纖腰美臀欲仙欲死
+https://t0.97img.com/a1000336/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..好太太.妻子體驗現場
+https://t0.97img.com/a1000341/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫.蘇暢.操爆騷話女僕.每天都是情人節
+https://t0.97img.com/a1000329/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒絕對領域..王笑笑.我的妻子是人體模特.無法忍受裸露酮體的誘惑
+https://t0.97img.com/a1000326/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..奶母狗騷氣四溢.饅頭騷逼淫水橫流
+https://t0.97img.com/a1000327/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬...席捲全美日裔女神
+https://t0.97img.com/a1000238/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..言欣恬.在天橋上的享樂者
+https://t0.97img.com/a1000237/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..梁若軒.美系惹火的小惡魔
+https://t0.97img.com/a1000236/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..溫芮欣.最清純小隻馬蘿莉
+https://t0.97img.com/a1000235/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..艾熙.專吃學生的補教淫師
+https://t0.97img.com/a1000234/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..旋轉口爆漫遊毒龍抖週邊完美服務
+https://t0.97img.com/a1000225/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..艾熙.性犯罪者牢房.強制淩辱歐洲杯女球迷
+https://t0.97img.com/a1000200/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..被舌頭玩暈的鄰家女
+https://t0.97img.com/a1000220/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫三隻狼..娜娜.麻將輸慘.淪為金主的胯下玩物
+https://t0.97img.com/a1000276/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..長腿天菜嬌嫩白皙.神似宋軼眉眼嬌媚
+https://t0.97img.com/a1000269/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫.蘇暢.強制操翻黑絲女上司.抽插騷逼香汗淋漓
+https://t0.97img.com/a1000255/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..艾鯉.用肉棒教訓騷媳婦.訊愛小叔慘遭抓包
+https://t0.97img.com/a1000252/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..長腿禦姐嫵媚誘人男歡女愛盪氣迴腸
+https://t0.97img.com/a1000253/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..頂配技師巨乳漫遊.直搞黃龍辣手摧花
+https://t0.97img.com/a1000258/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆映畫傳媒渡邊傳媒..女孩的仕女按摩中出體驗
+https://t0.97img.com/a1000249/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..狐不妖.黑絲教師的內射指導巨乳美臀的戀足誘惑
+https://t0.97img.com/a1000267/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..泳池邊的刺激性愛
+https://t0.97img.com/a1000265/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫.夏晴子.孟若羽.淫亂青春印象上集.情欲陷阱.強制換伴
+https://t0.97img.com/a1000244/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..白皙巨乳禦姐風情.美腿細腰眉眼含春
+https://t0.97img.com/a1000247/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..深夜節目之成人演員的國王遊戲
+https://t0.97img.com/a1000251/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻麻傳媒...長腿腰學生妹.淫亂複健絕頂深喉
+https://t0.97img.com/a1000233/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..美乳腿模穴緊逼騷.精緻馬尾極品炮架
+https://t0.97img.com/a1000243/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫.蘇櫻花.淫亂青春印象上集.醉夜難逃.暗欲侵擾
+https://t0.97img.com/a1000224/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..優娜.國家代表模擬屌.一濕足成千屌含
+https://t0.97img.com/a1000318/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..淫亂住宅成為奴隸的妻子
+https://t0.97img.com/a1000321/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫三隻狼..安安.採訪我的女閨蜜
+https://t0.97img.com/a1000315/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..顏值女神完美炮架.溫潤濕滑人間尤物
+https://t0.97img.com/a1000312/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫.夏晴子.家族的秘密.多人淫亂祖傳儀式
+https://t0.97img.com/a1000306/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..瑜伽老師嫵媚悶騷.溫婉可人前凸後翹
+https://t0.97img.com/a1000303/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..我的理想型姐姐
+https://t0.97img.com/a1000298/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..艾熙.純情男酒吧遇海後.一濕足成千屌含
+https://t0.97img.com/a1000294/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..混血禦姐蜜桃韻味.浪蕩逼人吟春不止
+https://t0.97img.com/a1000203/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..顏值學妹青春洋溢.媚骨天成嬌嫩緊致
+https://t0.97img.com/a1000222/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..施子涵.色氣十足的除毛師
+https://t0.97img.com/a1000215/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..蜜蘇.性感暗黑國民學姊
+https://t0.97img.com/a1000214/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..艾鯉.麻豆活潑可愛擔當
+https://t0.97img.com/a1000213/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..玖玥歆.愛吃棒棒的口嬌娃
+https://t0.97img.com/a1000212/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..蘇暢.性感可愛首席女神
+https://t0.97img.com/a1000211/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..孟若羽.最甜暗黑性愛教主
+https://t0.97img.com/a1000210/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..韓棠.日系短發軟萌妹子
+https://t0.97img.com/a1000209/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..林嫣.無口屬性強欲學妹
+https://t0.97img.com/a1000208/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..宋南伊.高冷甜美傻氣大姐
+https://t0.97img.com/a1000207/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..周甯.性感美足調教女王
+https://t0.97img.com/a1000206/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..姚婉兒.性愛頭腦天然女孩
+https://t0.97img.com/a1000205/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫這個面試有點硬..李蓉蓉.麻豆最強人妻擔當
+https://t0.97img.com/a1000204/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..藝校學妹媚眼含春.悶騷母狗如饑似渴
+https://t0.97img.com/a1000196/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..感受注視快感的中年情侶
+https://t0.97img.com/a1000192/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..米菲.公廁強上肥臀欲女.助力歐洲杯.麻豆伴您看球
+https://t0.97img.com/a1000190/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫麻豆探花..長腿嫩模極品炮架.腰細逼緊極樂銷魂
+https://t0.97img.com/a1000185/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫.強上欠網貸清純少女.不聽話就綁起來羞辱.屁眼真好看
+https://t0.97img.com/a1000199/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫.高端男士推油.極品美乳技師摸著奶子射了好多
+https://t0.97img.com/a1000198/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫.頂流女神阿朱超大尺度精選合集.得此尤物夫複何求
+https://t0.97img.com/a1000193/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",麻豆傳媒映畫..優娜.夏日泳裝粉絲感謝祭.巨乳的比基尼誘惑
+https://t0.97img.com/a1000182/a.m3u8
+
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..朵朵.約炮蘿莉嬌嫩學生妹.後入操爽小騷貨淫穴朵朵
+https://t0.97img.com/a1000432/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..斑斑.約炮黑絲保險銷售員.無套操翻白虎小騷穴
+https://t0.97img.com/a1000428/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..佳佳.約炮水嫩傲嬌女主播.各種姿勢顏射小騷貨
+https://t0.97img.com/a1000417/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..皮皮.約炮性感禦姐小淫娃.操得小賤貨穴外翻
+https://t0.97img.com/a1000392/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..依依.約炮風騷古風.性感小青的極致體驗
+https://t0.97img.com/a1000331/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..珊珊.約炮清純鄰家小蘿莉.瘋狂抽插嬌嫩小騷穴
+https://t0.97img.com/a1000330/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女優..斑斑.寒冷冬日浪貨學妹給我送溫暖
+https://t0.97img.com/a1001174/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..靈溪.約炮性感高冷小少婦.乳膠內射干翻小騷貨
+https://t0.97img.com/a1000322/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..奶瑤.約炮性癮風騷小母狗.調教幹翻小淫娃
+https://t0.97img.com/a1000325/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..念念.約炮清純性感小少婦.操爽美女淫水狂噴
+https://t0.97img.com/a1000314/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..瑩瑩.約炮性感黑絲兔女郎.用肉棒報復美女客戶
+https://t0.97img.com/a1000299/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..諾諾.約炮製服風騷綠茶婊.操得粉穴淫水直流
+https://t0.97img.com/a1000287/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..蜜桃.約炮黑絲性感小騷貨.勾引不成上門服務
+https://t0.97img.com/a1000286/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..梁芸菲.美乳禁忌女房東深夜禁忌交易
+https://t0.97img.com/a1002046/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..學霸戀情惡男老師.用身體堵住他的嘴.艾熙
+https://t0.97img.com/a1002022/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..孟若羽.變態捷運猥褻硬上無人捷運車廂
+https://t0.97img.com/a1002003/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..楚茵.美乳淫靡咖啡廳老闆淫靡誘惑
+https://t0.97img.com/a1002002/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..優娜.欲望檯球室性感女助教騷穴一杆進洞
+https://t0.97img.com/a1001959/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..面試色狼主管逼迫.美女新人的墮落抉擇
+https://t0.97img.com/a1001998/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..梁冪.巨乳人妻出軌老公戴綠帽報復
+https://t0.97img.com/a1001985/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..恩恩.吳剛強上人妻嫦娥.有夫之婦又如何
+https://t0.97img.com/a1001977/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..櫻櫻.早洩男約啪性癮女醫生
+https://t0.97img.com/a1001911/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..優娜.約炮風騷足球寶貝.幹翻性感小野貓
+https://t0.97img.com/a1000137/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..優娜.媚藥強上足球寶貝.性感騷貨主動求操
+https://t0.97img.com/a1000138/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..香香.足球寶貝上門取精.操得粉穴白漿直流
+https://t0.97img.com/a1000116/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..香香.足球寶貝上門服務.無套內射小騷逼
+https://t0.97img.com/a1000115/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..斑斑.巨乳貂蟬被將軍下藥.秒變淫娃被無套抽插
+https://t0.97img.com/a1000806/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..鶯鶯.嬌嫩千金報答俊秀才.蘿莉以身相許被灌滿小穴
+https://t0.97img.com/a1000735/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..露露.大奉打更人最美花神.許銀鑼強上慕南梔解情欲蠱毒
+https://t0.97img.com/a1000725/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..西西.江南深情被撈女誣陷.金手指報復強姦小網紅
+https://t0.97img.com/a1000701/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..優娜.絕美祝英台被強上.性感騷貨被馬文才各種玩弄
+https://t0.97img.com/a1000700/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..雨蘇.巨乳騷貨直播間暴雷.各體位被師傅操的淫叫不止
+https://t0.97img.com/a1000647/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..葉子.約炮性感老闆小情婦.幻想成真操哭小賤貨
+https://t0.97img.com/a1000459/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..可哥.約炮黑絲風騷女學員.各種體位操爽小淫娃
+https://t0.97img.com/a1000458/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..薇薇.約炮製服性感女交警.報復性狠操禦姐騷貨
+https://t0.97img.com/a1000446/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..愛米.約炮蘿莉制服大學生.少女被狠操口爆吞精愛米
+https://t0.97img.com/a1000441/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..梁冪.偷拍鄰居上網約炮爆操她的騷穴
+https://t0.97img.com/a1001892/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..純純.悶騷學生私下約炮被淫師逮到
+https://t0.97img.com/a1001893/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..比.做夢想操的校花讓我約炮約到了
+https://t0.97img.com/a1001891/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..芷媗.約啪兄弟的相親女友
+https://t0.97img.com/a1001860/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..楚茵.絕望約炮火辣女房東.約炮約到女房東
+https://t0.97img.com/a1001861/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..斑斑.魯蛇圓大奶校花打生日炮
+https://t0.97img.com/a1001862/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..約啪房東的騷貨女兒
+https://t0.97img.com/a1001863/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..艾熙.搭訕失敗的火辣美女是個淫蕩騷貨
+https://t0.97img.com/a1001864/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..萌萌.強上清純足球寶貝.肉棒安慰可愛小姨
+https://t0.97img.com/a1000162/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..蓉蓉.足球寶貝饑渴難耐.無套操爽風騷小媽
+https://t0.97img.com/a1000154/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..珠珠.足球寶貝為錢亂倫.風騷小姨勾引外甥
+https://t0.97img.com/a1000153/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..沐沐.足球寶貝肉體報恩禦姐騷貨浪叫不止
+https://t0.97img.com/a1000150/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..諾諾.我的足球寶貝騷鄰居.抵擋不住的魅惑
+https://t0.97img.com/a1000148/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..甜甜.媚藥迷奸足球寶貝.幹翻反差嫩穴同事
+https://t0.97img.com/a1000146/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",內涵甜蜜女友..孟若羽.媚藥調教足球寶貝.顏射奶小騷貨
+https://t0.97img.com/a1000129/a.m3u8
+
+
+
+#EXTINF:-1 group-title="國產新片 ADULT",愛神傳媒..思樂.滴滴車司機強姦殺人事件.真實事件改編
+https://t0.97img.com/a1000689/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",愛神傳媒..思樂.我與好哥們調教大奶媽媽.強姦亂倫捆邦喝聖水
+https://t0.97img.com/a1000660/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",蜜桃影像傳媒..吳文淇.情欲女教練濕身泄欲.騷穴的淫蕩伸展運動
+https://t0.97img.com/a1000569/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",醫生上門幫病人全自動榨精
+https://t0.97img.com/a1001986/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",小姨子和男友吵架，酒後微醺偷情
+https://t0.97img.com/a1001993/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",韓國年氣質三星集團副總經理女兒金慧雅.假日酒店偷情被男模爆操次內射
+https://t0.97img.com/a1002007/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",極品黑絲包臀裙妹妹.長腿翹臀讓你想入非非
+https://t0.97img.com/a1001779/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",大奶美少婦火辣身材連教練也把持不住噴奶乳交激爽
+https://t0.97img.com/a1001688/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",媳婦出差牛奶裡下藥亂倫親閨女
+https://t0.97img.com/a1001856/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",亂倫我的極品妹妹.妹妹為了拿錢買衣服色誘親哥
+https://t0.97img.com/a1001963/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",超嫩的歲可愛蘿莉
+https://t0.97img.com/a1001968/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",網吧勾引小哥廁所玩弄口爆
+https://t0.97img.com/a1001906/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",肥豬金主啪啪無套內射黑絲空姐
+https://t0.97img.com/a1002009/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",韓國女明星招待財閥.人前高貴的明星.晚上財閥的母狗
+https://t0.97img.com/a1002006/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",國慶假期.淫亂換妻.玩歸玩操歸操.夫妻關係狠重要
+https://t0.97img.com/a1002037/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",小媽的幸福生活
+https://t0.97img.com/a1001870/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",舅媽教我怎麼騙炮找對象.爸爸發現了我跟舅媽同居
+https://t0.97img.com/a1001934/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",出軌人妻.一直被狂操多次高潮
+https://t0.97img.com/a1002010/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",跟親大哥一起大奶嫂子
+https://t0.97img.com/a1001964/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",國寶級最美奶王.最懂男人的性交淫具.唯美性愛
+https://t0.97img.com/a1001908/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",抖音奶網紅女神.王儷丁.媽媽的年輕閨蜜
+https://t0.97img.com/a1001900/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",姐姐的新婚前夜給我最後一次
+https://t0.97img.com/a1001847/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",極品超美小蘿莉.首次下海就被操
+https://t0.97img.com/a1002038/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",家庭深喉尿尿
+https://t0.97img.com/a1002036/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",蘇暢.四手最大限度服侍.徹底排除肉棒裡的毒.
+https://t0.97img.com/a1002030/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",雙飛視覺反差女同姐妹.東莞絕技鯉魚躍龍門
+https://t0.97img.com/a1001969/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",純情學生被大叔插舒服皺眉有點喜感.又爽又疼
+https://t0.97img.com/a1001773/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",國產想升職的丈夫獻祭自己的妻子助攻老闆
+https://t0.97img.com/a1001791/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",最好的生日禮物.巨根大肉棒滿足嬌妻
+https://t0.97img.com/a1001855/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",騷貨們被按在透明玻璃前狠狠操
+https://t0.97img.com/a1001907/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",我給舅媽看了我跟她做愛的視頻.她受不了了
+https://t0.97img.com/a1001910/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",酒吧陪酒的姐姐被弟弟大肉棒操到肉穴都合不攏
+https://t0.97img.com/a1001793/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",雙飛留學生女友.閨蜜紅底高跟黑絲
+https://t0.97img.com/a1001939/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",今天又是和學姐無套內射的一天.長腿美乳細腰騷穴
+https://t0.97img.com/a1001884/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",黑屌.抱起來操，還有跟狗姿勢後入
+https://t0.97img.com/a1001992/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",蘇暢.首次挑戰位猛男.全程實戰個最撩的按摩技巧.
+https://t0.97img.com/a1002004/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",強姦小媽.暗戀小媽已久終於讓我抓到出軌
+https://t0.97img.com/a1001944/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",無套雙飛極品蘿莉學生妹.雙飛蘿莉
+https://t0.97img.com/a1001997/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",高價約操空姐週邊.顫抖的淫美肉體
+https://t0.97img.com/a1001645/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",廚房幹小媽.真是極品女人
+https://t0.97img.com/a1001776/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",多變裝好配合的地味女孩！白絲開襠褲好插入，好文明
+https://t0.97img.com/a1001829/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",電影院亂倫親妹.射滿小穴
+https://t0.97img.com/a1001980/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",劉玥.鄰家大屌哥把我和洋妞閨蜜雙飛一起操了
+https://t0.97img.com/a1001978/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",特意來幫我泄欲的女網友.無套猛幹騷穴.淫叫不斷
+https://t0.97img.com/a1001685/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",約炮前女友酒店啪啪再續前緣
+https://t0.97img.com/a1001591/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",操一半怕妹子疼，拔出雞巴讓另一個小妹給自己舔濕
+https://t0.97img.com/a1001590/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",被小姨騙到酒店白嫖
+https://t0.97img.com/a1001976/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",論壇大神最新性愛自拍.騎操黑絲老婆，頂操衝刺粉穴的感覺好爽
+https://t0.97img.com/a1001834/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",七夕背著男友出來約炮的大奶子學妹
+https://t0.97img.com/a1001915/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",頂級顏值年校花呆傻白雪公主被操到翻白眼
+https://t0.97img.com/a1001987/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",自購最猛大神一上來就開噴，沙發都被打濕了
+https://t0.97img.com/a1001819/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",背著男友出來跟我偷情的大二學妹
+https://t0.97img.com/a1001957/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",偷情風韻的嫂子.大哥不在家我與嫂子偷偷私會
+https://t0.97img.com/a1001902/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",三對夫妻酒店相約換妻.淫亂聚會漂亮妻子被透著內射
+https://t0.97img.com/a1001967/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",用冰塊調教妹子，看著都感覺逼要凍傷了
+https://t0.97img.com/a1001827/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",太寂寞了約男技師上門服務.極品禦姐榨幹男技師
+https://t0.97img.com/a1001950/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",醫生幫你貼身檢查.畜女膜還在不在
+https://t0.97img.com/a1001817/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",朵朵愛漏騷逼.肛塞呼吸大庭廣眾真是刺激
+https://t0.97img.com/a1001825/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",外表清純內心非常淫蕩的大二學妹
+https://t0.97img.com/a1001802/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",我用大雞巴征服了性感的嫂子
+https://t0.97img.com/a1001931/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",高顏值女神酒店約炮無套操逼
+https://t0.97img.com/a1001966/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",專業約學生妹內射
+https://t0.97img.com/a1001790/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",酒吧灌醉大胸人妻無套抽插顏射
+https://t0.97img.com/a1001942/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",豐乳肥臀的狼姐
+https://t0.97img.com/a1001822/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",蘇暢.日本吉原泡泡浴全套流程公開.
+https://t0.97img.com/a1001952/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",小紅書約到的高顏值本科美術生
+https://t0.97img.com/a1001807/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",綠帽癖女友送給男友的最棒禮物
+https://t0.97img.com/a1001587/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",戀父女兒與癡漢老爸.我要把第一次給爸爸
+https://t0.97img.com/a1001885/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",女廁全景精品偷拍
+https://t0.97img.com/a1001820/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",黑絲女僵屍被男道士深喉口爆無套爆操內射
+https://t0.97img.com/a1001761/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",學妹被猥瑣大叔調教
+https://t0.97img.com/a1001826/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",侄子把小姨壓在課桌上狠操
+https://t0.97img.com/a1001914/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",把挑染制服少女狠狠的給壓頭口交操逼
+https://t0.97img.com/a1001588/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",亂交.人妻遊戲.體驗不一樣的快樂
+https://t0.97img.com/a1001940/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",蘇暢.真實女女性愛.雙頭龍交錯快感.
+https://t0.97img.com/a1001788/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",血緣交融.我被小姨騙到酒店嫖了我
+https://t0.97img.com/a1001951/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",爆操一小時京城第一騷路虎車模
+https://t0.97img.com/a1001769/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",中年胖男調教母狗.服從命令
+https://t0.97img.com/a1001823/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",終於約到完美身材瑜伽女神
+https://t0.97img.com/a1001808/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",極品大奶淫妻自慰勾引外賣小哥
+https://t0.97img.com/a1001913/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",姐姐主動讓我開發她的菊花.新婚床上無套雙洞齊插
+https://t0.97img.com/a1001929/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",讓小姐姐穿上經典漢服來酒店.古裝襯托性感身材
+https://t0.97img.com/a1001886/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",網紅反差美少女口交瘋狂，一直夢想著在床上，有四張火熱的嘴口交
+https://t0.97img.com/a1001585/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",嬌甜可人的肉感少婦，腰間還放個小情趣擺飾，特別有爽感
+https://t0.97img.com/a1001836/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",逮到機會與兄弟互換女友
+https://t0.97img.com/a1001806/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",和妹妹去酒店開房.讓萌妹穿上聖誕情趣裝
+https://t0.97img.com/a1001927/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",大奶紋身禦姐瘋狂做愛口交.無套體外射精
+https://t0.97img.com/a1001932/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",南韓魅魔張娜英
+https://t0.97img.com/a1001818/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",破產姐妹花.妹妹在前面被操姐姐只能在後面推屁股
+https://t0.97img.com/a1001917/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",禽獸父親給自己女兒操噴水
+https://t0.97img.com/a1001803/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",變態弟弟趁爸媽外出強姦親姐
+https://t0.97img.com/a1001787/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",蘇暢.炮機狠狠試用初體驗.比黑人運動員還要猛.
+https://t0.97img.com/a1001933/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",蘇暢.女女瘋狂騎乘性愛.透明椅子上的各種姿勢玩屌.
+https://t0.97img.com/a1001794/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",妹妹為了換手機.主動獻殷勤幫我按摩
+https://t0.97img.com/a1001898/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",探花偷拍顏值天花板三部曲
+https://t0.97img.com/a1001858/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",蘇暢.夏晴子.浴室裡女女性愛.舌吻舔豆豆.
+https://t0.97img.com/a1001852/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",雙飛歲姐妹花.的雞巴硬塞到逼裡
+https://t0.97img.com/a1001901/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",花重金約了個顏值一流的週邊女
+https://t0.97img.com/a1001923/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",雙飛麻友.打完麻將在沙發桌上啪啪後入
+https://t0.97img.com/a1001857/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",約了巨乳纖細蛇腰癡女，忒主動脫衣騎馬，胸肉多身體緊實
+https://t0.97img.com/a1001839/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",杭州海王.騙操位高中學生班花
+https://t0.97img.com/a1001805/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",三女淫亂.瑜伽教練的性愛授課
+https://t0.97img.com/a1001804/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",真實迷奸年幼師女兒無套射精
+https://t0.97img.com/a1001937/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",戶外摩天輪.激情四射偷情
+https://t0.97img.com/a1001792/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",白皙保養忒好的美乳禦姊，口活也佳，技巧真好
+https://t0.97img.com/a1001835/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",強操女兒閨蜜
+https://t0.97img.com/a1001916/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",原創動畫迷奸健身房的美咲！巨乳白虎操起來宅男爽死了
+https://t0.97img.com/a1001838/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",臺灣小飄飄紅內衣姐弟亂倫肏穴
+https://t0.97img.com/a1001849/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",蘇暢.日本匠人情欲按摩手法全公開.四手聯彈床單濕透.忍不住一直呻吟.
+https://t0.97img.com/a1001909/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",樓梯上內射我的親姐姐
+https://t0.97img.com/a1001889/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",香甜的癡女蘿莉！一次小穴跟逼玩具齊入，自爽個玩到高潮
+https://t0.97img.com/a1001833/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",夫妻交換.寶馬眼鏡女研究生.骨子裡的騷
+https://t0.97img.com/a1001869/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",東北超有韻味少婦
+https://t0.97img.com/a1001904/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",迷奸醉酒小姨.內射爆漿
+https://t0.97img.com/a1001888/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",白虎饅頭穴，極品週邊小姐姐，魔鬼身材激情如火
+https://t0.97img.com/a1001589/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",黑絲極品尤物.美乳翹臀主動上位騎乘
+https://t0.97img.com/a1001865/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",無套內射酒吧氣氛組兼職.開了五瓶香檳把我帶回出租屋說有性癮
+https://t0.97img.com/a1001845/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",吳夢夢.空姐女女團
+https://t0.97img.com/a1000614/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",老萬原創.白襪誘惑.禦姐白襪無套抽插
+https://t0.97img.com/a1000612/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",橋本香菜.自慰短片合集
+https://t0.97img.com/a1000676/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",橋本香菜.夜間的酒吧菜菜與不同男人發生關係酒吧桌下
+https://t0.97img.com/a1000643/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",吳夢夢.和男友的繼父
+https://t0.97img.com/a1000642/a.m3u8
+#EXTINF:-1 group-title="國產新片 ADULT",老萬原創.愛玩水晶陽具的禦姐.穿肚兜給老公們看雨晴
+https://t0.97img.com/a1000640/a.m3u8
 
 
 
@@ -18182,7 +19227,6 @@ http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84O
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUMtgGwI_hSdfsfq3gs_KZsL8JsWRB48DKG4S_KEUTZxbV7YF_1GEPQIM0BlRibQCppGrdHPFBslhgIKN7pjoFM_LmN-f9yZL9XCCKGm02xnxpiUHVq6CT9F7wx6mpT5mVnXTQSRCuiqtxvK1lY6uIFT4zepMhUYCXJPKFfxkQhxVBRFChlW1h1lVfqhZCQ01OKwWDCQEzT7GDTeeG8JYZPg.m3u8?u=1756878715
 #EXTINF:-1 group-title="8885",爱奇艺HD
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUXEDUXNSjBZf661tPTuj8ZXtMNcSsi0K8oE95GfBqnf9hoHNVZ6JTFv0_epi8iahHZt0L0ZJh0d98fmv5pnALK8kC5q1naDa1VXL1oVDAUJcaeW7QyA5TqfPfD8W0yd80O3Uq8j5lM0Pff9nNbGxRWvxIWPo-k-Cs8rzebeIz85rCK4_knOFdaHwdQqt6NgWjQoz-oAXe9Voe_cqUxoY9mA.m3u8?u=1756878715
-
 #EXTINF:-1 group-title="8885",AODHD
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUiDWyQiRfoKJ7v06c804QYB7MSUIACDNm04fXgga51MoT1q7H72LVczcMm4ZY4W7-7FD8_-le0n6nSm_Fm3K4WmFrHs46IppKwKfkcgjQgm7jTf2vl9SUcpxIgRdNpr4AfZ32oU9WEYuKMRX6UYjDbUzItUHV48FORgJnKloc0lw4kFajwEOBhMEy2TWRrqgUgsVQ6JokuECwwTZ_98FGWQ.m3u8?u=1756878715
 #EXTINF:-1 group-title="8885",SPOTHD
@@ -18265,7 +19309,6 @@ http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84O
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUATjDuC3j8G7Jt0-cLCJUV4OSP3dpt-M-fgeYHWYe8YxxvSgrtPid9ztLOuXuRlUIgZMsWa90MBSKsJVkhS8448sj72qNninPZK2Kzc-CViEBnwNo25r7UrxxCPugpAGHGbU5Y0fmTA-03BcNu2bJ8Sw4n5S7vi5n9n9KjixyZmXFSAyAS7n_ZfP1BuxgjihYFJUqamSZpM-Zy3XP32f7xQ.m3u8?u=1756878715
 #EXTINF:-1 group-title="8885",SUNEWSHD
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUbfvaaLTSOqBE-WFwY4Rz64RHaQUltAQzvVPGCVpYUA6Sy6RQfREfww5LSOnjRSldkMdbjrWa-IcQNijGgrSZNuL6VZQFILp-2NQ5piBPyOnwhQVHaD-oylbYNJ1AXZuS0B7FvOHddxSkcw1uNrAT1Q_ZoyY61RKOy6kZ4WUV2g2X2mVrDOKxU5nKyUrrclXF9z6cxpKG1gZ5N0_sUMhz_w.m3u8?u=1756878715
-
 #EXTINF:-1 group-title="8885",CH-5HD
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUCR7-liXelC3Ys6o7xqrtgqmyXcXnrP6H4y71OWc1LIyiO_G0G3JZ7Lw69ApJWikTMHIRJtOcyAkjbISgCek572wTbqlClpWSZ5Rt13sgOWyM4H0_ZEciPFoo9zdDCylisJa6VHKL9keQqVW8JDRDwBXrxlpbZknsdfPLeyeOqngd-Uy6hA4U4hXFDeMSSGLWi4BeMGHRcRxd2-Y6LI85_Q.m3u8?u=1756878715
 #EXTINF:-1 group-title="8885",CH-8HD
@@ -18458,96 +19501,12 @@ http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84O
 #EXTINF:-1 group-title="8885",万秀猪王
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUhctQdvsofJefkP7jTBrD1faWhgMYPMQXwS5aaBug-nqr9t3DykJE2Oyx57GcZwonyLbPDHqAvvrHtrrQPObHUgOEOCDuS6dH8fUYZ4neH2v0jyJIYtBp3hb1DW__SJV4iS4yM8_W8E9XMaPzzCOYZxuBgw8DfgAjTKgmwiYs8jqnAIBmGu95ekNBUPGicJ30Ifx9FYYrDVb132GwNEIgqQ.m3u8?u=1756878715
 
-#EXTINF:-1 group-title="8885",BernamaNewsHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUj_7Jy2VOhT0RVmPC-kEFuTtBeCfVeb2413-H4pKbWY4l5RoVEaR8ZkjPVOOjl2if2xlhlWZgLBwq3kMiB5hEbO44Ch4k9gH-kNFRF0qwQ3e3YYxYfgQD_DpkCDodoBdlDa-2_kOfznooNBRM0XL4OlJMQ7wr7sF1PiXqx3dkq2_pGiayCGnjwLuvFqNmogU2Mcv8c-xozjh3oXHUnmMnSw.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",TALHIJRAHHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU-Pq1qG8WEZ3b9lCDobG3sXAzmFZv96a2mfBjvMyPBbujBEiHfmk0O2mMJoSaYKisqgEALyqFa3LzAHUTGqdI-SOldX573ay3S-VrgEu4OsuDm3sCSllT8MHn4-Flac6JYA3KhPXEXXro-_aFPyP3jq0d1wR3D63b6w5nlpGIooTnvgJs4RW3FiJohbikqwChp9E-2EogSkHzyYmCm_tIEg.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",DIDIKTHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUv4QResu2HZ6nw5fvP20kWpiHR6zwnwZIKA96lmN-hWrMJw4RaW-6aGs40SR0pO91lQHKzsJEag7j_C8JVHowbiIiSdLXPPqhbQIT6f1tTJOCghJh5eEfstr9ZlxwFyDUYlDtcxMqb9Q4W9cuxI_9bmRbXnR7SoAz5p0EtbNZ3eTR_r4SIIV-Q-zXJbDF-ZYQHLm0ZgQqW_6rPn0F2_DARA.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",8THD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUXgBayV2BNU-Rh716ys796kilYQCoL5siZYVibxDrrurachFelDZNMw170L-YhVFRaaTs5n_UqLIVuzf1-41CVuJGe2DNn2TS7fKpp74r4PZvrfBuCvUExLXSVv4ibJuF46yxMTHnA-YKO2N3iu40DQgdLqj_V7KfvPCx5ZJLf64Oq247xvPRDPOE4_F0jukdO1kkqf3SmGakuH9DB4Z0hQ.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",TV9HD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUWd64T-nhX7rWpM-WMdYvDmxb2PGZF7Qh6cQyNJ6SfR2sHvbhR3h4wfxt9FhgN9NF6JyN5B5uWZZW5uHEG6aVhP2y_9HVzFQ--G2Tav-qci0gvKxBre2vZdkpU_4r5Hcv7IMR4sf04VpprgdyWKozFJA3FRQO0XhUS0nZHBqbtWpfKVnVx5PsD4dKgqmJUTzAz0qd0VAatnRzamWi1IqHvw.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",OkeyHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iULv2-SU0IUqdQsP28zfbMd0l1mKQGlNDPKN3h8fxJlo2E3-TDoKw2SwK2ARUpsJqe0LRs5_Vy1kwZ4Dym6j2GA6v0DYWJeFAwiU55MQtLOeiSimuaaR5wHolQIgZ4b-5dhBe-fWYLHR6zTAHxoxBoE4ipamarO15i9BScxIX2el-RZpq0eP4AqR_civPlca9vJAg2ht8SLOUu96cOcJLz_w.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",AWANHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iURKwVhj4jcgLsmn8W8GimyvlqKSG2HMK8tHeZjCyZWnkmhnaiGBjTGop5WUekCQdwnVtmmRshNZaJcKglu84fSbemFRbYTSLF9jaGiWOtIRmGv59InWKTrTS_yltwWBh0jOLBxXQ8lLbfuK_Pp34cSugDdY4YE-kul6_kPnndlnZhoo4DWrIS8Sf5NcOaFdVp4NfW69CCXNMMYIYeiImbCA.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",RIAHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUKv84sIFj-Nuzt1S63cCV9QxPOSOpYJ-YgK0YHYccYL8TyfitqcuAZodaCm_6CbbiAFGAhOlyGL-Hhblh1lo2LlFIo_j9KSAJk-yThY9NZBKwHR8XPuZQtuU0sEgas46W9-tmeB-fInjQxTHfhF-d-gwDZU69VB_u-27A5U5h1T8mygmv8ImXp9lgmO5mjZY2BsanpHozPvt7NLONNOtHOw.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",CITRAHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUmk83rUmLGkO7_-jfVoNGukUfYdfo-ZzpKW9w8bjPi8pAYLmVvBGclxwlZ0WH4zaiuT6BcjGwPoKXifYT6bQOTk2MoGxALwfa4kWxx-T64EbNdcQEZy_3NCsHPLZ4LiulUGEharLAxhtH2Wuy6aSFE1EAhjecVnMc9o8T46eCZVH6plVNlAfmSZQEVqalQjz8yYVfiwn9AD_2KiWL1b7lbg.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",PRIMAHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUiLJaAjN22ULkvuq5itnVl4CpuIKynsgJu5cx_CneLhYvrXhQXBlSe2PZig13odOw1IMangntdn9a8i4bDuw7AkQtl3Qpnk1kPsJ3VcpByIlsE7SMRbgYDFxOqyhAGwvn7j9YtocCmTmLm7UbKOJC-gXL7ldYIM_G9qH_rERTRcDmtleUBXXeDjSN-Cwu7BGMnXeV7EAneqdxHgnM5usxFw.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",AURAHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUyBkumBfyLT55i5a9jxXB7cCWUrbgglOZMzgooFlA2KB3a2WBXudUu34m7kbMvQH8xRg0WNXqZO4UlNkY79KJFDJwTy_4m9scdGPxLlmg17rimkhKBoGDlQ44LlQFVZ_DbKycWzFrd0k4AmrxfqFF_KnmsXECSAMGsTXSf3Wv-AU4FoUihBg3LAVA6uZtFpt1vB1qVXCiEvfZQD9WwOnvIw.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",RANIAHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUpRS9hHVFZhlq8gyjJnGwKrG7-0e_GJFBDqXgn2HTUiVCpflsDSAkCJwEJAxZLrOfunCirVQpxyua6p5g8w6O6KUR-v_E__DhntqLCTzbBHEzms_4yfY08vFD4RENjfeXFq3CJFS2hQUDnujRvz-srypL0SOLR0H3m2J1EG9kvy-MKR19fFb8DbudUZZWdO35G_j7wDcW6VSecNCwv2Ge0A.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",OASISHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUXH6hGt_UXsJf85vNP091qvxgYugKOXl8yzyEdDFwrLMOhDj3p9cgW_inKlYI84kMlqiVmCb17pbOaVeBSSB1zAjL-tZ4PK1xpLYNqPvmFJy0_bOcFvHzrz0Q74BFilvYG7bNlNeFGwrgnMGoS2KE3Gz4IgEWqr8dw-Sy3hW_ooevqjL1V9le7GGnDrrzhCmjXJmfUjdQsHgl6lGiF0D1iw.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",astroPremierLeague
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU5HGLDf5H6ibAFPug17n0bLQ9lRexxM2mhv74l8HFFyghM_alIDJBjMQgw0vFQyMey4GwcSZ3jMjKP709Wa5N0Rzh1RWgn172zFbcGg28U047kkd_sCvCcfX3qNZnZ6TOeldQBpOw1AN4NyM2PGY4-FbGATSs3dZ9l_7WwG82RIu5uchn42C76QNPh88RJTuVGWidOU_bN2qsBGDaqlNrpJT7hqsigKND-yKjsKgC7k8.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",astroPremierLeagu2
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUnVjd4bcplRBCMvOC_GyGKCNTmXSHa6BNZdySB980bDtBpGkkFttidufZDhihsLZrINpxqZ_98SrKLVgH-8-S0YkLcZrjd5Bi57Juy8tXkWfXxeKNpeVN4Qe5_kV2ox6Spuozh2nAvT0wxDNlfs7k7ov0kVRkDAMOuF7Qfq2DFyr2TfucV_bFlBi5u0XzL4EMhEWagFY5pHqJTx7Eav6qh6a7dOqAbwiOnTI8QpfqK-g.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",astroGrandstand
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUlqHBs6b7rivJHgU8EOYhOwvoOSbosSGjO-OBl-o8DRvscguycZVOMBKkHGceffhCrL0aLR7GyuVnK8eBfzII-FzuO4BWcZFAIaeogfXx0Uwo6UB3pM_x3eBROOQQQSZEwthAYFV8jVm5_MRoIij4_Vft9EkAgvetDGEvxImmQ-X1_Y9fGcx5Z2m2I_nVcxOIeBX2q3JD5x0OpPBar6eCLg.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",astroBadminton
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUzXdnBpDYgCuRvFYR4ABJ5Dx7ph_vlEkp2NILAZGiBeCaFSHcfLf39MHOTqhq2ppM_wHiaoD-VKLAFsI-JCpoV6wqgVxLxoD_2ojf1h-JqhQ2z_T9PSer6BBLvqGg9Xb_YxAQK6LZC1xUswfNojA9spVfh8M3NFowSwDE6qas1nsdq--xqb3lkTQKk62IuteY_kyHKYB7hCChyinEaxyLng.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",astroFootball
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUzNACA2cTTCJ8jHs7S0f7BY8vHn4voq1UkdbBa4nq0Q9FSi4lRnlN72P_ps5mrJHoIW27i5wC-kx90tch9_L1KJJMkvy8prIEn4AscwOhDoCZ-Zua-pYhTpIitx47zxjk9E6x9BxF9YlHA_r1LXYZa0DovjGhltudHcmKQJoujzGOc4Ia-RFybDo5txJxqdMg5PZxx9gl7PLiYT_OK5lU0w.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",astroSportsPlus
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUNFJAisIl3fm0VCwYuljk_NrVqn1b5AqccTUVmP1UYKj_I_WwkTb7ra6RPEi4zokJm5Ka-1A44aHPn0HTe2bmuoGallAFYiV_oJ3EnN9jclsdzykTywVjyj7PCNd7xF_OnLc_K8NzvS3I5ZmzpEc_4QA-NtjwWgf21bPe3C9spriHfyDvP35wTI7f4t9PTr51FM0ZmyFRMrIosKKk62WVWQ.m3u8?u=1756878715
 #EXTINF:-1 group-title="8885",W-sporHD
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU0IbAIs_UzmCdo6qdMrKADpMlvkq8dvvCi4HnAkj-xZMyba0usMt7dJ3qLknN8kTO030UuWgU8iB62VMtTyV5_V4MECCvbiTTNJejXfU_luzmeov5ElIoW66B_ZqWfDL8qyybJVui2JutazGNd-nP_gtw4m66KQ3rnmmSxJuhYdNgOxCkrMhlG9OOxik-DpWdMcPYaNTM31V40PpKaAEK-w.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",W-sporHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU0IbAIs_UzmCdo6qdMrKADpMlvkq8dvvCi4HnAkj-xZMyba0usMt7dJ3qLknN8kTO030UuWgU8iB62VMtTyV5_V4MECCvbiTTNJejXfU_luzmeov5ElIoW66B_ZqWfDL8qyybJVui2JutazGNd-nP_gtw4m66KQ3rnmmSxJuhYdNgOxCkrMhlG9OOxik-DpWdMcPYaNTM31V40PpKaAEK-w.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",ARENAHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUmgQSkadDmyTtJyXi6LG9frcKKRjn4QdSWP8OiicE2JZDgT5i9RmhanuWjHrR_vPjFABNkrHeRgUMhDgvRy0z-tWTmRRRjkmuy4IILo30yIW1dssjjRi5q6BzgWinC6QfW3Y6WQULU95T3zQTKt84xew3mXx0jFHfRnJprWCPq2GGvdb2pSfnzk3152_jI7GBE0OHxNgFfo8JnuegMXOJDA.m3u8?u=1756878715
+
 #EXTINF:-1 group-title="8885",ARENA2HD
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUEGO6b8kyVAwFqkdebDnwrO4sqI26E8SoU2AgjoTI2IKoDFDIp3L3-VznYBq34mMDHIYMQas4wKOEeYRlI5vjhetMft8PrqW6rv8HsUtc2Fo23I4gouagHJm64mk6KtOs4nkN1EKnGfKihduWNTo0qHrLJzoresAuR8XnPp32P7MoDg6TjHs7XE_pTp2UsxvFYpXWzcjzYgaXBuNp43UpPQ.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",ArenaBolaHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUaVnzVc2Rc-TEwJ5bveJnTcqv_cUbwpTJbfgXpr3cL_ZDcMoLyh0vs3NxN_kUV94igIewyhgYGCpVYzNlsBu2znt4dFm5XaxJrSDNiB8M1oSJ_Y0tU69KuJyJtIPQzzh1wksyvk0QR4DxOaGauu0pH9cxQUe4MN1i5aBwPkR8GMKQz0gbx9Q9pRH__ezHzBCXyos-Z-VGyiWjPRN-Wf9Mew.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",ArenaBola2HD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU-pZnh7qy_Zr_KF6-8MGM888bwbHpRaST2zkrgPn_kWoG2dwvlBC9DkRMeuf9bj5g0XVk534mzLQ_GJyygK6Rx4PvcrbPrs-lGK8hZ26GV9VBpP3k7Pnn3XJ6aJ7wYUw1qxGLjBecGv_wTNk0ZaU3J8WeW8IPssipHPaq4Ccnn6mwE6oG-ZEhkRBqFSpQw8BKDuJYP0QFFapH8bwxNrXvUQ.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",beISports1HD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUlZyB59AVI7Cz3nJsQ_KMMgWGm12WLT-_eBjC3O1MwxkaW1-Sr5_yqYswYUDynZc6q4UFLpYI76TYcfbLwT6dY34Piyh85NbUqUWeQTTRQ0CZaQ7k3SJfrusPNKGQsmRx4egvk-nQQXpbe7JW0ceg_4xDpVyELpTM8-7FEg1nq4iARNsA6fLo7mwUZoYzgOVeCA-TxoHZuIy0wJk9MoiYsA.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",beISports2HD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUlP_Xv6Q-n2vFunBGbIpwIAHGZuZd2VEmlY9qcAUXkoqatWRevrFshvhQoS7i0b0UeWxMaFLG0FY52-kugg44UxKucllbSHwynZJc2euau1unRVk-MK_ozstZDYZwpiancfUyTHiliUKviz7SJdM2Dgvykoy6Klvumg3DCxxSF6iiZEJO81t0k-Kd3xWmJwJpobEse9C5wSuvziiNkv2w9g.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",beISports3HD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUdFcidhOhwaktCIaAjxdXB28FOyJxXQQneaqE5ZzV0V0_nerr3THVmjmRDKDI12QsQrHN7Q_9mgALab7izfyPYSVCw7XsNPt0B1p2UgtYJUiA7wQjIbVqDjHsqPDv1Ei9u8pmaQveGC21cYvlHvS53uFDnuWfPWVUs2_uj_rAoKHc6kU6NxurIoy754_OnND6n938DZBVVt5bUE6FvBYL6w.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",PREMIERSPORTSHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUymbPEKQQPXh7jHUmDbOEc6Px8QTyILyUAROjE5oFetoeJ44QtrLjE3gl9w5BaZAjWO2wfXOZbMukvhGNMvN1mproVDwSMCZPIs0n_UTnaHQ5ExxQ9nIdvdr_gr7qxWUbDot07riQ36m_9rnxFcZjpVihYwudUm-KzleL6h0Zf3PfYBCOWvwx1SOdHXYsbQQJ3SKyMu1DNFuSB2gAa3cDlg.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",EurosporHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU31OQOoeLuHHAB_Go3mxOYpQZRSCMpjPQ3bLVehgA014RqRl_R3SOyHsviaOKKOO2-vx5d1pXXTTGgcAqFn6_CVXItarLWE_wfmptGd6KfGMrCnY7iiGXaB2QPvN72h9dzsdVirCQ6mpe9m0o7yG1xe7NXV8BcmKNCgDFcyLlfNw7hX-JGhZo1sORCT4tSgduwo1tZg4ngzVqtmuEbwcMnw.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",GOLFHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU9lo3H4RIHe5cNtvXG0Ni8vNganvc9bK1zaseCmMQwl3e1KrCdY-yq7e8kpGGg1pNL_6yys6-VAVA76qzPKGpeccVXT4KkVQ9aUUZ5YVjvmdYAczfot5sZF6BitnXAwv24mJgPuo5Pa-MBJg-K8RWQhNlLzDSS1ksVCHyztKh3ZxM4yNyB3jzp2joGnrixg0QFwaB2s6WFn43KOaHMTqZ6w.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",AECHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUMtgGwI_hSdfsfq3gs_KZsL8JsWRB48DKG4S_KEUTZxbV7YF_1GEPQIM0BlRibQCppGrdHPFBslhgIKN7pjoFM_LmN-f9yZL9XCCKGm02xnxpiUHVq6CT9F7wx6mpT5mVnXTQSRCuiqtxvK1lY6uIFT4zepMhUYCXJPKFfxkQhxVBRFChlW1h1lVfqhZCQ01OKwWDCQEzT7GDTeeG8JYZPg.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",爱奇艺HD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUXEDUXNSjBZf661tPTuj8ZXtMNcSsi0K8oE95GfBqnf9hoHNVZ6JTFv0_epi8iahHZt0L0ZJh0d98fmv5pnALK8kC5q1naDa1VXL1oVDAUJcaeW7QyA5TqfPfD8W0yd80O3Uq8j5lM0Pff9nNbGxRWvxIWPo-k-Cs8rzebeIz85rCK4_knOFdaHwdQqt6NgWjQoz-oAXe9Voe_cqUxoY9mA.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",AODHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUiDWyQiRfoKJ7v06c804QYB7MSUIACDNm04fXgga51MoT1q7H72LVczcMm4ZY4W7-7FD8_-le0n6nSm_Fm3K4WmFrHs46IppKwKfkcgjQgm7jTf2vl9SUcpxIgRdNpr4AfZ32oU9WEYuKMRX6UYjDbUzItUHV48FORgJnKloc0lw4kFajwEOBhMEy2TWRrqgUgsVQ6JokuECwwTZ_98FGWQ.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",SPOTHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUGxoSruXH75YYPz5xgwglSXMKpXc5ugdAnJIv0RSra8AzywcYuk8zwy7NtpLcQ3LYU8UKPI1he2FKX2keoVcufNlBZT2XvDX_i-u9Yuz4yZoKEnlCbua9LN7ob_nFUuxr3GrdA5PzHnhoAku5lH3lkL3uSzJBwzbzuzM67X4DSneW0at22IaDRZqGw4AESVB_puK2ZXcxrJuUiU3T4wk8Bw.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",SPOT2HD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUGxoSruXH75YYPz5xgwglSaOw3qBD_tFabu6v6CrBIBBlGPikNBIHiUYtiXxL8JEFa_nvL0NDU3bt36XlIhmM7AW4pznIcClA1IyPz5dQWuOBpYTvvTxLMvahMlQAEwoKgoeZHJzxrQDP2ewkxn1Fo5XsC121shCnUDxGinwkRCdcmOoIhkBHGqKIBpwICdZUSuopxdCXMbERbPCOxXV5mQ.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",AXHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUwhfJY_tp0WgwC0N_7iuYcEZOwG54QLCzbJs2DmsUOOxHqvsJVfhm1GmgefMh4WJL29iW75pZC9FsPlLNgSZg3-whxPxoCFKAWplrP3bMeKIZe6CH1K0PLaxtJxkvpYlBnV17ErZnap6iuDmbu4eplheOyrgj4_87FSQmEryKvwB9cFpjqFhJQbplkHb_HnFGuW5nmF4SpySF_ztVm3IXMQ.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",CINEMAXHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUVLD2kZeFRWdrwQ4wcJfEF71EFvumjLWi0OOU3oVj6OGZn2pbpZ3zhoTjZc8jHuyjT4_cSHzGIObFy6LUrp5VDUHIFojERSn7os1bj7QgZpro2TrmYB3zqheFCV8FMCmxcDFKphudPmdNuhp1ocpx-H4fPoIs8VXaics3OO-KLrqSDuGOxBZM7pQlxu2JC_01JVaqkrByZcGpJn4uSblK0w.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",tvHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUSgGrmZUbZxYcwovwUvaOdwZ8Oqx5MGYttxfueO78c3G3Zucobbv2jcfPPE09nj_CGskJi7hhCDtuO4656tGwoB-3jPhhJ-qEdfS4b5qPkfhN0luCmPcLTnfAcrpc1cDZ37kvD2cMmIHH6RwmbqR4Sy2JJVepifuvtjd39KwJjaG7JIEVzwMNxLqZ0ZkqSlPtCIdWqbouhf4KhONRzLZ8dQ.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",tvMoviesHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUDyXdwMMIFwjgBf6LwenrdMHM2qtIIxtS8NxDg3x13zo_OGwGKng8cZhexN1ftVRorJKlVNHz_pAfnep0S8A-FX-dxifJJyfJPx2kO1zUOmMNXsJoBxCuEsnea_obLC9GsqRNQm03f7Yba7ePqoLXcMO4NFcAvPkZ2Em8E0y7m4mEDVdR5vm9cvbUGCloTF7wmzI_1ayPE8IPe1nBQO81Lg.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",BBCearthHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iU3uOznvwt4M21T0Ial5n1hLVfVYaT6a5NUp_gnBJlNVALO5NPN76XNPOXfuvgi0SBaOOooZZM3pLbiB2VvYFbfr5oW5xOj2hMqSMT9jPBVGP6sirHc5w8sWFwRcciBbF3IWmswcmXcNGuIyHKpAIdb-O39tzVkJYQ_awZH-UsPSLJZ4znB0y_vhYhlTljk0rCddlCCyxSi33gu2cj9IhHKQ.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",BBCLifestylHD(C)
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUBFM34L_78cz6BUfxUFE_XnSPtDGgi_Cxgo9I75k2XilH2iCmHH5_6WSeNNVrLm2C3Da4R0Lhzo-Ypccd_VFUp6NgIaslqWuLUMHMQOJBgxMK9KVSghBxedxvdcq1vALvwkbrcwDe9OYOnPrFyDXW7v3SqdChwUTbVW3_eqC8QQyysa89TxUeJjQeS7hbTKwhH1ApbyCmvj9VgUPYqKjR4E2McsOdWcoLfjDvKoEzGl8.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",HGTHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUjt2HaOU_WojVzI_o4Oysn0_cqwIaZRFjrokLxE2fu1sIUnInshcmy4mkbPU5aZR-CX5Um3lcVwwfvwg3JIyh-L5q9OR-JvHe7aTamaATNDelRsy5LjfomZVC0eGIfiNuqncto0-T0pN1S1U1MBqw0IQfuDUOBPbFlIn2fOhydoezM3MHtb7ZljmWWWBsGzZBWXyL0EAl3qi4QQmrg55tQw.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",Lifetime
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUxmN4hVPysTem9cOXSX63KMixOcSt6gKWeDiFsyUbEzA1IA2flHt9sSoTJRcXZD9AfQQnvoucywyvPAwANcDuEV_mXsIl8Mr1ugQL7kU389wTxJ91GuBjsEuxDxh35GaUbvnrF8HzvvTht1Hv_iP9VSazFnIrNZIlZitzXLaIkV6xo29XQYgQc0TM--UIJ-ZITOYZTWRm8mlCYp01hUX-kg.m3u8?u=1756878715
-#EXTINF:-1 group-title="8885",TLCHD
-http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUpmu0_FxtJjtcAXP5vKFOgUT7GxLK0wYBYPnklxTTp3Pz1HEnTlWve_Cq_kuKdB-GFJZmz84uUw5Buifdxe5SKwNE6_jwonI7ubWabwLjHcv_w5De5D4IlHG61L25ufHmGcexCicUWuXu8uNJYvCICMmSJ__BKep0xVgTC7d_SFjS4zH22AdN2ksMFOmaNrtqRDgQVAud_wU3coBe8am7Ag.m3u8?u=1756878715
+
 #EXTINF:-1 group-title="8885",FoodNetworkHD
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUZkVeoPznYM_OnRU3r2tVlcgGiJpQBd7bSAaVNsVFB9cktXcKVQjLruWVvdkNg4H4KJm_m6T3G1mBPatpbzDG-aXVcuE_0UPdZVgPhXYVbaMa52xyOj2NyKXkTrO6sPc3nHT40cU-TcWcCDHC7cvFBWp8zdjPSHqDrOxxnYFzikB8gvdVdeYCMdvfpabDknrHezTRKIwTsVzmc6hu9m-8dg.m3u8?u=1756878715
 #EXTINF:-1 group-title="8885",AFHD
@@ -18699,5 +19658,244 @@ http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84O
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUMlVFwgKPJolUfLz83I6u33C-EZWfso2O1zPIVirs8iB7TGHwt9Kf__yl2J0wrRQXTKZLYwLq7y9YRf_4dcbG7kh0fzffGvD5eSnzJ-5gTHO5gddvhXiA0fA8MBLCQD--mM8ithI_zWWH7nTVhv3jiVecPEyOK7C9B7F1hAP-arS47Js9Z52e_FWIvSaFNbD3p-_fE-fl4MgLSUR_R1_k1g.m3u8?u=1756878715
 #EXTINF:-1 group-title="8885",CCTV-6HD
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUoxGriZAMA4X2pfVvcb-VI6jRrHYIK0WhhVnfZssGFvBiN1mgBPEgxXsgt5ThgKs1hHv7gLkHS3trNL7XTZUKThp63Tj3OkgzvI8Pq2PLs1wN6uGDok10s31ShnzAn6eOwyHC5m1PpoZ_-WKO-jFFDybC_m5wTJ8FITCORjlB1SlJPRPfFiA7p92Lb9DOykgj2_kVLS0dUdUzlW78XFNwJQ.m3u8?u=1756878715
+
+
+
+
+
+
+#EXTINF:-1 group-title="8787",AMC電影台
+http://211.23.125.95:50007/4gtv-4gtv017/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",ELTA生活旅遊
+http://211.23.125.95:50007/4gtv-live120/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",FUN4K探索娛樂
+http://211.23.125.95:50007/4gtv-live011/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",MTVLive
+http://211.23.125.95:50007/4gtv-live025/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",TVBS歡樂台
+http://211.23.125.95:50007/4gtv-4gtv068/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",TVBS歡樂台
+http://211.23.125.95:50007/li-4gtv-4gtv068/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",TVBS精采台
+http://211.23.125.95:50007/4gtv-4gtv067/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",TVBS精采台
+http://211.23.125.95:50007/li-4gtv-4gtv067/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",TVBS台劇台
+http://211.23.125.95:50007/4gtv-live088/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",TVBS新聞台
+http://211.23.125.95:50007/li-4gtv-4gtv072/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",TVBS綜藝台
+http://211.23.125.95:50007/4gtv-live087/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",TVBS
+http://211.23.125.95:50007/4gtv-4gtv073/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",TVBS
+http://211.23.125.95:50007/li-4gtv-4gtv073/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",八大精彩
+http://211.23.125.95:50007/4gtv-4gtv034/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",八大精彩
+http://211.23.125.95:50007/li-4gtv-4gtv034/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",八大綜藝
+http://211.23.125.95:50007/4gtv-4gtv039/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",半島新聞台
+http://211.23.125.95:50007/li-litv-ftv10/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",半島新聞台
+http://211.23.125.95:50007/litv-ftv10/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",采昌影劇
+http://211.23.125.95:50007/4gtv-4gtv049/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",采昌影劇
+http://211.23.125.95:50007/li-4gtv-4gtv049/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",大愛二台
+http://211.23.125.95:50007/4gtv-live106/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",東森財經新聞
+http://211.23.125.95:50007/li-4gtv-4gtv153/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",東森新聞
+http://211.23.125.95:50007/4gtv-4gtv152/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",東森新聞
+http://211.23.125.95:50007/li-4gtv-4gtv152/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",公視戲劇
+http://211.23.125.95:50007/4gtv-4gtv042/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",公視戲劇
+http://211.23.125.95:50007/li-4gtv-4gtv042/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",華視
+http://211.23.125.95:50007/4gtv-4gtv041/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",華視
+http://211.23.125.95:50007/li-4gtv-4gtv041/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",華視
+http://211.23.125.95:50007/of-4gtv-4gtv041/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",華視新聞台
+http://211.23.125.95:50007/4gtv-4gtv052/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",寰宇財經
+http://211.23.125.95:50007/li-4gtv-4gtv158/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",寰宇財經
+http://211.23.125.95:50007/of-4gtv-4gtv158/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",寰宇新聞
+http://211.23.125.95:50007/li-litv-longturn14/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",寰宇新聞
+http://211.23.125.95:50007/of-litv-longturn14/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",寰宇新聞台灣台
+http://211.23.125.95:50007/4gtv-4gtv156/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",寰宇新聞台灣台
+http://211.23.125.95:50007/li-4gtv-4gtv156/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",經典電影台
+http://211.23.125.95:50007/4gtv-live021/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",鏡電視新聞台
+http://211.23.125.95:50007/4gtv-4gtv075/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",鏡電視新聞台
+http://211.23.125.95:50007/li-4gtv-4gtv075/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天
+http://211.23.125.95:50007/4gtv-4gtv063/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天
+http://211.23.125.95:50007/li-4gtv-4gtv063/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天電影
+http://211.23.125.95:50007/4gtv-4gtv061/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天電影
+http://211.23.125.95:50007/li-4gtv-4gtv061/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天歡樂
+http://211.23.125.95:50007/4gtv-4gtv054/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天歡樂
+http://211.23.125.95:50007/li-4gtv-4gtv054/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天卡通台
+http://211.23.125.95:50007/4gtv-4gtv044/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天卡通台
+http://211.23.125.95:50007/li-4gtv-4gtv044/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天日本
+http://211.23.125.95:50007/4gtv-4gtv047/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天日本
+http://211.23.125.95:50007/li-4gtv-4gtv047/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天戲劇
+http://211.23.125.95:50007/li-4gtv-4gtv058/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天映畫
+http://211.23.125.95:50007/4gtv-4gtv055/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天映畫
+http://211.23.125.95:50007/li-4gtv-4gtv055/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天育樂
+http://211.23.125.95:50007/4gtv-4gtv062/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天育樂
+http://211.23.125.95:50007/li-4gtv-4gtv062/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天資訊
+http://211.23.125.95:50007/4gtv-4gtv065/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天資訊
+http://211.23.125.95:50007/li-4gtv-4gtv065/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖天綜合
+http://211.23.125.95:50007/4gtv-4gtv046/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖洋卡通
+http://211.23.125.95:50007/4gtv-4gtv057/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖洋卡通
+http://211.23.125.95:50007/li-4gtv-4gtv057/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",靖洋戲劇
+http://211.23.125.95:50007/4gtv-4gtv045/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華電影
+http://211.23.125.95:50007/litv-longturn03/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華經典
+http://211.23.125.95:50007/li-litv-longturn21/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華經典
+http://211.23.125.95:50007/litv-longturn21/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華卡通
+http://211.23.125.95:50007/li-litv-longturn01/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華卡通
+http://211.23.125.95:50007/litv-longturn01/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華偶像
+http://211.23.125.95:50007/li-litv-longturn12/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華偶像
+http://211.23.125.95:50007/litv-longturn12/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華日韓
+http://211.23.125.95:50007/li-litv-longturn11/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華日韓
+http://211.23.125.95:50007/litv-longturn11/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華戲劇
+http://211.23.125.95:50007/li-litv-longturn18/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華戲劇
+http://211.23.125.95:50007/litv-longturn18/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華洋片
+http://211.23.125.95:50007/li-litv-longturn02/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",龍華洋片
+http://211.23.125.95:50007/litv-longturn02/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視
+http://211.23.125.95:50007/4gtv-4gtv002/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視第一台
+http://211.23.125.95:50007/4gtv-4gtv003/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視第一台
+http://211.23.125.95:50007/li-4gtv-4gtv003/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視旅遊
+http://211.23.125.95:50007/li-litv-ftv07/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視旅遊
+http://211.23.125.95:50007/litv-ftv07/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視台灣台
+http://211.23.125.95:50007/4gtv-4gtv001/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視台灣台
+http://211.23.125.95:50007/li-4gtv-4gtv001/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視新聞
+http://211.23.125.95:50007/li-litv-ftv13/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視新聞
+http://211.23.125.95:50007/litv-ftv13/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視影劇
+http://211.23.125.95:50007/li-litv-ftv09/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視影劇
+http://211.23.125.95:50007/litv-ftv09/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視綜藝
+http://211.23.125.95:50007/4gtv-4gtv004/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",民視綜藝
+http://211.23.125.95:50007/li-4gtv-4gtv004/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",倪珍播新聞
+http://211.23.125.95:50007/nnews-zh/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",倪珍英語新聞
+http://211.23.125.95:50007/nnews-en/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",人間衛視
+http://211.23.125.95:50007/4gtv-live008/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",三立iNEWS
+http://211.23.125.95:50007/4gtv-live089/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",三立iNEWS
+http://211.23.125.95:50007/iNEWS/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",三立綜合合
+http://211.23.125.95:50007/4gtv-live207/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",台視新聞台
+http://211.23.125.95:50007/li-4gtv-4gtv051/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",臺灣戲劇台
+http://211.23.125.95:50007/li-litv-longturn22/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",臺灣戲劇台
+http://211.23.125.95:50007/litv-longturn22/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",亞洲旅遊
+http://211.23.125.95:50007/4gtv-4gtv076/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",亞洲旅遊
+http://211.23.125.95:50007/li-4gtv-4gtv076/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",亞洲旅遊
+http://211.23.125.95:50007/of-4gtv-4gtv076/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",影迷數位電影台
+http://211.23.125.95:50007/4gtv-4gtv011/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",影迷數位電影台
+http://211.23.125.95:50007/li-4gtv-4gtv011/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",影迷數位紀實台
+http://211.23.125.95:50007/li-litv-ftv15/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",影迷數位紀實台
+http://211.23.125.95:50007/litv-ftv15/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中視
+http://211.23.125.95:50007/4gtv-4gtv040/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中視
+http://211.23.125.95:50007/li-4gtv-4gtv040/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中視
+http://211.23.125.95:50007/of-4gtv-4gtv040/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中視菁采台
+http://211.23.125.95:50007/4gtv-4gtv064/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中視菁采台
+http://211.23.125.95:50007/li-4gtv-4gtv064/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中視經典台
+http://211.23.125.95:50007/4gtv-4gtv080/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中視經典台
+http://211.23.125.95:50007/li-4gtv-4gtv080/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中視新聞台
+http://211.23.125.95:50007/4gtv-4gtv074/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中視新聞台
+http://211.23.125.95:50007/of-4gtv-4gtv074/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中天新聞台
+http://211.23.125.95:50007/4gtv-4gtv009/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中天新聞台
+http://211.23.125.95:50007/li-4gtv-4gtv009/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中天新聞台
+http://211.23.125.95:50007/of-4gtv-4gtv009/index.m3u8?proxy=true
+#EXTINF:-1 group-title="8787",中天亞洲台
+http://211.23.125.95:50007/4gtv-4gtv109/index.m3u8?proxy=true
+
+
+
 
 

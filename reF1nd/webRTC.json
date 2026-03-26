@@ -1,0 +1,46 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "stun.l.google.com",
+        "stun1.l.google.com",
+        "stun2.l.google.com",
+        "stun3.l.google.com",
+        "stun4.l.google.com",
+        "stun.services.mozilla.com",
+        "stun.stunprotocol.org",
+        "stun.voipstunt.com",
+        "stun.ekiga.net",
+        "stun.ideasip.com",
+        "stun.rixtelecom.se",
+        "stun.schlund.de",
+        "stun.softjoys.com",
+        "stun.voiparound.com",
+        "stun.voipbuster.com",
+        "stun.voipstunt.com",
+        "stun1.voiceeclipse.net",
+        "stunserver.org",
+        "numb.viagenie.ca",
+        "turn.anyfirewall.com",
+        "turn.bistri.com",
+        "turn.ipvideotalk.com",
+        "turn.metrix.com",
+        "turn1.turnserver.me",
+        "turn2.turnserver.me",
+        "relay.metered.ca",
+        "global.stun.twilio.com",
+        "stun.nextcloud.com"
+      ]
+    },
+    {
+      "port": [
+        19302,
+        3478,
+        5349,
+        10000,
+        5350
+      ]
+    }
+  ]
+}

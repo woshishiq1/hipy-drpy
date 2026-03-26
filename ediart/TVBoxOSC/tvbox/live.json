@@ -6,19 +6,13 @@
 		"api": "csp_Market",
 		"searchable": 0,
 		"changeable": 0,
-		"ext": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/market.json",
-		"jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
+		"ext": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/market.json",
+		"jar": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
 	}],
-	"lives": [{
-			"name": "冰茶",
-			"type": 0,
-			"playerType": 2,
-			"url": "https://bc.188766.xyz/?url=https://live.188766.xyz&mishitong=true&mima=bingcha1130&huikan=en&json=true",
-			"ua": "bingcha/1.1 (mianfeifenxiang) "
-		},
+	"lives": [
 		{
 			"name": "Sports",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
+			"url": "https://wget.la/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/TVBoxOSC/tvbox/sports.m3u"
 		},
 		{
 			"name": "港台",
@@ -64,12 +58,12 @@
 		},
 		{
 			"name": "YouTube直播",
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtube.m3u"
+			"url": "https://wget.la/raw.githubusercontent.com/zzq1234567890/epg/refs/heads/main/youtube.m3u"
 		},
 		{
 			"name": "备用直播一",
 			"type": 0,
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/PizazzGY/TV/refs/heads/master/output/user_result.txt",
+			"url": "https://wget.la/raw.githubusercontent.com/PizazzGY/TV/refs/heads/master/output/user_result.txt",
 			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://diyp5.112114.xyz/{name}.png",
 			"timeout": 10
@@ -77,7 +71,7 @@
 		{
 			"name": "备用直播二",
 			"type": 0,
-			"url": "https://down.nigx.cn/raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/result.txt",
+			"url": "https://wget.la/raw.githubusercontent.com/Guovin/iptv-api/refs/heads/master/output/result.txt",
 			"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
 			"logo": "http://diyp5.112114.xyz/{name}.png",
 			"timeout": 10

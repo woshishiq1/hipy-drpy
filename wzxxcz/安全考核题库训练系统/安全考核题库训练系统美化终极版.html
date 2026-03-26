@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安全考核题库训练系统</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        html, body {
+            width: 100%;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f1f5f9;
+            padding: 12px;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            margin: 0 auto;
+            background: rgba(30, 41, 59, 0.98);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+        .header {
+            background: linear-gradient(90deg, #2563eb, #3b82f6);
+            padding: 20px 16px;
+            text-align: center;
+            position: relative;
+        }
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, #34d399, #fbbf24, #ec4899);
+        }
+        .header h1 {
+            font-size: clamp(18px, 5vw, 24px);
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .header p {
+            font-size: 13px;
+            opacity: 0.9;
+        }
+        .toolbar {
+            padding: 14px 12px;
+            background: rgba(40, 51, 72, 0.95);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .toolbar select {
+            padding: 10px 12px;
+            border-radius: 10px;
+            background: rgba(51, 65, 85, 0.85);
+            color: #f1f5f9;
+            border: 1px solid rgba(255,255,255,0.1);
+            flex: 1;
+            min-width: 140px;
+            font-size: 14px;
+        }
+        .btn {
+            padding: 10px 14px;
+            border-radius: 10px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            font-size: 14px;
+            transition: 0.2s;
+            white-space: nowrap;
+            min-height: 42px;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            color: #fff;
+        }
+        .btn-success {
+            background: linear-gradient(135deg, #059669, #10b981);
+            color: #fff;
+        }
+        .btn-warning {
+            background: linear-gradient(135deg, #dc2626, #ef4444);
+            color: #fff;
+        }
+        .btn-info {
+            background: linear-gradient(135deg, #0ea5e9, #38bdf8);
+            color: #fff;
+        }
+        .btn-danger {
+            background: linear-gradient(135deg, #b91c1c, #f43f5e);
+            color: #fff;
+        }
+        .btn:hover {
+            transform: translateY(-1px);
+        }
+        .btn:active {
+            transform: translateY(0);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            padding: 14px 12px;
+            gap: 10px;
+            background: rgba(30, 41, 59, 0.9);
+        }
+        .stat {
+            background: rgba(51, 65, 85, 0.5);
+            padding: 12px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .stat .label {
+            font-size: 12px;
+            color: #cbd5e1;
+            margin-bottom: 4px;
+        }
+        .stat .value {
+            font-size: clamp(16px, 4vw, 20px);
+            font-weight: 700;
+        }
+        .stat.time .value {
+            color: #fbbf24;
+        }
+        .progress-wrap {
+            padding: 0 16px;
+            margin: 8px 0;
+        }
+        .progress-bar {
+            height: 6px;
+            background: rgba(51, 65, 85, 0.4);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .progress-bar .inner {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6, #10b981);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        .progress-text {
+            text-align: center;
+            font-size: 13px;
+            color: #94a3b8;
+            margin: 6px 0 12px;
+        }
+        .question-box {
+            padding: 0 12px 16px;
+        }
+        .q-card {
+            background: rgba(51, 65, 85, 0.4);
+            border-radius: 14px;
+            padding: 20px 16px;
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+        .q-type {
+            display: inline-block;
+            background: rgba(59, 130, 246, 0.15);
+            color: #93c5fd;
+            font-size: 12px;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+        }
+        .q-text {
+            font-size: clamp(15px, 3.5vw, 17px);
+            line-height: 1.6;
+            margin-bottom: 18px;
+            font-weight: 500;
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .option {
+            background: rgba(51, 65, 85, 0.4);
+            padding: 14px 12px;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            transition: 0.2s;
+            border: 1px solid rgba(255,255,255,0.06);
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .option:hover {
+            background: rgba(71, 85, 105, 0.4);
+            transform: translateX(2px);
+        }
+        .option.selected {
+            background: rgba(59, 130, 246, 0.15);
+            border-color: #3b82f6;
+        }
+        .option.correct {
+            background: rgba(16, 185, 129, 0.15);
+            border-color: #10b981;
+        }
+        .option.incorrect {
+            background: rgba(239, 68, 68, 0.15);
+            border-color: #ef4444;
+        }
+        .option .letter {
+            width: 24px;
+            height: 24px;
+            background: rgba(71, 85, 105, 0.7);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+        .feedback {
+            padding: 12px 14px;
+            border-radius: 8px;
+            margin-bottom: 14px;
+            font-size: 14px;
+            display: none;
+            font-weight: 500;
+        }
+        .feedback.right {
+            background: rgba(16, 185, 129, 0.12);
+            color: #6ee7b7;
+        }
+        .feedback.wrong {
+            background: rgba(239, 68, 68, 0.12);
+            color: #fca5a5;
+        }
+        .answer-info {
+            background: rgba(40, 51, 72, 0.6);
+            padding: 14px;
+            border-radius: 10px;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 18px;
+            display: none;
+            color: #e2e8f0;
+        }
+        .nav {
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+        }
+        .nav .btn {
+            flex: 1;
+            padding: 12px;
+        }
+        .result-box {
+            text-align: center;
+            padding: 30px 20px;
+            display: none;
+        }
+        .result-box h2 {
+            font-size: clamp(18px, 5vw, 22px);
+            margin-bottom: 16px;
+        }
+        .score {
+            font-size: clamp(36px, 10vw, 48px);
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .score.pass {
+            color: #10b981;
+        }
+        .score.fail {
+            color: #ef4444;
+        }
+        .tip {
+            font-size: clamp(14px, 4vw, 16px);
+            margin-bottom: 20px;
+        }
+        .error-toast {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #dc2626, #ef4444);
+            color: white;
+            padding: 10px 18px;
+            border-radius: 10px;
+            font-size: 14px;
+            z-index: 999;
+            display: none;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+            max-width: 90%;
+            text-align: center;
+        }
+        #handIn{
+            display:none;
+        }
+        @media (max-width: 480px) {
+            .toolbar {
+                justify-content: stretch;
+            }
+            .toolbar select,
+            .toolbar .btn {
+                width: 100%;
+                flex: none;
+            }
+            .nav {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1><i class="fas fa-shield-alt"></i> 安全考核题库训练系统</h1>
+        <p>顺序练习 | 题型专练 | 错题巩固 | 模拟考试</p>
+    </div>
+
+    <div class="toolbar">
+        <select id="mode">
+            <option value="practice">顺序练习</option>
+            <option value="judge">判断题</option>
+            <option value="single">单选题</option>
+            <option value="multi">多选题</option>
+            <option value="exam">模拟考试</option>
+            <option value="wrong">错题练习</option>
+        </select>
+        <button class="btn btn-primary" id="start"><i class="fas fa-play"></i> 开始</button>
+        <button class="btn btn-success" id="gotoWrong"><i class="fas fa-book"></i> 错题练习</button>
+        <button class="btn btn-warning" id="clearWrong"><i class="fas fa-trash"></i> 清空错题</button>
+        <button class="btn btn-danger" id="handIn"><i class="fas fa-paper-plane"></i> 交卷</button>
+    </div>
+
+    <div class="stats">
+        <div class="stat">
+            <div class="label">总题数</div>
+            <div class="value" id="total">9</div>
+        </div>
+        <div class="stat">
+            <div class="label">错题</div>
+            <div class="value" id="wrong">0</div>
+        </div>
+        <div class="stat time">
+            <div class="label">剩余时间</div>
+            <div class="value" id="time">90:00</div>
+        </div>
+        <div class="stat">
+            <div class="label">正确率</div>
+            <div class="value" id="rate">0%</div>
+        </div>
+    </div>
+
+    <div class="progress-wrap">
+        <div class="progress-bar">
+            <div class="inner" id="bar"></div>
+        </div>
+        <div class="progress-text" id="progress">0 / 0</div>
+    </div>
+
+    <div class="error-toast" id="toast"></div>
+
+    <div class="question-box" id="qBox">
+        <div class="q-card">
+            <div class="q-type" id="qType">开始练习加载题目</div>
+            <div class="q-text" id="qText">请点击上方【开始】按钮进入练习</div>
+            <div class="feedback" id="fb"></div>
+            <div class="answer-info" id="ansInfo"></div>
+            <div class="options" id="opts"></div>
+            <div class="nav">
+                <button class="btn btn-info" id="prev">上一题</button>
+                <button class="btn btn-primary" id="next">下一题</button>
+                <button class="btn btn-success" id="submit">提交答案</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="result-box">
+        <h2><i class="fas fa-award"></i> 考试完成</h2>
+        <div class="score" id="score">0</div>
+        <div class="tip"></div>
+        <button class="btn btn-primary" id="restart">重新考试</button>
+    </div>
+</div>
+
+<script>
+// ===================== 题库（标准格式，可无限追加）=====================
+const bank = [
+    {
+        type: "判断题",
+        text: "在中华人民共和国领域内从事生产经营活动的单位的安全生产，适用《中华人民共和国安全生产法》。",
+        options: ["正确", "错误"],
+        answer: "正确"
+    },
+    {
+        type: "判断题",
+        text: "依据《中华人民共和国安全生产法》，安全生产工作无需坚持中国共产党的领导。",
+        options: ["正确", "错误"],
+        answer: "错误"
+    },
+    {
+        type: "判断题",
+        text: "依据《中华人民共和国安全生产法》，从业人员发现直接危及人身安全的紧急情况时，无权停止作业或者在采取可能的应急措施后撤离作业场所。",
+        options: ["正确", "错误"],
+        answer: "错误"
+    },
+    {
+        type: "单选题",
+        text: "依据《中华人民共和国安全生产法》，从业人员在（ ）人以下的非高危行业的生产经营单位，可以不设置安全生产管理机构，但至少应配备兼职的安全生产管理人员。",
+        options: ["A、200", "B、100", "C、500", "D、1000"],
+        answer: "B"
+    },
+    {
+        type: "单选题",
+        text: "依据《中华人民共和国安全生产法》，属于国家规定的高危行业、领域的生产经营单位，应当投保（ ）。",
+        options: ["A、产品责任保险", "B、安全生产责任保险", "C、火灾公众责任保险", "D、环境污染责任保险"],
+        answer: "B"
+    },
+    {
+        type: "单选题",
+        text: "依据《中华人民共和国安全生产法》，生产经营单位新建、改建、扩建工程项目的（ ），必须与主体工程同时设计、同时施工、同时投入生产和使用。",
+        options: ["A、生活设施", "B、福利设施", "C、安全设施", "D、工作设施"],
+        answer: "C"
+    },
+    {
+        type: "多选题",
+        text: "依据《中华人民共和国道路交通安全法》，申请机动车登记，应当提交以下证明、凭证：（ ）。",
+        options: [
+          "A、机动车所有人的身份证明",
+          "B、机动车来历证明",
+          "C、机动车整车出厂合格证明或者进口机动车进口凭证",
+          "D、车辆购置税的完税证明或者免税凭证",
+          "E、法律、行政法规规定应当在机动车登记时提交的其他证明、凭证"
+        ],
+        answer: "ABCDE"
+    },
+    {
+        type: "多选题",
+        text: "依据《中华人民共和国道路交通安全法》，有下列情形之一的，应当办理相应的登记：（ ）。",
+        options: [
+          "A、机动车所有权发生转移的",
+          "B、机动车登记内容变更的",
+          "C、机动车用作抵押的",
+          "D、机动车报废的",
+          "E、机动车损坏的"
+        ],
+        answer: "ABCD"
+    },
+    {
+        type: "多选题",
+        text: "依据《中华人民共和国道路交通安全法实施条例》，车道信号灯表示：（ ）。",
+        options: [
+          "A、绿色箭头灯亮时，准许本车道车辆按指示方向通行",
+          "B、黄色灯亮时，禁止所有车道车辆通行",
+          "C、黄色灯亮时，禁止本车道车辆通行",
+          "D、红色叉形灯或者箭头灯亮时，禁止本车道车辆通行",
+          "E、红色叉形灯或者箭头灯亮时，禁止所有车道车辆通行"
+        ],
+        answer: "AD"
+    },
+];
+// ======================================================================
+
+let currentList = [...bank];
+let idx = 0;
+let wrongList = JSON.parse(localStorage.getItem('wrongs')) || [];
+let selected = [];
+let mode = 'practice';
+let isExam = false;
+let examList = [];
+let examAnswers = [];
+let timer = null;
+let timeLeft = 90 * 60;
+let totalDone = 0;
+let totalRight = 0;
+let submittedQuestions = new Set();
+
+const $ = id => document.getElementById(id);
+
+function saveProgress() {
+    const saved = JSON.parse(localStorage.getItem('studyProgress') || '{}');
+    const data = {
+        practiceIdx: saved.practiceIdx ?? 0,
+        judgeIdx: saved.judgeIdx ?? 0,
+        singleIdx: saved.singleIdx ?? 0,
+        multiIdx: saved.multiIdx ?? 0,
+        examIdx: idx,
+        examList,
+        examAnswers,
+        timeLeft,
+        wrongList,
+        totalDone,
+        totalRight,
+        lastMode: mode,
+        submittedQuestions: Array.from(submittedQuestions)
+    };
+    if (mode === 'practice') data.practiceIdx = idx;
+    if (mode === 'judge') data.judgeIdx = idx;
+    if (mode === 'single') data.singleIdx = idx;
+    if (mode === 'multi') data.multiIdx = idx;
+    localStorage.setItem('studyProgress', JSON.stringify(data));
+}
+
+function loadProgress() {
+    const data = localStorage.getItem('studyProgress');
+    if (!data) return;
+    const p = JSON.parse(data);
+    wrongList = p.wrongList ?? [];
+    totalDone = p.totalDone ?? 0;
+    totalRight = p.totalRight ?? 0;
+    submittedQuestions = new Set(p.submittedQuestions || []);
+}
+
+function renderQuestion() {
+    if (!currentList.length) return;
+    const q = currentList[idx];
+    $('qType').textContent = q.type;
+    $('qText').textContent = (idx + 1) + '. ' + q.text;
+    $('fb').style.display = 'none';
+    $('ansInfo').style.display = 'none';
+    selected = [];
+
+    let html = '';
+    q.options.forEach((opt, i) => {
+        html += `<div class="option" data-i="${i}">
+            <div class="letter">${String.fromCharCode(65 + i)}</div>
+            <div class="txt">${opt}</div>
+        </div>`;
+    });
+    $('opts').innerHTML = html;
+
+    if (isExam && Array.isArray(examAnswers[idx])) {
+        selected = [...examAnswers[idx]];
+        $('opts').querySelectorAll('.option').forEach((el, i) => {
+            if (selected.includes(i)) el.classList.add('selected');
+        });
+    }
+
+    if (submittedQuestions.has(idx) && !isExam) {
+        const correct = getCorrectIndices(q);
+        $('opts').querySelectorAll('.option').forEach((el, i) => {
+            el.classList.remove('selected', 'correct', 'incorrect');
+            if (correct.includes(i)) el.classList.add('correct');
+            if (selected.includes(i) && !correct.includes(i)) el.classList.add('incorrect');
+        });
+    }
+
+    $('opts').querySelectorAll('.option').forEach(el => {
+        el.onclick = () => {
+            const q = currentList[idx];
+            if (q.type === '多选题') {
+                const i = +el.dataset.i;
+                if (selected.includes(i)) {
+                    selected = selected.filter(x => x !== i);
+                    el.classList.remove('selected');
+                } else {
+                    selected.push(i);
+                    el.classList.add('selected');
+                }
+            } else {
+                selected = [+el.dataset.i];
+                $('opts').querySelectorAll('.option').forEach(x => x.classList.remove('selected'));
+                el.classList.add('selected');
+            }
+            if (isExam) examAnswers[idx] = [...selected];
+        };
+    });
+    updateProgress();
+}
+
+function updateProgress() {
+    const total = currentList.length;
+    $('progress').textContent = (idx + 1) + ' / ' + total;
+    $('bar').style.width = ((idx + 1) / total * 100) + '%';
+    $('wrong').textContent = wrongList.length;
+    const rate = totalDone ? Math.round(totalRight / totalDone * 100) : 0;
+    $('rate').textContent = rate + '%';
+}
+
+function submit() {
+    if (selected.length === 0) {
+        showToast('请选择答案');
+        return;
+    }
+
+    if (isExam) {
+        examAnswers[idx] = [...selected];
+        submittedQuestions.add(idx);
+        saveProgress();
+        showToast('答案已保存，可随时修改');
+        renderQuestion();
+        return;
+    }
+
+    const q = currentList[idx];
+    const correct = getCorrectIndices(q);
+    const ok = isRight(selected, correct);
+    totalDone++;
+    if (ok) totalRight++;
+
+    if (ok) {
+        $('fb').textContent = '✅ 回答正确';
+        $('fb').className = 'feedback right';
+        const realIdx = bank.findIndex(x => x.text === q.text && x.type === q.type);
+        if (realIdx !== -1) wrongList = wrongList.filter(i => i !== realIdx);
+    } else {
+        $('fb').textContent = '❌ 回答错误';
+        $('fb').className = 'feedback wrong';
+        const realIdx = bank.findIndex(x => x.text === q.text && x.type === q.type);
+        if (realIdx !== -1 && !wrongList.includes(realIdx)) wrongList.push(realIdx);
+    }
+
+    localStorage.setItem('wrongs', JSON.stringify(wrongList));
+    $('fb').style.display = 'block';
+    submittedQuestions.add(idx);
+
+    $('opts').querySelectorAll('.option').forEach((el, i) => {
+        el.classList.remove('selected', 'correct', 'incorrect');
+        if (correct.includes(i)) el.classList.add('correct');
+        if (selected.includes(i) && !correct.includes(i)) el.classList.add('incorrect');
+    });
+
+    $('ansInfo').innerHTML = `<strong>正确答案：</strong>${q.answer}`;
+    $('ansInfo').style.display = 'block';
+    saveProgress();
+    updateProgress();
+}
+
+function getCorrectIndices(q) {
+    if (q.type === '判断题') return q.answer === '正确' ? [0] : [1];
+    if (q.type === '单选题') return [q.answer.charCodeAt(0) - 65];
+    if (q.type === '多选题') return q.answer.split('').map(c => c.charCodeAt(0) - 65);
+    return [];
+}
+
+function isRight(user, correct) {
+    if (user.length !== correct.length) return false;
+    return user.sort().join(',') === correct.sort().join(',');
+}
+
+function loadMode(m) {
+    mode = m;
+    isExam = false;
+    clearInterval(timer);
+    $('time').textContent = '90:00';
+    document.querySelector('.result-box').style.display = 'none';
+    $('qBox').style.display = 'block';
+    $('handIn').style.display = 'none';
+    const data = JSON.parse(localStorage.getItem('studyProgress') || '{}');
+
+    if (m === 'wrong') {
+        if (!wrongList || wrongList.length === 0) {
+            showToast('错题本为空');
+            $('mode').value = 'practice';
+            loadMode('practice');
+            return;
+        }
+        currentList = wrongList.map(i => bank[i]);
+        idx = 0;
+        renderQuestion();
+        return;
+    }
+
+    if (m === 'exam') {
+        startExam();
+        return;
+    }
+
+    if (m === 'judge') currentList = bank.filter(x => x.type === '判断题');
+    else if (m === 'single') currentList = bank.filter(x => x.type === '单选题');
+    else if (m === 'multi') currentList = bank.filter(x => x.type === '多选题');
+    else currentList = [...bank];
+
+    idx = data[m + 'Idx'] ?? 0;
+    if (idx >= currentList.length) idx = currentList.length - 1;
+    renderQuestion();
+    saveProgress();
+}
+
+function resumeExam() {
+    const data = JSON.parse(localStorage.getItem('studyProgress') || '{}');
+    isExam = true;
+    mode = 'exam';
+    examList = data.examList ?? [];
+    examAnswers = data.examAnswers ?? [];
+    timeLeft = data.timeLeft ?? 90 * 60;
+    idx = data.examIdx ?? 0;
+    submittedQuestions = new Set(data.submittedQuestions || []);
+    currentList = examList;
+    $('handIn').style.display = 'inline-flex';
+    document.querySelector('.result-box').style.display = 'none';
+    $('qBox').style.display = 'block';
+    renderQuestion();
+    startTimer();
+}
+
+function startExam() {
+    const data = JSON.parse(localStorage.getItem('studyProgress') || '{}');
+    if (data.examList?.length) {
+        resumeExam();
+        return;
+    }
+    isExam = true;
+    mode = 'exam';
+    timeLeft = 90 * 60;
+    idx = 0;
+    submittedQuestions.clear();
+    const shuffled = [...bank].sort(() => Math.random() - 0.5);
+    examList = [];
+    for (let i = 0; i < 50; i++) examList.push(shuffled[i % shuffled.length]);
+    examAnswers = Array(examList.length).fill(null);
+    currentList = examList;
+    $('handIn').style.display = 'inline-flex';
+    document.querySelector('.result-box').style.display = 'none';
+    $('qBox').style.display = 'block';
+    renderQuestion();
+    startTimer();
+    saveProgress();
+}
+
+function startTimer() {
+    clearInterval(timer);
+    timer = setInterval(() => {
+        timeLeft--;
+        const m = String(Math.floor(timeLeft / 60)).padStart(2, '0');
+        const s = String(timeLeft % 60).padStart(2, '0');
+        $('time').textContent = `${m}:${s}`;
+        saveProgress();
+        if (timeLeft <= 0) {
+            clearInterval(timer);
+            handIn();
+        }
+    }, 1000);
+}
+
+function handIn() {
+    if(!confirm('确定要交卷吗？提交后无法修改答案！')) return;
+    isExam = false;
+    clearInterval(timer);
+    localStorage.removeItem('studyProgress');
+    submittedQuestions.clear();
+    $('qBox').style.display = 'none';
+    document.querySelector('.result-box').style.display = 'block';
+    $('handIn').style.display = 'none';
+
+    let correctCount = 0;
+    examList.forEach((q, i) => {
+        const user = examAnswers[i] ?? [];
+        if (isRight(user, getCorrectIndices(q))) correctCount++;
+    });
+
+    const score = Math.round((correctCount / examList.length) * 100);
+    const pass = score >= 80;
+    $('score').textContent = score;
+    $('score').className = 'score ' + (pass ? 'pass' : 'fail');
+    document.querySelector('.tip').textContent = pass ? '✅ 考试合格' : '❌ 考试不合格';
+}
+
+function showToast(msg) {
+    const t = $('toast');
+    t.textContent = msg;
+    t.style.display = 'block';
+    setTimeout(() => t.style.display = 'none', 2000);
+}
+
+$('next').onclick = () => {
+    if (idx < currentList.length - 1) {
+        idx++;
+        renderQuestion();
+        saveProgress();
+    } else {
+        if (mode === 'wrong') {
+            showToast('错题已全部完成，返回顺序练习');
+            $('mode').value = 'practice';
+            loadMode('practice');
+        }
+    }
+};
+
+$('prev').onclick = () => {
+    if (idx > 0) {
+        idx--;
+        renderQuestion();
+        saveProgress();
+    }
+};
+
+$('start').onclick = () => {
+    const m = $('mode').value;
+    m === 'exam' ? startExam() : loadMode(m);
+};
+
+$('gotoWrong').onclick = () => {
+    $('mode').value = 'wrong';
+    loadMode('wrong');
+};
+
+$('clearWrong').onclick = () => {
+    if (!confirm('确定清空错题？')) return;
+    wrongList = [];
+    localStorage.setItem('wrongs', '[]');
+    saveProgress();
+    updateProgress();
+    showToast('已清空');
+};
+
+$('submit').onclick = submit;
+$('restart').onclick = startExam;
+$('handIn').onclick = handIn;
+
+window.onload = () => {
+    loadProgress();
+    updateProgress();
+    const data = JSON.parse(localStorage.getItem('studyProgress') || '{}');
+    const lastMode = data.lastMode || 'practice';
+    $('mode').value = lastMode;
+    if (lastMode === 'exam' && data.examList?.length) {
+        resumeExam();
+    } else {
+        loadMode(lastMode);
+    }
+};
+</script>
+</body>
+</html>

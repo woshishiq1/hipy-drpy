@@ -247,6 +247,13 @@
     }, 
 
     {
+      "name": "543",
+      "url": "http://66.103.204.107/list.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+    {
       "name": "台灣酒店",
       "url": "https://raw.githubusercontent.com/Hsudavid/app/main/tw1.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",

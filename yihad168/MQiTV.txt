@@ -69,6 +69,32 @@
       "url": "https://raw.githubusercontent.com/yewengood/kzb/refs/heads/main/zhtv.txt"
     },
 
+
+    {
+      "name": "臨時1線",
+      "url": "https://live.catvod.com/live.php?token=39664e86c43ba8c1bd95680a1c427c02c732bd1c2df2a6b70eb8b64fb282df3b",
+      "User-Agent": "PharosTVPlayer",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+    {
+      "name": "543_1",
+      "url": "http://iptv543.com/543.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+
+    },
+
+    {
+      "name": "543",
+      "url": "http://66.103.204.107/list.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+
+    },
+
+
        {
             "name": "🦄地方直播 TG:@usfgrjk",
             "type": 0,
@@ -618,8 +644,17 @@
     {
       "name": "MQiTV",
       "api": "csp_MQiTV",
-      "jar": "https://5413.kstore.space/DM/jar/fm.jar",
-      "ext": "https://59.125.210.231:4433"
+      "jar": "https://github.com/LinWei630718/iptvtw/raw/refs/heads/main/jar/fmMQiTV.jar",
+      "ext": [
+        {
+          "name": "59",
+          "url": "https://59.125.210.231:4433"
+        },
+        {
+          "name": "60",
+          "url": "https://60.248.127.232:4433"
+        }
+      ]
     },
 
  {

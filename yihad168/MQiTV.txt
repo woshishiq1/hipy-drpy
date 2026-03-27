@@ -618,7 +618,7 @@
     {
       "name": "MQiTV",
       "api": "csp_MQiTV",
-      "jar": "https://10526.kstore.vip/tv.jar",
+      "jar": "https://5413.kstore.space/DM/jar/fm.jar",
       "ext": "https://59.125.210.231:4433"
     },
 
@@ -750,6 +750,35 @@
         }
       ]
     },
+
+ {
+      "name": "💔MQitv源",
+      "api": "csp_MQiTV",
+	  "jar": "https://raw.githubusercontent.com/ffmking/tv1/refs/heads/main/mtv.jar",
+      "ext": [
+        {
+          "name": "59",
+          "url": "https://59.125.210.231:4433"
+        },
+        {
+          "name": "211.23.114.106",
+          "url": "http://211.23.114.106:1888"
+        },
+        {
+          "name": "220.134.196.147",
+          "url": "http://220.134.196.147:1888"
+        },
+        {
+          "name": "60.249.93.7:1888",
+          "url": "http://220.134.196.147:1888"
+        },
+        {
+          "name": "60",
+          "url": "https://60.248.127.232:4433"
+        }
+      ]
+    },
+
 
  {
    "name": "🔞🍅AVmovie50302💔",

@@ -284,8 +284,300 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
 #EXTINF:-1 group-title="JAPAN TV" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tbs-news-jp.png",TBS News
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
 
+
+
+
+
 #########################################
+            JAPAN 2
+#########################################
+
+
+#EXTM3U url-tvg="https://epg.freejptv.com/jp.xml,https://animenosekai.github.io/japanterebi-xmltv/guide.xml" tvg-shift=0 m3uautoload=1
+
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joakdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe0-011-400x400.png",NHK G
+https://nl.utako.moe/NHK_G/index.m3u8
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joabdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe1-021-400x400.png",NHK E
+https://nl.utako.moe/NHK_E/index.m3u8
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joaxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe2-041-400x400.png",NTV
+https://nl.utako.moe/Nippon_TV/index.m3u8
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="jorxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe3-061-400x400.png",TBS
+https://nl.utako.moe/TBS/index.m3u8
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="jocxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe4-081-400x400.png",Fuji TV
+https://nl.utako.moe/Fuji_TV/index.m3u8
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joexdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe5-051-400x400.png",TV Asahi
+https://nl.utako.moe/TV_Asahi/index.m3u8
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="jotxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe6-071-400x400.png",TV Tokyo
+https://nl.utako.moe/TV_Tokyo/index.m3u8
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="tokyomx1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-091-400x400.png",Tokyo MX1
+https://nl.utako.moe/Tokyo_MX1/index.m3u8
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="tokyomx2.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-091-400x400.png",Tokyo MX2
+https://nl.utako.moe/Tokyo_MX2/index.m3u8
+
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joakdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe0-011-400x400.png",NHK G HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd01&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732940788&sign=a5f2e076835f1c0a3f970882613c32ce4b6d2126133279419a221a531d760ee0
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joabdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe1-021-400x400.png",NHK E HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd02&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732940791&sign=cc41d45217b98efac2f256e4da0e95b6f95a7711b6611bf84fa1db33f1c713e6
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joaxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe2-041-400x400.png",NTV HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd03&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732940795&sign=824144ed4d7e062958354cb3ee04116d3496e29cfbc35dc4b2fe0f0652c74412
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="jorxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe3-061-400x400.png",TBS HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd04&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732772990&sign=8ecc3509f470e277a9cf0a58cb158c3d8b78a7ebd6867d4b4513bdf2d59ac881
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="jocxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe4-081-400x400.png",Fuji TV HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd05&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732772982&sign=f8e3e33db61c6083148cfcc483c5b7a3cb8e9a78062163d87205a7c3c834fad6
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joexdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe5-051-400x400.png",TV Asahi HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd06&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732772975&sign=4ce4ab2111cc1a2e422e2f9c63f9b5995262c3c5c6d6fc5f485e04b0d0321795
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="jotxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe6-071-400x400.png",TV Tokyo HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd07&isp=15&bind=0&uin=201829&playseek=0&timestamp=1731880947&sign=6c38a87b1200a510db9781325f615bdd0509c8be5bd3ea38e91cbd697d0e8fbf
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="tokyomx1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-091-400x400.png",Tokyo MX1 HD (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=hdgd08&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732772970&sign=498184efda0887f8d4bf7c9db688072421a95f0013c34712505ac434f7245db5
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joakdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe0-011-400x400.png",NHK G (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd01&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732940788&sign=a5f2e076835f1c0a3f970882613c32ce4b6d2126133279419a221a531d760ee0
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joabdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe1-021-400x400.png",NHK E (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd02&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732940791&sign=cc41d45217b98efac2f256e4da0e95b6f95a7711b6611bf84fa1db33f1c713e6
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joaxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe2-041-400x400.png",NTV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd03&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732940795&sign=824144ed4d7e062958354cb3ee04116d3496e29cfbc35dc4b2fe0f0652c74412
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="jorxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe3-061-400x400.png",TBS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732772990&sign=8ecc3509f470e277a9cf0a58cb158c3d8b78a7ebd6867d4b4513bdf2d59ac881
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="jocxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe4-081-400x400.png",Fuji TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd05&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732772982&sign=f8e3e33db61c6083148cfcc483c5b7a3cb8e9a78062163d87205a7c3c834fad6
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="joexdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe5-051-400x400.png",TV Asahi (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd06&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732772975&sign=4ce4ab2111cc1a2e422e2f9c63f9b5995262c3c5c6d6fc5f485e04b0d0321795
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="jotxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe6-071-400x400.png",TV Tokyo (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd07&isp=15&bind=0&uin=201829&playseek=0&timestamp=1731880947&sign=6c38a87b1200a510db9781325f615bdd0509c8be5bd3ea38e91cbd697d0e8fbf
+#EXTINF:-1 group-title="JP Tokyo" tvg-id="tokyomx1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-091-400x400.png",Tokyo MX1 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08&isp=15&bind=0&uin=201829&playseek=0&timestamp=1732772970&sign=498184efda0887f8d4bf7c9db688072421a95f0013c34712505ac434f7245db5
+
+#EXTINF:-1 group-title="JP BS" tvg-id="nhkbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-101-400x400.png",NHK BS
+https://nl.utako.moe/NHK_BS/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="bsnippontv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-141-400x400.png",BS NTV
+https://nl.utako.moe/bsntv/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="bsasahi.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-151-400x400.png",BS Asahi
+https://nl.utako.moe/bsasahi/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="bstbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png",BS TBS
+https://nl.utako.moe/bstbs/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="bstvtokyo.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-171-400x400.png",BS TV Tokyo
+https://nl.utako.moe/bstvtokyo/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="bsfuji.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-181-400x400.png",BS Fuji
+https://nl.utako.moe/bsfuji/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="bs10_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-200-400x400.png",BS 10
+https://nl.utako.moe/bs10/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="bs11.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-211-400x400.png",BS 11
+https://nl.utako.moe/BS11/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="bs12.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-222-400x400.png",BS 12
+https://nl.utako.moe/bs12/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="nhkbsp4k.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-000b-101-400x400.png",NHK BS4K
+https://nl.utako.moe/bsp4k/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="wowowprime.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-191-400x400.png",WOWOW Prime
+https://nl.utako.moe/wprime/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="wowowcinema.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-193-400x400.png",WOWOW Cinema
+https://nl.utako.moe/wcinema/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="wowowlive.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-192-400x400.png",WOWOW Live
+https://nl.utako.moe/wlive/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="bs10プレミアム_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-201-400x400.png",BS 10 Premium
+https://nl.utako.moe/bs10_star/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="jsports1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-168-400x400.png",JSport 1
+https://nl.utako.moe/js1/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="jsports2.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-169-400x400.png",JSport 2
+https://nl.utako.moe/js2/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="jsports3.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-158-400x400.png",JSport 3
+https://nl.utako.moe/js3/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="jsports4.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-132-400x400.png",JSport 4
+https://nl.utako.moe/js4/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="greenchannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-164-400x400.png",Green Channel
+https://nl.utako.moe/green/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="animaxasia.sg@ japan" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-149-400x400.png",Animax
+https://nl.utako.moe/Animax/index.m3u8
+#EXTINF:-1 group-title="JP BS" tvg-id="nihoneigasenmonchannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-125-400x400.png",Nihon Eiga Senmon
+https://nl.utako.moe/nihoneiga/index.m3u8
+#EXTINF:-1 group-title="CS" tvg-id="skya.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-147-400x400.png",Sky A
+https://nl.utako.moe/skya/index.m3u8
+
+#EXTINF:-1 group-title="JP BS" tvg-id="nhkbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-101-400x400.png",NHK BS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11
+#EXTINF:-1 group-title="JP BS" tvg-id="bsnippontv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-141-400x400.png",BS NTV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02
+#EXTINF:-1 group-title="JP BS" tvg-id="bsasahi.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-151-400x400.png",BS Asahi (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03
+#EXTINF:-1 group-title="JP BS" tvg-id="bstbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png",BS TBS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04
+#EXTINF:-1 group-title="JP BS" tvg-id="bstvtokyo.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-171-400x400.png",BS TV Tokyo (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05
+#EXTINF:-1 group-title="JP BS" tvg-id="bsfuji.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-181-400x400.png",BS Fuji (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs06
+#EXTINF:-1 group-title="JP BS" tvg-id="nhkbsp4k.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-000b-101-400x400.png",NHK BS4K (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01
+#EXTINF:-1 group-title="JP BS" tvg-id="wowowprime.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-191-400x400.png",WOWOW Prime (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs12
+#EXTINF:-1 group-title="JP BS" tvg-id="wowowcinema.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-193-400x400.png",WOWOW Cinema (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
+#EXTINF:-1 group-title="JP BS" tvg-id="wowowlive.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-192-400x400.png",WOWOW Live (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20
+#EXTINF:-1 group-title="JP BS" tvg-id="bs10プレミアム_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-201-400x400.png",BS 10 Premium (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08
+#EXTINF:-1 group-title="JP BS" tvg-id="jsports1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-168-400x400.png",JSport 1 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs18
+#EXTINF:-1 group-title="JP BS" tvg-id="jsports2.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-169-400x400.png",JSport 2 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs19
+#EXTINF:-1 group-title="JP BS" tvg-id="jsports3.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-158-400x400.png",JSport 3 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs21
+#EXTINF:-1 group-title="JP BS" tvg-id="jsports4.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-132-400x400.png",JSport 4 (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs22
+#EXTINF:-1 group-title="JP BS" tvg-id="greenchannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-164-400x400.png",Green Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs14
+#EXTINF:-1 group-title="JP BS" tvg-id="animaxasia.sg@japan" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-149-400x400.png",Animax (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs15
+#EXTINF:-1 group-title="JP BS" tvg-id="nihoneigasenmonchannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-125-400x400.png",Nihon Eiga Senmon (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs23
+#EXTINF:-1 group-title="JP BS" tvg-id="skya.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-147-400x400.png",Sky A (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01
+#EXTINF:-1 group-title="JP BS" tvg-id="fishingvision.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-145-400x400.png", Fishing Vision (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs25
+#EXTINF:-1 group-title="JP BS" tvg-id="disneychannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-183-400x400.png", Disney Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs24 
+#EXTINF:-1 group-title="JP BS" tvg-id="j-com-bs_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-103-400x400.png", Jcom BS (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs31
+
+#EXTINF:-1 group-title="JP CS" tvg-id="gaorasports.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-146-400x400.png",Gaora Sports
+https://nl.utako.moe/gaora/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="atx.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-182-400x400.png",AT-X
+https://nl.utako.moe/AT-X/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="spaceshowertv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-156-400x400.png",Space Shower TV
+https://nl.utako.moe/spaceshower/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="mtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-150-400x400.png",MTV
+https://nl.utako.moe/mtv/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="kayopops.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-175-400x400.png",Kayo Pops
+https://nl.utako.moe/kayopops/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="kidsstation.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-163-400x400.png",Kids Station
+https://nl.utako.moe/kids_station/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="disneychannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-183-400x400.png",Disney Channel
+https://nl.utako.moe/disneychan/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="cartoonnetwork.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-171-400x400.png",Cartoon Network Japan
+https://nl.utako.moe/cartoon_network/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="nittelegplus.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-166-400x400.png",NTV G+
+https://nl.utako.moe/ntvgplus/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="familygekijyo.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-157-400x400.png",Family Gekijo
+https://nl.utako.moe/familygeki/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="mondotv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-160-400x400.png",Mondo TV
+https://nl.utako.moe/mondo/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="musicontv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/m_641.gif",Music On TV
+https://nl.utako.moe/musicon/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="mnet.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-181-400x400.png",Mnet
+https://nl.utako.moe/mnet/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="golfnetwork.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-167-400x400.png",Golf Network
+https://nl.utako.moe/golf_network/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="thecinema.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-133-400x400.png",The Cinema
+https://nl.utako.moe/the_cinema/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="tbschannel1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-144-400x400.png",TBS Channel 1
+https://nl.utako.moe/tbsch1/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="tbschannel2.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-176-400x400.png",TBS Channel 2
+https://nl.utako.moe/tbsch2/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="tvasahichannel1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-136-400x400.png",TV Asahi Channel 1
+https://nl.utako.moe/ex_ch1/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="tvasahichannel2.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-188-400x400.png",TV Asahi Channel 2
+https://nl.utako.moe/ex_ch2/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="fujitvone.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-138-400x400.png",Fuji TV One
+https://nl.utako.moe/fuji_one/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="fujitvtwo.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-139-400x400.png",Fuji TV Two
+https://nl.utako.moe/fuji_two/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="fujitvnext.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-137-400x400.png",Fuji TV Next
+https://nl.utako.moe/fuji_next/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="channelneco.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-151-400x400.png",Neco Channel
+https://nl.utako.moe/neco/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="dlife.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-131-400x400.png",Dlife
+https://nl.utako.moe/dlife/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="toeichannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-173-400x400.png",Toei Channel
+https://nl.utako.moe/toei/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="fightingtvsamurai.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-128-400x400.png",Fighting TV Samurai
+https://nl.utako.moe/fighting_tv/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="entermeitele.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-187-400x400.png",Entermei Tele
+https://nl.utako.moe/entermei_tele/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="sportsliveplus.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-106-400x400.png",Sport Live Plus
+https://nl.utako.moe/sport_live_plus/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="homedramachannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-141-400x400.png",Home Drama Channel
+https://nl.utako.moe/homedrama/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="channelginga.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-135-400x400.png",Channel Ginga
+https://nl.utako.moe/gingach/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="tabichannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-143-400x400.png",Tabi Channel
+https://nl.utako.moe/tabi/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="pigoo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/m_663.gif",Pigoo (NSFW)
+https://nl.utako.moe/pigoo/index.m3u8
+#EXTINF:-1 group-title="JP CS" tvg-id="vparadise.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-195-400x400.png",V Paradise (NSFW)
+https://nl.utako.moe/v_paradise/index.m3u8
+
+#EXTINF:-1 group-title="JP CS" tvg-id="jidaigekisenmonchannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-159-400x400.png", Jidaigeki Senmon (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs04
+#EXTINF:-1 group-title="JP CS" tvg-id="toeichannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-173-400x400.png", Toei Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs27
+#EXTINF:-1 group-title="JP CS" tvg-id="eiseigekijo.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-127-400x400.png", Eisei Gekijo (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs22
+#EXTINF:-1 group-title="JP CS" tvg-id="familygekijyo.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-157-400x400.png", Family Gekijo (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs20
+#EXTINF:-1 group-title="JP CS" tvg-id="movieplus.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-122-400x400.png", Movie Plus (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14
+#EXTINF:-1 group-title="JP CS" tvg-id="homedramachannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-141-400x400.png", Home Drama Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs05
+#EXTINF:-1 group-title="JP CS" tvg-id="tabichannel.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-143-400x400.png", Tabi Channel (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs12
+#EXTINF:-1 group-title="JP CS" tvg-id="fujitvnext.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-137-400x400.png", Fuji TV Next (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs26
+#EXTINF:-1 group-title="JP CS" tvg-id="skya.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-147-400x400.png", Sky A  (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs01
+#EXTINF:-1 group-title="JP CS" tvg-id="gaorasports.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-146-400x400.png", Gaora Sports (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs17
+#EXTINF:-1 group-title="JP CS" tvg-id="golfnetwork.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-167-400x400.png", Golf Network (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03
+#EXTINF:-1 group-title="JP CS" tvg-id="nittelegplus.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-166-400x400.png", NTV G+ (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs02
+#EXTINF:-1 group-title="JP CS" tvg-id="mondotv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-160-400x400.png", Mondo TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs21
+#EXTINF:-1 group-title="JP CS" tvg-id="channelginga.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-135-400x400.png", Channel Ginga (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs29
+#EXTINF:-1 group-title="JP CS" tvg-id="spaceshowertv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-156-400x400.png", Space Shower TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs26
+#EXTINF:-1 group-title="JP CS" tvg-id="musicjapantv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/m_639.gif", Music Japan TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06
+#EXTINF:-1 group-title="JP CS" tvg-id="kayopops.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-175-400x400.png", Kayo Pops (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs13
+#EXTINF:-1 group-title="JP CS" tvg-id="mtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-150-400x400.png", MTV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs18
+#EXTINF:-1 group-title="JP CS" tvg-id="lalatv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-123-400x400.png", LaLa TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs19
+#EXTINF:-1 group-title="JP CS" tvg-id="takarazukaskystage.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-154-400x400.png", Takarazuka Sky Stage (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs28
+#EXTINF:-1 group-title="JP CS" tvg-id="kidsstation.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-163-400x400.png", Kids Staton TV (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07
+#EXTINF:-1 group-title="JP CS" tvg-id="cartoonnetwork.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-171-400x400.png", Cartoon Network (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs25
+#EXTINF:-1 group-title="JP CS" tvg-id="nationalgeographic.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-142-400x400.png", National Geographic Japan (Primehome) 
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs10
+#EXTINF:-1 group-title="JP CS" tvg-id="disneyjunior.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-130-400x400.png", Disney Junior (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs23
+#EXTINF:-1 group-title="JP CS" tvg-id="discoverychannelsoutheastasia.sg@japan" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-121-400x400.png", Discovery Channel (Primehome)  
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs08
+#EXTINF:-1 group-title="JP CS" tvg-id="animalplanet.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-186-400x400.png", Animal Planet (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs24
+#EXTINF:-1 group-title="JP CS" tvg-id="history.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-134-400x400.png", History (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs09
+#EXTINF:-1 group-title="JP CS" tvg-id="cnnj.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-180-400x400.png", CNNj (Primehome) 
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs16
+#EXTINF:-1 group-title="JP CS" tvg-id="bbcnews.uk@asiapacific" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-257-400x400.png", BBC News (Primehome)  
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs15
+#EXTINF:-1 group-title="JP CS" tvg-id="tbsnewscs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-152-400x400.png", TBS News (Primehome)
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
+
+
+
+
+
+#########################################
+
 http://protv.fun/get.php?username=4cafe94867&password=48a12d348c&type=m3u_plus
+
+
+http://proxy.nr3.xyz:80/get.php?username=max289&password=991374465&type=m3u_plus
+http://2k.tstvs.com:80/get.php?username=691eba43db76f&password=d07ee0f057&type=m3u_plus
+
+
 
 
 
@@ -470,9 +762,6 @@ https://tv.iill.top/api/Hollywood-Movie/index.m3u8
 https://tv.iill.top/api/LSTIME-Movie/index.m3u8
 #EXTINF:-1 group-title="台灣",年代新聞「Relay」
 https://tv.iill.top/api/Era-News/index.m3u8
-
-
-
 
 
 #EXTINF:-1 group-title="台灣",龍華偶像「ofiii」
@@ -7767,8 +8056,796 @@ http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74204
 
 
 
+#########################################
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX TRANS: GENDER X FILMS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX TRANS: GENDER X FILMS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138813
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX TRANS: TRANS ANGELS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX TRANS: TRANS ANGELS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138814
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX TRANS: TRANS EROTICA" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX TRANS: TRANS EROTICA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138815
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: 1111 CUSTOMS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: 1111 CUSTOMS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163472
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: A GIRL KNOWS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: A GIRL KNOWS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138816
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: ADULT TIME" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: ADULT TIME
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138817
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: ALEX LEGEND" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: ALEX LEGEND
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163473
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: ALL BLACK X" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: ALL BLACK X
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138818
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: ALL GROUP SEX" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: ALL GROUP SEX
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138819
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: AMATEUR EURO" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: AMATEUR EURO
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138820
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: ANALIZED" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: ANALIZED
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138821
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: ASIAN FOOTJOB" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: ASIAN FOOTJOB
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163474
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: ATK GIRLFRIENDS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: ATK GIRLFRIENDS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163475
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: AV TAXI" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: AV TAXI
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163476
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BABES" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BABES
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138822
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BANG BROS NETWORK" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BANG BROS NETWORK
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138823
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BIG BOOTY CITY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BIG BOOTY CITY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163477
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BIPHORIA" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BIPHORIA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138824
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BLACKED" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BLACKED
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138825
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BLOW ME POV" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BLOW ME POV
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138826
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BOX OF PORN" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BOX OF PORN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138827
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BRATTY SIS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BRATTY SIS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138828
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BRAZZERS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BRAZZERS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138829
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: BUMS BUS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: BUMS BUS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138830
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: CASTING COUCH" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: CASTING COUCH
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138831
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: CUM 4K" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: CUM 4K
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138832
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DAGFS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: DAGFS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138833
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DDF BUSTY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: DDF BUSTY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138834
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DEEPER" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: DEEPER
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163478
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DIABOLIC" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: DIABOLIC
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138835
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DIGITAL PLAYGROUND" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: DIGITAL PLAYGROUND
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138836
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DOG HOUSE" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: DOG HOUSE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163479
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DOGFART NETWORK" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: DOGFART NETWORK
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138837
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DORCEL CLUB" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: DORCEL CLUB
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138838
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DREAMROOM" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: DREAMROOM
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138839
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: EROTIKVONBENAN" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: EROTIKVONBENAN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138840
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: EVIL ANGEL" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: EVIL ANGEL
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138841
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: EVIL ANGEL" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: EVIL ANGEL
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138842
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: EXOTIC" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: EXOTIC
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163480
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FAKE HOSTEL" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FAKE HOSTEL
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138843
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FAKE TAXI" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FAKE TAXI
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138844
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FAMILY STROKES" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FAMILY STROKES
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138845
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FAMILY SWAP XXX" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FAMILY SWAP XXX
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138846
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FAPADOO" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FAPADOO
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138847
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FILTHY KINGS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FILTHY KINGS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163481
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FILTHY POV" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FILTHY POV
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138848
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FIRST ANAL QUEST" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FIRST ANAL QUEST
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138849
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FIRST CLASS POV" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FIRST CLASS POV
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163482
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: FIT 18" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: FIT 18
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138850
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: GANGBANG CREAMPIE" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: GANGBANG CREAMPIE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163483
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: GOTMYLF" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: GOTMYLF
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138851
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: HENTAINED" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: HENTAINED
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138852
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: HER LIMIT" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: HER LIMIT
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138853
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: HOLED" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: HOLED
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138854
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: HORNY DREAM BABEZ" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: HORNY DREAM BABEZ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163484
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: HORNY HOSTEL" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: HORNY HOSTEL
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163485
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: HOT WIFE XXX" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: HOT WIFE XXX
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138855
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: HUSSIE PASS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: HUSSIE PASS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138856
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: INTERRACIAL PASS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: INTERRACIAL PASS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138857
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: JAYS POV" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: JAYS POV
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138858
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: JESH BY JESH" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: JESH BY JESH
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138859
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: JOI BABES" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: JOI BABES
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138860
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: JULES JORDAN" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: JULES JORDAN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138861
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: KINKY FAMILY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: KINKY FAMILY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138862
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: KINKY INLAWS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: KINKY INLAWS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138863
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: KINKY SPA" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: KINKY SPA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138864
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: LETHAL HARDCORE" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: LETHAL HARDCORE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138865
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: LETHAL TEENS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: LETHAL TEENS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138866
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: LETS DOE IT" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: LETS DOE IT
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138867
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: LIFE SELECTOR" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: LIFE SELECTOR
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138868
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: LOVE HER FEET" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: LOVE HER FEET
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138869
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: LOVE HOME PORN" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: LOVE HOME PORN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138870
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: LUBED" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: LUBED
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138871
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: LUXURE" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: LUXURE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138872
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: LW PRODUCTIONS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: LW PRODUCTIONS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163486
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MAMACITAZ" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MAMACITAZ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138873
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MANO JOB" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MANO JOB
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163487
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MASSAGE ROOMS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MASSAGE ROOMS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138874
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MAX J" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MAX J
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163488
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MMM 100" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MMM 100
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163489
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MODEL MEDIA ASIA" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MODEL MEDIA ASIA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138875
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MOM TEACH SEX" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MOM TEACH SEX
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138876
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MOM XXX" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MOM XXX
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163490
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MOMMY BLOWS BEST" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MOMMY BLOWS BEST
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138877
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MUST NOT FAP" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MUST NOT FAP
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138878
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MY 18 TEENS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MY 18 TEENS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163491
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MY DIRTY HOBBY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MY DIRTY HOBBY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138879
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MY FAMILY PIES" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MY FAMILY PIES
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138880
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MY LIFE IN MIAMI" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MY LIFE IN MIAMI
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138881
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MY PERVY FAMILY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MY PERVY FAMILY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138882
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MY TINY WISH" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MY TINY WISH
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138883
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: MYLF" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: MYLF
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138884
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: NEW SENSATIONS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: NEW SENSATIONS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138885
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: NF BUSTY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: NF BUSTY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138886
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: NUBILE FILMS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: NUBILE FILMS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138887
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: NURU MASSAGE" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: NURU MASSAGE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138888
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PASSION" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PASSION
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138889
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PERV CITY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PERV CITY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138890
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PERV MOM" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PERV MOM
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138891
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: POOKSI" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: POOKSI
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163373
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PORN WORLD HARDCORE" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PORN WORLD HARDCORE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138892
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PORNHOCHIC" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PORNHOCHIC
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138893
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: POV MASTERS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: POV MASTERS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163374
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: POVD" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: POVD
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138894
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PRENCESS CUM" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PRENCESS CUM
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138895
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PRIVATE" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PRIVATE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138896
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PRIVATE SOCIETY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PRIVATE SOCIETY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163375
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PROPERTY SEX" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PROPERTY SEX
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138897
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PUBA" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PUBA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163376
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PUBLIC AGENT" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PUBLIC AGENT
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138898
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: PURE MATURE" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: PURE MATURE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138899
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: RAW ATTACK" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: RAW ATTACK
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163377
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: REAL DIRTY VIDEOS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: REAL DIRTY VIDEOS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138900
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: REAL MOM EXPOSED OFFLINE" tvg-logo="http://xplatinmedia.com:8080/images/7891ca656db219436ffc47a8a9c049b3.png" group-title="|XXX| ADULTS",PORNBOX: REAL MOM EXPOSED OFFLINE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138901
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: REALITY JUNKIES" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: REALITY JUNKIES
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138902
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: REALITY KINGS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: REALITY KINGS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138903
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: SHAGGING MOMS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: SHAGGING MOMS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163378
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: SHE IS NERDY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: SHE IS NERDY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163379
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: SLIM 4K" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: SLIM 4K
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138904
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: SOFIE MARIE XXX" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: SOFIE MARIE XXX
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163380
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: SPANK MONSTER" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: SPANK MONSTER
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163381
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: SPY FAM" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: SPY FAM
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163382
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: STROKIES" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: STROKIES
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138905
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: SUGAR BABES TV" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: SUGAR BABES TV
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138906
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: SWEET SINNER" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: SWEET SINNER
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138907
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: SWEETHEART PORN" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: SWEETHEART PORN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163383
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: THE WHITE BOXXX" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: THE WHITE BOXXX
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163384
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: THROATED" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: THROATED
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138908
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: TRUE AMATUERS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: TRUE AMATUERS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138909
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: TUK TUK PATROL" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: TUK TUK PATROL
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163385
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: TUSHY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: TUSHY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163386
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: TWISTY" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: TWISTY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163387
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: VIXEN" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: VIXEN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163388
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: X CHIMERA" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: X CHIMERA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/138910
+#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: YOUNG COURTESANS" tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="|XXX| ADULTS",PORNBOX: YOUNG COURTESANS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163389
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVE: BLAKE BLOSSOM" tvg-logo="http://xplatinmedia.com:8080/images/81c3c28a20a2b62078794662c182a0b5.png" group-title="|XXX| ADULTS",STARS EXCLUSIVE: BLAKE BLOSSOM
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/163492
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: ABELLA DANGER" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: ABELLA DANGER
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79668
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: ADRIANA CHECHIK" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: ADRIANA CHECHIK
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79669
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: ALINA LOPEZ" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: ALINA LOPEZ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79670
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: ANGELA WHITE" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: ANGELA WHITE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79671
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: ARIANA MARIE" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: ARIANA MARIE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79672
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: AUGUST AMES" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: AUGUST AMES
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79673
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: AUTUMN FALLS" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: AUTUMN FALLS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79674
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: BRANDI LOVE" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: BRANDI LOVE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79675
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: DANI DANIELS" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: DANI DANIELS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79676
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: DANI JENSEN" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: DANI JENSEN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79677
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: ELSA JEAN" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: ELSA JEAN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79678
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: EMILY WILLIS" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: EMILY WILLIS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79679
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: EVA LOVIA" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: EVA LOVIA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79680
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: GINA VALENTINA" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: GINA VALENTINA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79681
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: JANICE GRIFFITH" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: JANICE GRIFFITH
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79682
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: JESSA RHODES" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: JESSA RHODES
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79683
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: LANA RHOADES" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: LANA RHOADES
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79684
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: LENA PAUL" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: LENA PAUL
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79685
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: LISA ANN" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: LISA ANN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79686
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: MADISON IVY" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: MADISON IVY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79687
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: MIA MALKOVA" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: MIA MALKOVA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79688
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: NICOLE ANISTON" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: NICOLE ANISTON
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79689
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: RILEY REID" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: RILEY REID
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79690
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: UMA JOLIE" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: UMA JOLIE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79691
+#EXTINF:-1 tvg-id="" tvg-name="STARS EXCLUSIVEⓧ: VALENTINA NAPPI" tvg-logo="http://xplatinmedia.com:8080/images/c453f1bbd6158d07f12dc5a094bc201d.png" group-title="|XXX| ADULTS",STARS EXCLUSIVEⓧ: VALENTINA NAPPI
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79692
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: ALICE REDLIPS" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: ALICE REDLIPS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79693
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: CHERRY GRACE" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: CHERRY GRACE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79695
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: CHESSIE RAE" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: CHESSIE RAE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79696
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: DIANA DANIELS" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: DIANA DANIELS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79697
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: ELLAKAI" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: ELLAKAI
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79698
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: FIAMURR" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: FIAMURR
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79699
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: KRISS KISS" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: KRISS KISS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79700
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: LEAH MEOW" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: LEAH MEOW
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79701
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: LUXURYGIRL" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: LUXURYGIRL
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79702
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: MIKANIKA69" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: MIKANIKA69
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79703
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: MINI DIVA" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: MINI DIVA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79704
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: MOLLYREDWOLF" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: MOLLYREDWOLF
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79705
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: NOFACEGIRL" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: NOFACEGIRL
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79706
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: NOTSOAMATEUR" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: NOTSOAMATEUR
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79707
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: NYNA FERRAGNI" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: NYNA FERRAGNI
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79708
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: PURPLE BITCH" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: PURPLE BITCH
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79709
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: REISLIN" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: REISLIN
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79710
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: SECRETCRUSH" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: SECRETCRUSH
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79711
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: SHAIDEN ROUGE" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: SHAIDEN ROUGE
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79712
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: SOLAZOLA" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: SOLAZOLA
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79713
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: SWEET BUNNY" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: SWEET BUNNY
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79714
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: TESSA WINTERS" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: TESSA WINTERS
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79715
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: TINNA ANGEL" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: TINNA ANGEL
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79716
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURSⓧ: YINYLEON" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURSⓧ: YINYLEON
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79717
+#EXTINF:-1 tvg-id="" tvg-name="VERIFIED AMATEURⓧS: BIGTITTYGOTHEGG" tvg-logo="http://xplatinmedia.com:8080/images/5db99d2f5d55282195f0edd2aca59ef9.png" group-title="|XXX| ADULTS",VERIFIED AMATEURⓧS: BIGTITTYGOTHEGG
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/79694
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Adult Pleasureⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Adult Pleasureⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108925
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Adultⓧ  5" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Adultⓧ  5
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141676
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Adultⓧ  6" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Adultⓧ  6
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141677
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Adultⓧ  7" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Adultⓧ  7
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141678
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Adultⓧ 1" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Adultⓧ 1
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/65854
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Adultⓧ 2" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Adultⓧ 2
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/65860
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Adultⓧ 3" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Adultⓧ 3
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/65842
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Adultⓧ 4" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Adultⓧ 4
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/65844
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Alba XXX 1ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Alba XXX 1ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74191
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Alba XXX 2ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Alba XXX 2ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74192
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Alba XXX 3ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Alba XXX 3ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74193
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Alba XXX 4ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Alba XXX 4ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74194
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Alba XXX 5ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Alba XXX 5ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74195
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Alba XXX 6ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Alba XXX 6ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74196
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Amia Mileyⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Amia Mileyⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108910
+#EXTINF:-1 tvg-id="" tvg-name="XXX | AST TV1ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/37d39e8a34d22fbab7f727b2f51398df.png" group-title="|XXX| ADULTS",XXX | AST TV1ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/65965
+#EXTINF:-1 tvg-id="" tvg-name="XXX | AST TV2ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/37d39e8a34d22fbab7f727b2f51398df.png" group-title="|XXX| ADULTS",XXX | AST TV2ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74201
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Babes 2ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/73f21b4239af344f075ad05cbefda724.png" group-title="|XXX| ADULTS",XXX | Babes 2ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74208
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Babesⓧ" tvg-logo="http://xplatinmedia.com:8080/images/73f21b4239af344f075ad05cbefda724.png" group-title="|XXX| ADULTS",XXX | Babesⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74204
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Balkan Eroticⓧ HD" tvg-logo="http://xplatinmedia.com:8080/images/5d0b1f48cbb3a4c755fdeafe54044d8d.png" group-title="|XXX| ADULTS",XXX | Balkan Eroticⓧ HD
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74205
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Bang Brosⓧ" tvg-logo="http://xplatinmedia.com:8080/images/c7eefd9b3b66cd44d0c8cf3258ff61f9.png" group-title="|XXX| ADULTS",XXX | Bang Brosⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74207
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Barely Legal TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/0510d00ac6375c131d4f7cfc78cae85e.png" group-title="|XXX| ADULTS",XXX | Barely Legal TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74211
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Beate Uhseⓧ" tvg-logo="http://xplatinmedia.com:8080/images/bffce46c98ebd36c3dbf7aafd900a3b5.png" group-title="|XXX| ADULTS",XXX | Beate Uhseⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74221
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Blacked 1ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/460bb12052239e14b1b085563601f8f5.png" group-title="|XXX| ADULTS",XXX | Blacked 1ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74197
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Blacked 2ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/460bb12052239e14b1b085563601f8f5.png" group-title="|XXX| ADULTS",XXX | Blacked 2ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74214
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Blacked Rawⓧ" tvg-logo="http://xplatinmedia.com:8080/images/7934b8cf95713b20819a513fb3ea8035.png" group-title="|XXX| ADULTS",XXX | Blacked Rawⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74213
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Blue Hustlerⓧ" tvg-logo="http://xplatinmedia.com:8080/images/5ad518d146cbe6beae826850f3a7f843.png" group-title="|XXX| ADULTS",XXX | Blue Hustlerⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74215
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Boxtruck Sexⓧ " tvg-logo="http://xplatinmedia.com:8080/images/6db73ad9defbb35648ea1c070db49a5a.png" group-title="|XXX| ADULTS",XXX | Boxtruck Sexⓧ 
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/65856
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Brazzers HDⓧ" tvg-logo="http://xplatinmedia.com:8080/images/5e57a0d8a33b6492984a2a6eb14001e2.png" group-title="|XXX| ADULTS",XXX | Brazzers HDⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74219
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Brazzers TV Europeⓧ " tvg-logo="http://xplatinmedia.com:8080/images/5e57a0d8a33b6492984a2a6eb14001e2.png" group-title="|XXX| ADULTS",XXX | Brazzers TV Europeⓧ 
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74220
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Brazzers TV Europeⓧ HD" tvg-logo="http://xplatinmedia.com:8080/images/5e57a0d8a33b6492984a2a6eb14001e2.png" group-title="|XXX| ADULTS",XXX | Brazzers TV Europeⓧ HD
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74218
+#EXTINF:-1 tvg-id="" tvg-name="XXX | BUNGA BUNGAⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | BUNGA BUNGAⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141683
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Cento x centoⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4ac0e5dd9f558609e27c3b94b66bfcdb.png" group-title="|XXX| ADULTS",XXX | Cento x centoⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74222
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Cherry Pimpsⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Cherry Pimpsⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74271
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Cum Beggersⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Cum Beggersⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108908
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Daughter Swapⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Daughter Swapⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108931
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Dorcel Clubⓧ" tvg-logo="http://xplatinmedia.com:8080/images/76e4ce14d0dad076df952b367a88943d.png" group-title="|XXX| ADULTS",XXX | Dorcel Clubⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74242
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Dorcel TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/074d0556fbf59ff5219e2043d8a3440d.png" group-title="|XXX| ADULTS",XXX | Dorcel TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74243
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Dorcel XXXⓧ" tvg-logo="http://xplatinmedia.com:8080/images/382225daf348b2880f4428aeecbe6109.png" group-title="|XXX| ADULTS",XXX | Dorcel XXXⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74244
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Duskⓧ" tvg-logo="http://xplatinmedia.com:8080/images/0ad2eedcfad29947c717f9a294c2a93d.png" group-title="|XXX| ADULTS",XXX | Duskⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74246
+#EXTINF:-1 tvg-id="" tvg-name="XXX | EroXXXⓧ" tvg-logo="http://xplatinmedia.com:8080/images/7c3341566cea52879ee972cd4b2a0b9e.png" group-title="|XXX| ADULTS",XXX | EroXXXⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74249
+#EXTINF:-1 tvg-id="" tvg-name="XXX | EroXⓧ" tvg-logo="http://xplatinmedia.com:8080/images/26b12f1c261e497326b3c484a37ddf10.png" group-title="|XXX| ADULTS",XXX | EroXⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74248
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Evil Angelⓧ" tvg-logo="http://xplatinmedia.com:8080/images/d4be16d5fd7d0d4eb0c5304ed14ffacb.png" group-title="|XXX| ADULTS",XXX | Evil Angelⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74251
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Extasy 4Kⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Extasy 4Kⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74295
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Extremeⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Extremeⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74250
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Fake Agentⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Fake Agentⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141679
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Fake Taxiⓧ 1" tvg-logo="http://xplatinmedia.com:8080/images/cd791c3c14e24d424644bc10035101e9.png" group-title="|XXX| ADULTS",XXX | Fake Taxiⓧ 1
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/66067
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Fake Taxiⓧ 2" tvg-logo="http://xplatinmedia.com:8080/images/cd791c3c14e24d424644bc10035101e9.png" group-title="|XXX| ADULTS",XXX | Fake Taxiⓧ 2
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74255
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Fake Taxiⓧ 3" tvg-logo="http://xplatinmedia.com:8080/images/cd791c3c14e24d424644bc10035101e9.png" group-title="|XXX| ADULTS",XXX | Fake Taxiⓧ 3
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74254
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Female Fake Taxiⓧ" tvg-logo="http://xplatinmedia.com:8080/images/cd791c3c14e24d424644bc10035101e9.png" group-title="|XXX| ADULTS",XXX | Female Fake Taxiⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74256
+#EXTINF:-1 tvg-id="" tvg-name="XXX | French Loverⓧ" tvg-logo="http://xplatinmedia.com:8080/images/ca63554a3bbbeb96f390dff8543873e9.png" group-title="|XXX| ADULTS",XXX | French Loverⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74273
+#EXTINF:-1 tvg-id="" tvg-name="XXX | FTV Midnightⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | FTV Midnightⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74275
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Gay TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/37d39e8a34d22fbab7f727b2f51398df.png" group-title="|XXX| ADULTS",XXX | Gay TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74267
+#EXTINF:-1 tvg-id="" tvg-name="XXX | GirlFriends Filmsⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | GirlFriends Filmsⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/109078
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Girls do pornⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Girls do pornⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74277
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Girls love BBCⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Girls love BBCⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108912
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hard Xⓧ" tvg-logo="http://xplatinmedia.com:8080/images/afa1950ac9ef4c59005dd290603e5785.png" group-title="|XXX| ADULTS",XXX | Hard Xⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74282
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Holly Randallⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Holly Randallⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/109010
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Horny Hostelⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Horny Hostelⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108990
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hot Guys Fuckⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Hot Guys Fuckⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74290
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hot HDⓧ" tvg-logo="http://xplatinmedia.com:8080/images/c48842725be9a15d3c6789faea299f47.png" group-title="|XXX| ADULTS",XXX | Hot HDⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74287
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hot Sexy 1ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Hot Sexy 1ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74223
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hot Sexy 2ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Hot Sexy 2ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74225
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hot Sexy 3ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Hot Sexy 3ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74226
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hot Sexy 4ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Hot Sexy 4ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74228
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hot Sexy 5ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Hot Sexy 5ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74229
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hot XXLⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4ecbc940a3cc0d2c9213821db8d391fc.png" group-title="|XXX| ADULTS",XXX | Hot XXLⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74291
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hustler HDⓧ" tvg-logo="http://xplatinmedia.com:8080/images/693137775df98019c73b3ece979f2970.png" group-title="|XXX| ADULTS",XXX | Hustler HDⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74292
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Hustler TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/ecb4e1d0b51d850c80dc516a050d0711.png" group-title="|XXX| ADULTS",XXX | Hustler TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74293
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Japan HDVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Japan HDVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108943
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Jasmin TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/b6dcb859b12da104267a6bf5aa81ca82.png" group-title="|XXX| ADULTS",XXX | Jasmin TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74296
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Lesbian Affairⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Lesbian Affairⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74301
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Massage Girlsⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Massage Girlsⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74258
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Mega 1ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Mega 1ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74269
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Mega 2ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Mega 2ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74262
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Mega 3ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Mega 3ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74263
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Mega 4ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Mega 4ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74264
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Mega 5ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Mega 5ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74266
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Mega 6ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Mega 6ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74268
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Mega 7ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Mega 7ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74265
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Meiden van Hollandⓧ" tvg-logo="http://xplatinmedia.com:8080/images/c4762d0624893bdcbcfb2c78c159775c.png" group-title="|XXX| ADULTS",XXX | Meiden van Hollandⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74305
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Miami TV Latinoⓧ" tvg-logo="http://xplatinmedia.com:8080/images/f9d721f9af81169e0f2c6578df532321.png" group-title="|XXX| ADULTS",XXX | Miami TV Latinoⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74307
+#EXTINF:-1 tvg-id="" tvg-name="XXX | MILF Revolutionⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | MILF Revolutionⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108923
+#EXTINF:-1 tvg-id="" tvg-name="XXX | MILF TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | MILF TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74309
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Mofosⓧ" tvg-logo="http://xplatinmedia.com:8080/images/5036b74ffb1ad6f46d54bf8c45b6ec0a.png" group-title="|XXX| ADULTS",XXX | Mofosⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74310
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Moms Teach Sexⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Moms Teach Sexⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74325
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Net XXⓧ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/XX-Net_logo.png" group-title="|XXX| ADULTS",XXX | Net XXⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74317
+#EXTINF:-1 tvg-id="" tvg-name="XXX | NetXXLⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | NetXXLⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74359
+#EXTINF:-1 tvg-id="" tvg-name="XXX | NF Bustyⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | NF Bustyⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/109087
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Nuartⓧ" tvg-logo="http://xplatinmedia.com:8080/images/7e64e79c5be5f451c30b7383eaa289ff.png" group-title="|XXX| ADULTS",XXX | Nuartⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74318
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Nubile Filmsⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Nubile Filmsⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74319
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Nubiles TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Nubiles TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74320
+#EXTINF:-1 tvg-id="" tvg-name="XXX | O-la-laⓧ" tvg-logo="http://xplatinmedia.com:8080/images/fc45433515472c839703a3927f3b6dd4.png" group-title="|XXX| ADULTS",XXX | O-la-laⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74391
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Passie XXXⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Passie XXXⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74355
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Passion XXX 2ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4640353694abb8a03ceee15137116fb2.png" group-title="|XXX| ADULTS",XXX | Passion XXX 2ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74274
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Passion XXX HDⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4640353694abb8a03ceee15137116fb2.png" group-title="|XXX| ADULTS",XXX | Passion XXX HDⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74189
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Passion XXXⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4640353694abb8a03ceee15137116fb2.png" group-title="|XXX| ADULTS",XXX | Passion XXXⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74322
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Penthouse Goldⓧ" tvg-logo="http://xplatinmedia.com:8080/images/0ffd9ad846142db6545d72a0ebecb056.png" group-title="|XXX| ADULTS",XXX | Penthouse Goldⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74323
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Penthouse Passionⓧ" tvg-logo="http://xplatinmedia.com:8080/images/01ee094637b769f28c346584a852dffe.png" group-title="|XXX| ADULTS",XXX | Penthouse Passionⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74259
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Penthouse Quickiesⓧ" tvg-logo="http://xplatinmedia.com:8080/images/baf68797c1c28453b0805a54a3bcdf4d.png" group-title="|XXX| ADULTS",XXX | Penthouse Quickiesⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74324
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pink 0 Clubⓧ" tvg-logo="http://xplatinmedia.com:8080/images/18499024e7105cfca9de6983a1c758db.png" group-title="|XXX| ADULTS",XXX | Pink 0 Clubⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74334
+#EXTINF:-1 tvg-id="PinkErotic1" tvg-name="XXX | Pink Erotic 1ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/aa0a09a5328fa2dce38064366030dde8.png" group-title="|XXX| ADULTS",XXX | Pink Erotic 1ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74326
+#EXTINF:-1 tvg-id="PinkErotic2" tvg-name="XXX | Pink Erotic 2ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/c554dca6c9777a9c782df5059f2d4912.png" group-title="|XXX| ADULTS",XXX | Pink Erotic 2ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74327
+#EXTINF:-1 tvg-id="PinkErotic3" tvg-name="XXX | Pink Erotic 3ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/8b2cdecf1254407f163c282b09a30c7b.png" group-title="|XXX| ADULTS",XXX | Pink Erotic 3ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74328
+#EXTINF:-1 tvg-id="PinkErotic4" tvg-name="XXX | Pink Erotic 4ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/d5305da0e781eaab23e170490f4c8ae1.png" group-title="|XXX| ADULTS",XXX | Pink Erotic 4ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74329
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pink Erotic 5ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/d10aff8a08835e06626f25666fa15ee6.png" group-title="|XXX| ADULTS",XXX | Pink Erotic 5ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74330
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pink Erotic 6ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/bf67ae0b8213d79151bd17e195bb917c.png" group-title="|XXX| ADULTS",XXX | Pink Erotic 6ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74331
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pink Erotic 7ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/5c2cee2fad1a0f97b5b0d3cfc7e0b1fd.png" group-title="|XXX| ADULTS",XXX | Pink Erotic 7ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74332
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pink Erotic 8ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/ea963cc878a5f9248d6085066a833b2e.png" group-title="|XXX| ADULTS",XXX | Pink Erotic 8ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74333
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pinko Clubⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Pinko Clubⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141681
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Playboy Plusⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4a4cf4cc7cbf0be4e073fe620e3e75d8.png" group-title="|XXX| ADULTS",XXX | Playboy Plusⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74335
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Playboy TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4a4cf4cc7cbf0be4e073fe620e3e75d8.png" group-title="|XXX| ADULTS",XXX | Playboy TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74336
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Playhouseⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Playhouseⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74337
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pornmonsterⓧ: Gay 01" tvg-logo="http://xplatinmedia.com:8080/images/37d39e8a34d22fbab7f727b2f51398df.png" group-title="|XXX| ADULTS",XXX | Pornmonsterⓧ: Gay 01
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141823
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pornmonsterⓧ: Gay 02" tvg-logo="http://xplatinmedia.com:8080/images/37d39e8a34d22fbab7f727b2f51398df.png" group-title="|XXX| ADULTS",XXX | Pornmonsterⓧ: Gay 02
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141824
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pornmonsterⓧ: Gay 03" tvg-logo="http://xplatinmedia.com:8080/images/37d39e8a34d22fbab7f727b2f51398df.png" group-title="|XXX| ADULTS",XXX | Pornmonsterⓧ: Gay 03
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141825
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Private HDⓧ" tvg-logo="http://xplatinmedia.com:8080/images/990b255d6d7ac7c1a331f0706cb7b7b2.png" group-title="|XXX| ADULTS",XXX | Private HDⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74340
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Public Agentⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Public Agentⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74371
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Pure Tabooⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Pure Tabooⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74369
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Puta Locuraⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Puta Locuraⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108942
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Real Wife Storiesⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Real Wife Storiesⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108935
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Reality Kingsⓧ" tvg-logo="http://xplatinmedia.com:8080/images/69c6e5dc61298d67ecb9cf772b55aa69.png" group-title="|XXX| ADULTS",XXX | Reality Kingsⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74345
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 11ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/ae2f6a6e5e0f29975f3e6f41f3aaafd2.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 11ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136812
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 12ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/8dd69b6598489d751c5d39fad06c435c.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 12ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136813
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 13ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/7047629e92a4624664e7518e1180364c.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 13ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136814
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 14ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/aad009ab63089330b51ba7ace293a8b0.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 14ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136815
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 15ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4372d8befb8179c7d3b83288f184f90b.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 15ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136816
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 16ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/efe4bd3ba8b185e6ee1fe7fbd7172fc4.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 16ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136817
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 17ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/d7bcae50226d063c28cda5dbc4aad3d0.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 17ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136818
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 18ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/fa1e38b1e134470d06704adc1e8ddab3.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 18ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136819
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 19ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/2a8c6fc981981a35fbede851bdc9f462.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 19ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136820
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 20ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/3134f97eab9404880a51f04dfc62de6c.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 20ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136821
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 21ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/3134f97eab9404880a51f04dfc62de6c.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 21ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136822
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 22ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/fce072481bde859c082b22b2e0de8b48.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 22ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136823
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 23ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/1bdd981ad3a1c7c93e3211684924059d.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 23ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136824
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 24ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/ea188bcd81b6af032b9d8e768cbb83dd.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 24ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136825
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 25ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/69a6ca3e55d8d79e5bfd1e72db5acb81.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 25ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136826
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 26ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/1045f5ab98ae3f69fcd4d62aaa87b205.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 26ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136827
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 27ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/08dc7950fbdabe099c9ea62cdcee38b1.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 27ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136828
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 28ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/ed2f3ddd2265d5c537bb60f214580c9e.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 28ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136829
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 29ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/b2268db7eb716921ac12516fbae3b0c7.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 29ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136830
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 30ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/52fbe92f10f9584686f61b8b313e9b69.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 30ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136831
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 31ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/36d7d890d102390c8ebbdfed8d58aba1.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 31ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136832
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 32ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/ab2dea7d18039b0dd6eecc5f18278ad7.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 32ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136833
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 33ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/c959f5fdff597b138c27389e7c585206.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 33ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136834
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 34ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/3c1d9006cee8047d0b465fb3535fce8d.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 34ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136835
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 35ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/b9a446685c707c55697c241069fdba61.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 35ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136836
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 36ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/21488188400e29451721b5ce247ae719.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 36ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136837
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 37ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/d2b05e037ee2f4af5aff930e6c7d75eb.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 37ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136838
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 38ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/017e831ddfcee940356fc7705a48e121.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 38ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136839
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 39ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/b10bc5f6a14f1b951f3336f1a04936cf.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 39ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136840
+#EXTINF:-1 tvg-id="" tvg-name="XXX | RedBox Adult 40ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/285d201b8a367fcf2d45150b66c5edee.png" group-title="|XXX| ADULTS",XXX | RedBox Adult 40ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/136841
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Redlight HDⓧ" tvg-logo="http://xplatinmedia.com:8080/images/d49987c1b395af49e7f6b9a29774d415.png" group-title="|XXX| ADULTS",XXX | Redlight HDⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74346
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Russian Nightⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Russian Nightⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141680
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Russkaya Nochⓧ" tvg-logo="http://xplatinmedia.com:8080/images/0c0d04c1e5edb9e8a3673ab2d95d38d6.png" group-title="|XXX| ADULTS",XXX | Russkaya Nochⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74348
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Scorelant 1ⓧ HD " tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Scorelant 1ⓧ HD 
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/111032
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Scorelant 2ⓧ HD " tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Scorelant 2ⓧ HD 
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/111033
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Scorelant 3ⓧ HD " tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Scorelant 3ⓧ HD 
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/111034
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Scorelant 4ⓧ HD" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Scorelant 4ⓧ HD
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/111035
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Scorelant 5ⓧ HD" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Scorelant 5ⓧ HD
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/111036
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Scorelant 6ⓧ HD" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Scorelant 6ⓧ HD
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/111037
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Sexationⓧ" tvg-logo="http://xplatinmedia.com:8080/images/b85a3926520d9f66401670bc1960db0c.png" group-title="|XXX| ADULTS",XXX | Sexationⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74356
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 1" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 1
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141764
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 10" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 10
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141773
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 11" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 11
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141774
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 12" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 12
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141775
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 13" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 13
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141776
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 14" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 14
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141777
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 15" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 15
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141778
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 2" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 2
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141765
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 3" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 3
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141766
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 4" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 4
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141767
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 5" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 5
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141768
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 6" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 6
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141769
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 7" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 7
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141770
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 8" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 8
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141771
+#EXTINF:-1 tvg-id="" tvg-name="XXX | SEXBOXⓧ 9" tvg-logo="http://xplatinmedia.com:8080/images/0839af2e402bb297623efde14ffa510b.png" group-title="|XXX| ADULTS",XXX | SEXBOXⓧ 9
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141772
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Sexmexⓧ" tvg-logo="http://xplatinmedia.com:8080/images/701c2c826b156886c67c7dd85519f128.png" group-title="|XXX| ADULTS",XXX | Sexmexⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/66035
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Sextremeⓧ" tvg-logo="http://xplatinmedia.com:8080/images/5558be54499fdd094ce5235eb309c348.png" group-title="|XXX| ADULTS",XXX | Sextremeⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74357
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Shalun TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/d604262a73789a8c837aa8bd66c85ed4.png" group-title="|XXX| ADULTS",XXX | Shalun TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74358
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Shemale Tube 01ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Shemale Tube 01ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/141671
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Sinful XXX 2ⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Sinful XXX 2ⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74360
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Sinful XXXⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Sinful XXXⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74361
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Mia Khalifaⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Mia Khalifaⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/108914
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Super Oneⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Super Oneⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74260
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Tabooⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Tabooⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74342
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Teen Fidelityⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | Teen Fidelityⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74366
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Tushy HDⓧ" tvg-logo="http://xplatinmedia.com:8080/images/0c7b63c356e676bab674e4f285be17b8.png" group-title="|XXX| ADULTS",XXX | Tushy HDⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74373
+#EXTINF:-1 tvg-id="" tvg-name="XXX | TushyRAWⓧ" tvg-logo="http://xplatinmedia.com:8080/images/0c7b63c356e676bab674e4f285be17b8.png" group-title="|XXX| ADULTS",XXX | TushyRAWⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74374
+#EXTINF:-1 tvg-id="" tvg-name="XXX | U Bangⓧ" tvg-logo="http://xplatinmedia.com:8080/images/9a173583133a45f56a55abc2a39c3d82.png" group-title="|XXX| ADULTS",XXX | U Bangⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74375
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Venusⓧ" tvg-logo="http://xplatinmedia.com:8080/images/25915d05d4aa301148881f7d801c6fba.png" group-title="|XXX| ADULTS",XXX | Venusⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74376
+#EXTINF:-1 tvg-id="" tvg-name="XXX | VISIT-X TVⓧ" tvg-logo="http://xplatinmedia.com:8080/images/11ac4d7f785ad13376c987ba86fc85aa.png" group-title="|XXX| ADULTS",XXX | VISIT-X TVⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/5902
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Vivid Redⓧ" tvg-logo="http://xplatinmedia.com:8080/images/da23758f6a25f61359966c3dbac7ae49.png" group-title="|XXX| ADULTS",XXX | Vivid Redⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74377
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Vivid Touchⓧ" tvg-logo="http://xplatinmedia.com:8080/images/6e9dd2d93161848e78acfe7f7672025f.png" group-title="|XXX| ADULTS",XXX | Vivid Touchⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74261
+#EXTINF:-1 tvg-id="" tvg-name="XXX | Vivid TV Europeⓧ" tvg-logo="http://xplatinmedia.com:8080/images/699e95746bf9763ad7ad2d4843c20f24.png" group-title="|XXX| ADULTS",XXX | Vivid TV Europeⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74378
+#EXTINF:-1 tvg-id="" tvg-name="XXX | VIXENⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | VIXENⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/66009
+#EXTINF:-1 tvg-id="" tvg-name="XXX | White Boxxxⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4e8d4d2257f0b18468b4ed5792c30feb.png" group-title="|XXX| ADULTS",XXX | White Boxxxⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74257
+#EXTINF:-1 tvg-id="" tvg-name="XXX | X MOⓧ" tvg-logo="http://xplatinmedia.com:8080/images/37d39e8a34d22fbab7f727b2f51398df.png" group-title="|XXX| ADULTS",XXX | X MOⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74338
+#EXTINF:-1 tvg-id="" tvg-name="XXX | XXLⓧ" tvg-logo="http://xplatinmedia.com:8080/images/4ecbc940a3cc0d2c9213821db8d391fc.png" group-title="|XXX| ADULTS",XXX | XXLⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74385
+#EXTINF:-1 tvg-id="" tvg-name="XXX | XY Maxⓧ" tvg-logo="http://xplatinmedia.com:8080/images/32ee146c01e4fc41ee884a2b872fb1d7.png" group-title="|XXX| ADULTS",XXX | XY Maxⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74386
+#EXTINF:-1 tvg-id="" tvg-name="XXX | XY Mixⓧ" tvg-logo="http://xplatinmedia.com:8080/images/09a8cda06493a689d16d8a6d0169b194.png" group-title="|XXX| ADULTS",XXX | XY Mixⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74387
+#EXTINF:-1 tvg-id="" tvg-name="XXX | XY Plusⓧ" tvg-logo="http://xplatinmedia.com:8080/images/cf17eaca29ec0a58618ccd18c9b0601c.png" group-title="|XXX| ADULTS",XXX | XY Plusⓧ
+http://xplatinproject.com:8080/Dedicadonet/mBG5Z0Ld9bvAADw2JvCzhaDaogziWN/74384
+
+
+
+
 
 #########################################
+
+
 
 
 #EXTM3U
@@ -7973,46 +9050,132 @@ http://lunar.pm:8080/leslie/snook/131356
 
 #########################################
 
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 01
+
+
+
+#EXTINF:-1 tvg-id="Adulto 01" tvg-name="Adulto 01" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 01
 http://proxy.nr3.xyz:80/max289/991374465/51986
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 02
+#EXTINF:-1 tvg-id="Adulto 02" tvg-name="Adulto 02" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 02
 http://proxy.nr3.xyz:80/max289/991374465/51987
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 03
+#EXTINF:-1 tvg-id="Adulto 03" tvg-name="Adulto 03" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 03
 http://proxy.nr3.xyz:80/max289/991374465/51988
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 04
+#EXTINF:-1 tvg-id="Adulto 04" tvg-name="Adulto 04" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 04
 http://proxy.nr3.xyz:80/max289/991374465/51989
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 05
+#EXTINF:-1 tvg-id="Adulto 05" tvg-name="Adulto 05" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 05
 http://proxy.nr3.xyz:80/max289/991374465/51990
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 06
+#EXTINF:-1 tvg-id="Adulto 06" tvg-name="Adulto 06" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 06
 http://proxy.nr3.xyz:80/max289/991374465/51991
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 07
+#EXTINF:-1 tvg-id="Adulto 07" tvg-name="Adulto 07" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 07
 http://proxy.nr3.xyz:80/max289/991374465/51992
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 08
+#EXTINF:-1 tvg-id="Adulto 08" tvg-name="Adulto 08" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 08
 http://proxy.nr3.xyz:80/max289/991374465/51993
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 09
+#EXTINF:-1 tvg-id="Adulto 09" tvg-name="Adulto 09" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 09
 http://proxy.nr3.xyz:80/max289/991374465/51994
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 10
+#EXTINF:-1 tvg-id="Adulto 10" tvg-name="Adulto 10" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 10
 http://proxy.nr3.xyz:80/max289/991374465/51995
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 11
+#EXTINF:-1 tvg-id="Adulto 11" tvg-name="Adulto 11" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 11
 http://proxy.nr3.xyz:80/max289/991374465/51996
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 12
+#EXTINF:-1 tvg-id="Adulto 12" tvg-name="Adulto 12" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 12
 http://proxy.nr3.xyz:80/max289/991374465/51997
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 13
+#EXTINF:-1 tvg-id="Adulto 13" tvg-name="Adulto 13" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 13
 http://proxy.nr3.xyz:80/max289/991374465/51998
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 14
+#EXTINF:-1 tvg-id="Adulto 14" tvg-name="Adulto 14" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 14
 http://proxy.nr3.xyz:80/max289/991374465/51999
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 15
+#EXTINF:-1 tvg-id="Adulto 15" tvg-name="Adulto 15" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 15
 http://proxy.nr3.xyz:80/max289/991374465/52000
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 16
+#EXTINF:-1 tvg-id="Adulto 16" tvg-name="Adulto 16" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 16
 http://proxy.nr3.xyz:80/max289/991374465/52001
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 17
+#EXTINF:-1 tvg-id="Adulto 17" tvg-name="Adulto 17" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 17
 http://proxy.nr3.xyz:80/max289/991374465/52002
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 18
+#EXTINF:-1 tvg-id="Adulto 18" tvg-name="Adulto 18" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 18
 http://proxy.nr3.xyz:80/max289/991374465/52003
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 19
+#EXTINF:-1 tvg-id="Adulto 19" tvg-name="Adulto 19" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 19
 http://proxy.nr3.xyz:80/max289/991374465/52004
-#EXTINF:-1 group-title="24/7 ADULT",ADULTO 20
+#EXTINF:-1 tvg-id="Adulto 20" tvg-name="Adulto 20" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/adulto.png" group-title="24H ::: ADULTOS",Adulto 20
 http://proxy.nr3.xyz:80/max289/991374465/52005
+#EXTINF:-1 tvg-id="Adulto GAY 01" tvg-name="Adulto GAY 01" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 01
+http://proxy.nr3.xyz:80/max289/991374465/52089
+#EXTINF:-1 tvg-id="Adulto GAY 02" tvg-name="Adulto GAY 02" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 02
+http://proxy.nr3.xyz:80/max289/991374465/52090
+#EXTINF:-1 tvg-id="Adulto GAY 03" tvg-name="Adulto GAY 03" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 03
+http://proxy.nr3.xyz:80/max289/991374465/52091
+#EXTINF:-1 tvg-id="Adulto GAY 04" tvg-name="Adulto GAY 04" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 04
+http://proxy.nr3.xyz:80/max289/991374465/52092
+#EXTINF:-1 tvg-id="Adulto GAY 05" tvg-name="Adulto GAY 05" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 05
+http://proxy.nr3.xyz:80/max289/991374465/52093
+#EXTINF:-1 tvg-id="Adulto GAY 06" tvg-name="Adulto GAY 06" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 06
+http://proxy.nr3.xyz:80/max289/991374465/52094
+#EXTINF:-1 tvg-id="Adulto GAY 07" tvg-name="Adulto GAY 07" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 07
+http://proxy.nr3.xyz:80/max289/991374465/52095
+#EXTINF:-1 tvg-id="Adulto GAY 08" tvg-name="Adulto GAY 08" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 08
+http://proxy.nr3.xyz:80/max289/991374465/52096
+#EXTINF:-1 tvg-id="Adulto GAY 09" tvg-name="Adulto GAY 09" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 09
+http://proxy.nr3.xyz:80/max289/991374465/52097
+#EXTINF:-1 tvg-id="Adulto GAY 10" tvg-name="Adulto GAY 10" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 10
+http://proxy.nr3.xyz:80/max289/991374465/52098
+#EXTINF:-1 tvg-id="Adulto GAY 11" tvg-name="Adulto GAY 11" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 11
+http://proxy.nr3.xyz:80/max289/991374465/52099
+#EXTINF:-1 tvg-id="Adulto GAY 12" tvg-name="Adulto GAY 12" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 12
+http://proxy.nr3.xyz:80/max289/991374465/52100
+#EXTINF:-1 tvg-id="Adulto GAY 13" tvg-name="Adulto GAY 13" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 13
+http://proxy.nr3.xyz:80/max289/991374465/52101
+#EXTINF:-1 tvg-id="Adulto GAY 14" tvg-name="Adulto GAY 14" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 14
+http://proxy.nr3.xyz:80/max289/991374465/52102
+#EXTINF:-1 tvg-id="Adulto GAY 15" tvg-name="Adulto GAY 15" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 15
+http://proxy.nr3.xyz:80/max289/991374465/52103
+#EXTINF:-1 tvg-id="Adulto GAY 16" tvg-name="Adulto GAY 16" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 16
+http://proxy.nr3.xyz:80/max289/991374465/52104
+#EXTINF:-1 tvg-id="Adulto GAY 17" tvg-name="Adulto GAY 17" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 17
+http://proxy.nr3.xyz:80/max289/991374465/52105
+#EXTINF:-1 tvg-id="Adulto GAY 18" tvg-name="Adulto GAY 18" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 18
+http://proxy.nr3.xyz:80/max289/991374465/52106
+#EXTINF:-1 tvg-id="Adulto GAY 19" tvg-name="Adulto GAY 19" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 19
+http://proxy.nr3.xyz:80/max289/991374465/52107
+#EXTINF:-1 tvg-id="Adulto GAY 20" tvg-name="Adulto GAY 20" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/gay.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto GAY 20
+http://proxy.nr3.xyz:80/max289/991374465/52088
+#EXTINF:-1 tvg-id="Adulto TRANS 01" tvg-name="Adulto TRANS 01" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 01
+http://proxy.nr3.xyz:80/max289/991374465/52127
+#EXTINF:-1 tvg-id="Adulto TRANS 02" tvg-name="Adulto TRANS 02" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 02
+http://proxy.nr3.xyz:80/max289/991374465/52128
+#EXTINF:-1 tvg-id="Adulto TRANS 03" tvg-name="Adulto TRANS 03" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 03
+http://proxy.nr3.xyz:80/max289/991374465/52129
+#EXTINF:-1 tvg-id="Adulto TRANS 04" tvg-name="Adulto TRANS 04" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 04
+http://proxy.nr3.xyz:80/max289/991374465/52130
+#EXTINF:-1 tvg-id="Adulto TRANS 05" tvg-name="Adulto TRANS 05" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 05
+http://proxy.nr3.xyz:80/max289/991374465/52131
+#EXTINF:-1 tvg-id="Adulto TRANS 06" tvg-name="Adulto TRANS 06" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 06
+http://proxy.nr3.xyz:80/max289/991374465/52132
+#EXTINF:-1 tvg-id="Adulto TRANS 07" tvg-name="Adulto TRANS 07" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 07
+http://proxy.nr3.xyz:80/max289/991374465/52133
+#EXTINF:-1 tvg-id="Adulto TRANS 08" tvg-name="Adulto TRANS 08" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 08
+http://proxy.nr3.xyz:80/max289/991374465/52134
+#EXTINF:-1 tvg-id="Adulto TRANS 09" tvg-name="Adulto TRANS 09" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 09
+http://proxy.nr3.xyz:80/max289/991374465/52135
+#EXTINF:-1 tvg-id="Adulto TRANS 10" tvg-name="Adulto TRANS 10" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 10
+http://proxy.nr3.xyz:80/max289/991374465/52136
+#EXTINF:-1 tvg-id="Adulto TRANS 11" tvg-name="Adulto TRANS 11" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 11
+http://proxy.nr3.xyz:80/max289/991374465/52137
+#EXTINF:-1 tvg-id="Adulto TRANS 12" tvg-name="Adulto TRANS 12" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 12
+http://proxy.nr3.xyz:80/max289/991374465/52138
+#EXTINF:-1 tvg-id="Adulto TRANS 13" tvg-name="Adulto TRANS 13" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 13
+http://proxy.nr3.xyz:80/max289/991374465/52139
+#EXTINF:-1 tvg-id="Adulto TRANS 14" tvg-name="Adulto TRANS 14" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 14
+http://proxy.nr3.xyz:80/max289/991374465/52140
+#EXTINF:-1 tvg-id="Adulto TRANS 15" tvg-name="Adulto TRANS 15" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 15
+http://proxy.nr3.xyz:80/max289/991374465/52141
+#EXTINF:-1 tvg-id="Adulto TRANS 16" tvg-name="Adulto TRANS 16" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 16
+http://proxy.nr3.xyz:80/max289/991374465/52142
+#EXTINF:-1 tvg-id="Adulto TRANS 17" tvg-name="Adulto TRANS 17" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 17
+http://proxy.nr3.xyz:80/max289/991374465/52143
+#EXTINF:-1 tvg-id="Adulto TRANS 18" tvg-name="Adulto TRANS 18" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 18
+http://proxy.nr3.xyz:80/max289/991374465/52144
+#EXTINF:-1 tvg-id="Adulto TRANS 19" tvg-name="Adulto TRANS 19" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 19
+http://proxy.nr3.xyz:80/max289/991374465/52145
+#EXTINF:-1 tvg-id="Adulto TRANS 20" tvg-name="Adulto TRANS 20" tvg-logo="https://painelsbo.painel.life/logosiptv/24horasadultos/transtv.png" group-title="24H ::: ADULTOS LGBTQI+",Adulto TRANS 20
+http://proxy.nr3.xyz:80/max289/991374465/52146
+
+
+
 
 
 #########################################
@@ -18315,206 +19478,6 @@ https://files.klubnichka-hd.com/newvideofile4/Janua24/Blacked%20Raw%20-%20Violet
 
 
 ########################################
-          LiTV
-########################################
-
-
-
-
-#EXTM3U
-#EXTM3U x-tvg-url="https://epg.iill.top/epg.xml"
-#EXTINF:-1 tvg-name="民視臺灣台" group-title="LiTV", 民視台灣台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv001&token=pixman
-#EXTINF:-1 tvg-name=民視 group-title="LiTV", 民視 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv155&token=pixman
-#EXTINF:-1 tvg-name=民視第一台 group-title="LiTV", 民視第一台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv003&token=pixman
-#EXTINF:-1 tvg-name=民視綜藝 group-title="LiTV", 民視綜藝 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv004&token=pixman
-#EXTINF:-1 tvg-name=豬哥亮歌廳秀 group-title="LiTV", 豬哥亮歌廳秀 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv006&token=pixman
-#EXTINF:-1 tvg-name=中天新聞 group-title="LiTV", 中天新聞 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv009&token=pixman
-#EXTINF:-1 tvg-name=非凡新聞 group-title="LiTV", 非凡新聞 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv010&token=pixman
-#EXTINF:-1 tvg-name=影迷數位電影台 group-title="LiTV", 影迷數位電影台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv011&token=pixman
-#EXTINF:-1 tvg-name=台灣戲劇台 group-title="LiTV", 台灣戲劇台
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang22&token=pixman
-#EXTINF:-1 tvg-name=亞洲旅遊台 group-title="LiTV", 亞洲旅遊台
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv076&token=pixman
-#EXTINF:-1 tvg-name=視納華仁紀實頻道 group-title="LiTV", 視納華仁紀實頻道 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv013&token=pixman
-#EXTINF:-1 tvg-name=時尚運動X group-title="LiTV", 時尚運動X 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv014&token=pixman
-#EXTINF:-1 tvg-name=GLOBETROTTER group-title="LiTV", GLOBETROTTER 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv016&token=pixman
-#EXTINF:-1 tvg-name=amc電影台 group-title="LiTV", amc電影台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv017&token=pixman
-#EXTINF:-1 tvg-name=達文西頻道 group-title="LiTV", 達文西頻道 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv018&token=pixman
-#EXTINF:-1 tvg-name=八大精彩台 group-title="LiTV", 八大精彩台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv034&token=pixman
-#EXTINF:-1 tvg-name=八大綜藝台 group-title="LiTV", 八大綜藝台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv039&token=pixman
-#EXTINF:-1 tvg-name=中視 group-title="LiTV", 中視 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv040&token=pixman
-#EXTINF:-1 tvg-name=華視 group-title="LiTV", 華視 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv041&token=pixman
-#EXTINF:-1 tvg-name=公視戲劇 group-title="LiTV", 公視戲劇 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv042&token=pixman
-#EXTINF:-1 tvg-name=客家電視臺 group-title="LiTV", 客家電視臺 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv043&token=pixman
-#EXTINF:-1 tvg-name=靖天卡通台 group-title="LiTV", 靖天卡通台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv044&token=pixman
-#EXTINF:-1 tvg-name=靖洋戲劇台 group-title="LiTV", 靖洋戲劇台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv045&token=pixman
-#EXTINF:-1 tvg-name=靖天綜合台 group-title="LiTV", 靖天綜合台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv046&token=pixman
-#EXTINF:-1 tvg-name=靖天日本台 group-title="LiTV", 靖天日本台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv047&token=pixman
-#EXTINF:-1 tvg-name=非凡商業 group-title="LiTV", 非凡商業 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv048&token=pixman
-#EXTINF:-1 tvg-name=采昌影劇 group-title="LiTV", 采昌影劇 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv049&token=pixman
-#EXTINF:-1 tvg-name=台視新聞 group-title="LiTV", 台視新聞 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv051&token=pixman
-#EXTINF:-1 tvg-name=華視新聞 group-title="LiTV", 華視新聞 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv052&token=pixman
-#EXTINF:-1 tvg-name=GinxTV group-title="LiTV", GinxTV 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv053&token=pixman
-#EXTINF:-1 tvg-name=靖天歡樂台 group-title="LiTV", 靖天歡樂台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv054&token=pixman
-#EXTINF:-1 tvg-name=靖天映畫 group-title="LiTV", 靖天映畫 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv055&token=pixman
-#EXTINF:-1 tvg-name=台視財經 group-title="LiTV", 台視財經 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv056&token=pixman
-#EXTINF:-1 tvg-name=靖洋卡通台 group-title="LiTV", 靖洋卡通台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv057&token=pixman
-#EXTINF:-1 tvg-name=靖天戲劇台 group-title="LiTV", 靖天戲劇台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv058&token=pixman
-#EXTINF:-1 tvg-name=古典音樂台 group-title="LiTV", 古典音樂台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv059&token=pixman
-#EXTINF:-1 tvg-name=靖天電影台 group-title="LiTV", 靖天電影台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv061&token=pixman
-#EXTINF:-1 tvg-name=靖天育樂台 group-title="LiTV", 靖天育樂台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv062&token=pixman
-#EXTINF:-1 tvg-name=靖天國際台 group-title="LiTV", 靖天國際台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv063&token=pixman
-#EXTINF:-1 tvg-name=中視菁采 group-title="LiTV", 中視菁采 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv064&token=pixman
-#EXTINF:-1 tvg-name=靖天資訊台 group-title="LiTV", 靖天資訊台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv065&token=pixman
-#EXTINF:-1 tvg-name=台視 group-title="LiTV", 台視 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv066&token=pixman
-#EXTINF:-1 tvg-name=tvbs精采台 group-title="LiTV", tvbs精采台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv067&token=pixman
-#EXTINF:-1 tvg-name=tvbs歡樂台 group-title="LiTV", tvbs歡樂台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv068&token=pixman
-#EXTINF:-1 tvg-name=愛爾達娛樂 group-title="LiTV", 愛爾達娛樂 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv070&token=pixman
-#EXTINF:-1 tvg-name=tvbs新聞台 group-title="LiTV", tvbs新聞台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv072&token=pixman
-#EXTINF:-1 tvg-name=tvbs group-title="LiTV", tvbs 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv073&token=pixman
-#EXTINF:-1 tvg-name=中視新聞 group-title="LiTV", 中視新聞 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv074&token=pixman
-#EXTINF:-1 tvg-name=鏡新聞 group-title="LiTV", 鏡新聞 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv075&token=pixman
-#EXTINF:-1 tvg-name=CATCHPLAY電影台 group-title="LiTV", CATCHPLAY電影台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv076&token=pixman
-#EXTINF:-1 tvg-name=TRACE group-title="LiTV", TRACE 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv077&token=pixman
-#EXTINF:-1 tvg-name=阿裡郎 group-title="LiTV", 阿裡郎 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv079&token=pixman
-#EXTINF:-1 tvg-name=中視經典 group-title="LiTV", 中視經典 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv080&token=pixman
-#EXTINF:-1 tvg-name=TRACE group-title="LiTV", TRACE 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv082&token=pixman
-#EXTINF:-1 tvg-name=MEZZO group-title="LiTV", MEZZO 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv083&token=pixman
-#EXTINF:-1 tvg-name=國會頻道1 group-title="LiTV", 國會頻道1 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv084&token=pixman
-#EXTINF:-1 tvg-name=國會頻道2 group-title="LiTV", 國會頻道2 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv085&token=pixman
-#EXTINF:-1 tvg-name=智林體育台 group-title="LiTV", 智林體育台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv101&token=pixman
-#EXTINF:-1 tvg-name=國際財經 group-title="LiTV", 國際財經 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv104&token=pixman
-#EXTINF:-1 tvg-name=第1商業台 group-title="LiTV", 第1商業台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv109&token=pixman
-#EXTINF:-1 tvg-name=東森新聞 group-title="LiTV", 東森新聞 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv152&token=pixman
-#EXTINF:-1 tvg-name=東森財經新聞 group-title="LiTV", 東森財經新聞 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv153&token=pixman
-#EXTINF:-1 tvg-name=東森購物3台 group-title="LiTV", 東森購物3台
-https://litv.tzh911.qzz.io/litv.php?id=litv-etm3&token=pixman
-#EXTINF:-1 tvg-name=民視 group-title="LiTV", 民視 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv155&token=pixman
-#EXTINF:-1 tvg-name=民視臺灣台 group-title="LiTV", 民視臺灣台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv156&token=pixman
-#EXTINF:-1 tvg-name=美國之音 group-title="LiTV", 美國之音 
-https://litv.tzh911.qzz.io/litv.php?id=litv-ftv03&token=pixman
-#EXTINF:-1 tvg-name=民視旅遊 group-title="LiTV", 民視旅遊 
-https://litv.tzh911.qzz.io/litv.php?id=litv-ftv07&token=pixman
-#EXTINF:-1 tvg-name=民視影劇 group-title="LiTV", 民視影劇 
-https://litv.tzh911.qzz.io/litv.php?id=litv-ftv09&token=pixman
-#EXTINF:-1 tvg-name=半島新聞 group-title="LiTV", 半島新聞 
-https://litv.tzh911.qzz.io/litv.php?id=litv-ftv10&token=pixman
-#EXTINF:-1 tvg-name=民視新聞台 group-title="LiTV", 民視新聞台 
-https://litv.tzh911.qzz.io/litv.php?id=litv-ftv13&token=pixman
-#EXTINF:-1 tvg-name=影迷數位紀實台 group-title="LiTV", 影迷數位紀實台 
-https://litv.tzh911.qzz.io/litv.php?id=litv-ftv15&token=pixman
-#EXTINF:-1 tvg-name=好消息 group-title="LiTV", 好消息 
-https://litv.tzh911.qzz.io/litv.php?id=litv-ftv16&token=pixman
-#EXTINF:-1 tvg-name=好消息2台 group-title="LiTV", 好消息2台 
-https://litv.tzh911.qzz.io/litv.php?id=litv-ftv17&token=pixman
-#EXTINF:-1 tvg-name=龍華卡通 group-title="LiTV", 龍華卡通 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang01&token=pixman
-#EXTINF:-1 tvg-name=龍華洋片 group-title="LiTV", 龍華洋片 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang02&token=pixman
-#EXTINF:-1 tvg-name=龍華電影 group-title="LiTV", 龍華電影 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang03&token=pixman
-#EXTINF:-1 tvg-name=博斯魅力 group-title="LiTV", 博斯魅力 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang04&token=pixman
-#EXTINF:-1 tvg-name=博斯高球1 group-title="LiTV", 博斯高球1 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang05&token=pixman
-#EXTINF:-1 tvg-name=博斯高球2 group-title="LiTV", 博斯高球2 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang06&token=pixman
-#EXTINF:-1 tvg-name=博斯運動1 group-title="LiTV", 博斯運動1 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang07&token=pixman
-#EXTINF:-1 tvg-name=博斯運動2 group-title="LiTV", 博斯運動2 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang08&token=pixman
-#EXTINF:-1 tvg-name=博斯網球 group-title="LiTV", 博斯網球 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang09&token=pixman
-#EXTINF:-1 tvg-name=博斯無限 group-title="LiTV", 博斯無限 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang10&token=pixman
-#EXTINF:-1 tvg-name=龍華日韓 group-title="LiTV", 龍華日韓 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang11&token=pixman
-#EXTINF:-1 tvg-name=龍華偶像 group-title="LiTV", 龍華偶像 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang12&token=pixman
-#EXTINF:-1 tvg-name=博斯無限2 group-title="LiTV", 博斯無限2 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang13&token=pixman
-#EXTINF:-1 tvg-name=寰宇新聞台 group-title="LiTV", 寰宇新聞台 
-https://litv.tzh911.qzz.io/litv.php?id=litv-longturn14&token=pixman
-#EXTINF:-1 tvg-name=寰宇新聞臺灣台 group-title="LiTV", 寰宇新聞臺灣台 
-https://litv.tzh911.qzz.io/litv.php?id=litv-longturn15&token=pixman
-#EXTINF:-1 tvg-name=亞洲旅遊台 group-title="LiTV", 亞洲旅遊台 
-https://litv.tzh911.qzz.io/litv.php?id=4gtv-4gtv076&token=pixman
-#EXTINF:-1 tvg-name=龍華戲劇 group-title="LiTV", 龍華戲劇 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang18&token=pixman
-#EXTINF:-1 tvg-name=Smart知識台 group-title="LiTV", Smart知識台 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang19&token=pixman
-#EXTINF:-1 tvg-name=生活英語台 group-title="LiTV", 生活英語台 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang20&token=pixman
-#EXTINF:-1 tvg-name=龍華經典 group-title="LiTV", 龍華經典 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang21&token=pixman
-#EXTINF:-1 tvg-name=臺灣戲劇台 group-title="LiTV", 臺灣戲劇台 
-https://litv.tzh911.qzz.io/litv.php?id=litv-xinchuang22&token=pixman
-
-
-
-########################################
                4GTV
 ########################################
 
@@ -19658,244 +20621,6 @@ http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84O
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUMlVFwgKPJolUfLz83I6u33C-EZWfso2O1zPIVirs8iB7TGHwt9Kf__yl2J0wrRQXTKZLYwLq7y9YRf_4dcbG7kh0fzffGvD5eSnzJ-5gTHO5gddvhXiA0fA8MBLCQD--mM8ithI_zWWH7nTVhv3jiVecPEyOK7C9B7F1hAP-arS47Js9Z52e_FWIvSaFNbD3p-_fE-fl4MgLSUR_R1_k1g.m3u8?u=1756878715
 #EXTINF:-1 group-title="8885",CCTV-6HD
 http://8.218.84.3:8885/live/LxWcScuQ6WphaELY4DhkKm8SIv7_ZgNIJtNvFurqphvyqxUIU84OjKVCwFxMq9iUoxGriZAMA4X2pfVvcb-VI6jRrHYIK0WhhVnfZssGFvBiN1mgBPEgxXsgt5ThgKs1hHv7gLkHS3trNL7XTZUKThp63Tj3OkgzvI8Pq2PLs1wN6uGDok10s31ShnzAn6eOwyHC5m1PpoZ_-WKO-jFFDybC_m5wTJ8FITCORjlB1SlJPRPfFiA7p92Lb9DOykgj2_kVLS0dUdUzlW78XFNwJQ.m3u8?u=1756878715
-
-
-
-
-
-
-#EXTINF:-1 group-title="8787",AMC電影台
-http://211.23.125.95:50007/4gtv-4gtv017/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",ELTA生活旅遊
-http://211.23.125.95:50007/4gtv-live120/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",FUN4K探索娛樂
-http://211.23.125.95:50007/4gtv-live011/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",MTVLive
-http://211.23.125.95:50007/4gtv-live025/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",TVBS歡樂台
-http://211.23.125.95:50007/4gtv-4gtv068/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",TVBS歡樂台
-http://211.23.125.95:50007/li-4gtv-4gtv068/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",TVBS精采台
-http://211.23.125.95:50007/4gtv-4gtv067/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",TVBS精采台
-http://211.23.125.95:50007/li-4gtv-4gtv067/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",TVBS台劇台
-http://211.23.125.95:50007/4gtv-live088/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",TVBS新聞台
-http://211.23.125.95:50007/li-4gtv-4gtv072/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",TVBS綜藝台
-http://211.23.125.95:50007/4gtv-live087/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",TVBS
-http://211.23.125.95:50007/4gtv-4gtv073/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",TVBS
-http://211.23.125.95:50007/li-4gtv-4gtv073/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",八大精彩
-http://211.23.125.95:50007/4gtv-4gtv034/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",八大精彩
-http://211.23.125.95:50007/li-4gtv-4gtv034/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",八大綜藝
-http://211.23.125.95:50007/4gtv-4gtv039/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",半島新聞台
-http://211.23.125.95:50007/li-litv-ftv10/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",半島新聞台
-http://211.23.125.95:50007/litv-ftv10/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",采昌影劇
-http://211.23.125.95:50007/4gtv-4gtv049/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",采昌影劇
-http://211.23.125.95:50007/li-4gtv-4gtv049/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",大愛二台
-http://211.23.125.95:50007/4gtv-live106/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",東森財經新聞
-http://211.23.125.95:50007/li-4gtv-4gtv153/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",東森新聞
-http://211.23.125.95:50007/4gtv-4gtv152/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",東森新聞
-http://211.23.125.95:50007/li-4gtv-4gtv152/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",公視戲劇
-http://211.23.125.95:50007/4gtv-4gtv042/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",公視戲劇
-http://211.23.125.95:50007/li-4gtv-4gtv042/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",華視
-http://211.23.125.95:50007/4gtv-4gtv041/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",華視
-http://211.23.125.95:50007/li-4gtv-4gtv041/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",華視
-http://211.23.125.95:50007/of-4gtv-4gtv041/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",華視新聞台
-http://211.23.125.95:50007/4gtv-4gtv052/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",寰宇財經
-http://211.23.125.95:50007/li-4gtv-4gtv158/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",寰宇財經
-http://211.23.125.95:50007/of-4gtv-4gtv158/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",寰宇新聞
-http://211.23.125.95:50007/li-litv-longturn14/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",寰宇新聞
-http://211.23.125.95:50007/of-litv-longturn14/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",寰宇新聞台灣台
-http://211.23.125.95:50007/4gtv-4gtv156/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",寰宇新聞台灣台
-http://211.23.125.95:50007/li-4gtv-4gtv156/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",經典電影台
-http://211.23.125.95:50007/4gtv-live021/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",鏡電視新聞台
-http://211.23.125.95:50007/4gtv-4gtv075/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",鏡電視新聞台
-http://211.23.125.95:50007/li-4gtv-4gtv075/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天
-http://211.23.125.95:50007/4gtv-4gtv063/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天
-http://211.23.125.95:50007/li-4gtv-4gtv063/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天電影
-http://211.23.125.95:50007/4gtv-4gtv061/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天電影
-http://211.23.125.95:50007/li-4gtv-4gtv061/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天歡樂
-http://211.23.125.95:50007/4gtv-4gtv054/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天歡樂
-http://211.23.125.95:50007/li-4gtv-4gtv054/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天卡通台
-http://211.23.125.95:50007/4gtv-4gtv044/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天卡通台
-http://211.23.125.95:50007/li-4gtv-4gtv044/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天日本
-http://211.23.125.95:50007/4gtv-4gtv047/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天日本
-http://211.23.125.95:50007/li-4gtv-4gtv047/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天戲劇
-http://211.23.125.95:50007/li-4gtv-4gtv058/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天映畫
-http://211.23.125.95:50007/4gtv-4gtv055/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天映畫
-http://211.23.125.95:50007/li-4gtv-4gtv055/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天育樂
-http://211.23.125.95:50007/4gtv-4gtv062/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天育樂
-http://211.23.125.95:50007/li-4gtv-4gtv062/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天資訊
-http://211.23.125.95:50007/4gtv-4gtv065/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天資訊
-http://211.23.125.95:50007/li-4gtv-4gtv065/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖天綜合
-http://211.23.125.95:50007/4gtv-4gtv046/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖洋卡通
-http://211.23.125.95:50007/4gtv-4gtv057/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖洋卡通
-http://211.23.125.95:50007/li-4gtv-4gtv057/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",靖洋戲劇
-http://211.23.125.95:50007/4gtv-4gtv045/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華電影
-http://211.23.125.95:50007/litv-longturn03/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華經典
-http://211.23.125.95:50007/li-litv-longturn21/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華經典
-http://211.23.125.95:50007/litv-longturn21/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華卡通
-http://211.23.125.95:50007/li-litv-longturn01/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華卡通
-http://211.23.125.95:50007/litv-longturn01/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華偶像
-http://211.23.125.95:50007/li-litv-longturn12/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華偶像
-http://211.23.125.95:50007/litv-longturn12/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華日韓
-http://211.23.125.95:50007/li-litv-longturn11/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華日韓
-http://211.23.125.95:50007/litv-longturn11/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華戲劇
-http://211.23.125.95:50007/li-litv-longturn18/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華戲劇
-http://211.23.125.95:50007/litv-longturn18/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華洋片
-http://211.23.125.95:50007/li-litv-longturn02/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",龍華洋片
-http://211.23.125.95:50007/litv-longturn02/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視
-http://211.23.125.95:50007/4gtv-4gtv002/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視第一台
-http://211.23.125.95:50007/4gtv-4gtv003/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視第一台
-http://211.23.125.95:50007/li-4gtv-4gtv003/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視旅遊
-http://211.23.125.95:50007/li-litv-ftv07/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視旅遊
-http://211.23.125.95:50007/litv-ftv07/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視台灣台
-http://211.23.125.95:50007/4gtv-4gtv001/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視台灣台
-http://211.23.125.95:50007/li-4gtv-4gtv001/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視新聞
-http://211.23.125.95:50007/li-litv-ftv13/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視新聞
-http://211.23.125.95:50007/litv-ftv13/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視影劇
-http://211.23.125.95:50007/li-litv-ftv09/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視影劇
-http://211.23.125.95:50007/litv-ftv09/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視綜藝
-http://211.23.125.95:50007/4gtv-4gtv004/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",民視綜藝
-http://211.23.125.95:50007/li-4gtv-4gtv004/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",倪珍播新聞
-http://211.23.125.95:50007/nnews-zh/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",倪珍英語新聞
-http://211.23.125.95:50007/nnews-en/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",人間衛視
-http://211.23.125.95:50007/4gtv-live008/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",三立iNEWS
-http://211.23.125.95:50007/4gtv-live089/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",三立iNEWS
-http://211.23.125.95:50007/iNEWS/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",三立綜合合
-http://211.23.125.95:50007/4gtv-live207/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",台視新聞台
-http://211.23.125.95:50007/li-4gtv-4gtv051/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",臺灣戲劇台
-http://211.23.125.95:50007/li-litv-longturn22/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",臺灣戲劇台
-http://211.23.125.95:50007/litv-longturn22/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",亞洲旅遊
-http://211.23.125.95:50007/4gtv-4gtv076/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",亞洲旅遊
-http://211.23.125.95:50007/li-4gtv-4gtv076/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",亞洲旅遊
-http://211.23.125.95:50007/of-4gtv-4gtv076/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",影迷數位電影台
-http://211.23.125.95:50007/4gtv-4gtv011/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",影迷數位電影台
-http://211.23.125.95:50007/li-4gtv-4gtv011/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",影迷數位紀實台
-http://211.23.125.95:50007/li-litv-ftv15/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",影迷數位紀實台
-http://211.23.125.95:50007/litv-ftv15/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中視
-http://211.23.125.95:50007/4gtv-4gtv040/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中視
-http://211.23.125.95:50007/li-4gtv-4gtv040/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中視
-http://211.23.125.95:50007/of-4gtv-4gtv040/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中視菁采台
-http://211.23.125.95:50007/4gtv-4gtv064/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中視菁采台
-http://211.23.125.95:50007/li-4gtv-4gtv064/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中視經典台
-http://211.23.125.95:50007/4gtv-4gtv080/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中視經典台
-http://211.23.125.95:50007/li-4gtv-4gtv080/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中視新聞台
-http://211.23.125.95:50007/4gtv-4gtv074/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中視新聞台
-http://211.23.125.95:50007/of-4gtv-4gtv074/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中天新聞台
-http://211.23.125.95:50007/4gtv-4gtv009/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中天新聞台
-http://211.23.125.95:50007/li-4gtv-4gtv009/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中天新聞台
-http://211.23.125.95:50007/of-4gtv-4gtv009/index.m3u8?proxy=true
-#EXTINF:-1 group-title="8787",中天亞洲台
-http://211.23.125.95:50007/4gtv-4gtv109/index.m3u8?proxy=true
-
-
 
 
 

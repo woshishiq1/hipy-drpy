@@ -47,7 +47,7 @@
                 "name": "本地【小虎斑】",
                 "url": "https://gitee.com/cpu-iy/iy/raw/master/小虎斑.zip",
                 "icon": "https://img0.baidu.com/it/u=3403550249,2192222310&fm=253&fmt=auto?w=800&h=804",
-                "version": "14.7.1"
+                "version": "14.7.5"
             },
             {
                 "name": "缘起【天神IY】",
@@ -74,16 +74,10 @@
                 "version": "2026.03.14版"
             },
             {
-                "name": "本地【PG】1",
+                "name": "本地【PG】",
                 "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/本地【PG】1.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/源.png",
-                "version": "20260316-0829版"
-            },
-            {
-                "name": "本地【PG】2",
-                "url": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/test/main/本地【PG】2.zip",
-                "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/源.png",
-                "version": "20260316-0829版"
+                "version": "20260322-1233版"
             }
         ]
     },
@@ -94,7 +88,7 @@
                 "name": "天神IY手机版",
                 "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY手机版.apk",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "5.0.1_64位"
+                "version": "5.0.6_64位"
             },
             {
                 "name": "倾心壁纸",
@@ -165,19 +159,19 @@
                 "name": "天神IY电视版",
                 "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY电视版.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "5.0.1_电视32位"
+                "version": "5.0.6_电视32位"
             },
             {
                 "name": "天神IY海信版",
                 "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY海信版.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "5.0.1_非共存"
+                "version": "5.0.6_非共存"
             },
             {
                 "name": "天神IY电视版",
                 "url": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/IY-CPU/test/main/天神IY电视64位版.zip",
                 "icon": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/封面/天神IY.png",
-                "version": "5.0.1_电视64位"
+                "version": "5.0.6_电视64位"
             },
             {
                 "name": "天神IY电视全内置版",

@@ -80,35 +80,38 @@
       }
     },
 
-  {
-      "key": "腾讯弹幕",
-      "name": "👑 腾讯┃SVIP",
+    {
+      "key": "qq",
+      "name": "至臻4k-3",
+      "type": 4,
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=qq",
       "searchable": 1,
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/腾讯弹幕.js"
+      "quickSearch": 1,
+      "changeable": 0
     },
-      {
-      "key": "芒果视频",
-      "name": "👑 芒果┃SVIP",
-      "type": 3,
-      "api": "http://154.8.225.238:9991/cang/lib/drpy2.min.js",
-      "ext": "http://154.8.225.238:9991/cang/lib/芒果视频.js"
+    {
+      "key": "mgtv",
+      "name": "至臻4k-4",
+      "type": 4,
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=mgtv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
-
-
- {
-      "key": "哔哩哔哩",
-      "name": "👑哔哩┃SVIP",
-      "type": 3,
-      "api": "http://mlwl.top:67/lib/drpy2.min.js",
-      "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
+    {
+      "key": "bilibili",
+      "name": "至臻4k-5",
+      "type": 4,
+      "api": "http://fanhuays.top:8100/api.php?uid=fanhua&id=bilibili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
       "key": "ZX",
       "name": "👑ZX┃4K",
       "type": 4,
-      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243&filter=true",
+      "api": "http://115.191.55.109:9097/api/%E4%BA%BA%E4%BA%BA%E5%BD%B1%E8%A7%86[%E4%BC%98]?pwd=50721480be241243",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,

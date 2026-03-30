@@ -4,49 +4,31 @@
     "wallpaper":"http://tool.teyonds.com/api",
     "warningText": "学习使用，资源来源于网络，请勿贩卖，请加载24小时后删除，出现其他问题与作者无关，请知悉！",
     "sites": [
-        {
-        "key":"爱奇艺弹幕",
-        "name":"🐬爱奇艺视频 TG:@usfgrjk",
-        "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
+       {
+         "key":"AQY",
+        "name":"🐬爱奇艺｜追剧",
         "type":3,
-        "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-         "searchable":1,
-         "quickSearch":0,
-         "changeable":1,
-         "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/爱奇艺弹幕.js"
-         },
-         {
-         "key":"优酷弹幕",
-         "name":"🐬优酷视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-         "type":3,
-         "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-         "searchable":1,
-         "quickSearch":0,
-         "changeable":1,
-         "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/优酷弹幕.js"
-         },
-         {"key":"腾讯弹幕",
-         "name":"🐬腾讯视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-         "type":3,
-         "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-         "searchable":1,
-         "quickSearch":0,
-         "changeable":1,
-         "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/腾讯弹幕.js"
-         },
-         {
-         "key":"芒果弹幕",
-         "name":"🐬芒果视频｜追剧",
-         "jar":"https://gitee.com/yiwu369/6758/raw/master/jar/spider.jar",
-          "type":3,
-          "api":"https://gitee.com/yiwu369/6758/raw/master/JS/drpy2.min.js",
-          "searchable":1,
-          "quickSearch":0,
-          "changeable":1,
-           "ext":"https://gitee.com/yiwu369/6758/raw/master/JS/芒果弹幕.js"
-           },
+        "api":"https://file.icve.com.cn/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
+        "ext":"https://cdn.waimaimingtang.com/file/images/bwc/20251023002031-6064033c16.js"
+        },
+         {"key":"YK",
+        "name":"🐬优酷视频｜追剧",
+        "type":3,
+        "api":"https://file.icve.com.cn/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
+        "ext":"https://cdn.waimaimingtang.com/file/images/bwc/20251023002200-507c3e8aae.js"
+        },
+        {"key":"TX",
+        "name":"🐬腾讯视频｜追剧",
+        "type":3,
+        "api":"https://file.icve.com.cn/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
+        "ext":"https://cdn.waimaimingtang.com/file/images/bwc/20251023002144-0e40887294.js"
+        },
+         {"key":"MG",
+        "name":"🐬芒果视频｜追剧",
+        "type":3,
+        "api":"https://file.icve.com.cn/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
+        "ext":"https://cdn.waimaimingtang.com/file/images/bwc/20251023002108-a4795930ec.js"
+        },
         {"key": "sgys",
         "name": "🐬搜狗视频｜追剧",
         "type": 3,
@@ -57,70 +39,6 @@
         "ext": "http://www.meowtv.cn/js/meow.php?file=sgsp",
         "api": "http://www.meowtv.cn/js/drpy2.min.js"
         },
-        {
-			"key": "zhuanxiang",
-			"name": "🐬专享4K｜追剧",
-			"type": 4,
-			"api": "http://sspa8.top:99/php/%E4%B8%93%E4%BA%AB.php"
-		},
-		{
-			"key": "T4-哇哇",
-			"name": "🐬哇哇影视｜追剧",
-			"type": 4,
-			"api": "https://catbox.n13.club/t9/哇哇影视.php"
-		},
-        {
-            "name": "🐬糖心｜追剧",
-            "key": "TnewGr",
-            "type": 3,
-            "api": "csp_TnewGrAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
-            
-        },
-        {
-            "name": "🐬金牌｜追剧",
-            "key": "JinPai",
-            "type": 3,
-            "api": "csp_JinPaiAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
-            
-        },
-        {
-            "name": "🐬伊外｜追剧",
-            "key": "YIys",
-            "type": 3,
-            "api": "csp_YIysAmns",
-            "searchable": 1,
-            "filterable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "jar": "http://cnb.cool/aooooowuuuuu/FreeSpider/-/git/raw/main/bfdb--cvdvds.png"
-            
-        },
-        {
-            "key": "还行",
-            "name": "🐬还行4K｜追剧",
-            "jar": "https://xiuxiu-pro.meitudata.com/posters/5199d8f8bcbe3c6d6938ded33cb90596.png",
-            "type": 3,
-            "api": "csp_AppYs",
-            "searchable": 1,
-            "quickSearch": 1,
-            "ext": "http://m51.gotto.top/api.php/v1.vod"
-        },
-		{
-			"key": "T4-huaxiaozhu111",
-			"name": "🐬花小猪｜追剧",
-			"type": 4,
-			"api": "https://catbox.n13.club/t9/huaxiaozhu.php"
-		},
       {
       "key": "量子2k",
       "name": "🐬量子影视｜追剧",
@@ -158,18 +76,6 @@
             "ext": {
                 "url": "http://v.rbotv.cn"
             }
-        },
-        {
-            "key":"瓜子",
-            "name":"🐬瓜子影视｜追剧",
-            "type":3,
-            "api":"csp_Guazi",
-            "searchable":1,
-            "quickSearch":1,
-            "filterable":1,
-            "playerType":1,
-            "changeable":1,
-            "jar":"https://ghproxy.net/https://raw.githubusercontent.com/qdpdwjx/ziyuan/master/JAR/fuma.jar;md5;542ED744B07121213F70323B9BCBECCA"
         },
         {
             "key": "API_如意",
@@ -642,19 +548,19 @@
     ],
 "lives": [
          {
-            "name": "🐬地方直播 TG:@usfgrjk",
+            "name": "🐬地方直播",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         }, 
          {
-            "name": "🐬地方直播2 TG:@usfgrjk",
+            "name": "🐬地方直播2",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
         }, 
         {
-            "name": "🐬电视家 TG:@usfgrjk",
+            "name": "🐬电视家",
             "type": 0,
             "ua": "okhttp",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/电视家.m3u"

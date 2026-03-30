@@ -1492,21 +1492,24 @@
         };
 
         const speechController = {
-            synth: window.speechSynthesis,
+            synth: window.speechSynthesis || null,
             enabled: true,
-            voiceType: 'xiaoxiao',
+            voiceType: 'child',
             xiaoxiaoVoice: null,
 
             initVoice() {
-                const voices = this.synth.getVoices();
-                this.xiaoxiaoVoice = voices.find(voice => 
-                    voice.name.includes('晓晓') || voice.name.includes('Xiaoxiao') || 
-                    voice.name.includes('Microsoft Xiaoxiao') || voice.name.includes('晓晓 - 中文(中国)')
-                );
+                if (!this.synth) return;
+                try {
+                    const voices = this.synth.getVoices();
+                    this.xiaoxiaoVoice = voices.find(voice => 
+                        voice.name.includes('晓晓') || voice.name.includes('Xiaoxiao') || 
+                        voice.name.includes('Microsoft Xiaoxiao') || voice.name.includes('晓晓 - 中文(中国)')
+                    );
+                } catch (e) {}
             },
             
             speak(text) {
-                if (!this.enabled || !this.synth) return false;
+                if (!this.enabled || !this.synth || !text) return false;
                 try {
                     this.stop();
                     const utterance = new SpeechSynthesisUtterance(text);
@@ -1520,19 +1523,35 @@
                     utterance.pitch = 1.0;
                     
                     setTimeout(() => {
-                        if(this.synth) this.synth.speak(utterance);
-                    }, 100);
+                        if(this.synth && !this.synth.speaking) {
+                            this.synth.speak(utterance);
+                        }
+                    }, 150);
                     return true;
-                } catch (e) { return false; }
+                } catch (e) { 
+                    return false; 
+                }
             },
             
-            stop() { if(this.synth) this.synth.cancel(); },
-            toggle() { this.enabled = !this.enabled; return this.enabled; },
-            setVoiceType(type) { this.voiceType = type; },
+            stop() { 
+                if(this.synth) {
+                    this.synth.cancel();
+                }
+            },
+            
+            toggle() { 
+                this.enabled = !this.enabled; 
+                return this.enabled; 
+            },
+            
+            setVoiceType(type) { 
+                this.voiceType = type; 
+            },
+            
             speakQuestionImmediately(text) {
                 if(this.enabled && text) {
                     this.stop();
-                    setTimeout(()=>this.speak(text),100);
+                    setTimeout(()=>this.speak(text), 150);
                 }
             }
         };
@@ -1644,7 +1663,7 @@
                     }
                 });
                 
-                const percent = (completedQuestions / totalQuestions) * 100;
+                const percent = totalQuestions > 0 ? (completedQuestions / totalQuestions) * 100 : 0;
                 DOM.progressText.textContent = `学习进度：${Math.round(percent)}%`;
                 DOM.progressBar.style.width = percent + '%';
                 DOM.startBtn.innerHTML = '<i class="fas fa-play"></i> 继续学习';
@@ -1720,7 +1739,7 @@
             
             DOM.questionText.textContent = q.question;
             DOM.currentLevelEl.textContent = `第${currentLevel+1}关/共${total}关`;
-            DOM.progressBar.style.width = (currentLevel/total)*100+'%';
+            DOM.progressBar.style.width = total > 0 ? (currentLevel/total)*100+'%' : '0%';
             DOM.optionsContainer.innerHTML = '';
             gameState.answered = false;
             gameState.selectedOption = null;
@@ -1808,7 +1827,8 @@
         function showResult() {
             const {score, total, currentGame} = gameState;
             if(!currentGame) return;
-            const percent = Math.round((score/(total*20))*100);
+            const maxScore = total * 20;
+            const percent = maxScore > 0 ? Math.round((score/maxScore)*100) : 0;
             const stars = Math.ceil(percent/20);
             
             DOM.finalScore.textContent = percent;
@@ -1840,12 +1860,15 @@
 
         function initEvents() {
             speechController.initVoice();
-            window.speechSynthesis.onvoiceschanged = () => speechController.initVoice();
+            if (window.speechSynthesis) {
+                window.speechSynthesis.onvoiceschanged = () => speechController.initVoice();
+            }
 
             if(DOM.soundToggle) {
                 DOM.soundToggle.onclick = ()=>{
                     const on = speechController.toggle();
                     DOM.soundToggle.querySelector('i').className = on?'fas fa-volume-up':'fas fa-volume-mute';
+                    DOM.soundToggle.classList.toggle('active', on);
                 };
             }
             
@@ -1857,7 +1880,7 @@
                         if(gameState.currentGame.id === 'poem' && q.speakText) {
                             speechController.speak(q.speakText);
                         } else {
-                            speechController.speak(q.options[q.answer].voice);
+                            speechController.speak(q.question);
                         }
                     }
                 };

@@ -54,9 +54,8 @@
       {"clash_mode":"Global","server":"proxy_dns_server"},
       {"clash_mode": "Direct", "server": "direct_dns_server", "strategy": "ipv4_only"},
       {"rule_set": ["AWAvenue-Ads"], "action": "predefined", "rcode": "NOERROR"},
-      {"domain_suffix": ["market.xiaomi.com"], "server": "direct_dns_server"},
-      {"domain_suffix": ["lancache.steamcontent.com"], "server": "proxy_dns_server"},
-      {"query_type": "PTR", "action": "predefined", "rcode": "NXDOMAIN"},
+      {"domain_suffix": ["market.xiaomi.com", "lancache.steamcontent.com"], "server": "direct_dns_server"},
+      {"type": "logical", "mode": "or", "rules": [{"query_type": "PTR"}, {"domain_keyword": ["wifi.fiberhome"]}], "action": "predefined", "rcode": "NXDOMAIN"},
       {"query_type": ["SVCB", "HTTPS"], "action": "reject"},
       {"query_type": ["A", "AAAA"], "server": "fakeip_dns_server", "rewrite_ttl": 1},
       {"rule_set": "gfw", "server": "proxy_dns_server"}

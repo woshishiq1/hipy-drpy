@@ -1,0 +1,33 @@
+现有整个幼儿园阶段
+
+numbers: {
+                id: 'numbers',
+                title: '数字世界',
+                icon: 'fas fa-calculator',
+                description: '1-20数字、数量、大小认知',
+                color: '#20bf6b',
+                questions: [
+                    { question: "请选择'一'", options: [{ type: "img", content: "1️⃣", word: "一", voice: "一" },{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" }], answer: 0 },
+                    { question: "请选择'二'", options: [{ type: "img", content: "1️⃣", word: "一", voice: "一" },{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" }], answer: 1 },
+                    { question: "请选择'三'", options: [{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" },{ type: "img", content: "5️⃣", word: "五", voice: "五" }], answer: 1 },
+                    { question: "请选择'四'", options: [{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" },{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" }], answer: 1 },
+                    { question: "请选择'五'", options: [{ type: "img", content: "4️⃣", word: "四", voice: "四" },{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" }], answer: 1 },
+                    { question: "请选择'六'", options: [{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" }], answer: 1 },
+                    { question: "请选择'七'", options: [{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" },{ type: "img", content: "9️⃣", word: "九", voice: "九" }], answer: 1 },
+                    { question: "请选择'八'", options: [{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" },{ type: "img", content: "9️⃣", word: "九", voice: "九" },{ type: "img", content: "🔟", word: "十", voice: "十" }], answer: 1 },
+                    { question: "请选择'九'", options: [{ type: "img", content: "8️⃣", word: "八", voice: "八" },{ type: "img", content: "9️⃣", word: "九", voice: "九" },{ type: "img", content: "🔟", word: "十", voice: "十" },{ type: "img", content: "1️⃣1️⃣", word: "十一", voice: "十一" }], answer: 1 },
+                    { question: "请选择'十'", options: [{ type: "img", content: "9️⃣", word: "九", voice: "九" },{ type: "img", content: "🔟", word: "十", voice: "十" },{ type: "img", content: "1️⃣1️⃣", word: "十一", voice: "十一" },{ type: "img", content: "1️⃣2️⃣", word: "十二", voice: "十二" }], answer: 1 },
+                    { question: "请选择'十一'", options: [{ type: "img", content: "1️⃣0️⃣", word: "十", voice: "十" },{ type: "img", content: "1️⃣1️⃣", word: "十一", voice: "十一" },{ type: "img", content: "1️⃣2️⃣", word: "十二", voice: "十二" },{ type: "img", content: "1️⃣3️⃣", word: "十三", voice: "十三" }], answer: 1 },
+                    { question: "请选择'十二'", options: [{ type: "img", content: "1️⃣1️⃣", word: "十一", voice: "十一" },{ type: "img", content: "1️⃣2️⃣", word: "十二", voice: "十二" },{ type: "img", content: "1️⃣3️⃣", word: "十三", voice: "十三" },{ type: "img", content: "1️⃣4️⃣", word: "十四", voice: "十四" }], answer: 1 },
+                    { question: "请选择'十三'", options: [{ type: "img", content: "1️⃣2️⃣", word: "十二", voice: "十二" },{ type: "img", content: "1️⃣3️⃣", word: "十三", voice: "十三" },{ type: "img", content: "1️⃣4️⃣", word: "十四", voice: "十四" },{ type: "img", content: "1️⃣5️⃣", word: "十五", voice: "十五" }], answer: 1 },
+                    { question: "请选择'十四'", options: [{ type: "img", content: "1️⃣3️⃣", word: "十三", voice: "十三" },{ type: "img", content: "1️⃣4️⃣", word: "十四", voice: "十四" },{ type: "img", content: "1️⃣5️⃣", word: "十五", voice: "十五" },{ type: "img", content: "1️⃣6️⃣", word: "十六", voice: "十六" }], answer: 1 },
+                    { question: "请选择'十五'", options: [{ type: "img", content: "1️⃣4️⃣", word: "十四", voice: "十四" },{ type: "img", content: "1️⃣5️⃣", word: "十五", voice: "十五" },{ type: "img", content: "1️⃣6️⃣", word: "十六", voice: "十六" },{ type: "img", content: "1️⃣7️⃣", word: "十七", voice: "十七" }], answer: 1 },
+                    { question: "请选择'十六'", options: [{ type: "img", content: "1️⃣5️⃣", word: "十五", voice: "十五" },{ type: "img", content: "1️⃣6️⃣", word: "十六", voice: "十六" },{ type: "img", content: "1️⃣7️⃣", word: "十七", voice: "十七" },{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" }], answer: 1 },
+                    { question: "请选择'十七'", options: [{ type: "img", content: "1️⃣6️⃣", word: "十六", voice: "十六" },{ type: "img", content: "1️⃣7️⃣", word: "十七", voice: "十七" },{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" },{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" }], answer: 1 },
+                    { question: "请选择'十八'", options: [{ type: "img", content: "1️⃣7️⃣", word: "十七", voice: "十七" },{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" },{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" },{ type: "img", content: "2️⃣0️⃣", word: "二十", voice: "二十" }], answer: 1 },
+                    { question: "请选择'十九'", options: [{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" },{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" },{ type: "img", content: "2️⃣0️⃣", word: "二十", voice: "二十" },{ type: "img", content: "1️⃣0️⃣", word: "十", voice: "十" }], answer: 1 },
+                    { question: "请选择'二十'", options: [{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" },{ type: "img", content: "2️⃣0️⃣", word: "二十", voice: "二十" },{ type: "img", content: "1️⃣0️⃣", word: "十", voice: "十" },{ type: "img", content: "5️⃣", word: "五", voice: "五" }], answer: 1 }
+                ]
+            },
+
+请补全现有整个幼儿园阶段，给出代码过程中千万不要截断

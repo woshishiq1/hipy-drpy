@@ -74,6 +74,24 @@
       "url": "https://raw.githubusercontent.com/yewengood/kzb/refs/heads/main/zhtv.txt"
     },
 
+  {
+    "name": "斯玛特源",
+    "url": "http://tv123.vvvv.ee/tv.m3u",
+    "header": {
+      "User-Agent": "okhttp/5.1.0"
+    }
+  },
+
+
+  {
+      "name": "🐅易发TV",
+      "type": 0,
+      "url": "http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.hackserver.net/epg.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
 
     {
       "name": "臨時1線",

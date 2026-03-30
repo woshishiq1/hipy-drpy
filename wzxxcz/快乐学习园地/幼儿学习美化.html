@@ -53,6 +53,7 @@
             padding: 24px;
             color: #333;
             line-height: 1.6;
+            background-attachment: fixed;
         }
         
         .particles {
@@ -871,7 +872,7 @@
             animation: shimmer 1.5s infinite;
         }
 
-        /* 新增：高端UI美化 */
+        /* 高端UI美化增强 */
         .glass-effect {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
@@ -944,6 +945,36 @@
         .clear-progress-btn:hover {
             transform: translateY(-2px);
             box-shadow: 0 8px 24px rgba(239, 68, 68, 0.35);
+        }
+
+        /* 高端UI强化 */
+        .level-card {
+            position: relative;
+        }
+        .level-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0,0,0,0.02), transparent);
+            border-radius: var(--radius-medium);
+            pointer-events: none;
+        }
+        .option-card {
+            position: relative;
+        }
+        .option-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40%;
+            background: linear-gradient(to top, rgba(0,0,0,0.03), transparent);
+            border-radius: 0 0 var(--radius-medium) var(--radius-medium);
+            pointer-events: none;
         }
     </style>
 </head>
@@ -1078,14 +1109,20 @@
             literacy: {
                 id: 'literacy',
                 title: '识字乐园',
-                icon: 'fas fa-font',
+                icon: 'fas fa-book',
                 description: '幼儿园全阶段汉字学习',
-                color: '#6a5acd',
+                color: '#e17055',
                 questions: [
                     { question: "请选择'人'", options: [{ type: "img", content: "👤", word: "人", voice: "人" },{ type: "img", content: "👄", word: "口", voice: "口" },{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "足", voice: "足" }], answer: 0 },
                     { question: "请选择'口'", options: [{ type: "img", content: "👤", word: "人", voice: "人" },{ type: "img", content: "👄", word: "口", voice: "口" },{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "足", voice: "足" }], answer: 1 },
                     { question: "请选择'手'", options: [{ type: "img", content: "👤", word: "人", voice: "人" },{ type: "img", content: "👄", word: "口", voice: "口" },{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "足", voice: "足" }], answer: 2 },
                     { question: "请选择'足'", options: [{ type: "img", content: "👤", word: "人", voice: "人" },{ type: "img", content: "👄", word: "口", voice: "口" },{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "足", voice: "足" }], answer: 3 },
+                    { question: "请选择'头'", options: [{ type: "img", content: "👤", word: "头", voice: "头" },{ type: "img", content: "👀", word: "眼", voice: "眼" },{ type: "img", content: "👂", word: "耳", voice: "耳" },{ type: "img", content: "👃", word: "鼻", voice: "鼻" }], answer: 0 },
+                    { question: "请选择'眼'", options: [{ type: "img", content: "👤", word: "头", voice: "头" },{ type: "img", content: "👀", word: "眼", voice: "眼" },{ type: "img", content: "👂", word: "耳", voice: "耳" },{ type: "img", content: "👃", word: "鼻", voice: "鼻" }], answer: 1 },
+                    { question: "请选择'耳'", options: [{ type: "img", content: "👤", word: "头", voice: "头" },{ type: "img", content: "👀", word: "眼", voice: "眼" },{ type: "img", content: "👂", word: "耳", voice: "耳" },{ type: "img", content: "👃", word: "鼻", voice: "鼻" }], answer: 2 },
+                    { question: "请选择'鼻'", options: [{ type: "img", content: "👤", word: "头", voice: "头" },{ type: "img", content: "👀", word: "眼", voice: "眼" },{ type: "img", content: "👂", word: "耳", voice: "耳" },{ type: "img", content: "👃", word: "鼻", voice: "鼻" }], answer: 3 },
+                    { question: "请选择'舌'", options: [{ type: "img", content: "👅", word: "舌", voice: "舌" },{ type: "img", content: "🦷", word: "牙", voice: "牙" },{ type: "img", content: "💇", word: "发", voice: "发" },{ type: "img", content: "🫀", word: "心", voice: "心" }], answer: 0 },
+                    { question: "请选择'牙'", options: [{ type: "img", content: "👅", word: "舌", voice: "舌" },{ type: "img", content: "🦷", word: "牙", voice: "牙" },{ type: "img", content: "💇", word: "发", voice: "发" },{ type: "img", content: "🫀", word: "心", voice: "心" }], answer: 1 },
                     { question: "请选择'日'", options: [{ type: "img", content: "☀️", word: "日", voice: "日" },{ type: "img", content: "🌙", word: "月", voice: "月" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 0 },
                     { question: "请选择'月'", options: [{ type: "img", content: "☀️", word: "日", voice: "日" },{ type: "img", content: "🌙", word: "月", voice: "月" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 1 },
                     { question: "请选择'水'", options: [{ type: "img", content: "☀️", word: "日", voice: "日" },{ type: "img", content: "🌙", word: "月", voice: "月" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 2 },
@@ -1094,24 +1131,163 @@
                     { question: "请选择'石'", options: [{ type: "img", content: "⛰️", word: "山", voice: "山" },{ type: "img", content: "🪨", word: "石", voice: "石" },{ type: "img", content: "🌾", word: "田", voice: "田" },{ type: "img", content: "🌍", word: "土", voice: "土" }], answer: 1 },
                     { question: "请选择'田'", options: [{ type: "img", content: "⛰️", word: "山", voice: "山" },{ type: "img", content: "🪨", word: "石", voice: "石" },{ type: "img", content: "🌾", word: "田", voice: "田" },{ type: "img", content: "🌍", word: "土", voice: "土" }], answer: 2 },
                     { question: "请选择'土'", options: [{ type: "img", content: "⛰️", word: "山", voice: "山" },{ type: "img", content: "🪨", word: "石", voice: "石" },{ type: "img", content: "🌾", word: "田", voice: "田" },{ type: "img", content: "🌍", word: "土", voice: "土" }], answer: 3 },
+                    { question: "请选择'天'", options: [{ type: "img", content: "🌤️", word: "天", voice: "天" },{ type: "img", content: "🌍", word: "地", voice: "地" },{ type: "img", content: "🌪️", word: "云", voice: "云" },{ type: "img", content: "🌫️", word: "雾", voice: "雾" }], answer: 0 },
+                    { question: "请选择'地'", options: [{ type: "img", content: "🌤️", word: "天", voice: "天" },{ type: "img", content: "🌍", word: "地", voice: "地" },{ type: "img", content: "🌪️", word: "云", voice: "云" },{ type: "img", content: "🌫️", word: "雾", voice: "雾" }], answer: 1 },
+                    { question: "请选择'云'", options: [{ type: "img", content: "🌤️", word: "天", voice: "天" },{ type: "img", content: "🌍", word: "地", voice: "地" },{ type: "img", content: "🌪️", word: "云", voice: "云" },{ type: "img", content: "🌫️", word: "雾", voice: "雾" }], answer: 2 },
+                    { question: "请选择'雪'", options: [{ type: "img", content: "❄️", word: "雪", voice: "雪" },{ type: "img", content: "⛈️", word: "雷", voice: "雷" },{ type: "img", content: "🌩️", word: "电", voice: "电" },{ type: "img", content: "🌈", word: "虹", voice: "虹" }], answer: 0 },
+                    { question: "请选择'雷'", options: [{ type: "img", content: "❄️", word: "雪", voice: "雪" },{ type: "img", content: "⛈️", word: "雷", voice: "雷" },{ type: "img", content: "🌩️", word: "电", voice: "电" },{ type: "img", content: "🌈", word: "虹", voice: "虹" }], answer: 1 },
                     { question: "请选择'爸'", options: [{ type: "img", content: "👨", word: "爸", voice: "爸" },{ type: "img", content: "👩", word: "妈", voice: "妈" },{ type: "img", content: "👦", word: "哥", voice: "哥" },{ type: "img", content: "👧", word: "姐", voice: "姐" }], answer: 0 },
                     { question: "请选择'妈'", options: [{ type: "img", content: "👨", word: "爸", voice: "爸" },{ type: "img", content: "👩", word: "妈", voice: "妈" },{ type: "img", content: "👦", word: "哥", voice: "哥" },{ type: "img", content: "👧", word: "姐", voice: "姐" }], answer: 1 },
+                    { question: "请选择'哥'", options: [{ type: "img", content: "👦", word: "哥", voice: "哥" },{ type: "img", content: "👧", word: "姐", voice: "姐" },{ type: "img", content: "👶", word: "弟", voice: "弟" },{ type: "img", content: "🍼", word: "妹", voice: "妹" }], answer: 0 },
+                    { question: "请选择'姐'", options: [{ type: "img", content: "👦", word: "哥", voice: "哥" },{ type: "img", content: "👧", word: "姐", voice: "姐" },{ type: "img", content: "👶", word: "弟", voice: "弟" },{ type: "img", content: "🍼", word: "妹", voice: "妹" }], answer: 1 },
+                    { question: "请选择'弟'", options: [{ type: "img", content: "👦", word: "哥", voice: "哥" },{ type: "img", content: "👧", word: "姐", voice: "姐" },{ type: "img", content: "👶", word: "弟", voice: "弟" },{ type: "img", content: "🍼", word: "妹", voice: "妹" }], answer: 2 },
+                    { question: "请选择'妹'", options: [{ type: "img", content: "👦", word: "哥", voice: "哥" },{ type: "img", content: "👧", word: "姐", voice: "姐" },{ type: "img", content: "👶", word: "弟", voice: "弟" },{ type: "img", content: "🍼", word: "妹", voice: "妹" }], answer: 3 },
+                    { question: "请选择'爷'", options: [{ type: "img", content: "👴", word: "爷", voice: "爷" },{ type: "img", content: "👵", word: "奶", voice: "奶" },{ type: "img", content: "👨‍👩‍👧", word: "家", voice: "家" },{ type: "img", content: "👪", word: "亲", voice: "亲" }], answer: 0 },
+                    { question: "请选择'奶'", options: [{ type: "img", content: "👴", word: "爷", voice: "爷" },{ type: "img", content: "👵", word: "奶", voice: "奶" },{ type: "img", content: "👨‍👩‍👧", word: "家", voice: "家" },{ type: "img", content: "👪", word: "亲", voice: "亲" }], answer: 1 },
                     { question: "请选择'大'", options: [{ type: "img", content: "🆙", word: "大", voice: "大" },{ type: "img", content: "🔽", word: "小", voice: "小" },{ type: "img", content: "➕", word: "多", voice: "多" },{ type: "img", content: "➖", word: "少", voice: "少" }], answer: 0 },
                     { question: "请选择'小'", options: [{ type: "img", content: "🆙", word: "大", voice: "大" },{ type: "img", content: "🔽", word: "小", voice: "小" },{ type: "img", content: "➕", word: "多", voice: "多" },{ type: "img", content: "➖", word: "少", voice: "少" }], answer: 1 },
                     { question: "请选择'上'", options: [{ type: "img", content: "⬆️", word: "上", voice: "上" },{ type: "img", content: "⬇️", word: "下", voice: "下" },{ type: "img", content: "⬅️", word: "左", voice: "左" },{ type: "img", content: "➡️", word: "右", voice: "右" }], answer: 0 },
                     { question: "请选择'下'", options: [{ type: "img", content: "⬆️", word: "上", voice: "上" },{ type: "img", content: "⬇️", word: "下", voice: "下" },{ type: "img", content: "⬅️", word: "左", voice: "左" },{ type: "img", content: "➡️", word: "右", voice: "右" }], answer: 1 },
                     { question: "请选择'左'", options: [{ type: "img", content: "⬆️", word: "上", voice: "上" },{ type: "img", content: "⬇️", word: "下", voice: "下" },{ type: "img", content: "⬅️", word: "左", voice: "左" },{ type: "img", content: "➡️", word: "右", voice: "右" }], answer: 2 },
                     { question: "请选择'右'", options: [{ type: "img", content: "⬆️", word: "上", voice: "上" },{ type: "img", content: "⬇️", word: "下", voice: "下" },{ type: "img", content: "⬅️", word: "左", voice: "左" },{ type: "img", content: "➡️", word: "右", voice: "右" }], answer: 3 },
+                    { question: "请选择'前'", options: [{ type: "img", content: "➡️", word: "前", voice: "前" },{ type: "img", content: "⬅️", word: "后", voice: "后" },{ type: "img", content: "🔄", word: "里", voice: "里" },{ type: "img", content: "🔀", word: "外", voice: "外" }], answer: 0 },
+                    { question: "请选择'后'", options: [{ type: "img", content: "➡️", word: "前", voice: "前" },{ type: "img", content: "⬅️", word: "后", voice: "后" },{ type: "img", content: "🔄", word: "里", voice: "里" },{ type: "img", content: "🔀", word: "外", voice: "外" }], answer: 1 },
+                    { question: "请选择'里'", options: [{ type: "img", content: "➡️", word: "前", voice: "前" },{ type: "img", content: "⬅️", word: "后", voice: "后" },{ type: "img", content: "🔄", word: "里", voice: "里" },{ type: "img", content: "🔀", word: "外", voice: "外" }], answer: 2 },
+                    { question: "请选择'外'", options: [{ type: "img", content: "➡️", word: "前", voice: "前" },{ type: "img", content: "⬅️", word: "后", voice: "后" },{ type: "img", content: "🔄", word: "里", voice: "里" },{ type: "img", content: "🔀", word: "外", voice: "外" }], answer: 3 },
+                    { question: "请选择'中'", options: [{ type: "img", content: "⏺️", word: "中", voice: "中" },{ type: "img", content: "🔝", word: "顶", voice: "顶" },{ type: "img", content: "🔚", word: "底", voice: "底" },{ type: "img", content: "↔️", word: "间", voice: "间" }], answer: 0 },
+                    { question: "请选择'站'", options: [{ type: "img", content: "🙋", word: "站", voice: "站" },{ type: "img", content: "🧍", word: "坐", voice: "坐" },{ type: "img", content: "🛌", word: "睡", voice: "睡" },{ type: "img", content: "🏃", word: "跑", voice: "跑" }], answer: 0 },
+                    { question: "请选择'坐'", options: [{ type: "img", content: "🙋", word: "站", voice: "站" },{ type: "img", content: "🧍", word: "坐", voice: "坐" },{ type: "img", content: "🛌", word: "睡", voice: "睡" },{ type: "img", content: "🏃", word: "跑", voice: "跑" }], answer: 1 },
+                    { question: "请选择'睡'", options: [{ type: "img", content: "🙋", word: "站", voice: "站" },{ type: "img", content: "🧍", word: "坐", voice: "坐" },{ type: "img", content: "🛌", word: "睡", voice: "睡" },{ type: "img", content: "🏃", word: "跑", voice: "跑" }], answer: 2 },
+                    { question: "请选择'跑'", options: [{ type: "img", content: "🙋", word: "站", voice: "站" },{ type: "img", content: "🧍", word: "坐", voice: "坐" },{ type: "img", content: "🛌", word: "睡", voice: "睡" },{ type: "img", content: "🏃", word: "跑", voice: "跑" }], answer: 3 },
+                    { question: "请选择'走'", options: [{ type: "img", content: "🚶", word: "走", voice: "走" },{ type: "img", content: "🤸", word: "跳", voice: "跳" },{ type: "img", content: "✊", word: "打", voice: "打" },{ type: "img", content: "🤲", word: "拿", voice: "拿" }], answer: 0 },
+                    { question: "请选择'跳'", options: [{ type: "img", content: "🚶", word: "走", voice: "走" },{ type: "img", content: "🤸", word: "跳", voice: "跳" },{ type: "img", content: "✊", word: "打", voice: "打" },{ type: "img", content: "🤲", word: "拿", voice: "拿" }], answer: 1 },
+                    { question: "请选择'打'", options: [{ type: "img", content: "🚶", word: "走", voice: "走" },{ type: "img", content: "🤸", word: "跳", voice: "跳" },{ type: "img", content: "✊", word: "打", voice: "打" },{ type: "img", content: "🤲", word: "拿", voice: "拿" }], answer: 2 },
+                    { question: "请选择'拿'", options: [{ type: "img", content: "🚶", word: "走", voice: "走" },{ type: "img", content: "🤸", word: "跳", voice: "跳" },{ type: "img", content: "✊", word: "打", voice: "打" },{ type: "img", content: "🤲", word: "拿", voice: "拿" }], answer: 3 },
+                    { question: "请选择'吃'", options: [{ type: "img", content: "🍽️", word: "吃", voice: "吃" },{ type: "img", content: "🍵", word: "喝", voice: "喝" },{ type: "img", content: "🗣️", word: "说", voice: "说" },{ type: "img", content: "👂", word: "听", voice: "听" }], answer: 0 },
+                    { question: "请选择'喝'", options: [{ type: "img", content: "🍽️", word: "吃", voice: "吃" },{ type: "img", content: "🍵", word: "喝", voice: "喝" },{ type: "img", content: "🗣️", word: "说", voice: "说" },{ type: "img", content: "👂", word: "听", voice: "听" }], answer: 1 },
+                    { question: "请选择'说'", options: [{ type: "img", content: "🍽️", word: "吃", voice: "吃" },{ type: "img", content: "🍵", word: "喝", voice: "喝" },{ type: "img", content: "🗣️", word: "说", voice: "说" },{ type: "img", content: "👂", word: "听", voice: "听" }], answer: 2 },
+                    { question: "请选择'听'", options: [{ type: "img", content: "🍽️", word: "吃", voice: "吃" },{ type: "img", content: "🍵", word: "喝", voice: "喝" },{ type: "img", content: "🗣️", word: "说", voice: "说" },{ type: "img", content: "👂", word: "听", voice: "听" }], answer: 3 },
+                    { question: "请选择'看'", options: [{ type: "img", content: "👀", word: "看", voice: "看" },{ type: "img", content: "✍️", word: "写", voice: "写" },{ type: "img", content: "📖", word: "读", voice: "读" },{ type: "img", content: "🎵", word: "唱", voice: "唱" }], answer: 0 },
+                    { question: "请选择'写'", options: [{ type: "img", content: "👀", word: "看", voice: "看" },{ type: "img", content: "✍️", word: "写", voice: "写" },{ type: "img", content: "📖", word: "读", voice: "读" },{ type: "img", content: "🎵", word: "唱", voice: "唱" }], answer: 1 },
                     { question: "请选择'开'", options: [{ type: "img", content: "🔓", word: "开", voice: "开" },{ type: "img", content: "🔒", word: "关", voice: "关" },{ type: "img", content: "🔈", word: "静", voice: "静" },{ type: "img", content: "🔊", word: "响", voice: "响" }], answer: 0 },
                     { question: "请选择'关'", options: [{ type: "img", content: "🔓", word: "开", voice: "开" },{ type: "img", content: "🔒", word: "关", voice: "关" },{ type: "img", content: "🔈", word: "静", voice: "静" },{ type: "img", content: "🔊", word: "响", voice: "响" }], answer: 1 },
                     { question: "请选择'来'", options: [{ type: "img", content: "👉", word: "来", voice: "来" },{ type: "img", content: "👈", word: "去", voice: "去" },{ type: "img", content: "🙋", word: "站", voice: "站" },{ type: "img", content: "🧍", word: "坐", voice: "坐" }], answer: 0 },
                     { question: "请选择'去'", options: [{ type: "img", content: "👉", word: "来", voice: "来" },{ type: "img", content: "👈", word: "去", voice: "去" },{ type: "img", content: "🙋", word: "站", voice: "站" },{ type: "img", content: "🧍", word: "坐", voice: "坐" }], answer: 1 },
                     { question: "请选择'米'", options: [{ type: "img", content: "🍚", word: "米", voice: "米" },{ type: "img", content: "🍞", word: "面", voice: "面" },{ type: "img", content: "🥚", word: "蛋", voice: "蛋" },{ type: "img", content: "🥛", word: "奶", voice: "奶" }], answer: 0 },
                     { question: "请选择'菜'", options: [{ type: "img", content: "🥬", word: "菜", voice: "菜" },{ type: "img", content: "🍗", word: "肉", voice: "肉" },{ type: "img", content: "🍎", word: "果", voice: "果" },{ type: "img", content: "🍌", word: "蕉", voice: "蕉" }], answer: 0 },
+                    { question: "请选择'面'", options: [{ type: "img", content: "🍞", word: "面", voice: "面" },{ type: "img", content: "🥚", word: "蛋", voice: "蛋" },{ type: "img", content: "🥛", word: "奶", voice: "奶" },{ type: "img", content: "🍚", word: "饭", voice: "饭" }], answer: 0 },
+                    { question: "请选择'蛋'", options: [{ type: "img", content: "🍞", word: "面", voice: "面" },{ type: "img", content: "🥚", word: "蛋", voice: "蛋" },{ type: "img", content: "🥛", word: "奶", voice: "奶" },{ type: "img", content: "🍚", word: "饭", voice: "饭" }], answer: 1 },
+                    { question: "请选择'肉'", options: [{ type: "img", content: "🍗", word: "肉", voice: "肉" },{ type: "img", content: "🥕", word: "萝", voice: "萝" },{ type: "img", content: "🍅", word: "茄", voice: "茄" },{ type: "img", content: "🌽", word: "米", voice: "米" }], answer: 0 },
+                    { question: "请选择'油'", options: [{ type: "img", content: "🛢️", word: "油", voice: "油" },{ type: "img", content: "🧂", word: "盐", voice: "盐" },{ type: "img", content: "🍯", word: "糖", voice: "糖" },{ type: "img", content: "🍶", word: "醋", voice: "醋" }], answer: 0 },
+                    { question: "请选择'盐'", options: [{ type: "img", content: "🛢️", word: "油", voice: "油" },{ type: "img", content: "🧂", word: "盐", voice: "盐" },{ type: "img", content: "🍯", word: "糖", voice: "糖" },{ type: "img", content: "🍶", word: "醋", voice: "醋" }], answer: 1 },
                     { question: "请选择'花'", options: [{ type: "img", content: "🌸", word: "花", voice: "花" },{ type: "img", content: "🌳", word: "树", voice: "树" },{ type: "img", content: "🌱", word: "草", voice: "草" },{ type: "img", content: "🍂", word: "叶", voice: "叶" }], answer: 0 },
+                    { question: "请选择'树'", options: [{ type: "img", content: "🌳", word: "树", voice: "树" },{ type: "img", content: "🌱", word: "草", voice: "草" },{ type: "img", content: "🍂", word: "叶", voice: "叶" },{ type: "img", content: "🌻", word: "菊", voice: "菊" }], answer: 0 },
+                    { question: "请选择'草'", options: [{ type: "img", content: "🌳", word: "树", voice: "树" },{ type: "img", content: "🌱", word: "草", voice: "草" },{ type: "img", content: "🍂", word: "叶", voice: "叶" },{ type: "img", content: "🌻", word: "菊", voice: "菊" }], answer: 1 },
+                    { question: "请选择'叶'", options: [{ type: "img", content: "🌳", word: "树", voice: "树" },{ type: "img", content: "🌱", word: "草", voice: "草" },{ type: "img", content: "🍂", word: "叶", voice: "叶" },{ type: "img", content: "🌻", word: "菊", voice: "菊" }], answer: 2 },
+                    { question: "请选择'果'", options: [{ type: "img", content: "🍎", word: "果", voice: "果" },{ type: "img", content: "🍌", word: "蕉", voice: "蕉" },{ type: "img", content: "🍊", word: "橘", voice: "橘" },{ type: "img", content: "🍇", word: "葡", voice: "葡" }], answer: 0 },
                     { question: "请选择'鸟'", options: [{ type: "img", content: "🐦", word: "鸟", voice: "鸟" },{ type: "img", content: "🐛", word: "虫", voice: "虫" },{ type: "img", content: "🐟", word: "鱼", voice: "鱼" },{ type: "img", content: "🐸", word: "蛙", voice: "蛙" }], answer: 0 },
+                    { question: "请选择'虫'", options: [{ type: "img", content: "🐛", word: "虫", voice: "虫" },{ type: "img", content: "🐟", word: "鱼", voice: "鱼" },{ type: "img", content: "🐸", word: "蛙", voice: "蛙" },{ type: "img", content: "🐇", word: "兔", voice: "兔" }], answer: 0 },
+                    { question: "请选择'鱼'", options: [{ type: "img", content: "🐛", word: "虫", voice: "虫" },{ type: "img", content: "🐟", word: "鱼", voice: "鱼" },{ type: "img", content: "🐸", word: "蛙", voice: "蛙" },{ type: "img", content: "🐇", word: "兔", voice: "兔" }], answer: 1 },
+                    { question: "请选择'蛙'", options: [{ type: "img", content: "🐛", word: "虫", voice: "虫" },{ type: "img", content: "🐟", word: "鱼", voice: "鱼" },{ type: "img", content: "🐸", word: "蛙", voice: "蛙" },{ type: "img", content: "🐇", word: "兔", voice: "兔" }], answer: 2 },
+                    { question: "请选择'马'", options: [{ type: "img", content: "🐎", word: "马", voice: "马" },{ type: "img", content: "🐂", word: "牛", voice: "牛" },{ type: "img", content: "🐑", word: "羊", voice: "羊" },{ type: "img", content: "🐷", word: "猪", voice: "猪" }], answer: 0 },
+                    { question: "请选择'牛'", options: [{ type: "img", content: "🐎", word: "马", voice: "马" },{ type: "img", content: "🐂", word: "牛", voice: "牛" },{ type: "img", content: "🐑", word: "羊", voice: "羊" },{ type: "img", content: "🐷", word: "猪", voice: "猪" }], answer: 1 },
+                    { question: "请选择'羊'", options: [{ type: "img", content: "🐎", word: "马", voice: "马" },{ type: "img", content: "🐂", word: "牛", voice: "牛" },{ type: "img", content: "🐑", word: "羊", voice: "羊" },{ type: "img", content: "🐷", word: "猪", voice: "猪" }], answer: 2 },
+                    { question: "请选择'鸡'", options: [{ type: "img", content: "🐓", word: "鸡", voice: "鸡" },{ type: "img", content: "🦆", word: "鸭", voice: "鸭" },{ type: "img", content: "🦢", word: "鹅", voice: "鹅" },{ type: "img", content: "🐶", word: "狗", voice: "狗" }], answer: 0 },
+                    { question: "请选择'鸭'", options: [{ type: "img", content: "🐓", word: "鸡", voice: "鸡" },{ type: "img", content: "🦆", word: "鸭", voice: "鸭" },{ type: "img", content: "🦢", word: "鹅", voice: "鹅" },{ type: "img", content: "🐶", word: "狗", voice: "狗" }], answer: 1 },
+                    { question: "请选择'狗'", options: [{ type: "img", content: "🐓", word: "鸡", voice: "鸡" },{ type: "img", content: "🦆", word: "鸭", voice: "鸭" },{ type: "img", content: "🦢", word: "鹅", voice: "鹅" },{ type: "img", content: "🐶", word: "狗", voice: "狗" }], answer: 3 },
+                    { question: "请选择'猫'", options: [{ type: "img", content: "🐱", word: "猫", voice: "猫" },{ type: "img", content: "🐭", word: "鼠", voice: "鼠" },{ type: "img", content: "🦁", word: "狮", voice: "狮" },{ type: "img", content: "🐯", word: "虎", voice: "虎" }], answer: 0 },
+                    { question: "请选择'鼠'", options: [{ type: "img", content: "🐱", word: "猫", voice: "猫" },{ type: "img", content: "🐭", word: "鼠", voice: "鼠" },{ type: "img", content: "🦁", word: "狮", voice: "狮" },{ type: "img", content: "🐯", word: "虎", voice: "虎" }], answer: 1 },
+                    { question: "请选择'虎'", options: [{ type: "img", content: "🐱", word: "猫", voice: "猫" },{ type: "img", content: "🐭", word: "鼠", voice: "鼠" },{ type: "img", content: "🦁", word: "狮", voice: "狮" },{ type: "img", content: "🐯", word: "虎", voice: "虎" }], answer: 3 },
                     { question: "请选择'风'", options: [{ type: "img", content: "🌬️", word: "风", voice: "风" },{ type: "img", content: "🌧️", word: "雨", voice: "雨" },{ type: "img", content: "❄️", word: "雪", voice: "雪" },{ type: "img", content: "⛈️", word: "雷", voice: "雷" }], answer: 0 },
-                    { question: "请选择'雨'", options: [{ type: "img", content: "🌬️", word: "风", voice: "风" },{ type: "img", content: "🌧️", word: "雨", voice: "雨" },{ type: "img", content: "❄️", word: "雪", voice: "雪" },{ type: "img", content: "⛈️", word: "雷", voice: "雷" }], answer: 1 }
+                    { question: "请选择'雨'", options: [{ type: "img", content: "🌬️", word: "风", voice: "风" },{ type: "img", content: "🌧️", word: "雨", voice: "雨" },{ type: "img", content: "❄️", word: "雪", voice: "雪" },{ type: "img", content: "⛈️", word: "雷", voice: "雷" }], answer: 1 },
+                    { question: "请选择'一'", options: [{ type: "img", content: "1️⃣", word: "一", voice: "一" },{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" }], answer: 0 },
+                    { question: "请选择'二'", options: [{ type: "img", content: "1️⃣", word: "一", voice: "一" },{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" }], answer: 1 },
+                    { question: "请选择'三'", options: [{ type: "img", content: "1️⃣", word: "一", voice: "一" },{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" }], answer: 2 },
+                    { question: "请选择'四'", options: [{ type: "img", content: "1️⃣", word: "一", voice: "一" },{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" }], answer: 3 },
+                    { question: "请选择'五'", options: [{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" }], answer: 0 },
+                    { question: "请选择'六'", options: [{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" }], answer: 1 },
+                    { question: "请选择'七'", options: [{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" }], answer: 2 },
+                    { question: "请选择'八'", options: [{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" }], answer: 3 },
+                    { question: "请选择'九'", options: [{ type: "img", content: "9️⃣", word: "九", voice: "九" },{ type: "img", content: "🔟", word: "十", voice: "十" },{ type: "img", content: "🔢", word: "百", voice: "百" },{ type: "img", content: "#️⃣", word: "千", voice: "千" }], answer: 0 },
+                    { question: "请选择'十'", options: [{ type: "img", content: "9️⃣", word: "九", voice: "九" },{ type: "img", content: "🔟", word: "十", voice: "十" },{ type: "img", content: "🔢", word: "百", voice: "百" },{ type: "img", content: "#️⃣", word: "千", voice: "千" }], answer: 1 },
+                    { question: "请选择'红'", options: [{ type: "img", content: "🔴", word: "红", voice: "红" },{ type: "img", content: "🟡", word: "黄", voice: "黄" },{ type: "img", content: "🟢", word: "绿", voice: "绿" },{ type: "img", content: "🔵", word: "蓝", voice: "蓝" }], answer: 0 },
+                    { question: "请选择'黄'", options: [{ type: "img", content: "🔴", word: "红", voice: "红" },{ type: "img", content: "🟡", word: "黄", voice: "黄" },{ type: "img", content: "🟢", word: "绿", voice: "绿" },{ type: "img", content: "🔵", word: "蓝", voice: "蓝" }], answer: 1 },
+                    { question: "请选择'绿'", options: [{ type: "img", content: "🔴", word: "红", voice: "红" },{ type: "img", content: "🟡", word: "黄", voice: "黄" },{ type: "img", content: "🟢", word: "绿", voice: "绿" },{ type: "img", content: "🔵", word: "蓝", voice: "蓝" }], answer: 2 },
+                    { question: "请选择'蓝'", options: [{ type: "img", content: "🔴", word: "红", voice: "红" },{ type: "img", content: "🟡", word: "黄", voice: "黄" },{ type: "img", content: "🟢", word: "绿", voice: "绿" },{ type: "img", content: "🔵", word: "蓝", voice: "蓝" }], answer: 3 },
+                    { question: "请选择'白'", options: [{ type: "img", content: "⚪", word: "白", voice: "白" },{ type: "img", content: "⚫", word: "黑", voice: "黑" },{ type: "img", content: "🟤", word: "棕", voice: "棕" },{ type: "img", content: "🟣", word: "紫", voice: "紫" }], answer: 0 },
+                    { question: "请选择'黑'", options: [{ type: "img", content: "⚪", word: "白", voice: "白" },{ type: "img", content: "⚫", word: "黑", voice: "黑" },{ type: "img", content: "🟤", word: "棕", voice: "棕" },{ type: "img", content: "🟣", word: "紫", voice: "紫" }], answer: 1 },
+                    { question: "请选择'多'", options: [{ type: "img", content: "➕", word: "多", voice: "多" },{ type: "img", content: "➖", word: "少", voice: "少" },{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" }], answer: 0 },
+                    { question: "请选择'少'", options: [{ type: "img", content: "➕", word: "多", voice: "多" },{ type: "img", content: "➖", word: "少", voice: "少" },{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" }], answer: 1 },
+                    { question: "请选择'长'", options: [{ type: "img", content: "➕", word: "多", voice: "多" },{ type: "img", content: "➖", word: "少", voice: "少" },{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" }], answer: 2 },
+                    { question: "请选择'短'", options: [{ type: "img", content: "➕", word: "多", voice: "多" },{ type: "img", content: "➖", word: "少", voice: "少" },{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" }], answer: 3 },
+                    { question: "请选择'高'", options: [{ type: "img", content: "⬆️", word: "高", voice: "高" },{ type: "img", content: "⬇️", word: "矮", voice: "矮" },{ type: "img", content: "📏", word: "宽", voice: "宽" },{ type: "img", content: "📐", word: "窄", voice: "窄" }], answer: 0 },
+                    { question: "请选择'矮'", options: [{ type: "img", content: "⬆️", word: "高", voice: "高" },{ type: "img", content: "⬇️", word: "矮", voice: "矮" },{ type: "img", content: "📏", word: "宽", voice: "宽" },{ type: "img", content: "📐", word: "窄", voice: "窄" }], answer: 1 },
+                    { question: "请选择'快'", options: [{ type: "img", content: "🚀", word: "快", voice: "快" },{ type: "img", content: "🐢", word: "慢", voice: "慢" },{ type: "img", content: "🔥", word: "热", voice: "热" },{ type: "img", content: "❄️", word: "冷", voice: "冷" }], answer: 0 },
+                    { question: "请选择'慢'", options: [{ type: "img", content: "🚀", word: "快", voice: "快" },{ type: "img", content: "🐢", word: "慢", voice: "慢" },{ type: "img", content: "🔥", word: "热", voice: "热" },{ type: "img", content: "❄️", word: "冷", voice: "冷" }], answer: 1 },
+                    { question: "请选择'热'", options: [{ type: "img", content: "🚀", word: "快", voice: "快" },{ type: "img", content: "🐢", word: "慢", voice: "慢" },{ type: "img", content: "🔥", word: "热", voice: "热" },{ type: "img", content: "❄️", word: "冷", voice: "冷" }], answer: 2 },
+                    { question: "请选择'冷'", options: [{ type: "img", content: "🚀", word: "快", voice: "快" },{ type: "img", content: "🐢", word: "慢", voice: "慢" },{ type: "img", content: "🔥", word: "热", voice: "热" },{ type: "img", content: "❄️", word: "冷", voice: "冷" }], answer: 3 },
+                    { question: "请选择'好'", options: [{ type: "img", content: "✅", word: "好", voice: "好" },{ type: "img", content: "❌", word: "坏", voice: "坏" },{ type: "img", content: "😊", word: "笑", voice: "笑" },{ type: "img", content: "😢", word: "哭", voice: "哭" }], answer: 0 },
+                    { question: "请选择'坏'", options: [{ type: "img", content: "✅", word: "好", voice: "好" },{ type: "img", content: "❌", word: "坏", voice: "坏" },{ type: "img", content: "😊", word: "笑", voice: "笑" },{ type: "img", content: "😢", word: "哭", voice: "哭" }], answer: 1 },
+                    { question: "请选择'衣'", options: [{ type: "img", content: "👕", word: "衣", voice: "衣" },{ type: "img", content: "👖", word: "裤", voice: "裤" },{ type: "img", content: "👞", word: "鞋", voice: "鞋" },{ type: "img", content: "🧢", word: "帽", voice: "帽" }], answer: 0 },
+                    { question: "请选择'裤'", options: [{ type: "img", content: "👕", word: "衣", voice: "衣" },{ type: "img", content: "👖", word: "裤", voice: "裤" },{ type: "img", content: "👞", word: "鞋", voice: "鞋" },{ type: "img", content: "🧢", word: "帽", voice: "帽" }], answer: 1 },
+                    { question: "请选择'鞋'", options: [{ type: "img", content: "👕", word: "衣", voice: "衣" },{ type: "img", content: "👖", word: "裤", voice: "裤" },{ type: "img", content: "👞", word: "鞋", voice: "鞋" },{ type: "img", content: "🧢", word: "帽", voice: "帽" }], answer: 2 },
+                    { question: "请选择'帽'", options: [{ type: "img", content: "👕", word: "衣", voice: "衣" },{ type: "img", content: "👖", word: "裤", voice: "裤" },{ type: "img", content: "👞", word: "鞋", voice: "鞋" },{ type: "img", content: "🧢", word: "帽", voice: "帽" }], answer: 3 },
+                    { question: "请选择'杯'", options: [{ type: "img", content: "🥤", word: "杯", voice: "杯" },{ type: "img", content: "🍽️", word: "碗", voice: "碗" },{ type: "img", content: "🍴", word: "筷", voice: "筷" },{ type: "img", content: "🔪", word: "刀", voice: "刀" }], answer: 0 },
+                    { question: "请选择'碗'", options: [{ type: "img", content: "🥤", word: "杯", voice: "杯" },{ type: "img", content: "🍽️", word: "碗", voice: "碗" },{ type: "img", content: "🍴", word: "筷", voice: "筷" },{ type: "img", content: "🔪", word: "刀", voice: "刀" }], answer: 1 },
+                    { question: "请选择'床'", options: [{ type: "img", content: "🛏️", word: "床", voice: "床" },{ type: "img", content: "🪑", word: "桌", voice: "桌" },{ type: "img", content: "🪑", word: "椅", voice: "椅" },{ type: "img", content: "🚪", word: "门", voice: "门" }], answer: 0 },
+                    { question: "请选择'桌'", options: [{ type: "img", content: "🛏️", word: "床", voice: "床" },{ type: "img", content: "🪑", word: "桌", voice: "桌" },{ type: "img", content: "🪑", word: "椅", voice: "椅" },{ type: "img", content: "🚪", word: "门", voice: "门" }], answer: 1 },
+                    { question: "请选择'门'", options: [{ type: "img", content: "🛏️", word: "床", voice: "床" },{ type: "img", content: "🪑", word: "桌", voice: "桌" },{ type: "img", content: "🪑", word: "椅", voice: "椅" },{ type: "img", content: "🚪", word: "门", voice: "门" }], answer: 3 },
+                    { question: "请选择'窗'", options: [{ type: "img", content: "🪟", word: "窗", voice: "窗" },{ type: "img", content: "🔦", word: "灯", voice: "灯" },{ type: "img", content: "📺", word: "视", voice: "视" },{ type: "img", content: "🔌", word: "电", voice: "电" }], answer: 0 },
+                    { question: "请选择'灯'", options: [{ type: "img", content: "🪟", word: "窗", voice: "窗" },{ type: "img", content: "🔦", word: "灯", voice: "灯" },{ type: "img", content: "📺", word: "视", voice: "视" },{ type: "img", content: "🔌", word: "电", voice: "电" }], answer: 1 },
+                    { question: "请选择'钟'", options: [{ type: "img", content: "🕰️", word: "钟", voice: "钟" },{ type: "img", content: "⌚", word: "表", voice: "表" },{ type: "img", content: "📱", word: "机", voice: "机" },{ type: "img", content: "☎️", word: "话", voice: "话" }], answer: 0 },
+                    { question: "请选择'包'", options: [{ type: "img", content: "👜", word: "包", voice: "包" },{ type: "img", content: "💄", word: "盒", voice: "盒" },{ type: "img", content: "🧴", word: "瓶", voice: "瓶" },{ type: "img", content: "🧷", word: "袋", voice: "袋" }], answer: 0 },
+                    { question: "请选择'笔'", options: [{ type: "img", content: "✏️", word: "笔", voice: "笔" },{ type: "img", content: "📓", word: "本", voice: "本" },{ type: "img", content: "📄", word: "纸", voice: "纸" },{ type: "img", content: "✂️", word: "剪", voice: "剪" }], answer: 0 },
+                    { question: "请选择'本'", options: [{ type: "img", content: "✏️", word: "笔", voice: "笔" },{ type: "img", content: "📓", word: "本", voice: "本" },{ type: "img", content: "📄", word: "纸", voice: "纸" },{ type: "img", content: "✂️", word: "剪", voice: "剪" }], answer: 1 },
+                    { question: "请选择'书'", options: [{ type: "img", content: "📚", word: "书", voice: "书" },{ type: "img", content: "📖", word: "画", voice: "画" },{ type: "img", content: "✏️", word: "字", voice: "字" },{ type: "img", content: "🎨", word: "图", voice: "图" }], answer: 0 },
+                    { question: "请选择'画'", options: [{ type: "img", content: "📚", word: "书", voice: "书" },{ type: "img", content: "📖", word: "画", voice: "画" },{ type: "img", content: "✏️", word: "字", voice: "字" },{ type: "img", content: "🎨", word: "图", voice: "图" }], answer: 1 },
+                    { question: "请选择'家'", options: [{ type: "img", content: "🏠", word: "家", voice: "家" },{ type: "img", content: "🏫", word: "校", voice: "校" },{ type: "img", content: "🏥", word: "医", voice: "医" },{ type: "img", content: "🏪", word: "店", voice: "店" }], answer: 0 },
+                    { question: "请选择'校'", options: [{ type: "img", content: "🏠", word: "家", voice: "家" },{ type: "img", content: "🏫", word: "校", voice: "校" },{ type: "img", content: "🏥", word: "医", voice: "医" },{ type: "img", content: "🏪", word: "店", voice: "店" }], answer: 1 },
+                    { question: "请选择'园'", options: [{ type: "img", content: "🏡", word: "园", voice: "园" },{ type: "img", content: "🏞️", word: "场", voice: "场" },{ type: "img", content: "🏬", word: "楼", voice: "楼" },{ type: "img", content: "🛣️", word: "路", voice: "路" }], answer: 0 },
+                    { question: "请选择'路'", options: [{ type: "img", content: "🏡", word: "园", voice: "园" },{ type: "img", content: "🏞️", word: "场", voice: "场" },{ type: "img", content: "🏬", word: "楼", voice: "楼" },{ type: "img", content: "🛣️", word: "路", voice: "路" }], answer: 3 },
+                    { question: "请选择'车'", options: [{ type: "img", content: "🚗", word: "车", voice: "车" },{ type: "img", content: "🚲", word: "车", voice: "车" },{ type: "img", content: "✈️", word: "机", voice: "机" },{ type: "img", content: "🚢", word: "船", voice: "船" }], answer: 0 },
+                    { question: "请选择'船'", options: [{ type: "img", content: "🚗", word: "车", voice: "车" },{ type: "img", content: "🚲", word: "车", voice: "车" },{ type: "img", content: "✈️", word: "机", voice: "机" },{ type: "img", content: "🚢", word: "船", voice: "船" }], answer: 3 },
+                    { question: "请选择'火'", options: [{ type: "img", content: "🚂", word: "火", voice: "火" },{ type: "img", content: "🚌", word: "公", voice: "公" },{ type: "img", content: "🚕", word: "出", voice: "出" },{ type: "img", content: "🚇", word: "地", voice: "地" }], answer: 0 },
+                    { question: "请选择'年'", options: [{ type: "img", content: "📆", word: "年", voice: "年" },{ type: "img", content: "🗓️", word: "月", voice: "月" },{ type: "img", content: "📅", word: "日", voice: "日" },{ type: "img", content: "⏰", word: "时", voice: "时" }], answer: 0 },
+                    { question: "请选择'月'", options: [{ type: "img", content: "📆", word: "年", voice: "年" },{ type: "img", content: "🗓️", word: "月", voice: "月" },{ type: "img", content: "📅", word: "日", voice: "日" },{ type: "img", content: "⏰", word: "时", voice: "时" }], answer: 1 },
+                    { question: "请选择'日'", options: [{ type: "img", content: "📆", word: "年", voice: "年" },{ type: "img", content: "🗓️", word: "月", voice: "月" },{ type: "img", content: "📅", word: "日", voice: "日" },{ type: "img", content: "⏰", word: "时", voice: "时" }], answer: 2 },
+                    { question: "请选择'早'", options: [{ type: "img", content: "🌅", word: "早", voice: "早" },{ type: "img", content: "🌞", word: "午", voice: "午" },{ type: "img", content: "🌇", word: "晚", voice: "晚" },{ type: "img", content: "🌙", word: "夜", voice: "夜" }], answer: 0 },
+                    { question: "请选择'晚'", options: [{ type: "img", content: "🌅", word: "早", voice: "早" },{ type: "img", content: "🌞", word: "午", voice: "午" },{ type: "img", content: "🌇", word: "晚", voice: "晚" },{ type: "img", content: "🌙", word: "夜", voice: "夜" }], answer: 2 },
+                    { question: "请选择'爱'", options: [{ type: "img", content: "❤️", word: "爱", voice: "爱" },{ type: "img", content: "🤝", word: "友", voice: "友" },{ type: "img", content: "🙏", word: "谢", voice: "谢" },{ type: "img", content: "🛡️", word: "护", voice: "护" }], answer: 0 },
+                    { question: "请选择'谢'", options: [{ type: "img", content: "❤️", word: "爱", voice: "爱" },{ type: "img", content: "🤝", word: "友", voice: "友" },{ type: "img", content: "🙏", word: "谢", voice: "谢" },{ type: "img", content: "🛡️", word: "护", voice: "护" }], answer: 2 },
+                    { question: "请选择'学'", options: [{ type: "img", content: "📚", word: "学", voice: "学" },{ type: "img", content: "🎓", word: "习", voice: "习" },{ type: "img", content: "🧠", word: "知", voice: "知" },{ type: "img", content: "🔍", word: "识", voice: "识" }], answer: 0 },
+                    { question: "请选择'会'", options: [{ type: "img", content: "✅", word: "会", voice: "会" },{ type: "img", content: "📝", word: "能", voice: "能" },{ type: "img", content: "🤗", word: "帮", voice: "帮" },{ type: "img", content: "🙌", word: "助", voice: "助" }], answer: 0 },
+                    { question: "请选择'给'", options: [{ type: "img", content: "🤲", word: "给", voice: "给" },{ type: "img", content: "🎁", word: "送", voice: "送" },{ type: "img", content: "✉️", word: "信", voice: "信" },{ type: "img", content: "📮", word: "邮", voice: "邮" }], answer: 0 },
+                    { question: "请选择'找'", options: [{ type: "img", content: "🔍", word: "找", voice: "找" },{ type: "img", content: "👀", word: "见", voice: "见" },{ type: "img", content: "📍", word: "到", voice: "到" },{ type: "img", content: "🔙", word: "回", voice: "回" }], answer: 0 },
+                    { question: "请选择'叫'", options: [{ type: "img", content: "🗣️", word: "叫", voice: "叫" },{ type: "img", content: "📣", word: "喊", voice: "喊" },{ type: "img", content: "🤫", word: "静", voice: "静" },{ type: "img", content: "🔇", word: "悄", voice: "悄" }], answer: 0 },
+                    { question: "请选择'我'", options: [{ type: "img", content: "🙋‍♂️", word: "我", voice: "我" },{ type: "img", content: "👥", word: "你", voice: "你" },{ type: "img", content: "👤", word: "他", voice: "他" },{ type: "img", content: "👩", word: "她", voice: "她" }], answer: 0 },
+                    { question: "请选择'你'", options: [{ type: "img", content: "🙋‍♂️", word: "我", voice: "我" },{ type: "img", content: "👥", word: "你", voice: "你" },{ type: "img", content: "👤", word: "他", voice: "他" },{ type: "img", content: "👩", word: "她", voice: "她" }], answer: 1 },
+                    { question: "请选择'他'", options: [{ type: "img", content: "🙋‍♂️", word: "我", voice: "我" },{ type: "img", content: "👥", word: "你", voice: "你" },{ type: "img", content: "👤", word: "他", voice: "他" },{ type: "img", content: "👩", word: "她", voice: "她" }], answer: 2 },
+                    { question: "请选择'这'", options: [{ type: "img", content: "📍", word: "这", voice: "这" },{ type: "img", content: "🌐", word: "那", voice: "那" },{ type: "img", content: "❓", word: "什", voice: "什" },{ type: "img", content: "❔", word: "么", voice: "么" }], answer: 0 },
+                    { question: "请选择'那'", options: [{ type: "img", content: "📍", word: "这", voice: "这" },{ type: "img", content: "🌐", word: "那", voice: "那" },{ type: "img", content: "❓", word: "什", voice: "什" },{ type: "img", content: "❔", word: "么", voice: "么" }], answer: 1 },
+                    { question: "请选择'是'", options: [{ type: "img", content: "✅", word: "是", voice: "是" },{ type: "img", content: "❌", word: "不", voice: "不" },{ type: "img", content: "🔄", word: "也", voice: "也" },{ type: "img", content: "➕", word: "都", voice: "都" }], answer: 0 },
+                    { question: "请选择'不'", options: [{ type: "img", content: "✅", word: "是", voice: "是" },{ type: "img", content: "❌", word: "不", voice: "不" },{ type: "img", content: "🔄", word: "也", voice: "也" },{ type: "img", content: "➕", word: "都", voice: "都" }], answer: 1 },
+                    { question: "请选择'很'", options: [{ type: "img", content: "⭐", word: "很", voice: "很" },{ type: "img", content: "🌟", word: "真", voice: "真" },{ type: "img", content: "💯", word: "太", voice: "太" },{ type: "img", content: "👌", word: "可", voice: "可" }], answer: 0 },
+                    { question: "请选择'就'", options: [{ type: "img", content: "👉", word: "就", voice: "就" },{ type: "img", content: "⏭️", word: "才", voice: "才" },{ type: "img", content: "🔄", word: "又", voice: "又" },{ type: "img", content: "📶", word: "连", voice: "连" }], answer: 0 },
+                    { question: "请选择'个'", options: [{ type: "img", content: "1️⃣", word: "个", voice: "个" },{ type: "img", content: "📏", word: "只", voice: "只" },{ type: "img", content: "📦", word: "本", voice: "本" },{ type: "img", content: "🪑", word: "把", voice: "把" }], answer: 0 },
+                    { question: "请选择'只'", options: [{ type: "img", content: "1️⃣", word: "个", voice: "个" },{ type: "img", content: "📏", word: "只", voice: "只" },{ type: "img", content: "📦", word: "本", voice: "本" },{ type: "img", content: "🪑", word: "把", voice: "把" }], answer: 1 },
+                    { question: "请选择'条'", options: [{ type: "img", content: "📏", word: "条", voice: "条" },{ type: "img", content: "🪨", word: "块", voice: "块" },{ type: "img", content: "🌳", word: "棵", voice: "棵" },{ type: "img", content: "🚗", word: "辆", voice: "辆" }], answer: 0 },
+                    { question: "请选择'请'", options: [{ type: "img", content: "🙏", word: "请", voice: "请" },{ type: "img", content: "😊", word: "好", voice: "好" },{ type: "img", content: "👋", word: "再", voice: "再" },{ type: "img", content: "👋", word: "见", voice: "见" }], answer: 0 },
+                    { question: "请选择'再'", options: [{ type: "img", content: "🙏", word: "请", voice: "请" },{ type: "img", content: "😊", word: "好", voice: "好" },{ type: "img", content: "👋", word: "再", voice: "再" },{ type: "img", content: "👋", word: "见", voice: "见" }], answer: 2 },
+                    { question: "请选择'乐'", options: [{ type: "img", content: "😄", word: "乐", voice: "乐" },{ type: "img", content: "😢", word: "悲", voice: "悲" },{ type: "img", content: "😠", word: "怒", voice: "怒" },{ type: "img", content: "😨", word: "怕", voice: "怕" }], answer: 0 },
+                    { question: "请选择'怕'", options: [{ type: "img", content: "😄", word: "乐", voice: "乐" },{ type: "img", content: "😢", word: "悲", voice: "悲" },{ type: "img", content: "😠", word: "怒", voice: "怒" },{ type: "img", content: "😨", word: "怕", voice: "怕" }], answer: 3 },
+                    { question: "请选择'春'", options: [{ type: "img", content: "🌸", word: "春", voice: "春" },{ type: "img", content: "☀️", word: "夏", voice: "夏" },{ type: "img", content: "🍂", word: "秋", voice: "秋" },{ type: "img", content: "❄️", word: "冬", voice: "冬" }], answer: 0 },
+                    { question: "请选择'夏'", options: [{ type: "img", content: "🌸", word: "春", voice: "春" },{ type: "img", content: "☀️", word: "夏", voice: "夏" },{ type: "img", content: "🍂", word: "秋", voice: "秋" },{ type: "img", content: "❄️", word: "冬", voice: "冬" }], answer: 1 },
+                    { question: "请选择'秋'", options: [{ type: "img", content: "🌸", word: "春", voice: "春" },{ type: "img", content: "☀️", word: "夏", voice: "夏" },{ type: "img", content: "🍂", word: "秋", voice: "秋" },{ type: "img", content: "❄️", word: "冬", voice: "冬" }], answer: 2 },
+                    { question: "请选择'冬'", options: [{ type: "img", content: "🌸", word: "春", voice: "春" },{ type: "img", content: "☀️", word: "夏", voice: "夏" },{ type: "img", content: "🍂", word: "秋", voice: "秋" },{ type: "img", content: "❄️", word: "冬", voice: "冬" }], answer: 3 },
+                    { question: "请选择'师'", options: [{ type: "img", content: "👩‍🏫", word: "师", voice: "师" },{ type: "img", content: "👮", word: "警", voice: "警" },{ type: "img", content: "👩‍⚕️", word: "医", voice: "医" },{ type: "img", content: "👩‍🍳", word: "厨", voice: "厨" }], answer: 0 },
+                    { question: "请选择'医'", options: [{ type: "img", content: "👩‍🏫", word: "师", voice: "师" },{ type: "img", content: "👮", word: "警", voice: "警" },{ type: "img", content: "👩‍⚕️", word: "医", voice: "医" },{ type: "img", content: "👩‍🍳", word: "厨", voice: "厨" }], answer: 2 },
+                    { question: "请选择'善'", options: [{ type: "img", content: "❤️", word: "善", voice: "善" },{ type: "img", content: "🛡️", word: "勇", voice: "勇" },{ type: "img", content: "🤝", word: "诚", voice: "诚" },{ type: "img", content: "🧠", word: "智", voice: "智" }], answer: 0 },
+                    { question: "请选择'勤'", options: [{ type: "img", content: "💪", word: "勤", voice: "勤" },{ type: "img", content: "🛋️", word: "懒", voice: "懒" },{ type: "img", content: "🧹", word: "洁", voice: "洁" },{ type: "img", content: "🧼", word: "净", voice: "净" }], answer: 0 }
                 ]
             },
             numbers: {
@@ -1141,6 +1317,44 @@
                     { question: "请选择'十八'", options: [{ type: "img", content: "1️⃣7️⃣", word: "十七", voice: "十七" },{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" },{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" },{ type: "img", content: "2️⃣0️⃣", word: "二十", voice: "二十" }], answer: 1 },
                     { question: "请选择'十九'", options: [{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" },{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" },{ type: "img", content: "2️⃣0️⃣", word: "二十", voice: "二十" },{ type: "img", content: "1️⃣0️⃣", word: "十", voice: "十" }], answer: 1 },
                     { question: "请选择'二十'", options: [{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" },{ type: "img", content: "2️⃣0️⃣", word: "二十", voice: "二十" },{ type: "img", content: "1️⃣0️⃣", word: "十", voice: "十" },{ type: "img", content: "5️⃣", word: "五", voice: "五" }], answer: 1 }
+                ]
+            },
+            pinyin: {
+                id: 'pinyin',
+                title: '拼音王国',
+                icon: 'fas fa-language',
+                description: '单韵母、声母、简单拼读认知',
+                color: '#eb4d4b',
+                questions: [
+                    { question: "请选择'ā'", options: [{ type: "text", content: "ō", word: "ō", voice: "ō" },{ type: "text", content: "ā", word: "ā", voice: "ā" },{ type: "text", content: "ē", word: "ē", voice: "ē" },{ type: "text", content: "ī", word: "ī", voice: "ī" }], answer: 1 },
+                    { question: "请选择'ō'", options: [{ type: "text", content: "ā", word: "ā", voice: "ā" },{ type: "text", content: "ē", word: "ē", voice: "ē" },{ type: "text", content: "ō", word: "ō", voice: "ō" },{ type: "text", content: "ū", word: "ū", voice: "ū" }], answer: 2 },
+                    { question: "请选择'ē'", options: [{ type: "text", content: "ī", word: "ī", voice: "ī" },{ type: "text", content: "ū", word: "ū", voice: "ū" },{ type: "text", content: "ā", word: "ā", voice: "ā" },{ type: "text", content: "ē", word: "ē", voice: "ē" }], answer: 3 },
+                    { question: "请选择'ī'", options: [{ type: "text", content: "ū", word: "ū", voice: "ū" },{ type: "text", content: "ī", word: "ī", voice: "ī" },{ type: "text", content: "ō", word: "ō", voice: "ō" },{ type: "text", content: "ē", word: "ē", voice: "ē" }], answer: 1 },
+                    { question: "请选择'ū'", options: [{ type: "text", content: "ā", word: "ā", voice: "ā" },{ type: "text", content: "ō", word: "ō", voice: "ō" },{ type: "text", content: "ū", word: "ū", voice: "ū" },{ type: "text", content: "ī", word: "ī", voice: "ī" }], answer: 2 },
+                    { question: "请选择'b'", options: [{ type: "text", content: "p", word: "p", voice: "p" },{ type: "text", content: "m", word: "m", voice: "m" },{ type: "text", content: "b", word: "b", voice: "b" },{ type: "text", content: "f", word: "f", voice: "f" }], answer: 2 },
+                    { question: "请选择'p'", options: [{ type: "text", content: "b", word: "b", voice: "b" },{ type: "text", content: "p", word: "p", voice: "p" },{ type: "text", content: "f", word: "f", voice: "f" },{ type: "text", content: "d", word: "d", voice: "d" }], answer: 1 },
+                    { question: "请选择'm'", options: [{ type: "text", content: "f", word: "f", voice: "f" },{ type: "text", content: "d", word: "d", voice: "d" },{ type: "text", content: "m", word: "m", voice: "m" },{ type: "text", content: "b", word: "b", voice: "b" }], answer: 2 },
+                    { question: "请选择'f'", options: [{ type: "text", content: "m", word: "m", voice: "m" },{ type: "text", content: "f", word: "f", voice: "f" },{ type: "text", content: "p", word: "p", voice: "p" },{ type: "text", content: "n", word: "n", voice: "n" }], answer: 1 },
+                    { question: "请选择'd'", options: [{ type: "text", content: "t", word: "t", voice: "t" },{ type: "text", content: "n", word: "n", voice: "n" },{ type: "text", content: "d", word: "d", voice: "d" },{ type: "text", content: "l", word: "l", voice: "l" }], answer: 2 }
+                ]
+            },
+            thinking: {
+                id: 'thinking',
+                title: '思维启蒙',
+                icon: 'fas fa-brain',
+                description: '简单逻辑、分类、大小多少对比',
+                color: '#00d2d3',
+                questions: [
+                    { question: "哪个更大？", options: [{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" },{ type: "img", content: "🐘", word: "大象", voice: "大象" },{ type: "img", content: "🐝", word: "蜜蜂", voice: "蜜蜂" },{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" }], answer: 1 },
+                    { question: "哪个更小？", options: [{ type: "img", content: "🐘", word: "大象", voice: "大象" },{ type: "img", content: "🐄", word: "奶牛", voice: "奶牛" },{ type: "img", content: "🐇", word: "兔子", voice: "兔子" },{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" }], answer: 3 },
+                    { question: "哪个更多？", options: [{ type: "img", content: "1个🍎", word: "1个苹果", voice: "1个苹果" },{ type: "img", content: "3个🍎", word: "3个苹果", voice: "3个苹果" },{ type: "img", content: "5个🍎", word: "5个苹果", voice: "5个苹果" },{ type: "img", content: "2个🍎", word: "2个苹果", voice: "2个苹果" }], answer: 2 },
+                    { question: "哪个更少？", options: [{ type: "img", content: "4个🍌", word: "4个香蕉", voice: "4个香蕉" },{ type: "img", content: "1个🍌", word: "1个香蕉", voice: "1个香蕉" },{ type: "img", content: "6个🍌", word: "6个香蕉", voice: "6个香蕉" },{ type: "img", content: "2个🍌", word: "2个香蕉", voice: "2个香蕉" }], answer: 1 },
+                    { question: "水果是哪个？", options: [{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🍉", word: "西瓜", voice: "西瓜" },{ type: "img", content: "🥦", word: "西兰花", voice: "西兰花" }], answer: 2 },
+                    { question: "蔬菜是哪个？", options: [{ type: "img", content: "🍎", word: "苹果", voice: "苹果" },{ type: "img", content: "🥬", word: "青菜", voice: "青菜" },{ type: "img", content: "🍇", word: "葡萄", voice: "葡萄" },{ type: "img", content: "🍊", word: "橙子", voice: "橙子" }], answer: 1 },
+                    { question: "天上飞的是？", options: [{ type: "img", content: "🐟", word: "小鱼", voice: "小鱼" },{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🦅", word: "老鹰", voice: "老鹰" },{ type: "img", content: "🐢", word: "乌龟", voice: "乌龟" }], answer: 2 },
+                    { question: "水里游的是？", options: [{ type: "img", content: "🐟", word: "小鱼", voice: "小鱼" },{ type: "img", content: "🐇", word: "兔子", voice: "兔子" },{ type: "img", content: "🐐", word: "山羊", voice: "山羊" },{ type: "img", content: "🐓", word: "小鸡", voice: "小鸡" }], answer: 0 },
+                    { question: "白天出现的是？", options: [{ type: "img", content: "🌙", word: "月亮", voice: "月亮" },{ type: "img", content: "☀️", word: "太阳", voice: "太阳" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "🌑", word: "黑夜", voice: "黑夜" }], answer: 1 },
+                    { question: "晚上出现的是？", options: [{ type: "img", content: "☀️", word: "太阳", voice: "太阳" },{ type: "img", content: "🌈", word: "彩虹", voice: "彩虹" },{ type: "img", content: "🌙", word: "月亮", voice: "月亮" },{ type: "img", content: "🌞", word: "阳光", voice: "阳光" }], answer: 2 }
                 ]
             },
             fruits: {
@@ -1200,16 +1414,18 @@
                 description: '认识基础颜色',
                 color: '#9b59b6',
                 questions: [
-                    { question: "请选择'红色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" },{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" }], answer:0 },
-                    { question: "请选择'黄色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" },{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" }], answer:3 },
-                    { question: "请选择'蓝色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" },{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" }], answer:2 },
-                    { question: "请选择'绿色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" },{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" }], answer:1 },
-                    { question: "请选择'粉色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" },{ type: "img", content: "🟤", word: "棕色", voice: "棕色" }], answer:0 },
-                    { question: "请选择'白色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" },{ type: "img", content: "🟤", word: "棕色", voice: "棕色" }], answer:2 },
-                    { question: "请选择'黑色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" },{ type: "img", content: "🟤", word: "棕色", voice: "棕色" }], answer:1 },
-                    { question: "请选择'棕色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" },{ type: "img", content: "🟤", word: "棕色", voice: "棕色" }], answer:3 },
-                    { question: "请选择'紫色'", options: [{ type: "img", content: "🟣", word: "紫色", voice: "紫色" },{ type: "img", content: "🟠", word: "橙色", voice: "橙色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" }], answer:0 },
-                    { question: "请选择'橙色'", options: [{ type: "img", content: "🟣", word: "紫色", voice: "紫色" },{ type: "img", content: "🟠", word: "橙色", voice: "橙色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" }], answer:1 }
+                    { question: "请选择'红色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟠", word: "橙色", voice: "橙色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" }], answer: 0 },
+                    { question: "请选择'橙色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟠", word: "橙色", voice: "橙色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" }], answer: 1 },
+                    { question: "请选择'黄色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟠", word: "橙色", voice: "橙色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" }], answer: 2 },
+                    { question: "请选择'绿色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟠", word: "橙色", voice: "橙色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" }], answer: 3 },
+                    { question: "请选择'蓝色'", options: [{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟣", word: "紫色", voice: "紫色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" }], answer: 0 },
+                    { question: "请选择'紫色'", options: [{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟣", word: "紫色", voice: "紫色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" }], answer: 1 },
+                    { question: "请选择'黑色'", options: [{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟣", word: "紫色", voice: "紫色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" }], answer: 2 },
+                    { question: "请选择'白色'", options: [{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟣", word: "紫色", voice: "紫色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" }], answer: 3 },
+                    { question: "请选择'粉色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "🌰", word: "棕色", voice: "棕色" },{ type: "img", content: "🌿", word: "青色", voice: "青色" },{ type: "img", content: "🍂", word: "褐色", voice: "褐色" }], answer: 0 },
+                    { question: "请选择'棕色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "🌰", word: "棕色", voice: "棕色" },{ type: "img", content: "🌿", word: "青色", voice: "青色" },{ type: "img", content: "🍂", word: "褐色", voice: "褐色" }], answer: 1 },
+                    { question: "请选择'灰色'", options: [{ type: "img", content: "⚪", word: "灰色", voice: "灰色" },{ type: "img", content: "🔘", word: "深灰", voice: "深灰" },{ type: "img", content: "🔲", word: "黑白", voice: "黑白" },{ type: "img", content: "🔳", word: "白黑", voice: "白黑" }], answer: 0 },
+                    { question: "请选择'金色'", options: [{ type: "img", content: "⭐", word: "金色", voice: "金色" },{ type: "img", content: "🌟", word: "银色", voice: "银色" },{ type: "img", content: "💫", word: "彩色", voice: "彩色" },{ type: "img", content: "✨", word: "闪光", voice: "闪光" }], answer: 0 }
                 ]
             },
             shapes: {
@@ -1219,14 +1435,16 @@
                 description: '认识几何图形',
                 color: '#3498db',
                 questions: [
-                    { question: "请选择'圆形'", options: [{ type: "img", content: "⭕", word: "圆形", voice: "圆形" },{ type: "img", content: "⬜", word: "正方形", voice: "正方形" },{ type: "img", content: "🔺", word: "三角形", voice: "三角形" },{ type: "img", content: "🟩", word: "长方形", voice: "长方形" }], answer:0 },
-                    { question: "请选择'正方形'", options: [{ type: "img", content: "⭕", word: "圆形", voice: "圆形" },{ type: "img", content: "⬜", word: "正方形", voice: "正方形" },{ type: "img", content: "🔺", word: "三角形", voice: "三角形" },{ type: "img", content: "🟩", word: "长方形", voice: "长方形" }], answer:1 },
-                    { question: "请选择'三角形'", options: [{ type: "img", content: "⭕", word: "圆形", voice: "圆形" },{ type: "img", content: "⬜", word: "正方形", voice: "正方形" },{ type: "img", content: "🔺", word: "三角形", voice: "三角形" },{ type: "img", content: "🟩", word: "长方形", voice: "长方形" }], answer:2 },
-                    { question: "请选择'长方形'", options: [{ type: "img", content: "⭕", word: "圆形", voice: "圆形" },{ type: "img", content: "⬜", word: "正方形", voice: "正方形" },{ type: "img", content: "🔺", word: "三角形", voice: "三角形" },{ type: "img", content: "🟩", word: "长方形", voice: "长方形" }], answer:3 },
-                    { question: "请选择'星形'", options: [{ type: "img", content: "⭐", word: "星形", voice: "星形" },{ type: "img", content: "❤️", word: "心形", voice: "心形" },{ type: "img", content: "🔷", word: "菱形", voice: "菱形" },{ type: "img", content: "🔶", word: "六边形", voice: "六边形" }], answer:0 },
-                    { question: "请选择'心形'", options: [{ type: "img", content: "⭐", word: "星形", voice: "星形" },{ type: "img", content: "❤️", word: "心形", voice: "心形" },{ type: "img", content: "🔷", word: "菱形", voice: "菱形" },{ type: "img", content: "🔶", word: "六边形", voice: "六边形" }], answer:1 },
-                    { question: "请选择'菱形'", options: [{ type: "img", content: "⭐", word: "星形", voice: "星形" },{ type: "img", content: "❤️", word: "心形", voice: "心形" },{ type: "img", content: "🔷", word: "菱形", voice: "菱形" },{ type: "img", content: "🔶", word: "六边形", voice: "六边形" }], answer:2 },
-                    { question: "请选择'六边形'", options: [{ type: "img", content: "⭐", word: "星形", voice: "星形" },{ type: "img", content: "❤️", word: "心形", voice: "心形" },{ type: "img", content: "🔷", word: "菱形", voice: "菱形" },{ type: "img", content: "🔶", word: "六边形", voice: "六边形" }], answer:3 }
+                    { question: "请选择'圆形'", options: [{ type: "img", content: "⭕", word: "圆形", voice: "圆形" },{ type: "img", content: "🟠", word: "橙色", voice: "橙色" },{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" }], answer: 0 },
+                    { question: "请选择'正方形'", options: [{ type: "img", content: "🟥", word: "正方形", voice: "正方形" },{ type: "img", content: "🟦", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟩", word: "绿色", voice: "绿色" },{ type: "img", content: "🟨", word: "黄色", voice: "黄色" }], answer: 0 },
+                    { question: "请选择'三角形'", options: [{ type: "img", content: "🔺", word: "三角形", voice: "三角形" },{ type: "img", content: "🔻", word: "倒三角", voice: "倒三角" },{ type: "img", content: "⬜", word: "方形", voice: "方形" },{ type: "img", content: "⬛", word: "黑方", voice: "黑方" }], answer: 0 },
+                    { question: "请选择'长方形'", options: [{ type: "img", content: "🟫", word: "长方形", voice: "长方形" },{ type: "img", content: "🔶", word: "菱形", voice: "菱形" },{ type: "img", content: "🔷", word: "花形", voice: "花形" },{ type: "img", content: "🔸", word: "小形", voice: "小形" }], answer: 0 },
+                    { question: "请选择'五角星'", options: [{ type: "img", content: "⭐", word: "五角星", voice: "五角星" },{ type: "img", content: "🌟", word: "星星", voice: "星星" },{ type: "img", content: "🌙", word: "月亮", voice: "月亮" },{ type: "img", content: "☀️", word: "太阳", voice: "太阳" }], answer: 0 },
+                    { question: "请选择'心形'", options: [{ type: "img", content: "❤️", word: "心形", voice: "心形" },{ type: "img", content: "🧡", word: "橙心", voice: "橙心" },{ type: "img", content: "💛", word: "黄心", voice: "黄心" },{ type: "img", content: "💚", word: "绿心", voice: "绿心" }], answer: 0 },
+                    { question: "请选择'菱形'", options: [{ type: "img", content: "🔹", word: "菱形", voice: "菱形" },{ type: "img", content: "🔸", word: "圆形", voice: "圆形" },{ type: "img", content: "▪️", word: "方块", voice: "方块" },{ type: "img", content: "▫️", word: "白方", voice: "白方" }], answer: 0 },
+                    { question: "请选择'梯形'", options: [{ type: "img", content: "📐", word: "梯形", voice: "梯形" },{ type: "img", content: "📏", word: "尺子", voice: "尺子" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" },{ type: "img", content: "🎲", word: "骰子", voice: "骰子" }], answer: 0 },
+                    { question: "请选择'椭圆形'", options: [{ type: "img", content: "🥚", word: "椭圆形", voice: "椭圆形" },{ type: "img", content: "🍳", word: "鸡蛋", voice: "鸡蛋" },{ type: "img", content: "🥞", word: "煎饼", voice: "煎饼" },{ type: "img", content: "🧇", word: "华夫饼", voice: "华夫饼" }], answer: 0 },
+                    { question: "请选择'六边形'", options: [{ type: "img", content: "🟢", word: "六边形", voice: "六边形" },{ type: "img", content: "🔵", word: "圆形", voice: "圆形" },{ type: "img", content: "🟣", word: "方形", voice: "方形" },{ type: "img", content: "🟡", word: "三角", voice: "三角" }], answer: 0 }
                 ]
             },
             transport: {
@@ -1236,14 +1454,22 @@
                 description: '认识海陆空交通工具',
                 color: '#e67e22',
                 questions: [
-                    { question: "请选择'汽车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" },{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚲", word: "自行车", voice: "自行车" }], answer:0 },
-                    { question: "请选择'公交车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" },{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚲", word: "自行车", voice: "自行车" }], answer:1 },
-                    { question: "请选择'卡车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" },{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚲", word: "自行车", voice: "自行车" }], answer:2 },
-                    { question: "请选择'自行车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" },{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚲", word: "自行车", voice: "自行车" }], answer:3 },
-                    { question: "请选择'飞机'", options: [{ type: "img", content: "✈️", word: "飞机", voice: "飞机" },{ type: "img", content: "🚁", word: "直升机", voice: "直升机" },{ type: "img", content: "🚀", word: "火箭", voice: "火箭" },{ type: "img", content: "🛸", word: "飞船", voice: "飞船" }], answer:0 },
-                    { question: "请选择'直升机'", options: [{ type: "img", content: "✈️", word: "飞机", voice: "飞机" },{ type: "img", content: "🚁", word: "直升机", voice: "直升机" },{ type: "img", content: "🚀", word: "火箭", voice: "火箭" },{ type: "img", content: "🛸", word: "飞船", voice: "飞船" }], answer:1 },
-                    { question: "请选择'轮船'", options: [{ type: "img", content: "🚢", word: "轮船", voice: "轮船" },{ type: "img", content: "⛵", word: "帆船", voice: "帆船" },{ type: "img", content: "🛳️", word: "游轮", voice: "游轮" },{ type: "img", content: "🚤", word: "快艇", voice: "快艇" }], answer:0 },
-                    { question: "请选择'火车'", options: [{ type: "img", content: "🚂", word: "火车", voice: "火车" },{ type: "img", content: "🚆", word: "高铁", voice: "高铁" },{ type: "img", content: "🚇", word: "地铁", voice: "地铁" },{ type: "img", content: "🚄", word: "动车", voice: "动车" }], answer:0 }
+                    { question: "请选择'汽车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚕", word: "出租车", voice: "出租车" },{ type: "img", content: "🚙", word: "越野车", voice: "越野车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" }], answer: 0 },
+                    { question: "请选择'公交车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚕", word: "出租车", voice: "出租车" },{ type: "img", content: "🚙", word: "越野车", voice: "越野车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" }], answer: 3 },
+                    { question: "请选择'自行车'", options: [{ type: "img", content: "🚲", word: "自行车", voice: "自行车" },{ type: "img", content: "🛵", word: "电动车", voice: "电动车" },{ type: "img", content: "🏍️", word: "摩托车", voice: "摩托车" },{ type: "img", content: "🚂", word: "小火车", voice: "小火车" }], answer: 0 },
+                    { question: "请选择'摩托车'", options: [{ type: "img", content: "🚲", word: "自行车", voice: "自行车" },{ type: "img", content: "🛵", word: "电动车", voice: "电动车" },{ type: "img", content: "🏍️", word: "摩托车", voice: "摩托车" },{ type: "img", content: "🚂", word: "小火车", voice: "小火车" }], answer: 2 },
+                    { question: "请选择'火车'", options: [{ type: "img", content: "🚆", word: "火车", voice: "火车" },{ type: "img", content: "🚄", word: "高铁", voice: "高铁" },{ type: "img", content: "✈️", word: "飞机", voice: "飞机" },{ type: "img", content: "🛫", word: "起飞", voice: "起飞" }], answer: 0 },
+                    { question: "请选择'飞机'", options: [{ type: "img", content: "🚆", word: "火车", voice: "火车" },{ type: "img", content: "🚄", word: "高铁", voice: "高铁" },{ type: "img", content: "✈️", word: "飞机", voice: "飞机" },{ type: "img", content: "🛫", word: "起飞", voice: "起飞" }], answer: 2 },
+                    { question: "请选择'轮船'", options: [{ type: "img", content: "🚢", word: "轮船", voice: "轮船" },{ type: "img", content: "⛵", word: "帆船", voice: "帆船" },{ type: "img", content: "🛶", word: "独木舟", voice: "独木舟" },{ type: "img", content: "🚤", word: "快艇", voice: "快艇" }], answer: 0 },
+                    { question: "请选择'帆船'", options: [{ type: "img", content: "🚢", word: "轮船", voice: "轮船" },{ type: "img", content: "⛵", word: "帆船", voice: "帆船" },{ type: "img", content: "🛶", word: "独木舟", voice: "独木舟" },{ type: "img", content: "🚤", word: "快艇", voice: "快艇" }], answer: 1 },
+                    { question: "请选择'救护车'", options: [{ type: "img", content: "🚑", word: "救护车", voice: "救护车" },{ type: "img", content: "🚒", word: "消防车", voice: "消防车" },{ type: "img", content: "🚓", word: "警车", voice: "警车" },{ type: "img", content: "🚐", word: "面包车", voice: "面包车" }], answer: 0 },
+                    { question: "请选择'消防车'", options: [{ type: "img", content: "🚑", word: "救护车", voice: "救护车" },{ type: "img", content: "🚒", word: "消防车", voice: "消防车" },{ type: "img", content: "🚓", word: "警车", voice: "警车" },{ type: "img", content: "🚐", word: "面包车", voice: "面包车" }], answer: 1 },
+                    { question: "请选择'警车'", options: [{ type: "img", content: "🚑", word: "救护车", voice: "救护车" },{ type: "img", content: "🚒", word: "消防车", voice: "消防车" },{ type: "img", content: "🚓", word: "警车", voice: "警车" },{ type: "img", content: "🚐", word: "面包车", voice: "面包车" }], answer: 2 },
+                    { question: "请选择'卡车'", options: [{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚛", word: "大货车", voice: "大货车" },{ type: "img", content: "🚜", word: "拖拉机", voice: "拖拉机" },{ type: "img", content: "🚲", word: "单车", voice: "单车" }], answer: 0 },
+                    { question: "请选择'拖拉机'", options: [{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚛", word: "大货车", voice: "大货车" },{ type: "img", content: "🚜", word: "拖拉机", voice: "拖拉机" },{ type: "img", content: "🚲", word: "单车", voice: "单车" }], answer: 2 },
+                    { question: "请选择'直升机'", options: [{ type: "img", content: "🚁", word: "直升机", voice: "直升机" },{ type: "img", content: "✈️", word: "客机", voice: "客机" },{ type: "img", content: "🛸", word: "飞碟", voice: "飞碟" },{ type: "img", content: "🚀", word: "火箭", voice: "火箭" }], answer: 0 },
+                    { question: "请选择'火箭'", options: [{ type: "img", content: "🚁", word: "直升机", voice: "直升机" },{ type: "img", content: "✈️", word: "客机", voice: "客机" },{ type: "img", content: "🛸", word: "飞碟", voice: "飞碟" },{ type: "img", content: "🚀", word: "火箭", voice: "火箭" }], answer: 3 },
+                    { question: "请选择'地铁'", options: [{ type: "img", content: "🚇", word: "地铁", voice: "地铁" },{ type: "img", content: "🚊", word: "电车", voice: "电车" },{ type: "img", content: "🚌", word: "大巴", voice: "大巴" },{ type: "img", content: "🚕", word: "的士", voice: "的士" }], answer: 0 }
                 ]
             },
             daily: {
@@ -1253,14 +1479,21 @@
                 description: '生活常见物品认知',
                 color: '#1abc9c',
                 questions: [
-                    { question: "请选择'杯子'", options: [{ type: "img", content: "🥤", word: "杯子", voice: "杯子" },{ type: "img", content: "🍽️", word: "餐具", voice: "餐具" },{ type: "img", content: "🍴", word: "刀叉", voice: "刀叉" },{ type: "img", content: "🥢", word: "筷子", voice: "筷子" }], answer:0 },
-                    { question: "请选择'衣服'", options: [{ type: "img", content: "👕", word: "衣服", voice: "衣服" },{ type: "img", content: "👖", word: "裤子", voice: "裤子" },{ type: "img", content: "👗", word: "裙子", voice: "裙子" },{ type: "img", content: "🧦", word: "袜子", voice: "袜子" }], answer:0 },
+                    { question: "请选择'杯子'", options: [{ type: "img", content: "🥤", word: "杯子", voice: "杯子" },{ type: "img", content: "🍵", word: "茶杯", voice: "茶杯" },{ type: "img", content: "🥣", word: "碗", voice: "碗" },{ type: "img", content: "🥄", word: "勺子", voice: "勺子" }], answer: 0 },
                     { question: "请选择'裤子'", options: [{ type: "img", content: "👕", word: "衣服", voice: "衣服" },{ type: "img", content: "👖", word: "裤子", voice: "裤子" },{ type: "img", content: "👗", word: "裙子", voice: "裙子" },{ type: "img", content: "🧦", word: "袜子", voice: "袜子" }], answer:1 },
-                    { question: "请选择'鞋子'", options: [{ type: "img", content: "👟", word: "鞋子", voice: "鞋子" },{ type: "img", content: "🧢", word: "帽子", voice: "帽子" },{ type: "img", content: "🎩", word: "礼帽", voice: "礼帽" },{ type: "img", content: "👒", word: "女帽", voice: "女帽" }], answer:0 },
-                    { question: "请选择'书包'", options: [{ type: "img", content: "🎒", word: "书包", voice: "书包" },{ type: "img", content: "👜", word: "手提包", voice: "手提包" },{ type: "img", content: "💼", word: "公文包", voice: "公文包" },{ type: "img", content: "🛍️", word: "购物袋", voice: "购物袋" }], answer:0 },
-                    { question: "请选择'床'", options: [{ type: "img", content: "🛏️", word: "床", voice: "床" },{ type: "img", content: "🪑", word: "椅子", voice: "椅子" },{ type: "img", content: "🪑", word: "凳子", voice: "凳子" },{ type: "img", content: "🚪", word: "门", voice: "门" }], answer:0 },
-                    { question: "请选择'灯'", options: [{ type: "img", content: "💡", word: "灯", voice: "灯" },{ type: "img", content: "🔦", word: "手电筒", voice: "手电筒" },{ type: "img", content: "📺", word: "电视", voice: "电视" },{ type: "img", content: "📱", word: "手机", voice: "手机" }], answer:0 },
-                    { question: "请选择'电话'", options: [{ type: "img", content: "📞", word: "电话", voice: "电话" },{ type: "img", content: "📱", word: "手机", voice: "手机" },{ type: "img", content: "💻", word: "电脑", voice: "电脑" },{ type: "img", content: "🖨️", word: "打印机", voice: "打印机" }], answer:0 }
+                    { question: "请选择'碗'", options: [{ type: "img", content: "🥤", word: "杯子", voice: "杯子" },{ type: "img", content: "🍵", word: "茶杯", voice: "茶杯" },{ type: "img", content: "🥣", word: "碗", voice: "碗" },{ type: "img", content: "🥄", word: "勺子", voice: "勺子" }], answer: 2 },
+                    { question: "请选择'衣服'", options: [{ type: "img", content: "👕", word: "衣服", voice: "衣服" },{ type: "img", content: "👖", word: "裤子", voice: "裤子" },{ type: "img", content: "🧦", word: "袜子", voice: "袜子" },{ type: "img", content: "👟", word: "鞋子", voice: "鞋子" }], answer: 0 },
+                    { question: "请选择'鞋子'", options: [{ type: "img", content: "👕", word: "衣服", voice: "衣服" },{ type: "img", content: "👖", word: "裤子", voice: "裤子" },{ type: "img", content: "🧦", word: "袜子", voice: "袜子" },{ type: "img", content: "👟", word: "鞋子", voice: "鞋子" }], answer: 3 },
+                    { question: "请选择'帽子'", options: [{ type: "img", content: "🧢", word: "帽子", voice: "帽子" },{ type: "img", content: "👒", word: "礼帽", voice: "礼帽" },{ type: "img", content: "🎩", word: "礼帽", voice: "礼帽" },{ type: "img", content: "👑", word: "皇冠", voice: "皇冠" }], answer: 0 },
+                    { question: "请选择'书包'", options: [{ type: "img", content: "🎒", word: "书包", voice: "书包" },{ type: "img", content: "👜", word: "手提包", voice: "手提包" },{ type: "img", content: "💼", word: "公文包", voice: "公文包" },{ type: "img", content: "🎽", word: "背心", voice: "背心" }], answer: 0 },
+                    { question: "请选择'桌子'", options: [{ type: "img", content: "🪑", word: "椅子", voice: "椅子" },{ type: "img", content: "🛋️", word: "沙发", voice: "沙发" },{ type: "img", content: "🪑", word: "凳子", voice: "凳子" },{ type: "img", content: "🪑", word: "桌子", voice: "桌子" }], answer: 3 },
+                    { question: "请选择'椅子'", options: [{ type: "img", content: "🪑", word: "椅子", voice: "椅子" },{ type: "img", content: "🛋️", word: "沙发", voice: "沙发" },{ type: "img", content: "🪑", word: "凳子", voice: "凳子" },{ type: "img", content: "🪑", word: "桌子", voice: "桌子" }], answer: 0 },
+                    { question: "请选择'床'", options: [{ type: "img", content: "🛏️", word: "床", voice: "床" },{ type: "img", content: "🛌", word: "睡觉", voice: "睡觉" },{ type: "img", content: "🚪", word: "门", voice: "门" },{ type: "img", content: "🪟", word: "窗户", voice: "窗户" }], answer: 0 },
+                    { question: "请选择'灯'", options: [{ type: "img", content: "💡", word: "灯", voice: "灯" },{ type: "img", content: "🔦", word: "手电筒", voice: "手电筒" },{ type: "img", content: "🕯️", word: "蜡烛", voice: "蜡烛" },{ type: "img", content: "🪔", word: "油灯", voice: "油灯" }], answer: 0 },
+                    { question: "请选择'电话'", options: [{ type: "img", content: "📞", word: "电话", voice: "电话" },{ type: "img", content: "📱", word: "手机", voice: "手机" },{ type: "img", content: "📷", word: "相机", voice: "相机" },{ type: "img", content: "🎥", word: "摄像机", voice: "摄像机" }], answer: 0 },
+                    { question: "请选择'钥匙'", options: [{ type: "img", content: "🔑", word: "钥匙", voice: "钥匙" },{ type: "img", content: "🔒", word: "锁", voice: "锁" },{ type: "img", content: "🔐", word: "密码锁", voice: "密码锁" },{ type: "img", content: "🚪", word: "门", voice: "门" }], answer: 0 },
+                    { question: "请选择'雨伞'", options: [{ type: "img", content: "☂️", word: "雨伞", voice: "雨伞" },{ type: "img", content: "🌂", word: "遮阳伞", voice: "遮阳伞" },{ type: "img", content: "🧺", word: "篮子", voice: "篮子" },{ type: "img", content: "🧵", word: "线", voice: "线" }], answer: 0 },
+                    { question: "请选择'钟表'", options: [{ type: "img", content: "🕰️", word: "钟表", voice: "钟表" },{ type: "img", content: "⏰", word: "闹钟", voice: "闹钟" },{ type: "img", content: "⏳", word: "沙漏", voice: "沙漏" },{ type: "img", content: "⌛", word: "时间", voice: "时间" }], answer: 0 }
                 ]
             },
             weather: {
@@ -1300,11 +1533,13 @@
                 description: '认识不同职业的人',
                 color: '#6c5ce7',
                 questions: [
-                    { question: "请选择'医生'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" }], answer: 0 },
-                    { question: "请选择'老师'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" }], answer: 1 },
-                    { question: "请选择'警察'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" }], answer: 2 },
-                    { question: "请选择'厨师'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" }], answer: 3 },
-                    { question: "请选择'消防员'", options: [{ type: "img", content: "👨‍🚒", word: "消防员", voice: "消防员" },{ type: "img", content: "👨‍✈️", word: "飞行员", voice: "飞行员" },{ type: "img", content: "👷", word: "工人", voice: "工人" },{ type: "img", content: "💁", word: "服务员", voice: "服务员" }], answer: 0 }
+                    { question: "请选择'医生'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍⚕️", word: "女医生", voice: "女医生" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👷", word: "工人", voice: "工人" }], answer: 0 },
+                    { question: "请选择'警察'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍⚕️", word: "女医生", voice: "女医生" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👷", word: "工人", voice: "工人" }], answer: 2 },
+                    { question: "请选择'老师'", options: [{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👨‍🏫", word: "男老师", voice: "男老师" },{ type: "img", content: "👩‍🎓", word: "学生", voice: "学生" },{ type: "img", content: "👨‍🎓", word: "男学生", voice: "男学生" }], answer: 0 },
+                    { question: "请选择'厨师'", options: [{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" },{ type: "img", content: "👨‍🍳", word: "男厨师", voice: "男厨师" },{ type: "img", content: "👩‍🌾", word: "农民", voice: "农民" },{ type: "img", content: "👨‍🌾", word: "男农民", voice: "男农民" }], answer: 0 },
+                    { question: "请选择'农民'", options: [{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" },{ type: "img", content: "👨‍🍳", word: "男厨师", voice: "男厨师" },{ type: "img", content: "👩‍🌾", word: "农民", voice: "农民" },{ type: "img", content: "👨‍🌾", word: "男农民", voice: "男农民" }], answer: 2 },
+                    { question: "请选择'消防员'", options: [{ type: "img", content: "🧑‍🚒", word: "消防员", voice: "消防员" },{ type: "img", content: "👨‍🚀", word: "宇航员", voice: "宇航员" },{ type: "img", content: "👩‍✈️", word: "飞行员", voice: "飞行员" },{ type: "img", content: "👨‍✈️", word: "男飞行员", voice: "男飞行员" }], answer: 0 },
+                    { question: "请选择'司机'", options: [{ type: "img", content: "👨‍✈️", word: "司机", voice: "司机" },{ type: "img", content: "👩‍✈️", word: "飞行员", voice: "飞行员" },{ type: "img", content: "🧑‍🔧", word: "修理工", voice: "修理工" },{ type: "img", content: "🧑‍🍳", word: "大厨", voice: "大厨" }], answer: 0 }
                 ]
             },
             season: {
@@ -1329,10 +1564,22 @@
                 color: '#4cd137',
                 questions: [
                     { question: "请选择'白菜'", options: [{ type: "img", content: "🥬", word: "白菜", voice: "白菜" },{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" }], answer: 0 },
-                    { question: "请选择'胡萝卜'", options: [{ type: "img", content: "🥬", word: "白菜", voice: "白菜" },{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" }], answer: 1 },
-                    { question: "请选择'西红柿'", options: [{ type: "img", content: "🥬", word: "白菜", voice: "白菜" },{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" }], answer: 2 },
-                    { question: "请选择'黄瓜'", options: [{ type: "img", content: "🥬", word: "白菜", voice: "白菜" },{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" }], answer: 3 },
-                    { question: "请选择'土豆'", options: [{ type: "img", content: "🥔", word: "土豆", voice: "土豆" },{ type: "img", content: "🧅", word: "洋葱", voice: "洋葱" },{ type: "img", content: "🧄", word: "大蒜", voice: "大蒜" },{ type: "img", content: "🍆", word: "茄子", voice: "茄子" }], answer: 0 }
+                    { question: "请选择'胡萝卜'", options: [{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🌽", word: "玉米", voice: "玉米" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥔", word: "土豆", voice: "土豆" }], answer: 0 },
+                    { question: "请选择'玉米'", options: [{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🌽", word: "玉米", voice: "玉米" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥔", word: "土豆", voice: "土豆" }], answer: 1 },
+                    { question: "请选择'西红柿'", options: [{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🌽", word: "玉米", voice: "玉米" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥔", word: "土豆", voice: "土豆" }], answer: 2 },
+                    { question: "请选择'土豆'", options: [{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🌽", word: "玉米", voice: "玉米" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥔", word: "土豆", voice: "土豆" }], answer: 3 },
+                    { question: "请选择'黄瓜'", options: [{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" },{ type: "img", content: "🥬", word: "青菜", voice: "青菜" },{ type: "img", content: "🥦", word: "西兰花", voice: "西兰花" },{ type: "img", content: "🧄", word: "大蒜", voice: "大蒜" }], answer: 0 },
+                    { question: "请选择'西兰花'", options: [{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" },{ type: "img", content: "🥬", word: "青菜", voice: "青菜" },{ type: "img", content: "🥦", word: "西兰花", voice: "西兰花" },{ type: "img", content: "🧄", word: "大蒜", voice: "大蒜" }], answer: 2 },
+                    { question: "请选择'蘑菇'", options: [{ type: "img", content: "🍄", word: "蘑菇", voice: "蘑菇" },{ type: "img", content: "🌶️", word: "辣椒", voice: "辣椒" },{ type: "img", content: "🫑", word: "甜椒", voice: "甜椒" },{ type: "img", content: "🧅", word: "洋葱", voice: "洋葱" }], answer: 0 },
+                    { question: "请选择'辣椒'", options: [{ type: "img", content: "🍄", word: "蘑菇", voice: "蘑菇" },{ type: "img", content: "🌶️", word: "辣椒", voice: "辣椒" },{ type: "img", content: "🫑", word: "甜椒", voice: "甜椒" },{ type: "img", content: "🧅", word: "洋葱", voice: "洋葱" }], answer: 1 },
+                    { question: "请选择'茄子'", options: [{ type: "img", content: "🍆", word: "茄子", voice: "茄子" },{ type: "img", content: "🥑", word: "牛油果", voice: "牛油果" },{ type: "img", content: "🥜", word: "花生", voice: "花生" },{ type: "img", content: "🌰", word: "栗子", voice: "栗子" }], answer: 0 },
+                    { question: "请选择'花生'", options: [{ type: "img", content: "🍆", word: "茄子", voice: "茄子" },{ type: "img", content: "🥑", word: "牛油果", voice: "牛油果" },{ type: "img", content: "🥜", word: "花生", voice: "花生" },{ type: "img", content: "🌰", word: "栗子", voice: "栗子" }], answer: 2 },
+                    { question: "请选择'菠菜'", options: [{ type: "img", content: "🥬", word: "菠菜", voice: "菠菜" },{ type: "img", content: "🥗", word: "沙拉", voice: "沙拉" },{ type: "img", content: "🍠", word: "红薯", voice: "红薯" },{ type: "img", content: "🥐", word: "面包", voice: "面包" }], answer: 0 },
+                    { question: "请选择'红薯'", options: [{ type: "img", content: "🥬", word: "菠菜", voice: "菠菜" },{ type: "img", content: "🥗", word: "沙拉", voice: "沙拉" },{ type: "img", content: "🍠", word: "红薯", voice: "红薯" },{ type: "img", content: "🥐", word: "面包", voice: "面包" }], answer: 2 },
+                    { question: "请选择'生菜'", options: [{ type: "img", content: "🥬", word: "生菜", voice: "生菜" },{ type: "img", content: "🥦", word: "花菜", voice: "花菜" },{ type: "img", content: "🥕", word: "萝卜", voice: "萝卜" },{ type: "img", content: "🌽", word: "麦子", voice: "麦子" }], answer: 0 },
+                    { question: "请选择'花菜'", options: [{ type: "img", content: "🥬", word: "生菜", voice: "生菜" },{ type: "img", content: "🥦", word: "花菜", voice: "花菜" },{ type: "img", content: "🥕", word: "萝卜", voice: "萝卜" },{ type: "img", content: "🌽", word: "麦子", voice: "麦子" }], answer: 1 },
+                    { question: "请选择'洋葱'", options: [{ type: "img", content: "🧅", word: "洋葱", voice: "洋葱" },{ type: "img", content: "🧄", word: "蒜头", voice: "蒜头" },{ type: "img", content: "🍄", word: "香菇", voice: "香菇" },{ type: "img", content: "🌶️", word: "尖椒", voice: "尖椒" }], answer: 0 },
+                    { question: "请选择'蒜头'", options: [{ type: "img", content: "🧅", word: "洋葱", voice: "洋葱" },{ type: "img", content: "🧄", word: "蒜头", voice: "蒜头" },{ type: "img", content: "🍄", word: "香菇", voice: "香菇" },{ type: "img", content: "🌶️", word: "尖椒", voice: "尖椒" }], answer: 1 }     
                 ]
             },
             stationery: {
@@ -1370,14 +1617,17 @@
                 description: '认识花草树木',
                 color: '#00b894',
                 questions: [
-                    { question: "请选择'小花'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌲", word: "松树", voice: "松树" },{ type: "img", content: "🌱", word: "小草", voice: "小草" },{ type: "img", content: "🌳", word: "大树", voice: "大树" }], answer: 0 },
+                    { question: "请选择'小花'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌹", word: "玫瑰", voice: "玫瑰" },{ type: "img", content: "🌷", word: "郁金香", voice: "郁金香" },{ type: "img", content: "🌼", word: "雏菊", voice: "雏菊" }], answer: 0 },
                     { question: "请选择'松树'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌲", word: "松树", voice: "松树" },{ type: "img", content: "🌱", word: "小草", voice: "小草" },{ type: "img", content: "🌳", word: "大树", voice: "大树" }], answer: 1 },
-                    { question: "请选择'小草'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌲", word: "松树", voice: "松树" },{ type: "img", content: "🌱", word: "小草", voice: "小草" },{ type: "img", content: "🌳", word: "大树", voice: "大树" }], answer: 2 },
-                    { question: "请选择'大树'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌲", word: "松树", voice: "松树" },{ type: "img", content: "🌱", word: "小草", voice: "小草" },{ type: "img", content: "🌳", word: "大树", voice: "大树" }], answer: 3 },
-                    { question: "请选择'叶子'", options: [{ type: "img", content: "🍃", word: "叶子", voice: "叶子" },{ type: "img", content: "🍂", word: "落叶", voice: "落叶" },{ type: "img", content: "🌹", word: "玫瑰", voice: "玫瑰" },{ type: "img", content: "🌻", word: "向日葵", voice: "向日葵" }], answer: 0 }
+                    { question: "请选择'玫瑰'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌹", word: "玫瑰", voice: "玫瑰" },{ type: "img", content: "🌷", word: "郁金香", voice: "郁金香" },{ type: "img", content: "🌼", word: "雏菊", voice: "雏菊" }], answer: 1 },
+                    { question: "请选择'向日葵'", options: [{ type: "img", content: "🌻", word: "向日葵", voice: "向日葵" },{ type: "img", content: "🌼", word: "小花", voice: "小花" },{ type: "img", content: "💐", word: "花束", voice: "花束" },{ type: "img", content: "🌸", word: "桃花", voice: "桃花" }], answer: 0 },
+                    { question: "请选择'树叶'", options: [{ type: "img", content: "🍃", word: "树叶", voice: "树叶" },{ type: "img", content: "🍂", word: "落叶", voice: "落叶" },{ type: "img", content: "🍁", word: "枫叶", voice: "枫叶" },{ type: "img", content: "🌿", word: "草", voice: "草" }], answer: 0 },
+                    { question: "请选择'小草'", options: [{ type: "img", content: "🌿", word: "小草", voice: "小草" },{ type: "img", content: "🍀", word: "四叶草", voice: "四叶草" },{ type: "img", content: "🌱", word: "幼苗", voice: "幼苗" },{ type: "img", content: "🌲", word: "松树", voice: "松树" }], answer: 0 },
+                    { question: "请选择'大树'", options: [{ type: "img", content: "🌳", word: "大树", voice: "大树" },{ type: "img", content: "🌴", word: "椰子树", voice: "椰子树" },{ type: "img", content: "🌲", word: "松树", voice: "松树" },{ type: "img", content: "🌵", word: "仙人掌", voice: "仙人掌" }], answer: 0 },
+                    { question: "请选择'仙人掌'", options: [{ type: "img", content: "🌵", word: "仙人掌", voice: "仙人掌" },{ type: "img", content: "🎍", word: "竹子", voice: "竹子" },{ type: "img", content: "🪴", word: "盆栽", voice: "盆栽" },{ type: "img", content: "🌱", word: "树苗", voice: "树苗" }], answer: 0 },
+                    { question: "请选择'荷花'", options: [{ type: "img", content: "🪷", word: "荷花", voice: "荷花" },{ type: "img", content: "🌸", word: "莲花", voice: "莲花" },{ type: "img", content: "🌺", word: "牡丹", voice: "牡丹" },{ type: "img", content: "🌻", word: "太阳花", voice: "太阳花" }], answer: 0 }
                 ]
             },
-            // ✅ 科学完善：古诗学习主题（填空模式，只读前三句）
             poem: {
                 id: 'poem',
                 title: '古诗乐园',
@@ -1458,41 +1708,492 @@
                     { question: "请选择'mom妈妈'", options: [{ type: "img", content: "👩", word: "mom", voice: "mom" },{ type: "img", content: "👨", word: "dad", voice: "dad" },{ type: "img", content: "👧", word: "sister", voice: "sister" },{ type: "img", content: "👦", word: "brother", voice: "brother" }], answer: 0 },
                     { question: "请选择'car汽车'", options: [{ type: "img", content: "🚗", word: "car", voice: "car" },{ type: "img", content: "✈️", word: "plane", voice: "plane" },{ type: "img", content: "🚢", word: "ship", voice: "ship" },{ type: "img", content: "🚲", word: "bike", voice: "bike" }], answer: 0 }
                 ]
-            }
+            },
+            safety: {
+    id: 'safety',
+    title: '安全常识',
+    icon: 'fas fa-shield-alt',
+    description: '安全知识学习',
+    color: '#e74c3c',
+    questions: [
+      { question: "请选择'红绿灯'", options: [{ type: "img", content: "🚦", word: "红绿灯", voice: "红绿灯" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "🚑", word: "救护车", voice: "救护车" },{ type: "img", content: "🚓", word: "警车", voice: "警车" }], answer: 0 },
+      { question: "请选择'防火'", options: [{ type: "img", content: "🚦", word: "红绿灯", voice: "红绿灯" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "🚰", word: "水", voice: "水" },{ type: "img", content: "⚡", word: "电", voice: "电" }], answer: 1 },
+      { question: "请选择'小心触电'", options: [{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "🚰", word: "水", voice: "水" },{ type: "img", content: "⚡", word: "电", voice: "电" },{ type: "img", content: "🚦", word: "红绿灯", voice: "红绿灯" }], answer: 2 },
+      { question: "请选择'防溺水'", options: [{ type: "img", content: "🌊", word: "水", voice: "水" },{ type: "img", content: "⚡", word: "电", voice: "电" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "🚦", word: "红绿灯", voice: "红绿灯" }], answer: 0 },
+      { question: "请选择'陌生人'", options: [{ type: "img", content: "👤", word: "家人", voice: "家人" },{ type: "img", content: "🙍", word: "陌生人", voice: "陌生人" },{ type: "img", content: "👨‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" }], answer: 1 }
+    ]
+  },
+            habit: {
+    id: 'habit',
+    title: '好习惯养成',
+    icon: 'fas fa-heart',
+    description: '生活好习惯学习',
+    color: '#1abc9c',
+    questions: [
+      { question: "请选择'洗手'", options: [{ type: "img", content: "🧼", word: "洗手", voice: "洗手" },{ type: "img", content: "🦷", word: "刷牙", voice: "刷牙" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" },{ type: "img", content: "🍽️", word: "吃饭", voice: "吃饭" }], answer: 0 },
+      { question: "请选择'刷牙'", options: [{ type: "img", content: "🧼", word: "洗手", voice: "洗手" },{ type: "img", content: "🦷", word: "刷牙", voice: "刷牙" },{ type: "img", content: "🧹", word: "打扫", voice: "打扫" },{ type: "img", content: "👕", word: "穿衣", voice: "穿衣" }], answer: 1 },
+      { question: "请选择'早睡早起'", options: [{ type: "img", content: "🌙", word: "晚上", voice: "晚上" },{ type: "img", content: "☀️", word: "早上", voice: "早上" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" },{ type: "img", content: "🚰", word: "喝水", voice: "喝水" }], answer: 1 },
+      { question: "请选择'整理玩具'", options: [{ type: "img", content: "🧸", word: "玩具", voice: "玩具" },{ type: "img", content: "📚", word: "书本", voice: "书本" },{ type: "img", content: "👕", word: "衣服", voice: "衣服" },{ type: "img", content: "🍽️", word: "碗筷", voice: "碗筷" }], answer: 0 },
+      { question: "请选择'自己穿衣'", options: [{ type: "img", content: "🦷", word: "刷牙", voice: "刷牙" },{ type: "img", content: "👕", word: "穿衣", voice: "穿衣" },{ type: "img", content: "🧼", word: "洗手", voice: "洗手" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" }], answer: 1 }
+    ]
+  },
+  etiquette: {
+    id: 'etiquette',
+    title: '公共礼仪',
+    icon: 'fas fa-handshake',
+    description: '文明礼仪认知',
+    color: '#f39c12',
+    questions: [
+      { question: "请选择'排队'", options: [{ type: "img", content: "🚶‍♀️🚶‍♂️", word: "排队", voice: "排队" },{ type: "img", content: "🏃", word: "奔跑", voice: "奔跑" },{ type: "img", content: "🙋", word: "举手", voice: "举手" },{ type: "img", content: "🤫", word: "安静", voice: "安静" }], answer: 0 },
+      { question: "请选择'分享'", options: [{ type: "img", content: "🤝", word: "分享", voice: "分享" },{ type: "img", content: "🚫", word: "不行", voice: "不行" },{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "😡", word: "生气", voice: "生气" }], answer: 0 },
+      { question: "请选择'问好'", options: [{ type: "img", content: "🙋", word: "举手", voice: "举手" },{ type: "img", content: "👋", word: "问好", voice: "问好" },{ type: "img", content: "🤫", word: "安静", voice: "安静" },{ type: "img", content: "🚶‍♀️", word: "走路", voice: "走路" }], answer: 1 },
+      { question: "请选择'用餐礼仪'", options: [{ type: "img", content: "🍽️", word: "吃饭", voice: "吃饭" },{ type: "img", content: "🍬", word: "糖果", voice: "糖果" },{ type: "img", content: "🍎", word: "水果", voice: "水果" },{ type: "img", content: "🍞", word: "面包", voice: "面包" }], answer: 0 },
+      { question: "请选择'谢谢'", options: [{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "😡", word: "生气", voice: "生气" },{ type: "img", content: "🤝", word: "分享", voice: "分享" },{ type: "img", content: "👋", word: "再见", voice: "再见" }], answer: 0 }
+    ]
+  },
+  emotion: {
+    id: 'emotion',
+    title: '情绪认知',
+    icon: 'fas fa-smile',
+    description: '认识自己的情绪',
+    color: '#8e44ad',
+    questions: [
+      { question: "请选择'开心'", options: [{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "😢", word: "难过", voice: "难过" },{ type: "img", content: "😠", word: "生气", voice: "生气" },{ type: "img", content: "😨", word: "害怕", voice: "害怕" }], answer: 0 },
+      { question: "请选择'难过'", options: [{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "😢", word: "难过", voice: "难过" },{ type: "img", content: "😃", word: "大笑", voice: "大笑" },{ type: "img", content: "😴", word: "睡觉", voice: "睡觉" }], answer: 1 },
+      { question: "请选择'生气'", options: [{ type: "img", content: "😢", word: "难过", voice: "难过" },{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "😠", word: "生气", voice: "生气" },{ type: "img", content: "😨", word: "害怕", voice: "害怕" }], answer: 2 },
+      { question: "请选择'害怕'", options: [{ type: "img", content: "😠", word: "生气", voice: "生气" },{ type: "img", content: "😨", word: "害怕", voice: "害怕" },{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "😢", word: "难过", voice: "难过" }], answer: 1 },
+      { question: "请选择'勇敢'", options: [{ type: "img", content: "🦸", word: "勇敢", voice: "勇敢" },{ type: "img", content: "😨", word: "害怕", voice: "害怕" },{ type: "img", content: "😠", word: "生气", voice: "生气" },{ type: "img", content: "😢", word: "难过", voice: "难过" }], answer: 0 }
+    ]
+  },
+  rule: {
+    id: 'rule',
+    title: '规则意识',
+    icon: 'fas fa-list-alt',
+    description: '遵守规则学习',
+    color: '#34495e',
+    questions: [
+      { question: "请选择'幼儿园规则'", options: [{ type: "img", content: "🏫", word: "幼儿园", voice: "幼儿园" },{ type: "img", content: "🏠", word: "家", voice: "家" },{ type: "img", content: "🏬", word: "商场", voice: "商场" },{ type: "img", content: "🏥", word: "医院", voice: "医院" }], answer: 0 },
+      { question: "请选择'游戏规则'", options: [{ type: "img", content: "🎮", word: "游戏", voice: "游戏" },{ type: "img", content: "📚", word: "学习", voice: "学习" },{ type: "img", content: "🍽️", word: "吃饭", voice: "吃饭" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" }], answer: 0 },
+      { question: "请选择'不打闹'", options: [{ type: "img", content: "🤼", word: "打闹", voice: "打闹" },{ type: "img", content: "🚫", word: "禁止", voice: "禁止" },{ type: "img", content: "🏃", word: "奔跑", voice: "奔跑" },{ type: "img", content: "🤸", word: "跳跃", voice: "跳跃" }], answer: 1 },
+      { question: "请选择'爱护公物'", options: [{ type: "img", content: "🪑", word: "椅子", voice: "椅子" },{ type: "img", content: "🧸", word: "玩具", voice: "玩具" },{ type: "img", content: "📚", word: "书本", voice: "书本" },{ type: "img", content: "❤️", word: "爱护", voice: "爱护" }], answer: 3 },
+      { question: "请选择'讲秩序'", options: [{ type: "img", content: "🚶‍♀️🚶‍♂️", word: "秩序", voice: "秩序" },{ type: "img", content: "🏃", word: "奔跑", voice: "奔跑" },{ type: "img", content: "🤼", word: "打闹", voice: "打闹" },{ type: "img", content: "🤸", word: "跳跃", voice: "跳跃" }], answer: 0 }
+    ]
+  },
+  family: {
+    id: 'family',
+    title: '家庭关系',
+    icon: 'fas fa-users',
+    description: '家庭成员认知',
+    color: '#ff6b81',
+    questions: [
+      { question: "请选择'爸爸'", options: [{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" },{ type: "img", content: "👩", word: "妈妈", voice: "妈妈" },{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" }], answer: 0 },
+      { question: "请选择'妈妈'", options: [{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" },{ type: "img", content: "👩", word: "妈妈", voice: "妈妈" },{ type: "img", content: "👦", word: "哥哥", voice: "哥哥" },{ type: "img", content: "👧", word: "妹妹", voice: "妹妹" }], answer: 1 },
+      { question: "请选择'爷爷'", options: [{ type: "img", content: "👩", word: "妈妈", voice: "妈妈" },{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" },{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" }], answer: 1 },
+      { question: "请选择'奶奶'", options: [{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" },{ type: "img", content: "👩", word: "妈妈", voice: "妈妈" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" }], answer: 3 },
+      { question: "请选择'宝宝'", options: [{ type: "img", content: "👶", word: "宝宝", voice: "宝宝" },{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" },{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" }], answer: 0 }
+    ]
+  },
+  kindergarten: {
+    id: 'kindergarten',
+    title: '幼儿园生活',
+    icon: 'fas fa-school',
+    description: '幼儿园生活认知',
+    color: '#00a8ff',
+    questions: [
+      { question: "请选择'老师'", options: [{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👷", word: "工人", voice: "工人" }], answer: 0 },
+      { question: "请选择'同学'", options: [{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👧👦", word: "同学", voice: "同学" },{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" }], answer: 1 },
+      { question: "请选择'教室'", options: [{ type: "img", content: "🏠", word: "家", voice: "家" },{ type: "img", content: "🏫", word: "教室", voice: "教室" },{ type: "img", content: "🏥", word: "医院", voice: "医院" },{ type: "img", content: "🏬", word: "商场", voice: "商场" }], answer: 1 },
+      { question: "请选择'滑梯'", options: [{ type: "img", content: "🛝", word: "滑梯", voice: "滑梯" },{ type: "img", content: "🪑", word: "椅子", voice: "椅子" },{ type: "img", content: "📚", word: "书本", voice: "书本" },{ type: "img", content: "🍽️", word: "碗筷", voice: "碗筷" }], answer: 0 },
+      { question: "请选择'做游戏'", options: [{ type: "img", content: "🎮", word: "游戏", voice: "游戏" },{ type: "img", content: "📝", word: "写字", voice: "写字" },{ type: "img", content: "🍽️", word: "吃饭", voice: "吃饭" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" }], answer: 0 }
+    ]
+  },
+  community: {
+    id: 'community',
+    title: '社区认知',
+    icon: 'fas fa-map-marker-alt',
+    description: '社区场所认知',
+    color: '#00d2d3',
+    questions: [
+      { question: "请选择'超市'", options: [{ type: "img", content: "🏪", word: "超市", voice: "超市" },{ type: "img", content: "🏥", word: "医院", voice: "医院" },{ type: "img", content: "🏫", word: "学校", voice: "学校" },{ type: "img", content: "🏦", word: "银行", voice: "银行" }], answer: 0 },
+      { question: "请选择'医院'", options: [{ type: "img", content: "🏪", word: "超市", voice: "超市" },{ type: "img", content: "🏥", word: "医院", voice: "医院" },{ type: "img", content: "🏬", word: "商场", voice: "商场" },{ type: "img", content: "🏡", word: "家", voice: "家" }], answer: 1 },
+      { question: "请选择'公园'", options: [{ type: "img", content: "🏞️", word: "公园", voice: "公园" },{ type: "img", content: "🏥", word: "医院", voice: "医院" },{ type: "img", content: "🏪", word: "超市", voice: "超市" },{ type: "img", content: "🏫", word: "学校", voice: "学校" }], answer: 0 },
+      { question: "请选择'警察'", options: [{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👷", word: "工人", voice: "工人" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" }], answer: 1 },
+      { question: "请选择'消防员'", options: [{ type: "img", content: "👨‍🚒", word: "消防员", voice: "消防员" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" },{ type: "img", content: "👷", word: "工人", voice: "工人" }], answer: 0 }
+    ]
+  },
+  country: {
+    id: 'country',
+    title: '国家与民族',
+    icon: 'fas fa-flag',
+    description: '国家民族认知',
+    color: '#e84118',
+    questions: [
+      { question: "请选择'国旗'", options: [{ type: "img", content: "🇨🇳", word: "国旗", voice: "国旗" },{ type: "img", content: "🏳️", word: "白旗", voice: "白旗" },{ type: "img", content: "🏴", word: "黑旗", voice: "黑旗" },{ type: "img", content: "🏁", word: "赛车旗", voice: "赛车旗" }], answer: 0 },
+      { question: "请选择'北京'", options: [{ type: "img", content: "🗼", word: "北京", voice: "北京" },{ type: "img", content: "🗽", word: "纽约", voice: "纽约" },{ type: "img", content: "🏯", word: "东京", voice: "东京" },{ type: "img", content: "🏰", word: "伦敦", voice: "伦敦" }], answer: 0 },
+      { question: "请选择'唐装'", options: [{ type: "img", content: "👘", word: "和服", voice: "和服" },{ type: "img", content: "👗", word: "裙子", voice: "裙子" },{ type: "img", content: "👕", word: "T恤", voice: "T恤" },{ type: "img", content: "🧧", word: "唐装", voice: "唐装" }], answer: 3 },
+      { question: "请选择'中国'", options: [{ type: "img", content: "🇨🇳", word: "中国", voice: "中国" },{ type: "img", content: "🇺🇸", word: "美国", voice: "美国" },{ type: "img", content: "🇯🇵", word: "日本", voice: "日本" },{ type: "img", content: "🇬🇧", word: "英国", voice: "英国" }], answer: 0 },
+      { question: "请选择'长城'", options: [{ type: "img", content: "🏯", word: "长城", voice: "长城" },{ type: "img", content: "🗼", word: "铁塔", voice: "铁塔" },{ type: "img", content: "🗽", word: "自由女神", voice: "自由女神" },{ type: "img", content: "🏰", word: "城堡", voice: "城堡" }], answer: 0 }
+    ]
+  },
+  polite: {
+    id: 'polite',
+    title: '礼貌用语',
+    icon: 'fas fa-comments',
+    description: '文明礼貌用语',
+    color: '#ffda79',
+    questions: [
+      { question: "请选择'谢谢'", options: [{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "🙇", word: "对不起", voice: "对不起" },{ type: "img", content: "🙋", word: "请问", voice: "请问" },{ type: "img", content: "👋", word: "再见", voice: "再见" }], answer: 0 },
+      { question: "请选择'对不起'", options: [{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "🙇", word: "对不起", voice: "对不起" },{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "👋", word: "再见", voice: "再见" }], answer: 1 },
+      { question: "请选择'请'", options: [{ type: "img", content: "🙏", word: "请", voice: "请" },{ type: "img", content: "🙇", word: "对不起", voice: "对不起" },{ type: "img", content: "👋", word: "再见", voice: "再见" },{ type: "img", content: "😊", word: "开心", voice: "开心" }], answer: 0 },
+      { question: "请选择'打扰了'", options: [{ type: "img", content: "🤫", word: "安静", voice: "安静" },{ type: "img", content: "🙋", word: "打扰了", voice: "打扰了" },{ type: "img", content: "🏃", word: "奔跑", voice: "奔跑" },{ type: "img", content: "🤸", word: "跳跃", voice: "跳跃" }], answer: 1 },
+      { question: "请选择'没关系'", options: [{ type: "img", content: "🙇", word: "对不起", voice: "对不起" },{ type: "img", content: "🙂", word: "没关系", voice: "没关系" },{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "👋", word: "再见", voice: "再见" }], answer: 1 }
+    ]
+  },
+  insect: {
+    id: 'insect',
+    title: '昆虫世界',
+    icon: 'fas fa-bug',
+    description: '常见昆虫认知',
+    color: '#27ae60',
+    questions: [
+      { question: "请选择'蝴蝶'", options: [{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" },{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" },{ type: "img", content: "🐝", word: "蜜蜂", voice: "蜜蜂" },{ type: "img", content: "🐞", word: "瓢虫", voice: "瓢虫" }], answer: 0 },
+      { question: "请选择'蚂蚁'", options: [{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" },{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" },{ type: "img", content: "🐌", word: "蜗牛", voice: "蜗牛" },{ type: "img", content: "🕷️", word: "蜘蛛", voice: "蜘蛛" }], answer: 1 },
+      { question: "请选择'蜜蜂'", options: [{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" },{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" },{ type: "img", content: "🐝", word: "蜜蜂", voice: "蜜蜂" },{ type: "img", content: "🐞", word: "瓢虫", voice: "瓢虫" }], answer: 2 },
+      { question: "请选择'瓢虫'", options: [{ type: "img", content: "🐝", word: "蜜蜂", voice: "蜜蜂" },{ type: "img", content: "🐞", word: "瓢虫", voice: "瓢虫" },{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" },{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" }], answer: 1 },
+      { question: "请选择'蜻蜓'", options: [{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" },{ type: "img", content: "🐝", word: "蜜蜂", voice: "蜜蜂" },{ type: "img", content: "🪰", word: "蜻蜓", voice: "蜻蜓" },{ type: "img", content: "🐌", word: "蜗牛", voice: "蜗牛" }], answer: 2 }
+    ]
+  },
+  ocean: {
+    id: 'ocean',
+    title: '海洋生物',
+    icon: 'fas fa-fish',
+    description: '海洋动物认知',
+    color: '#0984e3',
+    questions: [
+      { question: "请选择'小鱼'", options: [{ type: "img", content: "🐠", word: "小鱼", voice: "小鱼" },{ type: "img", content: "🐬", word: "海豚", voice: "海豚" },{ type: "img", content: "⭐", word: "海星", voice: "海星" },{ type: "img", content: "🦀", word: "螃蟹", voice: "螃蟹" }], answer: 0 },
+      { question: "请选择'海豚'", options: [{ type: "img", content: "🐠", word: "小鱼", voice: "小鱼" },{ type: "img", content: "🐬", word: "海豚", voice: "海豚" },{ type: "img", content: "🦈", word: "鲨鱼", voice: "鲨鱼" },{ type: "img", content: "🐢", word: "海龟", voice: "海龟" }], answer: 1 },
+      { question: "请选择'海星'", options: [{ type: "img", content: "⭐", word: "海星", voice: "海星" },{ type: "img", content: "🦀", word: "螃蟹", voice: "螃蟹" },{ type: "img", content: "🐬", word: "海豚", voice: "海豚" },{ type: "img", content: "🐠", word: "小鱼", voice: "小鱼" }], answer: 0 },
+      { question: "请选择'螃蟹'", options: [{ type: "img", content: "⭐", word: "海星", voice: "海星" },{ type: "img", content: "🐢", word: "海龟", voice: "海龟" },{ type: "img", content: "🦀", word: "螃蟹", voice: "螃蟹" },{ type: "img", content: "🦈", word: "鲨鱼", voice: "鲨鱼" }], answer: 2 },
+      { question: "请选择'海龟'", options: [{ type: "img", content: "🐢", word: "海龟", voice: "海龟" },{ type: "img", content: "🦀", word: "螃蟹", voice: "螃蟹" },{ type: "img", content: "⭐", word: "海星", voice: "海星" },{ type: "img", content: "🐠", word: "小鱼", voice: "小鱼" }], answer: 0 }
+    ]
+  },
+  astronomy: {
+    id: 'astronomy',
+    title: '天文认知',
+    icon: 'fas fa-moon',
+    description: '天文现象认知',
+    color: '#6c5ce7',
+    questions: [
+      { question: "请选择'太阳'", options: [{ type: "img", content: "☀️", word: "太阳", voice: "太阳" },{ type: "img", content: "🌙", word: "月亮", voice: "月亮" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 0 },
+      { question: "请选择'月亮'", options: [{ type: "img", content: "☀️", word: "太阳", voice: "太阳" },{ type: "img", content: "🌙", word: "月亮", voice: "月亮" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 1 },
+      { question: "请选择'星星'", options: [{ type: "img", content: "🌙", word: "月亮", voice: "月亮" },{ type: "img", content: "☀️", word: "太阳", voice: "太阳" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 2 },
+      { question: "请选择'白天'", options: [{ type: "img", content: "☀️", word: "白天", voice: "白天" },{ type: "img", content: "🌙", word: "晚上", voice: "晚上" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 0 },
+      { question: "请选择'晚上'", options: [{ type: "img", content: "☀️", word: "白天", voice: "白天" },{ type: "img", content: "🌙", word: "晚上", voice: "晚上" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 1 }
+    ]
+  },
+  science: {
+    id: 'science',
+    title: '小小科学家',
+    icon: 'fas fa-flask',
+    description: '科学小常识认知',
+    color: '#00cec9',
+    questions: [
+      { question: "请选择'水'", options: [{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "💨", word: "空气", voice: "空气" },{ type: "img", content: "👤", word: "影子", voice: "影子" }], answer: 0 },
+      { question: "请选择'火'", options: [{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "💨", word: "空气", voice: "空气" },{ type: "img", content: "👤", word: "影子", voice: "影子" }], answer: 1 },
+      { question: "请选择'影子'", options: [{ type: "img", content: "👤", word: "影子", voice: "影子" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "💨", word: "空气", voice: "空气" }], answer: 0 },
+      { question: "请选择'沉'", options: [{ type: "img", content: "⬇️", word: "沉", voice: "沉" },{ type: "img", content: "⬆️", word: "浮", voice: "浮" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 0 },
+      { question: "请选择'浮'", options: [{ type: "img", content: "⬇️", word: "沉", voice: "沉" },{ type: "img", content: "⬆️", word: "浮", voice: "浮" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 1 }
+    ]
+  },
+  instrument: {
+    id: 'instrument',
+    title: '音乐乐器',
+    icon: 'fas fa-music',
+    description: '乐器认知',
+    color: '#fd79a8',
+    questions: [
+      { question: "请选择'小鼓'", options: [{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" },{ type: "img", content: "🎸", word: "吉他", voice: "吉他" },{ type: "img", content: "🎺", word: "喇叭", voice: "喇叭" }], answer: 0 },
+      { question: "请选择'钢琴'", options: [{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" },{ type: "img", content: "🎸", word: "吉他", voice: "吉他" },{ type: "img", content: "🎺", word: "喇叭", voice: "喇叭" }], answer: 1 },
+      { question: "请选择'吉他'", options: [{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" },{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🎸", word: "吉他", voice: "吉他" },{ type: "img", content: "🎺", word: "喇叭", voice: "喇叭" }], answer: 2 },
+      { question: "请选择'铃铛'", options: [{ type: "img", content: "🔔", word: "铃铛", voice: "铃铛" },{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" },{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🎸", word: "吉他", voice: "吉他" }], answer: 0 },
+      { question: "请选择'沙锤'", options: [{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🔔", word: "铃铛", voice: "铃铛" },{ type: "img", content: "🪇", word: "沙锤", voice: "沙锤" },{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" }], answer: 2 }
+    ]
+  },
+  art: {
+    id: 'art',
+    title: '美术色彩',
+    icon: 'fas fa-paint-brush',
+    description: '美术材料认知',
+    color: '#ff9f1a',
+    questions: [
+      { question: "请选择'画笔'", options: [{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 0 },
+      { question: "请选择'颜料'", options: [{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 1 },
+      { question: "请选择'彩纸'", options: [{ type: "img", content: "📄", word: "彩纸", voice: "彩纸" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" }], answer: 0 },
+      { question: "请选择'黏土'", options: [{ type: "img", content: "🧱", word: "黏土", voice: "黏土" },{ type: "img", content: "📄", word: "彩纸", voice: "彩纸" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" }], answer: 0 },
+      { question: "请选择'手工'", options: [{ type: "img", content: "✂️📄", word: "手工", voice: "手工" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 0 }
+    ]
+  },
+  dance: {
+    id: 'dance',
+    title: '舞蹈律动',
+    icon: 'fas fa-walking',
+    description: '舞蹈动作认知',
+    color: '#ff6b6b',
+    questions: [
+      { question: "请选择'跳舞'", options: [{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🚶", word: "走路", voice: "走路" },{ type: "img", content: "🤸", word: "跳跃", voice: "跳跃" }], answer: 0 },
+      { question: "请选择'律动'", options: [{ type: "img", content: "🎵", word: "律动", voice: "律动" },{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🚶", word: "走路", voice: "走路" }], answer: 0 },
+      { question: "请选择'拍手'", options: [{ type: "img", content: "👏", word: "拍手", voice: "拍手" },{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" },{ type: "img", content: "🎵", word: "律动", voice: "律动" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" }], answer: 0 },
+      { question: "请选择'转圈'", options: [{ type: "img", content: "🔄", word: "转圈", voice: "转圈" },{ type: "img", content: "👏", word: "拍手", voice: "拍手" },{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" },{ type: "img", content: "🎵", word: "律动", voice: "律动" }], answer: 0 },
+      { question: "请选择'儿歌'", options: [{ type: "img", content: "🎶", word: "儿歌", voice: "儿歌" },{ type: "img", content: "🔄", word: "转圈", voice: "转圈" },{ type: "img", content: "👏", word: "拍手", voice: "拍手" },{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" }], answer: 0 }
+    ]
+  },
+  sports: {
+    id: 'sports',
+    title: '体育游戏',
+    icon: 'fas fa-football-ball',
+    description: '体育活动认知',
+    color: '#2ed573',
+    questions: [
+      { question: "请选择'跑步'", options: [{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🤾", word: "跳跃", voice: "跳跃" },{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" }], answer: 0 },
+      { question: "请选择'跳跃'", options: [{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🤾", word: "跳跃", voice: "跳跃" },{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" }], answer: 1 },
+      { question: "请选择'足球'", options: [{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🤾", word: "跳跃", voice: "跳跃" }], answer: 0 },
+      { question: "请选择'篮球'", options: [{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🤾", word: "跳跃", voice: "跳跃" }], answer: 1 },
+      { question: "请选择'平衡'", options: [{ type: "img", content: "⚖️", word: "平衡", voice: "平衡" },{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" }], answer: 0 }
+    ]
+  },
+  paperfold: {
+    id: 'paperfold',
+    title: '手工折纸',
+    icon: 'fas fa-paper-plane',
+    description: '手工折纸认知',
+    color: '#ff7979',
+    questions: [
+      { question: "请选择'折纸'", options: [{ type: "img", content: "📝", word: "折纸", voice: "折纸" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" }], answer: 0 },
+      { question: "请选择'纸飞机'", options: [{ type: "img", content: "✈️", word: "纸飞机", voice: "纸飞机" },{ type: "img", content: "📝", word: "折纸", voice: "折纸" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" }], answer: 0 },
+      { question: "请选择'小船'", options: [{ type: "img", content: "🚢", word: "小船", voice: "小船" },{ type: "img", content: "✈️", word: "纸飞机", voice: "纸飞机" },{ type: "img", content: "📝", word: "折纸", voice: "折纸" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" }], answer: 0 },
+      { question: "请选择'青蛙'", options: [{ type: "img", content: "🐸", word: "青蛙", voice: "青蛙" },{ type: "img", content: "🚢", word: "小船", voice: "小船" },{ type: "img", content: "✈️", word: "纸飞机", voice: "纸飞机" },{ type: "img", content: "📝", word: "折纸", voice: "折纸" }], answer: 0 },
+      { question: "请选择'花朵'", options: [{ type: "img", content: "🌸", word: "花朵", voice: "花朵" },{ type: "img", content: "🐸", word: "青蛙", voice: "青蛙" },{ type: "img", content: "🚢", word: "小船", voice: "小船" },{ type: "img", content: "✈️", word: "纸飞机", voice: "纸飞机" }], answer: 0 }
+    ]
+  },
+  rhyme: {
+    id: 'rhyme',
+    title: '儿歌童谣',
+    icon: 'fas fa-microphone',
+    description: '儿歌童谣学习',
+    color: '#ff6b9d',
+    questions: [
+      { question: "请选择'小星星'", options: [{ type: "img", content: "⭐", word: "小星星", voice: "小星星" },{ type: "img", content: "🐦", word: "小燕子", voice: "小燕子" },{ type: "img", content: "🐺", word: "大灰狼", voice: "大灰狼" },{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" }], answer: 0 },
+      { question: "请选择'小燕子'", options: [{ type: "img", content: "⭐", word: "小星星", voice: "小星星" },{ type: "img", content: "🐦", word: "小燕子", voice: "小燕子" },{ type: "img", content: "🐺", word: "大灰狼", voice: "大灰狼" },{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" }], answer: 1 },
+      { question: "请选择'小兔子'", options: [{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" },{ type: "img", content: "⭐", word: "小星星", voice: "小星星" },{ type: "img", content: "🐦", word: "小燕子", voice: "小燕子" },{ type: "img", content: "🐺", word: "大灰狼", voice: "大灰狼" }], answer: 0 },
+      { question: "请选择'两只老虎'", options: [{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" },{ type: "img", content: "⭐", word: "小星星", voice: "小星星" },{ type: "img", content: "🐦", word: "小燕子", voice: "小燕子" }], answer: 0 },
+      { question: "请选择'数鸭子'", options: [{ type: "img", content: "🦆", word: "鸭子", voice: "鸭子" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" },{ type: "img", content: "⭐", word: "小星星", voice: "小星星" }], answer: 0 }
+    ]
+  },
+  riddle: {
+    id: 'riddle',
+    title: '谜语乐园',
+    icon: 'fas fa-lightbulb',
+    description: '幼儿谜语学习',
+    color: '#f9ca24',
+    questions: [
+      { question: "请选择'耳朵长'", options: [{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐹", word: "老虎", voice: "老虎" }], answer: 0 },
+      { question: "请选择'红眼睛'", options: [{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐹", word: "老虎", voice: "老虎" }], answer: 0 },
+      { question: "请选择'喵喵叫'", options: [{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐹", word: "老虎", voice: "老虎" }], answer: 0 },
+      { question: "请选择'汪汪叫'", options: [{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐹", word: "老虎", voice: "老虎" }], answer: 0 },
+      { question: "请选择'圆又圆'", options: [{ type: "img", content: "🍎", word: "苹果", voice: "苹果" },{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 0 }
+    ]
+  },
+  story: {
+    id: 'story',
+    title: '故事绘本',
+    icon: 'fas fa-book-open',
+    description: '故事绘本认知',
+    color: '#6c5ce7',
+    questions: [
+      { question: "请选择'故事书'", options: [{ type: "img", content: "📖", word: "故事书", voice: "故事书" },{ type: "img", content: "📝", word: "本子", voice: "本子" },{ type: "img", content: "✏️", word: "铅笔", voice: "铅笔" },{ type: "img", content: "🎒", word: "书包", voice: "书包" }], answer: 0 },
+      { question: "请选择'讲故事'", options: [{ type: "img", content: "👄", word: "讲故事", voice: "讲故事" },{ type: "img", content: "📖", word: "故事书", voice: "故事书" },{ type: "img", content: "📝", word: "本子", voice: "本子" },{ type: "img", content: "✏️", word: "铅笔", voice: "铅笔" }], answer: 0 },
+      { question: "请选择'三只小猪'", options: [{ type: "img", content: "🐷", word: "小猪", voice: "小猪" },{ type: "img", content: "👄", word: "讲故事", voice: "讲故事" },{ type: "img", content: "📖", word: "故事书", voice: "故事书" },{ type: "img", content: "📝", word: "本子", voice: "本子" }], answer: 0 },
+      { question: "请选择'小红帽'", options: [{ type: "img", content: "🧺", word: "小红帽", voice: "小红帽" },{ type: "img", content: "🐷", word: "小猪", voice: "小猪" },{ type: "img", content: "👄", word: "讲故事", voice: "讲故事" },{ type: "img", content: "📖", word: "故事书", voice: "故事书" }], answer: 0 },
+      { question: "请选择'龟兔赛跑'", options: [{ type: "img", content: "🐢🐰", word: "龟兔", voice: "龟兔" },{ type: "img", content: "🧺", word: "小红帽", voice: "小红帽" },{ type: "img", content: "🐷", word: "小猪", voice: "小猪" },{ type: "img", content: "👄", word: "讲故事", voice: "讲故事" }], answer: 0 }
+    ]
+  },
+  opposite: {
+    id: 'opposite',
+    title: '反义词认知',
+    icon: 'fas fa-exchange-alt',
+    description: '反义词学习',
+    color: '#00b894',
+    questions: [
+      { question: "请选择'大'", options: [{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" },{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" }], answer: 0 },
+      { question: "请选择'小'", options: [{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" },{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" }], answer: 1 },
+      { question: "请选择'高'", options: [{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" },{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" }], answer: 0 },
+      { question: "请选择'矮'", options: [{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" },{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" }], answer: 1 },
+      { question: "请选择'多'", options: [{ type: "img", content: "🍬🍬🍬", word: "多", voice: "多" },{ type: "img", content: "🍬", word: "少", voice: "少" },{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" }], answer: 0 }
+    ]
+  },
+  position: {
+    id: 'position',
+    title: '方位认知',
+    icon: 'fas fa-compass',
+    description: '方位方向认知',
+    color: '#ff7675',
+    questions: [
+      { question: "请选择'上面'", options: [{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" },{ type: "img", content: "➡️", word: "右边", voice: "右边" }], answer: 0 },
+      { question: "请选择'下面'", options: [{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" },{ type: "img", content: "➡️", word: "右边", voice: "右边" }], answer: 1 },
+      { question: "请选择'左边'", options: [{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" },{ type: "img", content: "➡️", word: "右边", voice: "右边" }], answer: 2 },
+      { question: "请选择'右边'", options: [{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" },{ type: "img", content: "➡️", word: "右边", voice: "右边" }], answer: 3 },
+      { question: "请选择'里面'", options: [{ type: "img", content: "📦", word: "里面", voice: "里面" },{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" }], answer: 0 }
+    ]
+  },
+  time: {
+    id: 'time',
+    title: '时间认知',
+    icon: 'fas fa-clock',
+    description: '时间概念认知',
+    color: '#74b9ff',
+    questions: [
+      { question: "请选择'今天'", options: [{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" },{ type: "img", content: "📆", word: "昨天", voice: "昨天" },{ type: "img", content: "🕰️", word: "时钟", voice: "时钟" }], answer: 0 },
+      { question: "请选择'明天'", options: [{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" },{ type: "img", content: "📆", word: "昨天", voice: "昨天" },{ type: "img", content: "🕰️", word: "时钟", voice: "时钟" }], answer: 1 },
+      { question: "请选择'昨天'", options: [{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" },{ type: "img", content: "📆", word: "昨天", voice: "昨天" },{ type: "img", content: "🕰️", word: "时钟", voice: "时钟" }], answer: 2 },
+      { question: "请选择'星期一'", options: [{ type: "img", content: "1️⃣", word: "周一", voice: "周一" },{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" },{ type: "img", content: "📆", word: "昨天", voice: "昨天" }], answer: 0 },
+      { question: "请选择'时钟'", options: [{ type: "img", content: "🕰️", word: "时钟", voice: "时钟" },{ type: "img", content: "1️⃣", word: "周一", voice: "周一" },{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" }], answer: 0 }
+    ]
+  },
+  compare: {
+    id: 'compare',
+    title: '对比认知',
+    icon: 'fas fa-balance-scale',
+    description: '对比概念认知',
+    color: '#a29bfe',
+    questions: [
+      { question: "请选择'长'", options: [{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" },{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" }], answer: 0 },
+      { question: "请选择'短'", options: [{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" },{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" }], answer: 1 },
+      { question: "请选择'高'", options: [{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" },{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" }], answer: 0 },
+      { question: "请选择'矮'", options: [{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" },{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" }], answer: 1 },
+      { question: "请选择'多少'", options: [{ type: "img", content: "🍬🍬🍬", word: "多", voice: "多" },{ type: "img", content: "🍬", word: "少", voice: "少" },{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" }], answer: 0 }
+    ]
+  },
+  zodiac: {
+    id: 'zodiac',
+    title: '十二生肖',
+    icon: 'fas fa-dragon',
+    description: '十二生肖认知',
+    color: '#e84118',
+    questions: [
+      { question: "请选择'老鼠'", options: [{ type: "img", content: "🐭", word: "老鼠", voice: "老鼠" },{ type: "img", content: "🐮", word: "牛", voice: "牛" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 0 },
+      { question: "请选择'牛'", options: [{ type: "img", content: "🐭", word: "老鼠", voice: "老鼠" },{ type: "img", content: "🐮", word: "牛", voice: "牛" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 1 },
+      { question: "请选择'老虎'", options: [{ type: "img", content: "🐭", word: "老鼠", voice: "老鼠" },{ type: "img", content: "🐮", word: "牛", voice: "牛" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 2 },
+      { question: "请选择'兔子'", options: [{ type: "img", content: "🐭", word: "老鼠", voice: "老鼠" },{ type: "img", content: "🐮", word: "牛", voice: "牛" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 3 },
+      { question: "请选择'龙'", options: [{ type: "img", content: "🐉", word: "龙", voice: "龙" },{ type: "img", content: "🐍", word: "蛇", voice: "蛇" },{ type: "img", content: "🐎", word: "马", voice: "马" },{ type: "img", content: "🐑", word: "羊", voice: "羊" }], answer: 0 }
+    ]
+  },
+  toy: {
+    id: 'toy',
+    title: '传统玩具',
+    icon: 'fas fa-gamepad',
+    description: '传统玩具认知',
+    color: '#ff9ff3',
+    questions: [
+      { question: "请选择'陀螺'", options: [{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 0 },
+      { question: "请选择'风筝'", options: [{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 1 },
+      { question: "请选择'毽子'", options: [{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 2 },
+      { question: "请选择'风筝'", options: [{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 0 },
+      { question: "请选择'拨浪鼓'", options: [{ type: "img", content: "🥁", word: "拨浪鼓", voice: "拨浪鼓" },{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" }], answer: 0 }
+    ]
+  },
+  foodculture: {
+    id: 'foodculture',
+    title: '美食文化',
+    icon: 'fas fa-utensils',
+    description: '传统美食认知',
+    color: '#ff6b6b',
+    questions: [
+      { question: "请选择'饺子'", options: [{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" },{ type: "img", content: "🥮", word: "月饼", voice: "月饼" },{ type: "img", content: "🍜", word: "面条", voice: "面条" }], answer: 0 },
+      { question: "请选择'粽子'", options: [{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" },{ type: "img", content: "🥮", word: "月饼", voice: "月饼" },{ type: "img", content: "🍜", word: "面条", voice: "面条" }], answer: 1 },
+      { question: "请选择'月饼'", options: [{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" },{ type: "img", content: "🥮", word: "月饼", voice: "月饼" },{ type: "img", content: "🍜", word: "面条", voice: "面条" }], answer: 2 },
+      { question: "请选择'汤圆'", options: [{ type: "img", content: "🍡", word: "汤圆", voice: "汤圆" },{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" },{ type: "img", content: "🥮", word: "月饼", voice: "月饼" }], answer: 0 },
+      { question: "请选择'面条'", options: [{ type: "img", content: "🍜", word: "面条", voice: "面条" },{ type: "img", content: "🍡", word: "汤圆", voice: "汤圆" },{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" }], answer: 0 }
+    ]
+  },
+  environmental: {
+    id: 'environmental',
+    title: '环保认知',
+    icon: 'fas fa-recycle',
+    description: '环保知识学习',
+    color: '#00b894',
+    questions: [
+      { question: "请选择'垃圾分类'", options: [{ type: "img", content: "♻️", word: "分类", voice: "分类" },{ type: "img", content: "🌳", word: "树木", voice: "树木" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌍", word: "地球", voice: "地球" }], answer: 0 },
+      { question: "请选择'爱护花草'", options: [{ type: "img", content: "🌸", word: "花草", voice: "花草" },{ type: "img", content: "♻️", word: "分类", voice: "分类" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌍", word: "地球", voice: "地球" }], answer: 0 },
+      { question: "请选择'节约用水'", options: [{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌸", word: "花草", voice: "花草" },{ type: "img", content: "♻️", word: "分类", voice: "分类" },{ type: "img", content: "🌍", word: "地球", voice: "地球" }], answer: 0 },
+      { question: "请选择'爱护地球'", options: [{ type: "img", content: "🌍", word: "地球", voice: "地球" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌸", word: "花草", voice: "花草" },{ type: "img", content: "♻️", word: "分类", voice: "分类" }], answer: 0 },
+      { question: "请选择'不乱扔垃圾'", options: [{ type: "img", content: "🚯", word: "禁止乱扔", voice: "禁止乱扔" },{ type: "img", content: "🌍", word: "地球", voice: "地球" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌸", word: "花草", voice: "花草" }], answer: 0 }
+    ]
+  },
+            
+
         };
 
         const speechController = {
-            synth: window.speechSynthesis,
+            synth: window.speechSynthesis || null,
             enabled: true,
             voiceType: 'child',
+            xiaoxiaoVoice: null,
+
+            initVoice() {
+                if (!this.synth) return;
+                try {
+                    const voices = this.synth.getVoices();
+                    this.xiaoxiaoVoice = voices.find(voice => 
+                        voice.name.includes('晓晓') || voice.name.includes('Xiaoxiao') || 
+                        voice.name.includes('Microsoft Xiaoxiao') || voice.name.includes('晓晓 - 中文(中国)')
+                    );
+                } catch (e) {}
+            },
             
             speak(text) {
-                if (!this.enabled || !this.synth) return false;
+                if (!this.enabled || !this.synth || !text) return false;
                 try {
                     this.stop();
                     const utterance = new SpeechSynthesisUtterance(text);
                     utterance.lang = 'zh-CN';
                     
-                    switch(this.voiceType) {
-                        case 'child': utterance.rate=0.9; utterance.pitch=1.5; break;
-                        case 'female': utterance.rate=0.95; utterance.pitch=1.2; break;
-                        case 'boy': utterance.rate=0.9; utterance.pitch=1.3; break;
-                        default: utterance.rate=0.9; utterance.pitch=1.2;
+                    if (this.xiaoxiaoVoice) {
+                        utterance.voice = this.xiaoxiaoVoice;
                     }
+                    
+                    utterance.rate = 0.9;
+                    utterance.pitch = 1.0;
+                    
                     setTimeout(() => {
-                        if(this.synth) this.synth.speak(utterance);
-                    }, 100);
+                        if(this.synth && !this.synth.speaking) {
+                            this.synth.speak(utterance);
+                        }
+                    }, 150);
                     return true;
-                } catch (e) { return false; }
+                } catch (e) { 
+                    return false; 
+                }
             },
             
-            stop() { if(this.synth) this.synth.cancel(); },
-            toggle() { this.enabled = !this.enabled; return this.enabled; },
-            setVoiceType(type) { this.voiceType = type; },
+            stop() { 
+                if(this.synth) {
+                    this.synth.cancel();
+                }
+            },
+            
+            toggle() { 
+                this.enabled = !this.enabled; 
+                return this.enabled; 
+            },
+            
+            setVoiceType(type) { 
+                this.voiceType = type; 
+            },
+            
             speakQuestionImmediately(text) {
                 if(this.enabled && text) {
                     this.stop();
-                    setTimeout(()=>this.speak(text),100);
+                    setTimeout(()=>this.speak(text), 150);
                 }
             }
         };
@@ -1561,8 +2262,8 @@
         }
 
         const STORAGE_KEY = 'preschoolLearningProgress';
+        const LAST_PLAYED_KEY = 'lastPlayedGame';
         
-        // ✅ 修复：全局记忆功能（所有主题独立保存进度）
         function getProgress() { 
             try {
                 const data = localStorage.getItem(STORAGE_KEY);
@@ -1582,6 +2283,7 @@
                     time: Date.now()
                 };
                 localStorage.setItem(STORAGE_KEY, JSON.stringify(allProgress));
+                localStorage.setItem(LAST_PLAYED_KEY, gameState.currentGameId);
                 updateProgress();
             }catch(e){}
         }
@@ -1603,7 +2305,7 @@
                     }
                 });
                 
-                const percent = (completedQuestions / totalQuestions) * 100;
+                const percent = totalQuestions > 0 ? (completedQuestions / totalQuestions) * 100 : 0;
                 DOM.progressText.textContent = `学习进度：${Math.round(percent)}%`;
                 DOM.progressBar.style.width = percent + '%';
                 DOM.startBtn.innerHTML = '<i class="fas fa-play"></i> 继续学习';
@@ -1623,11 +2325,27 @@
             speechController.stop();
         }
 
-        function startGame(gameId) {
+        function startGame(gameId = null) {
+            const allProgress = getProgress();
+            
+            if (!gameId) {
+                const lastGame = localStorage.getItem(LAST_PLAYED_KEY);
+                if (lastGame && LEARNING_CONTENT[lastGame]) {
+                    gameId = lastGame;
+                } else {
+                    const entries = Object.entries(allProgress);
+                    if (entries.length > 0) {
+                        entries.sort((a, b) => b[1].time - a[1].time);
+                        gameId = entries[0][0];
+                    } else {
+                        gameId = 'literacy';
+                    }
+                }
+            }
+
             const game = LEARNING_CONTENT[gameId];
             if(!game) return;
             
-            const allProgress = getProgress();
             const savedProgress = allProgress[gameId] || {};
             
             gameState = {
@@ -1655,7 +2373,6 @@
             const q = currentGame.questions[currentLevel];
             if(!q) return;
             
-            // ✅ 古诗专用样式
             if(currentGame.id === 'poem') {
                 DOM.questionText.className = 'question-text poem-question';
             } else {
@@ -1664,7 +2381,7 @@
             
             DOM.questionText.textContent = q.question;
             DOM.currentLevelEl.textContent = `第${currentLevel+1}关/共${total}关`;
-            DOM.progressBar.style.width = (currentLevel/total)*100+'%';
+            DOM.progressBar.style.width = total > 0 ? (currentLevel/total)*100+'%' : '0%';
             DOM.optionsContainer.innerHTML = '';
             gameState.answered = false;
             gameState.selectedOption = null;
@@ -1674,7 +2391,6 @@
                 const card = document.createElement('div');
                 card.className = 'option-card';
                 
-                // 古诗选项样式
                 const optionLabelClass = gameState.currentGame.id === 'poem' ? 'option-label poem-option' : 'option-label';
                 
                 card.innerHTML = opt.type==='img' 
@@ -1692,7 +2408,6 @@
                 DOM.optionsContainer.appendChild(card);
             });
 
-            // 古诗：朗读前三句，不读完整首
             setTimeout(()=>{
                 if(currentGame.id === 'poem' && q.speakText) {
                     speechController.speakQuestionImmediately(q.speakText);
@@ -1726,20 +2441,16 @@
             }
         }
 
-        // ✅ 修复：所有题目统一手动点击下一题，取消自动跳转
-        // ✅ 修复：古诗必须答对才能点下一题
         function nextQuestion() {
             if(!gameState.answered) {
                 checkAnswer();
                 return;
             }
 
-            // 古诗：必须答对才能进入下一题
             if(gameState.currentGame.id === 'poem') {
                 const q = gameState.currentGame.questions[gameState.currentLevel];
                 if(gameState.selectedOption !== q.answer) {
                     speechController.speak("请选择正确答案哦！");
-                    // 清除错误选择状态
                     gameState.selectedOption = null;
                     gameState.answered = false;
                     DOM.nextBtn.disabled = true;
@@ -1750,15 +2461,16 @@
                 }
             }
 
-            // 手动点击才切换下一题
             gameState.currentLevel++;
+            setProgress();
             loadQuestion();
         }
 
         function showResult() {
             const {score, total, currentGame} = gameState;
             if(!currentGame) return;
-            const percent = Math.round((score/(total*20))*100);
+            const maxScore = total * 20;
+            const percent = maxScore > 0 ? Math.round((score/maxScore)*100) : 0;
             const stars = Math.ceil(percent/20);
             
             DOM.finalScore.textContent = percent;
@@ -1767,10 +2479,11 @@
             
             showScreen('resultScreen');
             try {
-                // 完成后清除该主题进度
                 const allProgress = getProgress();
-                delete allProgress[currentGame.id];
-                localStorage.setItem(STORAGE_KEY, JSON.stringify(allProgress));
+                if (allProgress[currentGame.id]) {
+                    allProgress[currentGame.id].level = 0;
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(allProgress));
+                }
                 updateProgress();
             }catch(e){}
             setTimeout(()=>speechController.speak(`恭喜完成！得分${percent}分`),500);
@@ -1788,10 +2501,16 @@
         }
 
         function initEvents() {
+            speechController.initVoice();
+            if (window.speechSynthesis) {
+                window.speechSynthesis.onvoiceschanged = () => speechController.initVoice();
+            }
+
             if(DOM.soundToggle) {
                 DOM.soundToggle.onclick = ()=>{
                     const on = speechController.toggle();
                     DOM.soundToggle.querySelector('i').className = on?'fas fa-volume-up':'fas fa-volume-mute';
+                    DOM.soundToggle.classList.toggle('active', on);
                 };
             }
             
@@ -1800,11 +2519,10 @@
                     if(!gameState.currentGame) return;
                     const q=gameState.currentGame.questions[gameState.currentLevel];
                     if(q) {
-                        // 古诗再听一遍：只播放前三句
                         if(gameState.currentGame.id === 'poem' && q.speakText) {
                             speechController.speak(q.speakText);
                         } else {
-                            speechController.speak(q.options[q.answer].voice);
+                            speechController.speak(q.question);
                         }
                     }
                 };
@@ -1817,30 +2535,11 @@
             
             if(DOM.startBtn) {
                 DOM.startBtn.onclick = ()=>{
-                    const allProgress = getProgress();
-                    const hasProgress = Object.keys(allProgress).length > 0;
-                    
-                    if(hasProgress) {
-                        // 自动继续最近学习的主题
-                        const lastGameId = Object.keys(allProgress).sort((a,b)=>allProgress[b].time-allProgress[a].time)[0];
-                        if(lastGameId && LEARNING_CONTENT[lastGameId]){
-                            startGame(lastGameId);
-                            return;
-                        }
-                    } 
-                    // 无进度默认进入识字乐园
-                    startGame('literacy');
+                    startGame();
                 };
             }
             
-            DOM.voiceButtons.forEach(b=>{
-                b.onclick=()=>{
-                    DOM.voiceButtons.forEach(btn=>btn.classList.remove('active'));
-                    b.classList.add('active');
-                    speechController.setVoiceType(b.dataset.voice);
-                    speechController.speak("声音已切换");
-                };
-            });
+            DOM.voiceButtons.forEach(btn => btn.style.display = 'none');
         }
 
         document.addEventListener('DOMContentLoaded',()=>{
@@ -1848,7 +2547,6 @@
             initLevels();
             initEvents();
             
-            // ✅ 修复：首页欢迎语音（确保自动播放）
             setTimeout(()=>{
                 if (speechController.enabled) {
                     speechController.speak("欢迎来到快乐学习园地，请选择学习主题");

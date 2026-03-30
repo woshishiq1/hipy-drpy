@@ -40,6 +40,11 @@
     },
 
     {
+      "name": "飽和LIVE",
+      "url": "https://bitbucket.org/guot55/bhmb/raw/main/TVBoxOSC/bhzb.m3u"
+    },
+
+    {
       "name": "cat",
       "url": "https://raw.githubusercontent.com/fleung49/star/refs/heads/main/cat"
     },
@@ -94,6 +99,15 @@
 
     },
 
+  {
+      "name": "MQitv",
+      "api": "csp_MQiTV",
+      "ua": "okhttp",
+      "ext": "https://59.125.210.231:4433",
+      "jar":"https://github.com/alenin-zhang/IPTV/raw/refs/heads/main/chvyo2.txt",
+      "timeout": 30,
+      "playerType": 1
+        },
 
        {
             "name": "🦄地方直播 TG:@usfgrjk",
@@ -644,7 +658,7 @@
     {
       "name": "MQiTV",
       "api": "csp_MQiTV",
-      "jar": "https://github.com/LinWei630718/iptvtw/raw/refs/heads/main/jar/fmMQiTV.jar",
+      "jar": "https://5413.kstore.space/DM/jar/fm.jar",
       "ext": [
         {
           "name": "59",
@@ -789,6 +803,34 @@
  {
       "name": "💔MQitv源",
       "api": "csp_MQiTV",
+	  "jar": "https://5413.kstore.space/DM/jar/fm.jar",
+      "ext": [
+        {
+          "name": "59",
+          "url": "https://59.125.210.231:4433"
+        },
+        {
+          "name": "211.23.114.106",
+          "url": "http://211.23.114.106:1888"
+        },
+        {
+          "name": "220.134.196.147",
+          "url": "http://220.134.196.147:1888"
+        },
+        {
+          "name": "60.249.93.7:1888",
+          "url": "http://220.134.196.147:1888"
+        },
+        {
+          "name": "60",
+          "url": "https://60.248.127.232:4433"
+        }
+      ]
+    },
+
+ {
+      "name": "💔MQitv源2",
+      "api": "csp_MQiTV",
 	  "jar": "https://raw.githubusercontent.com/ffmking/tv1/refs/heads/main/mtv.jar",
       "ext": [
         {
@@ -813,6 +855,7 @@
         }
       ]
     },
+
 
 
  {

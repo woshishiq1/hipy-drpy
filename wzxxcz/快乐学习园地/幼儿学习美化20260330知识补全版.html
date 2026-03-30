@@ -1,0 +1,2338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>快乐学习园地 - 幼儿全能学习系统</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #5b4cdb;
+            --primary-light: #8c7df7;
+            --primary-dark: #4338ca;
+            --secondary: #10b981;
+            --secondary-light: #34d399;
+            --tertiary: #ef4444;
+            --tertiary-light: #f87171;
+            --accent: #f97316;
+            --accent-light: #fbbf24;
+            --bg-gradient: linear-gradient(135deg, #7c3aed 0%, #4f46e5 50%, #1d4ed8 100%);
+            --card-bg: rgba(255, 255, 255, 0.98);
+            --shadow-soft: 0 12px 40px rgba(31, 38, 135, 0.12);
+            --shadow-medium: 0 24px 70px rgba(0, 0, 0, 0.18);
+            --shadow-hard: 0 36px 90px rgba(0, 0, 0, 0.25);
+            --radius-small: 24px;
+            --radius-medium: 36px;
+            --radius-large: 50px;
+            --transition-fast: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-medium: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        html {
+            font-size: 62.5%;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: var(--bg-gradient);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: hidden;
+            padding: 24px;
+            color: #333;
+            line-height: 1.6;
+            background-attachment: fixed;
+        }
+        
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.35);
+            border-radius: 50%;
+            animation: floatParticle 22s infinite linear;
+        }
+        
+        @keyframes floatParticle {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            min-height: 88vh;
+            background: var(--card-bg);
+            border-radius: var(--radius-large);
+            box-shadow: var(--shadow-hard);
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            display: flex;
+            flex-direction: column;
+            transition: all var(--transition-medium);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            padding: 5rem 4rem 4rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.12) 0%, transparent 70%);
+            animation: rotate 25s linear infinite;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2.4rem;
+            margin-bottom: 2.4rem;
+        }
+        
+        .logo {
+            width: 9rem;
+            height: 9rem;
+            background: linear-gradient(135deg, var(--accent-light), var(--accent));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4.2rem;
+            color: white;
+            box-shadow: 0 12px 36px rgba(249, 115, 22, 0.35);
+            transform: rotate(-5deg);
+            animation: logoFloat 3.2s ease-in-out infinite;
+        }
+        
+        @keyframes logoFloat {
+            0%, 100% { transform: translateY(0) rotate(-5deg); }
+            50% { transform: translateY(-1.2rem) rotate(-5deg); }
+        }
+        
+        .title-container h1 {
+            font-size: 4.8rem;
+            color: white;
+            margin-bottom: 1.2rem;
+            font-weight: 700;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25);
+            letter-spacing: 1.2px;
+        }
+        
+        .title-container .subtitle {
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.95);
+            font-weight: 500;
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        .control-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2.4rem 3.6rem;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        
+        .control-group {
+            display: flex;
+            gap: 1.8rem;
+            align-items: center;
+        }
+        
+        .control-btn {
+            background: rgba(255, 255, 255, 0.95);
+            border: none;
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            color: var(--primary);
+            font-size: 2.2rem;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+        }
+        
+        .control-btn:hover {
+            transform: translateY(-3px) scale(1.12);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+            background: white;
+        }
+        
+        .control-btn:active {
+            transform: translateY(0) scale(0.96);
+        }
+        
+        .sound-btn.active {
+            background: var(--secondary);
+            color: white;
+        }
+        
+        .progress-info {
+            text-align: center;
+        }
+        
+        .progress-text {
+            font-size: 1.5rem;
+            color: white;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+        }
+        
+        .progress-bar-container {
+            width: 220px;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--secondary-light), var(--accent-light));
+            width: 0%;
+            transition: width var(--transition-medium);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .progress-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+            animation: shimmer 2.2s infinite;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding: 5rem 4rem;
+            position: relative;
+            min-height: 60vh;
+        }
+        
+        .screen {
+            width: 100%;
+            height: 100%;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            animation: screenEnter 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        @keyframes screenEnter {
+            from { opacity: 0; transform: translateY(24px) scale(0.98); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+        
+        .active {
+            display: flex;
+        }
+        
+        .welcome-container {
+            text-align: center;
+            max-width: 900px;
+            width: 100%;
+        }
+        
+        .welcome-title {
+            font-size: 4.5rem;
+            color: var(--primary);
+            margin-bottom: 2.4rem;
+            font-weight: 700;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .welcome-title::after {
+            content: '';
+            position: absolute;
+            bottom: -1.2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 5px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 3px;
+        }
+        
+        .welcome-text {
+            font-size: 2.2rem;
+            color: #555;
+            margin-bottom: 4.8rem;
+            line-height: 1.8;
+            padding: 0 2.4rem;
+        }
+        
+        .level-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 3.6rem;
+            width: 100%;
+            margin-bottom: 5rem;
+        }
+        
+        .level-card {
+            background: white;
+            border-radius: var(--radius-medium);
+            padding: 3.6rem 2.4rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all var(--transition-medium);
+            box-shadow: var(--shadow-soft);
+            border: 3px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .level-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+        }
+        
+        .level-card:hover {
+            transform: translateY(-12px) scale(1.06);
+            box-shadow: var(--shadow-medium);
+            border-color: var(--primary-light);
+        }
+        
+        .level-card:active {
+            transform: translateY(-6px) scale(1.03);
+        }
+        
+        .level-icon {
+            width: 9rem;
+            height: 9rem;
+            background: linear-gradient(135deg, var(--primary-light), var(--primary));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2.4rem;
+            font-size: 4rem;
+            color: white;
+            box-shadow: 0 12px 24px rgba(91, 76, 219, 0.25);
+        }
+        
+        .level-name {
+            font-size: 2.4rem;
+            color: var(--primary);
+            font-weight: 700;
+            margin-bottom: 1.2rem;
+        }
+        
+        .level-desc {
+            font-size: 1.7rem;
+            color: #777;
+            margin-bottom: 1.8rem;
+        }
+        
+        .level-stats {
+            display: flex;
+            justify-content: center;
+            gap: 1.2rem;
+            color: var(--accent);
+            font-size: 1.5rem;
+        }
+        
+        .start-button {
+            background: linear-gradient(135deg, var(--secondary), var(--secondary-light));
+            color: white;
+            border: none;
+            padding: 2rem 5rem;
+            font-size: 2.2rem;
+            font-weight: 700;
+            border-radius: 60px;
+            cursor: pointer;
+            transition: all var(--transition-medium);
+            box-shadow: 0 12px 36px rgba(16, 185, 129, 0.35);
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            margin: 0 auto;
+        }
+        
+        .start-button:hover {
+            transform: translateY(-4px) scale(1.06);
+            box-shadow: 0 18px 45px rgba(16, 185, 129, 0.45);
+        }
+        
+        .start-button:active {
+            transform: translateY(-1px) scale(1.02);
+        }
+        
+        .game-container {
+            width: 100%;
+            max-width: 950px;
+        }
+        
+        .game-header {
+            text-align: center;
+            margin-bottom: 4.8rem;
+        }
+        
+        .game-title {
+            font-size: 4rem;
+            color: var(--primary);
+            margin-bottom: 1.2rem;
+            font-weight: 700;
+        }
+        
+        .game-level {
+            font-size: 2rem;
+            color: var(--secondary);
+            font-weight: 600;
+        }
+        
+        .question-box {
+            background: white;
+            border-radius: var(--radius-medium);
+            padding: 4.8rem 3.6rem;
+            margin-bottom: 4.8rem;
+            box-shadow: var(--shadow-soft);
+            border: 3px solid rgba(91, 76, 219, 0.12);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .question-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, transparent, rgba(91, 76, 219, 0.03), transparent);
+            pointer-events: none;
+        }
+        
+        .question-text {
+            font-size: 3.2rem;
+            color: #222;
+            text-align: center;
+            line-height: 1.5;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+        
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 3rem;
+            width: 100%;
+        }
+        
+        .option-card {
+            background: white;
+            border-radius: var(--radius-medium);
+            padding: 3.6rem 2.4rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            box-shadow: var(--shadow-soft);
+            border: 3px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .option-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-medium);
+            border-color: var(--primary-light);
+        }
+        
+        .option-content {
+            font-size: 7rem;
+            margin-bottom: 2rem;
+        }
+        
+        .option-label {
+            font-size: 2.4rem;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .option-card.selected {
+            background: linear-gradient(135deg, var(--primary-light), var(--primary));
+            border-color: var(--primary);
+            color: white;
+        }
+        
+        .option-card.selected .option-label {
+            color: white;
+        }
+        
+        .option-card.correct {
+            background: linear-gradient(135deg, var(--secondary-light), var(--secondary));
+            border-color: var(--secondary);
+            color: white;
+            animation: celebrate 0.8s ease;
+        }
+        
+        .option-card.incorrect {
+            background: linear-gradient(135deg, var(--tertiary-light), var(--tertiary));
+            border-color: var(--tertiary);
+            color: white;
+            animation: shake 0.5s ease;
+        }
+        
+        @keyframes celebrate {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.12); }
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-12px); }
+            75% { transform: translateX(12px); }
+        }
+        
+        .game-controls {
+            display: flex;
+            justify-content: center;
+            gap: 2.4rem;
+            margin-top: 4.8rem;
+            flex-wrap: wrap;
+        }
+        
+        .game-btn {
+            padding: 1.8rem 4rem;
+            font-size: 2rem;
+            font-weight: 600;
+            border-radius: 60px;
+            border: none;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            min-width: 200px;
+            justify-content: center;
+        }
+        
+        .hint-btn {
+            background: linear-gradient(135deg, var(--accent-light), var(--accent));
+            color: white;
+            box-shadow: 0 10px 30px rgba(249, 115, 22, 0.35);
+        }
+        
+        .back-btn {
+            background: rgba(91, 76, 219, 0.12);
+            color: var(--primary);
+            border: 2px solid var(--primary-light);
+        }
+        
+        .next-btn {
+            background: linear-gradient(135deg, var(--secondary), var(--secondary-light));
+            color: white;
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.35);
+        }
+        
+        .game-btn:hover:not(:disabled) {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 36px rgba(0, 0, 0, 0.22);
+        }
+        
+        .game-btn:active:not(:disabled) {
+            transform: translateY(-1px);
+        }
+        
+        .game-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+        
+        .result-container {
+            text-align: center;
+            max-width: 650px;
+            width: 100%;
+        }
+        
+        .result-title {
+            font-size: 4.5rem;
+            color: var(--primary);
+            margin-bottom: 3.6rem;
+            font-weight: 700;
+        }
+        
+        .score-display {
+            font-size: 9rem;
+            font-weight: 700;
+            color: var(--secondary);
+            margin: 3.6rem 0;
+            text-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+            animation: scorePop 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        @keyframes scorePop {
+            0% { transform: scale(0.5); opacity: 0; }
+            70% { transform: scale(1.25); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        
+        .stars-container {
+            font-size: 4.5rem;
+            color: var(--accent-light);
+            margin: 3.6rem 0;
+            letter-spacing: 1.2rem;
+        }
+        
+        .feedback-text {
+            font-size: 2.4rem;
+            color: #555;
+            margin: 3.6rem 0;
+            line-height: 1.6;
+            padding: 2.4rem;
+            background: rgba(91, 76, 219, 0.08);
+            border-radius: var(--radius-medium);
+        }
+        
+        .result-controls {
+            display: flex;
+            gap: 2.4rem;
+            justify-content: center;
+            margin-top: 4.8rem;
+            flex-wrap: wrap;
+        }
+        
+        .restart-btn {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+        }
+        
+        .menu-btn {
+            background: linear-gradient(135deg, var(--secondary), var(--secondary-light));
+            color: white;
+        }
+        
+        .voice-controls {
+            display: flex;
+            gap: 1.2rem;
+            justify-content: center;
+            margin-top: 2.4rem;
+        }
+        
+        .voice-btn {
+            padding: 1.2rem 2.4rem;
+            background: white;
+            border: 2px solid var(--primary-light);
+            border-radius: 36px;
+            font-size: 1.7rem;
+            color: var(--primary);
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+        
+        .voice-btn:hover {
+            background: var(--primary-light);
+            color: white;
+        }
+        
+        .voice-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        .floating-shapes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .shape {
+            position: absolute;
+            background: rgba(91, 76, 219, 0.12);
+            border-radius: 50%;
+            animation: floatShape 22s infinite linear;
+        }
+        
+        .shape:nth-child(1) {
+            width: 120px;
+            height: 120px;
+            top: 10%;
+            left: 5%;
+            animation-delay: 0s;
+        }
+        
+        .shape:nth-child(2) {
+            width: 180px;
+            height: 180px;
+            top: 60%;
+            right: 5%;
+            animation-delay: 6s;
+        }
+        
+        .shape:nth-child(3) {
+            width: 100px;
+            height: 100px;
+            bottom: 20%;
+            left: 10%;
+            animation-delay: 12s;
+        }
+        
+        @keyframes floatShape {
+            0% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-24px) rotate(180deg); }
+            100% { transform: translateY(0) rotate(360deg); }
+        }
+        
+        @media (max-width: 768px) {
+            html { font-size: 55%; }
+            
+            .container {
+                min-height: 90vh;
+                border-radius: var(--radius-medium);
+            }
+            
+            .header {
+                padding: 4rem 3rem 3rem;
+            }
+            
+            .logo-container {
+                flex-direction: column;
+                gap: 1.8rem;
+            }
+            
+            .title-container h1 {
+                font-size: 3.6rem;
+            }
+            
+            .main-content {
+                padding: 4rem 3rem;
+            }
+            
+            .level-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                gap: 2.4rem;
+            }
+            
+            .question-box {
+                padding: 3.6rem 2.4rem;
+            }
+            
+            .question-text {
+                font-size: 2.6rem;
+            }
+            
+            .options-grid {
+                grid-template-columns: 1fr;
+                gap: 2.4rem;
+            }
+            
+            .game-controls, .result-controls {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .game-btn, .result-controls .game-btn {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            html { font-size: 50%; }
+            
+            body {
+                padding: 12px;
+            }
+            
+            .header {
+                padding: 3rem 2rem 2rem;
+            }
+            
+            .logo {
+                width: 7rem;
+                height: 7rem;
+                font-size: 3.2rem;
+            }
+            
+            .title-container h1 {
+                font-size: 3.2rem;
+            }
+            
+            .control-bar {
+                padding: 2rem;
+                flex-direction: column;
+                gap: 2rem;
+            }
+            
+            .level-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .score-display {
+                font-size: 7rem;
+            }
+            
+            .stars-container {
+                font-size: 3.5rem;
+                letter-spacing: 0.8rem;
+            }
+        }
+        
+        @media (hover: none) and (pointer: coarse) {
+            .level-card:hover,
+            .option-card:hover,
+            .game-btn:hover,
+            .control-btn:hover {
+                transform: none !important;
+            }
+            
+            .level-card:active,
+            .option-card:active,
+            .game-btn:active,
+            .control-btn:active {
+                transform: scale(0.96) !important;
+            }
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        .loading {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .loading::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.45), transparent);
+            animation: shimmer 1.5s infinite;
+        }
+
+        /* 高端UI美化增强 */
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .btn-glow {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-glow::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .btn-glow:hover::after {
+            opacity: 1;
+        }
+
+        /* 古诗专用美化样式 */
+        .poem-question {
+            font-family: 'Comic Neue', cursive;
+            line-height: 1.8 !important;
+            text-align: center !important;
+            white-space: pre-line;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(142, 68, 173, 0.05), rgba(142, 68, 173, 0.1));
+            border-radius: var(--radius-small);
+            border-left: 4px solid var(--primary);
+        }
+
+        .poem-option {
+            font-family: 'Comic Neue', cursive;
+            font-weight: 700;
+        }
+
+        /* 清空进度按钮样式 */
+        .clear-progress-btn {
+            background: linear-gradient(135deg, var(--tertiary-light), var(--tertiary));
+            color: white;
+            border: none;
+            padding: 1.2rem 2.4rem;
+            font-size: 1.6rem;
+            font-weight: 600;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            box-shadow: 0 6px 18px rgba(239, 68, 68, 0.25);
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            margin: 2rem auto 0;
+        }
+
+        .clear-progress-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(239, 68, 68, 0.35);
+        }
+
+        /* 高端UI强化 */
+        .level-card {
+            position: relative;
+        }
+        .level-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0,0,0,0.02), transparent);
+            border-radius: var(--radius-medium);
+            pointer-events: none;
+        }
+        .option-card {
+            position: relative;
+        }
+        .option-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40%;
+            background: linear-gradient(to top, rgba(0,0,0,0.03), transparent);
+            border-radius: 0 0 var(--radius-medium) var(--radius-medium);
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="title-container">
+                    <h1>快乐学习园地</h1>
+                    <p class="subtitle">专为幼儿设计的全感官互动学习平台</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="control-bar">
+            <div class="control-group">
+                <button class="control-btn sound-btn active" id="soundToggle" title="开关声音">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+                <button class="control-btn" id="musicToggle" title="背景音乐">
+                    <i class="fas fa-music"></i>
+                </button>
+            </div>
+            
+            <div class="progress-info">
+                <div class="progress-text" id="progressText">欢迎开始学习</div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+            </div>
+            
+            <div class="control-group">
+                <button class="control-btn" id="helpBtn" title="帮助">
+                    <i class="fas fa-question-circle"></i>
+                </button>
+                <button class="control-btn" id="settingsBtn" title="设置">
+                    <i class="fas fa-cog"></i>
+                </button>
+            </div>
+        </div>
+
+        <main class="main-content">
+            <div id="welcomeScreen" class="screen active">
+                <div class="welcome-container">
+                    <h2 class="welcome-title gradient-text">选择学习主题</h2>
+                    <p class="welcome-text">请选择您想要学习的内容类别，每个主题都包含丰富的互动学习内容</p>
+                    
+                    <div class="level-grid" id="levelSelect"></div>
+                    
+                    <div class="voice-controls">
+                        <button class="voice-btn active" data-voice="child">童声模式</button>
+                        <button class="voice-btn" data-voice="female">女声模式</button>
+                        <button class="voice-btn" data-voice="boy">男童声</button>
+                    </div>
+                    
+                    <button class="start-button btn-glow" id="startBtn">
+                        <i class="fas fa-play-circle"></i>
+                        开始学习之旅
+                    </button>
+                </div>
+            </div>
+
+            <div id="gameScreen" class="screen">
+                <div class="game-container">
+                    <div class="game-header">
+                        <h2 class="game-title gradient-text" id="gameTitle">识字乐园</h2>
+                        <div class="game-level" id="currentLevel">第 1 关 / 共 10 关</div>
+                    </div>
+                    
+                    <div class="question-box">
+                        <div class="question-text" id="questionText">请选择对应的图片</div>
+                    </div>
+                    
+                    <div class="options-grid" id="optionsContainer"></div>
+                    
+                    <div class="game-controls">
+                        <button class="game-btn hint-btn btn-glow" id="hintBtn">
+                            <i class="fas fa-volume-up"></i>
+                            再听一遍
+                        </button>
+                        <button class="game-btn back-btn btn-glow" id="backBtn">
+                            <i class="fas fa-home"></i>
+                            返回
+                        </button>
+                        <button class="game-btn next-btn btn-glow" id="nextBtn" disabled>
+                            <i class="fas fa-arrow-right"></i>
+                            下一题
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="resultScreen" class="screen">
+                <div class="result-container">
+                    <h2 class="result-title gradient-text">恭喜完成！</h2>
+                    <div class="score-display" id="finalScore">100</div>
+                    <div class="stars-container" id="starsResult">★★★★★</div>
+                    <p class="feedback-text" id="feedbackText">太棒了！您展现出了非凡的学习能力！</p>
+                    
+                    <div class="result-controls">
+                        <button class="game-btn restart-btn btn-glow" id="restartBtn">
+                            <i class="fas fa-redo"></i>
+                            重新挑战
+                        </button>
+                        <button class="game-btn menu-btn btn-glow" id="menuBtn">
+                            <i class="fas fa-th-large"></i>
+                            选择其他主题
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // ==============================================================
+        // ✅✅✅ 【重要：这是你可以 自由修改/添加/删除 学习内容的区域】✅✅✅
+        // 👇👇👇 只改这里的内容，绝对不影响任何功能！
+        // 👇👇👇 可以：改题目、改文字、删题目、加新题目
+        // ==============================================================
+        const LEARNING_CONTENT = {
+            literacy: {
+                id: 'literacy',
+                title: '识字乐园',
+                icon: 'fas fa-book',
+                description: '幼儿园全阶段汉字学习',
+                color: '#e17055',
+                questions: [
+                    { question: "请选择'人'", options: [{ type: "img", content: "👤", word: "人", voice: "人" },{ type: "img", content: "👄", word: "口", voice: "口" },{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "足", voice: "足" }], answer: 0 },
+                    { question: "请选择'口'", options: [{ type: "img", content: "👤", word: "人", voice: "人" },{ type: "img", content: "👄", word: "口", voice: "口" },{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "足", voice: "足" }], answer: 1 },
+                    { question: "请选择'手'", options: [{ type: "img", content: "👤", word: "人", voice: "人" },{ type: "img", content: "👄", word: "口", voice: "口" },{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "足", voice: "足" }], answer: 2 },
+                    { question: "请选择'足'", options: [{ type: "img", content: "👤", word: "人", voice: "人" },{ type: "img", content: "👄", word: "口", voice: "口" },{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "足", voice: "足" }], answer: 3 },
+                    { question: "请选择'日'", options: [{ type: "img", content: "☀️", word: "日", voice: "日" },{ type: "img", content: "🌙", word: "月", voice: "月" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 0 },
+                    { question: "请选择'月'", options: [{ type: "img", content: "☀️", word: "日", voice: "日" },{ type: "img", content: "🌙", word: "月", voice: "月" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 1 },
+                    { question: "请选择'水'", options: [{ type: "img", content: "☀️", word: "日", voice: "日" },{ type: "img", content: "🌙", word: "月", voice: "月" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 2 },
+                    { question: "请选择'火'", options: [{ type: "img", content: "☀️", word: "日", voice: "日" },{ type: "img", content: "🌙", word: "月", voice: "月" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 3 },
+                    { question: "请选择'山'", options: [{ type: "img", content: "⛰️", word: "山", voice: "山" },{ type: "img", content: "🪨", word: "石", voice: "石" },{ type: "img", content: "🌾", word: "田", voice: "田" },{ type: "img", content: "🌍", word: "土", voice: "土" }], answer: 0 },
+                    { question: "请选择'石'", options: [{ type: "img", content: "⛰️", word: "山", voice: "山" },{ type: "img", content: "🪨", word: "石", voice: "石" },{ type: "img", content: "🌾", word: "田", voice: "田" },{ type: "img", content: "🌍", word: "土", voice: "土" }], answer: 1 },
+                    { question: "请选择'田'", options: [{ type: "img", content: "⛰️", word: "山", voice: "山" },{ type: "img", content: "🪨", word: "石", voice: "石" },{ type: "img", content: "🌾", word: "田", voice: "田" },{ type: "img", content: "🌍", word: "土", voice: "土" }], answer: 2 },
+                    { question: "请选择'土'", options: [{ type: "img", content: "⛰️", word: "山", voice: "山" },{ type: "img", content: "🪨", word: "石", voice: "石" },{ type: "img", content: "🌾", word: "田", voice: "田" },{ type: "img", content: "🌍", word: "土", voice: "土" }], answer: 3 },
+                    { question: "请选择'爸'", options: [{ type: "img", content: "👨", word: "爸", voice: "爸" },{ type: "img", content: "👩", word: "妈", voice: "妈" },{ type: "img", content: "👦", word: "哥", voice: "哥" },{ type: "img", content: "👧", word: "姐", voice: "姐" }], answer: 0 },
+                    { question: "请选择'妈'", options: [{ type: "img", content: "👨", word: "爸", voice: "爸" },{ type: "img", content: "👩", word: "妈", voice: "妈" },{ type: "img", content: "👦", word: "哥", voice: "哥" },{ type: "img", content: "👧", word: "姐", voice: "姐" }], answer: 1 },
+                    { question: "请选择'大'", options: [{ type: "img", content: "🆙", word: "大", voice: "大" },{ type: "img", content: "🔽", word: "小", voice: "小" },{ type: "img", content: "➕", word: "多", voice: "多" },{ type: "img", content: "➖", word: "少", voice: "少" }], answer: 0 },
+                    { question: "请选择'小'", options: [{ type: "img", content: "🆙", word: "大", voice: "大" },{ type: "img", content: "🔽", word: "小", voice: "小" },{ type: "img", content: "➕", word: "多", voice: "多" },{ type: "img", content: "➖", word: "少", voice: "少" }], answer: 1 },
+                    { question: "请选择'上'", options: [{ type: "img", content: "⬆️", word: "上", voice: "上" },{ type: "img", content: "⬇️", word: "下", voice: "下" },{ type: "img", content: "⬅️", word: "左", voice: "左" },{ type: "img", content: "➡️", word: "右", voice: "右" }], answer: 0 },
+                    { question: "请选择'下'", options: [{ type: "img", content: "⬆️", word: "上", voice: "上" },{ type: "img", content: "⬇️", word: "下", voice: "下" },{ type: "img", content: "⬅️", word: "左", voice: "左" },{ type: "img", content: "➡️", word: "右", voice: "右" }], answer: 1 },
+                    { question: "请选择'左'", options: [{ type: "img", content: "⬆️", word: "上", voice: "上" },{ type: "img", content: "⬇️", word: "下", voice: "下" },{ type: "img", content: "⬅️", word: "左", voice: "左" },{ type: "img", content: "➡️", word: "右", voice: "右" }], answer: 2 },
+                    { question: "请选择'右'", options: [{ type: "img", content: "⬆️", word: "上", voice: "上" },{ type: "img", content: "⬇️", word: "下", voice: "下" },{ type: "img", content: "⬅️", word: "左", voice: "左" },{ type: "img", content: "➡️", word: "右", voice: "右" }], answer: 3 },
+                    { question: "请选择'开'", options: [{ type: "img", content: "🔓", word: "开", voice: "开" },{ type: "img", content: "🔒", word: "关", voice: "关" },{ type: "img", content: "🔈", word: "静", voice: "静" },{ type: "img", content: "🔊", word: "响", voice: "响" }], answer: 0 },
+                    { question: "请选择'关'", options: [{ type: "img", content: "🔓", word: "开", voice: "开" },{ type: "img", content: "🔒", word: "关", voice: "关" },{ type: "img", content: "🔈", word: "静", voice: "静" },{ type: "img", content: "🔊", word: "响", voice: "响" }], answer: 1 },
+                    { question: "请选择'来'", options: [{ type: "img", content: "👉", word: "来", voice: "来" },{ type: "img", content: "👈", word: "去", voice: "去" },{ type: "img", content: "🙋", word: "站", voice: "站" },{ type: "img", content: "🧍", word: "坐", voice: "坐" }], answer: 0 },
+                    { question: "请选择'去'", options: [{ type: "img", content: "👉", word: "来", voice: "来" },{ type: "img", content: "👈", word: "去", voice: "去" },{ type: "img", content: "🙋", word: "站", voice: "站" },{ type: "img", content: "🧍", word: "坐", voice: "坐" }], answer: 1 },
+                    { question: "请选择'米'", options: [{ type: "img", content: "🍚", word: "米", voice: "米" },{ type: "img", content: "🍞", word: "面", voice: "面" },{ type: "img", content: "🥚", word: "蛋", voice: "蛋" },{ type: "img", content: "🥛", word: "奶", voice: "奶" }], answer: 0 },
+                    { question: "请选择'菜'", options: [{ type: "img", content: "🥬", word: "菜", voice: "菜" },{ type: "img", content: "🍗", word: "肉", voice: "肉" },{ type: "img", content: "🍎", word: "果", voice: "果" },{ type: "img", content: "🍌", word: "蕉", voice: "蕉" }], answer: 0 },
+                    { question: "请选择'花'", options: [{ type: "img", content: "🌸", word: "花", voice: "花" },{ type: "img", content: "🌳", word: "树", voice: "树" },{ type: "img", content: "🌱", word: "草", voice: "草" },{ type: "img", content: "🍂", word: "叶", voice: "叶" }], answer: 0 },
+                    { question: "请选择'鸟'", options: [{ type: "img", content: "🐦", word: "鸟", voice: "鸟" },{ type: "img", content: "🐛", word: "虫", voice: "虫" },{ type: "img", content: "🐟", word: "鱼", voice: "鱼" },{ type: "img", content: "🐸", word: "蛙", voice: "蛙" }], answer: 0 },
+                    { question: "请选择'风'", options: [{ type: "img", content: "🌬️", word: "风", voice: "风" },{ type: "img", content: "🌧️", word: "雨", voice: "雨" },{ type: "img", content: "❄️", word: "雪", voice: "雪" },{ type: "img", content: "⛈️", word: "雷", voice: "雷" }], answer: 0 },
+                    { question: "请选择'雨'", options: [{ type: "img", content: "🌬️", word: "风", voice: "风" },{ type: "img", content: "🌧️", word: "雨", voice: "雨" },{ type: "img", content: "❄️", word: "雪", voice: "雪" },{ type: "img", content: "⛈️", word: "雷", voice: "雷" }], answer: 1 }
+                ]
+            },
+            numbers: {
+                id: 'numbers',
+                title: '数字世界',
+                icon: 'fas fa-calculator',
+                description: '1-20数字、数量、大小认知',
+                color: '#20bf6b',
+                questions: [
+                    { question: "请选择'一'", options: [{ type: "img", content: "1️⃣", word: "一", voice: "一" },{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" }], answer: 0 },
+                    { question: "请选择'二'", options: [{ type: "img", content: "1️⃣", word: "一", voice: "一" },{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" }], answer: 1 },
+                    { question: "请选择'三'", options: [{ type: "img", content: "2️⃣", word: "二", voice: "二" },{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" },{ type: "img", content: "5️⃣", word: "五", voice: "五" }], answer: 1 },
+                    { question: "请选择'四'", options: [{ type: "img", content: "3️⃣", word: "三", voice: "三" },{ type: "img", content: "4️⃣", word: "四", voice: "四" },{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" }], answer: 1 },
+                    { question: "请选择'五'", options: [{ type: "img", content: "4️⃣", word: "四", voice: "四" },{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" }], answer: 1 },
+                    { question: "请选择'六'", options: [{ type: "img", content: "5️⃣", word: "五", voice: "五" },{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" }], answer: 1 },
+                    { question: "请选择'七'", options: [{ type: "img", content: "6️⃣", word: "六", voice: "六" },{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" },{ type: "img", content: "9️⃣", word: "九", voice: "九" }], answer: 1 },
+                    { question: "请选择'八'", options: [{ type: "img", content: "7️⃣", word: "七", voice: "七" },{ type: "img", content: "8️⃣", word: "八", voice: "八" },{ type: "img", content: "9️⃣", word: "九", voice: "九" },{ type: "img", content: "🔟", word: "十", voice: "十" }], answer: 1 },
+                    { question: "请选择'九'", options: [{ type: "img", content: "8️⃣", word: "八", voice: "八" },{ type: "img", content: "9️⃣", word: "九", voice: "九" },{ type: "img", content: "🔟", word: "十", voice: "十" },{ type: "img", content: "1️⃣1️⃣", word: "十一", voice: "十一" }], answer: 1 },
+                    { question: "请选择'十'", options: [{ type: "img", content: "9️⃣", word: "九", voice: "九" },{ type: "img", content: "🔟", word: "十", voice: "十" },{ type: "img", content: "1️⃣1️⃣", word: "十一", voice: "十一" },{ type: "img", content: "1️⃣2️⃣", word: "十二", voice: "十二" }], answer: 1 },
+                    { question: "请选择'十一'", options: [{ type: "img", content: "1️⃣0️⃣", word: "十", voice: "十" },{ type: "img", content: "1️⃣1️⃣", word: "十一", voice: "十一" },{ type: "img", content: "1️⃣2️⃣", word: "十二", voice: "十二" },{ type: "img", content: "1️⃣3️⃣", word: "十三", voice: "十三" }], answer: 1 },
+                    { question: "请选择'十二'", options: [{ type: "img", content: "1️⃣1️⃣", word: "十一", voice: "十一" },{ type: "img", content: "1️⃣2️⃣", word: "十二", voice: "十二" },{ type: "img", content: "1️⃣3️⃣", word: "十三", voice: "十三" },{ type: "img", content: "1️⃣4️⃣", word: "十四", voice: "十四" }], answer: 1 },
+                    { question: "请选择'十三'", options: [{ type: "img", content: "1️⃣2️⃣", word: "十二", voice: "十二" },{ type: "img", content: "1️⃣3️⃣", word: "十三", voice: "十三" },{ type: "img", content: "1️⃣4️⃣", word: "十四", voice: "十四" },{ type: "img", content: "1️⃣5️⃣", word: "十五", voice: "十五" }], answer: 1 },
+                    { question: "请选择'十四'", options: [{ type: "img", content: "1️⃣3️⃣", word: "十三", voice: "十三" },{ type: "img", content: "1️⃣4️⃣", word: "十四", voice: "十四" },{ type: "img", content: "1️⃣5️⃣", word: "十五", voice: "十五" },{ type: "img", content: "1️⃣6️⃣", word: "十六", voice: "十六" }], answer: 1 },
+                    { question: "请选择'十五'", options: [{ type: "img", content: "1️⃣4️⃣", word: "十四", voice: "十四" },{ type: "img", content: "1️⃣5️⃣", word: "十五", voice: "十五" },{ type: "img", content: "1️⃣6️⃣", word: "十六", voice: "十六" },{ type: "img", content: "1️⃣7️⃣", word: "十七", voice: "十七" }], answer: 1 },
+                    { question: "请选择'十六'", options: [{ type: "img", content: "1️⃣5️⃣", word: "十五", voice: "十五" },{ type: "img", content: "1️⃣6️⃣", word: "十六", voice: "十六" },{ type: "img", content: "1️⃣7️⃣", word: "十七", voice: "十七" },{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" }], answer: 1 },
+                    { question: "请选择'十七'", options: [{ type: "img", content: "1️⃣6️⃣", word: "十六", voice: "十六" },{ type: "img", content: "1️⃣7️⃣", word: "十七", voice: "十七" },{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" },{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" }], answer: 1 },
+                    { question: "请选择'十八'", options: [{ type: "img", content: "1️⃣7️⃣", word: "十七", voice: "十七" },{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" },{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" },{ type: "img", content: "2️⃣0️⃣", word: "二十", voice: "二十" }], answer: 1 },
+                    { question: "请选择'十九'", options: [{ type: "img", content: "1️⃣8️⃣", word: "十八", voice: "十八" },{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" },{ type: "img", content: "2️⃣0️⃣", word: "二十", voice: "二十" },{ type: "img", content: "1️⃣0️⃣", word: "十", voice: "十" }], answer: 1 },
+                    { question: "请选择'二十'", options: [{ type: "img", content: "1️⃣9️⃣", word: "十九", voice: "十九" },{ type: "img", content: "2️⃣0️⃣", word: "二十", voice: "二十" },{ type: "img", content: "1️⃣0️⃣", word: "十", voice: "十" },{ type: "img", content: "5️⃣", word: "五", voice: "五" }], answer: 1 }
+                ]
+            },
+            fruits: {
+                id: 'fruits',
+                title: '水果乐园',
+                icon: 'fas fa-apple-alt',
+                description: '常见水果认知学习',
+                color: '#fc5c65',
+                questions: [
+                    { question: "请选择'苹果'", options: [{ type: "img", content: "🍎", word: "苹果", voice: "苹果" },{ type: "img", content: "🍐", word: "梨", voice: "梨" },{ type: "img", content: "🍊", word: "橙子", voice: "橙子" },{ type: "img", content: "🍋", word: "柠檬", voice: "柠檬" }], answer: 0 },
+                    { question: "请选择'梨'", options: [{ type: "img", content: "🍎", word: "苹果", voice: "苹果" },{ type: "img", content: "🍐", word: "梨", voice: "梨" },{ type: "img", content: "🍊", word: "橙子", voice: "橙子" },{ type: "img", content: "🍋", word: "柠檬", voice: "柠檬" }], answer: 1 },
+                    { question: "请选择'橙子'", options: [{ type: "img", content: "🍎", word: "苹果", voice: "苹果" },{ type: "img", content: "🍐", word: "梨", voice: "梨" },{ type: "img", content: "🍊", word: "橙子", voice: "橙子" },{ type: "img", content: "🍋", word: "柠檬", voice: "柠檬" }], answer: 2 },
+                    { question: "请选择'柠檬'", options: [{ type: "img", content: "🍎", word: "苹果", voice: "苹果" },{ type: "img", content: "🍐", word: "梨", voice: "梨" },{ type: "img", content: "🍊", word: "橙子", voice: "橙子" },{ type: "img", content: "🍋", word: "柠檬", voice: "柠檬" }], answer: 3 },
+                    { question: "请选择'香蕉'", options: [{ type: "img", content: "🍌", word: "香蕉", voice: "香蕉" },{ type: "img", content: "🍇", word: "葡萄", voice: "葡萄" },{ type: "img", content: "🍓", word: "草莓", voice: "草莓" },{ type: "img", content: "🍉", word: "西瓜", voice: "西瓜" }], answer: 0 },
+                    { question: "请选择'葡萄'", options: [{ type: "img", content: "🍌", word: "香蕉", voice: "香蕉" },{ type: "img", content: "🍇", word: "葡萄", voice: "葡萄" },{ type: "img", content: "🍓", word: "草莓", voice: "草莓" },{ type: "img", content: "🍉", word: "西瓜", voice: "西瓜" }], answer: 1 },
+                    { question: "请选择'草莓'", options: [{ type: "img", content: "🍌", word: "香蕉", voice: "香蕉" },{ type: "img", content: "🍇", word: "葡萄", voice: "葡萄" },{ type: "img", content: "🍓", word: "草莓", voice: "草莓" },{ type: "img", content: "🍉", word: "西瓜", voice: "西瓜" }], answer: 2 },
+                    { question: "请选择'西瓜'", options: [{ type: "img", content: "🍌", word: "香蕉", voice: "香蕉" },{ type: "img", content: "🍇", word: "葡萄", voice: "葡萄" },{ type: "img", content: "🍓", word: "草莓", voice: "草莓" },{ type: "img", content: "🍉", word: "西瓜", voice: "西瓜" }], answer: 3 },
+                    { question: "请选择'桃子'", options: [{ type: "img", content: "🍑", word: "桃子", voice: "桃子" },{ type: "img", content: "🥭", word: "芒果", voice: "芒果" },{ type: "img", content: "🍍", word: "菠萝", voice: "菠萝" },{ type: "img", content: "🥝", word: "猕猴桃", voice: "猕猴桃" }], answer: 0 },
+                    { question: "请选择'芒果'", options: [{ type: "img", content: "🍑", word: "桃子", voice: "桃子" },{ type: "img", content: "🥭", word: "芒果", voice: "芒果" },{ type: "img", content: "🍍", word: "菠萝", voice: "菠萝" },{ type: "img", content: "🥝", word: "猕猴桃", voice: "猕猴桃" }], answer: 1 },
+                    { question: "请选择'菠萝'", options: [{ type: "img", content: "🍑", word: "桃子", voice: "桃子" },{ type: "img", content: "🥭", word: "芒果", voice: "芒果" },{ type: "img", content: "🍍", word: "菠萝", voice: "菠萝" },{ type: "img", content: "🥝", word: "猕猴桃", voice: "猕猴桃" }], answer: 2 },
+                    { question: "请选择'猕猴桃'", options: [{ type: "img", content: "🍑", word: "桃子", voice: "桃子" },{ type: "img", content: "🥭", word: "芒果", voice: "芒果" },{ type: "img", content: "🍍", word: "菠萝", voice: "菠萝" },{ type: "img", content: "🥝", word: "猕猴桃", voice: "猕猴桃" }], answer: 3 },
+                    { question: "请选择'火龙果'", options: [{ type: "img", content: "🍈", word: "哈密瓜", voice: "哈密瓜" },{ type: "img", content: "🥥", word: "椰子", voice: "椰子" },{ type: "img", content: "🫐", word: "蓝莓", voice: "蓝莓" },{ type: "img", content: "🍒", word: "樱桃", voice: "樱桃" }], answer: 0 },
+                    { question: "请选择'樱桃'", options: [{ type: "img", content: "🍈", word: "哈密瓜", voice: "哈密瓜" },{ type: "img", content: "🥥", word: "椰子", voice: "椰子" },{ type: "img", content: "🫐", word: "蓝莓", voice: "蓝莓" },{ type: "img", content: "🍒", word: "樱桃", voice: "樱桃" }], answer: 3 },
+                    { question: "请选择'蓝莓'", options: [{ type: "img", content: "🍈", word: "哈密瓜", voice: "哈密瓜" },{ type: "img", content: "🥥", word: "椰子", voice: "椰子" },{ type: "img", content: "🫐", word: "蓝莓", voice: "蓝莓" },{ type: "img", content: "🍒", word: "樱桃", voice: "樱桃" }], answer: 2 },
+                    { question: "请选择'椰子'", options: [{ type: "img", content: "🍈", word: "哈密瓜", voice: "哈密瓜" },{ type: "img", content: "🥥", word: "椰子", voice: "椰子" },{ type: "img", content: "🫐", word: "蓝莓", voice: "蓝莓" },{ type: "img", content: "🍒", word: "樱桃", voice: "樱桃" }], answer: 1 }
+                ]
+            },
+            animals: {
+                id: 'animals',
+                title: '动物王国',
+                icon: 'fas fa-paw',
+                description: '全种类动物认知',
+                color: '#fd9644',
+                questions: [
+                    { question: "请选择'狮子'", options: [{ type: "img", content: "🦁", word: "狮子", voice: "狮子" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐻", word: "熊", voice: "熊" },{ type: "img", content: "🐼", word: "熊猫", voice: "熊猫" }], answer: 0 },
+                    { question: "请选择'老虎'", options: [{ type: "img", content: "🦁", word: "狮子", voice: "狮子" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐻", word: "熊", voice: "熊" },{ type: "img", content: "🐼", word: "熊猫", voice: "熊猫" }], answer: 1 },
+                    { question: "请选择'熊'", options: [{ type: "img", content: "🦁", word: "狮子", voice: "狮子" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐻", word: "熊", voice: "熊" },{ type: "img", content: "🐼", word: "熊猫", voice: "熊猫" }], answer: 2 },
+                    { question: "请选择'熊猫'", options: [{ type: "img", content: "🦁", word: "狮子", voice: "狮子" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐻", word: "熊", voice: "熊" },{ type: "img", content: "🐼", word: "熊猫", voice: "熊猫" }], answer: 3 },
+                    { question: "请选择'小狗'", options: [{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐹", word: "仓鼠", voice: "仓鼠" }], answer: 0 },
+                    { question: "请选择'小猫'", options: [{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐹", word: "仓鼠", voice: "仓鼠" }], answer: 1 },
+                    { question: "请选择'兔子'", options: [{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐹", word: "仓鼠", voice: "仓鼠" }], answer: 2 },
+                    { question: "请选择'仓鼠'", options: [{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐹", word: "仓鼠", voice: "仓鼠" }], answer: 3 },
+                    { question: "请选择'小鸟'", options: [{ type: "img", content: "🐦", word: "小鸟", voice: "小鸟" },{ type: "img", content: "🐔", word: "小鸡", voice: "小鸡" },{ type: "img", content: "🦆", word: "鸭子", voice: "鸭子" },{ type: "img", content: "🦅", word: "老鹰", voice: "老鹰" }], answer: 0 },
+                    { question: "请选择'小鸡'", options: [{ type: "img", content: "🐦", word: "小鸟", voice: "小鸟" },{ type: "img", content: "🐔", word: "小鸡", voice: "小鸡" },{ type: "img", content: "🦆", word: "鸭子", voice: "鸭子" },{ type: "img", content: "🦅", word: "老鹰", voice: "老鹰" }], answer: 1 },
+                    { question: "请选择'鸭子'", options: [{ type: "img", content: "🐦", word: "小鸟", voice: "小鸟" },{ type: "img", content: "🐔", word: "小鸡", voice: "小鸡" },{ type: "img", content: "🦆", word: "鸭子", voice: "鸭子" },{ type: "img", content: "🦅", word: "老鹰", voice: "老鹰" }], answer: 2 },
+                    { question: "请选择'老鹰'", options: [{ type: "img", content: "🐦", word: "小鸟", voice: "小鸟" },{ type: "img", content: "🐔", word: "小鸡", voice: "小鸡" },{ type: "img", content: "🦆", word: "鸭子", voice: "鸭子" },{ type: "img", content: "🦅", word: "老鹰", voice: "老鹰" }], answer: 3 },
+                    { question: "请选择'小鱼'", options: [{ type: "img", content: "🐟", word: "小鱼", voice: "小鱼" },{ type: "img", content: "🐠", word: "热带鱼", voice: "热带鱼" },{ type: "img", content: "🐡", word: "金鱼", voice: "金鱼" },{ type: "img", content: "🐬", word: "海豚", voice: "海豚" }], answer: 0 },
+                    { question: "请选择'海豚'", options: [{ type: "img", content: "🐟", word: "小鱼", voice: "小鱼" },{ type: "img", content: "🐠", word: "热带鱼", voice: "热带鱼" },{ type: "img", content: "🐡", word: "金鱼", voice: "金鱼" },{ type: "img", content: "🐬", word: "海豚", voice: "海豚" }], answer: 3 },
+                    { question: "请选择'大象'", options: [{ type: "img", content: "🐘", word: "大象", voice: "大象" },{ type: "img", content: "🦛", word: "河马", voice: "河马" },{ type: "img", content: "🦏", word: "犀牛", voice: "犀牛" },{ type: "img", content: "🦒", word: "长颈鹿", voice: "长颈鹿" }], answer: 0 },
+                    { question: "请选择'长颈鹿'", options: [{ type: "img", content: "🐘", word: "大象", voice: "大象" },{ type: "img", content: "🦛", word: "河马", voice: "河马" },{ type: "img", content: "🦏", word: "犀牛", voice: "犀牛" },{ type: "img", content: "🦒", word: "长颈鹿", voice: "长颈鹿" }], answer: 3 }
+                ]
+            },
+            colors: {
+                id: 'colors',
+                title: '颜色乐园',
+                icon: 'fas fa-palette',
+                description: '认识基础颜色',
+                color: '#9b59b6',
+                questions: [
+                    { question: "请选择'红色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" },{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" }], answer:0 },
+                    { question: "请选择'黄色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" },{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" }], answer:3 },
+                    { question: "请选择'蓝色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" },{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" }], answer:2 },
+                    { question: "请选择'绿色'", options: [{ type: "img", content: "🔴", word: "红色", voice: "红色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" },{ type: "img", content: "🔵", word: "蓝色", voice: "蓝色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" }], answer:1 },
+                    { question: "请选择'粉色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" },{ type: "img", content: "🟤", word: "棕色", voice: "棕色" }], answer:0 },
+                    { question: "请选择'白色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" },{ type: "img", content: "🟤", word: "棕色", voice: "棕色" }], answer:2 },
+                    { question: "请选择'黑色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" },{ type: "img", content: "🟤", word: "棕色", voice: "棕色" }], answer:1 },
+                    { question: "请选择'棕色'", options: [{ type: "img", content: "🌸", word: "粉色", voice: "粉色" },{ type: "img", content: "⚫", word: "黑色", voice: "黑色" },{ type: "img", content: "⚪", word: "白色", voice: "白色" },{ type: "img", content: "🟤", word: "棕色", voice: "棕色" }], answer:3 },
+                    { question: "请选择'紫色'", options: [{ type: "img", content: "🟣", word: "紫色", voice: "紫色" },{ type: "img", content: "🟠", word: "橙色", voice: "橙色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" }], answer:0 },
+                    { question: "请选择'橙色'", options: [{ type: "img", content: "🟣", word: "紫色", voice: "紫色" },{ type: "img", content: "🟠", word: "橙色", voice: "橙色" },{ type: "img", content: "🟡", word: "黄色", voice: "黄色" },{ type: "img", content: "🟢", word: "绿色", voice: "绿色" }], answer:1 }
+                ]
+            },
+            shapes: {
+                id: 'shapes',
+                title: '形状世界',
+                icon: 'fas fa-shapes',
+                description: '认识几何图形',
+                color: '#3498db',
+                questions: [
+                    { question: "请选择'圆形'", options: [{ type: "img", content: "⭕", word: "圆形", voice: "圆形" },{ type: "img", content: "⬜", word: "正方形", voice: "正方形" },{ type: "img", content: "🔺", word: "三角形", voice: "三角形" },{ type: "img", content: "🟩", word: "长方形", voice: "长方形" }], answer:0 },
+                    { question: "请选择'正方形'", options: [{ type: "img", content: "⭕", word: "圆形", voice: "圆形" },{ type: "img", content: "⬜", word: "正方形", voice: "正方形" },{ type: "img", content: "🔺", word: "三角形", voice: "三角形" },{ type: "img", content: "🟩", word: "长方形", voice: "长方形" }], answer:1 },
+                    { question: "请选择'三角形'", options: [{ type: "img", content: "⭕", word: "圆形", voice: "圆形" },{ type: "img", content: "⬜", word: "正方形", voice: "正方形" },{ type: "img", content: "🔺", word: "三角形", voice: "三角形" },{ type: "img", content: "🟩", word: "长方形", voice: "长方形" }], answer:2 },
+                    { question: "请选择'长方形'", options: [{ type: "img", content: "⭕", word: "圆形", voice: "圆形" },{ type: "img", content: "⬜", word: "正方形", voice: "正方形" },{ type: "img", content: "🔺", word: "三角形", voice: "三角形" },{ type: "img", content: "🟩", word: "长方形", voice: "长方形" }], answer:3 },
+                    { question: "请选择'星形'", options: [{ type: "img", content: "⭐", word: "星形", voice: "星形" },{ type: "img", content: "❤️", word: "心形", voice: "心形" },{ type: "img", content: "🔷", word: "菱形", voice: "菱形" },{ type: "img", content: "🔶", word: "六边形", voice: "六边形" }], answer:0 },
+                    { question: "请选择'心形'", options: [{ type: "img", content: "⭐", word: "星形", voice: "星形" },{ type: "img", content: "❤️", word: "心形", voice: "心形" },{ type: "img", content: "🔷", word: "菱形", voice: "菱形" },{ type: "img", content: "🔶", word: "六边形", voice: "六边形" }], answer:1 },
+                    { question: "请选择'菱形'", options: [{ type: "img", content: "⭐", word: "星形", voice: "星形" },{ type: "img", content: "❤️", word: "心形", voice: "心形" },{ type: "img", content: "🔷", word: "菱形", voice: "菱形" },{ type: "img", content: "🔶", word: "六边形", voice: "六边形" }], answer:2 },
+                    { question: "请选择'六边形'", options: [{ type: "img", content: "⭐", word: "星形", voice: "星形" },{ type: "img", content: "❤️", word: "心形", voice: "心形" },{ type: "img", content: "🔷", word: "菱形", voice: "菱形" },{ type: "img", content: "🔶", word: "六边形", voice: "六边形" }], answer:3 }
+                ]
+            },
+            transport: {
+                id: 'transport',
+                title: '交通工具',
+                icon: 'fas fa-car-side',
+                description: '认识海陆空交通工具',
+                color: '#e67e22',
+                questions: [
+                    { question: "请选择'汽车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" },{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚲", word: "自行车", voice: "自行车" }], answer:0 },
+                    { question: "请选择'公交车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" },{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚲", word: "自行车", voice: "自行车" }], answer:1 },
+                    { question: "请选择'卡车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" },{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚲", word: "自行车", voice: "自行车" }], answer:2 },
+                    { question: "请选择'自行车'", options: [{ type: "img", content: "🚗", word: "汽车", voice: "汽车" },{ type: "img", content: "🚌", word: "公交车", voice: "公交车" },{ type: "img", content: "🚚", word: "卡车", voice: "卡车" },{ type: "img", content: "🚲", word: "自行车", voice: "自行车" }], answer:3 },
+                    { question: "请选择'飞机'", options: [{ type: "img", content: "✈️", word: "飞机", voice: "飞机" },{ type: "img", content: "🚁", word: "直升机", voice: "直升机" },{ type: "img", content: "🚀", word: "火箭", voice: "火箭" },{ type: "img", content: "🛸", word: "飞船", voice: "飞船" }], answer:0 },
+                    { question: "请选择'直升机'", options: [{ type: "img", content: "✈️", word: "飞机", voice: "飞机" },{ type: "img", content: "🚁", word: "直升机", voice: "直升机" },{ type: "img", content: "🚀", word: "火箭", voice: "火箭" },{ type: "img", content: "🛸", word: "飞船", voice: "飞船" }], answer:1 },
+                    { question: "请选择'轮船'", options: [{ type: "img", content: "🚢", word: "轮船", voice: "轮船" },{ type: "img", content: "⛵", word: "帆船", voice: "帆船" },{ type: "img", content: "🛳️", word: "游轮", voice: "游轮" },{ type: "img", content: "🚤", word: "快艇", voice: "快艇" }], answer:0 },
+                    { question: "请选择'火车'", options: [{ type: "img", content: "🚂", word: "火车", voice: "火车" },{ type: "img", content: "🚆", word: "高铁", voice: "高铁" },{ type: "img", content: "🚇", word: "地铁", voice: "地铁" },{ type: "img", content: "🚄", word: "动车", voice: "动车" }], answer:0 }
+                ]
+            },
+            daily: {
+                id: 'daily',
+                title: '日常用品',
+                icon: 'fas fa-home',
+                description: '生活常见物品认知',
+                color: '#1abc9c',
+                questions: [
+                    { question: "请选择'杯子'", options: [{ type: "img", content: "🥤", word: "杯子", voice: "杯子" },{ type: "img", content: "🍽️", word: "餐具", voice: "餐具" },{ type: "img", content: "🍴", word: "刀叉", voice: "刀叉" },{ type: "img", content: "🥢", word: "筷子", voice: "筷子" }], answer:0 },
+                    { question: "请选择'衣服'", options: [{ type: "img", content: "👕", word: "衣服", voice: "衣服" },{ type: "img", content: "👖", word: "裤子", voice: "裤子" },{ type: "img", content: "👗", word: "裙子", voice: "裙子" },{ type: "img", content: "🧦", word: "袜子", voice: "袜子" }], answer:0 },
+                    { question: "请选择'裤子'", options: [{ type: "img", content: "👕", word: "衣服", voice: "衣服" },{ type: "img", content: "👖", word: "裤子", voice: "裤子" },{ type: "img", content: "👗", word: "裙子", voice: "裙子" },{ type: "img", content: "🧦", word: "袜子", voice: "袜子" }], answer:1 },
+                    { question: "请选择'鞋子'", options: [{ type: "img", content: "👟", word: "鞋子", voice: "鞋子" },{ type: "img", content: "🧢", word: "帽子", voice: "帽子" },{ type: "img", content: "🎩", word: "礼帽", voice: "礼帽" },{ type: "img", content: "👒", word: "女帽", voice: "女帽" }], answer:0 },
+                    { question: "请选择'书包'", options: [{ type: "img", content: "🎒", word: "书包", voice: "书包" },{ type: "img", content: "👜", word: "手提包", voice: "手提包" },{ type: "img", content: "💼", word: "公文包", voice: "公文包" },{ type: "img", content: "🛍️", word: "购物袋", voice: "购物袋" }], answer:0 },
+                    { question: "请选择'床'", options: [{ type: "img", content: "🛏️", word: "床", voice: "床" },{ type: "img", content: "🪑", word: "椅子", voice: "椅子" },{ type: "img", content: "🪑", word: "凳子", voice: "凳子" },{ type: "img", content: "🚪", word: "门", voice: "门" }], answer:0 },
+                    { question: "请选择'灯'", options: [{ type: "img", content: "💡", word: "灯", voice: "灯" },{ type: "img", content: "🔦", word: "手电筒", voice: "手电筒" },{ type: "img", content: "📺", word: "电视", voice: "电视" },{ type: "img", content: "📱", word: "手机", voice: "手机" }], answer:0 },
+                    { question: "请选择'电话'", options: [{ type: "img", content: "📞", word: "电话", voice: "电话" },{ type: "img", content: "📱", word: "手机", voice: "手机" },{ type: "img", content: "💻", word: "电脑", voice: "电脑" },{ type: "img", content: "🖨️", word: "打印机", voice: "打印机" }], answer:0 }
+                ]
+            },
+            weather: {
+                id: 'weather',
+                title: '自然天气',
+                icon: 'fas fa-cloud-sun',
+                description: '认识天气与自然现象',
+                color: '#4fc3f7',
+                questions: [
+                    { question: "请选择'晴天'", options: [{ type: "img", content: "☀️", word: "晴天", voice: "晴天" },{ type: "img", content: "☁️", word: "阴天", voice: "阴天" },{ type: "img", content: "🌧️", word: "雨天", voice: "雨天" },{ type: "img", content: "❄️", word: "雪天", voice: "雪天" }], answer: 0 },
+                    { question: "请选择'阴天'", options: [{ type: "img", content: "☀️", word: "晴天", voice: "晴天" },{ type: "img", content: "☁️", word: "阴天", voice: "阴天" },{ type: "img", content: "🌧️", word: "雨天", voice: "雨天" },{ type: "img", content: "❄️", word: "雪天", voice: "雪天" }], answer: 1 },
+                    { question: "请选择'雨天'", options: [{ type: "img", content: "☀️", word: "晴天", voice: "晴天" },{ type: "img", content: "☁️", word: "阴天", voice: "阴天" },{ type: "img", content: "🌧️", word: "雨天", voice: "雨天" },{ type: "img", content: "❄️", word: "雪天", voice: "雪天" }], answer: 2 },
+                    { question: "请选择'雪天'", options: [{ type: "img", content: "☀️", word: "晴天", voice: "晴天" },{ type: "img", content: "☁️", word: "阴天", voice: "阴天" },{ type: "img", content: "🌧️", word: "雨天", voice: "雨天" },{ type: "img", content: "❄️", word: "雪天", voice: "雪天" }], answer: 3 },
+                    { question: "请选择'打雷'", options: [{ type: "img", content: "⛈️", word: "打雷", voice: "打雷" },{ type: "img", content: "🌈", word: "彩虹", voice: "彩虹" },{ type: "img", content: "💨", word: "大风", voice: "大风" },{ type: "img", content: "🌫️", word: "雾霾", voice: "雾霾" }], answer: 0 },
+                    { question: "请选择'彩虹'", options: [{ type: "img", content: "⛈️", word: "打雷", voice: "打雷" },{ type: "img", content: "🌈", word: "彩虹", voice: "彩虹" },{ type: "img", content: "💨", word: "大风", voice: "大风" },{ type: "img", content: "🌫️", word: "雾霾", voice: "雾霾" }], answer: 1 }
+                ]
+            },
+            body: {
+                id: 'body',
+                title: '身体部位',
+                icon: 'fas fa-child',
+                description: '认识自己的身体',
+                color: '#ff6b6b',
+                questions: [
+                    { question: "请选择'眼睛'", options: [{ type: "img", content: "👀", word: "眼睛", voice: "眼睛" },{ type: "img", content: "👃", word: "鼻子", voice: "鼻子" },{ type: "img", content: "👂", word: "耳朵", voice: "耳朵" },{ type: "img", content: "👄", word: "嘴巴", voice: "嘴巴" }], answer: 0 },
+                    { question: "请选择'鼻子'", options: [{ type: "img", content: "👀", word: "眼睛", voice: "眼睛" },{ type: "img", content: "👃", word: "鼻子", voice: "鼻子" },{ type: "img", content: "👂", word: "耳朵", voice: "耳朵" },{ type: "img", content: "👄", word: "嘴巴", voice: "嘴巴" }], answer: 1 },
+                    { question: "请选择'耳朵'", options: [{ type: "img", content: "👀", word: "眼睛", voice: "眼睛" },{ type: "img", content: "👃", word: "鼻子", voice: "鼻子" },{ type: "img", content: "👂", word: "耳朵", voice: "耳朵" },{ type: "img", content: "👄", word: "嘴巴", voice: "嘴巴" }], answer: 2 },
+                    { question: "请选择'嘴巴'", options: [{ type: "img", content: "👀", word: "眼睛", voice: "眼睛" },{ type: "img", content: "👃", word: "鼻子", voice: "鼻子" },{ type: "img", content: "👂", word: "耳朵", voice: "耳朵" },{ type: "img", content: "👄", word: "嘴巴", voice: "嘴巴" }], answer: 3 },
+                    { question: "请选择'手'", options: [{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "脚", voice: "脚" },{ type: "img", content: "🖐️", word: "手掌", voice: "手掌" },{ type: "img", content: "🦵", word: "腿", voice: "腿" }], answer: 0 },
+                    { question: "请选择'脚'", options: [{ type: "img", content: "✋", word: "手", voice: "手" },{ type: "img", content: "🦶", word: "脚", voice: "脚" },{ type: "img", content: "🖐️", word: "手掌", voice: "手掌" },{ type: "img", content: "🦵", word: "腿", voice: "腿" }], answer: 1 }
+                ]
+            },
+            jobs: {
+                id: 'jobs',
+                title: '职业认知',
+                icon: 'fas fa-user-tie',
+                description: '认识不同职业的人',
+                color: '#6c5ce7',
+                questions: [
+                    { question: "请选择'医生'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" }], answer: 0 },
+                    { question: "请选择'老师'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" }], answer: 1 },
+                    { question: "请选择'警察'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" }], answer: 2 },
+                    { question: "请选择'厨师'", options: [{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" }], answer: 3 },
+                    { question: "请选择'消防员'", options: [{ type: "img", content: "👨‍🚒", word: "消防员", voice: "消防员" },{ type: "img", content: "👨‍✈️", word: "飞行员", voice: "飞行员" },{ type: "img", content: "👷", word: "工人", voice: "工人" },{ type: "img", content: "💁", word: "服务员", voice: "服务员" }], answer: 0 }
+                ]
+            },
+            season: {
+                id: 'season',
+                title: '季节节日',
+                icon: 'fas fa-calendar-alt',
+                description: '认识四季和节日',
+                color: '#00d2d3',
+                questions: [
+                    { question: "请选择'春天'", options: [{ type: "img", content: "🌸", word: "春天", voice: "春天" },{ type: "img", content: "☀️", word: "夏天", voice: "夏天" },{ type: "img", content: "🍂", word: "秋天", voice: "秋天" },{ type: "img", content: "❄️", word: "冬天", voice: "冬天" }], answer: 0 },
+                    { question: "请选择'夏天'", options: [{ type: "img", content: "🌸", word: "春天", voice: "春天" },{ type: "img", content: "☀️", word: "夏天", voice: "夏天" },{ type: "img", content: "🍂", word: "秋天", voice: "秋天" },{ type: "img", content: "❄️", word: "冬天", voice: "冬天" }], answer: 1 },
+                    { question: "请选择'秋天'", options: [{ type: "img", content: "🌸", word: "春天", voice: "春天" },{ type: "img", content: "☀️", word: "夏天", voice: "夏天" },{ type: "img", content: "🍂", word: "秋天", voice: "秋天" },{ type: "img", content: "❄️", word: "冬天", voice: "冬天" }], answer: 2 },
+                    { question: "请选择'冬天'", options: [{ type: "img", content: "🌸", word: "春天", voice: "春天" },{ type: "img", content: "☀️", word: "夏天", voice: "夏天" },{ type: "img", content: "🍂", word: "秋天", voice: "秋天" },{ type: "img", content: "❄️", word: "冬天", voice: "冬天" }], answer: 3 },
+                    { question: "请选择'春节'", options: [{ type: "img", content: "🧨", word: "春节", voice: "春节" },{ type: "img", content: "🎂", word: "生日", voice: "生日" },{ type: "img", content: "🎃", word: "万圣节", voice: "万圣节" },{ type: "img", content: "🎄", word: "圣诞节", voice: "圣诞节" }], answer: 0 }
+                ]
+            },
+            vegetable: {
+                id: 'vegetable',
+                title: '食物蔬菜',
+                icon: 'fas fa-carrot',
+                description: '认识蔬菜与健康食物',
+                color: '#4cd137',
+                questions: [
+                    { question: "请选择'白菜'", options: [{ type: "img", content: "🥬", word: "白菜", voice: "白菜" },{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" }], answer: 0 },
+                    { question: "请选择'胡萝卜'", options: [{ type: "img", content: "🥬", word: "白菜", voice: "白菜" },{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" }], answer: 1 },
+                    { question: "请选择'西红柿'", options: [{ type: "img", content: "🥬", word: "白菜", voice: "白菜" },{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" }], answer: 2 },
+                    { question: "请选择'黄瓜'", options: [{ type: "img", content: "🥬", word: "白菜", voice: "白菜" },{ type: "img", content: "🥕", word: "胡萝卜", voice: "胡萝卜" },{ type: "img", content: "🍅", word: "西红柿", voice: "西红柿" },{ type: "img", content: "🥒", word: "黄瓜", voice: "黄瓜" }], answer: 3 },
+                    { question: "请选择'土豆'", options: [{ type: "img", content: "🥔", word: "土豆", voice: "土豆" },{ type: "img", content: "🧅", word: "洋葱", voice: "洋葱" },{ type: "img", content: "🧄", word: "大蒜", voice: "大蒜" },{ type: "img", content: "🍆", word: "茄子", voice: "茄子" }], answer: 0 }
+                ]
+            },
+            stationery: {
+                id: 'stationery',
+                title: '文具学习',
+                icon: 'fas fa-pencil-alt',
+                description: '认识学习用品',
+                color: '#ff9ff3',
+                questions: [
+                    { question: "请选择'铅笔'", options: [{ type: "img", content: "✏️", word: "铅笔", voice: "铅笔" },{ type: "img", content: "🖍️", word: "蜡笔", voice: "蜡笔" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "📏", word: "尺子", voice: "尺子" }], answer: 0 },
+                    { question: "请选择'蜡笔'", options: [{ type: "img", content: "✏️", word: "铅笔", voice: "铅笔" },{ type: "img", content: "🖍️", word: "蜡笔", voice: "蜡笔" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "📏", word: "尺子", voice: "尺子" }], answer: 1 },
+                    { question: "请选择'剪刀'", options: [{ type: "img", content: "✏️", word: "铅笔", voice: "铅笔" },{ type: "img", content: "🖍️", word: "蜡笔", voice: "蜡笔" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "📏", word: "尺子", voice: "尺子" }], answer: 2 },
+                    { question: "请选择'尺子'", options: [{ type: "img", content: "✏️", word: "铅笔", voice: "铅笔" },{ type: "img", content: "🖍️", word: "蜡笔", voice: "蜡笔" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "📏", word: "尺子", voice: "尺子" }], answer: 3 },
+                    { question: "请选择'书本'", options: [{ type: "img", content: "📚", word: "书本", voice: "书本" },{ type: "img", content: "📓", word: "笔记本", voice: "笔记本" },{ type: "img", content: "🗂️", word: "文件夹", voice: "文件夹" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" }], answer: 0 }
+                ]
+            },
+            action: {
+                id: 'action',
+                title: '动作指令',
+                icon: 'fas fa-running',
+                description: '认识动作与行为',
+                color: '#f368e0',
+                questions: [
+                    { question: "请选择'跑'", options: [{ type: "img", content: "🏃", word: "跑", voice: "跑" },{ type: "img", content: "🚶", word: "走", voice: "走" },{ type: "img", content: "🧍", word: "坐", voice: "坐" },{ type: "img", content: "🙋", word: "站", voice: "站" }], answer: 0 },
+                    { question: "请选择'走'", options: [{ type: "img", content: "🏃", word: "跑", voice: "跑" },{ type: "img", content: "🚶", word: "走", voice: "走" },{ type: "img", content: "🧍", word: "坐", voice: "坐" },{ type: "img", content: "🙋", word: "站", voice: "站" }], answer: 1 },
+                    { question: "请选择'坐'", options: [{ type: "img", content: "🏃", word: "跑", voice: "跑" },{ type: "img", content: "🚶", word: "走", voice: "走" },{ type: "img", content: "🧍", word: "坐", voice: "坐" },{ type: "img", content: "🙋", word: "站", voice: "站" }], answer: 2 },
+                    { question: "请选择'站'", options: [{ type: "img", content: "🏃", word: "跑", voice: "跑" },{ type: "img", content: "🚶", word: "走", voice: "走" },{ type: "img", content: "🧍", word: "坐", voice: "坐" },{ type: "img", content: "🙋", word: "站", voice: "站" }], answer: 3 },
+                    { question: "请选择'跳'", options: [{ type: "img", content: "🦘", word: "跳", voice: "跳" },{ type: "img", content: "🤸", word: "蹦", voice: "蹦" },{ type: "img", content: "🙌", word: "拍手", voice: "拍手" },{ type: "img", content: "👋", word: "挥手", voice: "挥手" }], answer: 0 }
+                ]
+            },
+            plant: {
+                id: 'plant',
+                title: '植物花草',
+                icon: 'fas fa-seedling',
+                description: '认识花草树木',
+                color: '#00b894',
+                questions: [
+                    { question: "请选择'小花'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌲", word: "松树", voice: "松树" },{ type: "img", content: "🌱", word: "小草", voice: "小草" },{ type: "img", content: "🌳", word: "大树", voice: "大树" }], answer: 0 },
+                    { question: "请选择'松树'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌲", word: "松树", voice: "松树" },{ type: "img", content: "🌱", word: "小草", voice: "小草" },{ type: "img", content: "🌳", word: "大树", voice: "大树" }], answer: 1 },
+                    { question: "请选择'小草'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌲", word: "松树", voice: "松树" },{ type: "img", content: "🌱", word: "小草", voice: "小草" },{ type: "img", content: "🌳", word: "大树", voice: "大树" }], answer: 2 },
+                    { question: "请选择'大树'", options: [{ type: "img", content: "🌸", word: "小花", voice: "小花" },{ type: "img", content: "🌲", word: "松树", voice: "松树" },{ type: "img", content: "🌱", word: "小草", voice: "小草" },{ type: "img", content: "🌳", word: "大树", voice: "大树" }], answer: 3 },
+                    { question: "请选择'叶子'", options: [{ type: "img", content: "🍃", word: "叶子", voice: "叶子" },{ type: "img", content: "🍂", word: "落叶", voice: "落叶" },{ type: "img", content: "🌹", word: "玫瑰", voice: "玫瑰" },{ type: "img", content: "🌻", word: "向日葵", voice: "向日葵" }], answer: 0 }
+                ]
+            },
+            poem: {
+                id: 'poem',
+                title: '古诗乐园',
+                icon: 'fas fa-book',
+                description: '幼儿经典古诗学习，感受传统文化',
+                color: '#8e44ad',
+                questions: [
+                    { 
+                        question: "静夜思\n床前明月光，疑是地上霜。\n举头望明月，__________。", 
+                        options: [
+                            { type: "img", content: "🏠", word: "低头思故乡", voice: "低头思故乡" },
+                            { type: "img", content: "🌍", word: "处处闻啼鸟", voice: "处处闻啼鸟" },
+                            { type: "img", content: "🏘️", word: "更上一层楼", voice: "更上一层楼" },
+                            { type: "img", content: "🏡", word: "粒粒皆辛苦", voice: "粒粒皆辛苦" }
+                        ], 
+                        answer: 0,
+                        speakText: "静夜思，床前明月光，疑是地上霜。举头望明月"
+                    },
+                    { 
+                        question: "咏鹅\n鹅鹅鹅，曲项向天歌。\n白毛浮绿水，__________。", 
+                        options: [
+                            { type: "img", content: "🌊", word: "红掌拨清波", voice: "红掌拨清波" },
+                            { type: "img", content: "💧", word: "低头思故乡", voice: "低头思故乡" },
+                            { type: "img", content: "🌾", word: "处处闻啼鸟", voice: "处处闻啼鸟" },
+                            { type: "img", content: "🌊", word: "更上一层楼", voice: "更上一层楼" }
+                        ], 
+                        answer: 0,
+                        speakText: "咏鹅，鹅鹅鹅，曲项向天歌。白毛浮绿水"
+                    },
+                    { 
+                        question: "悯农\n锄禾日当午，汗滴禾下土。\n谁知盘中餐，__________。", 
+                        options: [
+                            { type: "img", content: "💪", word: "粒粒皆辛苦", voice: "粒粒皆辛苦" },
+                            { type: "img", content: "😩", word: "红掌拨清波", voice: "红掌拨清波" },
+                            { type: "img", content: "🏋️", word: "低头思故乡", voice: "低头思故乡" },
+                            { type: "img", content: "🤕", word: "处处闻啼鸟", voice: "处处闻啼鸟" }
+                        ], 
+                        answer: 0,
+                        speakText: "悯农，锄禾日当午，汗滴禾下土。谁知盘中餐"
+                    },
+                    { 
+                        question: "春晓\n春眠不觉晓，处处闻啼鸟。\n夜来风雨声，__________。", 
+                        options: [
+                            { type: "img", content: "🌸", word: "花落知多少", voice: "花落知多少" },
+                            { type: "img", content: "🐦", word: "粒粒皆辛苦", voice: "粒粒皆辛苦" },
+                            { type: "img", content: "🌧️", word: "红掌拨清波", voice: "红掌拨清波" },
+                            { type: "img", content: "☀️", word: "低头思故乡", voice: "低头思故乡" }
+                        ], 
+                        answer: 0,
+                        speakText: "春晓，春眠不觉晓，处处闻啼鸟。夜来风雨声"
+                    },
+                    { 
+                        question: "登鹳雀楼\n白日依山尽，黄河入海流。\n欲穷千里目，__________。", 
+                        options: [
+                            { type: "img", content: "🏔️", word: "更上一层楼", voice: "更上一层楼" },
+                            { type: "img", content: "🌊", word: "花落知多少", voice: "花落知多少" },
+                            { type: "img", content: "🏢", word: "粒粒皆辛苦", voice: "粒粒皆辛苦" },
+                            { type: "img", content: "☀️", word: "红掌拨清波", voice: "红掌拨清波" }
+                        ], 
+                        answer: 0,
+                        speakText: "登鹳雀楼，白日依山尽，黄河入海流。欲穷千里目"
+                    }
+                ]
+            },
+            english: {
+                id: 'english',
+                title: '英语启蒙',
+                icon: 'fas fa-language',
+                description: '幼儿基础英语单词学习',
+                color: '#2980b9',
+                questions: [
+                    { question: "请选择'apple苹果'", options: [{ type: "img", content: "🍎", word: "apple", voice: "apple" },{ type: "img", content: "🍌", word: "banana", voice: "banana" },{ type: "img", content: "🍊", word: "orange", voice: "orange" },{ type: "img", content: "🍇", word: "grape", voice: "grape" }], answer: 0 },
+                    { question: "请选择'banana香蕉'", options: [{ type: "img", content: "🍎", word: "apple", voice: "apple" },{ type: "img", content: "🍌", word: "banana", voice: "banana" },{ type: "img", content: "🍊", word: "orange", voice: "orange" },{ type: "img", content: "🍇", word: "grape", voice: "grape" }], answer: 1 },
+                    { question: "请选择'dog狗'", options: [{ type: "img", content: "🐶", word: "dog", voice: "dog" },{ type: "img", content: "🐱", word: "cat", voice: "cat" },{ type: "img", content: "🐦", word: "bird", voice: "bird" },{ type: "img", content: "🐟", word: "fish", voice: "fish" }], answer: 0 },
+                    { question: "请选择'cat猫'", options: [{ type: "img", content: "🐶", word: "dog", voice: "dog" },{ type: "img", content: "🐱", word: "cat", voice: "cat" },{ type: "img", content: "🐦", word: "bird", voice: "bird" },{ type: "img", content: "🐟", word: "fish", voice: "fish" }], answer: 1 },
+                    { question: "请选择'red红色'", options: [{ type: "img", content: "🔴", word: "red", voice: "red" },{ type: "img", content: "🔵", word: "blue", voice: "blue" },{ type: "img", content: "🟡", word: "yellow", voice: "yellow" },{ type: "img", content: "🟢", word: "green", voice: "green" }], answer: 0 },
+                    { question: "请选择'one一'", options: [{ type: "img", content: "1️⃣", word: "one", voice: "one" },{ type: "img", content: "2️⃣", word: "two", voice: "two" },{ type: "img", content: "3️⃣", word: "three", voice: "three" },{ type: "img", content: "4️⃣", word: "four", voice: "four" }], answer: 0 },
+                    { question: "请选择'mom妈妈'", options: [{ type: "img", content: "👩", word: "mom", voice: "mom" },{ type: "img", content: "👨", word: "dad", voice: "dad" },{ type: "img", content: "👧", word: "sister", voice: "sister" },{ type: "img", content: "👦", word: "brother", voice: "brother" }], answer: 0 },
+                    { question: "请选择'car汽车'", options: [{ type: "img", content: "🚗", word: "car", voice: "car" },{ type: "img", content: "✈️", word: "plane", voice: "plane" },{ type: "img", content: "🚢", word: "ship", voice: "ship" },{ type: "img", content: "🚲", word: "bike", voice: "bike" }], answer: 0 }
+                ]
+            },
+            safety: {
+    id: 'safety',
+    title: '安全常识',
+    icon: 'fas fa-shield-alt',
+    description: '安全知识学习',
+    color: '#e74c3c',
+    questions: [
+      { question: "请选择'红绿灯'", options: [{ type: "img", content: "🚦", word: "红绿灯", voice: "红绿灯" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "🚑", word: "救护车", voice: "救护车" },{ type: "img", content: "🚓", word: "警车", voice: "警车" }], answer: 0 },
+      { question: "请选择'防火'", options: [{ type: "img", content: "🚦", word: "红绿灯", voice: "红绿灯" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "🚰", word: "水", voice: "水" },{ type: "img", content: "⚡", word: "电", voice: "电" }], answer: 1 },
+      { question: "请选择'小心触电'", options: [{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "🚰", word: "水", voice: "水" },{ type: "img", content: "⚡", word: "电", voice: "电" },{ type: "img", content: "🚦", word: "红绿灯", voice: "红绿灯" }], answer: 2 },
+      { question: "请选择'防溺水'", options: [{ type: "img", content: "🌊", word: "水", voice: "水" },{ type: "img", content: "⚡", word: "电", voice: "电" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "🚦", word: "红绿灯", voice: "红绿灯" }], answer: 0 },
+      { question: "请选择'陌生人'", options: [{ type: "img", content: "👤", word: "家人", voice: "家人" },{ type: "img", content: "🙍", word: "陌生人", voice: "陌生人" },{ type: "img", content: "👨‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" }], answer: 1 }
+    ]
+  },
+            habit: {
+    id: 'habit',
+    title: '好习惯养成',
+    icon: 'fas fa-heart',
+    description: '生活好习惯学习',
+    color: '#1abc9c',
+    questions: [
+      { question: "请选择'洗手'", options: [{ type: "img", content: "🧼", word: "洗手", voice: "洗手" },{ type: "img", content: "🦷", word: "刷牙", voice: "刷牙" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" },{ type: "img", content: "🍽️", word: "吃饭", voice: "吃饭" }], answer: 0 },
+      { question: "请选择'刷牙'", options: [{ type: "img", content: "🧼", word: "洗手", voice: "洗手" },{ type: "img", content: "🦷", word: "刷牙", voice: "刷牙" },{ type: "img", content: "🧹", word: "打扫", voice: "打扫" },{ type: "img", content: "👕", word: "穿衣", voice: "穿衣" }], answer: 1 },
+      { question: "请选择'早睡早起'", options: [{ type: "img", content: "🌙", word: "晚上", voice: "晚上" },{ type: "img", content: "☀️", word: "早上", voice: "早上" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" },{ type: "img", content: "🚰", word: "喝水", voice: "喝水" }], answer: 1 },
+      { question: "请选择'整理玩具'", options: [{ type: "img", content: "🧸", word: "玩具", voice: "玩具" },{ type: "img", content: "📚", word: "书本", voice: "书本" },{ type: "img", content: "👕", word: "衣服", voice: "衣服" },{ type: "img", content: "🍽️", word: "碗筷", voice: "碗筷" }], answer: 0 },
+      { question: "请选择'自己穿衣'", options: [{ type: "img", content: "🦷", word: "刷牙", voice: "刷牙" },{ type: "img", content: "👕", word: "穿衣", voice: "穿衣" },{ type: "img", content: "🧼", word: "洗手", voice: "洗手" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" }], answer: 1 }
+    ]
+  },
+  etiquette: {
+    id: 'etiquette',
+    title: '公共礼仪',
+    icon: 'fas fa-handshake',
+    description: '文明礼仪认知',
+    color: '#f39c12',
+    questions: [
+      { question: "请选择'排队'", options: [{ type: "img", content: "🚶‍♀️🚶‍♂️", word: "排队", voice: "排队" },{ type: "img", content: "🏃", word: "奔跑", voice: "奔跑" },{ type: "img", content: "🙋", word: "举手", voice: "举手" },{ type: "img", content: "🤫", word: "安静", voice: "安静" }], answer: 0 },
+      { question: "请选择'分享'", options: [{ type: "img", content: "🤝", word: "分享", voice: "分享" },{ type: "img", content: "🚫", word: "不行", voice: "不行" },{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "😡", word: "生气", voice: "生气" }], answer: 0 },
+      { question: "请选择'问好'", options: [{ type: "img", content: "🙋", word: "举手", voice: "举手" },{ type: "img", content: "👋", word: "问好", voice: "问好" },{ type: "img", content: "🤫", word: "安静", voice: "安静" },{ type: "img", content: "🚶‍♀️", word: "走路", voice: "走路" }], answer: 1 },
+      { question: "请选择'用餐礼仪'", options: [{ type: "img", content: "🍽️", word: "吃饭", voice: "吃饭" },{ type: "img", content: "🍬", word: "糖果", voice: "糖果" },{ type: "img", content: "🍎", word: "水果", voice: "水果" },{ type: "img", content: "🍞", word: "面包", voice: "面包" }], answer: 0 },
+      { question: "请选择'谢谢'", options: [{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "😡", word: "生气", voice: "生气" },{ type: "img", content: "🤝", word: "分享", voice: "分享" },{ type: "img", content: "👋", word: "再见", voice: "再见" }], answer: 0 }
+    ]
+  },
+  emotion: {
+    id: 'emotion',
+    title: '情绪认知',
+    icon: 'fas fa-smile',
+    description: '认识自己的情绪',
+    color: '#8e44ad',
+    questions: [
+      { question: "请选择'开心'", options: [{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "😢", word: "难过", voice: "难过" },{ type: "img", content: "😠", word: "生气", voice: "生气" },{ type: "img", content: "😨", word: "害怕", voice: "害怕" }], answer: 0 },
+      { question: "请选择'难过'", options: [{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "😢", word: "难过", voice: "难过" },{ type: "img", content: "😃", word: "大笑", voice: "大笑" },{ type: "img", content: "😴", word: "睡觉", voice: "睡觉" }], answer: 1 },
+      { question: "请选择'生气'", options: [{ type: "img", content: "😢", word: "难过", voice: "难过" },{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "😠", word: "生气", voice: "生气" },{ type: "img", content: "😨", word: "害怕", voice: "害怕" }], answer: 2 },
+      { question: "请选择'害怕'", options: [{ type: "img", content: "😠", word: "生气", voice: "生气" },{ type: "img", content: "😨", word: "害怕", voice: "害怕" },{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "😢", word: "难过", voice: "难过" }], answer: 1 },
+      { question: "请选择'勇敢'", options: [{ type: "img", content: "🦸", word: "勇敢", voice: "勇敢" },{ type: "img", content: "😨", word: "害怕", voice: "害怕" },{ type: "img", content: "😠", word: "生气", voice: "生气" },{ type: "img", content: "😢", word: "难过", voice: "难过" }], answer: 0 }
+    ]
+  },
+  rule: {
+    id: 'rule',
+    title: '规则意识',
+    icon: 'fas fa-list-alt',
+    description: '遵守规则学习',
+    color: '#34495e',
+    questions: [
+      { question: "请选择'幼儿园规则'", options: [{ type: "img", content: "🏫", word: "幼儿园", voice: "幼儿园" },{ type: "img", content: "🏠", word: "家", voice: "家" },{ type: "img", content: "🏬", word: "商场", voice: "商场" },{ type: "img", content: "🏥", word: "医院", voice: "医院" }], answer: 0 },
+      { question: "请选择'游戏规则'", options: [{ type: "img", content: "🎮", word: "游戏", voice: "游戏" },{ type: "img", content: "📚", word: "学习", voice: "学习" },{ type: "img", content: "🍽️", word: "吃饭", voice: "吃饭" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" }], answer: 0 },
+      { question: "请选择'不打闹'", options: [{ type: "img", content: "🤼", word: "打闹", voice: "打闹" },{ type: "img", content: "🚫", word: "禁止", voice: "禁止" },{ type: "img", content: "🏃", word: "奔跑", voice: "奔跑" },{ type: "img", content: "🤸", word: "跳跃", voice: "跳跃" }], answer: 1 },
+      { question: "请选择'爱护公物'", options: [{ type: "img", content: "🪑", word: "椅子", voice: "椅子" },{ type: "img", content: "🧸", word: "玩具", voice: "玩具" },{ type: "img", content: "📚", word: "书本", voice: "书本" },{ type: "img", content: "❤️", word: "爱护", voice: "爱护" }], answer: 3 },
+      { question: "请选择'讲秩序'", options: [{ type: "img", content: "🚶‍♀️🚶‍♂️", word: "秩序", voice: "秩序" },{ type: "img", content: "🏃", word: "奔跑", voice: "奔跑" },{ type: "img", content: "🤼", word: "打闹", voice: "打闹" },{ type: "img", content: "🤸", word: "跳跃", voice: "跳跃" }], answer: 0 }
+    ]
+  },
+  family: {
+    id: 'family',
+    title: '家庭关系',
+    icon: 'fas fa-users',
+    description: '家庭成员认知',
+    color: '#ff6b81',
+    questions: [
+      { question: "请选择'爸爸'", options: [{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" },{ type: "img", content: "👩", word: "妈妈", voice: "妈妈" },{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" }], answer: 0 },
+      { question: "请选择'妈妈'", options: [{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" },{ type: "img", content: "👩", word: "妈妈", voice: "妈妈" },{ type: "img", content: "👦", word: "哥哥", voice: "哥哥" },{ type: "img", content: "👧", word: "妹妹", voice: "妹妹" }], answer: 1 },
+      { question: "请选择'爷爷'", options: [{ type: "img", content: "👩", word: "妈妈", voice: "妈妈" },{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" },{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" }], answer: 1 },
+      { question: "请选择'奶奶'", options: [{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" },{ type: "img", content: "👩", word: "妈妈", voice: "妈妈" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" }], answer: 3 },
+      { question: "请选择'宝宝'", options: [{ type: "img", content: "👶", word: "宝宝", voice: "宝宝" },{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" },{ type: "img", content: "👨", word: "爸爸", voice: "爸爸" }], answer: 0 }
+    ]
+  },
+  kindergarten: {
+    id: 'kindergarten',
+    title: '幼儿园生活',
+    icon: 'fas fa-school',
+    description: '幼儿园生活认知',
+    color: '#00a8ff',
+    questions: [
+      { question: "请选择'老师'", options: [{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👨‍⚕️", word: "医生", voice: "医生" },{ type: "img", content: "👷", word: "工人", voice: "工人" }], answer: 0 },
+      { question: "请选择'同学'", options: [{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" },{ type: "img", content: "👧👦", word: "同学", voice: "同学" },{ type: "img", content: "👴", word: "爷爷", voice: "爷爷" },{ type: "img", content: "👵", word: "奶奶", voice: "奶奶" }], answer: 1 },
+      { question: "请选择'教室'", options: [{ type: "img", content: "🏠", word: "家", voice: "家" },{ type: "img", content: "🏫", word: "教室", voice: "教室" },{ type: "img", content: "🏥", word: "医院", voice: "医院" },{ type: "img", content: "🏬", word: "商场", voice: "商场" }], answer: 1 },
+      { question: "请选择'滑梯'", options: [{ type: "img", content: "🛝", word: "滑梯", voice: "滑梯" },{ type: "img", content: "🪑", word: "椅子", voice: "椅子" },{ type: "img", content: "📚", word: "书本", voice: "书本" },{ type: "img", content: "🍽️", word: "碗筷", voice: "碗筷" }], answer: 0 },
+      { question: "请选择'做游戏'", options: [{ type: "img", content: "🎮", word: "游戏", voice: "游戏" },{ type: "img", content: "📝", word: "写字", voice: "写字" },{ type: "img", content: "🍽️", word: "吃饭", voice: "吃饭" },{ type: "img", content: "🛏️", word: "睡觉", voice: "睡觉" }], answer: 0 }
+    ]
+  },
+  community: {
+    id: 'community',
+    title: '社区认知',
+    icon: 'fas fa-map-marker-alt',
+    description: '社区场所认知',
+    color: '#00d2d3',
+    questions: [
+      { question: "请选择'超市'", options: [{ type: "img", content: "🏪", word: "超市", voice: "超市" },{ type: "img", content: "🏥", word: "医院", voice: "医院" },{ type: "img", content: "🏫", word: "学校", voice: "学校" },{ type: "img", content: "🏦", word: "银行", voice: "银行" }], answer: 0 },
+      { question: "请选择'医院'", options: [{ type: "img", content: "🏪", word: "超市", voice: "超市" },{ type: "img", content: "🏥", word: "医院", voice: "医院" },{ type: "img", content: "🏬", word: "商场", voice: "商场" },{ type: "img", content: "🏡", word: "家", voice: "家" }], answer: 1 },
+      { question: "请选择'公园'", options: [{ type: "img", content: "🏞️", word: "公园", voice: "公园" },{ type: "img", content: "🏥", word: "医院", voice: "医院" },{ type: "img", content: "🏪", word: "超市", voice: "超市" },{ type: "img", content: "🏫", word: "学校", voice: "学校" }], answer: 0 },
+      { question: "请选择'警察'", options: [{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👷", word: "工人", voice: "工人" },{ type: "img", content: "👩‍🏫", word: "老师", voice: "老师" }], answer: 1 },
+      { question: "请选择'消防员'", options: [{ type: "img", content: "👨‍🚒", word: "消防员", voice: "消防员" },{ type: "img", content: "👮", word: "警察", voice: "警察" },{ type: "img", content: "👩‍🍳", word: "厨师", voice: "厨师" },{ type: "img", content: "👷", word: "工人", voice: "工人" }], answer: 0 }
+    ]
+  },
+  country: {
+    id: 'country',
+    title: '国家与民族',
+    icon: 'fas fa-flag',
+    description: '国家民族认知',
+    color: '#e84118',
+    questions: [
+      { question: "请选择'国旗'", options: [{ type: "img", content: "🇨🇳", word: "国旗", voice: "国旗" },{ type: "img", content: "🏳️", word: "白旗", voice: "白旗" },{ type: "img", content: "🏴", word: "黑旗", voice: "黑旗" },{ type: "img", content: "🏁", word: "赛车旗", voice: "赛车旗" }], answer: 0 },
+      { question: "请选择'北京'", options: [{ type: "img", content: "🗼", word: "北京", voice: "北京" },{ type: "img", content: "🗽", word: "纽约", voice: "纽约" },{ type: "img", content: "🏯", word: "东京", voice: "东京" },{ type: "img", content: "🏰", word: "伦敦", voice: "伦敦" }], answer: 0 },
+      { question: "请选择'唐装'", options: [{ type: "img", content: "👘", word: "和服", voice: "和服" },{ type: "img", content: "👗", word: "裙子", voice: "裙子" },{ type: "img", content: "👕", word: "T恤", voice: "T恤" },{ type: "img", content: "🧧", word: "唐装", voice: "唐装" }], answer: 3 },
+      { question: "请选择'中国'", options: [{ type: "img", content: "🇨🇳", word: "中国", voice: "中国" },{ type: "img", content: "🇺🇸", word: "美国", voice: "美国" },{ type: "img", content: "🇯🇵", word: "日本", voice: "日本" },{ type: "img", content: "🇬🇧", word: "英国", voice: "英国" }], answer: 0 },
+      { question: "请选择'长城'", options: [{ type: "img", content: "🏯", word: "长城", voice: "长城" },{ type: "img", content: "🗼", word: "铁塔", voice: "铁塔" },{ type: "img", content: "🗽", word: "自由女神", voice: "自由女神" },{ type: "img", content: "🏰", word: "城堡", voice: "城堡" }], answer: 0 }
+    ]
+  },
+  polite: {
+    id: 'polite',
+    title: '礼貌用语',
+    icon: 'fas fa-comments',
+    description: '文明礼貌用语',
+    color: '#ffda79',
+    questions: [
+      { question: "请选择'谢谢'", options: [{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "🙇", word: "对不起", voice: "对不起" },{ type: "img", content: "🙋", word: "请问", voice: "请问" },{ type: "img", content: "👋", word: "再见", voice: "再见" }], answer: 0 },
+      { question: "请选择'对不起'", options: [{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "🙇", word: "对不起", voice: "对不起" },{ type: "img", content: "😊", word: "开心", voice: "开心" },{ type: "img", content: "👋", word: "再见", voice: "再见" }], answer: 1 },
+      { question: "请选择'请'", options: [{ type: "img", content: "🙏", word: "请", voice: "请" },{ type: "img", content: "🙇", word: "对不起", voice: "对不起" },{ type: "img", content: "👋", word: "再见", voice: "再见" },{ type: "img", content: "😊", word: "开心", voice: "开心" }], answer: 0 },
+      { question: "请选择'打扰了'", options: [{ type: "img", content: "🤫", word: "安静", voice: "安静" },{ type: "img", content: "🙋", word: "打扰了", voice: "打扰了" },{ type: "img", content: "🏃", word: "奔跑", voice: "奔跑" },{ type: "img", content: "🤸", word: "跳跃", voice: "跳跃" }], answer: 1 },
+      { question: "请选择'没关系'", options: [{ type: "img", content: "🙇", word: "对不起", voice: "对不起" },{ type: "img", content: "🙂", word: "没关系", voice: "没关系" },{ type: "img", content: "🙏", word: "谢谢", voice: "谢谢" },{ type: "img", content: "👋", word: "再见", voice: "再见" }], answer: 1 }
+    ]
+  },
+  insect: {
+    id: 'insect',
+    title: '昆虫世界',
+    icon: 'fas fa-bug',
+    description: '常见昆虫认知',
+    color: '#27ae60',
+    questions: [
+      { question: "请选择'蝴蝶'", options: [{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" },{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" },{ type: "img", content: "🐝", word: "蜜蜂", voice: "蜜蜂" },{ type: "img", content: "🐞", word: "瓢虫", voice: "瓢虫" }], answer: 0 },
+      { question: "请选择'蚂蚁'", options: [{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" },{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" },{ type: "img", content: "🐌", word: "蜗牛", voice: "蜗牛" },{ type: "img", content: "🕷️", word: "蜘蛛", voice: "蜘蛛" }], answer: 1 },
+      { question: "请选择'蜜蜂'", options: [{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" },{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" },{ type: "img", content: "🐝", word: "蜜蜂", voice: "蜜蜂" },{ type: "img", content: "🐞", word: "瓢虫", voice: "瓢虫" }], answer: 2 },
+      { question: "请选择'瓢虫'", options: [{ type: "img", content: "🐝", word: "蜜蜂", voice: "蜜蜂" },{ type: "img", content: "🐞", word: "瓢虫", voice: "瓢虫" },{ type: "img", content: "🐜", word: "蚂蚁", voice: "蚂蚁" },{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" }], answer: 1 },
+      { question: "请选择'蜻蜓'", options: [{ type: "img", content: "🦋", word: "蝴蝶", voice: "蝴蝶" },{ type: "img", content: "🐝", word: "蜜蜂", voice: "蜜蜂" },{ type: "img", content: "🪰", word: "蜻蜓", voice: "蜻蜓" },{ type: "img", content: "🐌", word: "蜗牛", voice: "蜗牛" }], answer: 2 }
+    ]
+  },
+  ocean: {
+    id: 'ocean',
+    title: '海洋生物',
+    icon: 'fas fa-fish',
+    description: '海洋动物认知',
+    color: '#0984e3',
+    questions: [
+      { question: "请选择'小鱼'", options: [{ type: "img", content: "🐠", word: "小鱼", voice: "小鱼" },{ type: "img", content: "🐬", word: "海豚", voice: "海豚" },{ type: "img", content: "⭐", word: "海星", voice: "海星" },{ type: "img", content: "🦀", word: "螃蟹", voice: "螃蟹" }], answer: 0 },
+      { question: "请选择'海豚'", options: [{ type: "img", content: "🐠", word: "小鱼", voice: "小鱼" },{ type: "img", content: "🐬", word: "海豚", voice: "海豚" },{ type: "img", content: "🦈", word: "鲨鱼", voice: "鲨鱼" },{ type: "img", content: "🐢", word: "海龟", voice: "海龟" }], answer: 1 },
+      { question: "请选择'海星'", options: [{ type: "img", content: "⭐", word: "海星", voice: "海星" },{ type: "img", content: "🦀", word: "螃蟹", voice: "螃蟹" },{ type: "img", content: "🐬", word: "海豚", voice: "海豚" },{ type: "img", content: "🐠", word: "小鱼", voice: "小鱼" }], answer: 0 },
+      { question: "请选择'螃蟹'", options: [{ type: "img", content: "⭐", word: "海星", voice: "海星" },{ type: "img", content: "🐢", word: "海龟", voice: "海龟" },{ type: "img", content: "🦀", word: "螃蟹", voice: "螃蟹" },{ type: "img", content: "🦈", word: "鲨鱼", voice: "鲨鱼" }], answer: 2 },
+      { question: "请选择'海龟'", options: [{ type: "img", content: "🐢", word: "海龟", voice: "海龟" },{ type: "img", content: "🦀", word: "螃蟹", voice: "螃蟹" },{ type: "img", content: "⭐", word: "海星", voice: "海星" },{ type: "img", content: "🐠", word: "小鱼", voice: "小鱼" }], answer: 0 }
+    ]
+  },
+  astronomy: {
+    id: 'astronomy',
+    title: '天文认知',
+    icon: 'fas fa-moon',
+    description: '天文现象认知',
+    color: '#6c5ce7',
+    questions: [
+      { question: "请选择'太阳'", options: [{ type: "img", content: "☀️", word: "太阳", voice: "太阳" },{ type: "img", content: "🌙", word: "月亮", voice: "月亮" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 0 },
+      { question: "请选择'月亮'", options: [{ type: "img", content: "☀️", word: "太阳", voice: "太阳" },{ type: "img", content: "🌙", word: "月亮", voice: "月亮" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 1 },
+      { question: "请选择'星星'", options: [{ type: "img", content: "🌙", word: "月亮", voice: "月亮" },{ type: "img", content: "☀️", word: "太阳", voice: "太阳" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 2 },
+      { question: "请选择'白天'", options: [{ type: "img", content: "☀️", word: "白天", voice: "白天" },{ type: "img", content: "🌙", word: "晚上", voice: "晚上" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 0 },
+      { question: "请选择'晚上'", options: [{ type: "img", content: "☀️", word: "白天", voice: "白天" },{ type: "img", content: "🌙", word: "晚上", voice: "晚上" },{ type: "img", content: "⭐", word: "星星", voice: "星星" },{ type: "img", content: "☁️", word: "云朵", voice: "云朵" }], answer: 1 }
+    ]
+  },
+  science: {
+    id: 'science',
+    title: '小小科学家',
+    icon: 'fas fa-flask',
+    description: '科学小常识认知',
+    color: '#00cec9',
+    questions: [
+      { question: "请选择'水'", options: [{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "💨", word: "空气", voice: "空气" },{ type: "img", content: "👤", word: "影子", voice: "影子" }], answer: 0 },
+      { question: "请选择'火'", options: [{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "💨", word: "空气", voice: "空气" },{ type: "img", content: "👤", word: "影子", voice: "影子" }], answer: 1 },
+      { question: "请选择'影子'", options: [{ type: "img", content: "👤", word: "影子", voice: "影子" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" },{ type: "img", content: "💨", word: "空气", voice: "空气" }], answer: 0 },
+      { question: "请选择'沉'", options: [{ type: "img", content: "⬇️", word: "沉", voice: "沉" },{ type: "img", content: "⬆️", word: "浮", voice: "浮" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 0 },
+      { question: "请选择'浮'", options: [{ type: "img", content: "⬇️", word: "沉", voice: "沉" },{ type: "img", content: "⬆️", word: "浮", voice: "浮" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🔥", word: "火", voice: "火" }], answer: 1 }
+    ]
+  },
+  instrument: {
+    id: 'instrument',
+    title: '音乐乐器',
+    icon: 'fas fa-music',
+    description: '乐器认知',
+    color: '#fd79a8',
+    questions: [
+      { question: "请选择'小鼓'", options: [{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" },{ type: "img", content: "🎸", word: "吉他", voice: "吉他" },{ type: "img", content: "🎺", word: "喇叭", voice: "喇叭" }], answer: 0 },
+      { question: "请选择'钢琴'", options: [{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" },{ type: "img", content: "🎸", word: "吉他", voice: "吉他" },{ type: "img", content: "🎺", word: "喇叭", voice: "喇叭" }], answer: 1 },
+      { question: "请选择'吉他'", options: [{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" },{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🎸", word: "吉他", voice: "吉他" },{ type: "img", content: "🎺", word: "喇叭", voice: "喇叭" }], answer: 2 },
+      { question: "请选择'铃铛'", options: [{ type: "img", content: "🔔", word: "铃铛", voice: "铃铛" },{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" },{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🎸", word: "吉他", voice: "吉他" }], answer: 0 },
+      { question: "请选择'沙锤'", options: [{ type: "img", content: "🥁", word: "小鼓", voice: "小鼓" },{ type: "img", content: "🔔", word: "铃铛", voice: "铃铛" },{ type: "img", content: "🪇", word: "沙锤", voice: "沙锤" },{ type: "img", content: "🎹", word: "钢琴", voice: "钢琴" }], answer: 2 }
+    ]
+  },
+  art: {
+    id: 'art',
+    title: '美术色彩',
+    icon: 'fas fa-paint-brush',
+    description: '美术材料认知',
+    color: '#ff9f1a',
+    questions: [
+      { question: "请选择'画笔'", options: [{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 0 },
+      { question: "请选择'颜料'", options: [{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 1 },
+      { question: "请选择'彩纸'", options: [{ type: "img", content: "📄", word: "彩纸", voice: "彩纸" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" }], answer: 0 },
+      { question: "请选择'黏土'", options: [{ type: "img", content: "🧱", word: "黏土", voice: "黏土" },{ type: "img", content: "📄", word: "彩纸", voice: "彩纸" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" }], answer: 0 },
+      { question: "请选择'手工'", options: [{ type: "img", content: "✂️📄", word: "手工", voice: "手工" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 0 }
+    ]
+  },
+  dance: {
+    id: 'dance',
+    title: '舞蹈律动',
+    icon: 'fas fa-walking',
+    description: '舞蹈动作认知',
+    color: '#ff6b6b',
+    questions: [
+      { question: "请选择'跳舞'", options: [{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🚶", word: "走路", voice: "走路" },{ type: "img", content: "🤸", word: "跳跃", voice: "跳跃" }], answer: 0 },
+      { question: "请选择'律动'", options: [{ type: "img", content: "🎵", word: "律动", voice: "律动" },{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🚶", word: "走路", voice: "走路" }], answer: 0 },
+      { question: "请选择'拍手'", options: [{ type: "img", content: "👏", word: "拍手", voice: "拍手" },{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" },{ type: "img", content: "🎵", word: "律动", voice: "律动" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" }], answer: 0 },
+      { question: "请选择'转圈'", options: [{ type: "img", content: "🔄", word: "转圈", voice: "转圈" },{ type: "img", content: "👏", word: "拍手", voice: "拍手" },{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" },{ type: "img", content: "🎵", word: "律动", voice: "律动" }], answer: 0 },
+      { question: "请选择'儿歌'", options: [{ type: "img", content: "🎶", word: "儿歌", voice: "儿歌" },{ type: "img", content: "🔄", word: "转圈", voice: "转圈" },{ type: "img", content: "👏", word: "拍手", voice: "拍手" },{ type: "img", content: "💃", word: "跳舞", voice: "跳舞" }], answer: 0 }
+    ]
+  },
+  sports: {
+    id: 'sports',
+    title: '体育游戏',
+    icon: 'fas fa-football-ball',
+    description: '体育活动认知',
+    color: '#2ed573',
+    questions: [
+      { question: "请选择'跑步'", options: [{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🤾", word: "跳跃", voice: "跳跃" },{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" }], answer: 0 },
+      { question: "请选择'跳跃'", options: [{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🤾", word: "跳跃", voice: "跳跃" },{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" }], answer: 1 },
+      { question: "请选择'足球'", options: [{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🤾", word: "跳跃", voice: "跳跃" }], answer: 0 },
+      { question: "请选择'篮球'", options: [{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" },{ type: "img", content: "🤾", word: "跳跃", voice: "跳跃" }], answer: 1 },
+      { question: "请选择'平衡'", options: [{ type: "img", content: "⚖️", word: "平衡", voice: "平衡" },{ type: "img", content: "⚽", word: "足球", voice: "足球" },{ type: "img", content: "🏀", word: "篮球", voice: "篮球" },{ type: "img", content: "🏃", word: "跑步", voice: "跑步" }], answer: 0 }
+    ]
+  },
+  paperfold: {
+    id: 'paperfold',
+    title: '手工折纸',
+    icon: 'fas fa-paper-plane',
+    description: '手工折纸认知',
+    color: '#ff7979',
+    questions: [
+      { question: "请选择'折纸'", options: [{ type: "img", content: "📝", word: "折纸", voice: "折纸" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" },{ type: "img", content: "🎨", word: "颜料", voice: "颜料" }], answer: 0 },
+      { question: "请选择'纸飞机'", options: [{ type: "img", content: "✈️", word: "纸飞机", voice: "纸飞机" },{ type: "img", content: "📝", word: "折纸", voice: "折纸" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" },{ type: "img", content: "🖌️", word: "画笔", voice: "画笔" }], answer: 0 },
+      { question: "请选择'小船'", options: [{ type: "img", content: "🚢", word: "小船", voice: "小船" },{ type: "img", content: "✈️", word: "纸飞机", voice: "纸飞机" },{ type: "img", content: "📝", word: "折纸", voice: "折纸" },{ type: "img", content: "✂️", word: "剪刀", voice: "剪刀" }], answer: 0 },
+      { question: "请选择'青蛙'", options: [{ type: "img", content: "🐸", word: "青蛙", voice: "青蛙" },{ type: "img", content: "🚢", word: "小船", voice: "小船" },{ type: "img", content: "✈️", word: "纸飞机", voice: "纸飞机" },{ type: "img", content: "📝", word: "折纸", voice: "折纸" }], answer: 0 },
+      { question: "请选择'花朵'", options: [{ type: "img", content: "🌸", word: "花朵", voice: "花朵" },{ type: "img", content: "🐸", word: "青蛙", voice: "青蛙" },{ type: "img", content: "🚢", word: "小船", voice: "小船" },{ type: "img", content: "✈️", word: "纸飞机", voice: "纸飞机" }], answer: 0 }
+    ]
+  },
+  rhyme: {
+    id: 'rhyme',
+    title: '儿歌童谣',
+    icon: 'fas fa-microphone',
+    description: '儿歌童谣学习',
+    color: '#ff6b9d',
+    questions: [
+      { question: "请选择'小星星'", options: [{ type: "img", content: "⭐", word: "小星星", voice: "小星星" },{ type: "img", content: "🐦", word: "小燕子", voice: "小燕子" },{ type: "img", content: "🐺", word: "大灰狼", voice: "大灰狼" },{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" }], answer: 0 },
+      { question: "请选择'小燕子'", options: [{ type: "img", content: "⭐", word: "小星星", voice: "小星星" },{ type: "img", content: "🐦", word: "小燕子", voice: "小燕子" },{ type: "img", content: "🐺", word: "大灰狼", voice: "大灰狼" },{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" }], answer: 1 },
+      { question: "请选择'小兔子'", options: [{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" },{ type: "img", content: "⭐", word: "小星星", voice: "小星星" },{ type: "img", content: "🐦", word: "小燕子", voice: "小燕子" },{ type: "img", content: "🐺", word: "大灰狼", voice: "大灰狼" }], answer: 0 },
+      { question: "请选择'两只老虎'", options: [{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" },{ type: "img", content: "⭐", word: "小星星", voice: "小星星" },{ type: "img", content: "🐦", word: "小燕子", voice: "小燕子" }], answer: 0 },
+      { question: "请选择'数鸭子'", options: [{ type: "img", content: "🦆", word: "鸭子", voice: "鸭子" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "小兔子", voice: "小兔子" },{ type: "img", content: "⭐", word: "小星星", voice: "小星星" }], answer: 0 }
+    ]
+  },
+  riddle: {
+    id: 'riddle',
+    title: '谜语乐园',
+    icon: 'fas fa-lightbulb',
+    description: '幼儿谜语学习',
+    color: '#f9ca24',
+    questions: [
+      { question: "请选择'耳朵长'", options: [{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐹", word: "老虎", voice: "老虎" }], answer: 0 },
+      { question: "请选择'红眼睛'", options: [{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐹", word: "老虎", voice: "老虎" }], answer: 0 },
+      { question: "请选择'喵喵叫'", options: [{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐹", word: "老虎", voice: "老虎" }], answer: 0 },
+      { question: "请选择'汪汪叫'", options: [{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" },{ type: "img", content: "🐹", word: "老虎", voice: "老虎" }], answer: 0 },
+      { question: "请选择'圆又圆'", options: [{ type: "img", content: "🍎", word: "苹果", voice: "苹果" },{ type: "img", content: "🐶", word: "小狗", voice: "小狗" },{ type: "img", content: "🐱", word: "小猫", voice: "小猫" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 0 }
+    ]
+  },
+  story: {
+    id: 'story',
+    title: '故事绘本',
+    icon: 'fas fa-book-open',
+    description: '故事绘本认知',
+    color: '#6c5ce7',
+    questions: [
+      { question: "请选择'故事书'", options: [{ type: "img", content: "📖", word: "故事书", voice: "故事书" },{ type: "img", content: "📝", word: "本子", voice: "本子" },{ type: "img", content: "✏️", word: "铅笔", voice: "铅笔" },{ type: "img", content: "🎒", word: "书包", voice: "书包" }], answer: 0 },
+      { question: "请选择'讲故事'", options: [{ type: "img", content: "👄", word: "讲故事", voice: "讲故事" },{ type: "img", content: "📖", word: "故事书", voice: "故事书" },{ type: "img", content: "📝", word: "本子", voice: "本子" },{ type: "img", content: "✏️", word: "铅笔", voice: "铅笔" }], answer: 0 },
+      { question: "请选择'三只小猪'", options: [{ type: "img", content: "🐷", word: "小猪", voice: "小猪" },{ type: "img", content: "👄", word: "讲故事", voice: "讲故事" },{ type: "img", content: "📖", word: "故事书", voice: "故事书" },{ type: "img", content: "📝", word: "本子", voice: "本子" }], answer: 0 },
+      { question: "请选择'小红帽'", options: [{ type: "img", content: "🧺", word: "小红帽", voice: "小红帽" },{ type: "img", content: "🐷", word: "小猪", voice: "小猪" },{ type: "img", content: "👄", word: "讲故事", voice: "讲故事" },{ type: "img", content: "📖", word: "故事书", voice: "故事书" }], answer: 0 },
+      { question: "请选择'龟兔赛跑'", options: [{ type: "img", content: "🐢🐰", word: "龟兔", voice: "龟兔" },{ type: "img", content: "🧺", word: "小红帽", voice: "小红帽" },{ type: "img", content: "🐷", word: "小猪", voice: "小猪" },{ type: "img", content: "👄", word: "讲故事", voice: "讲故事" }], answer: 0 }
+    ]
+  },
+  opposite: {
+    id: 'opposite',
+    title: '反义词认知',
+    icon: 'fas fa-exchange-alt',
+    description: '反义词学习',
+    color: '#00b894',
+    questions: [
+      { question: "请选择'大'", options: [{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" },{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" }], answer: 0 },
+      { question: "请选择'小'", options: [{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" },{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" }], answer: 1 },
+      { question: "请选择'高'", options: [{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" },{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" }], answer: 0 },
+      { question: "请选择'矮'", options: [{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" },{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" }], answer: 1 },
+      { question: "请选择'多'", options: [{ type: "img", content: "🍬🍬🍬", word: "多", voice: "多" },{ type: "img", content: "🍬", word: "少", voice: "少" },{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" }], answer: 0 }
+    ]
+  },
+  position: {
+    id: 'position',
+    title: '方位认知',
+    icon: 'fas fa-compass',
+    description: '方位方向认知',
+    color: '#ff7675',
+    questions: [
+      { question: "请选择'上面'", options: [{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" },{ type: "img", content: "➡️", word: "右边", voice: "右边" }], answer: 0 },
+      { question: "请选择'下面'", options: [{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" },{ type: "img", content: "➡️", word: "右边", voice: "右边" }], answer: 1 },
+      { question: "请选择'左边'", options: [{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" },{ type: "img", content: "➡️", word: "右边", voice: "右边" }], answer: 2 },
+      { question: "请选择'右边'", options: [{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" },{ type: "img", content: "➡️", word: "右边", voice: "右边" }], answer: 3 },
+      { question: "请选择'里面'", options: [{ type: "img", content: "📦", word: "里面", voice: "里面" },{ type: "img", content: "⬆️", word: "上面", voice: "上面" },{ type: "img", content: "⬇️", word: "下面", voice: "下面" },{ type: "img", content: "⬅️", word: "左边", voice: "左边" }], answer: 0 }
+    ]
+  },
+  time: {
+    id: 'time',
+    title: '时间认知',
+    icon: 'fas fa-clock',
+    description: '时间概念认知',
+    color: '#74b9ff',
+    questions: [
+      { question: "请选择'今天'", options: [{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" },{ type: "img", content: "📆", word: "昨天", voice: "昨天" },{ type: "img", content: "🕰️", word: "时钟", voice: "时钟" }], answer: 0 },
+      { question: "请选择'明天'", options: [{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" },{ type: "img", content: "📆", word: "昨天", voice: "昨天" },{ type: "img", content: "🕰️", word: "时钟", voice: "时钟" }], answer: 1 },
+      { question: "请选择'昨天'", options: [{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" },{ type: "img", content: "📆", word: "昨天", voice: "昨天" },{ type: "img", content: "🕰️", word: "时钟", voice: "时钟" }], answer: 2 },
+      { question: "请选择'星期一'", options: [{ type: "img", content: "1️⃣", word: "周一", voice: "周一" },{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" },{ type: "img", content: "📆", word: "昨天", voice: "昨天" }], answer: 0 },
+      { question: "请选择'时钟'", options: [{ type: "img", content: "🕰️", word: "时钟", voice: "时钟" },{ type: "img", content: "1️⃣", word: "周一", voice: "周一" },{ type: "img", content: "📅", word: "今天", voice: "今天" },{ type: "img", content: "⏰", word: "明天", voice: "明天" }], answer: 0 }
+    ]
+  },
+  compare: {
+    id: 'compare',
+    title: '对比认知',
+    icon: 'fas fa-balance-scale',
+    description: '对比概念认知',
+    color: '#a29bfe',
+    questions: [
+      { question: "请选择'长'", options: [{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" },{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" }], answer: 0 },
+      { question: "请选择'短'", options: [{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" },{ type: "img", content: "🐘", word: "大", voice: "大" },{ type: "img", content: "🐁", word: "小", voice: "小" }], answer: 1 },
+      { question: "请选择'高'", options: [{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" },{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" }], answer: 0 },
+      { question: "请选择'矮'", options: [{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" },{ type: "img", content: "📏", word: "长", voice: "长" },{ type: "img", content: "📐", word: "短", voice: "短" }], answer: 1 },
+      { question: "请选择'多少'", options: [{ type: "img", content: "🍬🍬🍬", word: "多", voice: "多" },{ type: "img", content: "🍬", word: "少", voice: "少" },{ type: "img", content: "🌲", word: "高", voice: "高" },{ type: "img", content: "🌱", word: "矮", voice: "矮" }], answer: 0 }
+    ]
+  },
+  zodiac: {
+    id: 'zodiac',
+    title: '十二生肖',
+    icon: 'fas fa-dragon',
+    description: '十二生肖认知',
+    color: '#e84118',
+    questions: [
+      { question: "请选择'老鼠'", options: [{ type: "img", content: "🐭", word: "老鼠", voice: "老鼠" },{ type: "img", content: "🐮", word: "牛", voice: "牛" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 0 },
+      { question: "请选择'牛'", options: [{ type: "img", content: "🐭", word: "老鼠", voice: "老鼠" },{ type: "img", content: "🐮", word: "牛", voice: "牛" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 1 },
+      { question: "请选择'老虎'", options: [{ type: "img", content: "🐭", word: "老鼠", voice: "老鼠" },{ type: "img", content: "🐮", word: "牛", voice: "牛" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 2 },
+      { question: "请选择'兔子'", options: [{ type: "img", content: "🐭", word: "老鼠", voice: "老鼠" },{ type: "img", content: "🐮", word: "牛", voice: "牛" },{ type: "img", content: "🐯", word: "老虎", voice: "老虎" },{ type: "img", content: "🐰", word: "兔子", voice: "兔子" }], answer: 3 },
+      { question: "请选择'龙'", options: [{ type: "img", content: "🐉", word: "龙", voice: "龙" },{ type: "img", content: "🐍", word: "蛇", voice: "蛇" },{ type: "img", content: "🐎", word: "马", voice: "马" },{ type: "img", content: "🐑", word: "羊", voice: "羊" }], answer: 0 }
+    ]
+  },
+  toy: {
+    id: 'toy',
+    title: '传统玩具',
+    icon: 'fas fa-gamepad',
+    description: '传统玩具认知',
+    color: '#ff9ff3',
+    questions: [
+      { question: "请选择'陀螺'", options: [{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 0 },
+      { question: "请选择'风筝'", options: [{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 1 },
+      { question: "请选择'毽子'", options: [{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 2 },
+      { question: "请选择'风筝'", options: [{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" },{ type: "img", content: "🧩", word: "拼图", voice: "拼图" }], answer: 0 },
+      { question: "请选择'拨浪鼓'", options: [{ type: "img", content: "🥁", word: "拨浪鼓", voice: "拨浪鼓" },{ type: "img", content: "🪁", word: "风筝", voice: "风筝" },{ type: "img", content: "🪀", word: "陀螺", voice: "陀螺" },{ type: "img", content: "🥏", word: "毽子", voice: "毽子" }], answer: 0 }
+    ]
+  },
+  foodculture: {
+    id: 'foodculture',
+    title: '美食文化',
+    icon: 'fas fa-utensils',
+    description: '传统美食认知',
+    color: '#ff6b6b',
+    questions: [
+      { question: "请选择'饺子'", options: [{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" },{ type: "img", content: "🥮", word: "月饼", voice: "月饼" },{ type: "img", content: "🍜", word: "面条", voice: "面条" }], answer: 0 },
+      { question: "请选择'粽子'", options: [{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" },{ type: "img", content: "🥮", word: "月饼", voice: "月饼" },{ type: "img", content: "🍜", word: "面条", voice: "面条" }], answer: 1 },
+      { question: "请选择'月饼'", options: [{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" },{ type: "img", content: "🥮", word: "月饼", voice: "月饼" },{ type: "img", content: "🍜", word: "面条", voice: "面条" }], answer: 2 },
+      { question: "请选择'汤圆'", options: [{ type: "img", content: "🍡", word: "汤圆", voice: "汤圆" },{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" },{ type: "img", content: "🥮", word: "月饼", voice: "月饼" }], answer: 0 },
+      { question: "请选择'面条'", options: [{ type: "img", content: "🍜", word: "面条", voice: "面条" },{ type: "img", content: "🍡", word: "汤圆", voice: "汤圆" },{ type: "img", content: "🥟", word: "饺子", voice: "饺子" },{ type: "img", content: "🍙", word: "粽子", voice: "粽子" }], answer: 0 }
+    ]
+  },
+  environmental: {
+    id: 'environmental',
+    title: '环保认知',
+    icon: 'fas fa-recycle',
+    description: '环保知识学习',
+    color: '#00b894',
+    questions: [
+      { question: "请选择'垃圾分类'", options: [{ type: "img", content: "♻️", word: "分类", voice: "分类" },{ type: "img", content: "🌳", word: "树木", voice: "树木" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌍", word: "地球", voice: "地球" }], answer: 0 },
+      { question: "请选择'爱护花草'", options: [{ type: "img", content: "🌸", word: "花草", voice: "花草" },{ type: "img", content: "♻️", word: "分类", voice: "分类" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌍", word: "地球", voice: "地球" }], answer: 0 },
+      { question: "请选择'节约用水'", options: [{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌸", word: "花草", voice: "花草" },{ type: "img", content: "♻️", word: "分类", voice: "分类" },{ type: "img", content: "🌍", word: "地球", voice: "地球" }], answer: 0 },
+      { question: "请选择'爱护地球'", options: [{ type: "img", content: "🌍", word: "地球", voice: "地球" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌸", word: "花草", voice: "花草" },{ type: "img", content: "♻️", word: "分类", voice: "分类" }], answer: 0 },
+      { question: "请选择'不乱扔垃圾'", options: [{ type: "img", content: "🚯", word: "禁止乱扔", voice: "禁止乱扔" },{ type: "img", content: "🌍", word: "地球", voice: "地球" },{ type: "img", content: "💧", word: "水", voice: "水" },{ type: "img", content: "🌸", word: "花草", voice: "花草" }], answer: 0 }
+    ]
+  },
+            
+
+        };
+
+        const speechController = {
+            synth: window.speechSynthesis || null,
+            enabled: true,
+            voiceType: 'child',
+            xiaoxiaoVoice: null,
+
+            initVoice() {
+                if (!this.synth) return;
+                try {
+                    const voices = this.synth.getVoices();
+                    this.xiaoxiaoVoice = voices.find(voice => 
+                        voice.name.includes('晓晓') || voice.name.includes('Xiaoxiao') || 
+                        voice.name.includes('Microsoft Xiaoxiao') || voice.name.includes('晓晓 - 中文(中国)')
+                    );
+                } catch (e) {}
+            },
+            
+            speak(text) {
+                if (!this.enabled || !this.synth || !text) return false;
+                try {
+                    this.stop();
+                    const utterance = new SpeechSynthesisUtterance(text);
+                    utterance.lang = 'zh-CN';
+                    
+                    if (this.xiaoxiaoVoice) {
+                        utterance.voice = this.xiaoxiaoVoice;
+                    }
+                    
+                    utterance.rate = 0.9;
+                    utterance.pitch = 1.0;
+                    
+                    setTimeout(() => {
+                        if(this.synth && !this.synth.speaking) {
+                            this.synth.speak(utterance);
+                        }
+                    }, 150);
+                    return true;
+                } catch (e) { 
+                    return false; 
+                }
+            },
+            
+            stop() { 
+                if(this.synth) {
+                    this.synth.cancel();
+                }
+            },
+            
+            toggle() { 
+                this.enabled = !this.enabled; 
+                return this.enabled; 
+            },
+            
+            setVoiceType(type) { 
+                this.voiceType = type; 
+            },
+            
+            speakQuestionImmediately(text) {
+                if(this.enabled && text) {
+                    this.stop();
+                    setTimeout(()=>this.speak(text), 150);
+                }
+            }
+        };
+
+        const DOM = {
+            welcomeScreen: document.getElementById('welcomeScreen'),
+            gameScreen: document.getElementById('gameScreen'),
+            resultScreen: document.getElementById('resultScreen'),
+            soundToggle: document.getElementById('soundToggle'),
+            progressBar: document.getElementById('progressBar'),
+            progressText: document.getElementById('progressText'),
+            levelSelect: document.getElementById('levelSelect'),
+            gameTitle: document.getElementById('gameTitle'),
+            currentLevelEl: document.getElementById('currentLevel'),
+            questionText: document.getElementById('questionText'),
+            optionsContainer: document.getElementById('optionsContainer'),
+            nextBtn: document.getElementById('nextBtn'),
+            hintBtn: document.getElementById('hintBtn'),
+            backBtn: document.getElementById('backBtn'),
+            startBtn: document.getElementById('startBtn'),
+            restartBtn: document.getElementById('restartBtn'),
+            menuBtn: document.getElementById('menuBtn'),
+            voiceButtons: document.querySelectorAll('.voice-btn'),
+            finalScore: document.getElementById('finalScore'),
+            starsResult: document.getElementById('starsResult'),
+            feedbackText: document.getElementById('feedbackText')
+        };
+
+        let gameState = {
+            currentGame: null, currentGameId: null,
+            currentLevel: 0, score: 0,
+            selectedOption: null, answered: false, total: 0
+        };
+
+        function createParticles() {
+            const container = document.getElementById('particles');
+            if(!container) return;
+            for(let i=0;i<30;i++){
+                const p = document.createElement('div');
+                p.className='particle';
+                p.style.left = Math.random()*100+'vw';
+                p.style.width = p.style.height = Math.random()*4+2+'px';
+                p.style.animationDelay = Math.random()*20+'s';
+                container.appendChild(p);
+            }
+        }
+
+        function initLevels() {
+            if(!DOM.levelSelect) return;
+            DOM.levelSelect.innerHTML = '';
+            Object.values(LEARNING_CONTENT).forEach(game=>{
+                const card = document.createElement('div');
+                card.className='level-card';
+                card.innerHTML = `
+                    <div class="level-icon" style="background:linear-gradient(135deg,${game.color},${game.color}99)">
+                        <i class="${game.icon}"></i>
+                    </div>
+                    <h3 class="level-name">${game.title}</h3>
+                    <p class="level-desc">${game.description}</p>
+                    <div class="level-stats"><i class="fas fa-star"></i> ${game.questions.length}题</div>
+                `;
+                card.onclick = ()=>startGame(game.id);
+                DOM.levelSelect.appendChild(card);
+            });
+            updateProgress();
+        }
+
+        const STORAGE_KEY = 'preschoolLearningProgress';
+        const LAST_PLAYED_KEY = 'lastPlayedGame';
+        
+        function getProgress() { 
+            try {
+                const data = localStorage.getItem(STORAGE_KEY);
+                return data ? JSON.parse(data) : {}; 
+            } catch(e) {
+                return {};
+            }
+        }
+        
+        function setProgress() {
+            if(!gameState.currentGameId) return;
+            try {
+                const allProgress = getProgress();
+                allProgress[gameState.currentGameId] = {
+                    level: gameState.currentLevel,
+                    score: gameState.score,
+                    time: Date.now()
+                };
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(allProgress));
+                localStorage.setItem(LAST_PLAYED_KEY, gameState.currentGameId);
+                updateProgress();
+            }catch(e){}
+        }
+
+        function updateProgress() {
+            if(!DOM.progressText || !DOM.progressBar) return;
+            const allProgress = getProgress();
+            const hasProgress = Object.keys(allProgress).length > 0;
+            
+            if(hasProgress){
+                let totalQuestions = 0;
+                let completedQuestions = 0;
+                
+                Object.entries(allProgress).forEach(([gameId, progress]) => {
+                    const game = LEARNING_CONTENT[gameId];
+                    if(game) {
+                        totalQuestions += game.questions.length;
+                        completedQuestions += progress.level;
+                    }
+                });
+                
+                const percent = totalQuestions > 0 ? (completedQuestions / totalQuestions) * 100 : 0;
+                DOM.progressText.textContent = `学习进度：${Math.round(percent)}%`;
+                DOM.progressBar.style.width = percent + '%';
+                DOM.startBtn.innerHTML = '<i class="fas fa-play"></i> 继续学习';
+            } else {
+                DOM.progressText.textContent = '欢迎开始学习';
+                DOM.progressBar.style.width = '0%';
+                DOM.startBtn.innerHTML = '<i class="fas fa-play-circle"></i> 开始学习之旅';
+            }
+        }
+
+        function showScreen(screenName) {
+            if(!DOM[screenName]) return;
+            ['welcomeScreen','gameScreen','resultScreen'].forEach(s=>{
+                if(DOM[s]) DOM[s].classList.remove('active');
+            });
+            DOM[screenName].classList.add('active');
+            speechController.stop();
+        }
+
+        function startGame(gameId = null) {
+            const allProgress = getProgress();
+            
+            if (!gameId) {
+                const lastGame = localStorage.getItem(LAST_PLAYED_KEY);
+                if (lastGame && LEARNING_CONTENT[lastGame]) {
+                    gameId = lastGame;
+                } else {
+                    const entries = Object.entries(allProgress);
+                    if (entries.length > 0) {
+                        entries.sort((a, b) => b[1].time - a[1].time);
+                        gameId = entries[0][0];
+                    } else {
+                        gameId = 'literacy';
+                    }
+                }
+            }
+
+            const game = LEARNING_CONTENT[gameId];
+            if(!game) return;
+            
+            const savedProgress = allProgress[gameId] || {};
+            
+            gameState = {
+                currentGame: game,
+                currentGameId: gameId,
+                currentLevel: savedProgress.level || 0,
+                score: savedProgress.score || 0,
+                selectedOption: null,
+                answered: false,
+                total: game.questions.length
+            };
+
+            DOM.gameTitle.textContent = game.title;
+            loadQuestion();
+            showScreen('gameScreen');
+        }
+
+        function loadQuestion() {
+            const {currentGame, currentLevel, total} = gameState;
+            if(!currentGame || currentLevel >= total) { 
+                showResult(); 
+                return; 
+            }
+
+            const q = currentGame.questions[currentLevel];
+            if(!q) return;
+            
+            if(currentGame.id === 'poem') {
+                DOM.questionText.className = 'question-text poem-question';
+            } else {
+                DOM.questionText.className = 'question-text';
+            }
+            
+            DOM.questionText.textContent = q.question;
+            DOM.currentLevelEl.textContent = `第${currentLevel+1}关/共${total}关`;
+            DOM.progressBar.style.width = total > 0 ? (currentLevel/total)*100+'%' : '0%';
+            DOM.optionsContainer.innerHTML = '';
+            gameState.answered = false;
+            gameState.selectedOption = null;
+            DOM.nextBtn.disabled = true;
+
+            q.options.forEach((opt,i)=>{
+                const card = document.createElement('div');
+                card.className = 'option-card';
+                
+                const optionLabelClass = gameState.currentGame.id === 'poem' ? 'option-label poem-option' : 'option-label';
+                
+                card.innerHTML = opt.type==='img' 
+                    ? `<div class="option-content">${opt.content}</div><div class="${optionLabelClass}">${opt.word}</div>`
+                    : `<div class="option-content" style="font-size:4rem">${opt.content}</div><div class="${optionLabelClass}">${opt.word}</div>`;
+                
+                card.onclick = ()=>{
+                    if(gameState.answered) return;
+                    document.querySelectorAll('.option-card').forEach(c=>c.classList.remove('selected'));
+                    card.classList.add('selected');
+                    gameState.selectedOption = i;
+                    DOM.nextBtn.disabled = false;
+                    speechController.speak(opt.voice);
+                };
+                DOM.optionsContainer.appendChild(card);
+            });
+
+            setTimeout(()=>{
+                if(currentGame.id === 'poem' && q.speakText) {
+                    speechController.speakQuestionImmediately(q.speakText);
+                } else {
+                    speechController.speakQuestionImmediately(q.question);
+                }
+            },300);
+            setProgress();
+        }
+
+        function checkAnswer() {
+            const {currentGame, currentLevel, selectedOption} = gameState;
+            if(!currentGame) return;
+            const q = currentGame.questions[currentLevel];
+            if(!q) return;
+            const correct = selectedOption === q.answer;
+            
+            gameState.answered = true;
+            const cards = document.querySelectorAll('.option-card');
+            cards.forEach((c,i)=>{
+                if(i===q.answer) c.classList.add('correct');
+                else if(i===selectedOption && !correct) c.classList.add('incorrect');
+            });
+
+            if(correct) {
+                gameState.score +=20;
+                speechController.speak('答对啦！真棒！');
+                createConfetti();
+            }else{
+                speechController.speak(`正确答案是：${q.options[q.answer].voice}`);
+            }
+        }
+
+        function nextQuestion() {
+            if(!gameState.answered) {
+                checkAnswer();
+                return;
+            }
+
+            if(gameState.currentGame.id === 'poem') {
+                const q = gameState.currentGame.questions[gameState.currentLevel];
+                if(gameState.selectedOption !== q.answer) {
+                    speechController.speak("请选择正确答案哦！");
+                    gameState.selectedOption = null;
+                    gameState.answered = false;
+                    DOM.nextBtn.disabled = true;
+                    document.querySelectorAll('.option-card').forEach(c=>{
+                        c.classList.remove('selected','incorrect','correct');
+                    });
+                    return;
+                }
+            }
+
+            gameState.currentLevel++;
+            setProgress();
+            loadQuestion();
+        }
+
+        function showResult() {
+            const {score, total, currentGame} = gameState;
+            if(!currentGame) return;
+            const maxScore = total * 20;
+            const percent = maxScore > 0 ? Math.round((score/maxScore)*100) : 0;
+            const stars = Math.ceil(percent/20);
+            
+            DOM.finalScore.textContent = percent;
+            DOM.starsResult.textContent = '★'.repeat(stars)+'☆'.repeat(5-stars);
+            DOM.feedbackText.textContent = percent>=90?'太棒了！您是学习小天才！':percent>=70?'非常好！继续加油！':percent>=50?'不错哦！再努力一点更棒！':'没关系，多练习就会更棒！';
+            
+            showScreen('resultScreen');
+            try {
+                const allProgress = getProgress();
+                if (allProgress[currentGame.id]) {
+                    allProgress[currentGame.id].level = 0;
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(allProgress));
+                }
+                updateProgress();
+            }catch(e){}
+            setTimeout(()=>speechController.speak(`恭喜完成！得分${percent}分`),500);
+        }
+
+        function createConfetti() {
+            const colors=['#6a5acd','#20bf6b','#fc5c65','#fd9644','#9b59b6','#3498db'];
+            for(let i=0;i<50;i++){
+                const c=document.createElement('div');
+                c.style.cssText=`position:fixed;width:${Math.random()*8+4}px;height:${Math.random()*8+4}px;background:${colors[Math.random()*6|0]};border-radius:50%;left:${Math.random()*100}%;top:-10px;z-index:999;pointer-events:none`;
+                document.body.appendChild(c);
+                const anim = c.animate([{transform:'translateY(0)'},{transform:`translateY(${innerHeight}px)`,opacity:0}],{duration:2000,easing:'ease-out'});
+                if(anim) anim.onfinish=()=>c.remove();
+            }
+        }
+
+        function initEvents() {
+            speechController.initVoice();
+            if (window.speechSynthesis) {
+                window.speechSynthesis.onvoiceschanged = () => speechController.initVoice();
+            }
+
+            if(DOM.soundToggle) {
+                DOM.soundToggle.onclick = ()=>{
+                    const on = speechController.toggle();
+                    DOM.soundToggle.querySelector('i').className = on?'fas fa-volume-up':'fas fa-volume-mute';
+                    DOM.soundToggle.classList.toggle('active', on);
+                };
+            }
+            
+            if(DOM.hintBtn) {
+                DOM.hintBtn.onclick = ()=>{
+                    if(!gameState.currentGame) return;
+                    const q=gameState.currentGame.questions[gameState.currentLevel];
+                    if(q) {
+                        if(gameState.currentGame.id === 'poem' && q.speakText) {
+                            speechController.speak(q.speakText);
+                        } else {
+                            speechController.speak(q.question);
+                        }
+                    }
+                };
+            }
+            
+            if(DOM.backBtn) DOM.backBtn.onclick = ()=>showScreen('welcomeScreen');
+            if(DOM.nextBtn) DOM.nextBtn.onclick = nextQuestion;
+            if(DOM.restartBtn) DOM.restartBtn.onclick = ()=>startGame(gameState.currentGameId);
+            if(DOM.menuBtn) DOM.menuBtn.onclick = ()=>showScreen('welcomeScreen');
+            
+            if(DOM.startBtn) {
+                DOM.startBtn.onclick = ()=>{
+                    startGame();
+                };
+            }
+            
+            DOM.voiceButtons.forEach(btn => btn.style.display = 'none');
+        }
+
+        document.addEventListener('DOMContentLoaded',()=>{
+            createParticles();
+            initLevels();
+            initEvents();
+            
+            setTimeout(()=>{
+                if (speechController.enabled) {
+                    speechController.speak("欢迎来到快乐学习园地，请选择学习主题");
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

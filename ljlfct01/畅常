@@ -94,15 +94,7 @@
   ],
   "sites": [
 
-    {
-      "key": "lvdou",
-      "name": "👑 臻彩┃SVIP",
-      "type": 3,
-      "api": "https://gh.bugdey.us.kg/https://raw.githubusercontent.com/ljlfct01/ljlfct01.github.io/refs/heads/main/%E8%A7%82%E5%BD%B1.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0    
-},
+
   {
       "key": "腾讯弹幕",
       "name": "👑 腾讯┃SVIP",
@@ -126,6 +118,7 @@
       "api": "http://mlwl.top:67/lib/drpy2.min.js",
       "ext": "http://mlwl.top:67/lib/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.js"
     },
+   
     {
       "key": "景天",
       "name": "👑景天|4K弹幕",
@@ -141,37 +134,27 @@
       "api": "csp_HBcms10Dou",
       "jar": "http://103.45.162.207:25252/仅供测试/custom_spider.jar;md5;2e12265008ea7d3220be48b5e98d4c56",
       "ext": "https://zy.jinchancaiji.com/api.php/provide/vod/from/mgtv/"
-    },    
+    }, 
+
     {
       "key": "Zwqf",
-      "name": "鱼->醉挽｜清风",
+      "name": "👑醉挽｜清风",
       "type": 3,
       "api": "csp_Zwqf",
+      "jar": "https://mpimg.cn/down.php/5c57052c46586cf26f6619600ca87d62.jar;md5;5c57052c46586cf26f6619600ca87d62",
       "searchable": 1,
       "ext": {
         "url": "http://我不是.摸鱼儿.com/api/feng/moyu.php",
         "token": "moyu996"
-      },
-      "jar": "https://pubali.oss-cn-hangzhou.aliyuncs.com/20260321/011323_/mZJFkK1oFO2m/fish03210112.php;md5;cea625320475f5ffe5630c3429f07562"
+      }
     }
-
 
   ],
   "parses": [
     {
       "name": "极速",
       "type": 1,
-      "url": "http://183.131.83.37:38261/api/index?parsesId=27&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速2",
-      "type": 1,
-      "url": "http://183.131.83.37:38261/api/index?parsesId=28&appid=10000&videoUrl="
-    },
-    {
-      "name": "极速3",
-      "type": 1,
-      "url": "http://183.131.83.37:38261/api/index?parsesId=32&appid=10000&videoUrl="
+      "url": "http://114.66.29.121:91//api/index?parsesId=23&appid=10002&videoUrl="
     }
 
   ],

@@ -15,15 +15,15 @@
     "list": [
       {
         "name": "手机端(64位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-arm64_v8a-5.0.6.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-arm64_v8a-5.0.7.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.6"
+        "version": "5.0.7"
       },
       {
         "name": "手机端(32位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-armeabi_v7a-5.0.6.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/mobile-armeabi_v7a-5.0.7.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.6"
+        "version": "5.0.7"
       },
       {
         "name": "安卓4电视端",
@@ -45,21 +45,21 @@
       },
       {
         "name": "电视端(64位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-arm64_v8a-5.0.6.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-arm64_v8a-5.0.7.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.6"
+        "version": "5.0.7"
       },
       {
         "name": "电视端(32位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-armeabi_v7a-5.0.6.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/leanback-armeabi_v7a-5.0.7.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.6"
+        "version": "5.0.7"
       },
       {
         "name": "电视端(海信)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/hxzb-OKys-5.0.6.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/hxzb-OKys-5.0.7.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.0.6"
+        "version": "5.0.7"
       }
     ]
   },
@@ -68,27 +68,27 @@
     "list": [
       {
         "name": "手机端(64位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.1.2.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.1.3.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.1.2"
+        "version": "5.1.3"
       },
       {
         "name": "手机端(模拟器)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.1.2.-.mnq.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-sjb-5.1.3.-.mnq.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.1.2"
+        "version": "5.1.3"
       },
       {
         "name": "电视端(64位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-64w-5.1.2.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-64w-5.1.3.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.1.2"
+        "version": "5.1.3"
       },
       {
         "name": "电视端(32位)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-32w-5.1.2.apk",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/OKysPro-dsb-32w-5.1.3.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.1.2"
+        "version": "5.1.3"
       }
     ]
   },
@@ -166,12 +166,6 @@
         "version": "1776.2"
       },
       {
-        "name": "LiveTV(央卫港台)",
-        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/LiveTV_5.4.5.apk",
-        "icon": "https://xcz.iptv365.org/yysdok.png",
-        "version": "5.4.5"
-      },
-      {
         "name": "星火电视",
         "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/xhzbv1.0.50.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
@@ -194,6 +188,12 @@
         "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/kwyy_12.0.8.5.12085.-bydm.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "12.0.8.5"
+      },
+      {
+        "name": "酷我音乐车机版",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/kwyycjb.6.3.2.38.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "6.3.2.38"
       },
       {
         "name": "酷我音乐车机版",
@@ -230,6 +230,12 @@
         "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/flsc.apk",
         "icon": "https://xcz.iptv365.org/yysdok.png",
         "version": "1.1.1"
+      },
+      {
+        "name": "飞蓝市场Pro2.0",
+        "url": "https://github.dpik.top/https://github.com/wzxxcz/OK-APP/releases/download/OK%E5%BD%B1%E8%A7%86/flscPro_2.0.apk",
+        "icon": "https://xcz.iptv365.org/yysdok.png",
+        "version": "2.0.0"
       },
       {
         "name": "当贝市场",

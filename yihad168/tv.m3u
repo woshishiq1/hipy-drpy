@@ -131,21 +131,6 @@ https://nl.utako.moe/v_paradise/index.m3u8
 
 
 
-#########################################
-
-
-
-#########################################
-            JAPAN Rlay
-#########################################
-
-
-#EXTM3U url-tvg="https://arva.netgenx.site/epg/kai-epg.xml" tvg-shift=0 m3uautoload=1
-
-
-
-
-
 
 #########################################
             JAPAN 2
@@ -348,6 +333,194 @@ https://nl.utako.moe/gingach/index.m3u8
 https://nl.utako.moe/tabi/index.m3u8
 
 
+
+
+
+#########################################
+
+#########################################
+
+
+
+
+
+#EXTM3U url-tvg="https://arva.netgenx.site/epg/kai-epg.xml" tvg-shift=0 m3uautoload=1
+
+#EXTINF:-1 group-title="jp_relay Tokyo" tvg-id="joakdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe0-011-400x400.png",NHK G
+https://arva.netgenx.site/stream/jp/nhk_g?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay Tokyo" tvg-id="joabdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe1-021-400x400.png",NHK E
+https://arva.netgenx.site/stream/jp/nhk_e?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay Tokyo" tvg-id="joaxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe2-041-400x400.png",NTV
+https://arva.netgenx.site/stream/jp/ntv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay Tokyo" tvg-id="joexdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe5-051-400x400.png",TV Asahi
+https://arva.netgenx.site/stream/jp/tv_asahi?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay Tokyo" tvg-id="jorxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe3-061-400x400.png",TBS
+https://arva.netgenx.site/stream/jp/tbs?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay Tokyo" tvg-id="jotxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe6-071-400x400.png",TV Tokyo
+https://arva.netgenx.site/stream/jp/tv_tokyo?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay Tokyo" tvg-id="jocxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe4-081-400x400.png",Fuji TV
+https://arva.netgenx.site/stream/jp/fuji_tv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay Tokyo" tvg-id="tokyomx1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-091-400x400.png",Tokyo MX1
+https://arva.netgenx.site/stream/jp/tokyo_mx1?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay Tokyo" tvg-id="tokyomx2.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-093-400x400.png",Tokyo MX2
+https://arva.netgenx.site/stream/jp/tokyo_mx2?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="nhkbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-101-400x400.png",NHK BS
+https://arva.netgenx.site/stream/jp/nhk_bs?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bsnippontv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-141-400x400.png",BS NTV
+https://arva.netgenx.site/stream/jp/bs_ntv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bsasahi.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-151-400x400.png",BS Asahi
+https://arva.netgenx.site/stream/jp/bs_asahi?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bstbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png",BS TBS
+https://arva.netgenx.site/stream/jp/bs_tbs?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bstvtokyo.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-171-400x400.png",BS TV Tokyo
+https://arva.netgenx.site/stream/jp/bs_tv_tokyo?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bsfuji.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-181-400x400.png",BS Fuji
+https://arva.netgenx.site/stream/jp/bs_fuji?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bs10_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-200-400x400.png",BS 10
+https://arva.netgenx.site/stream/jp/bs_10?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bs11.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-211-400x400.png",BS 11
+https://arva.netgenx.site/stream/jp/bs11?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bs12.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-222-400x400.png",BS 12
+https://arva.netgenx.site/stream/jp/bs_12?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="nhkbsp4k.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-000b-101-400x400.png",NHK BS4K
+https://arva.netgenx.site/stream/jp/nhk_bs4k?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="wowowprime.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs191.gif",WOWOW Prime 
+https://arva.netgenx.site/stream/jp/wowow_prime?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="wowowcinema.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs193.gif",WOWOW Cinema
+https://arva.netgenx.site/stream/jp/wowow_cinema?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="wowowlive.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs192.gif",WOWOW Live
+https://arva.netgenx.site/stream/jp/wowow_live?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bs10プレミアム_jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs201.gif",BS 10 Premium
+https://arva.netgenx.site/stream/jp/bs_10_star_channel?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="jsports1.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs242.gif",JSport 1
+https://arva.netgenx.site/stream/jp/jsport_1?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="jsports2.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs243.gif",JSport 2
+https://arva.netgenx.site/stream/jp/jsport_2?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="jsports3.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs244.gif",JSport 3
+https://arva.netgenx.site/stream/jp/jsport_3?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="jsports4.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs245.gif",JSport 4
+https://arva.netgenx.site/stream/jp/jsport_4?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="greenchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs234.gif",Green Channel
+https://arva.netgenx.site/stream/jp/green_channel?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="animax.in" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs236.gif",Animax
+https://arva.netgenx.site/stream/jp/animax?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="nihoneigasenmonchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs255.gif",Nihon Eiga Senmon
+https://arva.netgenx.site/stream/jp/nihon_eiga_senmon?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="ntvnews24.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs349.gif",NTV News24
+https://arva.netgenx.site/stream/jp/ntv_news24?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="bsyoshimoto.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-65406-179-400x400.png",BS Yoshimoto
+https://arva.netgenx.site/stream/jp/ntv_news24?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="fishingvision.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs251.gif",Fishing Vision
+https://arva.netgenx.site/stream/jp/fishing_vision?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="disneychannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs256.gif",Disney Channel
+https://arva.netgenx.site/stream/jp/disny_channel?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay BS" tvg-id="j-com-bs_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-103-400x400.png",Jcom BS
+https://arva.netgenx.site/stream/jp/jcom_bs?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="gaorasports.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs254.gif",Gaora Sports
+https://arva.netgenx.site/stream/jp/gaora_sports?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="atx.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs333.gif",AT-X
+https://arva.netgenx.site/stream/jp/atx?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="spaceshowertv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs322.gif",Space Shower TV
+https://arva.netgenx.site/stream/jp/space_shower_tv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="mtv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs323.gif",MTV
+https://arva.netgenx.site/stream/jp/mtv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="mnet.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs318.gif",Mnet
+https://arva.netgenx.site/stream/jp/mnet?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="superdramatv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/647.gif",Super Drama TV
+https://arva.netgenx.site/stream/jp/super_drama_tv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="thecinema.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs227.gif",The Cinema
+https://arva.netgenx.site/stream/jp/the_cinema?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="kayopops.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs329.gif",Kayo Pops
+https://arva.netgenx.site/stream/jp/the_cinema?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="kidsstation.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs330.gif",Kids Station
+https://arva.netgenx.site/stream/jp/kids_station_tv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="cartoonnetwork.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs331.gif",Cartoon Network Japan
+https://arva.netgenx.site/stream/jp/cartoon_network?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="nittelegplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs257.gif",NTV G+
+https://arva.netgenx.site/stream/jp/nittele_g+?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="familygekijyo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs293.gif",Family Gekijo
+https://arva.netgenx.site/stream/jp/family_gekijyo?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="mondotv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs295.gif",Mondo TV
+https://arva.netgenx.site/stream/jp/mondo_tv+?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="tbschannel1.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs296.gif",TBS Channel 1
+https://arva.netgenx.site/stream/jp/tbs_channel_1+?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="tbschannel2.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs297.gif",TBS Channel 2
+https://arva.netgenx.site/stream/jp/tbs_channel_2+?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="tvasahichannel1.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs298.gif",TV Asahi Channel 1
+https://arva.netgenx.site/stream/jp/tv_asahi_channel_1?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="tvasahichannel2.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs299.gif",TV Asahi Channel 2
+https://arva.netgenx.site/stream/jp/tv_asahi_channel_2?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="fujitvone.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs307.gif",Fuji TV One
+https://arva.netgenx.site/stream/jp/fuji_tv_one?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="fujitvtwo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs308.gif",Fuji TV Two
+https://arva.netgenx.site/stream/jp/fuji_tv_two?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="fujitvnext.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs309.gif",Fuji TV Next
+https://arva.netgenx.site/stream/jp/fuji_tv_next?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="channelneco.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs223.gif",Neco Channel
+https://arva.netgenx.site/stream/jp/neco_ch?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="dlife.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs312.gif",Dlife
+https://arva.netgenx.site/stream/jp/dlife?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="toeichannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs218.gif",Toei Channel
+https://arva.netgenx.site/stream/jp/toei_channel?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="fightingtvsamurai.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/600.gif",Fighting TV Samurai
+https://arva.netgenx.site/stream/jp/fighting_tv_samurai?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="entermeitele.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs301.gif",Entermei Tele
+https://arva.netgenx.site/stream/jp/entermei_tele?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="sportsliveplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs800.gif",Sport Live Plus
+https://arva.netgenx.site/stream/jp/sports_live_plus?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="homedramachannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs294.gif",Home Drama Channel
+https://arva.netgenx.site/stream/jp/home_drama_channel?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="channelginga.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs305.gif",Channel Ginga
+https://arva.netgenx.site/stream/jp/channel_ginga?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="tabichannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/544.gif",Tabi Channel
+https://arva.netgenx.site/stream/jp/tabi_channel?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="musicontv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs325.gif",Music On! TV
+https://arva.netgenx.site/stream/jp/music_on_tv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="axn.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs311.gif",Action Channel(AXN)
+https://arva.netgenx.site/stream/jp/action_channel_%28axn%29?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="mysterychannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs316.gif",Mystery Channel
+https://arva.netgenx.site/stream/jp/mystery_channel?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="shopchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/523.gif",Shop Channel
+https://stream3.shopch.jp/HLS/master.m3u8
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="qvc.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/525.gif",QVC
+https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="gstv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/527.gif",GSTV
+https://arva.netgenx.site/stream/jp/gstv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="jidaigekisenmonchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs292.gif",Jidaigeki Senmon
+https://arva.netgenx.site/stream/jp/jidaigeki_senmon?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="eiseigekijo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs219.gif",Eisei Gekijo
+https://arva.netgenx.site/stream/jp/eisei_gekijo?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="movieplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs240.gif",Movie Plus
+https://arva.netgenx.site/stream/jp/movie_plus?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="golfnetwork.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs262.gif",Golf Network
+https://arva.netgenx.site/stream/jp/golf_network?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="musicjapantv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/639.gif",Music Japan TV
+https://arva.netgenx.site/stream/jp/music_japan_tv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="lalatv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs314.gif",LaLa TV
+https://arva.netgenx.site/stream/jp/lala_tv?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="takarazukaskystage.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs290.gif",Takarazuka Sky Stage
+https://arva.netgenx.site/stream/jp/takarazuka_sky_stage?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="nationalgeographicjapan.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs343.gif",National Geographic Japan
+https://arva.netgenx.site/stream/jp/national_geographic_japan?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="disneyjunior.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs339.gif",Disney Junior
+https://arva.netgenx.site/stream/jp/disney_junior?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="discoverychannelsoutheast.sg@japan" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs340.gif",Discovery Channel  
+https://arva.netgenx.site/stream/jp/discovery_channel?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="animalplanet.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs341.gif",Animal Planet
+https://arva.netgenx.site/stream/jp/animal_planet?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="cnnj.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs354.gif",CNNj 
+https://arva.netgenx.site/stream/jp/cnnj?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="bbc_news" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs353.gif",BBC News  
+https://arva.netgenx.site/stream/jp/bbc_news?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+#EXTINF:-1 group-title="jp_relay CS" tvg-id="tbsnewscs.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs351.gif",TBS News
+https://arva.netgenx.site/stream/jp/tbs_news?ac_tk=eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2R0NNIn0.yZ4dCcF3XJH2c8HWlQMkfRgh8GxHdrmFlsx2zCksZGmUmjqBdWjUGw.qaSFFwplXkwJc8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls8Hh.KHC4idG_lkXgReteZ5BV_nhnkK-FPUMD7Afr-r1P.AXOGTtpBblnh2UqQ8tOEPg&mode=hls
+
+
+
+
+
 #########################################
 
 http://protv.fun/get.php?username=4cafe94867&password=48a12d348c&type=m3u_plus
@@ -522,7 +695,6 @@ https://tv.iill.top/api/Cinemax/index.m3u8
 https://tv.iill.top/api/MTV-Live/index.m3u8
 
 
-
 #EXTINF:-1 group-title="台灣",東森電影「Relay」
 https://tv.iill.top/api/ET-Movie/index.m3u8
 #EXTINF:-1 group-title="台灣",東森洋片「Relay」
@@ -577,7 +749,6 @@ https://tv.iill.top/ofiii/litv-xinchuang19
 https://hls.iill.top/api/Sports-Network/index.m3u8
 #EXTINF:-1 group-title="台灣",博斯運動 二「CatchPlay」
 https://hls.iill.top/api/Football-Channel/index.m3u8
-
 
 
 #EXTINF:-1 group-title="台灣",amc電影台「4gTV」
@@ -3414,741 +3585,6 @@ http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
 #########################################
              UK
 #########################################
-
-
-#EXTINF:-1 tvg-id="" tvg-name="BBC One South East ⓧ" tvg-logo="" group-title="UK",BBC One South East ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439266.ts
-#EXTINF:-1 tvg-id="" tvg-name="IRE | RTE News Nowⓧ SD" tvg-logo="" group-title="UK",IRE | RTE News Nowⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439265.ts
-#EXTINF:-1 tvg-id="" tvg-name="IRE | RTE Twoⓧ FHD" tvg-logo="" group-title="UK",IRE | RTE Twoⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439264.ts
-#EXTINF:-1 tvg-id="" tvg-name="IRE | TG4ⓧ SD" tvg-logo="" group-title="UK",IRE | TG4ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439263.ts
-#EXTINF:-1 tvg-id="" tvg-name="IRE | UTVⓧ HD" tvg-logo="" group-title="UK",IRE | UTVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439262.ts
-#EXTINF:-1 tvg-id="" tvg-name="IRE | UTVⓧ SD" tvg-logo="" group-title="UK",IRE | UTVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439261.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : 4Seven ⓧ HD" tvg-logo="" group-title="UK",UK : 4Seven ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439260.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : 4Sevenⓧ SD" tvg-logo="" group-title="UK",UK : 4Sevenⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439259.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : 5 Star +1ⓧ" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/5-star-plus-uk.png?raw=true" group-title="UK",UK : 5 Star +1ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439258.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : 5 Starⓧ SD" tvg-logo="" group-title="UK",UK : 5 Starⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439257.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : 5 USA +1ⓧ" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/5-usa-plus-uk.png?raw=true" group-title="UK",UK : 5 USA +1ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439256.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : 5 USAⓧ SD" tvg-logo="" group-title="UK",UK : 5 USAⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439255.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : 5Selectⓧ SD" tvg-logo="" group-title="UK",UK : 5Selectⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439254.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Aastha ⓧ" tvg-logo="" group-title="UK",UK : Aastha ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439253.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Afrobeats 24/7ⓧ HD" tvg-logo="" group-title="UK",UK : Afrobeats 24/7ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439252.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Akaal Channelⓧ HD" tvg-logo="" group-title="UK",UK : Akaal Channelⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439251.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Alibiⓧ FHD" tvg-logo="" group-title="UK",UK : Alibiⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439249.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Alibiⓧ SD" tvg-logo="" group-title="UK",UK : Alibiⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439248.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Al Jazeera Englishⓧ HD" tvg-logo="" group-title="UK",UK : Al Jazeera Englishⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439250.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : AMCⓧ FHD" tvg-logo="" group-title="UK",UK : AMCⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439247.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : AMCⓧ HD" tvg-logo="" group-title="UK",UK : AMCⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439246.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : AMCⓧ SD" tvg-logo="" group-title="UK",UK : AMCⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439245.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Animal Planet +1ⓧ" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/animal-planet-plus-uk.png?raw=true" group-title="UK",UK : Animal Planet +1ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439244.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Animal Planetⓧ FHD" tvg-logo="" group-title="UK",UK : Animal Planetⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439243.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Animal Planetⓧ SD" tvg-logo="" group-title="UK",UK : Animal Planetⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439242.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Arirangⓧ SD" tvg-logo="" group-title="UK",UK : Arirangⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439241.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Arise Newsⓧ SD" tvg-logo="" group-title="UK",UK : Arise Newsⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439240.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Baby TVⓧ SD" tvg-logo="" group-title="UK",UK : Baby TVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439239.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Albaⓧ SD" tvg-logo="" group-title="UK",UK : BBC Albaⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439238.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Fourⓧ HD" tvg-logo="" group-title="UK",UK : BBC Fourⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439237.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Fourⓧ SD" tvg-logo="" group-title="UK",UK : BBC Fourⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439236.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Newsⓧ FHD" tvg-logo="" group-title="UK",UK : BBC Newsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439235.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Newsⓧ HD" tvg-logo="" group-title="UK",UK : BBC Newsⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439234.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Newsⓧ SD" tvg-logo="" group-title="UK",UK : BBC Newsⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439233.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One Channel Islandsⓧ" tvg-logo="" group-title="UK",UK : BBC One Channel Islandsⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439232.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One Londonⓧ" tvg-logo="" group-title="UK",UK : BBC One Londonⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439231.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One North East & Cumbriaⓧ" tvg-logo="" group-title="UK",UK : BBC One North East & Cumbriaⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439230.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One Northern Irelandⓧ" tvg-logo="" group-title="UK",UK : BBC One Northern Irelandⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439228.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One North Westⓧ" tvg-logo="" group-title="UK",UK : BBC One North Westⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439229.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One Oxfordⓧ" tvg-logo="" group-title="UK",UK : BBC One Oxfordⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439227.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One Scotlandⓧ" tvg-logo="" group-title="UK",UK : BBC One Scotlandⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439226.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One South ⓧ" tvg-logo="" group-title="UK",UK : BBC One South ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439225.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One Walesⓧ" tvg-logo="" group-title="UK",UK : BBC One Walesⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439224.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC One West Midlandsⓧ" tvg-logo="" group-title="UK",UK : BBC One West Midlandsⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439223.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Oneⓧ FHD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/bbc-one-uk.png?raw=true" group-title="UK",UK : BBC Oneⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439222.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Oneⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/bbc-one-uk.png?raw=true" group-title="UK",UK : BBC Oneⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439221.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Oneⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/bbc-one-uk.png?raw=true" group-title="UK",UK : BBC Oneⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439220.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Parliamentⓧ" tvg-logo="" group-title="UK",UK : BBC Parliamentⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439219.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Parliamentⓧ SD" tvg-logo="" group-title="UK",UK : BBC Parliamentⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439218.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Scotlandⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/bbc-scotland-uk.png?raw=true" group-title="UK",UK : BBC Scotlandⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439217.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Scotlandⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/bbc-scotland-uk.png?raw=true" group-title="UK",UK : BBC Scotlandⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439216.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Two Northern Irelandⓧ" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/bbc-two-northern-ireland-uk.png?raw=true" group-title="UK",UK : BBC Two Northern Irelandⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439215.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Two Walesⓧ" tvg-logo="" group-title="UK",UK : BBC Two Walesⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439214.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Twoⓧ FHD" tvg-logo="" group-title="UK",UK : BBC Twoⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439213.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Twoⓧ HD" tvg-logo="" group-title="UK",UK : BBC Twoⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439212.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC Twoⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/bbc-two-uk.png?raw=true" group-title="UK",UK : BBC Twoⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439211.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BBC World Newsⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/bbc-world-news-uk.png?raw=true" group-title="UK",UK : BBC World Newsⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439210.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Blazeⓧ SD" tvg-logo="" group-title="UK",UK : Blazeⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439209.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Bloomberg TV EMEAⓧ HD" tvg-logo="" group-title="UK",UK : Bloomberg TV EMEAⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439208.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Boomerangⓧ FHD" tvg-logo="" group-title="UK",UK : Boomerangⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439207.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Boomerangⓧ HD" tvg-logo="" group-title="UK",UK : Boomerangⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439206.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Boomerangⓧ SD" tvg-logo="" group-title="UK",UK : Boomerangⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439205.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Box Hitsⓧ HD" tvg-logo="" group-title="UK",UK : Box Hitsⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439204.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BoxNation ⓧ FHD" tvg-logo="" group-title="UK",UK : BoxNation ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439203.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BoxNationⓧ HD" tvg-logo="" group-title="UK",UK : BoxNationⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439202.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BoxNationⓧ SD" tvg-logo="" group-title="UK",UK : BoxNationⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439201.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cartoonitoⓧ SD" tvg-logo="" group-title="UK",UK : Cartoonitoⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439197.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cartoon Networkⓧ FHD" tvg-logo="" group-title="UK",UK : Cartoon Networkⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439200.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cartoon Networkⓧ HD" tvg-logo="" group-title="UK",UK : Cartoon Networkⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439199.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cartoon Networkⓧ SD" tvg-logo="" group-title="UK",UK : Cartoon Networkⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439198.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CBBCⓧ FHD" tvg-logo="" group-title="UK",UK : CBBCⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439196.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CBBCⓧ HD" tvg-logo="" group-title="UK",UK : CBBCⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439195.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CBBCⓧ SD" tvg-logo="" group-title="UK",UK : CBBCⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439194.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cbeebiesⓧ HD" tvg-logo="" group-title="UK",UK : Cbeebiesⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439193.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cbeebiesⓧ SD" tvg-logo="" group-title="UK",UK : Cbeebiesⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439192.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CBS Dramaⓧ SD" tvg-logo="" group-title="UK",UK : CBS Dramaⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439191.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CBS Justiceⓧ SD" tvg-logo="" group-title="UK",UK : CBS Justiceⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439190.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CBS Realityⓧ SD" tvg-logo="" group-title="UK",UK : CBS Realityⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439189.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CGTN Documentaryⓧ SD" tvg-logo="" group-title="UK",UK : CGTN Documentaryⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439188.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Challengeⓧ HD" tvg-logo="" group-title="UK",UK : Challengeⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439187.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Challengeⓧ SD" tvg-logo="" group-title="UK",UK : Challengeⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439186.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Channel 4ⓧ FHD" tvg-logo="" group-title="UK",UK : Channel 4ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439184.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Channel 4ⓧ HD" tvg-logo="" group-title="UK",UK : Channel 4ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439183.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Channel 4ⓧ SD" tvg-logo="" group-title="UK",UK : Channel 4ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439182.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Channel 5 +1ⓧ" tvg-logo="" group-title="UK",UK : Channel 5 +1ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439181.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Channel 5ⓧ FHD" tvg-logo="" group-title="UK",UK : Channel 5ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439180.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Channel 5ⓧ HD" tvg-logo="" group-title="UK",UK : Channel 5ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439179.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Channel 5ⓧ SD" tvg-logo="" group-title="UK",UK : Channel 5ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439178.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Channel 44ⓧ SD" tvg-logo="" group-title="UK",UK : Channel 44ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439185.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Animationⓧ FHD" tvg-logo="" group-title="UK",UK : Cinebox Animationⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439177.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Blockbusterⓧ FHD" tvg-logo="" group-title="UK",UK : Cinebox Blockbusterⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439176.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Comedyⓧ FHD" tvg-logo="" group-title="UK",UK : Cinebox Comedyⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439174.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Cultⓧ FHD" tvg-logo="" group-title="UK",UK : Cinebox Cultⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439173.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Familyⓧ FHD" tvg-logo="" group-title="UK",UK : Cinebox Familyⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439172.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Greatsⓧ FHD" tvg-logo="" group-title="UK",UK : Cinebox Greatsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439171.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Hitsⓧ FH" tvg-logo="" group-title="UK",UK : Cinebox Hitsⓧ FH
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439170.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Musicalⓧ FHD" tvg-logo="" group-title="UK",UK : Cinebox Musicalⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439168.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Sci-Fiⓧ FHD" tvg-logo="" group-title="UK",UK : Cinebox Sci-Fiⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439164.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Cinebox Thrillerⓧ FHD" tvg-logo="" group-title="UK",UK : Cinebox Thrillerⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439163.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CITVⓧ SD" tvg-logo="" group-title="UK",UK : CITVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439161.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Clubland TVⓧ SD" tvg-logo="" group-title="UK",UK : Clubland TVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439160.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CNBC Europeⓧ SD" tvg-logo="" group-title="UK",UK : CNBC Europeⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439159.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CNN Internationalⓧ HD" tvg-logo="" group-title="UK",UK : CNN Internationalⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439158.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : CNNⓧ HD" tvg-logo="" group-title="UK",UK : CNNⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439157.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Colorsⓧ FHD" tvg-logo="" group-title="UK",UK : Colorsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439156.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Comedy Central Extraⓧ SD" tvg-logo="" group-title="UK",UK : Comedy Central Extraⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439155.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Comedy Centralⓧ FHD" tvg-logo="" group-title="UK",UK : Comedy Centralⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439154.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Comedy Centralⓧ HD" tvg-logo="" group-title="UK",UK : Comedy Centralⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439153.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Comedy Centralⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/comedy-central-uk.png?raw=true" group-title="UK",UK : Comedy Centralⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439152.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Comedy Channelⓧ SD" tvg-logo="" group-title="UK",UK : Comedy Channelⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439151.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Court TVⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/court-tv-uk.png?raw=true" group-title="UK",UK : Court TVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439150.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Create & Craftⓧ FHD" tvg-logo="" group-title="UK",UK : Create & Craftⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439149.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Create & Craftⓧ HD" tvg-logo="" group-title="UK",UK : Create & Craftⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439148.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Crime & Investigationⓧ FHD" tvg-logo="" group-title="UK",UK : Crime & Investigationⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439147.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Crime & Investigationⓧ HD" tvg-logo="" group-title="UK",UK : Crime & Investigationⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439146.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Crime & Investigationⓧ SD" tvg-logo="" group-title="UK",UK : Crime & Investigationⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439145.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Dave Ja Vuⓧ" tvg-logo="" group-title="UK",UK : Dave Ja Vuⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439144.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Daveⓧ FHD" tvg-logo="" group-title="UK",UK : Daveⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439143.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Daveⓧ HD" tvg-logo="" group-title="UK",UK : Daveⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439142.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Daveⓧ SD" tvg-logo="" group-title="UK",UK : Daveⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439141.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Daystarⓧ HD" tvg-logo="" group-title="UK",UK : Daystarⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439140.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Deluxe Loungeⓧ HD" tvg-logo="" group-title="UK",UK : Deluxe Loungeⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439139.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Discovery +1ⓧ" tvg-logo="" group-title="UK",UK : Discovery +1ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439138.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Discovery Channelⓧ FHD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/discovery-channel-uk.png?raw=true" group-title="UK",UK : Discovery Channelⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439137.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Discovery Channelⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/discovery-channel-uk.png?raw=true" group-title="UK",UK : Discovery Channelⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439136.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Discovery Channelⓧ SD" tvg-logo="" group-title="UK",UK : Discovery Channelⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439135.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Discovery History +1ⓧ" tvg-logo="" group-title="UK",UK : Discovery History +1ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439134.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Discovery Historyⓧ SD" tvg-logo="" group-title="UK",UK : Discovery Historyⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439133.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Discovery Scienceⓧ SD" tvg-logo="" group-title="UK",UK : Discovery Scienceⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439132.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Discovery Turboⓧ SD" tvg-logo="" group-title="UK",UK : Discovery Turboⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439131.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : DMAXⓧ SD" tvg-logo="" group-title="UK",UK : DMAXⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439130.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Docubox: 7News Spotlightⓧ" tvg-logo="" group-title="UK",UK : Docubox: 7News Spotlightⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439129.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Docubox: All Documentaryⓧ" tvg-logo="" group-title="UK",UK : Docubox: All Documentaryⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439128.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Docubox: Discoveryⓧ" tvg-logo="http://live.phenixiptv.com:8080/images/vA4d8RnHTgdxPN32cIhwRnpTXXt-Q0EPU5yBb-cYsVMSYYYG8FagYHVyo9x68co2ty_37Ng-tv6E9hEV41lc6zuGHInQEIKBwtlO1HMozIvzVtewHqXVj3LYkG3v3eqcyok4X1nl8SeN7qpDaldnKf9WOvtoK55Olh1aPdm1CriSQ-czH41zjA72yOZ6c7wqggmmraIYRasYDVriFIzy4w.png" group-title="UK",UK : Docubox: Discoveryⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439127.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Docubox: DW Documentaryⓧ" tvg-logo="" group-title="UK",UK : Docubox: DW Documentaryⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439126.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Docubox: Free Documentary Anilamsⓧ" tvg-logo="" group-title="UK",UK : Docubox: Free Documentary Anilamsⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439125.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Docubox: Free Documentaryⓧ" tvg-logo="" group-title="UK",UK : Docubox: Free Documentaryⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439124.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Docubox: Nat Geo Wildⓧ" tvg-logo="http://live.phenixiptv.com:8080/images/vA4d8RnHTgdxPN32cIhwRnpTXXt-Q0EPU5yBb-cYsVMSYYYG8FagYHVyo9x68co2ty_37Ng-tv6E9hEV41lc6zuGHInQEIKBwtlO1HMozIvzVtewHqXVj3LYkG3v3eqcyok4X1nl8SeN7qpDaldnKf9WOvtoK55Olh1aPdm1CriSQ-czH41zjA72yOZ6c7wqggmmraIYRasYDVriFIzy4w.png" group-title="UK",UK : Docubox: Nat Geo Wildⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439123.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Docubox: Nat Geoⓧ" tvg-logo="http://live.phenixiptv.com:8080/images/vA4d8RnHTgdxPN32cIhwRnpTXXt-Q0EPU5yBb-cYsVMSYYYG8FagYHVyo9x68co2ty_37Ng-tv6E9hEV41lc6zuGHInQEIKBwtlO1HMozIvzVtewHqXVj3LYkG3v3eqcyok4X1nl8SeN7qpDaldnKf9WOvtoK55Olh1aPdm1CriSQ-czH41zjA72yOZ6c7wqggmmraIYRasYDVriFIzy4w.png" group-title="UK",UK : Docubox: Nat Geoⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439122.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Dramaⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/drama-uk.png?raw=true" group-title="UK",UK : Dramaⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439121.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : E! ⓧ FHD" tvg-logo="" group-title="UK",UK : E! ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439120.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : E! ⓧ HD" tvg-logo="" group-title="UK",UK : E! ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439119.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : E4 +1ⓧ" tvg-logo="" group-title="UK",UK : E4 +1ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439118.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : E4ⓧ FHD" tvg-logo="" group-title="UK",UK : E4ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439117.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : E4ⓧ HD" tvg-logo="" group-title="UK",UK : E4ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439116.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : E4ⓧ SD" tvg-logo="" group-title="UK",UK : E4ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439115.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Edenⓧ HD" tvg-logo="" group-title="UK",UK : Edenⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439114.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Edenⓧ SD" tvg-logo="" group-title="UK",UK : Edenⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439113.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Eman Channelⓧ HD" tvg-logo="" group-title="UK",UK : Eman Channelⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439112.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Film4ⓧ FHD" tvg-logo="" group-title="UK",UK : Film4ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439111.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Film4ⓧ HD" tvg-logo="" group-title="UK",UK : Film4ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439110.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Film4ⓧ SD" tvg-logo="" group-title="UK",UK : Film4ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439109.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Food Networkⓧ SD" tvg-logo="" group-title="UK",UK : Food Networkⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439108.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : GB Newsⓧ FHD" tvg-logo="" group-title="UK",UK : GB Newsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439107.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Goldⓧ FHD" tvg-logo="" group-title="UK",UK : Goldⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439105.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Goldⓧ HD" tvg-logo="" group-title="UK",UK : Goldⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439104.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Goldⓧ SD" tvg-logo="" group-title="UK",UK : Goldⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439103.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : HGTVⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/hgtv-uk.png?raw=true" group-title="UK",UK : HGTVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439102.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : HGTVⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/hgtv-uk.png?raw=true" group-title="UK",UK : HGTVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439101.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Horror Channel +1 ⓧ" tvg-logo="" group-title="UK",UK : Horror Channel +1 ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439100.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Horror Channelⓧ SD" tvg-logo="" group-title="UK",UK : Horror Channelⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439099.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Horse & Country TVⓧ HD" tvg-logo="" group-title="UK",UK : Horse & Country TVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439098.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Inspiration TVⓧ SD" tvg-logo="" group-title="UK",UK : Inspiration TVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439097.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Investigation Discoveryⓧ HD" tvg-logo="" group-title="UK",UK : Investigation Discoveryⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439096.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Investigation Discoveryⓧ SD" tvg-logo="" group-title="UK",UK : Investigation Discoveryⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439095.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : iON TVⓧ" tvg-logo="" group-title="UK",UK : iON TVⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439094.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Islam TVⓧ SD" tvg-logo="" group-title="UK",UK : Islam TVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439093.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV 2ⓧ FHD" tvg-logo="" group-title="UK",UK : ITV 2ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439092.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV 2ⓧ HD" tvg-logo="" group-title="UK",UK : ITV 2ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439091.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV 2ⓧ SD" tvg-logo="" group-title="UK",UK : ITV 2ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439090.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV 3 +1 ⓧ SD" tvg-logo="" group-title="UK",UK : ITV 3 +1 ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439089.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV 3ⓧ FHD" tvg-logo="" group-title="UK",UK : ITV 3ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439088.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV 3ⓧ HD" tvg-logo="" group-title="UK",UK : ITV 3ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439087.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV 3ⓧ SD" tvg-logo="" group-title="UK",UK : ITV 3ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439086.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV 4ⓧ HD" tvg-logo="" group-title="UK",UK : ITV 4ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439085.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV 4ⓧ SD" tvg-logo="" group-title="UK",UK : ITV 4ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439084.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV Beⓧ HD" tvg-logo="" group-title="UK",UK : ITV Beⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439083.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV Beⓧ SD" tvg-logo="" group-title="UK",UK : ITV Beⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439082.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITV Londonⓧ" tvg-logo="" group-title="UK",UK : ITV Londonⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439081.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITVⓧ FHD" tvg-logo="" group-title="UK",UK : ITVⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439080.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITVⓧ HD" tvg-logo="" group-title="UK",UK : ITVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439079.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ITVⓧ SD" tvg-logo="" group-title="UK",UK : ITVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439078.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Jewellery Makerⓧ FHD" tvg-logo="" group-title="UK",UK : Jewellery Makerⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439077.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Kerrang!ⓧ SD" tvg-logo="" group-title="UK",UK : Kerrang!ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439076.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Kiss TVⓧ HD" tvg-logo="" group-title="UK",UK : Kiss TVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439075.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : LFC TVⓧ FHD" tvg-logo="" group-title="UK",UK : LFC TVⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439074.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : LFC TVⓧ HD" tvg-logo="" group-title="UK",UK : LFC TVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439073.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : LFC TVⓧ SD" tvg-logo="" group-title="UK",UK : LFC TVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439072.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : London Liveⓧ SD" tvg-logo="" group-title="UK",UK : London Liveⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439071.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Love Nature ⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/love-nature-uk.png?raw=true" group-title="UK",UK : Love Nature ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439070.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Madani Channelⓧ SD" tvg-logo="" group-title="UK",UK : Madani Channelⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439069.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Magic TVⓧ SD" tvg-logo="" group-title="UK",UK : Magic TVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439068.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : More4ⓧ HD" tvg-logo="" group-title="UK",UK : More4ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439067.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : More4ⓧ SD" tvg-logo="" group-title="UK",UK : More4ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439065.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : More4ⓧ SD" tvg-logo="" group-title="UK",UK : More4ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439066.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MTV 80sⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/mtv-80s-uk.png?raw=true" group-title="UK",UK : MTV 80sⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439064.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MTV 90sⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/mtv-90s-uk.png?raw=true" group-title="UK",UK : MTV 90sⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439063.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MTV Baseⓧ SD" tvg-logo="" group-title="UK",UK : MTV Baseⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439062.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MTV Classicⓧ SD" tvg-logo="" group-title="UK",UK : MTV Classicⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439061.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MTV Hitsⓧ SD" tvg-logo="" group-title="UK",UK : MTV Hitsⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439060.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MTV Musicⓧ SD" tvg-logo="" group-title="UK",UK : MTV Musicⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439059.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MTVⓧ HD" tvg-logo="" group-title="UK",UK : MTVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439058.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MUTVⓧ FHD" tvg-logo="" group-title="UK",UK : MUTVⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439057.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MUTVⓧ HD" tvg-logo="" group-title="UK",UK : MUTVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439056.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : MUTVⓧ SD" tvg-logo="" group-title="UK",UK : MUTVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439055.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Nat Geo Wildⓧ FHD" tvg-logo="" group-title="UK",UK : Nat Geo Wildⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439054.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Nat Geo Wildⓧ HD" tvg-logo="" group-title="UK",UK : Nat Geo Wildⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439053.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Nat Geo Wildⓧ SD" tvg-logo="" group-title="UK",UK : Nat Geo Wildⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439052.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : National Geographicⓧ FHD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/national-geographic-uk.png?raw=true" group-title="UK",UK : National Geographicⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439051.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : National Geographicⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/national-geographic-uk.png?raw=true" group-title="UK",UK : National Geographicⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439050.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : National Geographicⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/national-geographic-uk.png?raw=true" group-title="UK",UK : National Geographicⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439049.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : NDTV 24x7ⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/ndtv-24x7-uk.png?raw=true" group-title="UK",UK : NDTV 24x7ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439048.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Nickelodeonⓧ SD" tvg-logo="" group-title="UK",UK : Nickelodeonⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439046.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Nick Jrⓧ SD" tvg-logo="" group-title="UK",UK : Nick Jrⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439047.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Nicktoonsⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/nick-toons-uk.png?raw=true" group-title="UK",UK : Nicktoonsⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439045.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Now 70sⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/now-70s-uk.png?raw=true" group-title="UK",UK : Now 70sⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439044.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Now 80sⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/now-80s-uk.png?raw=true" group-title="UK",UK : Now 80sⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439043.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Now 90sⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/now-90s-uk.png?raw=true" group-title="UK",UK : Now 90sⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439042.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Paramount Networkⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/paramount-network-uk.png?raw=true" group-title="UK",UK : Paramount Networkⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439040.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Paramount Networkⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/paramount-network-uk.png?raw=true" group-title="UK",UK : Paramount Networkⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439041.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : PBS Americaⓧ" tvg-logo="" group-title="UK",UK : PBS Americaⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439039.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Pick +1 ⓧ" tvg-logo="" group-title="UK",UK : Pick +1 ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439038.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Pickⓧ SD" tvg-logo="" group-title="UK",UK : Pickⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439037.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : POP +1ⓧ SD" tvg-logo="" group-title="UK",UK : POP +1ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439036.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : POPⓧ SD" tvg-logo="" group-title="UK",UK : POPⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439034.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Quest Redⓧ SD" tvg-logo="" group-title="UK",UK : Quest Redⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439033.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Questⓧ FHD" tvg-logo="" group-title="UK",UK : Questⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439032.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Questⓧ HD" tvg-logo="" group-title="UK",UK : Questⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439031.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Questⓧ SD" tvg-logo="" group-title="UK",UK : Questⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439030.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : QVC +1 ⓧ" tvg-logo="" group-title="UK",UK : QVC +1 ⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439029.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : QVC Beautyⓧ SD" tvg-logo="" group-title="UK",UK : QVC Beautyⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439028.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : QVC Extraⓧ SD" tvg-logo="" group-title="UK",UK : QVC Extraⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439027.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : QVC Styleⓧ SD" tvg-logo="" group-title="UK",UK : QVC Styleⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439026.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : QVCⓧ SD" tvg-logo="" group-title="UK",UK : QVCⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439025.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Racing TVⓧ SD" tvg-logo="" group-title="UK",UK : Racing TVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439024.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Reallyⓧ SD" tvg-logo="" group-title="UK",UK : Reallyⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439023.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Reuters TVⓧ HD" tvg-logo="" group-title="UK",UK : Reuters TVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439022.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : S4Cⓧ FHD" tvg-logo="" group-title="UK",UK : S4Cⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439021.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : S4Cⓧ HD" tvg-logo="" group-title="UK",UK : S4Cⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439020.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : S4Cⓧ SD" tvg-logo="" group-title="UK",UK : S4Cⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439019.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Artsⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Artsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439018.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Artsⓧ HD" tvg-logo="" group-title="UK",UK : Sky Artsⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439017.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Artsⓧ SD" tvg-logo="" group-title="UK",UK : Sky Artsⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439016.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Atlanticⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Atlanticⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439015.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Atlanticⓧ HD" tvg-logo="" group-title="UK",UK : Sky Atlanticⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439014.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Atlanticⓧ SD" tvg-logo="" group-title="UK",UK : Sky Atlanticⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439013.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Actionⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Actionⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439012.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Actionⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Actionⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439011.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Animationⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Animationⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439010.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Animationⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Animationⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439009.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Animationⓧ SD" tvg-logo="" group-title="UK",UK : Sky Cinema Animationⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439008.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Comedyⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Comedyⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439007.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Comedyⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Comedyⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439006.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Comedyⓧ SD" tvg-logo="" group-title="UK",UK : Sky Cinema Comedyⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439005.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Dramaⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Dramaⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439004.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Dramaⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Dramaⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439003.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Familyⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Familyⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439002.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Familyⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Familyⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439001.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Greatsⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Greatsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439000.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Greatsⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Greatsⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438999.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Hitsⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Hitsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438998.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Hitsⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Hitsⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438997.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Premiereⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Premiereⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438996.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Premiereⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Premiereⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438995.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Premiereⓧ SD" tvg-logo="" group-title="UK",UK : Sky Cinema Premiereⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438994.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Sci-fi & Horrorⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Sci-fi & Horrorⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438993.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Sci-fi & Horrorⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-cinema-sci-fi-horror-icon-uk.png?raw=true" group-title="UK",UK : Sky Cinema Sci-fi & Horrorⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438992.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Selectⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Selectⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438991.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Selectⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Selectⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438990.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Selectⓧ SD" tvg-logo="" group-title="UK",UK : Sky Cinema Selectⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438989.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Thrillerⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Cinema Thrillerⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438988.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Cinema Thrillerⓧ HD" tvg-logo="" group-title="UK",UK : Sky Cinema Thrillerⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438987.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Comedyⓧ HD" tvg-logo="" group-title="UK",UK : Sky Comedyⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438986.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Documentariesⓧ FHD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-documentaries-uk.png?raw=true" group-title="UK",UK : Sky Documentariesⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438985.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Documentariesⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-documentaries-uk.png?raw=true" group-title="UK",UK : Sky Documentariesⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438984.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Documentariesⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-documentaries-uk.png?raw=true" group-title="UK",UK : Sky Documentariesⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438983.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Historyⓧ FHD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-history-uk.png?raw=true" group-title="UK",UK : Sky Historyⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438982.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Historyⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-history-uk.png?raw=true" group-title="UK",UK : Sky Historyⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438981.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Maxⓧ FHD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-max-uk.png?raw=true" group-title="UK",UK : Sky Maxⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438980.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Maxⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-max-uk.png?raw=true" group-title="UK",UK : Sky Maxⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438979.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Maxⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-max-uk.png?raw=true" group-title="UK",UK : Sky Maxⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438978.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Newsⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Newsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438977.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Newsⓧ HD" tvg-logo="" group-title="UK",UK : Sky Newsⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438976.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Replayⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-replay-uk.png?raw=true" group-title="UK",UK : Sky Replayⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438975.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Showcaseⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-showcase-uk.png?raw=true" group-title="UK",UK : Sky Showcaseⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438974.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Store 4ⓧ HD" tvg-logo="" group-title="UK",UK : Sky Store 4ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438973.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Witnessⓧ FHD" tvg-logo="" group-title="UK",UK : Sky Witnessⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438972.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Witnessⓧ HD" tvg-logo="" group-title="UK",UK : Sky Witnessⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438971.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Witnessⓧ SD" tvg-logo="" group-title="UK",UK : Sky Witnessⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438970.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sony TVⓧ SD" tvg-logo="" group-title="UK",UK : Sony TVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438969.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Spotlight TVⓧ SD" tvg-logo="" group-title="UK",UK : Spotlight TVⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438968.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : STVⓧ FHD" tvg-logo="" group-title="UK",UK : STVⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438967.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : SyFyⓧ FHD" tvg-logo="" group-title="UK",UK : SyFyⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438966.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : SyFyⓧ HD" tvg-logo="" group-title="UK",UK : SyFyⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438965.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : SyFyⓧ SD" tvg-logo="" group-title="UK",UK : SyFyⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438964.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Talking Picturesⓧ SD" tvg-logo="" group-title="UK",UK : Talking Picturesⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438963.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : TBNⓧ HD" tvg-logo="" group-title="UK",UK : TBNⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438962.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : TCMⓧ HD" tvg-logo="" group-title="UK",UK : TCMⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438961.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : TCMⓧ SD" tvg-logo="" group-title="UK",UK : TCMⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438960.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : The Boxⓧ SD" tvg-logo="" group-title="UK",UK : The Boxⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438959.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : The Word Networkⓧ HD" tvg-logo="" group-title="UK",UK : The Word Networkⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438958.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : TLCⓧ FHD" tvg-logo="http://live.phenixiptv.com:8080/images/vA4d8RnHTgdxPN32cIhwRnpTXXt-Q0EPU5yBb-cYsVMSYYYG8FagYHVyo9x68co2ty_37Ng-tv6E9hEV41lc6zuGHInQEIKBwtlO1HMozItJos6i8YRnsRJwt3vVbiydIbHtWlkVHyY7AH-oXpp6EmDsq3QEFkGNYVe2iaUlOkBLG2mDK0dpkVvbUlhnUh7A8usLBdFN6O-Vsi0tldtpRw.png" group-title="UK",UK : TLCⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438956.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : TLCⓧ HD" tvg-logo="" group-title="UK",UK : TLCⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438955.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : TLCⓧ SD" tvg-logo="" group-title="UK",UK : TLCⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438954.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Travel Channelⓧ FHD" tvg-logo="" group-title="UK",UK : Travel Channelⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438952.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Travel XPⓧ HD" tvg-logo="" group-title="UK",UK : Travel XPⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438951.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Travel XPⓧ SD" tvg-logo="" group-title="UK",UK : Travel XPⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438950.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : TRT Worldⓧ HD" tvg-logo="" group-title="UK",UK : TRT Worldⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438949.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : UFC Fight Passⓧ HD" tvg-logo="" group-title="UK",UK : UFC Fight Passⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438947.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : UFC Fight Passⓧ SD" tvg-logo="" group-title="UK",UK : UFC Fight Passⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438946.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Utsav Bharatⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/utsav-bharat-uk.png?raw=true" group-title="UK",UK : Utsav Bharatⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438945.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Utsav Goldⓧ HD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/utsav-gold-uk.png?raw=true" group-title="UK",UK : Utsav Goldⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438944.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : UTVⓧ" tvg-logo="" group-title="UK",UK : UTVⓧ
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438943.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : WWE Raw Networkⓧ HD" tvg-logo="http://domestipo1.online:80/images/3ORmlTlt95jUC4jXmLWuoKBZ9DPnL0ZslPdPvntI1FlQ02_y5tc_ynGarzGGjRVQGfhjDfw2qpXlZF76JYnhQVs_IVKK7c_2z1n_M4NA0wQ.png" group-title="UK",UK : WWE Raw Networkⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438941.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Wⓧ FHD" tvg-logo="" group-title="UK",UK : Wⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438940.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Wⓧ HD" tvg-logo="" group-title="UK",UK : Wⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438939.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Wⓧ SD" tvg-logo="" group-title="UK",UK : Wⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438938.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Yesterdayⓧ SD" tvg-logo="" group-title="UK",UK : Yesterdayⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438936.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : ZEE TVⓧ FHD" tvg-logo="" group-title="UK",UK : ZEE TVⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/438935.ts
-#EXTINF:-1 tvg-id="" tvg-name="IRE | Eir Sport 1ⓧ FHD" tvg-logo="" group-title="UK SPORTS",IRE | Eir Sport 1ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439314.ts
-#EXTINF:-1 tvg-id="" tvg-name="IRE | Eir Sport 1ⓧ HD" tvg-logo="" group-title="UK SPORTS",IRE | Eir Sport 1ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439313.ts
-#EXTINF:-1 tvg-id="" tvg-name="IRE | Eir Sport 1ⓧ SD" tvg-logo="" group-title="UK SPORTS",IRE | Eir Sport 1ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439312.ts
-#EXTINF:-1 tvg-id="" tvg-name="IRE | Eir Sport 2ⓧ HD" tvg-logo="" group-title="UK SPORTS",IRE | Eir Sport 2ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439311.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BT Sport 1ⓧ FHD 50FPS" tvg-logo="" group-title="UK SPORTS",UK : BT Sport 1ⓧ FHD 50FPS
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439310.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BT Sport 3ⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : BT Sport 3ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439309.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : BT Sport ESPNⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : BT Sport ESPNⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439308.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Eurosport 1ⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Eurosport 1ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439306.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Eurosport 1ⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Eurosport 1ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439305.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Eurosport 1ⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Eurosport 1ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439304.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Eurosport 2ⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Eurosport 2ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439303.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Eurosport 2ⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Eurosport 2ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439302.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Eurosport 2ⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Eurosport 2ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439301.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : FreeSportsⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : FreeSportsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439300.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : FreeSportsⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : FreeSportsⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439299.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : FreeSportsⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : FreeSportsⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439298.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Ginx eSports TVⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Ginx eSports TVⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439297.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Actionⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Actionⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439296.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Actionⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Actionⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439295.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Arenaⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Arenaⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439294.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Arenaⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Arenaⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439293.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Arenaⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Arenaⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439292.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Cricketⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Cricketⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439291.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Cricketⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Cricketⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439290.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Cricketⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Cricketⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439289.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports F1ⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports F1ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439288.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports F1ⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports F1ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439287.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports F1ⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports F1ⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439286.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Footballⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Footballⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439285.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Footballⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Footballⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439284.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Footballⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Footballⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439283.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Golfⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Golfⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439282.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Golfⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Golfⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439281.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Golfⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Golfⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439280.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Main Eventⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Main Eventⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439278.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Main Event ⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Main Event ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439279.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Mixⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Mixⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439277.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Mixⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Mixⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439276.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Mixⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Mixⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439275.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Newsⓧ FHD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-sports-news-uk.png?raw=true" group-title="UK SPORTS",UK : Sky Sports Newsⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439273.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports News ⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports News ⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439274.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Newsⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Newsⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439272.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports NFLⓧ FHD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-sports-nfl-uk.png?raw=true" group-title="UK SPORTS",UK : Sky Sports NFLⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439271.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Premier League ⓧ FHD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Premier League ⓧ FHD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439270.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Premier Leagueⓧ HD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Premier Leagueⓧ HD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439269.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Premier Leagueⓧ SD" tvg-logo="" group-title="UK SPORTS",UK : Sky Sports Premier Leagueⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439268.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK : Sky Sports Racingⓧ SD" tvg-logo="https://github.com/Tapiosinn/tv-logos/blob/master/countries/united-kingdom/sky-sports-racing-uk.png?raw=true" group-title="UK SPORTS",UK : Sky Sports Racingⓧ SD
-http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/439267.ts
-
 
 
 #EXTM3U
@@ -7086,396 +6522,6 @@ http://mypanel-4k.com:80/movie/me52pjdqa6/dt2t9r16ja/327385.mkv
              韓國女團
 #########################################
 
-#EXTM3U
-
-#EXTINF:-1 group-title="韓國女團",韓團MTV-1
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240095359203.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-2
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239978750464.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-3
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239858729476.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-4
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239755956819.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-5
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239987758613.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-6
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239880949246.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-7
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239903717006.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-8
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239903321355.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-9
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239799872402.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-10
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239799088974.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-11
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240024786285.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-12
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240142715042.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-13
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240025046562.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-14
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240145171654.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-15
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240147051191.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-16
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239805200933.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-17
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239910253332.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-18
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239806164759.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-19
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239807872136.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-20
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240032526123.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-21
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239808028600.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-22
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240031614983.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-23
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240150331617.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-24
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239809100782.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-25
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240151167718.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-26
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240033362815.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-27
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240151167938.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-28
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240035466345.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-29
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239811800375.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-30
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239916285148.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-31
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239927589941.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-32
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239931661209.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-33
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240171579858.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-34
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239831144046.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-35
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240056530470.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-36
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239832040344.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-37
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240173879894.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-38
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240057078179.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-39
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239936685999.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-40
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240059018784.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-41
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239834324813.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-42
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239834716201.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-43
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239837532125.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-44
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240179867562.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-45
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240063650207.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-46
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240181243061.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-47
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240181363115.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-48
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239944465251.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-49
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240065122134.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-50
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239840536452.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-51
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240065838644.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-52
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239945877111.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-53
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240184339138.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-54
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239842640589.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-55
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240186067562.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-56
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240187071401.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-57
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240069974546.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-58
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240070346911.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-59
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240070818783.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-60
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239846692034.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-61
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239951329234.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-62
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240191295627.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-63
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240026585459.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-64
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240192067467.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-65
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239911732892.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-66
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240196491782.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-67
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239960909980.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-68
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240017737344.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-69
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240202339353.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-70
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240203243765.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-71
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240205555546.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-72
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239983417489.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-74
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240221687198.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-75
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240222023079.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-76
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240107150280.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-77
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240224523227.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-78
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239987569147.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-79
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240225803033.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-80
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239989445779.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-81
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240229579224.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-82
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239993533054.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-83
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239994225085.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-84
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239994741288.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-85
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239995197198.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-86
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240232939168.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-87
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239890536417.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-88
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239890568711.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-89
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240233783820.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-90
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239894180409.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-92
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239895496483.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-93
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240119938989.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-94
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240002397273.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-95
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240241527208.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-96
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239899840062.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-97
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240243499351.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-98
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240127638122.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-99
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240030505796.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-100
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240245283772.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-101
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240247623420.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-102
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240043672242.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-103
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240339124000.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-104
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240221702622.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-105
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239993732827.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-106
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239994460907.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-107
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240340899550.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-108
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239995692215.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-109
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240341971789.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-110
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239996664565.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-111
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240342839842.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-112
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240225254466.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-113
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240225226897.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-114
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239998000351.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-115
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240105989528.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-116
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/239998340711.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-117
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240106477140.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-118
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240107389699.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-119
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240345787129.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-120
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240227966801.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-121
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240228462625.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-122
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240108721427.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-123
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240001176191.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-125
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240001228776.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-126
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240109533631.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-127
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240347663598.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-128
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240001932458.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-129
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240002044738.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-130
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240111085001.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-131
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240350575186.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-132
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240350771160.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-133
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240113261859.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-134
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240352039996.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-135
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240236014123.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-136
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240008036293.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-137
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240354863286.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-138
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240008780109.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-139
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240009608741.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-140
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240379515679.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-141
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240262842385.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-142
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240264262344.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-143
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240384227055.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-145
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240267170778.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-146
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240386743317.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-147
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240268654616.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-148
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240387107547.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-149
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240150573492.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-150
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240388683474.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-151
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240270774376.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-152
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240151273206.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-153
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240389031565.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-154
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgr-2n9AUoqsakNg.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-155
-https://15799848.s21v.faiusr.com/58/ABUIABA6GAAgz-qc4gUo4vj-tQY.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-156
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240162304531.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-157
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240167997205.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-158
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240059400880.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-159
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240407847242.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-160
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240062596020.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-161
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240170661907.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-162
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240411259014.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-163
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240174309994.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-164
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240175225325.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-165
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240066736888.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-166
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240175161903.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-167
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240295526170.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-168
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240295818399.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-169
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240177321736.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-170
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240177941288.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-171
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240070652257.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-172
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240298266546.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-173
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240070884570.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-174
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240298694512.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-175
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240418087243.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-176
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240299394846.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-177
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240181409471.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-178
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240182993056.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-179
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240301854532.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-180
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240075164377.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-181
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240349762400.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-182
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240121912724.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-183
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240126480392.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-184
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240355262537.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-185
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240355734488.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-186
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240237453313.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-187
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240130092025.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-188
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240478207039.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-189
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240361330093.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-190
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240139316317.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-191
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240248465975.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-192
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240139720035.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-193
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240368550193.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-194
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240250429573.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-195
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240370230905.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-196
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240160716008.mp4
-#EXTINF:-1 group-title="韓國女團",韓團MTV-198
-https://cloud.video.taobao.com//play/u/57349687/p/1/e/6/t/1/240389662042.mp4
-
-
 
 
 #########################################
@@ -7501,8 +6547,6 @@ http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
 
 #EXTINF:-1 group-title="私密頻道 ADULT",探花視頻24小時播放
 http://bo.xn--zwtw53a.com/live/cx_15710.flv
-#EXTINF:-1 group-title="私密頻道 ADULT",約炮視頻24小時播放
-http://bo.xn--tcwu45i.com/live/cx_15672.flv
 
 
 #EXTINF:-1 group-title="私密頻道 ADULT",JGIRL

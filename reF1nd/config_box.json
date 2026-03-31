@@ -62,10 +62,10 @@
        "alt6-mtalk.google.com", "alt7-mtalk.google.com", "alt8-mtalk.google.com", "dl.google.com", "dl.l.google.com"], "server": "dns_hosts"},
       {"clash_mode":"Global","server":"proxy_dns_server"},
       {"clash_mode": "Direct", "server": "direct_dns_server", "strategy": "ipv4_only"},
-      {"query_type": ["SVCB", "HTTPS"], "action": "reject"},
       {"domain": ["a0.app.xiaomi.com", "appversion.115.com"], "server": "direct_dns_server"},
       {"rule_set": ["217heidai-Ads"], "action": "predefined", "rcode": "NOERROR"},
       {"domain_suffix": ["market.xiaomi.com", "lancache.steamcontent.com"], "rule_set": ["cn", "private"], "server": "direct_dns_server"},
+      {"query_type": ["SVCB", "HTTPS"], "action": "reject"},
       {"type": "logical", "mode": "or", "rules": [{"query_type": "PTR"}, {"domain_keyword": ["wifi.fiberhome"]}], "action": "predefined", "rcode": "NXDOMAIN"},
       {"query_type": ["A", "AAAA"], "server": "fakeip_dns_server", "rewrite_ttl": 1},
       {"rule_set": "gfw", "server": "proxy_dns_server"}
@@ -109,7 +109,7 @@
       {"type": "logical", "mode": "and", "rules": [{"package_name": "com.tencent.mm"}, {"ip_version": 6}, {"default_interface_address": ["2000::/3"], "invert": true}], "action": "reject"},
       // 用于解决微信顽固ipv6导致图片无法成功发送的问题，非tun模式不需要此规则
       {"domain": ["Mijia Cloud"], "domain_suffix": ["push.apple.com"], "rule_set": ["telegram_ip"], "invert": true, "action": "sniff"},
-      {"protocol": "dns", "action": "hijack-dns"},
+      {"type": "logical", "mode": "or", "rules": [{"protocol": "dns"}, {"port": 53}], "action": "hijack-dns"},
       {"udp_disable_domain_unmapping": true, "udp_connect": true, "action": "route-options"},
       {"clash_mode": "Global", "outbound": "GLOBAL"},
       {"clash_mode": "Direct", "outbound": "direct"},

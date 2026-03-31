@@ -422,10 +422,10 @@
             "timeout": 60
         },
         {
-            "key": "六月听书",
-            "name": "🎵六月听书",
+            "key": "世界听书",
+            "name": "🎵世界听书",
             "type": 3,
-            "api": "csp_TingBook",
+            "api": "csp_TingShijie",
             "style": {
                 "type": "list"
             }
@@ -506,17 +506,6 @@
             "ext": {
                 "url": "https://www.pkmp4.xyz,https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com"
             }
-        },
-        {
-            "key": "雪花",
-            "name": "❄️雪花磁力",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "changeable": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./XBPQ/雪花.json"
         },
         {
             "key": "80S",
@@ -966,37 +955,6 @@
             "api": "csp_Gz360"
         },
         {
-            "key": "爱影影院",
-            "name": "💰爱影影院",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q20.txt",
-                "dataKey": "ada211sdfsff3261",
-                "dataIv": "ada211sdfsff3261",
-                "init": "initV122",
-                "search": "mineInfo",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "星河",
-            "name": "🌌星河影视",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt",
-                "dataKey": "kj37zs29q22jk96t",
-                "dataIv": "kj37zs29q22jk96t",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "金牌",
             "name": "🏅金牌",
             "type": 3,
@@ -1004,7 +962,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "url": "https://qj3.ggtvb.cc",
+                "url": "https://qj4.catbb.xyz",
                 "dataKey": "eecbio48dsq13kkk",
                 "dataIv": "eecbio48dsq13kkk",
                 "search": "searchList4",
@@ -1161,22 +1119,9 @@
             "changeable": 1,
             "api": "csp_AppGet",
             "ext": {
-                "url": "http://xkos1.xkgzs.xyz",
-                "dataKey": "77jkcdvdodfcdkjk",
-                "dataIv": "77jkcdvdodfcdkjk"
-            }
-        },
-        {
-            "key": "火狐",
-            "name": "🦊火狐影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "http://huohu.yihn.cc",
-                "dataKey": "huohushipingetap",
-                "dataIv": "huohushipingetap"
+                "url": "http://xk7.xkgzs.xyz",
+                "dataKey": "107jkcdncofcdkjk",
+                "dataIv": "107jkcdncofcdkjk"
             }
         },
         {
@@ -4685,19 +4630,6 @@
             }
         },
         {
-            "key": "火锅",
-            "name": "🍊火锅影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://ios.hgyx.vip",
-                "dataKey": "062dec75d039980e",
-                "dataIv": "062dec75d039980e"
-            }
-        },
-        {
             "key": "爱影",
             "name": "💰爱影影视",
             "type": 3,
@@ -4705,9 +4637,9 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q20.txt",
-                "dataKey": "ada211sdfsff3261",
-                "dataIv": "ada211sdfsff3261",
+                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q21.txt",
+                "dataKey": "okkfKgnc9JIBISh1",
+                "dataIv": "okkfKgnc9JIBISh1",
                 "init": "initV122",
                 "search": "mineInfo",
                 "ua": "okhttp/3.10.0"
@@ -4721,7 +4653,7 @@
             "searchable": 1,
             "changeable": 1,
             "ext": {
-                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
+                "site": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt",
                 "dataKey": "ca94b06ca359d80e",
                 "dataIv": "ca94b06ca359d80e",
                 "init": "initV120",
@@ -4816,22 +4748,6 @@
                 "url": "https://qiyiys.cc",
                 "dataKey": "45452893929B40D9",
                 "dataIv": "45452893929B40D9"
-            }
-        },
-        {
-            "key": "橘子",
-            "name": "🍊橘子影视",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt",
-                "dataKey": "jasaFBcdV3zrUDf2",
-                "dataIv": "jasaFBcdV3zrUDf2",
-                "version": "305",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -11161,17 +11077,6 @@
                 "字母值": "*",
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
-            }
-        },
-        {
-            "key": "星辰影视1",
-            "name": "💧星辰影视1",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "分类url": "https://www.sdconglin.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-                "分类": "电视剧$2#短剧$36#电影$1#综艺$3#动漫$4",
-                "简介": "display: none;\">&&<"
             }
         },
         {
@@ -20848,9 +20753,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251220",
+                "作者": "🍊小橙子/20260326",
                 "站名": "星空影视1",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@server_name_session=f1dc8b3b4a708256ea9b7b33ad808154；； PHPSESSID=iv5t5butgtj525qsoocpc4b4ql&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@server_name_session=a507cb1515ebbd565f64d4209a40eff2；； Hm_lvt_0b53e62c48e7a52e427817bfb11fc626=1774492849；； HMACCOUNT=17BED804ED862610；； PHPSESSID=v4glbsb8ec8mnnmosnu701bdkc；； Hm_lpvt_0b53e62c48e7a52e427817bfb11fc626=1774495194&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -20858,45 +20763,45 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://www.xkyy99.com/",
+                "主页url": "https://szliaoyuan.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://www.xkyy99.com/vodshow/{cateId}--------{catePg}---.html",
-                "分类": "电影$20#电视剧$21#综艺$24#动漫$22#短剧$23#纪录片$52#体育$25#",
+                "分类url": "https://szliaoyuan.com/show/{cateId}--------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$37#",
                 "二次截取": "",
-                "数组": "hl-item-thumb hl-lazy&&</a>",
+                "数组": "col-xs-4 col-md-3 col-lg-2&&</li>",
                 "标题": "title=\"&&\"",
                 "图片": "data-original=\"&&\"",
-                "副标题": "<span class=\"hl-lc-1 remarks\">&&</span>",
+                "副标题": "<p class=\"item-status text-overflow\">&&</p>",
                 "链接": "href=\"&&\"",
-                "影片年代": "年份：&&</li>",
-                "影片地区": "地区：&&</li>",
-                "影片类型": "类型：&&</li>",
-                "状态": "状态：&&</li>",
-                "导演": "导演：&&</li>",
-                "主演": "主演：&&</li>",
+                "影片年代": "年份：&&</p>",
+                "影片地区": "地区：&&</p>",
+                "影片类型": "类型：&&</p>",
+                "状态": "状态：&&</p>",
+                "导演": "导演：&&</p>",
+                "主演": "主演：&&</p>",
                 "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "<a class=\"hl-tabs-btn hl-slide-swiper&&/a>",
-                "线路标题": "</i>&&<",
+                "线路数组": "swiper-slide ewave-tab&&</li>",
+                "线路标题": ">&&</",
                 "播放二次截取": "",
-                "播放数组": "<ul class=\"hl-plays-list hl-sort-list&&</ul>",
+                "播放数组": "id=\"ewave-playlist&&</ul>",
                 "倒序": "0",
-                "播放列表": "<a&&</a>",
-                "播放标题": ">&&</a>",
+                "播放列表": "<a&&/a>",
+                "播放标题": ">&&<",
                 "播放链接": "href=\"&&\"",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.xkyy99.com/vodsearch/{wd}----------{pg}---.html",
+                "搜索url": "https://szliaoyuan.com/search/{wd}----------{pg}---.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",
-                "搜索数组": "hl-item-thumb hl-lazy&&</a>",
+                "搜索数组": "col-xs-4 col-md-3 col-lg-2&&</li>",
                 "搜索标题": "title=\"&&\"",
                 "搜索图片": "data-original=\"&&\"",
-                "搜索副标题": "<span class=\"hl-lc-1 remarks\">&&</span>",
+                "搜索副标题": "<p class=\"item-status text-overflow\">&&</p>",
                 "搜索链接": "href=\"&&\"",
                 "筛选": "1",
                 "类型": "",
@@ -20915,8 +20820,8 @@
             }
         },
         {
-            "key": "人人影视",
-            "name": "🧑人人影视",
+            "key": "巨人影院",
+            "name": "🧑巨人影院",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -20925,9 +20830,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251221",
-                "站名": "人人影视",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@_ym_uid=1766293187939932297；； _ym_d=1766293187；； _ym_isad=2&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "作者": "🍊小橙子/20260331",
+                "站名": "巨人影院",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@sl-session=Ai9wR2eQzGnwu8VX7iFkjg==；； Hm_lvt_3c2f9e84c7de0f62925ad75ee57afce8=1774927593；； HMACCOUNT=17BED804ED862610；； PHPSESSID=8uv3chqf9f7jka32j5f5m6d3hh；； Hm_lpvt_3c2f9e84c7de0f62925ad75ee57afce8=1774930804&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -20935,11 +20840,11 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://www.renrenca.com/",
+                "主页url": "https://www.juren.co/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://www.renrenca.com/rrs/{cateId}/page/{catePg}.html",
-                "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman#短剧$duanju#",
+                "分类url": "https://www.juren.co/show/{cateId}-{area}-------{catePg}---{year}.html",
+                "分类": "电影$1#电视剧$2#综艺$4#动漫$3#短剧$5#少儿$20#",
                 "二次截取": "",
                 "数组": "lazyload&&</a>",
                 "标题": "title=\"&&\"",
@@ -20952,12 +20857,12 @@
                 "状态": "状态：&&</p>",
                 "导演": "导演：&&</p>",
                 "主演": "主演：&&</p>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+myui-panel_bd col-pd\">&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+col-pd text-collapse content\">&&</div>",
                 "线路二次截取": "",
                 "线路数组": "\\#playlist&&</a>",
-                "线路标题": "tab\">&&<[不包含:线路1]",
+                "线路标题": "tab\">&&</a>",
                 "播放二次截取": "",
-                "播放数组": "myui-content__list sort-list clearfix&&</ul>",
+                "播放数组": "myui-content__list scrollbar sort-list clearfix&&</ul>",
                 "倒序": "0",
                 "播放列表": "<a&&</a>",
                 "播放标题": ">&&</a>",
@@ -20966,7 +20871,7 @@
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.renrenca.com/ss/wd/{wd}/page/{pg}.html",
+                "搜索url": "https://www.juren.co/search/{wd}----------{pg}---.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",

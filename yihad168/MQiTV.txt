@@ -26,13 +26,25 @@
     },
 
    {
-            "name": "MyTV",
+            "name": "🔓大葱MyTV🔓",
             "type": 0,
             "url": "https://tv.iill.top/m3u/MyTV",
             "ua": "okhttp/5.0.0-alpha.14",
             "timeout": 30,
             "playerType": 2
         },
+
+    {
+      "name": "🔓大葱Gather🔓",
+      "url": "https://tv.iill.top/m3u/Gather"
+    },
+
+    {
+      "name": "🔓大葱Sport🔓",
+      "url": "https://tv.iill.top/m3u/Sport"
+    },
+
+
 
     {
       "name": "MYTV 2",
@@ -82,6 +94,14 @@
     }
   },
 
+    {
+      "name": "♻️TVonlive",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/SSM0415/apptest/main/TVonline.txt",
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
 
   {
       "name": "🐅易发TV",
@@ -441,6 +461,34 @@
     {
       "name": "💔SMTjudy💔",
       "url": "https://raw.githubusercontent.com/judy-gotv/iptv/main/smart.m3u"
+    },
+
+
+
+
+        {
+            "name": "🔞全部纯福利🔞",
+            "type": 0,
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/yuanwangokk-1/TV-BOX/main/纯福利/live/mmhy.zzong6599.workers.dev"
+        },
+
+        {
+            "name": "🔞直播🔞",
+            "type": 0,
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/yuanwangokk-1/TV-BOX/main/纯福利/live/live.js",
+            "ua": "okhttp/3.15",
+            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+    {
+      "name": "🔞xwll18🔞",
+      "url": "https://github.com/123linyao123/apptest123/raw/refs/heads/main/xwll18.m3u"
+    },
+
+    {
+      "name": "🔞18+18+18+🔞",
+      "url": "https://github.com/123linyao123/apptest123/raw/refs/heads/main/adult/18.m3u"
     },
 
     {

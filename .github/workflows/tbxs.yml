@@ -1,27 +1,27 @@
 name: Sync GitHub Repos to Subfolders and unzip to master  
-
+ 
 on:  
   schedule:  
-    - cron: '0 */6 * * *'  
+    - cron: '0 */6 * * *' 
   workflow_dispatch:  
-
+ 
 concurrency:  
   group: sync_job_lock  
   cancel-in-progress: true  
-
+ 
 jobs:  
   sync_and_unzip:  
     runs-on: ubuntu-latest  
-
+ 
     steps:  
       - name: Checkout default branch  
         uses: actions/checkout@v3  
-
+ 
       - name: Set up Git config  
         run: |  
           git config user.name "github-actions[bot]"  
           git config user.email "github-actions[bot]@users.noreply.github.com"  
-
+ 
       - name: Reset local repo to remote default branch  
         run: |  
           set -e  
@@ -32,11 +32,11 @@ jobs:
           git reset --hard origin/$DEFAULT_BRANCH  
           git clean -fdx  
           echo "✅ Reset 完成"  
-
+ 
       - name: Fetch subprojects  
         run: |  
           echo "==== 开始同步 Git 仓库 ===="  
-
+ 
           declare -A repos=(  
             [dr]="https://github.com/jak0099/dr.git"  
             [tvbox]="https://github.com/cluntop/tvbox.git"  
@@ -53,10 +53,10 @@ jobs:
             [zheng1976]="https://github.com/zheng197600/tvbox.git"  
             [FGBLH]="https://github.com/FGBLH/FG.git"  
             [yihad168]="https://github.com/yihad168/tv.git"  
-            [cpu_iy]="https://gitee.com/cpu-iy/iy.git"  
-            [reF1nd]="https://github.com/syccccc2333-oss/singbox_config.git"  
+            [cpu_iy]="https://gitee.com/cpu-iy/iy.git" 
+            [reF1nd]="https://github.com/syccccc2333-oss/singbox_config.git" 
           )  
-
+ 
           for name in "${!repos[@]}"; do  
             echo "→ 同步 $name"  
             rm -rf "$name" temp-"$name"  
@@ -65,34 +65,31 @@ jobs:
             cp -r temp-"$name"/* "$name"/  
             rm -rf temp-"$name"  
           done  
-
+ 
           echo "==== 同步完成 ===="  
+ 
+      # --- 新增：同步 DustinWin 的 _posts 目录 ---
+      - name: Sync DustinWin _posts
+        run: |
+          echo "==== 开始同步 DustinWin _posts ===="
+          rm -rf temp-dustinwin
+          git clone --depth 1 https://github.com/DustinWin/dustinwin.github.io.git temp-dustinwin
+          mkdir -p _posts
+          # 拷贝 _posts 目录下的所有内容到本地 _posts 文件夹
+          cp -r temp-dustinwin/_posts/* _posts/
+          rm -rf temp-dustinwin
+          echo "✅ DustinWin _posts 同步完成"
 
-          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy reF1nd \  
+      - name: Update file timestamps
+        run: |
+          # 包含新加入的 _posts 目录
+          find dr tvbox T4 wzxxcz ljlfct01 Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy reF1nd _posts \
             -type f -exec touch {} +  
-
-      # ✅ 新增：完全镜像 DustinWin 的 _posts
-      - name: Sync DustinWin _posts (rsync mirror)  
-        run: |  
-          echo "==== 镜像同步 DustinWin _posts ===="  
-
-          rm -rf temp-posts  
-          git clone --depth 1 https://github.com/DustinWin/dustinwin.github.io.git temp-posts  
-
-          mkdir -p _posts  
-
-          # 完全镜像（删除多余文件）
-          rsync -av --delete temp-posts/_posts/ _posts/  
-
-          rm -rf temp-posts  
-
-          echo "==== _posts 镜像完成 ===="  
-
+ 
       - name: Download and extract NewTVBox  
         run: |  
           echo "==== 开始下载 GitHub 仓库 PizazzGY/NewTVBox ===="  
-          mkdir -p gitee-source && rm -rf gitee-source/*  
-          curl -L -o github.zip "https://github.com/PizazzGY/NewTVBox/archive/refs/heads/main.zip"  
+          mkdir -p gitee-source && rm -rf gitee-source/* curl -L -o github.zip "https://github.com/PizazzGY/NewTVBox/archive/refs/heads/main.zip"  
           if unzip -t github.zip >/dev/null 2>&1; then  
             unzip -q github.zip  
             cp -r NewTVBox-main/* gitee-source/  
@@ -100,14 +97,14 @@ jobs:
           else  
             rm -f github.zip  
           fi  
-
+ 
       - name: Commit and push to default branch  
         run: |  
           git add .  
-          git commit -m "Sync all subprojects + _posts mirror + NewTVBox" || echo "No changes"  
+          git commit -m "Sync all subprojects + NewTVBox + DustinWin posts" || echo "No changes"  
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')  
           git push origin $DEFAULT_BRANCH  
-
+ 
       - name: Sync to master branch  
         run: |  
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p')  
@@ -119,7 +116,7 @@ jobs:
           fi  
           git reset --hard origin/$DEFAULT_BRANCH  
           git push origin master || true  
-
+ 
       - name: Unzip all ZIP files in gitee-source (keep ZIP)  
         run: |  
           cd gitee-source  
@@ -128,13 +125,13 @@ jobs:
             unzip -o "$file"  
           done  
           cd ..  
-
+ 
       - name: Commit and force push 解压内容到 master（保留 zip）  
         run: |  
           git add .  
-          git commit -m "重置 master 并解压 ZIP + _posts 镜像" || echo "No changes"  
+          git commit -m "重置 master 为最新分支内容并解压 ZIP" || echo "No changes"  
           git push origin master --force  
-
+ 
   cleanup_runs:  
     runs-on: ubuntu-latest  
     needs: sync_and_unzip  
@@ -144,4 +141,4 @@ jobs:
         with:  
           token: ${{ secrets.GITHUB_TOKEN }}  
           retain_days: 3  
-          keep_minimum_runs: 10  
+          keep_minimum_runs: 10

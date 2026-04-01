@@ -60,16 +60,9 @@ https://gh.llkk.cc/https://raw.githubusercontent.com/tushen6/Tomorrow/master/tvb
 - [影視+下载地址](https://pan.quark.cn/s/d004fc6d8d36)
 - [宝盒下载地址](https://pan.quark.cn/s/6eef2fa1b59a)
 
-## 📡LIVE直播源
-| 源名        | 链接   |
-| --------   | -----  |
-| 🌏Global直播源      | https://live.fanmingming.cn/tv/m3u/global.m3u   |
-| 📺IPTV(IPV6)       |  https://live.fanmingming.cn/tv/m3u/ipv6.m3u   |
-| 📻Radio电台源        |   https://live.fanmingming.cn/radio/m3u/index.m3u   | 
-
-
+ 
 ## 🫶使用说明
-- 所有源均收集于互联网，仅供测试研究使用，不得商用；
-- 本项目不存储任何的流媒体内容，所有的法律责任与后果应由使用者自行承担；
+- 所有资源均收集于互联网，仅供测试研究使用，切勿商用；
+- 本仓库不存储任何的流媒体内容，所有的法律责任与后果应由使用者自行承担；
 
 

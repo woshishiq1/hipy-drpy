@@ -1111,6 +1111,29 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
 
+    {
+      "name": "🏆️國際EastAsia",
+      "url": "https://gitlab.com/free-iptv1/freeiptv/-/raw/main/EastAsia.m3u?ref_type=heads",
+      "type": 1
+   },
+
+    {
+      "name": "🏆️國際European",
+      "url": "https://gitlab.com/free-iptv1/freeiptv/-/raw/main/European.m3u?ref_type=heads",
+      "type": 1
+   },
+
+    {
+      "name": "🏆️國際SportsandYouth",
+      "url": "https://gitlab.com/free-iptv1/freeiptv/-/raw/main/SportsandYouth.m3u?ref_type=heads",
+      "type": 1
+   },
+
+    {
+      "name": "🏆️國際India1",
+      "url": "https://gitlab.com/free-iptv1/freeiptv/-/raw/main/India1.m3u?ref_type=heads",
+      "type": 1
+   },
 
  {"name": "🚓auto-iptv直播","type":0,"url":"http://47.120.41.246:8899/zb.txt","playerType":1},
  {"name": "🏆️Yuanz港·澳·台直播","type": 0,"url": "https://raw.githubusercontent.com//alantang1977/yuanzl77/refs/heads/main/live.m3u","playerType":1},

@@ -33,6 +33,15 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
 
+    {
+      "name": "原冰茶",
+      "type": 0,
+      "playerType": 2,
+      "url": "https://ds65.tv1288.xyz",
+      "ua": "bingcha/1.1 (mianfeifenxiang)"
+    },
+
+
    {
             "name": "🔓大葱MyTV🔓",
             "type": 0,
@@ -51,8 +60,6 @@
       "name": "🔓大葱Sport🔓",
       "url": "https://tv.iill.top/m3u/Sport"
     },
-
-
 
     {
       "name": "MYTV 2",
@@ -94,13 +101,10 @@
       "url": "https://raw.githubusercontent.com/yewengood/kzb/refs/heads/main/zhtv.txt"
     },
 
-  {
-    "name": "斯玛特源",
-    "url": "http://tv123.vvvv.ee/tv.m3u",
-    "header": {
-      "User-Agent": "okhttp/5.1.0"
-    }
-  },
+    {
+      "name": "♻️SMART源",
+      "url": "http://tv123.vvvv.ee/tv.m3u"
+    },
 
     {
       "name": "♻️TVonlive",
@@ -282,9 +286,8 @@
             "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源"
         },
 
-
         {
-            "name": "🦄盒live🔞",
+            "name": "🦄BAO盒live🔞",
             "type": 0,
             "ua": "okhttp",
             "url": "https://bitbucket.org/guot55/bhmb/raw/main/TVBoxOSC/bhzb.m3u"
@@ -341,17 +344,17 @@
     },
 
    {
-      "name": "馬新",
+      "name": "馬印新",
       "url": "http://hufa.zabc.net:8080/iptvpro.txt"
     },
 
     {
-      "name": "FYTV",
+      "name": "FYTV風雲試看",
       "url": "http://iptv.4666888.xyz/FYTV.txt"
     },
 
     {
-      "name": "綜合",
+      "name": "綜合頻道",
       "url": "https://raw.githubusercontent.com/nt2020xp/01/refs/heads/main/tv.txt"
     },
 

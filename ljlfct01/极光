@@ -90,7 +90,7 @@
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E5%BC%80%E5%BF%83%E6%9E%9C%E8%85%BE%E8%85%BEV10.js"
+      "ext": "https://gitee.com/zhouyadong7033/box/raw/master/JS/%E7%89%9B%E9%A9%AC%E8%AF%95%E7%9C%8B%E7%BA%BF%E8%B7%AF.js"
     },
 
         {
@@ -135,11 +135,11 @@
             "name": "📢🌈影子4k原画",
             "type": 3,
             "api": "csp_AppYsV2",
-            "jar":"https://gitee.com/zhouyadong7033/box/raw/master/JS/xsxs.jar",
+       
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://103.38.80.30:15598/api.php/app/"
+            "ext": "http://cmszy.9513tv.vip/api.php/app/"
         },
         {
   "key": "22",

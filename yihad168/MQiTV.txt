@@ -15,6 +15,14 @@
             "logo":"https://epg.112114.xyz/logo/{name}.png"
  },
 
+ {
+            "name": "🍄MITTWNO1🍄",
+            "type": 0,
+            "url": "https://raw.githubusercontent.com/Hsudavid/app/refs/heads/main/tw1.m3u",
+           "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo":"https://epg.112114.xyz/logo/{name}.png"
+ },
+
   {
       "name": "🐅mytv",
       "type": 0,

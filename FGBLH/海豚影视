@@ -574,7 +574,13 @@
             "ua": "okhttp",
             "url": "https://tv.iill.top/m3u/MyTV"
         },
-         {
+        {
+            "name": "🐬黄蚂蚁先锋推流源",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://ge.html-5.me//ii/黄蚂蚁先锋推流源.txt"
+        },
+        {
             "name": "🐬港台",
             "type": 0,
             "ua": "okhttp",

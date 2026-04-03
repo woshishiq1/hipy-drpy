@@ -78,10 +78,13 @@ enhanced_submit() {
     if git push origin "$curr"; then
         success_msg "推送成功！"
     else
-        warn_msg "推送失败，可能需要先拉取或强制关联..."
-        read -p "是否尝试强制建立上游分支并推送? (y/n): " force_push
+        warn_msg "推送失败！远程仓库存在本地没有的更新 (fetch first)。"
+        read -p "⚠ 是否执行真正的强制推送 (将完全覆盖远程仓库数据)? (y/n): " force_push
         if [[ "$force_push" =~ ^[Yy]$ ]]; then
-            git push --set-upstream origin "$curr" && success_msg "强制推送成功" || error_msg "推送依然失败，请检查网络或冲突"
+            info_msg "正在执行强推 (git push -f) ..."
+            git push -f --set-upstream origin "$curr" && success_msg "强制推送成功！(已覆盖远程)" || error_msg "推送依然失败，请检查网络或权限"
+        else
+            info_msg "已取消强制推送。建议先返回主菜单执行 [2] 📥 拉取与合并。"
         fi
     fi
 }
@@ -194,6 +197,29 @@ deep_clean() {
     success_msg "深度清理完成！当前 .git 体积: $(du -sh .git 2>/dev/null | cut -f1)"
 }
 
+# ================= 新增：单独推送功能 =================
+push_only() {
+    title_msg "📤 单独推送 (Push Only)"
+    if ! check_git_repo; then error_msg "当前非 Git 仓库"; return 1; fi
+
+    local curr=$(git branch --show-current)
+    [ -z "$curr" ] && curr="main"
+
+    info_msg "正在推送至 origin/$curr ..."
+    if git push origin "$curr"; then
+        success_msg "推送成功！"
+    else
+        warn_msg "推送失败！远程仓库存在本地没有的更新 (fetch first)。"
+        read -p "⚠ 是否执行真正的强制推送 (将完全覆盖远程仓库数据)? (y/n): " force_push
+        if [[ "$force_push" =~ ^[Yy]$ ]]; then
+            info_msg "正在执行强推 (git push -f) ..."
+            git push -f --set-upstream origin "$curr" && success_msg "强制推送成功！(已覆盖远程)" || error_msg "推送依然失败，请检查网络或权限"
+        else
+            info_msg "已取消强制推送。建议先返回主菜单执行 [2] 📥 拉取与合并。"
+        fi
+    fi
+}
+
 # ================= 可视化仪表盘 (主菜单) =================
 show_dashboard() {
     clear 2>/dev/null || printf '\033[2J\033[H'
@@ -227,6 +253,7 @@ show_dashboard() {
     echo -e " ${CYAN}[6] 📦 初始化仓库 (Init)${NC}"
     echo -e " ${YELLOW}[7] 📁 切换目录 (Change Dir)${NC}"
     echo -e " ${RED}[8] 🧹 深度清理 (GC & Clean)${NC}"
+    echo -e " ${PURPLE}[9] 📤 单独推送 (Push Only)${NC}"
     echo -e " ${BOLD}[0] ❌ 退出 (Exit)${NC}"
     echo -e "${BOLD}${BLUE}══════════════════════════════════════════════${NC}"
 }
@@ -251,6 +278,7 @@ while true; do
         6) init_repo ;;
         7) change_dir ;;
         8) deep_clean ;;
+        9) push_only ;;
         0) echo "再见！"; exit 0 ;;
         *) error_msg "无效的选项，请重新输入" ;;
     esac

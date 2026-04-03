@@ -470,24 +470,6 @@
 			}
 		},
 		{
-			"key": "哔哩fm",
-			"name": "哔哩fm",
-			"type": 3,
-			"api": "csp_ProxySpider",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1,
-			"ext": {
-				"class": "Bili",
-				"ext": {
-					"cookie": "",
-					"type": "沙雕仙逆#沙雕动画#风景#听书#太空#海洋#动物#一口气#综合#音乐#影视"
-				}
-			}
-		},
-		{
 			"key": "哔哩go",
 			"name": "哔哩go",
 			"type": 4,

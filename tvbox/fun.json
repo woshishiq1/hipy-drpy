@@ -99,116 +99,6 @@
 			"changeable": 1
 		},
 		{
-			"key": "花都",
-			"name": "花都影视",
-			"type": 3,
-			"changeable": 1,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"ext": "./js/py/花都.json"
-		},
-		{
-			"key": "py_Phub",
-			"name": "Pronhub(T3)",
-			"type": 3,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "./js/py/aowuplugin/xhamster.py",
-			"order_num": 5,
-			"ext": ""
-		},
-		{
-			"key": "py_数逼毛",
-			"name": "py_4K数逼毛(T3)",
-			"type": 3,
-			"api": "./js/py/aowuplugin/py_4K数逼毛.py",
-			"searchable": 1,
-			"quickSearch": 0,
-			"filterable": 0,
-			"changeable": 0
-		},
-		{
-			"key": "py_51吸瓜",
-			"name": "51吸瓜(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/51吸瓜.py"
-		},
-		{
-			"key": "py_DSYS",
-			"name": "DSYS(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/DSYS.py"
-		},
-		{
-			"key": "py_Miss",
-			"name": "Miss(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/Miss.py"
-		},
-		{
-			"key": "py_Phb",
-			"name": "Phb(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/Phb.py"
-		},
-		{
-			"key": "py_Xhm",
-			"name": "Xhm(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/Xhm.py"
-		},
-		{
-			"key": "py_Xvd",
-			"name": "Xvd(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/Xvd.py"
-		},
-		{
-			"key": "py_lav",
-			"name": "lav(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/lavAPP.py"
-		},
-		{
-			"key": "py_推特",
-			"name": "推特(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/推特APP.py"
-		},
-		{
-			"key": "py_小红薯",
-			"name": "小红薯(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/小红薯APP.py"
-		},
-		{
-			"key": "py_浴火社",
-			"name": "浴火社(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/小浴火社APP.py"
-		},
-		{
-			"key": "py_吃瓜",
-			"name": "吃瓜(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/吃瓜.py"
-		},
-		{
-			"key": "py_花都",
-			"name": "花都(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/花都.py"
-		},
-		{
-			"key": "py_香蕉",
-			"name": "香蕉(T3)",
-			"type": 3,
-			"api": "./js/py/plugin/adult/香蕉.py"
-		},
-		{
 			"key": "AIvin",
 			"name": "AIvin",
 			"type": 0,
@@ -273,27 +163,6 @@
 			"searchable": 1,
 			"filterable": 1,
 			"jar": "https://raw.githubusercontent.com/guot55/yg/main/jar/182.jar"
-		},
-		{
-			"key": "百万破解AV",
-			"name": "百万破解",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"jar": "./jar/XBPQ.jar",
-			"searchable": 1,
-			"quickSearch": 1,
-			"changeable": 1,
-			"filterable": 1,
-			"timeout": 120,
-			"ext": "./js/py/百万.json"
-		},
-		{
-			"key": "pronlulu",
-			"name": "pronlulu",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"timeout": 120,
-			"ext": "./js/py/pronlulu.json"
 		},
 		{
 			"key": "玩偶",
@@ -522,17 +391,6 @@
 			"changeable": 1,
 			"filterable": 0,
 			"timeout": 60
-		},
-		{
-			"key": "kissavtv.com",
-			"name": "kissav",
-			"type": 3,
-			"changeable": 1,
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"api": "csp_XBPQ",
-			"ext": "./js/py/kisd.json"
 		},
 		{
 			"key": "奥斯卡",

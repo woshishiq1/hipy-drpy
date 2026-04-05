@@ -1,0 +1,17 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "影片年代": "上映：</em>&&</li",
+    "状态": "时长：</em>&&</li",
+    "搜索url": "https://4kfox.com/searchl/{wd}----------{pg}---.html",
+    "分类url": "https://4kfox.com/show/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;d0",
+    "分类": "电影&剧集&动漫",
+    "分类值": "dianying&juji&dongman",
+    "线路数组": "iconfont hl-icon-laiyuan\">&&/span>",
+    "线路标题": "</i>&&<",
+    "筛选": "1",
+    "年份": "1950-2025",
+    "年份值": "*",
+    "免嗅": "1",
+    "跳转播放链接": "var player_*\"url\":\"&&\"",
+    "简介": "hl-content-text\"><em>&&</em"
+}

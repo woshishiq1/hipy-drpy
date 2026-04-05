@@ -1,0 +1,19 @@
+{
+    "请求头": "User-Agent@Mozilla/5.0",
+    "编码": "UTF-8",
+    "主页url": "https://www.695tr.top/x?index.php",
+    "防丢url": "www.51tr.top",
+    "二次截取": "class=\"video-grid-5x5\"&&class=\"stui-pannel",
+    "数组": "video-thumb&&</p",
+    "图片": "data-original=\"&&\"",
+    "标题": "title=\"&&\"",
+    "副标题": ">&&</a",
+    "简介": "description\" content=\"&&\"",
+    "链接": "href=\"&&\"[替换:detail>>play#.html>>/sid/1/nid/1.html]",
+    "搜索模式": "1",
+    "分类url": "https://www.695tr.top/index.php/vod/type/id/{cateId}/page/{catePg}/;;z",
+    "分类二次截取": "<ul class=\"ui-nav-right&&</ul",
+    "分类数组": "class=\"nav-item&&</li",
+    "分类标题": ">&&</a",
+    "分类ID": "/index.php/vod/type/id/&&.html"
+}

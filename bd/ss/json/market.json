@@ -1,0 +1,83 @@
+[
+    {
+        "name": "推荐",
+        "list": [
+            {
+                "name": "爱在指尖DJ",
+                "url": "https://d.kstore.dev/download/7996/yingyong/%E7%88%B1%E5%9C%A8%E6%8C%87%E5%B0%96DJ.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon+%282%29.png",
+                "version": "短剧"
+            }
+        ]
+    },
+    {
+        "name": "手机",
+        "list": [
+            {
+                "name": "OK影视",
+                "url": "https://d.kstore.dev/download/7996/yingyong/OK%E5%BD%B1%E8%A7%86.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon.png",
+                "version": "2.5.9"
+            },
+            {
+                "name": "OK影视2.7.2",
+                "url": "https://d.kstore.dev/download/7996/yingyong/OK-java-8a-2.7.2.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon.png",
+                "version": "java-8a"
+            },
+            {
+                "name": "OK影视2.7.2",
+                "url": "https://d.kstore.dev/download/7996/yingyong/OK-java-7a-2.7.2.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon.png",
+                "version": "java-7a"
+            },
+            {
+                "name": "OK影视2.7.2",
+                "url": "https://d.kstore.dev/download/7996/yingyong/OK-python-8a-2.7.2.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon.png",
+                "version": "python-8a"
+            },
+            {
+                "name": "OK影视2.7.2",
+                "url": "https://d.kstore.dev/download/7996/yingyong/OK-python-7a-2.7.2.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon.png",
+                "version": "python-7a"
+            }
+        ]
+    },
+    {
+        "name": "TV",
+        "list": [
+            {
+                "name": "影视仓v3",
+                "url": "https://d.kstore.dev/download/7996/yingyong/%E5%BD%B1%E8%A7%86%E4%BB%93V3.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon+%281%29.png",
+                "version": "3.0.32"
+            },
+            {
+                "name": "OK影视2.7.2",
+                "url": "https://d.kstore.dev/download/7996/yingyong/OKTV-java-8a-2.7.2.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon.png",
+                "version": "java-8a"
+            },
+            {
+                "name": "OK影视2.7.2",
+                "url": "https://d.kstore.dev/download/7996/yingyong/OKTV-java-7a-2.7.2.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon.png",
+                "version": "java-7a"
+            },
+            {
+                "name": "OK影视2.7.2",
+                "url": "https://d.kstore.dev/download/7996/yingyong/OKTV-python-8a-2.7.2.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon.png",
+                "version": "python-8a"
+            },
+            {
+                "name": "OK影视2.7.2",
+                "url": "https://d.kstore.dev/download/7996/yingyong/OKTV-python-7a-2.7.2.apk",
+                "icon": "https://d.kstore.dev/download/7996/tupian/icon.png",
+                "version": "python-7a"
+            }
+        ]
+    }
+]

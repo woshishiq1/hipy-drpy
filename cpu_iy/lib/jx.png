@@ -1,1 +1,33 @@
-http://php.xuan666.icu/高兴公开/jx/api52.php?url=
+[
+    {
+        "name": "4K高兴测试",
+        "type": 1,
+        "url": "http://php.xuan666.icu/高兴公开/jx/api52.php?url=",
+        "ext": {
+            "flag": [
+                "原彩4k",
+                "原彩4k2",
+                "baidu",
+                "baidu2",
+                "臻彩4k",
+                "臻彩4k2",
+                "会员专享",
+                "qq",
+                "腾讯",
+                "腾讯视频",
+                "mgtv",
+                "imgo",
+                "芒果",
+                "qiyi",
+                "iqiyi",
+                "爱奇艺",
+                "奇艺",
+                "youku",
+                "优酷",
+                "bilibili",
+                "bilibili1",
+                "B站"
+            ]
+        }
+    }
+]

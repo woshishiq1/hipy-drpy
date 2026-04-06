@@ -5,6 +5,9 @@ on:
     - cron: '0 */6 * * *' 
   workflow_dispatch: 
  
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+ 
 concurrency: 
   group: sync_job_lock 
   cancel-in-progress: true 
@@ -15,7 +18,7 @@ jobs:
  
     steps: 
       - name: Checkout default branch 
-        uses: actions/checkout@v3 
+        uses: actions/checkout@v4
  
       - name: Set up Git config 
         run: | 
@@ -26,12 +29,10 @@ jobs:
         run: | 
           set -e 
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
-          echo "Detected default branch: $DEFAULT_BRANCH" 
           git fetch origin $DEFAULT_BRANCH 
           git checkout $DEFAULT_BRANCH || git checkout -b $DEFAULT_BRANCH 
           git reset --hard origin/$DEFAULT_BRANCH 
           git clean -fdx 
-          echo "✅ Reset 完成" 
  
       - name: Fetch subprojects 
         run: | 
@@ -60,49 +61,57 @@ jobs:
           for name in "${!repos[@]}"; do 
             echo "→ 同步 $name" 
             rm -rf "$name" temp-"$name" 
-            git clone --depth 1 "${repos[$name]}" temp-"$name" 
+ 
+            git clone --depth 1 "${repos[$name]}" temp-"$name" || { 
+              echo "❌ 克隆失败 $name，跳过" 
+              continue 
+            } 
+ 
             mkdir -p "$name" 
-            cp -r temp-"$name"/* "$name"/ 
+ 
+            shopt -s dotglob nullglob
+            cp -r temp-"$name"/* "$name"/ 2>/dev/null || true
+            shopt -u dotglob nullglob
+ 
             rm -rf temp-"$name" 
           done 
-          echo "==== 多仓库同步完成 ====" 
  
       - name: Sync DustinWin _posts 
         run: | 
-          echo "==== 开始同步 DustinWin _posts 目录 ====" 
           rm -rf temp-dustinwin 
-          git clone --depth 1 https://github.com/DustinWin/dustinwin.github.io.git temp-dustinwin 
+          git clone --depth 1 https://github.com/DustinWin/dustinwin.github.io.git temp-dustinwin || exit 0
           mkdir -p _posts 
-          cp -r temp-dustinwin/_posts/* _posts/ 
+          cp -r temp-dustinwin/_posts/* _posts/ 2>/dev/null || true
           rm -rf temp-dustinwin 
-          echo "✅ DustinWin _posts 同步完成" 
  
-      - name: Update file timestamps 
+      - name: Update file timestamps（已修复特殊字符问题） 
         run: | 
-          find dr tvbox T4 wzxxcz Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy cpu_iy2 reF1nd bd _posts \ 
-            -type f -exec touch {} + 
+          dirs="dr tvbox T4 wzxxcz Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy cpu_iy2 reF1nd bd _posts"
+ 
+          for d in $dirs; do
+            [ -d "$d" ] || continue
+            find "$d" -type f -print0
+          done | xargs -0 touch
  
       - name: Download and extract NewTVBox 
         run: | 
-          echo "==== 开始下载 PizazzGY/NewTVBox ====" 
           rm -rf gitee-source 
           mkdir -p gitee-source 
-          curl -L -o github.zip "https://github.com/PizazzGY/NewTVBox/archive/refs/heads/main.zip" 
+ 
+          curl -L -o github.zip "https://github.com/PizazzGY/NewTVBox/archive/refs/heads/main.zip" || exit 0
  
           if unzip -t github.zip >/dev/null 2>&1; then 
             unzip -q github.zip 
             cp -r NewTVBox-main/* gitee-source/ 
             rm -rf NewTVBox-main github.zip 
-            echo "✅ NewTVBox 下载解压完成" 
           else 
-            echo "❌ ZIP 文件无效，跳过" 
             rm -f github.zip 
           fi 
  
       - name: Commit and push to default branch 
         run: | 
           git add . 
-          git commit -m "Sync all projects, DustinWin posts, and NewTVBox" || echo "No changes to commit" 
+          git commit -m "Sync all projects" || echo "No changes"
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
           git push origin $DEFAULT_BRANCH 
  
@@ -110,15 +119,17 @@ jobs:
         run: | 
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
           git fetch origin 
+ 
           if git show-ref --quiet refs/remotes/origin/master; then 
             git checkout master 
           else 
             git checkout -b master 
           fi 
+ 
           git reset --hard origin/$DEFAULT_BRANCH 
           git push origin master --force 
  
-      - name: Unzip all ZIP files in gitee-source (keep ZIP) 
+      - name: Unzip all ZIP files in gitee-source 
         run: | 
           if [ -d "gitee-source" ]; then 
             cd gitee-source 
@@ -129,10 +140,10 @@ jobs:
             cd .. 
           fi 
  
-      - name: Commit and force push unzip content to master 
+      - name: Commit unzip content 
         run: | 
           git add . 
-          git commit -m "Unzip all ZIP files in gitee-source (keeping originals)" || echo "No changes" 
+          git commit -m "Unzip ZIP files" || echo "No changes"
           git push origin master --force 
  
   cleanup_runs: 

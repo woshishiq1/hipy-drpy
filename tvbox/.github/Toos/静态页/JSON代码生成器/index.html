@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON代码生成器</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <style>
+        #app {
+            width: 50vw;
+            min-width: 1000px;
+            margin: auto;
+            margin-top: 30px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+            border-radius: 30px;
+        }
+
+        .el-select .el-input {
+            width: 130px;
+        }
+
+        .input-with-select .el-input-group__prepend {
+            background-color: #fff;
+        }
+
+        /* 新增复选框样式 */
+        .item-checkbox {
+            margin-right: 20px;
+            vertical-align: middle;
+        }
+
+        .el-form-item .el-checkbox__label {
+            color: #606266;
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <el-row :gutter="20">
+            <el-col :xs="24" :sm="12">
+                <el-form :model="form" label-width="100px">
+                    <!-- Billing Data Form -->
+                    <el-divider content-position="left">Billing Data Form</el-divider>
+                    <el-form-item label="开始日期" prop="startDate">
+                        <el-date-picker v-model="form.billingDataMod.startDate" type="datetime" placeholder="选择开始日期"
+                            format="yyyy-MM-dd HH:mm:ss" value-format="yyyy-MM-dd HH:mm:ss+08:00">
+                        </el-date-picker>
+                    </el-form-item>
+
+                    <el-form-item label="结束日期" prop="endDate">
+                        <el-date-picker v-model="form.billingDataMod.endDate" type="datetime" placeholder="选择结束日期"
+                            format="yyyy-MM-dd HH:mm:ss" value-format="yyyy-MM-dd HH:mm:ss+08:00"
+                            :disabled="form.billingDataMod.isIndefinite">
+                        </el-date-picker>
+                        <el-checkbox v-model="form.billingDataMod.isIndefinite">无期限</el-checkbox>
+                    </el-form-item>
+
+                    <el-form-item label="自动续期" prop="autoRenewal">
+                        <el-switch v-model="form.billingDataMod.autoRenewal" active-text="是" inactive-text="否"
+                            active-value="1" inactive-value="0" :disabled="isUnofficial">
+                        </el-switch>
+                    </el-form-item>
+
+                    <el-form-item label="计费周期" prop="cycle">
+                        <el-select v-model="form.billingDataMod.cycle" placeholder="选择计费周期">
+                            <el-option label="天(非官方)" value="天"></el-option>
+                            <el-option label="月" value="月"></el-option>
+                            <el-option label="季" value="季"></el-option>
+                            <el-option label="半年" value="半年"></el-option>
+                            <el-option label="年" value="年"></el-option>
+                            <el-option label="1年(非官方)" value="1年"></el-option>
+                            <el-option label="2年(非官方)" value="2年"></el-option>
+                            <el-option label="3年(非官方)" value="3年"></el-option>
+                            <el-option label="4年(非官方)" value="4年"></el-option>
+                            <el-option label="5年(非官方)" value="5年"></el-option>
+                        </el-select>
+                    </el-form-item>
+
+                    <el-form-item label="金额" prop="amount">
+                        <el-checkbox v-model="isAmountUnitBefore">前单位<span> 例如：￥9.99</span></el-checkbox>
+                        <el-checkbox v-model="isAmountUnitAffter">后单位<span> 例如：9.99CNY</span></el-checkbox>
+                        <el-input v-model="form.billingDataMod.amount" placeholder="输入金额"
+                            :disabled="form.billingDataMod.isAmountFree || form.billingDataMod.isAmountPAYG">
+                            <el-select v-model="amountBeforeUnit" slot="prepend" placeholder="请选择" filterable
+                                :disabled="form.billingDataMod.isAmountFree || form.billingDataMod.isAmountPAYG"
+                                v-if="isAmountUnitBefore" allow-create>
+                                <el-option label="人民币 ￥" value="￥"></el-option>
+                                <el-option label="美元 $" value="$"></el-option>
+                                <el-option label="欧元 €" value="€"></el-option>
+                                <el-option label="加币 C$" value="C$"></el-option>
+                                <el-option label="英镑 £" value="£"></el-option>
+                            </el-select>
+                            <el-select v-model="amountAffterUnit" slot="append" placeholder="请选择" filterable
+                                :disabled="form.billingDataMod.isAmountFree || form.billingDataMod.isAmountPAYG"
+                                v-if="isAmountUnitAffter" allow-create>
+                                <el-option label="人民币 CNY" value="CNY"></el-option>
+                                <el-option label="美元 USD" value="USD"></el-option>
+                                <el-option label="欧元 EUR" value="EUR"></el-option>
+                                <el-option label="加币 C" value="C"></el-option>
+                                <el-option label="英镑 GBP" value="GBP"></el-option>
+                            </el-select>
+                        </el-input>
+                        <el-checkbox v-model="form.billingDataMod.isAmountFree"
+                            :disabled="form.billingDataMod.isAmountPAYG">免费</el-checkbox>
+                        <el-checkbox v-model="form.billingDataMod.isAmountPAYG"
+                            :disabled="form.billingDataMod.isAmountFree">按量收费</el-checkbox>
+                    </el-form-item>
+
+                    <!-- Plan Data Form -->
+                    <el-divider content-position="left">
+                        Plan Data Form
+                        <el-checkbox v-model="isNoPlanDataForm">不开启</el-checkbox>
+                    </el-divider>
+
+                    <!-- 每个表单项使用复选框控制显示 -->
+                    <el-form-item label="带宽" prop="bandwidth">
+                        <el-checkbox v-model="planItemVisibility.bandwidth" class="item-checkbox">显示字段</el-checkbox>
+                        <el-input placeholder="输入带宽" v-model="form.planDataMod.bandwidth" class="input-with-select"
+                            :disabled="!planItemVisibility.bandwidth || isNoPlanDataForm">
+                            <el-select v-model="form.planDataMod.bandwidthUnit" slot="append" placeholder="请选择"
+                                :disabled="!planItemVisibility.bandwidth || isNoPlanDataForm">
+                                <el-option label="Mbps" value="Mbps"></el-option>
+                                <el-option label="Gbps" value="Gbps"></el-option>
+                                <el-option label="无限制" value="Unlimited"></el-option>
+                            </el-select>
+                        </el-input>
+                    </el-form-item>
+
+                    <el-form-item label="流量" prop="trafficVol">
+                        <el-checkbox v-model="planItemVisibility.trafficVol" class="item-checkbox">显示字段</el-checkbox>
+                        <el-input placeholder="输入流量限制" v-model="form.planDataMod.trafficVol" class="input-with-select"
+                            :disabled="!planItemVisibility.trafficVol || isNoPlanDataForm">
+                            <el-select v-model="form.planDataMod.trafficUnit" slot="append" placeholder="请选择"
+                                :disabled="!planItemVisibility.trafficVol || isNoPlanDataForm">
+                                <el-option label="MB/月" value="MB/月"></el-option>
+                                <el-option label="TB/月" value="TB/月"></el-option>
+                                <el-option label="GB/月" value="GB/月"></el-option>
+                                <el-option label="PB/月" value="PB/月"></el-option>
+                            </el-select>
+                        </el-input>
+                    </el-form-item>
+
+                    <el-form-item label="流量类型" prop="trafficType">
+                        <el-checkbox v-model="planItemVisibility.trafficType" class="item-checkbox">显示字段</el-checkbox>
+                        <el-select v-model="form.planDataMod.trafficType" placeholder="选择流量类型"
+                            :disabled="!planItemVisibility.trafficType || isNoPlanDataForm">
+                            <el-option label="只单向上行流量计费" value="1"></el-option>
+                            <el-option label="双向上下行流量同时计费" value="2"></el-option>
+                            <el-option label="取入栈和出栈最大的计费 [ Max(In, Out) ]" value="3"></el-option>
+                        </el-select>
+                    </el-form-item>
+
+                    <el-form-item label="IPv4" prop="IPv4">
+                        <el-checkbox v-model="planItemVisibility.IPv4" class="item-checkbox">显示字段</el-checkbox>
+                        <el-switch v-model="form.planDataMod.IPv4" active-text="有" inactive-text="无" active-value="1"
+                            inactive-value="0" :disabled="!planItemVisibility.IPv4 || isNoPlanDataForm">
+                        </el-switch>
+                    </el-form-item>
+
+                    <el-form-item label="IPv6" prop="IPv6">
+                        <el-checkbox v-model="planItemVisibility.IPv6" class="item-checkbox">显示字段</el-checkbox>
+                        <el-switch v-model="form.planDataMod.IPv6" active-text="有" inactive-text="无" active-value="1"
+                            inactive-value="0" :disabled="!planItemVisibility.IPv6 || isNoPlanDataForm">
+                        </el-switch>
+                    </el-form-item>
+
+                    <el-form-item label="网络路由" prop="networkRoute">
+                        <el-checkbox v-model="planItemVisibility.networkRoute" class="item-checkbox">显示字段</el-checkbox>
+                        <el-input v-model="form.planDataMod.networkRoute" placeholder="输入网络路由,使用','分割"
+                            :disabled="!planItemVisibility.networkRoute || isNoPlanDataForm"></el-input>
+                    </el-form-item>
+
+                    <el-form-item label="额外信息" prop="extra">
+                        <el-checkbox v-model="planItemVisibility.extra" class="item-checkbox">显示字段</el-checkbox>
+                        <el-input v-model="form.planDataMod.extra" placeholder="输入额外信息,使用','分割"
+                            :disabled="!planItemVisibility.extra || isNoPlanDataForm"></el-input>
+                    </el-form-item>
+                </el-form>
+            </el-col>
+            <el-col :xs="24" :sm="12">
+                <el-input type="textarea" :rows="20" :value="jsonOutput" readonly></el-input>
+                <div style="height: 10px;"></div>
+                <el-button type="primary" @click="generateJson">生成 JSON</el-button>
+            </el-col>
+        </el-row>
+    </div>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data() {
+                return {
+                    // 新增每个字段的显示状态控制
+                    planItemVisibility: {
+                        bandwidth: true,
+                        trafficVol: true,
+                        trafficType: true,
+                        IPv4: true,
+                        IPv6: true,
+                        networkRoute: true,
+                        extra: true
+                    },
+                    isNoPlanDataForm: false,
+                    isUnofficial: false,
+                    amountUnitOrder: 2,
+                    isAmountUnitBefore: true,
+                    isAmountUnitAffter: false,
+                    amountBeforeUnit: "￥",
+                    amountAffterUnit: "CNY",
+                    form: {
+                        billingDataMod: {
+                            startDate: new Date(),
+                            endDate: new Date(),
+                            autoRenewal: '1',
+                            cycle: '月',
+                            amount: '1'
+                        },
+                        planDataMod: {
+                            bandwidth: '30',
+                            bandwidthUnit: 'Mbps',
+                            trafficVol: '1',
+                            trafficUnit: 'TB/月',
+                            trafficType: '1',
+                            IPv4: '1',
+                            IPv6: '1',
+                            networkRoute: '4837',
+                            extra: ''
+                        }
+                    },
+                    jsonOutput: ''
+                };
+            },
+            methods: {
+                generateJson() {
+                    let jo = JSON.parse(JSON.stringify(this.form));
+
+                    // 处理隐藏字段
+                    Object.keys(this.planItemVisibility).forEach(key => {
+                        if (!this.planItemVisibility[key]) {
+                            switch (key) {
+                                case 'bandwidth':
+                                    delete jo.planDataMod.bandwidth;
+                                    delete jo.planDataMod.bandwidthUnit;
+                                    break;
+                                case 'trafficVol':
+                                    delete jo.planDataMod.trafficVol;
+                                    delete jo.planDataMod.trafficUnit;
+                                    break;
+                                default:
+                                    delete jo.planDataMod[key];
+                            }
+                        }
+                    });
+
+                    // 清理空对象
+                    if (jo.planDataMod && Object.keys(jo.planDataMod).length === 0) {
+                        delete jo.planDataMod;
+                    }
+
+                    // 原有其他处理逻辑保持不变
+                    if (jo.billingDataMod.isIndefinite) {
+                        jo.billingDataMod.endDate = '0000-00-00T23:59:59+08:00';
+                    }
+
+                    if (jo.planDataMod?.bandwidthUnit === "Unlimited") {
+                        jo.planDataMod.bandwidth = "Unlimited";
+                    } else if (jo.planDataMod?.bandwidth) {
+                        jo.planDataMod.bandwidth += jo.planDataMod.bandwidthUnit;
+                    }
+
+                    if (jo.planDataMod?.trafficVol) {
+                        jo.planDataMod.trafficVol += jo.planDataMod.trafficUnit;
+                    }
+
+                    if (this.isAmountUnitBefore) {
+                        jo.billingDataMod.amount = this.amountBeforeUnit + jo.billingDataMod.amount;
+                    }
+                    if (this.isAmountUnitAffter) {
+                        jo.billingDataMod.amount += this.amountAffterUnit;
+                    }
+
+                    if (this.isUnofficial) {
+                        jo.billingDataMod.amount += "/" + jo.billingDataMod.cycle;
+                        jo.billingDataMod.cycle = "";
+                    }
+
+                    if (jo.billingDataMod.isAmountFree) {
+                        jo.billingDataMod.amount = '0';
+                    }
+                    if (jo.billingDataMod.isAmountPAYG) {
+                        jo.billingDataMod.amount = '-1';
+                    }
+
+                    delete jo.billingDataMod.isIndefinite;
+                    delete jo.billingDataMod.isAmountFree;
+                    delete jo.billingDataMod.isAmountPAYG;
+                    delete jo.planDataMod?.bandwidthUnit;
+                    delete jo.planDataMod?.trafficUnit;
+
+                    this.jsonOutput = JSON.stringify(jo, null, 4);
+                }
+            },
+            watch: {
+                isAmountUnitBefore(n) {
+                    if (n) this.isAmountUnitAffter = false;
+                },
+                isAmountUnitAffter(n) {
+                    if (n) this.isAmountUnitBefore = false;
+                },
+                'form.billingDataMod.cycle'(n) {
+                    if (/\d年|天/.test(n)) {
+                        this.$alert(`您使用的<strong>${n}</strong>的计费周期，并不是官方支持的参数，<br /><strong>无法自动刷新及计算规划中的账单统计报表，<br />并禁用autoRenewal及cycle字段</strong>`, '温馨提示', {
+                            confirmButtonText: '确定',
+                            dangerouslyUseHTMLString: true,
+                        });
+                        this.form.billingDataMod.autoRenewal = 0;
+                        this.isUnofficial = true;
+                    } else {
+                        this.isUnofficial = false;
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinalShell 离线激活码生成器</title>
+    <link rel="icon" href="https://cloudflare.panell.top/file/1752220700680_finalshell.png" type="image/png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <style>
+        :root {
+            --glass-bg: rgba(255, 255, 255, 0.2);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+            --primary-color: #4a6bff;
+            --secondary-color: #8a6bff;
+            --success-color: #52c41a;
+            --error-color: #ff4d4f;
+            --text-color: #333;
+            --accent-blue: #4a6bff;
+            --accent-purple: #8a6bff;
+            --accent-green: #52c41a;
+            --accent-orange: #ff7e5f;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @keyframes textGradientShift {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+
+        .gradient-animated {
+            background: linear-gradient(90deg, #6a82fb, #fc5c7d);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+            animation: textGradientShift 4s ease-in-out infinite alternate;
+            background-size: 200% auto;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            padding: 2rem;
+            background: #1a2a6c; /* 修改为静态背景色 */
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-color);
+        }
+
+        .glass-container {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-radius: 24px;
+            border: 1px solid var(--glass-border);
+            padding: 3rem;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: var(--glass-shadow);
+            position: relative;
+            overflow: hidden;
+            z-index: 10;
+        }
+
+        .glass-container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 70%);
+            z-index: -1;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 0.5rem; /* Reduced margin */
+            position: relative;
+        }
+
+        h1 {
+            color: white;
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 0.2rem; /* Reduced margin */
+            text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: rgba(255,255,255,0.85);
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .header-info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        #runtime {
+            color: rgba(255,255,255,0.7);
+            font-size: 0.9rem;
+            text-align: center;
+            margin: 0.5rem;
+        }
+
+        .input-section {
+            background: rgba(255,255,255,0.15);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .input-group {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+        .input-label {
+            display: block;
+            color: white;
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+
+        .input-field {
+            padding: 1rem 1.2rem;
+            width: 100%;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(0,0,0,0.2);
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            color: white;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 4px rgba(74, 107, 255, 0.3);
+        }
+
+        .input-field::placeholder {
+            color: rgba(255,255,255,0.5);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .action-btn {
+            flex: 1;
+            min-width: 180px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 1rem;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.8rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            backdrop-filter: blur(5px);
+        }
+
+        .action-btn:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+
+        .action-btn:active {
+            transform: translateY(0);
+        }
+
+        .action-btn.paste {
+            background: linear-gradient(45deg, var(--accent-blue), var(--accent-purple));
+        }
+
+        .action-btn.generate {
+            background: linear-gradient(45deg, var(--accent-orange), #ff5e62);
+        }
+
+        .action-btn.clear {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .result-section {
+            background: rgba(0,0,0,0.2);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid rgba(255,255,255,0.2);
+            position: relative;
+            min-height: 400px;
+        }
+
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-title {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .copy-all-btn {
+            background: rgba(255,255,255,0.15);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .copy-all-btn:hover {
+            background: rgba(255,255,255,0.25);
+        }
+
+        .result-content {
+            display: grid;
+            grid-template-columns: 1fr; /* Changed to single column for specific result */
+            gap: 1.5rem;
+        }
+
+        .license-group {
+            background: rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 1.5rem;
+            border: 1px solid rgba(255,255,255,0.15);
+            backdrop-filter: blur(5px);
+        }
+
+        .license-title {
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .license-title::before {
+            content: "★";
+            color: var(--accent-orange);
+        }
+
+        .license-version {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-left: 0.5rem;
+        }
+
+        .license-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.8rem 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            flex-wrap: nowrap;
+        }
+
+        .license-item:last-child {
+            border-bottom: none;
+        }
+
+        .license-type {
+            color: white;
+            font-weight: 500;
+            min-width: 80px;
+            flex-shrink: 0;
+        }
+
+        .license-code {
+            color: var(--accent-green);
+            font-family: 'Consolas', monospace;
+            font-weight: 600;
+            letter-spacing: 1px;
+            flex: 1;
+            padding: 0 1rem;
+            overflow: visible;
+            text-overflow: unset;
+            white-space: normal;
+            word-break: break-all;
+            min-width: 0;
+        }
+
+        .copy-btn {
+            background: rgba(255,255,255,0.15);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            flex-shrink: 0;
+        }
+
+        .copy-btn:hover {
+            background: rgba(255,255,255,0.25);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 2.5rem;
+            color: rgba(255,255,255,0.7);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+
+        .notification.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .notification.success {
+            border-left: 4px solid var(--success-color);
+        }
+
+        .notification.error {
+            border-left: 4px solid var(--error-color);
+        }
+
+        .notification.info {
+            border-left: 4px solid var(--accent-blue);
+        }
+
+        .notification-icon {
+            font-size: 1.2rem;
+        }
+
+        .notification.success .notification-icon {
+            color: var(--success-color);
+        }
+
+        .notification.error .notification-icon {
+            color: var(--error-color);
+        }
+
+        .notification.info .notification-icon {
+            color: var(--accent-blue);
+        }
+
+        .notification-text {
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .glass-container {
+                padding: 2rem;
+            }
+
+            .result-content {
+                grid-template-columns: 1fr;
+            }
+
+            .action-btn {
+                min-width: 100%;
+            }
+            .license-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .license-code {
+                padding: 0.5rem 0;
+                text-align: left;
+                width: 100%;
+            }
+            .copy-btn {
+                margin-top: 0.5rem;
+                width: 100%;
+            }
+            .header-info {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="glass-container">
+        <div class="header">
+            <h1 class="gradient-animated">FinalShell 离线激活码生成器</h1>
+            <p class="subtitle gradient-animated">安全便捷地生成FinalShell各个版本的离线激活码，无需联网验证</p>
+            <div class="header-info">
+                <div id="runtime" class="gradient-animated"></div>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <div class="input-group">
+                <label for="machineCode" class="input-label gradient-animated">请输入您的机器码：</label>
+                <input type="text" id="machineCode" class="input-field" placeholder="在此粘贴机器码..." autocomplete="off">
+            </div>
+
+            <div class="input-group">
+                <label for="versionSelect" class="input-label gradient-animated">选择 FinalShell 版本：</label>
+                <select id="versionSelect" class="input-field">
+                    <option value="v3.9.6_below">FinalShell &lt; 3.9.6</option>
+                    <option value="v3.9.6_above">FinalShell ≥ 3.9.6</option>
+                    <option value="v4.5">FinalShell 4.5</option>
+                    <option value="v4.6">FinalShell 4.6</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="licenseTypeSelect" class="input-label gradient-animated">选择激活码类型：</label>
+                <select id="licenseTypeSelect" class="input-field">
+                    <option value="advanced">高级版</option>
+                    <option value="professional">专业版</option>
+                </select>
+            </div>
+
+            <div class="action-buttons">
+                <button class="action-btn generate" onclick="generate()">
+                    <span class="gradient-animated">⚡</span> <span class="gradient-animated">生成激活码</span>
+                </button>
+                <button class="action-btn clear" onclick="clearInput()">
+                    <span class="gradient-animated">✖</span> <span class="gradient-animated">清空内容</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="result-section" id="output">
+            <div class="result-header">
+                <h3 class="section-title gradient-animated">生成的激活码</h3>
+                <button class="copy-all-btn" onclick="copyAllResults()" style="display: none;">
+                    <span class="gradient-animated">📋</span> <span class="gradient-animated">复制全部</span>
+                </button>
+            </div>
+
+            <div class="result-content" id="result-content">
+                <div class="empty-result" style="color: rgba(255,255,255,0.7); text-align: center; grid-column: 1 / -1; padding: 3rem 0;">
+                    <span class="gradient-animated">输入机器码并选择版本和类型后，点击"生成激活码"按钮，结果将显示在这里</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="gradient-animated">注意：本工具仅用于学习和测试目的，请支持正版软件</p>
+            <p class="gradient-animated">© 2023 FinalShell激活码生成器 | 安全可靠 | 离线使用</p>
+        </div>
+    </div>
+
+    <div class="notification" id="notification">
+        <span class="notification-icon" id="notificationIcon">!</span>
+        <span class="notification-text" id="notificationText"></span>
+    </div>
+
+    <script>
+        // 设置起始日期为2023年12月31日
+        const startTime = new Date('2023-12-31T00:00:00').getTime();
+        const runtimeDiv = document.getElementById('runtime');
+        
+        function updateRuntime() {
+            const currentTime = new Date().getTime();
+            const elapsedTime = Math.floor((currentTime - startTime) / 1000); // 秒
+
+            const days = Math.floor(elapsedTime / (60 * 60 * 24));
+            const hours = Math.floor((elapsedTime % (60 * 60 * 24)) / (60 * 60));
+            const minutes = Math.floor((elapsedTime % (60 * 60)) / 60);
+            const seconds = elapsedTime % 60;
+
+            runtimeDiv.textContent = `本页面已成功运行 ${days} 天 ${hours} 时 ${minutes} 分 ${seconds} 秒`;
+        }
+
+        // 初始化运行时间显示
+        updateRuntime();
+        setInterval(updateRuntime, 1000); // 每秒更新一次
+
+        // 哈希计算函数
+        function md5(str) {return CryptoJS.MD5(str).toString();}
+        function keccak384(str) {return CryptoJS.SHA3(str, { outputLength: 384}).toString();}
+
+        // 激活码版本和类型配置
+        const versions = [
+            {
+                value: 'v3.9.6_below',
+                title: 'FinalShell < 3.9.6',
+                licenses: [
+                    { type: '高级版', value: 'advanced', codeFn: (code) => md5('61305' + code + '8552').slice(8, 24) },
+                    { type: '专业版', value: 'professional', codeFn: (code) => md5('2356' + code + '13593').slice(8, 24) }
+                ]
+            },
+            {
+                value: 'v3.9.6_above',
+                title: 'FinalShell ≥ 3.9.6',
+                licenses: [
+                    { type: '高级版', value: 'advanced', codeFn: (code) => keccak384(code + 'hSf(78cvVlS5E').slice(12, 28) },
+                    { type: '专业版', value: 'professional', codeFn: (code) => keccak384(code + 'FF3Go(*Xvbb5s2').slice(12, 28) }
+                ]
+            },
+            {
+                value: 'v4.5',
+                title: 'FinalShell 4.5',
+                licenses: [
+                    { type: '高级版', value: 'advanced', codeFn: (code) => keccak384(code + 'wcegS3gzA$').slice(12, 28) },
+                    { type: '专业版', value: 'professional', codeFn: (code) => keccak384(code + 'b(xxkHn%z);x').slice(12, 28) }
+                ]
+            },
+            {
+                value: 'v4.6',
+                title: 'FinalShell 4.6',
+                licenses: [
+                    { type: '高级版', value: 'advanced', codeFn: (code) => keccak384(code + 'csSf5*xlkgYSX,y').slice(12, 28) },
+                    { type: '专业版', value: 'professional', codeFn: (code) => keccak384(code + 'Scfg*ZkvJZc,s,Y').slice(12, 28) }
+                ]
+            }
+        ];
+
+        // 生成激活码
+        function generate() {
+            const code = document.getElementById('machineCode').value.trim();
+            const versionSelectedValue = document.getElementById('versionSelect').value;
+            const licenseTypeSelectedValue = document.getElementById('licenseTypeSelect').value;
+            const resultContent = document.getElementById('result-content');
+            const copyAllBtn = document.querySelector('.copy-all-btn');
+
+            if (!code) {
+                showNotification('请输入机器码', 'error');
+                return;
+            }
+
+            const selectedVersion = versions.find(v => v.value === versionSelectedValue);
+            if (!selectedVersion) {
+                showNotification('请选择有效的FinalShell版本', 'error');
+                return;
+            }
+
+            const selectedLicense = selectedVersion.licenses.find(l => l.value === licenseTypeSelectedValue);
+            if (!selectedLicense) {
+                showNotification('请选择有效的激活码类型', 'error');
+                return;
+            }
+
+            const generatedCode = selectedLicense.codeFn(code);
+
+            // 清空之前的结果并显示单个选定的激活码
+            setContent(resultContent, selectedVersion.title, selectedLicense.type, generatedCode);
+
+            copyAllBtn.style.display = 'flex';
+            showNotification('激活码生成成功', 'success');
+        }
+        
+        function setContent(contentElement, versionTitle, licenseType, generatedCode) {
+            contentElement.innerHTML = `
+                <div class="license-group">
+                    <div class="license-title gradient-animated">${versionTitle} - ${licenseType}</div>
+                    <div class="license-item">
+                        <div class="license-type gradient-animated">激活码:</div>
+                        <div class="license-code gradient-animated" id="displayedActivationCode" title="${generatedCode}">${generatedCode}</div>
+                        <button class="copy-btn" onclick="copyCode('${generatedCode}', '${versionTitle} - ${licenseType}')">
+                            <span>📋</span> 复制
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 复制单个激活码
+        function copyCode(code, label) {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(code)
+                    .then(() => {
+                        showNotification(`已复制: ${label}`, 'success');
+                    })
+                    .catch(err => {
+                        fallbackCopy(code, label);
+                    });
+            } else {
+                fallbackCopy(code, label);
+            }
+        }
+
+        // 回退复制方案
+        function fallbackCopy(code, label) {
+            const tempTextArea = document.createElement('textarea');
+            tempTextArea.value = code;
+            document.body.appendChild(tempTextArea);
+            tempTextArea.select();
+
+            try {
+                document.execCommand('copy');
+                showNotification(`已复制: ${label}`, 'success');
+            } catch (err) {
+                showNotification('复制失败，请手动复制', 'error');
+            }
+
+            document.body.removeChild(tempTextArea);
+        }
+
+        // 复制所有激活码 (现在只会复制当前显示的单个激活码)
+        function copyAllResults() {
+            const displayedCodeEl = document.getElementById('displayedActivationCode');
+            if (!displayedCodeEl) {
+                showNotification('没有可复制的激活码', 'info');
+                return;
+            }
+            const codeToCopy = displayedCodeEl.textContent;
+            const label = displayedCodeEl.closest('.license-group').querySelector('.license-title').textContent;
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(codeToCopy)
+                    .then(() => {
+                        showNotification(`已复制: ${label}`, 'success');
+                    })
+                    .catch(err => {
+                        fallbackCopy(codeToCopy, label);
+                    });
+            } else {
+                fallbackCopy(codeToCopy, label);
+            }
+        }
+
+        // 清空输入
+        function clearInput() {
+            document.getElementById('machineCode').value = '';
+            const resultContent = document.getElementById('result-content');
+            const copyAllBtn = document.querySelector('.copy-all-btn');
+
+            // Reset dropdowns to their first option
+            document.getElementById('versionSelect').selectedIndex = 0;
+            document.getElementById('licenseTypeSelect').selectedIndex = 0;
+
+            // Clear generated activation codes
+            resultContent.innerHTML = `
+                <div class="empty-result" style="color: rgba(255,255,255,0.7); text-align: center; grid-column: 1 / -1; padding: 3rem 0;">
+                    <span class="gradient-animated">输入机器码并选择版本和类型后，点击"生成激活码"按钮，结果将显示在这里</span>
+                </div>
+            `;
+            copyAllBtn.style.display = 'none'; // Hide copy all button when results are cleared
+
+            document.getElementById('machineCode').focus();
+            showNotification('输入和结果已清空', 'info');
+        }
+
+        // 显示通知
+        function showNotification(message, type) {
+            const notification = document.getElementById('notification');
+            const notificationIcon = document.getElementById('notificationIcon');
+            const notificationText = document.getElementById('notificationText');
+
+            notification.className = 'notification';
+            notification.classList.add(type);
+            if (type === 'success') {
+                notificationIcon.textContent = '✓';
+            } else if (type === 'error') {
+                notificationIcon.textContent = '⚠';
+            } else {
+                notificationIcon.textContent = 'ⓘ';
+            }
+
+            notificationText.textContent = message;
+            notification.classList.add('show');
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"d7a30392e9514f44a1c1cd49a99e2cbb","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Update Deploy to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  DEPLOY_REF: ${{ github.event.inputs.deploy_branch || github.ref }}
+  UPLOAD_PATH: "."
+  TZ: Asia/Shanghai
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          repository: cluntop/tvbox
+          token: ${{ secrets.GIT_TOKEN }}
+          fetch-depth: 1
+          lfs: true
+
+      - name: 🔄 Auto Commit Timestamp
+        if: github.event_name == 'schedule'
+        run: |
+          cd ${{ env.UPLOAD_PATH }}
+          echo "Last deployment run at: $(date)" > last_run.txt
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add last_run.txt
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "🤖 Auto-update: Scheduled deployment [skip ci]"
+            git push
+            echo "::notice::✅ 已自动提交更新时间戳"
+          else
+            echo "::notice::⚠️ 无文件变更，跳过提交"
+          fi
+
+      - name: Verify & Generate CNAME
+        run: |
+          echo "clun.top" > ${{ env.UPLOAD_PATH }}/CNAME
+          FILE_COUNT=$(find ${{ env.UPLOAD_PATH }} -type f | wc -l)
+          SIZE=$(du -sh ${{ env.UPLOAD_PATH }} | cut -f1)
+          
+          echo "### 📦 部署准备就绪" >> $GITHUB_STEP_SUMMARY
+          echo "- **分支**: \`${{ env.DEPLOY_REF }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **文件数量**: $FILE_COUNT" >> $GITHUB_STEP_SUMMARY
+          echo "- **总大小**: $SIZE" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$FILE_COUNT" -eq 0 ]; then
+             echo "::error::❌ 目录下没有文件，终止部署！"
+             exit 1
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          # Upload entire repository
+          path: ${{ env.UPLOAD_PATH }}
+          retention-days: 1
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Deployment Success Info
+        if: success()
+        run: |
+          echo "::notice title=部署成功::✅ 您的站点已上线！"
+          echo "### 🚀 部署成功!" >> $GITHUB_STEP_SUMMARY
+          echo "访问地址: [${{ steps.deployment.outputs.page_url }}](${{ steps.deployment.outputs.page_url }})" >> $GITHUB_STEP_SUMMARY

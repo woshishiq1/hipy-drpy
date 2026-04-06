@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV 格式转换工具 (M3U ↔ TXT) </title>
+    <link rel="icon" href="https://cloudflare-imgbed-8o0.pages.dev/file/1769750780357_256.webp" type="image/png">
+    <style>
+        :root { --primary: #007aff; --success: #34c759; --danger: #ff3b30; --gray: #8e8e93; --safe-bg: #eafaf1; --safe-text: #27ae60; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 1000px; margin: 40px auto; padding: 0 20px; background: #f0f2f5; color: #333; }
+        .card { background: white; padding: 25px; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); position: relative; }
+        h2 { text-align: center; margin-bottom: 10px; font-weight: 600; color: #1d1d1f; }
+        
+        .safe-banner { 
+            text-align: center; 
+            background: var(--safe-bg); 
+            color: var(--safe-text); 
+            padding: 8px 15px; 
+            border-radius: 8px; 
+            font-size: 13px; 
+            margin-bottom: 25px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .upload-area { display: flex; justify-content: center; margin-bottom: 20px; }
+        .file-label { background: var(--primary); color: white; padding: 12px 24px; border-radius: 8px; cursor: pointer; transition: 0.2s; font-weight: 500; }
+        .file-label:hover { opacity: 0.9; transform: translateY(-1px); }
+        #fileUp { display: none; }
+
+        textarea { width: 100%; height: 350px; margin: 10px 0; padding: 15px; border: 2px solid #eee; border-radius: 12px; font-family: "Fira Code", monospace; font-size: 14px; box-sizing: border-box; transition: border-color 0.3s; }
+        textarea:focus { outline: none; border-color: var(--primary); }
+
+        .btn-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-top: 20px; }
+        button { padding: 12px; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 14px; transition: all 0.2s; color: white; }
+        
+        .btn-convert-m3u { background: #5856d6; }
+        .btn-convert-txt { background: #af52de; }
+        .btn-copy { background: #ff9500; }
+        .btn-download { background: var(--success); }
+        .btn-clear { background: var(--danger); }
+        button:hover { filter: brightness(1.1); transform: translateY(-1px); }
+        button:active { transform: translateY(0); }
+
+        .toast { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); padding: 12px 25px; border-radius: 50px; color: white; font-size: 14px; display: none; z-index: 100; box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>IPTV 格式互转工具</h2>
+    
+    <div class="safe-banner">
+        <span>🛡️ 纯前端逻辑处理，所有转换均在浏览器本地完成，不会上传数据到服务器，请放心使用。</span>
+    </div>
+    
+    <div class="upload-area">
+        <label class="file-label" for="fileUp">📁 上传 M3U 或 TXT 文件</label>
+        <input type="file" id="fileUp" accept=".txt,.m3u">
+    </div>
+
+    <textarea id="mainArea" placeholder="在此粘贴内容...&#10;支持格式：名称,video://https://...&#10;支持自动过滤 '(网页)' 后缀"></textarea>
+
+    <div class="btn-container">
+        <button class="btn-convert-m3u" onclick="convert('toM3u')">转为 M3U 格式</button>
+        <button class="btn-convert-txt" onclick="convert('toTxt')">转为 TXT 格式</button>
+        <button class="btn-copy" onclick="copyToClipboard()">一键复制内容</button>
+        <button class="btn-download" onclick="downloadFile()">智能下载结果</button>
+        <button class="btn-clear" onclick="clearContent()">清空全部</button>
+    </div>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script>
+    const area = document.getElementById('mainArea');
+    const toast = document.getElementById('toast');
+
+    // 文件读取
+    document.getElementById('fileUp').addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            area.value = e.target.result;
+            showToast("文件加载成功", "#34c759");
+        };
+        reader.readAsText(file);
+    });
+
+    // 弹窗提示
+    function showToast(msg, color) {
+        toast.innerText = msg;
+        toast.style.backgroundColor = color;
+        toast.style.display = 'block';
+        setTimeout(() => { toast.style.display = 'none'; }, 2500);
+    }
+
+    // 修复后的转换逻辑
+    function convert(type) {
+        const input = area.value.trim();
+        if (!input) return showToast("内容为空！", "#ff3b30");
+
+        if (type === 'toM3u') {
+            // 修复：放宽正则，支持 video:// 前缀
+            if (!/.*?,(http|rtsp|rtmp|p3p|mms|video)/i.test(input)) {
+                return showToast("格式不符合：未检测到 '名称,链接'", "#ff3b30");
+            }
+            const lines = input.split('\n');
+            let output = "#EXTM3U\n";
+            let currentGroup = "未分类";
+
+            lines.forEach(line => {
+                line = line.trim();
+                if (!line) return;
+
+                // 处理分类行 #genre#
+                if (line.includes('#genre#')) {
+                    currentGroup = line.split(',')[0].trim();
+                    return;
+                }
+
+                // 处理常规频道行
+                if (line.includes(',') && line.includes('://')) {
+                    const parts = line.split(',');
+                    let url = parts.pop().trim();
+                    let name = parts.join(',').trim();
+                    
+                    // 修复：剥离 video:// 前缀，使播放器可读
+                    url = url.replace(/^video:\/\//i, '');
+                    
+                    // 优化：去掉名称中的 (网页)
+                    name = name.replace(/\(网页\)/g, '').trim();
+                    
+                    output += `#EXTINF:-1 group-title="${currentGroup}",${name}\n${url}\n`;
+                }
+            });
+            area.value = output;
+            showToast("已成功转为 M3U", "#5856d6");
+        } 
+        else {
+            if (!input.includes("#EXTINF")) {
+                return showToast("格式不符合：未检测到 M3U 特征", "#ff3b30");
+            }
+            const lines = input.split('\n');
+            let output = "";
+            let currentName = "";
+            lines.forEach(line => {
+                line = line.trim();
+                if (line.startsWith("#EXTINF:")) {
+                    const match = line.match(/#EXTINF:.*?,(.*)/);
+                    if (match) currentName = match[1].trim();
+                } else if (line.includes("://") && !line.startsWith('#')) {
+                    output += `${currentName || '未知频道'},${line}\n`;
+                }
+            });
+            area.value = output;
+            showToast("已成功转为 TXT", "#af52de");
+        }
+    }
+
+    // 一键复制
+    function copyToClipboard() {
+        if (!area.value.trim()) return showToast("没有内容可以复制", "#ff3b30");
+        navigator.clipboard.writeText(area.value).then(() => {
+            showToast("已成功复制到剪贴板", "#ff9500");
+        }).catch(() => {
+            area.select();
+            document.execCommand('copy');
+            showToast("已成功复制到剪贴板", "#ff9500");
+        });
+    }
+
+    // 智能下载
+    function downloadFile() {
+        const content = area.value.trim();
+        if (!content) return showToast("内容为空，无法下载", "#ff3b30");
+        const isM3u = content.includes("#EXTM3U");
+        const fileName = isM3u ? "live.m3u" : "live.txt";
+        const blob = new Blob([content], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast(`已下载 ${fileName}`, "#34c759");
+    }
+
+    // 清空
+    function clearContent() {
+        area.value = "";
+        showToast("已清空内容", "#8e8e93");
+    }
+</script>
+
+</body>
+</html>

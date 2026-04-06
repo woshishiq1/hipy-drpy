@@ -1,0 +1,66 @@
+		{
+			"key": "豆瓣",
+			"name": "豆瓣",
+			"type": 3,
+			"api": "csp_Douban",
+			"searchable": 0,
+			"changeable": 1,
+			"indexs": 1,
+			"ext": "./lib/tokenm.json$$$./lib/douban.json"
+		},
+		{
+			"key": "嗷呜弹幕",
+			"name": "弹幕",
+			"type": 3,
+			"jar": "./jar/spider-woof.jar",
+			"api": "csp_GoConfig",
+			"indexs": 1,
+			"searchable": 0,
+			"filterable": 0,
+			"quickSearch": 0,
+			"changeable": 0,
+			"ext": "./lib"
+		},
+		{
+			"key": "AList",
+			"name": "Alist",
+			"type": 3,
+			"api": "csp_AList",
+			"searchable": 1,
+			"filterable": 1,
+			"changeable": 1,
+			"timeout": 60,
+			"vodPic": "./img/file.jpg",
+			"ext": "./js/alist.json"
+		},
+		{
+			"key": "BiliBili",
+			"name": "Bili_MTV",
+			"type": 3,
+			"api": "csp_Bili",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"timeout": 60,
+			"ext": {
+				"json": "./js/mtv.json",
+				"cookie": ""
+			}
+		},
+		{
+			"key": "采集集合",
+			"name": "采集集合",
+			"type": 1,
+			"api": "http://127.0.0.1:1988/lb?lb=3",
+			"jar": "./jar/yt-aa.jar",
+			"searchable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.33
+			},
+			"changeable": 1
+		}

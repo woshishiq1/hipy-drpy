@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toosの加密解密专用</title>
+<link rel="icon" href="https://cloudflare-imgbed-8o0.pages.dev/file/1769750780357_256.webp" type="image/png">
+  <!-- Import style -->
+  <link rel="stylesheet" href="../static/css/index.css">
+  <!-- Import Vue 3 -->
+  <script src="../static/js/vue.global.js"></script>
+  <!-- Import component library -->
+  <script src="../static/js/index.full.js"></script>
+
+  <script src="../static/js/crypto-js.min.js"></script>
+  <style scoped>
+    .wrapper {
+      padding: 32px;
+    }
+
+    .wrapper .inner {
+      display: flex;
+      margin-top: 24px;
+    }
+
+    .wrapper .textarea-group {
+      flex: 3;
+    }
+
+    .wrapper .input-group {
+      flex: 1;
+      margin: 0 24px;
+    }
+
+    .wrapper .input-group .el-input,
+    .wrapper .input-group .el-checkbox {
+      margin-bottom: 24px;
+    }
+
+    .wrapper .input-group .btn-group {
+      display: flex;
+      justify-content: space-between;
+
+      margin-bottom: 24px;
+    }
+
+    .wrapper .input-group .btn-group .el-button {
+      width: 80px;
+    }
+
+    .wrapper .input-group .btn-group .upload {
+      margin-right: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div class="wrapper">
+      <h2>
+        TVBox的AES-128-CBC<template v-if="selectValue">加密</template><template v-else>解密</template>
+      </h2>
+      <div class="inner">
+        <div class="textarea-group">
+          <el-input v-model="jsonData" :rows="26" type="textarea"></el-input>
+        </div>
+        <div class="input-group">
+          <el-select v-model="selectValue" placeholder="Select">
+            <el-option v-for="item in options" :key="item.value" :label="item.label" :value="item.value"></el-option>
+          </el-select>
+
+          <template v-if="selectValue">
+            <el-input v-model="key" placeholder="KEY/密码" maxlength="16" clearable></el-input>
+            <el-input v-model="iv" placeholder="IV/向量" maxlength="13" disabled></el-input>
+          </template>
+
+          <el-checkbox v-model="checked" label="是否Base64加密过" size="large" v-else></el-checkbox>
+
+          <div class="btn-group">
+            <el-upload class="upload" action="" :show-file-list="false" :on-change="handleUpload">
+              <el-button type="primary">上传文件</el-button>
+            </el-upload>
+
+            <el-button type="success" @click="encryptAes()" v-if="selectValue">加密下载</el-button>
+
+            <el-button type="warning" @click="decryptAes()" v-else>解密</el-button>
+
+          </div>
+
+          <div class="iframe-group">
+            <el-button type="primary">
+              <label>配置转图片<input type="file" onchange="toImg(event)" style="display: none;">
+              </label>
+            </el-button>
+            <!-- <label class="btn btn-primary">
+              配置转图片 <input type="file" onchange="toImg(event)" style="display: none;">
+            </label> -->
+            <!-- <iframe src="./iframe.html" frameborder="0" style="height:36px;width:96px"></iframe> -->
+          </div>
+
+        </div>
+        <div class="textarea-group">
+          <el-input v-model="result" :rows="26" type="textarea"></el-input>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../static/js/jquery.min.js"></script>
+  <script src="../static/js/editor.js"></script>
+  <script>
+    const {
+      ref
+    } = Vue;
+
+
+    function padTo16Byte(str) {
+      console.log("str", typeof str, str)
+      return CryptoJS.enc.Utf8.parse(str.toString().padEnd(16, '0'));
+    }
+    /**
+     * AES加密:word加密字符串，以及字符串key、iv  返回Hex
+     */
+    function Encrypt(word, keyStr, ivStr) {
+      const key = padTo16Byte(keyStr);
+      const iv = padTo16Byte(ivStr);
+      const encrypted = CryptoJS.AES.encrypt(word, key, {
+        iv
+      });
+      return encrypted.ciphertext.toString(CryptoJS.enc.Hex);
+    }
+    /**
+     * 解密:字符串 key iv  返回Utf8
+     */
+    function Decrypt(word, keyStr, ivStr) {
+      const key = padTo16Byte(keyStr);
+      const iv = padTo16Byte(ivStr);
+      const ciphertext = CryptoJS.enc.Hex.parse(word);
+      const decrypt = CryptoJS.AES.decrypt({
+        ciphertext
+      }, key, {
+        iv
+      });
+      return decrypt.toString(CryptoJS.enc.Utf8);
+    }
+
+
+
+    function decryptAesBCB(encryptedData) {
+      var dataArr = encryptedData.split("");
+      var prefixCode = CryptoJS.enc.Utf8.parse("$#").toString();
+      var suffixCode = CryptoJS.enc.Utf8.parse("#$").toString();
+      var pwdMix = dataArr
+        .splice(0, encryptedData.indexOf(suffixCode) + 4)
+        .join("");
+      var roundtimeInHax = dataArr.splice(dataArr.length - 26, 26).join("");
+      var encryptedText = dataArr.join("");
+      var pwdInHax = pwdMix.substring(
+        prefixCode.length,
+        pwdMix.length - suffixCode.length
+      );
+      var roundTime = CryptoJS.enc.Utf8.stringify(
+        CryptoJS.enc.Hex.parse(roundtimeInHax)
+      );
+      var pwd = CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Hex.parse(pwdInHax));
+      var iv = CryptoJS.enc.Utf8.parse(roundTime.padEnd(16, "0"));
+      var pkBlocks = CryptoJS.enc.Utf8.parse(pwd.padEnd(16, "0"));
+      var cipherParams = CryptoJS.lib.CipherParams.create({
+        ciphertext: CryptoJS.enc.Hex.parse(encryptedText),
+      });
+      var decryptedData = CryptoJS.enc.Utf8.stringify(
+        CryptoJS.AES.decrypt(cipherParams, pkBlocks, {
+          iv: iv,
+          mode: CryptoJS.mode.CBC,
+          padding: CryptoJS.pad.Pkcs7,
+        })
+      );
+      console.log(decryptedData);
+      return decryptedData;
+    };
+    // 字符串转Hex
+    function convertToHex(value) {
+      return CryptoJS.enc.Hex.stringify(CryptoJS.enc.Utf8.parse(value));
+    }
+    // Hex转字符串
+    function convertToString(value) {
+      return CryptoJS.enc.Utf8.stringify(CryptoJS.enc.Hex.parse(value));
+    }
+
+    Vue.createApp({
+      components: {
+        ElInput: window.ElementPlus.ElInput,
+        ElButton: window.ElementPlus.ElButton,
+        ElSelect: window.ElementPlus.ElSelect,
+        ElOption: window.ElementPlus.ElOption,
+        ElCheckbox: window.ElementPlus.ElCheckbox,
+        ElUpload: window.ElementPlus.ElUpload,
+      },
+      setup() {
+        const jsonData = ref("");
+        const key = ref("123456");
+        const iv = ref(new Date().getTime());
+        const result = ref("");
+        const selectValue = ref(1);
+        const checked = ref(false);
+        const options = [{
+            value: 1,
+            label: "加密",
+          },
+          {
+            value: 0,
+            label: "解密",
+          },
+        ];
+
+        const encryptAes = async () => {
+          if (!jsonData.value) {
+            return;
+          }
+
+          try {
+            const resultData = Encrypt(jsonData.value, key.value, iv.value);
+            const keyHex = convertToHex(`$#${key.value}#$`);
+            const ivHex = convertToHex(iv.value);
+            result.value = `${keyHex}${resultData}${ivHex}`;
+            downloadFile(result.value);
+          } catch (err) {
+            console.error(err);
+          }
+        };
+
+        const decryptAes = async () => {
+          if (!jsonData.value) {
+            return;
+          }
+          try {
+            var encryptedData = jsonData.value;
+            if (checked.value) {
+              encryptedData = window.atob(
+                encryptedData ?.split("**") ?. [1] || encryptedData
+              );
+            }
+            const resultData = decryptAesBCB(encryptedData);
+            result.value = resultData;
+          } catch (err) {
+            console.error(err);
+          }
+        };
+
+        const handleUpload = (files) => {
+          const file = files.raw;
+          const reader = new FileReader();
+          reader.onload = () => {
+            //   const data = JSON.parse(reader.result);
+            //   jsonData.value = JSON.stringify(data, null, 2);
+            jsonData.value = reader.result;
+          };
+          reader.readAsText(file);
+        };
+
+        const downloadFile = (dataStr) => {
+          const blob = new Blob([dataStr], {
+            type: "text/plain"
+          });
+          const url = URL.createObjectURL(blob);
+          const link = document.createElement("a");
+          link.href = url;
+          link.download = "file.json"; // 文件名可以根据需要更改
+          link.click();
+          URL.revokeObjectURL(url);
+        };
+
+        return {
+          jsonData,
+          key,
+          iv,
+          result,
+          selectValue,
+          checked,
+          options,
+          encryptAes,
+          decryptAes,
+          handleUpload,
+          downloadFile
+        };
+      },
+    }).mount("#app");
+  </script></body></html>

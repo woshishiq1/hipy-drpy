@@ -1,0 +1,116 @@
+name: Download and Update Files
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0,12 * * *'  # 每天运行两次
+
+jobs:
+  download-and-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and extract file
+        run: |
+          mkdir -p temp_download
+          cd temp_download
+          
+          echo "开始下载文件..."
+          curl -L -o "single_line.zip" "https://raw.githubusercontent.com/PizazzGY/NewTVBox/refs/heads/main/单线路.zip"
+          
+          if [ -f "single_line.zip" ]; then
+            echo "文件下载成功，开始解压..."
+            unzip -o single_line.zip -d ../
+            echo "文件解压完成"
+          else
+            echo "文件下载失败"
+            exit 1
+          fi
+          
+          cd ..
+          rm -rf temp_download
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          
+      - name: Process JSON
+        run: |
+          import json
+          import os
+          
+          # 读取源文件
+          with open('TVBoxOSC/tvbox/api.json', 'r', encoding='utf-8') as f:
+              data = json.load(f)
+          
+          # 需要移除的key列表  
+          remove_keys = ['预告', '酷乐', '闪电', '鬼鬼', '混合', '兄弟', '天翼', '盘搜', '夸克', '本地', '配置中心', '即刻', '小斑快映', '玩偶哥哥', "玩偶", "快映", '木偶', '蜡笔', '至臻', '多多', '欧哥', '二小', '虎斑', '雷鲸', '海绵', '夸父', '趣盘', '双星', '清影', '人人', '糖果', "移动盘搜", '夸克盘搜', 'UC盘搜', '天翼盘搜', '123盘搜', '百度盘搜', '百酷', '米搜', '酷乐搜索', '爱看搜索', '鬼鬼搜索', '夸克推送', 'UC推送', '天翼推送', '123推送', '百度推送', '荐片', '七味', '80S', 'New6v', '美剧迷', '迅雷吧', '电影港', '狐狸君', 'Mp4电影', '美剧天堂', '电影天堂', '夸克云盘', 'UC', 'UC云盘', "阿里云盘", "阿里盘搜", '百度云盘', 'AList', '版本信息', 'push_agent', '123']
+          
+          # 过滤sites列表
+          data['sites'] = [site for site in data['sites'] if site['key'] not in remove_keys]
+          
+          # 读取live.json文件内容
+          try:
+              with open('TVBoxOSC/tvbox/live.json', 'r', encoding='utf-8') as f:
+                  live_content = json.load(f)
+                  
+              # 合并lives内容
+              if isinstance(live_content, dict):
+                  # 合并sites数组
+                  if 'sites' in live_content:
+                      # 确保data中有sites数组
+                      if 'sites' not in data:
+                          data['sites'] = []
+                      # 将live.json中的sites添加到data的sites中
+                      data['sites'].extend(live_content['sites'])
+                  
+                  # 合并lives数组
+                  if 'lives' in live_content:
+                      data['lives'] = live_content['lives']
+                  
+                  # 合并headers
+                  if 'headers' in live_content:
+                      data['headers'] = live_content['headers']
+                  
+                  # 合并proxy
+                  if 'proxy' in live_content:
+                      data['proxy'] = live_content['proxy']
+                  
+                  # 合并hosts
+                  if 'hosts' in live_content:
+                      data['hosts'] = live_content['hosts']
+              else:
+                  print("Error: live.json is not a valid dictionary")
+                  
+          except FileNotFoundError:
+              print("live.json file not found, skipping content addition")
+          except json.JSONDecodeError:
+              print("Error: live.json is not a valid JSON file")
+          except Exception as e:
+              print(f"Error processing live.json: {str(e)}")
+          
+          # 写入新文件
+          with open('TVBoxOSC/tvbox/xs.json', 'w', encoding='utf-8') as f:
+              json.dump(data, f, ensure_ascii=False, indent=4)
+        shell: python
+
+      - name: Check and commit changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "检测到文件变更，提交更新..."
+            git add .
+            git commit -m "Update: 更新文件 $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+            echo "更新已推送到仓库"
+          else
+            echo "没有检测到文件变更"
+          fi

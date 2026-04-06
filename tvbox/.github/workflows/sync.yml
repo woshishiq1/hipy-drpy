@@ -1,0 +1,79 @@
+name: Upstream Sync
+
+permissions:
+  contents: write
+  actions: write
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+    inputs:
+      upstream_branch:
+        description: "上游仓库分支"
+        required: true
+        default: "main"
+        type: string
+      target_branch:
+        description: "目标仓库分支"
+        required: true
+        default: "main"
+        type: string
+      sync_strategy:
+        description: "同步策略"
+        required: true
+        default: "discard"
+        type: choice
+        options:
+          - discard # 强制同步：丢弃本地修改，完全复制上游 (推荐)
+          - merge   # 尝试合并：如果有冲突会报错
+
+env:
+  UPSTREAM_REPO: "cluntop/tvbox"
+  UPSTREAM_BRANCH: ${{ github.event.inputs.upstream_branch || 'main' }}
+  TARGET_BRANCH: ${{ github.event.inputs.target_branch || 'main' }}
+  SYNC_STRATEGY: ${{ github.event.inputs.sync_strategy || 'discard' }}
+
+jobs:
+  sync_upstream:
+    name: Sync and Notify
+    runs-on: ubuntu-latest
+    if: ${{ github.event.repository.fork }}
+
+    steps:
+      - name: Checkout Target Repo
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
+          repository: cluntop/tvbox
+          token: ${{ secrets.GIT_TOKEN }}
+          persist-credentials: true
+          fetch-depth: 1
+
+      - name: Sync Upstream Changes
+        id: sync
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.2
+        with:
+          upstream_sync_repo: ${{ env.UPSTREAM_REPO }}
+          upstream_sync_branch: ${{ env.UPSTREAM_BRANCH }}
+          target_sync_branch: ${{ env.TARGET_BRANCH }}
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+          upstream_pull_args: ${{ env.SYNC_STRATEGY == 'discard' && '--allow-unrelated-histories --force' || '' }}
+          target_branch_push_args: ${{ env.SYNC_STRATEGY == 'discard' && '--force' || '' }}
+          test_mode: false
+
+      - name: Generate Summary
+        run: |
+          echo "### 🔄 同步报告 (Sync Report)" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "| :--- | :--- |" >> $GITHUB_STEP_SUMMARY
+          echo "| **源仓库** | [${{ env.UPSTREAM_REPO }}](https://github.com/${{ env.UPSTREAM_REPO }}) |" >> $GITHUB_STEP_SUMMARY
+          echo "| **结果** | ${{ steps.sync.outputs.sync_status == 'success' && '✅ 成功 (Success)' || '❌ 失败 (Failed)' }} |" >> $GITHUB_STEP_SUMMARY
+
+      - name: Delete Old Workflows
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 1
+          keep_minimum_runs: 3

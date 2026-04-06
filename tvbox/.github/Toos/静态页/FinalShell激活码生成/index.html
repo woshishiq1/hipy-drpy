@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哪吒监控V1自定义配置生成器</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f5f5f5; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; }
+        .form-item { margin-bottom: 20px; }
+        .form-item label { display: block; font-weight: bold; margin-bottom: 5px; }
+        .form-item input[type="text"], 
+        .form-item select, 
+        .form-item textarea { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+        .checkbox-group { display: flex; gap: 10px; }
+        .output { background: #f9f9f9; padding: 15px; border: 1px solid #ccc; border-radius: 4px; margin-top: 20px; font-family: monospace; white-space: pre-wrap; }
+        .btn-generate, .btn-copy { width: 100%; padding: 10px; color: #fff; border: none; border-radius: 4px; cursor: pointer; margin-bottom: 10px; }
+        .btn-generate { background: #409eff; }
+        .btn-generate:hover { background: #66b1ff; }
+        .btn-copy { background: #67c23a; }
+        .btn-copy:hover { background: #85ce61; }
+        .inline-inputs { display: flex; gap: 10px; }
+        .inline-inputs input { flex: 1; }
+        .link-inputs .inline-inputs input { min-width: 200px; }
+        input::placeholder { color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <div id="app" class="container">
+        <h1>哪吒监控V1自定义配置生成器</h1>
+
+        <!-- 自定义背景图 -->
+        <div class="form-item">
+            <label>自定义背景图 URL</label>
+            <input type="text" v-model="form.CustomBackgroundImage" placeholder="留空则不生成">
+        </div>
+
+        <!-- 手机端背景图 -->
+        <div class="form-item">
+            <label>自定义手机端背景图 URL</label>
+            <input type="text" v-model="form.CustomMobileBackgroundImage" placeholder="留空则不生成">
+        </div>
+
+        <!-- 自定义Logo -->
+        <div class="form-item">
+            <label>自定义 Logo URL</label>
+            <input type="text" v-model="form.CustomLogo" placeholder="留空则不生成">
+        </div>
+
+        <!-- 自定义描述 -->
+        <div class="form-item">
+            <label>自定义描述</label>
+            <input type="text" v-model="form.CustomDesc" placeholder="留空则不生成">
+        </div>
+
+        <!-- 流量显示开关 -->
+        <div class="form-item">
+            <label>显示上下行流量</label>
+            <el-switch v-model="form.ShowNetTransfer"></el-switch>
+        </div>
+
+        <!-- 动画人物开关 -->
+        <div class="form-item">
+            <label>关掉动画人物插图</label>
+            <el-switch v-model="form.DisableAnimatedMan"></el-switch>
+        </div>
+
+        <!-- 自定义插图 -->
+        <div class="form-item">
+            <label>自定义插图 URL</label>
+            <input type="text" v-model="form.CustomIllustration" placeholder="必须填写才生成插图代码">
+        </div>
+
+        <!-- 插图定位 -->
+        <div class="form-item">
+            <label>目标元素XPath</label>
+            <input type="text" v-model="form.CustomIllustrationXPath" 
+                   placeholder="默认值: /html/body/div/div/main/div[2]/section[1]/div[4]/div">
+        </div>
+
+        <!-- 修改后的插图样式输入 -->
+        <div class="form-item">
+            <label>插图位置/样式（留空则使用默认值）</label>
+            <div class="inline-inputs">
+                <input type="text" v-model="form.CustomIllustrationRight" placeholder="右边距（默认：-50）">
+                <input type="text" v-model="form.CustomIllustrationTop" placeholder="上边距（默认：-145）">
+                <input type="text" v-model="form.CustomIllustrationZIndex" placeholder="z-index（默认：10）">
+                <input type="text" v-model="form.CustomIllustrationWidth" placeholder="宽度（默认：160）">
+            </div>
+        </div>
+
+        <!-- 服务器名称固定 -->
+        <div class="form-item">
+            <label>固定顶部服务器名称</label>
+            <el-switch v-model="form.FixedTopServerName"></el-switch>
+        </div>
+
+        <!-- 外链输入 -->
+        <div class="form-item link-inputs">
+            <label>自定义外链</label>
+            <div class="inline-inputs">
+                <input type="text" v-model="form.CustomLinks.link" 
+                       placeholder="链接 (例: https://example.com)">
+                <input type="text" v-model="form.CustomLinks.name" 
+                       placeholder="名称 (例: 官方网站)">
+            </div>
+        </div>
+
+        <!-- 颜色主题 -->
+        <div class="form-item">
+            <label>强制颜色主题</label>
+            <select v-model="form.ForceTheme">
+                <option value="">不强制</option>
+                <option value="light">浅色</option>
+                <option value="dark">深色</option>
+            </select>
+        </div>
+
+        <!-- 其他强制选项 -->
+        <div class="form-item">
+            <label>强制使用 SVG 旗帜</label>
+            <el-switch v-model="form.ForceUseSvgFlag"></el-switch>
+        </div>
+        <div class="form-item">
+            <label>强制显示服务面板</label>
+            <el-switch v-model="form.ForceShowServices"></el-switch>
+        </div>
+        <div class="form-item">
+            <label>强制显示地图</label>
+            <el-switch v-model="form.ForceShowMap"></el-switch>
+        </div>
+        <div class="form-item">
+            <label>强制列表单行显示</label>
+            <el-switch v-model="form.ForceCardInline"></el-switch>
+        </div>
+        <div class="form-item">
+            <label>开启延迟图表削峰</label>
+            <el-switch v-model="form.ForcePeakCutEnabled"></el-switch>
+        </div>
+
+        <!-- 操作按钮 -->
+        <button class="btn-generate" @click="generateCode">生成代码</button>
+        <button class="btn-copy" @click="copyCode" :disabled="!output">复制代码</button>
+
+        <!-- 输出区域 -->
+        <div class="output" v-if="output">
+            <pre>{{ output }}</pre>
+        </div>
+    </div>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: () => ({
+                form: {
+                    CustomBackgroundImage: '',
+                    CustomMobileBackgroundImage: '',
+                    CustomLogo: '',
+                    CustomDesc: '',
+                    ShowNetTransfer: false,
+                    DisableAnimatedMan: false,
+                    CustomIllustration: '',
+                    CustomIllustrationXPath: '',
+                    CustomIllustrationRight: '',
+                    CustomIllustrationTop: '',
+                    CustomIllustrationZIndex: '',
+                    CustomIllustrationWidth: '',
+                    FixedTopServerName: false,
+                    CustomLinks: {
+                        link: '',
+                        name: ''
+                    },
+                    ForceTheme: '',
+                    ForceUseSvgFlag: false,
+                    ForceShowServices: false,
+                    ForceShowMap: false,
+                    ForceCardInline: false,
+                    ForcePeakCutEnabled: false
+                },
+                output: ''
+            }),
+            methods: {
+                generateCode() {
+                    const lines = [];
+                    
+                    // 布尔值字段处理
+                    const BOOL_FIELDS = [
+                        'ShowNetTransfer',
+                        'DisableAnimatedMan',
+                        'FixedTopServerName',
+                        'ForceUseSvgFlag',
+                        'ForceShowServices',
+                        'ForceShowMap',
+                        'ForceCardInline',
+                        'ForcePeakCutEnabled'
+                    ];
+                    BOOL_FIELDS.forEach(field => {
+                        lines.push(`window.${field} = ${this.form[field]};`);
+                    });
+
+                    // 字符串字段处理
+                    const STR_FIELDS = [
+                        'CustomBackgroundImage',
+                        'CustomMobileBackgroundImage',
+                        'CustomLogo',
+                        'CustomDesc'
+                    ];
+                    STR_FIELDS.forEach(field => {
+                        if (this.form[field]) {
+                            lines.push(`window.${field} = "${this.form[field].replace(/"/g, '\\"')}";`);
+                        }
+                    });
+
+                    // 自定义外链处理
+                    if (this.form.CustomLinks.link && this.form.CustomLinks.name) {
+                        const linkData = [{
+                            link: this.form.CustomLinks.link,
+                            name: this.form.CustomLinks.name
+                        }];
+                        lines.push(`window.CustomLinks = '${JSON.stringify(linkData).replace(/'/g, "\\'")}';`);
+                    }
+
+                    // 颜色主题处理
+                    if (this.form.ForceTheme) {
+                        lines.push(`window.ForceTheme = "${this.form.ForceTheme}";`);
+                    }
+
+                    // 插图逻辑处理
+                    if (this.form.CustomIllustration) {
+                        const config = {
+                            xpath: this.form.CustomIllustrationXPath || '/html/body/div/div/main/div[2]/section[1]/div[4]/div',
+                            right: this.form.CustomIllustrationRight || '-50',
+                            top: this.form.CustomIllustrationTop || '-145',
+                            zIndex: this.form.CustomIllustrationZIndex || '10',
+                            width: this.form.CustomIllustrationWidth || '160'
+                        };
+
+                        lines.push(`(function() {
+    const observer = new MutationObserver(() => {
+        const container = document.evaluate(
+            "${config.xpath}",
+            document,
+            null,
+            XPathResult.FIRST_ORDERED_NODE_TYPE,
+            null
+        ).singleNodeValue;
+        if (container) {
+            container.querySelectorAll('img').forEach(img => img.remove());
+            const newImg = document.createElement('img');
+            newImg.src = "${this.form.CustomIllustration.replace(/"/g, '\\"')}";
+            newImg.style = \`position: absolute;
+                right: ${config.right}px;
+                top: ${config.top}px;
+                z-index: ${config.zIndex};
+                width: ${config.width}px;
+                pointer-events: none;\`;
+            container.appendChild(newImg);
+        }
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+})();`);
+                    }
+
+                    this.output = `<script>\n${lines.join('\n')}\n<\/script>`;
+                },
+                copyCode() {
+                    const el = document.createElement('textarea');
+                    el.value = this.output;
+                    document.body.appendChild(el);
+                    el.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(el);
+                    alert('配置已复制到剪贴板！');
+                }
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "base_url": "http://zhibo.aisimu.cn/zhubo/",
+    "login_url": "http://zhibo.aisimu.cn/index.php",
+
+    "username_field": "username",
+    "password_field": "password",
+    "username": "",
+    "password": "",
+
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+
+    "logged_in_expected_url": "http://zhibo.aisimu.cn/zhubo/index.php",
+    "login_failed_check_text": "账号或密码错误",
+    "login_success_check_text": "直播资源管理平台",
+
+    "tg_token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "tg_chat_id": "YOUR_CHAT_ID",
+
+    "request_timeout": 10,
+    "max_workers": 10,
+    "source_check_timeout": 6
+}

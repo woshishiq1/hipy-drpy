@@ -1,0 +1,86 @@
+name: Update Test
+
+permissions:
+  contents: write
+  actions: write
+
+on:
+  # schedule:
+    # - cron: '30 2 * * *'
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  Update:
+    runs-on: self-hosted
+    timeout-minutes: 15
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
+      with:
+        repository: cluntop/tvbox
+        token: ${{ secrets.GIT_TOKEN }}
+        fetch-depth: 1
+
+    - name: Delete old workflow runs
+      uses: Mattraks/delete-workflow-runs@v2
+      with:
+        token: ${{ github.token }}
+        repository: ${{ github.repository }}
+        retain_days: 1
+        keep_minimum_runs: 3
+
+    #- name: Set up Python
+      # uses: actions/setup-python@v6
+      # with:
+        # python-version: '3.10'
+        # cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        python -m venv .venv
+        source .venv/bin/activate
+        python -m pip install --upgrade pip
+        # if [ -f .github/requirements.txt ]; then pip install -r .github/requirements.txt; fi
+        pip install aiohttp playwright
+
+        sudo apt-get update
+        sudo apt-get install -y libasound2t64 libgbm-dev libnotify-dev libnss3 libxss1 \
+        libxcomposite1 libxdamage1 libxrandr2 libxcursor1 libxkbcommon0 \
+        libpango-1.0-0 libcairo2 libatk1.0-0t64 libatk-bridge2.0-0t64 libcups2t64
+    
+    - name: Initialize chromium 
+      run: |
+        source .venv/bin/activate
+        playwright install chromium
+        # playwright install-deps chromium
+
+    - name: Run M3U script
+      run: |
+        source .venv/bin/activate
+        python py/sinparty.py
+
+    - name: Commit and Push changes
+      run: |
+        export HOME=${GITHUB_WORKSPACE}
+        
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "Changes detected, committing..."
+          git add .
+          git commit -m "Update Test"
+          
+          git pull --rebase origin main
+          git push origin main
+        else
+          echo "No changes detected, skipping push."
+        fi

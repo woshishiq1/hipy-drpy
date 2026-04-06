@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Defender 防火墙配置</title>
+    <link rel="icon" href="https://cloudflare.panell.top/file/1752220700680_finalshell.png" type="image/png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .page {
+            display: none;
+            padding: 20px;
+        }
+        .page.active {
+            display: block;
+        }
+        h1 {
+            color: #0066cc;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-top: 20px;
+        }
+        h2 {
+            color: #0099ff;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        .image-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .image-description {
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            padding: 15px 0;
+            border-top: 1px solid #eee;
+        }
+        .nav-button {
+            padding: 8px 15px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .nav-button:hover {
+            background-color: #0055aa;
+        }
+        .page-selector {
+            background-color: #0078d7;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+        .page-link {
+            padding: 8px 20px;
+            margin: 0 5px;
+            background-color: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .page-link.active {
+            background-color: white;
+            color: #0078d7;
+        }
+        .section-description {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #0066cc;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="page-selector">
+            <a href="#cx" class="page-link active">程序配置</a>
+            <a href="#ip" class="page-link">IP配置</a>
+        </div>
+
+        <!-- 程序配置页面 (#cx) -->
+        <div id="cx" class="page active">
+            <h1>Windows Defender 防火墙程序配置</h1>
+            
+            <div class="section-description">
+                <p>此部分展示Windows Defender防火墙出站规则的完整配置流程，包括从基础界面到高级设置的各个步骤。</p>
+                <p class="nav-button">如果配置完还是会变回免费版，请去IP配置跟流程操作。</p>
+            </div>
+
+            <h2>1. Windows Defender 防火墙主界面</h2>
+            <div class="image-container">
+                <img src="../rede/1.png" alt="Windows Defender 防火墙主界面">
+                <div class="image-description">图1: Windows Defender 防火墙状态和基本设置</div>
+            </div>
+
+            <h2>2. 高级安全 Windows Defender 防火墙</h2>
+            <div class="image-container">
+                <img src="../rede/2.png" alt="高级安全 Windows Defender 防火墙">
+                <div class="image-description">图2: 高级安全防火墙界面和配置文件状态</div>
+            </div>
+
+            <h2>3. 出站规则列表</h2>
+            <div class="image-container">
+                <img src="../rede/3.png" alt="出站规则列表">
+                <div class="image-description">图3: 当前系统中的出站规则列表</div>
+            </div>
+
+            <h2>4. 新建出站规则向导 - 规则类型</h2>
+            <div class="image-container">
+                <img src="../rede/4.png" alt="新建出站规则向导 - 规则类型">
+                <div class="image-description">图4: 选择要创建的规则类型</div>
+            </div>
+
+            <h2>5. 新建出站规则向导 - 程序</h2>
+            <div class="image-container">
+                <img src="../rede/5.png" alt="新建出站规则向导 - 程序">
+                <div class="image-description">图5: 指定规则匹配的程序路径</div>
+            </div>
+
+            <h2>6. 新建出站规则向导 - 操作</h2>
+            <div class="image-container">
+                <img src="../rede/6.png" alt="新建出站规则向导 - 操作">
+                <div class="image-description">图6: 选择连接匹配时的操作（允许/阻止）</div>
+            </div>
+
+            <h2>7. 新建出站规则向导 - 配置文件</h2>
+            <div class="image-container">
+                <img src="../rede/7.png" alt="新建出站规则向导 - 配置文件">
+                <div class="image-description">图7: 选择规则应用的网络配置文件</div>
+            </div>
+
+            <h2>8. 新建出站规则向导 - 名称</h2>
+            <div class="image-container">
+                <img src="../rede/8.png" alt="新建出站规则向导 - 名称">
+                <div class="image-description">图8: 为规则指定名称和描述</div>
+            </div>
+
+            <div class="navigation">
+                <a href="#" class="nav-button">返回顶部</a>
+                <a href="#ip" class="nav-button">查看IP配置</a>
+            </div>
+        </div>
+
+        <!-- IP配置页面 (#ip) -->
+        <div id="ip" class="page">
+            <h1>Windows Defender 防火墙IP配置</h1>
+            
+            <div class="section-description">
+                <p>此部分从IP角度展示配置流程，重点突出IP地址、协议和端口等网络层面的安全设置。</p>
+            </div>
+
+            <h2>1. Windows Defender 防火墙主界面</h2>
+            <div class="image-container">
+                <img src="../rede/1.png" alt="Windows Defender 防火墙主界面">
+                <div class="image-description">图1: Windows Defender 防火墙状态和基本设置</div>
+            </div>
+
+            <h2>2. 高级安全 Windows Defender 防火墙</h2>
+            <div class="image-container">
+                <img src="../rede/2.png" alt="高级安全 Windows Defender 防火墙">
+                <div class="image-description">图2: 高级安全防火墙界面和配置文件状态</div>
+            </div>
+
+            <h2>3. 出站规则列表</h2>
+            <div class="image-container">
+                <img src="../rede/3.png" alt="出站规则列表">
+                <div class="image-description">图3: 当前系统中的出站规则列表</div>
+            </div>
+
+            <h2>4. 规则类型选择</h2>
+            <div class="image-container">
+                <img src="../rede/9.png" alt="规则类型选择">
+                <div class="image-description">图9: 选择要创建的防火墙规则类型</div>
+            </div>
+
+            <h2>5. 程序选择</h2>
+            <div class="image-container">
+                <img src="../rede/10.png" alt="程序选择">
+                <div class="image-description">图10: 指定规则匹配的程序路径</div>
+            </div>
+
+            <h2>6. 协议和端口设置</h2>
+            <div class="image-container">
+                <img src="../rede/11.png" alt="协议和端口设置">
+                <div class="image-description">图11: 指定应用此规则的协议和端口</div>
+            </div>
+
+            <h2>7. IP作用域设置</h2>
+            <div class="image-container">
+                <img src="../rede/12.png" alt="IP作用域设置">
+                <div class="image-description">图12: 指定要应用此规则的本地和远程IP地址</div>
+            </div>
+
+            <h2>8. IP地址查询</h2>
+            <div class="image-container">
+                <img src="../rede/13.png" alt="IP地址查询">
+                <div class="image-description">图13: IP地址查询工具示例</div>
+                <div class="image-description">查询IP的域名: www.hostbuf.com</div>
+                <a href="https://tool.662662.xyz/ip" class="nav-button" style="display: block; padding: 12px; text-align: center;" target="_blank">IP地址查询</a>
+            </div>
+
+            <h2>9. 详细IP作用域配置</h2>
+            <div class="image-container">
+                <img src="../rede/14.png" alt="详细IP作用域配置">
+                <div class="image-description">图14: 详细的IP地址和子网配置</div>
+            </div>
+
+            <h2>10. 特定IP地址设置</h2>
+            <div class="image-container">
+                <img src="../rede/15.png" alt="特定IP地址设置">
+                <div class="image-description">图15: 为规则设置特定的远程IP地址</div>
+            </div>
+
+            <h2>11. 安全操作配置</h2>
+            <div class="image-container">
+                <img src="../rede/16.png" alt="安全操作配置">
+                <div class="image-description">图16: 选择连接匹配时的安全操作</div>
+            </div>
+
+            <h2>12. 网络配置文件选择</h2>
+            <div class="image-container">
+                <img src="../rede/17.png" alt="网络配置文件选择">
+                <div class="image-description">图17: 选择规则应用的网络配置文件</div>
+            </div>
+
+            <h2>13. 规则命名</h2>
+            <div class="image-container">
+                <img src="../rede/18.png" alt="规则命名">
+                <div class="image-description">图18: 为IP规则指定名称</div>
+            </div>
+
+            <div class="navigation">
+                <a href="#" class="nav-button">返回顶部</a>
+                <a href="#cx" class="nav-button">查看程序配置</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 处理页面切换
+        document.addEventListener('DOMContentLoaded', function() {
+            // 获取所有页面链接
+            const pageLinks = document.querySelectorAll('.page-link');
+            
+            // 获取所有页面
+            const pages = document.querySelectorAll('.page');
+            
+            // 为每个链接添加点击事件
+            pageLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // 获取目标页面ID
+                    const targetId = this.getAttribute('href').substring(1);
+                    
+                    // 更新活动链接
+                    pageLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // 显示目标页面，隐藏其他页面
+                    pages.forEach(page => {
+                        page.classList.remove('active');
+                        if (page.id === targetId) {
+                            page.classList.add('active');
+                        }
+                    });
+                    
+                    // 更新URL哈希
+                    window.location.hash = targetId;
+                    
+                    // 滚动到顶部
+                    window.scrollTo(0, 0);
+                });
+            });
+            
+            // 处理初始哈希
+            function loadInitialPage() {
+                const hash = window.location.hash.substring(1);
+                const validPages = ['cx', 'ip'];
+                
+                if (validPages.includes(hash)) {
+                    document.querySelector(`.page-link[href="#${hash}"]`).click();
+                } else if (pageLinks.length > 0) {
+                    // 默认显示第一个页面
+                    pageLinks[0].click();
+                }
+            }
+            
+            // 监听哈希变化
+            window.addEventListener('hashchange', loadInitialPage);
+            
+            // 初始加载
+            loadInitialPage();
+        });
+    </script>
+</body>
+</html>

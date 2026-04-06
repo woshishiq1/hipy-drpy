@@ -1,0 +1,47 @@
+name: Sync Vodspider to Buye
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+  - cron: '0 0 * * *'
+  workflow_dispatch:
+
+# 显式增加写入权限声明
+permissions:
+  contents: write
+
+jobs:
+  sync-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          path: target_repo
+          # 注意：这里不需要手动传 token，默认会使用 github.token
+
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+        with:
+          repository: vodspider/release
+          path: source_repo
+
+      - name: Copy files to target directory
+        run: |
+          mkdir -p target_repo/buye
+          cp -rvf source_repo/* target_repo/buye/
+          rm -rf target_repo/buye/.git
+
+      - name: Commit and Push
+        working-directory: target_repo
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-sync from vodspider/release at $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi

@@ -1,0 +1,90 @@
+name: Update zip
+
+permissions:
+  contents: write
+  actions: write
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # 每小时运行一次
+  workflow_dispatch:     # 允许手动触发
+
+env:
+  TZ: Asia/Shanghai # 设置时区
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Delete old records
+      uses: Mattraks/delete-workflow-runs@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository: ${{ github.repository }}
+        retain_days: 1
+        keep_minimum_runs: 5
+
+    - name: Checkout target repo
+      uses: actions/checkout@v6
+      with:
+        repository: cluntop/tvbox
+        token: ${{ secrets.GIT_TOKEN }}
+        path: target-repo
+        fetch-depth: 1
+
+    - name: Process Xiaosa resource
+      run: |
+        echo "Starting Xiaosa download..."
+        
+        mkdir -p temp_xiaosa
+        cd temp_xiaosa
+        wget --tries=3 --timeout=30 https://github.com/PizazzGY/NewTVBox/raw/main/%E5%8D%95%E7%BA%BF%E8%B7%AF.zip -O xiaosa.zip
+        unzip -q xiaosa.zip
+        mkdir -p ../target-repo/js/xiaosa
+        
+        if [ -d "TVBoxOSC/tvbox" ]; then
+          cp -rf TVBoxOSC/tvbox/* ../target-repo/js/xiaosa/
+          echo "Xiaosa files copied successfully."
+        else
+          echo "Error: Xiaosa source directory structure changed."
+          ls -R
+        fi
+        
+        cd ..
+        rm -rf temp_xiaosa
+
+    - name: Process Source Repo
+      run: |
+        git clone --depth 1 https://github.com/fish2018/PG.git source-repo
+        
+        cd source-repo
+        ZIP_FILE=$(find . -type f -name "pg.[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9].zip" | sort -r | head -n 1)
+
+        if [ -z "$ZIP_FILE" ]; then
+          echo "Warning: No matching zip file found in Source Repo."
+        else
+          echo "Found zip file: $ZIP_FILE"
+
+          unzip -o "$ZIP_FILE" -x "README.txt" -d ../target-repo/
+          echo "PG zip extracted to target repo."
+        fi
+
+    - name: Commit and push changes
+      working-directory: target-repo
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+
+        git add .
+
+        if git diff --staged --quiet; then
+          echo "No changes to commit."
+          exit 0
+        else
+          COMMIT_MSG="Update zip"
+          git commit -m "$COMMIT_MSG"
+          
+          git push origin HEAD:main
+          echo "Changes pushed successfully."
+        fi

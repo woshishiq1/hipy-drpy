@@ -1,0 +1,63 @@
+# Logs
+*.log*
+logs
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+dist-ssr/
+*.local
+bundle-analysis.html
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite specific
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# IDEs and editors
+vite.config.dev.ts
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+
+# Testing
+coverage/
+*.lcov
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# test
+.git/objects/*
+data/archive
+.DS_Store
+runtime/*
+archive/
+*.ipynb
+*.pack
+*.pyc

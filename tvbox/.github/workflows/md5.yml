@@ -1,0 +1,53 @@
+name: Auto Update JS MD5
+
+on:
+  # 监听代码推送
+  push:
+    # 只有当 .js 文件发生变化时才触发，避免无意义运行
+    paths:
+      - '**.js'
+      - '.github/workflows/md5.yml' # 方便调试脚本本身
+
+permissions:
+  contents: write
+
+jobs:
+  generate-md5:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout Code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # 获取完整历史，方便提交
+
+      - name: 🧮 Calculate & Update MD5
+        run: |
+          echo "开始扫描所有 .js 文件..."
+          
+          find . -type f -name "*.js" -not -path '*/.git/*' | while read -r file; do
+            
+            current_md5=$(md5sum "$file" | awk '{print $1}')
+
+            target_file="${file}.md5"
+
+            echo "$current_md5" > "$target_file"
+            
+            echo "✅ 已更新: $target_file -> $current_md5"
+          done
+
+      - name: 📤 Commit & Push Changes
+        run: |
+          # 配置机器人身份
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add **/*.js.md5
+
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Update md5"
+            git push
+            echo "::notice::🚀 MD5 文件已更新并推送！"
+          else
+            echo "::notice::⚠️ MD5 值没有变化，跳过提交。"
+          fi

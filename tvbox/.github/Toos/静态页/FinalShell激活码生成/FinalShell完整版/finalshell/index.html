@@ -1,0 +1,917 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinalShell激活码生成工具</title>
+  <link rel="icon" href="https://cloudflare.panell.top/file/1752220700680_finalshell.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <style>
+    :root {
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --success: #10b981;
+      --success-hover: #059669;
+      --warning: #f59e0b;
+      --warning-hover: #d97706;
+      --pink: #ec4899;
+      --pink-hover: #db2777;
+      --green: #7DDA58;
+      --gray-100: #f9fafb;
+      --gray-200: #f3f4f6;
+      --gray-300: #e5e7eb;
+      --gray-500: #6b7280;
+      --gray-700: #374151;
+      --gray-900: #111827;
+      --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      --border-radius: 10px;
+      --transition: all 0.3s ease;
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+      background: linear-gradient(135deg, #f0f9ff 0%, #e6f7ff 100%);
+      color: var(--gray-900);
+      line-height: 1.6;
+      min-height: 100vh;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background: white;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+      animation: fadeIn 0.8s ease-out;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .header {
+      background: linear-gradient(135deg, var(--primary) 0%, #1d4ed8 100%);
+      color: white;
+      padding: 1.8rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .header::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+      transform: rotate(30deg);
+    }
+    
+    .header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      position: relative;
+      z-index: 2;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+    
+    .header p {
+      font-size: 1rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .content {
+      padding: 2rem;
+    }
+    
+    .card {
+      background: white;
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      padding: 1.8rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      z-index: 1;
+      border: 1px solid rgba(59, 130, 246, 0.1);
+    }
+    
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1.5rem;
+      color: var(--gray-900);
+      display: flex;
+      align-items: center;
+      position: relative;
+      padding-bottom: 0.8rem;
+    }
+    
+    h2::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: var(--primary);
+      border-radius: 2px;
+    }
+    
+    .input-group {
+      margin-bottom: 1.5rem;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 0.6rem;
+      font-weight: 500;
+      color: var(--gray-700);
+      font-size: 0.95rem;
+    }
+    
+    input[type="text"], select {
+      width: 100%;
+      padding: 0.9rem 1.2rem;
+      border: 1px solid var(--gray-300);
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: var(--transition);
+      background: #fafcff;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+    }
+    
+    input[type="text"]:focus, select:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15), inset 0 1px 2px rgba(0,0,0,0.05);
+      background: white;
+    }
+    
+    .copyright-notice {
+      background: #fffbeb;
+      border-left: 4px solid #f59e0b;
+      padding: 0.8rem 1rem;
+      text-align: center;
+      font-weight: 500;
+      color: #b45309;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    
+    .form-row {
+      display: flex;
+      gap: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .form-col {
+      flex: 1;
+    }
+    
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 0.9rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(59, 130, 246, 0.2);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .btn::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateX(-100%);
+      transition: transform 0.4s ease;
+    }
+    
+    .btn:hover::after {
+      transform: translateX(0);
+    }
+    
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      box-shadow: 0 6px 8px rgba(59, 130, 246, 0.3);
+    }
+    
+    .btn-success {
+      background: var(--success);
+      color: white;
+    }
+    
+    .btn-success:hover {
+      background: var(--success-hover);
+      box-shadow: 0 6px 8px rgba(16, 185, 129, 0.3);
+    }
+    
+    .btn-pink {
+      background: var(--pink);
+      color: white;
+    }
+    
+    .btn-pink:hover {
+      background: var(--pink-hover);
+      box-shadow: 0 6px 8px rgba(236, 72, 153, 0.3);
+    }
+    
+    .result-container {
+      display: none;
+      margin-top: 1.8rem;
+      animation: fadeInUp 0.5s ease-out;
+    }
+    
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .result-label {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--gray-700);
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+    }
+    
+    .result-label i {
+      margin-right: 8px;
+      color: var(--success);
+    }
+    
+    .result {
+      background: var(--gray-100);
+      border: 1px dashed var(--gray-300);
+      padding: 1.3rem;
+      font-family: 'Courier New', monospace;
+      font-size: 1.15rem;
+      border-radius: 8px;
+      color: var(--gray-900);
+      text-align: center;
+      word-break: break-all;
+      font-weight: bold;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.03);
+      transition: all 0.3s ease;
+    }
+    
+    .result.active {
+      color: #10b981;
+      border-color: #10b981;
+      background: rgba(16, 185, 129, 0.05);
+    }
+    
+    .result.error {
+      color: #ef4444;
+      border-color: #ef4444;
+      background: rgba(239, 68, 68, 0.05);
+    }
+    
+    .copy-btn-container {
+      display: none;
+      gap: 0.8rem;
+      margin-top: 1.2rem;
+      animation: fadeIn 0.5s ease-out;
+    }
+    
+    .copy-btn-container .btn {
+      flex: 1;
+    }
+    
+    .collapse {
+      margin-top: 1.8rem;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    
+    .collapse-header {
+      background: var(--gray-100);
+      padding: 1.1rem 1.6rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: var(--transition);
+    }
+    
+    .collapse-header:hover {
+      background: var(--gray-200);
+    }
+    
+    .collapse-content {
+      padding: 1.6rem;
+      background: white;
+      border-top: 1px solid var(--gray-200);
+    }
+    
+    .version-comparison {
+      display: flex;
+      gap: 1.8rem;
+      margin-top: 1.2rem;
+    }
+    
+    .version-card {
+      flex: 1;
+      border: 1px solid var(--gray-300);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: var(--transition);
+      background: white;
+    }
+    
+    .version-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow);
+    }
+    
+    .version-card.pro {
+      border-top: 4px solid var(--primary);
+    }
+    
+    .version-card.adv {
+      border-top: 4px solid var(--success);
+    }
+    
+    .version-header {
+      background: linear-gradient(to right, rgba(59, 130, 246, 0.05), rgba(16, 185, 129, 0.05));
+      padding: 1.2rem;
+      text-align: center;
+      font-weight: 700;
+      color: var(--gray-900);
+    }
+    
+    .version-body {
+      padding: 1.6rem;
+    }
+    
+    .feature-list {
+      list-style-type: none;
+    }
+    
+    .feature-list li {
+      padding: 0.6rem 0;
+      position: relative;
+      padding-left: 1.8rem;
+      font-size: 0.95rem;
+    }
+    
+    .feature-list li:before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: var(--success);
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    
+    .recommended-badge {
+      background: var(--success);
+      color: white;
+      padding: 0.3rem 0.7rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin-left: 0.7rem;
+      vertical-align: middle;
+    }
+    
+    .pro-badge {
+      background: var(--primary);
+      color: white;
+      padding: 0.3rem 0.7rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin-left: 0.7rem;
+      vertical-align: middle;
+    }
+    
+    .tutorial-list {
+      padding-left: 1.5rem;
+    }
+    
+    .tutorial-list li {
+      margin-bottom: 0.9rem;
+      padding-left: 0.5rem;
+    }
+    
+    .tip {
+      background: #fff9db;
+      border-left: 4px solid #ffd43b;
+      padding: 1.1rem;
+      margin-top: 1.2rem;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.95rem;
+    }
+    
+    .iframe-container {
+      margin-top: 1.5rem;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .iframe-container iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+    
+    .copy-success {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: var(--success);
+      color: white;
+      padding: 15px 25px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transform: translateX(110%);
+      transition: transform 0.5s ease;
+    }
+    
+    .copy-success.show {
+      transform: translateX(0);
+    }
+    
+    .copy-success i {
+      font-size: 1.5rem;
+    }
+    
+    .spinner {
+      border: 4px solid rgba(0, 0, 0, 0.1);
+      border-radius: 50%;
+      border-top: 4px solid var(--primary);
+      width: 24px;
+      height: 24px;
+      animation: spin 1s linear infinite;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .api-loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      color: var(--gray-700);
+    }
+    
+    @media (max-width: 768px) {
+      .version-comparison {
+        flex-direction: column;
+      }
+      
+      .form-row {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+      .header h1 {
+        font-size: 1.5rem;
+      }
+      
+      .content {
+        padding: 1.5rem;
+      }
+      
+      .header {
+        padding: 1.5rem 1.2rem;
+      }
+      
+      .iframe-container iframe {
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>FinalShell 激活码在线生成工具</h1>
+      <p>支持 FinalShell 3.9.6、4.5、4.6 等多个版本离线激活</p>
+    </div>
+    
+    <div class="content">
+      <form id="activationForm">
+        <div class="card">
+          <h2>生成激活码</h2>
+          
+          <div class="input-group">
+            <label for="machineCode">机器码</label>
+            <input id="machineCode" type="text" placeholder="请从FinalShell激活窗口中复制机器码..." />
+          </div>
+          
+          <div class="copyright-notice">
+            <i class="fas fa-exclamation-circle"></i> 本工具仅用于学习和研究目的，请支持正版软件。
+          </div>
+          
+          <div class="form-row">
+            <div class="form-col">
+              <label for="versionSelect">软件版本</label>
+              <select id="versionSelect" name="version">
+                <option value="lt_396">FinalShell &lt; 3.9.6</option>
+                <option value="gt_396">FinalShell ≥ 3.9.6</option>
+                <option value="45">FinalShell 4.5</option>
+                <option value="46">FinalShell 4.6</option>
+              </select>
+            </div>
+            
+            <div class="form-col">
+              <label for="typeSelect">版本类型</label>
+              <select id="typeSelect" name="type">
+                <option value="advanced">高级版</option>
+                <option value="pro">专业版</option>
+              </select>
+            </div>
+          </div>
+          
+          <button type="button" class="btn btn-primary" id="generateBtn">
+            <i class="fas fa-key"></i> 生成激活码
+          </button>
+          
+          <div class="result-container" id="resultContainer">
+            <div class="result-label">
+              <i class="fas fa-lock"></i> 生成的激活码：
+            </div>
+            <div class="result" id="output">等待生成...</div>
+            
+            <div class="copy-btn-container" id="buttonContainer">
+              <button class="btn btn-success" id="copyButton">
+                <i class="fas fa-copy"></i> 复制激活码
+              </button>
+              <button type="button" class="btn" id="clearButton">
+                <i class="fas fa-trash-alt"></i> 清空
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+      
+      <div class="collapse">
+        <div class="collapse-header" onclick="toggleCollapse('featureComparison')">
+          <span><i class="fas fa-list"></i> 版本功能对比</span>
+          <span id="featureComparisonIcon">▼</span>
+        </div>
+        <div class="collapse-content" id="featureComparison" style="display: none;">
+          <p style="margin-bottom: 1.2rem; color: var(--gray-700);">
+            <i class="fas fa-info-circle"></i> 根据您的需求选择合适的版本，专业版包含高级版所有功能
+          </p>
+          
+          <div class="version-comparison">
+            <div class="version-card adv">
+              <div class="version-header">
+                高级版功能
+                <span class="recommended-badge">推荐</span>
+              </div>
+              <div class="version-body">
+                <ul class="feature-list">
+                  <li>网络监控可选择接口,同时监控多个网络接口速度</li>
+                  <li>打包传输,自动压缩解压,适合传输大量文件,文件夹和文本文件</li>
+                  <li>高级网络监控,监控每个进程监听的端口,以及网络连接状态</li>
+                  <li>高级进程管理,详细显示进程信息</li>
+                  <li>无限制的终端命令历史,路径历史,可快速输入命令,切换路径</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="version-card pro">
+              <div class="version-header">
+                专业版功能
+                <span class="pro-badge">高级用户</span>
+              </div>
+              <div class="version-body">
+                <ul class="feature-list">
+                  <li>包含所有高级版功能</li>
+                  <li>查看系统信息</li>
+                  <li>设置本机图片为终端背景</li>
+                  <li>历史命令左右键选择字段输入功能(命令输入框)</li>
+                  <li>快速输入路径功能,可在窗口显示并选择系统的目录和文件(终端命令输入框)</li>
+                  <li>快速输入命令名称功能(命令输入框)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="collapse">
+        <div class="collapse-header" onclick="toggleCollapse('tutorial')">
+          <span><i class="fas fa-book"></i> 使用教程</span>
+          <span id="tutorialIcon">▼</span>
+        </div>
+        <div class="collapse-content" id="tutorial" style="display: none;">
+          <ol class="tutorial-list">
+            <li>下载并安装FinalShell软件</li>
+            <li>打开FinalShell，点击右下角的「激活/升级」</li>
+            <li>任意输入用户名和密码，点击离线激活</li>
+            <li>在弹出的离线激活窗口中，找到「机器码」并复制</li>
+            <li>将机器码粘贴到本页面的输入框中，选择版本和类型</li>
+            <li>点击「生成激活码」按钮</li>
+            <li>将激活码复制到FinalShell的注册窗口中，点击「确定」完成激活</li>
+          </ol>
+          
+          <div class="tip">
+            <strong><i class="fas fa-lightbulb"></i> 提示：</strong>如果激活失败，请尝试使用其他版本的激活码或下载对应版本的FinalShell客户端
+          </div>
+        </div>
+      </div>
+      
+      <div class="collapse">
+        <div class="collapse-header" onclick="toggleCollapse('preventFree')">
+          <span><i class="fas fa-shield-alt"></i> 防止变回免费版</span>
+          <span id="preventFreeIcon">▼</span>
+        </div>
+        <div class="collapse-content" id="preventFree" style="display: none;">
+          <p>激活后如何防止软件变回免费版？请遵循以下步骤：</p>
+          
+          <div class="tip">
+            <strong><i class="fas fa-lightbulb"></i> 重要提示：</strong>
+            以下指南将帮助您确保激活状态持久有效，避免软件意外恢复为免费版。
+          </p>
+          
+          <ol class="tutorial-list">
+            <li>完成激活后不要更新软件到最新版本</li>
+            <li>在防火墙中阻止FinalShell访问互联网</li>
+            <li>定期检查激活状态，确保未变回免费版</li>
+            <li>使用专业工具屏蔽激活验证服务器</li>
+          </ol>
+          
+          <p>详细教程请查看以下页面：</p>
+          <a href="rede/index.html" target="_blank">如果没显示点击我！</a>
+          
+          <div class="iframe-container">
+            <iframe src="rede/index.html" title="防止FinalShell变回免费版指南"></iframe>
+          </div>
+          
+          <div class="tip" style="margin-top: 1.5rem;">
+            <strong><i class="fas fa-exclamation-triangle"></i> 注意：</strong>
+            这些方法仅供学习和研究使用，请遵守软件许可协议。
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="copy-success" id="copySuccess">
+    <i class="fas fa-check-circle"></i>
+    <span>✅ 激活码已复制到剪贴板！</span>
+  </div>
+  
+  <script>
+    // 全局变量存储激活码
+    let lastActivationCode = '';
+    
+    // 初始化页面
+    document.addEventListener('DOMContentLoaded', function() {
+      const generateBtn = document.getElementById('generateBtn');
+      const copyButton = document.getElementById('copyButton');
+      const clearButton = document.getElementById('clearButton');
+      const activationForm = document.getElementById('activationForm');
+      const machineCodeInput = document.getElementById('machineCode');
+      const versionSelect = document.getElementById('versionSelect');
+      const typeSelect = document.getElementById('typeSelect');
+      
+      // 添加表单提交处理
+      activationForm.addEventListener('submit', function(e) {
+        e.preventDefault(); // 阻止表单默认提交行为
+        generateActivationCode();
+      });
+      
+      // 机器码输入框支持Enter键
+      machineCodeInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+          e.preventDefault(); // 阻止默认行为
+          generateActivationCode();
+        }
+      });
+      
+      generateBtn.addEventListener('click', generateActivationCode);
+      copyButton.addEventListener('click', copyActivationCode);
+      clearButton.addEventListener('click', clearAll);
+      
+      // 默认隐藏结果区域
+      document.getElementById('resultContainer').style.display = 'none';
+      document.getElementById('buttonContainer').style.display = 'none';
+    });
+    
+    // 生成激活码的逻辑
+    function md5(str) {return CryptoJS.MD5(str).toString();}
+    function keccak384(str) {return CryptoJS.SHA3(str, { outputLength: 384}).toString();}
+    
+    function generateActivationCode() {
+      const machineCode = document.getElementById('machineCode').value.trim();
+      const version = document.getElementById('versionSelect').value;
+      const type = document.getElementById('typeSelect').value;
+      const resultContainer = document.getElementById('resultContainer');
+      const buttonContainer = document.getElementById('buttonContainer');
+      const output = document.getElementById('output');
+      const generateBtn = document.getElementById('generateBtn');
+      
+      // 验证机器码
+      if (!machineCode) {
+        output.textContent = '❌ 请输入机器码';
+        output.className = 'result error';
+        resultContainer.style.display = 'block';
+        buttonContainer.style.display = 'none';
+        return;
+      }
+      
+      let generatedCode = '';
+      
+      if (version === 'lt_396') {
+        if (type === 'advanced') {
+          generatedCode = md5('61305' + machineCode + '8552').slice(8, 24);
+        } else if (type === 'pro') {
+          generatedCode = md5('2356' + machineCode + '13593').slice(8, 24);
+        }
+      } else if (version === 'gt_396') {
+        if (type === 'advanced') {
+          generatedCode = keccak384(machineCode + 'hSf(78cvVlS5E').slice(12, 28);
+        } else if (type === 'pro') {
+          generatedCode = keccak384(machineCode + 'FF3Go(*Xvbb5s2').slice(12, 28);
+        }
+      } else if (version === '45') {
+        if (type === 'advanced') {
+          generatedCode = keccak384(machineCode + 'wcegS3gzA$').slice(12, 28);
+        } else if (type === 'pro') {
+          generatedCode = keccak384(machineCode + 'b(xxkHn%z);x').slice(12, 28);
+        }
+      } else if (version === '46') {
+        if (type === 'advanced') {
+          generatedCode = keccak384(machineCode + 'csSf5*xlkgYSX,y').slice(12, 28);
+        } else if (type === 'pro') {
+          generatedCode = keccak384(machineCode + 'Scfg*ZkvJZc,s,Y').slice(12, 28);
+        }
+      } else {
+        output.textContent = '❌ 请选择正确的版本和类型';
+        output.className = 'result error';
+        resultContainer.style.display = 'block';
+        buttonContainer.style.display = 'none';
+        return;
+      }
+      
+      // 显示加载状态
+      output.textContent = '⏳ 正在生成激活码...';
+      output.className = 'result';
+      resultContainer.style.display = 'block';
+      buttonContainer.style.display = 'none';
+      
+      // 禁用生成按钮防止多次点击
+      generateBtn.disabled = true;
+      const originalBtnText = generateBtn.innerHTML;
+      generateBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 生成中...';
+      
+      // 模拟异步操作
+      setTimeout(() => {
+        lastActivationCode = generatedCode;
+        output.textContent = generatedCode;
+        output.className = 'result active';
+        buttonContainer.style.display = 'flex';
+        
+        // 恢复生成按钮状态
+        generateBtn.disabled = false;
+        generateBtn.innerHTML = originalBtnText;
+      }, 500);
+    }
+    
+    function copyActivationCode() {
+      const output = document.getElementById('output');
+      const copyButton = document.getElementById('copyButton');
+      
+      if (!lastActivationCode) {
+        output.textContent = '❌ 请先生成激活码！';
+        output.className = 'result error';
+        return;
+      }
+      
+      // 禁用按钮防止多次点击
+      copyButton.disabled = true;
+      const originalText = copyButton.innerHTML;
+      copyButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 复制中...';
+      
+      try {
+        // 创建临时textarea元素用于复制
+        const tempTextArea = document.createElement('textarea');
+        tempTextArea.value = lastActivationCode;
+        tempTextArea.setAttribute('readonly', '');
+        tempTextArea.style.position = 'absolute';
+        tempTextArea.style.left = '-9999px';
+        document.body.appendChild(tempTextArea);
+        tempTextArea.select();
+        
+        // 尝试使用execCommand复制
+        const copyResult = document.execCommand('copy');
+        document.body.removeChild(tempTextArea);
+        
+        if (copyResult) {
+          // 显示浮动提示
+          const copySuccess = document.getElementById('copySuccess');
+          copySuccess.classList.add('show');
+          
+          setTimeout(() => {
+            copySuccess.classList.remove('show');
+          }, 2000);
+        } else {
+          // 如果execCommand失败，尝试使用Clipboard API
+          navigator.clipboard.writeText(lastActivationCode)
+            .then(() => {
+              const copySuccess = document.getElementById('copySuccess');
+              copySuccess.classList.add('show');
+              setTimeout(() => copySuccess.classList.remove('show'), 2000);
+            })
+            .catch(err => {
+              console.error('复制失败:', err);
+              output.textContent = '❌ 复制失败，请手动复制';
+              output.className = 'result error';
+            });
+        }
+      } catch (err) {
+        console.error('复制操作失败:', err);
+        output.textContent = '❌ 复制失败，请手动复制';
+        output.className = 'result error';
+      } finally {
+        // 恢复按钮状态
+        setTimeout(() => {
+          copyButton.disabled = false;
+          copyButton.innerHTML = originalText;
+        }, 1000);
+      }
+    }
+    
+    function clearAll() {
+      document.getElementById('machineCode').value = '';
+      
+      const resultContainer = document.getElementById('resultContainer');
+      const buttonContainer = document.getElementById('buttonContainer');
+      const output = document.getElementById('output');
+      
+      output.textContent = '等待生成...';
+      output.className = 'result';
+      resultContainer.style.display = 'none';
+      buttonContainer.style.display = 'none';
+      lastActivationCode = '';
+    }
+    
+    function toggleCollapse(id) {
+      const element = document.getElementById(id);
+      const icon = document.getElementById(id + 'Icon');
+      
+      if (element.style.display === 'none') {
+        element.style.display = 'block';
+        icon.textContent = '▲';
+      } else {
+        element.style.display = 'none';
+        icon.textContent = '▼';
+      }
+    }
+  </script>
+</body>
+</html>

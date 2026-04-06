@@ -1,0 +1,19 @@
+建议在python虚拟环境下运行。
+
+注意事项：定时任务的目录指向 home/sebo/  目录   
+
+1.自行设置token  chatid
+
+
+2.安装命令 ：
+apt update
+
+pip3 install requests beautifulsoup4 lxml bs4
+
+3.运行命令：python3 aisimu.py
+
+4.定时任务：0 */6 * * * cd /home/sebo && /home/sebo/venv/bin/python /home/sebo/aisimu.py >> /home/sebo/aisimu.log 2>&1
+
+5.定时任务说明：每隔6小时自动执行
+
+无需登录  自动注册登录抓取   

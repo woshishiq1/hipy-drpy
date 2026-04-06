@@ -1,0 +1,4 @@
+pip install requests
+
+
+0 */6 * * * cd /home/sebo && /home/sebo/venv/bin/python /home/sebo/ss.py >> /home/sebo/ss.log 2>&1

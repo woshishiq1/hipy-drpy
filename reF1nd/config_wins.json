@@ -3,7 +3,7 @@
   "experimental": {
     "urltest_unified_delay": true,
     "cache_file": {"enabled": true, "store_fakeip": true, "store_rdrc": true},
-    "debug": {"gc_percent": 50, "memory_limit": "74MB"}, // 内存限制选项，清理堆栈垃圾。更多内容在：https://github.com/SagerNet/sing-box/blob/dev-next/option%2Fdebug.go，可以查看这篇文章简单了解下Go的GC：https://blog.csdn.net/yuff100/article/details/136085733?utm_source=copilot.com
+    "debug": {"gc_percent": 50, "memory_limit": "100MB"}, // 内存限制选项，清理堆栈垃圾。更多内容在：https://github.com/SagerNet/sing-box/blob/dev-next/option%2Fdebug.go，可以查看这篇文章简单了解下Go的GC：https://blog.csdn.net/yuff100/article/details/136085733?utm_source=copilot.com
     "clash_api": {
       "external_controller": "[::]:9090",
       "external_ui": "ui",
@@ -53,10 +53,9 @@
       {"clash_mode": "Global", "query_type": ["A", "AAAA"], "server": "fakeip_dns_server", "rewrite_ttl": 1},
       {"clash_mode":"Global","server":"proxy_dns_server"},
       {"clash_mode": "Direct", "server": "direct_dns_server", "strategy": "ipv4_only"},
-      {"rule_set": ["AWAvenue-Ads"], "action": "predefined", "rcode": "NOERROR"},
+      {"type": "logical", "mode": "or", "rules": [{"query_type": ["SVCB", "HTTPS"]}, {"rule_set": ["AWAvenue-Ads"]}], "action": "predefined", "rcode": "NOERROR"},
       {"domain_suffix": ["market.xiaomi.com", "lancache.steamcontent.com"], "server": "direct_dns_server"},
       {"type": "logical", "mode": "or", "rules": [{"query_type": "PTR"}, {"domain_keyword": ["wifi.fiberhome"]}], "action": "predefined", "rcode": "NXDOMAIN"},
-      {"query_type": ["SVCB", "HTTPS"], "action": "reject"},
       {"query_type": ["A", "AAAA"], "server": "fakeip_dns_server", "rewrite_ttl": 1},
       {"rule_set": "gfw", "server": "proxy_dns_server"}
     ],
@@ -69,8 +68,7 @@
   "inbounds": [
     {"tag": "mixed-in", "type": "mixed", "listen": "0.0.0.0", "listen_port": 7890, "set_system_proxy": false},
     {"tag": "tun-in", "type": "tun", "interface_name": "tun0", "address": ["172.19.0.1/30", "fdfe:dcba:9876::1/126"],
-     "mtu": 9000, "auto_route": true, "strict_route": true, "auto_redirect": false, "stack": "system",
-     "platform": {"http_proxy": {"enabled": true, "server": "127.0.0.1", "server_port": 7890}}}
+     "mtu": 9000, "auto_route": true, "strict_route": true, "auto_redirect": false, "stack": "system"}
   ],
   "outbounds": [
     {"tag": "📦 CATCH_ALL", "type": "selector", "outbounds": ["🍹 Hong Kong", "🍍 Taiwan", "🎡 Singapore", "⛩️ Japan", "🗽 United States", "🗺️ Other regions"], "interrupt_exist_connections": true},

@@ -4,22 +4,22 @@
     "logo": "./logo.php",
     "lives": [
         {
-            "name": "前缘",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://gitee.com/jin-xueling/cinematography/raw/master/json.txt"
-        },
-        {
-            "name": "酒店",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://129.211.14.102:50085/sub?tv.sohu.blog=txt"
-        },
-        {
             "name": "壹米",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://gitee.com/yimi321/tv/raw/master/tv.png"
+        },
+        {
+            "name": "潇宇",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://ds65.tv1288.xyz"
+        },
+        {
+            "name": "migu",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://www.52top.com.cn:678/downloads/migu.txt"
         },
         {
             "name": "猫影视",
@@ -56,12 +56,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "http://210.245.166.84:1299/live/live.txt"
-        },
-        {
-            "name": "潇宇",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ds65.tv1288.xyz"
         },
         {
             "name": "夜空",
@@ -157,12 +151,6 @@
             "name": "咪咕央卫体育",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "http://39.107.237.139:1234/"
-        },
-        {
-            "name": "咪咕央卫体育1",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
             "url": "http://124.71.194.147:1234/"
         },
         {
@@ -176,12 +164,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "http://ibox.x10.mx/555.txt"
-        },
-        {
-            "name": "migu",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://www.52top.com.cn:678/downloads/migu.txt"
         },
         {
             "name": "体育",
@@ -224,18 +206,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://kakaxi.indevs.in/ipv4.txt"
-        },
-        {
-            "name": "hzxs800274",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://119.91.7.169:5501/jumibao21.php"
-        },
-        {
-            "name": "电视ZB",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://1.94.31.214/live/live9/dgtv.txt"
         },
         {
             "name": "宫殿",
@@ -22948,8 +22918,8 @@
             }
         },
         {
-            "key": "天天电影网",
-            "name": "🍊天天电影网",
+            "key": "青柠影视",
+            "name": "🍋青柠影视",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -22958,9 +22928,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251012",
-                "站名": "天天电影网",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@server_name_session=fb595353689ff15b99a80fef063bfcdd；； SITE_TOTAL_ID=bb789ff80fc14e73b5fbd733a35777cd；； UM_distinctid=199d6dc540e167-04a365b7dd5d0c-9092117-76fb6-199d6dc540f6ae；； CNZZDATA1281437939=1116446047-1760246388-%7C1760247852&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "作者": "🍊小橙子/20260405",
+                "站名": "青柠影视",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@server_name_session=6be6bcead62f89d3a599619e1c0db7bd；； Hm_lvt_8a1e11913224a16993dfc92f5737e988=1775396090；； HMACCOUNT=1D3FCEC4385536BF；； Hm_tf_2k6bdtu3ywn=1775396090；； Hm_lvt_2k6bdtu3ywn=1775396090；； Hm_tf_e6t582w8f8r=1775396090；； Hm_lvt_e6t582w8f8r=1775396090；； PHPSESSID=n361gopki49ejta89jjt6qs85l；； Hm_lpvt_8a1e11913224a16993dfc92f5737e988=1775397451；； Hm_lpvt_e6t582w8f8r=1775397457；； Hm_lpvt_2k6bdtu3ywn=1775397457&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -22968,16 +22938,16 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "http://www.mkvok.com/",
+                "主页url": "https://www.pjlfd.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "http://www.mkvok.com/vodtype/{cateId}-{catePg}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$29#",
+                "分类url": "https://www.pjlfd.com/film/{cateId}-{catePg}.html",
+                "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju#",
                 "二次截取": "",
-                "数组": "lazyload&&</p>",
+                "数组": "col-xs-4 col-md-3 col-lg-2&&</li>",
                 "标题": "title=\"&&\"",
                 "图片": "data-original=\"&&\"",
-                "副标题": "<span class=\"video-title text-nowrap\">&&</span>",
+                "副标题": "<p class=\"item-status text-overflow\">&&</p>",
                 "链接": "href=\"&&\"",
                 "影片年代": "年份：&&</p>",
                 "影片地区": "地区：&&</p>",
@@ -22985,28 +22955,28 @@
                 "状态": "状态：&&</p>",
                 "导演": "导演：&&</p>",
                 "主演": "主演：&&</p>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+剧情简介：&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+内容简介&&</div>",
                 "线路二次截取": "",
-                "线路数组": "#ewave-playlist&&</li",
-                "线路标题": "javascript:;\">&&<",
+                "线路数组": "swiper-slide ewave-tab&&</li>",
+                "线路标题": ">&&</",
                 "播放二次截取": "",
                 "播放数组": "id=\"ewave-playlist&&</ul>",
                 "倒序": "0",
-                "播放列表": "<a&&a>",
+                "播放列表": "<a&&/a>",
                 "播放标题": ">&&<",
                 "播放链接": "href=\"&&\"",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "http://www.mkvok.com/vodsearch/{wd}----------{pg}---.html",
+                "搜索url": "https://www.pjlfd.com/vodsearch/page/{pg}/wd/{wd}.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",
-                "搜索数组": "lazyload&&</a>",
+                "搜索数组": "col-xs-4 col-md-3 col-lg-2&&</li>",
                 "搜索标题": "title=\"&&\"",
                 "搜索图片": "data-original=\"&&\"",
-                "搜索副标题": "",
+                "搜索副标题": "<p class=\"item-status text-overflow\">&&</p>",
                 "搜索链接": "href=\"&&\"",
                 "筛选": "1",
                 "类型": "",

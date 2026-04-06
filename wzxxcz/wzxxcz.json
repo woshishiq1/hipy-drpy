@@ -4,22 +4,22 @@
     "logo": "./logo.php",
     "lives": [
         {
-            "name": "前缘",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://gitee.com/jin-xueling/cinematography/raw/master/json.txt"
-        },
-        {
-            "name": "酒店",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://129.211.14.102:50085/sub?tv.sohu.blog=txt"
-        },
-        {
             "name": "壹米",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://gitee.com/yimi321/tv/raw/master/tv.png"
+        },
+        {
+            "name": "潇宇",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://ds65.tv1288.xyz"
+        },
+        {
+            "name": "migu",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://www.52top.com.cn:678/downloads/migu.txt"
         },
         {
             "name": "猫影视",
@@ -56,12 +56,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "http://210.245.166.84:1299/live/live.txt"
-        },
-        {
-            "name": "潇宇",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "https://ds65.tv1288.xyz"
         },
         {
             "name": "夜空",
@@ -157,12 +151,6 @@
             "name": "咪咕央卫体育",
             "type": 0,
             "ua": "okhttp/5.3.2",
-            "url": "http://39.107.237.139:1234/"
-        },
-        {
-            "name": "咪咕央卫体育1",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
             "url": "http://124.71.194.147:1234/"
         },
         {
@@ -176,12 +164,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "http://ibox.x10.mx/555.txt"
-        },
-        {
-            "name": "migu",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://www.52top.com.cn:678/downloads/migu.txt"
         },
         {
             "name": "体育",
@@ -224,18 +206,6 @@
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://kakaxi.indevs.in/ipv4.txt"
-        },
-        {
-            "name": "hzxs800274",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://119.91.7.169:5501/jumibao21.php"
-        },
-        {
-            "name": "电视ZB",
-            "type": 0,
-            "ua": "okhttp/5.3.2",
-            "url": "http://1.94.31.214/live/live9/dgtv.txt"
         },
         {
             "name": "宫殿",

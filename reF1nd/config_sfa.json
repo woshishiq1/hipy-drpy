@@ -1,5 +1,5 @@
 {
-  "log": {"level": "warn", "timestamp": true, "output": "/data/adb/box/run/sing-box.log"},
+  "log": {"level": "warn", "timestamp": true},
   "experimental": {
     "urltest_unified_delay": true,
     "cache_file": {"enabled": true, "store_fakeip": true, "store_rdrc": true},
@@ -44,7 +44,6 @@
         "alt4-mtalk.google.com": ["209.85.144.188"], "alt5-mtalk.google.com": [ "2607:f8b0:4003:c0a::bc", "2a00:1450:4025:c01::bc", "74.125.126.188"],
         "alt6-mtalk.google.com": ["142.250.115.188"], "alt7-mtalk.google.com": ["2607:f8b0:4024:c0d::bc", "2404:6800:4003:c06::bc", "192.178.131.188"],
         "alt8-mtalk.google.com": ["172.253.132.188"], "dl.google.com": ["180.163.151.161"], "dl.l.google.com": ["180.163.150.33"],
-         // 以上mtalk.google.com...为安卓google fcm配置，用不上的话可以省略
         "dns.alidns.com": ["223.5.5.5", "223.6.6.6"], "doh.pub": ["1.12.12.21", "120.53.53.53"],
         "dns.google": ["8.8.8.8", "8.8.4.4"], "cloudflare-dns.com": ["104.16.248.249", "104.16.249.249"], "dns.quad9.net": ["149.112.112.112", "9.9.9.9"]}},
       {"tag": "tx_doh_dns", "type": "https", "server": "doh.pub", "domain_resolver": "dns_hosts"},
@@ -57,14 +56,15 @@
       {"tag": "fakeip_dns_server", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
-      {"ip_accept_any": true, "server": "dns_hosts"},
+      { "ip_accept_any": true, "server": "dns_hosts"},
       {"domain": ["mtalk.google.com", "alt1-mtalk.google.com", "alt2-mtalk.google.com", "alt3-mtalk.google.com", "alt4-mtalk.google.com", "alt5-mtalk.google.com",
        "alt6-mtalk.google.com", "alt7-mtalk.google.com", "alt8-mtalk.google.com", "dl.google.com", "dl.l.google.com"], "server": "dns_hosts"},
+      {"clash_mode": "Global", "query_type": ["SVCB", "HTTPS"], "action": "reject"},
+      {"clash_mode": "Global", "query_type": ["A", "AAAA"], "server": "fakeip_dns_server", "rewrite_ttl": 1},
       {"clash_mode":"Global","server":"proxy_dns_server"},
       {"clash_mode": "Direct", "server": "direct_dns_server", "strategy": "ipv4_only"},
-      {"domain": ["a0.app.xiaomi.com", "appversion.115.com"], "server": "direct_dns_server"},
-      {"type": "logical", "mode": "or", "rules": [{"query_type": ["SVCB", "HTTPS"]}, {"rule_set": ["217heidai-Ads"]}], "action": "predefined", "rcode": "NOERROR"},
-      {"domain_suffix": ["market.xiaomi.com", "lancache.steamcontent.com"], "rule_set": ["cn", "private"], "server": "direct_dns_server"},
+      {"type": "logical", "mode": "or", "rules": [{"query_type": ["SVCB", "HTTPS"]}, {"rule_set": ["AWAvenue-Ads"]}], "action": "predefined", "rcode": "NOERROR"},
+      {"domain_suffix": ["market.xiaomi.com", "lancache.steamcontent.com"], "server": "direct_dns_server"},
       {"type": "logical", "mode": "or", "rules": [{"query_type": "PTR"}, {"domain_keyword": ["wifi.fiberhome"]}], "action": "predefined", "rcode": "NXDOMAIN"},
       {"query_type": ["A", "AAAA"], "server": "fakeip_dns_server", "rewrite_ttl": 1},
       {"rule_set": "gfw", "server": "proxy_dns_server"}
@@ -76,11 +76,10 @@
     "lazy_cache_ttl": 86400
   },
   "inbounds": [
-    {"tag": "redirect-in", "type": "redirect", "listen": "::", "listen_port": 7897},
-    {"tag": "tproxy-in", "type": "tproxy", "listen": "::", "listen_port": 7898},
-    {"tag": "mixed-in", "type": "mixed", "listen": "::", "listen_port": 7890, "set_system_proxy": false},
+    {"tag": "mixed-in", "type": "mixed", "listen": "0.0.0.0", "listen_port": 7890, "set_system_proxy": false},
     {"tag": "tun-in", "type": "tun", "interface_name": "tun0", "address": ["172.19.0.1/30", "fdfe:dcba:9876::1/126"],
-     "mtu": 9000, "auto_route": true, "strict_route": true, "auto_redirect": true, "stack": "system"}
+     "mtu": 9000, "auto_route": true, "strict_route": true, "auto_redirect": false, "stack": "system",
+     "platform": {"http_proxy": {"enabled": true, "server": "127.0.0.1", "server_port": 7890}}}
   ],
   "outbounds": [
     {"tag": "📦 CATCH_ALL", "type": "selector", "outbounds": ["🍹 Hong Kong", "🍍 Taiwan", "🎡 Singapore", "⛩️ Japan", "🗽 United States", "🗺️ Other regions"], "interrupt_exist_connections": true},
@@ -101,30 +100,34 @@
   "route": {
     "final": "📦 CATCH_ALL",
     "auto_detect_interface": true,
-    "default_domain_resolver": "tx_doh_dns",
+    "override_android_vpn": true,
+    "default_domain_resolver": "direct_dns_server",
     "default_domain_match_strategy": "prefer_fqdn",
     "rules": [
       {"network": "icmp", "outbound": "direct"},
       {"type": "logical", "mode": "and", "rules": [{"package_name": "com.tencent.mm"}, {"ip_version": 6}, {"default_interface_address": ["2000::/3"], "invert": true}], "action": "reject"},
-      // 用于解决微信顽固ipv6导致图片无法成功发送的问题，非tun模式不需要此规则
+      // 用于解决微信顽固ipv6导致图片无法成功发送的问题
       {"domain": ["Mijia Cloud"], "domain_suffix": ["push.apple.com"], "rule_set": ["telegram_ip"], "invert": true, "action": "sniff"},
       {"type": "logical", "mode": "or", "rules": [{"protocol": "dns"}, {"port": 53}], "action": "hijack-dns"},
       {"udp_disable_domain_unmapping": true, "udp_connect": true, "action": "route-options"},
+      {"ip_is_private": true, "rule_set": "private", "outbound": "direct"},
       {"clash_mode": "Global", "outbound": "GLOBAL"},
       {"clash_mode": "Direct", "outbound": "direct"},
-      {"package_name": ["tech.lolli.toolbox"], "outbound": "direct"}, // ssh客户端serverbox直连
-      {"rule_set": ["217heidai-Ads", "webRTC", "adobe"], "action": "reject", "method": "drop"}, // adobe是为了屏蔽Adobe旗下软件的正版联网验证，可选择性删除
+      {"package_name": ["tech.lolli.toolbox"], "outbound": "direct"}, // ssh客户端直连
+      {"domain": ["a0.app.xiaomi.com", "appversion.115.com"], "outbound": "direct"},
+      {"rule_set": ["AWAvenue-Ads", "webRTC", "adobe"], "action": "reject", "method": "drop"}, // adobe是为了屏蔽Adobe旗下软件的正版联网验证，可选择性删除
       {"domain": ["abyss.cyapi.cn", "ad.cyapi.cn", "gather.colorfulclouds.net"], "action": "reject"},
+      {"type": "logical", "mode": "and", "rules": [{"domain_suffix": [".jd.com", ".360buyimg.com", ".jdcloud.com", ".jcloudcs.com"]}, {"port": [80, 443], "invert": true}], "action": "reject"},
+      // 解决京东使用<http系统代理>的情况下，图片加载缓慢或加载不出的的问题，将.360buyimg.com的高位端口请求直接reject，<tun>入站可去删除此规则
       {"domain_suffix": ["steamserver.net"], "outbound": "direct"},
       {"protocol": "quic", "rule_set": "youtube", "action": "reject"},
-      {"ip_is_private": true, "rule_set": "private", "outbound": "direct"},
       {"rule_set": "apple", "outbound": "🍎 Apple"},
       {"rule_set": "bilibili", "outbound": "📺 StreamingME"},
       {"rule_set": "bahamut", "outbound": "🍍 Taiwan"},
       {"rule_set": "github", "outbound": "📦 CATCH_ALL"},
       {"rule_set": "microsoft", "outbound": "🖥️ Microsoft"},
       {"rule_set": ["telegram", "telegram_ip"], "outbound": "📠 Telegram"},
-      {"type": "logical", "mode": "or", "rules": [{"domain_keyword": "mtalk.google.com"}, {"port": 5228}], "outbound": "🧭 Google Services"}, // 为安卓google fcm配置，用不上的话可以省略
+      {"type": "logical", "mode": "or", "rules": [{"domain_keyword": "mtalk.google.com"}, {"port": 5228}], "outbound": "🧭 Google Services"},
       {"rule_set": ["youtube", "google"], "outbound": "🧭 Google Services"},
       {"rule_set": ["ai", "twitter", "gfw"], "outbound": "📦 CATCH_ALL"},
       {"rule_set": "cn", "outbound": "direct"},
@@ -133,7 +136,7 @@
     ],
     "rule_set": [
       {"tag": "webRTC", "type": "remote", "url": "https://raw.githubusercontent.com/syccccc2333-oss/singbox_config/refs/heads/main/webRTC.json", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "217heidai-Ads", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblocksingbox.srs", "download_detour": "📦 CATCH_ALL"},
+      {"tag": "AWAvenue-Ads", "type": "remote", "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Singbox.json", "download_detour": "📦 CATCH_ALL"},
       {"tag": "private", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-private.srs", "download_detour": "📦 CATCH_ALL"},
       {"tag": "ai", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "📦 CATCH_ALL"},
       {"tag": "adobe", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/adobe.srs", "download_detour": "📦 CATCH_ALL"},
@@ -153,3 +156,4 @@
     ]
   }
 }
+ 

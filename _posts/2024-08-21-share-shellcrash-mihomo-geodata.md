@@ -188,10 +188,10 @@ dns:
   fake-ip-filter-mode: rule
   fake-ip-filter:
     - GEOSITE,trackerslist,real-ip
-    - RULE-SET,microsoft-cn,real-ip
-    - RULE-SET,apple-cn,real-ip
-    - RULE-SET,google-cn,real-ip
-    - RULE-SET,games-cn,real-ip
+    - GEOSITE,microsoft-cn,real-ip
+    - GEOSITE,apple-cn,real-ip
+    - GEOSITE,google-cn,real-ip
+    - GEOSITE,games-cn,real-ip
     - GEOSITE,proxy,fake-ip
     - GEOSITE,private,real-ip
     - GEOSITE,cn,real-ip

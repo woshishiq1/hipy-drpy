@@ -599,6 +599,12 @@
             "url": "http://iptv.4666888.xyz/FYTV.txt"
         },
         {
+            "name": "🐬catvod源",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://live.catvod.com/?tk=ae81eee930cceef4b2413f000795885b"
+        },
+        {
             "name": "🐬港奥台国际",
             "type": 0,
             "ua": "okhttp",
@@ -633,12 +639,6 @@
             "type": 0,
             "ua": "okhttp",
             "url": "https://epg.pw/test_channels_taiwan.m3u"
-        },
-        {
-            "name": "🐬安博(梯子)🔞",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/安博"
         },
         {
             "name": "🐬港台大陆频道🔞",

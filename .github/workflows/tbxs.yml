@@ -25,7 +25,7 @@ jobs:
           git config user.name "github-actions[bot]" 
           git config user.email "github-actions[bot]@users.noreply.github.com" 
  
-      - name: Reset local repo to remote default branch 
+      - name: Reset repo 
         run: | 
           set -e 
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
@@ -34,9 +34,9 @@ jobs:
           git reset --hard origin/$DEFAULT_BRANCH 
           git clean -fdx 
  
-      - name: Fetch subprojects 
+      - name: Fetch subprojects（已修复 submodule） 
         run: | 
-          echo "==== 开始同步 Git 仓库 ====" 
+          echo "==== 开始同步仓库 ====" 
           declare -A repos=( 
             [dr]="https://github.com/jak0099/dr.git" 
             [tvbox]="https://github.com/cluntop/tvbox.git" 
@@ -69,9 +69,8 @@ jobs:
  
             mkdir -p "$name" 
  
-            shopt -s dotglob nullglob
-            cp -r temp-"$name"/* "$name"/ 2>/dev/null || true
-            shopt -u dotglob nullglob
+            # ⭐ 核心修复：不会再复制 .git
+            rsync -a --exclude='.git' temp-"$name"/ "$name"/
  
             rm -rf temp-"$name" 
           done 
@@ -81,10 +80,10 @@ jobs:
           rm -rf temp-dustinwin 
           git clone --depth 1 https://github.com/DustinWin/dustinwin.github.io.git temp-dustinwin || exit 0
           mkdir -p _posts 
-          cp -r temp-dustinwin/_posts/* _posts/ 2>/dev/null || true
+          rsync -a --exclude='.git' temp-dustinwin/_posts/ _posts/ 
           rm -rf temp-dustinwin 
  
-      - name: Update file timestamps（已修复特殊字符问题） 
+      - name: Fix timestamps（安全版） 
         run: | 
           dirs="dr tvbox T4 wzxxcz Tomorrow aa999ok sky4726 ediart lemonguo121 leexuben yjl zheng1976 FGBLH yihad168 cpu_iy cpu_iy2 reF1nd bd _posts"
  
@@ -93,7 +92,7 @@ jobs:
             find "$d" -type f -print0
           done | xargs -0 touch
  
-      - name: Download and extract NewTVBox 
+      - name: Download NewTVBox 
         run: | 
           rm -rf gitee-source 
           mkdir -p gitee-source 
@@ -102,20 +101,20 @@ jobs:
  
           if unzip -t github.zip >/dev/null 2>&1; then 
             unzip -q github.zip 
-            cp -r NewTVBox-main/* gitee-source/ 
+            rsync -a --exclude='.git' NewTVBox-main/ gitee-source/ 
             rm -rf NewTVBox-main github.zip 
           else 
             rm -f github.zip 
           fi 
  
-      - name: Commit and push to default branch 
+      - name: Commit main 
         run: | 
           git add . 
           git commit -m "Sync all projects" || echo "No changes"
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
           git push origin $DEFAULT_BRANCH 
  
-      - name: Sync to master branch 
+      - name: Sync to master 
         run: | 
           DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p') 
           git fetch origin 
@@ -129,7 +128,7 @@ jobs:
           git reset --hard origin/$DEFAULT_BRANCH 
           git push origin master --force 
  
-      - name: Unzip all ZIP files in gitee-source 
+      - name: Unzip ZIP 
         run: | 
           if [ -d "gitee-source" ]; then 
             cd gitee-source 
@@ -140,7 +139,7 @@ jobs:
             cd .. 
           fi 
  
-      - name: Commit unzip content 
+      - name: Commit unzip 
         run: | 
           git add . 
           git commit -m "Unzip ZIP files" || echo "No changes"
@@ -150,7 +149,7 @@ jobs:
     runs-on: ubuntu-latest 
     needs: sync_and_unzip 
     steps: 
-      - name: Delete old workflow runs 
+      - name: Delete old runs 
         uses: Mattraks/delete-workflow-runs@v2 
         with: 
           token: ${{ secrets.GITHUB_TOKEN }} 

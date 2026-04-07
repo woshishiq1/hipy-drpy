@@ -128,7 +128,7 @@ tags: [sing-box, sing-boxr, Windows, ruleset, rule_set, 分享]
     "default_domain_resolver": { "server": "dns_direct" },
     "rules": [
       { "rule_set": [ "telegramip" ], "invert": true, "action": "sniff" },
-      { "protocol": [ "dns" ], "action": "hijack-dns" },
+      { "type": "logical", "mode": "or", "rules": [ { "protocol": [ "dns" ] }, { "port": 53 } ], "action": "hijack-dns" },
       { "clash_mode": [ "Direct" ], "outbound": "DIRECT" },
       { "clash_mode": [ "Global" ], "outbound": "GLOBAL" },
       { "rule_set": [ "private" ], "outbound": "私有网络" },

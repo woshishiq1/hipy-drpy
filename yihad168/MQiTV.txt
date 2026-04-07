@@ -940,7 +940,13 @@
       ]
     },
 
-
+        {
+            "name": "CAT直播",
+            "type": 0,
+            "ua": "okhttp",
+            "timeout": 30,
+            "url": "https://live.catvod.com/?tk=ae81eee930cceef4b2413f000795885b"
+        },
 
  {
    "name": "🔞🍅AVmovie50302💔",

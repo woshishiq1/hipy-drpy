@@ -1111,7 +1111,7 @@
         },
         {
             "key": "阿里云盘",
-            "name": "我的｜阿里",
+            "name": "阿里｜云盘",
             "type": 3,
             "api": "csp_PanAli",
             "searchable": 0,
@@ -1123,8 +1123,8 @@
             }
         },
         {
-            "key": "夸克云盘",
-            "name": "我的｜夸克",
+            "key": "夸克网盘",
+            "name": "夸克｜网盘",
             "type": 3,
             "api": "csp_PanQuark",
             "searchable": 0,
@@ -1136,8 +1136,8 @@
             }
         },
         {
-            "key": "UC云盘",
-            "name": "我的｜UC",
+            "key": "UC网盘",
+            "name": "UC｜网盘",
             "type": 3,
             "api": "csp_PanUC",
             "searchable": 0,
@@ -1149,8 +1149,8 @@
             }
         },
         {
-            "key": "百度云盘",
-            "name": "我的｜百度",
+            "key": "百度网盘",
+            "name": "百度｜网盘",
             "type": 3,
             "api": "csp_PanBaidu",
             "searchable": 0,

@@ -690,6 +690,45 @@
             "ext": "https://www.xlys02.com"
         },
         {
+            "key": "夸克网盘",
+            "name": "夸克｜网盘",
+            "type": 3,
+            "api": "csp_PanQuark",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "UC网盘",
+            "name": "UC｜网盘",
+            "type": 3,
+            "api": "csp_PanUC",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "百度网盘",
+            "name": "百度｜网盘",
+            "type": 3,
+            "api": "csp_PanBaidu",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
             "key": "88看球",
             "name": "88｜看球",
             "type": 3,

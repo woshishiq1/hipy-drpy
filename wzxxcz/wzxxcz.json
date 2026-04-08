@@ -40,6 +40,12 @@
             "url": "http://ys.my.to/?v=咪咕"
         },
         {
+            "name": "977567941",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/977567941/Kowaryou/refs/heads/main/gotostill.txt"
+        },
+        {
             "name": "migu",
             "type": 0,
             "ua": "okhttp/5.3.2",

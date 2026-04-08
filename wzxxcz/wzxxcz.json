@@ -903,15 +903,14 @@
             "api": "./js/荐片.js"
         },
         {
-      "key": "奶酪",
-      "name": "🧀奶酪┃秒播",
-      "type": 3,
-      "api": "csp_T4Guard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0="
-    },
+            "key": "移动",
+            "name": "💡移动影视",
+            "type": 3,
+            "api": "csp_YDjisu",
+            "jar": "./jars/xczo.jar",
+            "searchable": 1,
+            "quickSearch": 1
+        },
         {
             "key": "修罗",
             "name": "🍊修罗磁力",
@@ -1418,15 +1417,6 @@
             "playerType": 1,
             "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
             "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
-        },
-        {
-            "key": "优质",
-            "name": "💡优质影视",
-            "type": 3,
-            "api": "csp_Qiji",
-            "playerType": 2,
-            "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-            "ext": "7lj763gg402i7942433293i0g9458881hig7j94k818g326i51491kljlk134k401g9g54gk8j5i9097751kh28kh9kj11kjl92k6046l0gkj8l630892glj67g61h48g3kjiigkg0263k6h955430429ill43307gk8k0602hh09lh0j6jh7h"
         },
         {
             "key": "趣看",
@@ -5036,6 +5026,20 @@
                 "ua": "okhttp/3.10.0"
             }
         },
+        {
+      "key": "花猪",
+      "name": "🐗花猪影视",
+      "type": 3,
+      "api": "csp_AppQi",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/axiba.txt",
+        "dataKey": "h5w3d6g1j9s2h3f6",
+        "dataIv": "h5w3d6g1j9s2h3f6",
+        "ua": "okhttp/3.10.0"
+      }
+    },
         {
             "key": "蓝鹰",
             "name": "🦅蓝鹰影视",

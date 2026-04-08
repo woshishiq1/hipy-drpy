@@ -28,6 +28,18 @@
             "url": "https://live.catvod.com/?tk=ae81eee930cceef4b2413f000795885b"
         },
         {
+            "name": "zoto",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://ys.my.to/?v=zoto"
+        },
+        {
+            "name": "烈烈",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://ys.my.to/?v=咪咕"
+        },
+        {
             "name": "migu",
             "type": 0,
             "ua": "okhttp/5.3.2",
@@ -469,6 +481,15 @@
             "name": "🥇荐片影视",
             "type": 3,
             "api": "./js/荐片.js"
+        },
+        {
+            "key": "移动",
+            "name": "💡移动影视",
+            "type": 3,
+            "api": "csp_YDjisu",
+            "jar": "./jars/xczo.jar",
+            "searchable": 1,
+            "quickSearch": 1
         },
         {
             "key": "修罗",
@@ -978,15 +999,6 @@
             "ext": "7lj763gg402i7942463j9j9jh84l8798l8gli652828g332i"
         },
         {
-            "key": "优质",
-            "name": "💡优质影视",
-            "type": 3,
-            "api": "csp_Qiji",
-            "playerType": 2,
-            "jar": "https://ncstatic.clewm.net/rsrc/2025/0915/15/e210975c2c794cbc8bb1839b54ac213e.png;md5;939FFBC2941A28CA533F2653FA4B449E",
-            "ext": "7lj763gg402i7942433293i0g9458881hig7j94k818g326i51491kljlk134k401g9g54gk8j5i9097751kh28kh9kj11kjl92k6046l0gkj8l630892glj67g61h48g3kjiigkg0263k6h955430429ill43307gk8k0602hh09lh0j6jh7h"
-        },
-        {
             "key": "趣看",
             "name": "💡趣看影视",
             "type": 3,
@@ -1118,6 +1130,19 @@
                 "dataKey": "c60d88b2eep53za8",
                 "dataIv": "c60d88b2eep53za8",
                 "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
+            }
+        },
+        {
+            "key": "七壹",
+            "name": "💶七壹影视",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://qiyiys.cc",
+                "dataKey": "45452893929B40D9",
+                "dataIv": "45452893929B40D9"
             }
         },
         {
@@ -4591,6 +4616,20 @@
                 "dataIv": "okkfKgnc9JIBISh1",
                 "init": "initV122",
                 "search": "mineInfo",
+                "ua": "okhttp/3.10.0"
+            }
+        },
+        {
+            "key": "花猪",
+            "name": "🐗花猪影视",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/axiba.txt",
+                "dataKey": "h5w3d6g1j9s2h3f6",
+                "dataIv": "h5w3d6g1j9s2h3f6",
                 "ua": "okhttp/3.10.0"
             }
         },
@@ -24551,8 +24590,8 @@
             }
         },
         {
-            "key": "追剧达人",
-            "name": "🍊追剧达人",
+            "key": "丑鱼影视",
+            "name": "🐠丑鱼影视",
             "type": 3,
             "api": "csp_XBPQ",
             "searchable": 1,
@@ -24561,9 +24600,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251224",
-                "站名": "追剧达人",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@XLA_CI=f87a2f2eed2b83e4284e8f09674840ba；； Hm_lvt_f47af4babf9df0442193a1b39fd3a8e5=1766557300；； HMACCOUNT=17BED804ED862610；； Hm_lpvt_f47af4babf9df0442193a1b39fd3a8e5=1766557643&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "作者": "🍊小橙子/20260408",
+                "站名": "丑鱼影视",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@Hm_lpvt_2k6bdtu3ywn=1775616684；； Hm_lpvt_p84rfsiazc5=1775616684；； Hm_lpvt_8a1e11913224a16993dfc92f5737e988=1775616684；； server_name_session=0ce820ce6670e034ba078ee7df6cf0d6；； PHPSESSID=9tru3k3na85provh6mjec8rm5a；； Hm_tf_2k6bdtu3ywn=1775645244；； Hm_lvt_2k6bdtu3ywn=1775645244；； Hm_lvt_8a1e11913224a16993dfc92f5737e988=1775645244；； HMACCOUNT=17BED804ED862610；； Hm_tf_p84rfsiazc5=1775645244；； Hm_lvt_p84rfsiazc5=1775645244&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -24571,11 +24610,11 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://www.zyjy365.com/",
+                "主页url": "https://www.52shua.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://www.zyjy365.com/zyjsw/{cateId}--------{catePg}---{year}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#",
+                "分类url": "https://www.52shua.com/vodshow/{cateId}--------{catePg}---.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$24#",
                 "二次截取": "",
                 "数组": "lazyload&&</a>",
                 "标题": "title=\"&&\"",
@@ -24590,19 +24629,19 @@
                 "主演": "主演：&&</p>",
                 "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "\\#playlist&&</a>",
-                "线路标题": "tab\">&&<",
+                "线路数组": "data-toggle&&</a>",
+                "线路标题": "tab\">&&</a>",
                 "播放二次截取": "",
-                "播放数组": "myui-content__list scrollbar sort-list clearfix&&</ul>",
+                "播放数组": "<ul class=\"stui-content__playlist clearfix&&</ul>",
                 "倒序": "0",
-                "播放列表": "<a&&</a>",
+                "播放列表": "<a&&/a>",
                 "播放标题": ">&&</a>",
                 "播放链接": "href=\"&&\"",
                 "解析": "",
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.zyjy365.com/zyjsc/{wd}----------{pg}---.html",
+                "搜索url": "https://www.52shua.com/vodsearch/{wd}----------{pg}---.html",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",

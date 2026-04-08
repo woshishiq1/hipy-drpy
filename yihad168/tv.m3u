@@ -616,6 +616,188 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
 
 
 
+
+#########################################
+
+
+
+
+#EXTM3U url-tvg="https://arva.netgenx.site/epg/kai-epg.xml" tvg-shift=0 m3uautoload=1
+
+#EXTINF:-1 group-title="Tokyo" tvg-id="joakdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe0-011-400x400.png",NHK G
+https://arva.netgenx.site/stream/jp/nhk_g/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="Tokyo" tvg-id="joabdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe1-021-400x400.png",NHK E
+https://arva.netgenx.site/stream/jp/nhk_e/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="Tokyo" tvg-id="joaxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe2-041-400x400.png",NTV
+https://arva.netgenx.site/stream/jp/ntv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="Tokyo" tvg-id="joexdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe5-051-400x400.png",TV Asahi
+https://arva.netgenx.site/stream/jp/tv_asahi/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="Tokyo" tvg-id="jorxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe3-061-400x400.png",TBS
+https://arva.netgenx.site/stream/jp/tbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="Tokyo" tvg-id="jotxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe6-071-400x400.png",TV Tokyo
+https://arva.netgenx.site/stream/jp/tv_tokyo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="Tokyo" tvg-id="jocxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe4-081-400x400.png",Fuji TV
+https://arva.netgenx.site/stream/jp/fuji_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="Tokyo" tvg-id="tokyomx1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-091-400x400.png",Tokyo MX1
+https://arva.netgenx.site/stream/jp/tokyo_mx1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="Tokyo" tvg-id="tokyomx2.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-093-400x400.png",Tokyo MX2
+https://arva.netgenx.site/stream/jp/tokyo_mx2/stream-output.m3u8?mode=hls
+
+#EXTINF:-1 group-title="BS" tvg-id="nhkbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-101-400x400.png",NHK BS
+https://arva.netgenx.site/stream/jp/nhk_bs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bsnippontv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-141-400x400.png",BS NTV
+https://arva.netgenx.site/stream/jp/bs_ntv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bsasahi.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-151-400x400.png",BS Asahi
+https://arva.netgenx.site/stream/jp/bs_asahi/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bstbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png",BS TBS
+https://arva.netgenx.site/stream/jp/bs_tbs/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bstvtokyo.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-171-400x400.png",BS TV Tokyo
+https://arva.netgenx.site/stream/jp/bs_tv_tokyo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bsfuji.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-181-400x400.png",BS Fuji
+https://arva.netgenx.site/stream/jp/bs_fuji/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bs10_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-200-400x400.png",BS 10
+https://arva.netgenx.site/stream/jp/bs_10/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bs11.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-211-400x400.png",BS 11
+https://arva.netgenx.site/stream/jp/bs11/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bs12.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-222-400x400.png",BS 12
+https://arva.netgenx.site/stream/jp/bs_12/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="nhkbsp4k.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-000b-101-400x400.png",NHK BS4K
+https://arva.netgenx.site/stream/jp/nhk_bs4k/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="wowowprime.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs191.gif",WOWOW Prime 
+https://arva.netgenx.site/stream/jp/wowow_prime/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="wowowcinema.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs193.gif",WOWOW Cinema
+https://arva.netgenx.site/stream/jp/wowow_cinema/stream-output.m3u8?&mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="wowowlive.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs192.gif",WOWOW Live
+https://arva.netgenx.site/stream/jp/wowow_live/stream-output.m3u8?&mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bs10プレミアム_jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs201.gif",BS 10 Premium
+https://arva.netgenx.site/stream/jp/bs_10_star_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="jsports1.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs242.gif",JSport 1
+https://arva.netgenx.site/stream/jp/jsport_1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="jsports2.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs243.gif",JSport 2
+https://arva.netgenx.site/stream/jp/jsport_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="jsports3.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs244.gif",JSport 3
+https://arva.netgenx.site/stream/jp/jsport_3/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="jsports4.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs245.gif",JSport 4
+https://arva.netgenx.site/stream/jp/jsport_4/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="greenchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs234.gif",Green Channel
+https://arva.netgenx.site/stream/jp/green_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="animax.in" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs236.gif",Animax
+https://arva.netgenx.site/stream/jp/animax/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="nihoneigasenmonchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs255.gif",Nihon Eiga Senmon
+https://arva.netgenx.site/stream/jp/nihon_eiga_senmon/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="ntvnews24.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs349.gif",NTV News24
+https://arva.netgenx.site/stream/jp/ntv_news24/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="bsyoshimoto.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-65406-179-400x400.png",BS Yoshimoto
+https://arva.netgenx.site/stream/jp/bs_yoshimoto/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="fishingvision.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs251.gif",Fishing Vision
+https://arva.netgenx.site/stream/jp/fishing_vision/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="disneychannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs256.gif",Disney Channel
+https://arva.netgenx.site/stream/jp/disny_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="BS" tvg-id="j-com-bs_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-103-400x400.png",Jcom BS
+https://arva.netgenx.site/stream/jp/jcom_bs/stream-output.m3u8?mode=hls
+
+#EXTINF:-1 group-title="CS" tvg-id="gaorasports.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs254.gif",Gaora Sports
+https://arva.netgenx.site/stream/jp/gaora_sports/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="atx.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs333.gif",AT-X
+https://arva.netgenx.site/stream/jp/at-x/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="spaceshowertv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs322.gif",Space Shower TV
+https://arva.netgenx.site/stream/jp/space_shower_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="mtv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs323.gif",MTV
+https://arva.netgenx.site/stream/jp/mtv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="mnet.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs318.gif",Mnet
+https://arva.netgenx.site/stream/jp/mnet/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="superdramatv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/647.gif",Super Drama TV
+https://arva.netgenx.site/stream/jp/super_drama_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="thecinema.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs227.gif",The Cinema
+https://arva.netgenx.site/stream/jp/the_cinema/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="kayopops.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs329.gif",Kayo Pops
+https://arva.netgenx.site/stream/jp/kayo_pops/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="kidsstation.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs330.gif",Kids Station
+https://arva.netgenx.site/stream/jp/kids_station_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="cartoonnetwork.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs331.gif",Cartoon Network Japan
+https://arva.netgenx.site/stream/jp/cartoon_network/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="nittelegplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs257.gif",NTV G+
+https://arva.netgenx.site/stream/jp/nittele_g+/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="familygekijyo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs293.gif",Family Gekijo
+https://arva.netgenx.site/stream/jp/family_gekijyo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="mondotv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs295.gif",Mondo TV
+https://arva.netgenx.site/stream/jp/mondo_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="tbschannel1.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs296.gif",TBS Channel 1
+https://arva.netgenx.site/stream/jp/tbs_channel_1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="tbschannel2.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs297.gif",TBS Channel 2
+https://arva.netgenx.site/stream/jp/tbs_channel_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="tvasahichannel1.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs298.gif",TV Asahi Channel 1
+https://arva.netgenx.site/stream/jp/tv_asahi_channel_1/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="tvasahichannel2.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs299.gif",TV Asahi Channel 2
+https://arva.netgenx.site/stream/jp/tv_asahi_channel_2/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="fujitvone.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs307.gif",Fuji TV One
+https://arva.netgenx.site/stream/jp/fuji_tv_one/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="fujitvtwo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs308.gif",Fuji TV Two
+https://arva.netgenx.site/stream/jp/fuji_tv_two/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="fujitvnext.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs309.gif",Fuji TV Next
+https://arva.netgenx.site/stream/jp/fuji_tv_next/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="channelneco.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs223.gif",Neco Channel
+https://arva.netgenx.site/stream/jp/neco_ch/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="dlife.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs312.gif",Dlife
+https://arva.netgenx.site/stream/jp/dlife/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="toeichannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs218.gif",Toei Channel
+https://arva.netgenx.site/stream/jp/toei_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="fightingtvsamurai.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/600.gif",Fighting TV Samurai
+https://arva.netgenx.site/stream/jp/fighting_tv_samurai/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="entermeitele.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs301.gif",Mei-Tele Next
+https://arva.netgenx.site/stream/jp/meitele_next/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="sportsliveplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/584.gif",Sport live plus
+https://arva.netgenx.site/stream/jp/sport_live_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="homedramachannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs294.gif",Home Drama Channel
+https://arva.netgenx.site/stream/jp/home_drama_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="channelginga.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs305.gif",Channel Ginga
+https://arva.netgenx.site/stream/jp/channel_ginga/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="tabichannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/544.gif",Tabi Channel
+https://arva.netgenx.site/stream/jp/tabi_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="musicontv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs325.gif",Music On! TV
+https://arva.netgenx.site/stream/jp/music_on_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="axn.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs311.gif",Action Channel(AXN)
+https://arva.netgenx.site/stream/jp/action_channel_%28axn%29/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="mysterychannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs316.gif",Mystery Channel
+https://arva.netgenx.site/stream/jp/mystery_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="shopchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/523.gif",Shop Channel
+https://stream3.shopch.jp/HLS/master.m3u8
+#EXTINF:-1 group-title="CS" tvg-id="qvc.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/525.gif",QVC
+https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+#EXTINF:-1 group-title="CS" tvg-id="gstv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/527.gif",GSTV
+https://arva.netgenx.site/stream/jp/gstv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="jidaigekisenmonchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs292.gif",Jidaigeki Senmon
+https://arva.netgenx.site/stream/jp/jidaigeki_senmon/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="eiseigekijo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs219.gif",Eisei Gekijo
+https://arva.netgenx.site/stream/jp/eisei_gekijo/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="movieplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs240.gif",Movie Plus
+https://arva.netgenx.site/stream/jp/movie_plus/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="golfnetwork.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs262.gif",Golf Network
+https://arva.netgenx.site/stream/jp/golf_network/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="musicjapantv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/639.gif",Music Japan TV
+https://arva.netgenx.site/stream/jp/music_japan_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="lalatv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs314.gif",LaLa TV
+https://arva.netgenx.site/stream/jp/lala_tv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="takarazukaskystage.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs290.gif",Takarazuka Sky Stage
+https://arva.netgenx.site/stream/jp/takarazuka_sky_stage/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="nationalgeographicjapan.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs343.gif",National Geographic Japan
+https://arva.netgenx.site/stream/jp/national_geographic_japan/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="disneyjunior.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs339.gif",Disney Junior
+https://arva.netgenx.site/stream/jp/disney_junior/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="discoverychannelsoutheast.sg@japan" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs340.gif",Discovery Channel  
+https://arva.netgenx.site/stream/jp/discovery_channel/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="animalplanet.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs341.gif",Animal Planet
+https://arva.netgenx.site/stream/jp/animal_planet/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="cnnj.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs354.gif",CNNj 
+https://arva.netgenx.site/stream/jp/cnnj/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="bbc_news" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs353.gif",BBC News  
+https://arva.netgenx.site/stream/jp/bbc_news/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="tbsnewscs.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs351.gif",TBS News
+https://arva.netgenx.site/stream/jp/tbs_news/stream-output.m3u8?mode=hls
+
+
+
+
 #########################################
 https://github.com/maxlay/maxlay.github.io/tree/main/JAV-video
 
@@ -633,6 +815,8 @@ https://raw.githubusercontent.com/cm851228/my51228888/refs/heads/main/2025live.j
 
 熱播電影
 https://raw.githubusercontent.com/pkj99/demo/refs/heads/main/tv/sourceNavigation.json
+
+https://raw.githubusercontent.com/Hsudavid/app/refs/heads/main/1.json
 
 
 #########################################
@@ -4894,72 +5078,6 @@ http://84.17.50.102/msnbc/mpegts
 http://84.17.50.102/foxsports1/mpegts
 
 
-#EXTINF:-1 channel-id="52ed4fc0c2635136b6ea44e2dc4a8a00" tvg-id="52ed4fc0c2635136b6ea44e2dc4a8a00" tvg-chno="145" tvg-name="CTV News" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/52ed4fc0c2635136b6ea44e2dc4a8a00/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1720621983863_CTVNews_HUD_Logo_260x147.png" group-title="News",CTV News
-https://jmp2.uk/rok-52ed4fc0c2635136b6ea44e2dc4a8a00.m3u8
-#EXTINF:-1 channel-id="0838d5ccb1d5564d98fb804ab314c85e" tvg-id="0838d5ccb1d5564d98fb804ab314c85e" tvg-chno="164" tvg-name="FOX Weather" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0838d5ccb1d5564d98fb804ab314c85e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1693442655370_1688568641141_FWX_HUD_1.png" group-title="News",FOX Weather
-https://jmp2.uk/rok-0838d5ccb1d5564d98fb804ab314c85e.m3u8
-#EXTINF:-1 channel-id="d3f36d4a35fa5f40a24b96a51556b9b5" tvg-id="d3f36d4a35fa5f40a24b96a51556b9b5" tvg-chno="166" tvg-name="Scripps News" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d3f36d4a35fa5f40a24b96a51556b9b5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1672770149812_Scripps-News_Roku-Channel_Hud-Logo-2_260x147.png" group-title="News",Scripps News
-https://jmp2.uk/rok-d3f36d4a35fa5f40a24b96a51556b9b5.m3u8
-#EXTINF:-1 channel-id="5321194d102d57e094d47d50949088b8" tvg-id="5321194d102d57e094d47d50949088b8" tvg-chno="167" tvg-name="USA Today" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5321194d102d57e094d47d50949088b8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1653091591724_USATODAY_260x147_copy.png" group-title="News",USA Today
-https://jmp2.uk/rok-5321194d102d57e094d47d50949088b8.m3u8
-#EXTINF:-1 channel-id="8bfd3a488b59590eb2fa5602c2120168" tvg-id="8bfd3a488b59590eb2fa5602c2120168" tvg-chno="175" tvg-name="The Hill" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8bfd3a488b59590eb2fa5602c2120168/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1761580779479_TheHill_260x147_HUD.png" group-title="News",The Hill
-https://jmp2.uk/rok-8bfd3a488b59590eb2fa5602c2120168.m3u8
-#EXTINF:-1 channel-id="28844a800a4e54909eec9695aa3762b2" tvg-id="28844a800a4e54909eec9695aa3762b2" tvg-chno="190" tvg-name="NEWSMAX2" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/28844a800a4e54909eec9695aa3762b2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1705586944532_N2_HUD_logo.png" group-title="News",NEWSMAX2
-https://jmp2.uk/rok-28844a800a4e54909eec9695aa3762b2.m3u8
-#EXTINF:-1 channel-id="ee70e4ad68b55abb88e7b95b8940566a" tvg-id="ee70e4ad68b55abb88e7b95b8940566a" tvg-chno="192" tvg-name="TYT-Go" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/ee70e4ad68b55abb88e7b95b8940566a/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1657585611417_TYTLogo_ForInfoHUD.png" group-title="News",TYT-Go
-https://jmp2.uk/rok-ee70e4ad68b55abb88e7b95b8940566a.m3u8
-#EXTINF:-1 channel-id="e29e205ea1fb529f996ad862a2d6724e" tvg-id="e29e205ea1fb529f996ad862a2d6724e" tvg-chno="196" tvg-name="OAN Plus" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e29e205ea1fb529f996ad862a2d6724e/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1655144553363_OAN-Plus-hud_centered.png" group-title="News",OAN Plus
-https://jmp2.uk/rok-e29e205ea1fb529f996ad862a2d6724e.m3u8
-#EXTINF:-1 channel-id="8ba514251e1a58b7b53368177baa1041" tvg-id="8ba514251e1a58b7b53368177baa1041" tvg-chno="508" tvg-name="Law & Crime" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8ba514251e1a58b7b53368177baa1041/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1705443337284_lc-roku-epg-infohud-260x147.png" group-title="News",Law & Crime
-https://jmp2.uk/rok-8ba514251e1a58b7b53368177baa1041.m3u8
-#EXTINF:-1 channel-id="0af429c36c6b517e8df2025e809b3964" tvg-id="0af429c36c6b517e8df2025e809b3964" tvg-chno="900" tvg-name="Estrella News" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0af429c36c6b517e8df2025e809b3964/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1652921499084_RoKu_260x147_Estrella_NEWS.png" group-title="News",Estrella News
-https://jmp2.uk/rok-0af429c36c6b517e8df2025e809b3964.m3u8
-#EXTINF:-1 channel-id="5a28fbf15c135b51b3638e8bd02d6577" tvg-id="5a28fbf15c135b51b3638e8bd02d6577" tvg-chno="901" tvg-name="N+ Univision 24/7" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5a28fbf15c135b51b3638e8bd02d6577/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1772737218229_NMasUnivision247_RokuHUD_260x147_White.png" group-title="News",N+ Univision 24/7
-https://jmp2.uk/rok-5a28fbf15c135b51b3638e8bd02d6577.m3u8
-#EXTINF:-1 channel-id="e6f5a623c45d5757a50e602eb0591f62" tvg-id="e6f5a623c45d5757a50e602eb0591f62" tvg-chno="902" tvg-name="Noticias Telemundo Ahora" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e6f5a623c45d5757a50e602eb0591f62/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1718135290274_noticias-telemundo-ahora-fclogo-72-dpi-260-x-147-260-147-roku-hud-logo-center-align-efefef-w-trans-bkgd-1.png" group-title="News",Noticias Telemundo Ahora
-https://jmp2.uk/rok-e6f5a623c45d5757a50e602eb0591f62.m3u8
-#EXTINF:-1 channel-id="8e0bb4b7ca7c5ea1af52427462297f38" tvg-id="8e0bb4b7ca7c5ea1af52427462297f38" tvg-chno="907" tvg-name="Telemundo Al Día" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8e0bb4b7ca7c5ea1af52427462297f38/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746812594347_TELEMUNDO_AL_DIA_260x147_2x1_logo_center_align_EFEFEF_transparent_bkgd_roku.png" group-title="News",Telemundo Al Día
-https://jmp2.uk/rok-8e0bb4b7ca7c5ea1af52427462297f38.m3u8
-#EXTINF:-1 channel-id="ceb64d994c7756c2a8f09ace94c3e43f" tvg-id="ceb64d994c7756c2a8f09ace94c3e43f" tvg-chno="909" tvg-name="Telediario Now" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/ceb64d994c7756c2a8f09ace94c3e43f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1715804997455_Logtipo_TDNOW_260x147_centradoaleje.png" group-title="News",Telediario Now
-https://jmp2.uk/rok-ceb64d994c7756c2a8f09ace94c3e43f.m3u8
-#EXTINF:-1 channel-id="91dff2b8a62b5fe1bdf64de721032cba" tvg-id="91dff2b8a62b5fe1bdf64de721032cba" tvg-chno="911" tvg-name="Estrella TV" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/91dff2b8a62b5fe1bdf64de721032cba/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1652921946998_RoKu_260x147_Estrella_TV.png" group-title="News",Estrella TV
-https://jmp2.uk/rok-91dff2b8a62b5fe1bdf64de721032cba.m3u8
-#EXTINF:-1 channel-id="46eb1feb60da2bc45bee66f313b564de" tvg-id="46eb1feb60da2bc45bee66f313b564de" tvg-chno="912" tvg-name="Fuerza Informativa Azteca" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/46eb1feb60da2bc45bee66f313b564de/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1737992318993_IDENTIFICADOR_FIA_260_147.png" group-title="News",Fuerza Informativa Azteca
-https://jmp2.uk/rok-46eb1feb60da2bc45bee66f313b564de.m3u8
-#EXTINF:-1 channel-id="a9aae4e62e6fd8e401033cd14ceeaaa2" tvg-id="a9aae4e62e6fd8e401033cd14ceeaaa2" tvg-chno="915" tvg-name="RCN Noticias" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/a9aae4e62e6fd8e401033cd14ceeaaa2/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1744238957605_RCNNoticiaslogoefefef260x147copyJuanMVelasquez.png" group-title="News",RCN Noticias
-https://jmp2.uk/rok-a9aae4e62e6fd8e401033cd14ceeaaa2.m3u8
-#EXTINF:-1 channel-id="5cbb91d07dbd5b92ae3ef3e37be7f2ce" tvg-id="5cbb91d07dbd5b92ae3ef3e37be7f2ce" tvg-chno="919" tvg-name="C4 en Alerta" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5cbb91d07dbd5b92ae3ef3e37be7f2ce/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1695173043846_C4_centeraligned_monocromatico_HUD_260x147.png" group-title="News",C4 en Alerta
-https://jmp2.uk/rok-5cbb91d07dbd5b92ae3ef3e37be7f2ce.m3u8
-#EXTINF:-1 channel-id="0e9a0d968d225a3eb93784404f7edadf" tvg-id="0e9a0d968d225a3eb93784404f7edadf" tvg-chno="920" tvg-name="AmericaTeve" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/0e9a0d968d225a3eb93784404f7edadf/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1675112610226_americateve_260x147.png" group-title="News",AmericaTeve
-https://jmp2.uk/rok-0e9a0d968d225a3eb93784404f7edadf.m3u8
-#EXTINF:-1 channel-id="8acb4f9b8a255216966db355daaa1749" tvg-id="8acb4f9b8a255216966db355daaa1749" tvg-chno="921" tvg-name="Euronews Español" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/8acb4f9b8a255216966db355daaa1749/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1678136277075_euronews_espanol_260x147.png" group-title="News",Euronews Español
-https://jmp2.uk/rok-8acb4f9b8a255216966db355daaa1749.m3u8
-#EXTINF:-1 channel-id="6abe7dcc96d5d834853c8d1c93d97230" tvg-id="6abe7dcc96d5d834853c8d1c93d97230" tvg-chno="4104" tvg-name="News 12 New York" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/6abe7dcc96d5d834853c8d1c93d97230/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1727118344457_N12NY_Roku_Info_HUD.png" group-title="News",News 12 New York
-https://jmp2.uk/rok-6abe7dcc96d5d834853c8d1c93d97230.m3u8
-#EXTINF:-1 channel-id="1672824c4fd55e5dbfcb57f147910270" tvg-id="1672824c4fd55e5dbfcb57f147910270" tvg-chno="4131" tvg-name="Atlanta News First" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/1672824c4fd55e5dbfcb57f147910270/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1684345590463_WANF_EPGHud_LogoWANF_HUD_logo_260x147.png" group-title="News",Atlanta News First
-https://jmp2.uk/rok-1672824c4fd55e5dbfcb57f147910270.m3u8
-#EXTINF:-1 channel-id="ec2faed50af3503e934f0c342a7952fe" tvg-id="ec2faed50af3503e934f0c342a7952fe" tvg-chno="4151" tvg-name="Arizona's Family" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/ec2faed50af3503e934f0c342a7952fe/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746557956357_KPHO_EPG_Hud_LogoKPHO_HUD_logo_260x147_Centered.png" group-title="News",Arizona's Family
-https://jmp2.uk/rok-ec2faed50af3503e934f0c342a7952fe.m3u8
-#EXTINF:-1 channel-id="50b18dea9c5c51568c1343fcd3d88ec9" tvg-id="50b18dea9c5c51568c1343fcd3d88ec9" tvg-chno="4162" tvg-name="ABC7 Sarasota" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/50b18dea9c5c51568c1343fcd3d88ec9/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746557592232_WWSB_EPG_Hud_LogoWWSB_HUD_logo_260x147_Centered.png" group-title="News",ABC7 Sarasota
-https://jmp2.uk/rok-50b18dea9c5c51568c1343fcd3d88ec9.m3u8
-#EXTINF:-1 channel-id="d0d9af56b7735c318b66afe21089d028" tvg-id="d0d9af56b7735c318b66afe21089d028" tvg-chno="4192" tvg-name="Cleveland 19 News Plus" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d0d9af56b7735c318b66afe21089d028/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1684345937107_WOIO_EPG%2526Hud_LogoWOIO_HUD_logo_260x147.png" group-title="News",Cleveland 19 News Plus
-https://jmp2.uk/rok-d0d9af56b7735c318b66afe21089d028.m3u8
-#EXTINF:-1 channel-id="5c8d77c2f6b85da3a7e74223b769ef5c" tvg-id="5c8d77c2f6b85da3a7e74223b769ef5c" tvg-chno="4202" tvg-name="KPTV FOX 12 Oregon News" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5c8d77c2f6b85da3a7e74223b769ef5c/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1684345991989_KPTV_EPG%2526Hud_LogoKPTV_HUD_logo_260x147.png" group-title="News",KPTV FOX 12 Oregon News
-https://jmp2.uk/rok-5c8d77c2f6b85da3a7e74223b769ef5c.m3u8
-#EXTINF:-1 channel-id="bf7ee95e6a905222a1d24174120cc106" tvg-id="bf7ee95e6a905222a1d24174120cc106" tvg-chno="4205" tvg-name="WBTV News 3" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/bf7ee95e6a905222a1d24174120cc106/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746558434543_WBTV_EPG_Hud_LogoWBTV_HUD_logo_260x147_Centered.png" group-title="News",WBTV News 3
-https://jmp2.uk/rok-bf7ee95e6a905222a1d24174120cc106.m3u8
-#EXTINF:-1 channel-id="e8f8972f377a598590592ecd079e7cc4" tvg-id="e8f8972f377a598590592ecd079e7cc4" tvg-chno="4210" tvg-name="First Alert 4 St. Louis" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/e8f8972f377a598590592ecd079e7cc4/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1703177116537_KMOV_EPG%2526Hud_LogoKMOV_HUD_logo_260x147_.png" group-title="News",First Alert 4 St. Louis
-https://jmp2.uk/rok-e8f8972f377a598590592ecd079e7cc4.m3u8
-#EXTINF:-1 channel-id="d53b1fb8c41f574387cde82d084515ea" tvg-id="d53b1fb8c41f574387cde82d084515ea" tvg-chno="4242" tvg-name="WSMV 4 News" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d53b1fb8c41f574387cde82d084515ea/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1703177208613_WSMV_EPG%2526Hud_LogoWSMV_HUD_logo_260x147_.png" group-title="News",WSMV 4 News
-https://jmp2.uk/rok-d53b1fb8c41f574387cde82d084515ea.m3u8
-#EXTINF:-1 channel-id="307cbde3d30957828ff68b3b979d6958" tvg-id="307cbde3d30957828ff68b3b979d6958" tvg-chno="4260" tvg-name="Channel 3 Eyewitness News" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/307cbde3d30957828ff68b3b979d6958/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746558269828_WFSB_EPG_Hud_LogoWFSB_HUD_logo_260x147_Centered.png" group-title="News",Channel 3 Eyewitness News
-https://jmp2.uk/rok-307cbde3d30957828ff68b3b979d6958.m3u8
-#EXTINF:-1 channel-id="f95c40a17cfe5b9fb1970192e378fb0c" tvg-id="f95c40a17cfe5b9fb1970192e378fb0c" tvg-chno="161" tvg-name="AccuWeather NOW" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/f95c40a17cfe5b9fb1970192e378fb0c/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1655146991984_Roku_HUD.png" group-title="News",AccuWeather NOW
-https://jmp2.uk/rok-f95c40a17cfe5b9fb1970192e378fb0c.m3u8
-#EXTINF:-1 channel-id="a1e38b83ae2a56f09f4d2ee8ed206b35" tvg-id="a1e38b83ae2a56f09f4d2ee8ed206b35" tvg-chno="163" tvg-name="Weathernation" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/a1e38b83ae2a56f09f4d2ee8ed206b35/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1670264331925_WN_Roku_EPG_centered.png" group-title="News",Weathernation
-https://jmp2.uk/rok-a1e38b83ae2a56f09f4d2ee8ed206b35.m3u8
-
-
 
 
 #########################################
@@ -5588,6 +5706,25 @@ https://vip1.lz-cdn7.com/20220915/11311_6282efb0/index.m3u8
 https://vip1.lz-cdn7.com/20220915/11314_9a5b16d0/index.m3u8
 #EXTINF:-1 group-title="經典影劇",李小龍的生與死 (紀錄片)
 https://vip.dytt-film.com/20250202/4059_75806e8a/index.m3u8
+
+
+
+
+#EXTINF:-1 group-title="經典影劇",伊朗《風的氣息》
+https://cdn7.ryplay7.com/20241029/6070_740f7117/index.m3u8
+#EXTINF:-1 group-title="經典影劇",法《過量》
+https://v1.zuidazym3u8.com/yyv1/202308/19/CPeKddnKv72/video/index.m3u8
+#EXTINF:-1 group-title="經典影劇",家弑服務2025
+https://s1.fengbao9.com/video/jiashifuwu/a9bf07998a34/index.m3u8
+#EXTINF:-1 group-title="經典影劇",請求救援2026
+https://s1.fengbao9.com/video/qingqiujiuyuan/3d929ea45e47/index.m3u8
+#EXTINF:-1 group-title="經典影劇",懸崖絕壁2026
+https://s1.fengbao9.com/video/xuanyajuebi/2bd92fe41f93/index.m3u8
+#EXTINF:-1 group-title="經典影劇",人工情報
+https://s1.fengbao9.com/video/rengongqingbao/62c0afa3f1cf/index.m3u8
+
+
+
 
 
 
@@ -6980,6 +7117,36 @@ http://mypanel-4k.com:80/movie/me52pjdqa6/dt2t9r16ja/327385.mkv
 #########################################
             私密頻道 ADULT
 #########################################
+
+
+
+#EXTINF:-1 group-title="私密頻道 ADULT",彩虹電影
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/79eae302b540da268d31ee6c71c5627b/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",彩虹頻道
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/076487b9a07ff6b759813db38e4a7a43/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",彩虹e
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/b862d23775324346607e255dd1794f37/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",松1
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/70946f44bf0fe807a3f82bd6171571f5/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",松2
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/af0911bc42a66d97cc62cba94be53f24/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",松3
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/2807b605565e1bfe6290d3c52b976001/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",極限電影台
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/ca747c47c1d9af31eef3d484deb9f646/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",潘朵拉粉紅
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/acc3078fc4248fa3eb04e586d7323623/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",潘朵拉玩美
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/645ac0a9b597809acc626fd735357c5c/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",HOT
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/c429fde8b1b986d42f84ba63dbfef6ac/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",香蕉台
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/7a84cc2ab4f7230dba1a1b0160c29606/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",樂活頻道
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/5225f359b1a1d9378d7d92b5627b161f/master.m3u8
+#EXTINF:-1 group-title="私密頻道 ADULT",happy
+http://127.0.0.1:17173/172.247.189.85:16000/stream/7c9b36ba90119f559d899439789a3fb657cc1475b90ac0f0-ea25dbad092df70f31643846a89941c8/56ab24c15b72a457069c5ea42fcfc640/master.m3u8
+
 
 
 #EXTM3U
@@ -15918,6 +16085,121 @@ https://fc.mjv003.com/g/nkgkymhkkc/nkgkymhkkc.m3u8
 https://fc.mjv003.com/d/pgngwlfjva/pgngwlfjva.m3u8
 
 
+#EXTINF:-1 group-title="最愛映畫 ADULT",snis-462
+http://t33.cdn2020.com/video/m3u8/2025/11/06/d4925346/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",SNIS-309
+http://t33.cdn2020.com/video/m3u8/2025/11/06/036bb696/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",FC2PPV-2417006
+http://t33.cdn2020.com/video/m3u8/2025/11/06/807b6ddd/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",START-272
+https://t33.cdn2020.com/video/m3u8/2026/01/02/ce232842/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",pppd-913
+https://t33.cdn2020.com/video/m3u8/2026/01/01/380c7c52/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",NHDTC-149
+https://t33.cdn2020.com/video/m3u8/2026/01/01/5a53719e/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",DVMM-106
+https://t33.cdn2020.com/video/m3u8/2026/01/01/dd97864f/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",IPZZ-304
+https://t33.cdn2020.com/video/m3u8/2026/01/01/cc651505/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",LULU-299
+https://t33.cdn2020.com/video/m3u8/2026/01/01/8d5e2fa8/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",DASS-831
+https://t33.cdn2020.com/video/m3u8/2025/12/31/12d8e555/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",pppd-911
+https://t33.cdn2020.com/video/m3u8/2025/12/31/403a0733/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",SKMJ-700
+https://t33.cdn2020.com/video/m3u8/2025/12/31/b4a08cc7/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",NTRH-002
+https://t33.cdn2020.com/video/m3u8/2025/12/31/69425255/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",FC2PPV-4816832
+https://t33.cdn2020.com/video/m3u8/2025/12/30/d859d07f/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",NTRH-020
+https://t33.cdn2020.com/video/m3u8/2025/12/30/6d495057/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",326FCT-205
+https://t33.cdn2020.com/video/m3u8/2025/12/30/2e0dc0e6/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",DASS-402
+https://t33.cdn2020.com/video/m3u8/2025/12/30/0c95c4de/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",SSNI-845
+https://t33.cdn2020.com/video/m3u8/2025/12/29/466b5559/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",SSNI-865
+https://t33.cdn2020.com/video/m3u8/2025/12/29/cbfa103e/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",AKDLD-283
+https://t33.cdn2020.com/video/m3u8/2025/12/29/08fea47e/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",LULU-306
+https://t33.cdn2020.com/video/m3u8/2025/12/28/a655085c/index.m3u8
+
+
+#EXTINF:-1 group-title="最愛映畫 ADULT",eyan-163
+http://t33.cdn2020.com/video/m3u8/2025/11/13/d35857ec/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",SONE-976
+http://t33.cdn2020.com/video/m3u8/2025/11/13/240c05c9/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",MIAD-948
+http://t33.cdn2020.com/video/m3u8/2025/11/12/8c0a6253/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",HHF-092
+http://t33.cdn2020.com/video/m3u8/2025/11/12/63682031/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",DANDY-936
+http://t33.cdn2020.com/video/m3u8/2025/11/12/1be35bc0/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",NHDTB-963
+http://t33.cdn2020.com/video/m3u8/2025/11/12/d5be1dd2/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",PPPE-260
+http://t33.cdn2020.com/video/m3u8/2025/11/12/3d7dcfe7/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",PPPE-255
+http://t33.cdn2020.com/video/m3u8/2025/11/12/6695b62d/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",ssni-979
+http://t33.cdn2020.com/video/m3u8/2025/11/11/4f30ccf2/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",juy-806
+http://t33.cdn2020.com/video/m3u8/2025/11/11/e1e9a833/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",DASS-776
+http://t33.cdn2020.com/video/m3u8/2025/11/11/b329edd0/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",NHDTB-961
+http://t33.cdn2020.com/video/m3u8/2025/11/11/01d9f494/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",ROYD-200
+http://t33.cdn2020.com/video/m3u8/2025/11/11/4a93ab3e/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",UMD-984
+http://t33.cdn2020.com/video/m3u8/2025/11/11/eeb831ad/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",HZGD-321
+http://t33.cdn2020.com/video/m3u8/2025/11/10/d0e7afd7/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",NHDTC-122
+http://t33.cdn2020.com/video/m3u8/2025/11/10/64732aef/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",FC2PPV-2363276
+http://t33.cdn2020.com/video/m3u8/2025/11/09/cf23ca37/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",adn-293
+http://t33.cdn2020.com/video/m3u8/2025/11/08/39ba63a6/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",GG-106
+http://t33.cdn2020.com/video/m3u8/2025/11/08/8f313ac6/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",BBTU-087
+http://t33.cdn2020.com/video/m3u8/2025/11/08/bd7df09e/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",FJIN-037
+http://t33.cdn2020.com/video/m3u8/2025/11/08/7c7d43f8/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",DVMM-145
+http://t33.cdn2020.com/video/m3u8/2025/11/08/09565b57/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",DVMM-143
+http://t33.cdn2020.com/video/m3u8/2025/11/08/7f1a4081/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",DASS-441
+http://t33.cdn2020.com/video/m3u8/2025/11/07/df063af2/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",FC2PPV-2466403
+http://t33.cdn2020.com/video/m3u8/2025/11/07/12538a22/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",頂級童顏女孩腿長腰細
+http://t33.cdn2020.com/video/m3u8/2025/11/06/aa67b28b/index.m3u8
+
+#EXTINF:-1 group-title="最愛映畫 ADULT",巨茹
+http://krevonix.com/20240520/DN1ccCOX/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",雙仁
+http://t26.cdn2020.com/video/m3u8/2022/01/19/56a11163/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",jufe-131
+http://t33.cdn2020.com/video/m3u8/2025/09/09/25fc50e8/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",FC2PPV-4791300
+http://t33.cdn2020.com/video/m3u8/2025/11/13/52a69578/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",e嫂粉絲活動玩弄篇
+http://t33.cdn2020.com/video/m3u8/2025/11/12/0a876f4c/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",e嫂粉絲活動實戰篇
+http://t33.cdn2020.com/video/m3u8/2025/11/11/2a3c84ff/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",e嫂巨乳性感女秘書
+http://t33.cdn2020.com/video/m3u8/2025/11/08/d556eb9b/index.m3u8
+#EXTINF:-1 group-title="最愛映畫 ADULT",e嫂女僕侍奉
+http://t33.cdn2020.com/video/m3u8/2025/11/07/546905e0/index.m3u8
+
+
 
 
 
@@ -16189,6 +16471,11 @@ https://47b61.cdnedge.live/file/avple-images/hls/61efa0b25d579208810784f6/playli
 https://t33.cdn2020.com/video/m3u8/2025/12/31/58825a78/index.m3u8
 #EXTINF:-1 group-title="經典三級 ADULT",緊張的60分鐘第一視角
 https://vip2.slbfsl.com/20230402/PnCdf8ix/index.m3u8
+#EXTINF:-1 group-title="經典三級 ADULT",頂級童顏女孩腿長腰細
+http://t33.cdn2020.com/video/m3u8/2025/11/06/aa67b28b/index.m3u8
+
+
+
 
 
 ################################################

@@ -1,4 +1,4 @@
-name: Update data m3u
+name: Update m3u
 
 permissions:
   contents: write

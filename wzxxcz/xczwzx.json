@@ -1040,12 +1040,6 @@
             "api": "csp_App3Q"
         },
         {
-            "key": "坚果影视",
-            "name": "🍊坚果影视",
-            "type": 3,
-            "api": "csp_AppJg"
-        },
-        {
             "key": "奴娜",
             "name": "💡奴娜影视",
             "type": 3,
@@ -1603,16 +1597,6 @@
             "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
         },
         {
-            "key": "极影",
-            "name": "🍊极影影视",
-            "type": 3,
-            "api": "csp_AppYsV2",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://101.201.171.207:802/api.php/app/"
-        },
-        {
             "key": "超前",
             "name": "🍊超前影视",
             "type": 3,
@@ -1862,12 +1846,6 @@
                     "x-app-version-name": "3.2.0"
                 }
             }
-        },
-        {
-            "key": "饺子影视",
-            "name": "🥟饺子影视",
-            "type": 3,
-            "api": "csp_Jiaozi"
         },
         {
             "key": "孜然影视",
@@ -35661,17 +35639,6 @@
             "name": "🍊甜圈短剧",
             "type": 3,
             "api": "csp_TianquanDJ",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "genre": "shortdrama"
-        },
-        {
-            "key": "星阁短剧",
-            "name": "🍊星阁短剧",
-            "type": 3,
-            "api": "csp_XinggeDJ",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,

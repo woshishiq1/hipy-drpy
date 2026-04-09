@@ -1261,13 +1261,6 @@
             }
         },
         {
-            "key": "聚搜2",
-            "name": "🚗JUSOU影视",
-            "type": 3,
-            "api": "./py/JUSOU.py",
-            "ext": "http://118.89.203.120:8365/"
-        },
-        {
             "key": "巧技2",
             "name": "🔍搜艘影视",
             "type": 3,
@@ -1592,17 +1585,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-        },
-        {
-            "key": "猎手影视",
-            "name": "🦁猎手影院",
-            "type": 3,
-            "api": "./py/猎手影视.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
         },
         {
             "key": "新剧",
@@ -2626,6 +2608,12 @@
                 "排序": "时间&人气&评分",
                 "排序值": "time&hits&score"
             }
+        },
+        {
+            "key": "独播影视",
+            "name": "🍊独播影视",
+            "type": 3,
+            "api": "csp_Duboku"
         },
         {
             "key": "厂长影视",
@@ -26116,9 +26104,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251106",
+                "作者": "🍊小橙子/20260409",
                 "站名": "天下影院",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@PHPSESSID=bu8ua2fjeic2k33efbbg1t21q1；； Hm_lvt_bfb530ffc02442ad1699f248edfa80e6=1775704951；； HMACCOUNT=17BED804ED862610；； Hm_lpvt_bfb530ffc02442ad1699f248edfa80e6=1775705344&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -26126,11 +26114,11 @@
                 "嗅探词": ".mp4#.m3u8#.flv#hcts-m3u8#index.m3u8",
                 "免嗅": "1",
                 "过滤词": "",
-                "主页url": "https://www.zhsofa.com/",
+                "主页url": "https://www.zsgys.com/",
                 "首页": "120",
                 "起始页": "1",
-                "分类url": "https://www.zhsofa.com/show/{cateId}--------{catePg}---.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$33#",
+                "分类url": "https://www.zsgys.com/search.php?page={catePg}&searchtype=5&tid={cateId}&year={year}",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$30#",
                 "二次截取": "",
                 "数组": "lazyload&&</a>",
                 "标题": "title=\"&&\"",
@@ -26145,11 +26133,11 @@
                 "主演": "主演：&&</p>",
                 "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+简介：&&</div>",
                 "线路二次截取": "",
-                "线路数组": "data-toggle&&</a>",
-                "线路标题": ">&&</a",
+                "线路数组": "more text-muted pull-right&&</div>",
+                "线路标题": "title\">&&</h3>",
                 "播放二次截取": "",
-                "播放数组": "<ul class=\"stui-content__playlist clearfix&&</ul>",
-                "倒序": "0",
+                "播放数组": "<ul class=\"stui-content__playlist playlink clearfix&&</ul>",
+                "倒序": "1",
                 "播放列表": "<a&&</a>",
                 "播放标题": ">&&</a>",
                 "播放链接": "href=\"&&\"",
@@ -26157,7 +26145,7 @@
                 "跳转播放链接": "var player_*\"url\":\"&&\"",
                 "跳转解析": "",
                 "搜索请求头": "User-Agent$MOBILE_UA",
-                "搜索url": "https://www.zhsofa.com/search/{wd}----------{pg}---.html",
+                "搜索url": "https://www.zsgys.com/search.php?page={pg}&searchword={wd}&searchtype=",
                 "搜索模式": "1",
                 "搜索后缀": "",
                 "搜索二次截取": "",

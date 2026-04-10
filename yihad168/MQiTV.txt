@@ -62,6 +62,11 @@
     },
 
     {
+      "name": "🔓CAT直播",
+      "url": "http://tv.anbox.ip-ddns.com/live7"
+    },
+
+    {
       "name": "MYTV 2",
       "url": "http://66.103.204.107/list.php"
     },
@@ -77,8 +82,18 @@
     },
 
     {
-      "name": "日本TV",
+      "name": "🇯🇵日本TV",
       "url": "https://web.utako.moe/jp.m3u"
+    },
+
+    {
+      "name": "🇯🇵日本JAPAN",
+      "url": "https://raw.githubusercontent.com/TvJapan/iptv-jp/refs/heads/main/jp.m3u"
+    },
+
+    {
+      "name": "🇯🇵日本JP RELAY",
+      "url": "https://raw.githubusercontent.com/TvJapan/iptv-jp/refs/heads/main/jp_relay.m3u"
     },
 
     {
@@ -1143,6 +1158,10 @@
       "url": "https://gitlab.com/free-iptv1/freeiptv/-/raw/main/India1.m3u?ref_type=heads",
       "type": 1
    },
+
+ {"name": "🚓华哥TV","type":0,"url":"http://tv.anbox.ip-ddns.com/live12","playerType":1},
+ {"name": "🚓港澳TV","type":0,"url":"http://tv.anbox.ip-ddns.com/live19","playerType":1},
+ {"name": "🚓港澳MYTV","type":0,"url":"http://github.com/cm851228/my51228888/raw/refs/heads/main/mytv.txt","playerType":1},
 
  {"name": "🚓auto-iptv直播","type":0,"url":"http://47.120.41.246:8899/zb.txt","playerType":1},
  {"name": "🏆️Yuanz港·澳·台直播","type": 0,"url": "https://raw.githubusercontent.com//alantang1977/yuanzl77/refs/heads/main/live.m3u","playerType":1},

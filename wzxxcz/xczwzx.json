@@ -1604,7 +1604,6 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "playerType": 2,
             "ext": "http://chaoqianys.top:91/api.php/app/"
         },
         {
@@ -4562,6 +4561,16 @@
             }
         },
         {
+            "key": "飞飞",
+            "name": "🕊️飞飞影视2",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://qpcj.69mini.com/api.php/app/"
+        },
+        {
             "key": "顾我",
             "name": "🐘顾我影视",
             "type": 3,
@@ -4699,6 +4708,18 @@
             }
         },
         {
+            "key": "坚果",
+            "name": "🍊坚果影视",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet",
+            "ext": {
+                "site": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt",
+                "dataKey": "2015692015692015",
+                "dataIv": "2015692015692015"
+            }
+        },
+        {
             "key": "王子",
             "name": "🤴王子影视",
             "type": 3,
@@ -4710,16 +4731,6 @@
                 "dataKey": "5a9w6x58dsq6z3a6",
                 "dataIv": "5a9w6x58dsq6z3a6"
             }
-        },
-        {
-            "key": "py_可可",
-            "name": "🍊可可影视",
-            "type": 3,
-            "changeable": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "./py/可可.py"
         },
         {
             "key": "黄瓜影视",
@@ -26266,9 +26277,9 @@
             "filterable": 1,
             "timeout": 120,
             "ext": {
-                "作者": "🍊小橙子/251109",
+                "作者": "🍊小橙子/20260410",
                 "站名": "影视狗1",
-                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I005DA Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@server_name_session=c12b12f9aaf73186856e2d2688eda8f8；； SITE_TOTAL_ID=ed6e4d6d0f14654b0f84366e1f969cf6；； mx_style=white&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
+                "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 9；； ASUS_I003DD Build/PI；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.70 Mobile Safari/537.36&&Cookie@mx_style=white；； HMACCOUNT=17BED804ED862610；； server_name_session=542dac732136744fd540b0e32e456f92；； Hm_lvt_989f21b00a99b3b263647579b7984317=1773375293,1775788671；； Hm_lpvt_989f21b00a99b3b263647579b7984317=1775788691&&Accept@text/html,application/xhtml+xml,application/xml；；q=0.9,image/avif,image/webp,image/apng,*/*；；q=0.8,application/signed-exchange；；v=b3；；q=0.7&&Accept-Language@zh-CN,zh；；q=0.9",
                 "编码": "UTF-8",
                 "图片代理": "0",
                 "直接播放": "0",
@@ -26280,25 +26291,25 @@
                 "首页": "120",
                 "起始页": "1",
                 "分类url": "https://www.yingshi.dog/vodshow/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#剧集$2#综艺$3#动漫$4#纪录$5#短剧$47#",
+                "分类": "电影$1#剧集$2#综艺$3#动漫$4#纪录$5#短剧$47",
                 "二次截取": "",
                 "数组": "/voddetail&&</a>",
                 "标题": "title=\"&&\"",
                 "图片": "data-original=\"&&\"",
                 "副标题": "<div class=\"module-item-note\">&&</div>",
-                "链接": "https://www.158599.xyz/vodplay/+/&&.html+-1-1.html",
-                "影片年代": "年份：&&</span>",
-                "影片地区": "地区：&&</span>",
-                "影片类型": "类型：&&</span>",
-                "状态": "状态：&&</span>",
-                "导演": "导演：&&</span>",
-                "主演": "主演：&&</span>",
-                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+module-info-introduction-content show-desc desc-collapsed\">&&</div>",
+                "链接": "https://www.158399.xyz/vodplay/+/&&.html+-1-1.html",
+                "影片年代": "年份：&&</div>",
+                "影片地区": "地区：&&</div>",
+                "影片类型": "类型：&&</div>",
+                "状态": "状态：&&</div>",
+                "导演": "导演：&&</div>",
+                "主演": "主演：&&</div>",
+                "简介": "🍊小橙子为您介绍剧情👉请不要相信视频中的广告，以免上当受骗！+module-info-item module-info-introduction\">&&</div>",
                 "线路二次截取": "",
                 "线路数组": "module-tab-item&&/small>",
                 "线路标题": "<span>&&</span>",
                 "播放二次截取": "",
-                "播放数组": "id=\"pane&&</div></div>",
+                "播放数组": "list\">&&</div>",
                 "倒序": "0",
                 "播放列表": "<a&&/a>",
                 "播放标题": "<span>&&</span>",
@@ -26315,7 +26326,7 @@
                 "搜索标题": "alt=\"&&\"",
                 "搜索图片": "data-original=\"&&\"",
                 "搜索副标题": "<div class=\"module-item-note\">&&</div>",
-                "搜索链接": "https://www.158599.xyz/vodplay/+/&&.html+-1-1.html",
+                "搜索链接": "https://www.158399.xyz/vodplay/+/&&.html+-1-1.html",
                 "筛选": "1",
                 "类型": "",
                 "剧情": "喜剧&爱情&恐怖&动作&科幻&剧情&战争&警匪&犯罪&动画&奇幻&武侠&冒险&枪战&恐怖&悬疑&惊悚&经典&青春&文艺&微电影&古装&历史&运动&农村&儿童&网络电影",

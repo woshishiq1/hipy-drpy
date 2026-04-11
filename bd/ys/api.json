@@ -1,5 +1,5 @@
 {
-    "spider": "./lib/xyqxbpq.jar",
+    "spider": "./jar/xyqxbpq.jar",
     "wallpaper": "https://深色壁纸.xxooo.cf/",
     "logo": "./logo.gif",
     "warningText": "🍁滴滴滴滴滴滴🍁",
@@ -56,6 +56,24 @@
             "type": 3,
             "api": "./js/drpy2.min.js",
             "ext": "./js/🎒央视大全.js"
+        },
+        {
+            "key": "天空影视",
+            "name": "天空影视",
+            "type": 3,
+            "api": "./py/天空影视.py"
+        },
+        {
+            "key": "东方影院",
+            "name": "东方影院",
+            "type": 3,
+            "api": "./py/东方影院.py"
+        },
+        {
+            "key": "达达兔影院",
+            "name": "达达兔影院",
+            "type": 3,
+            "api": "./py/达达兔影院.py"
         },
         {
             "key": "看戏影视",
@@ -1514,7 +1532,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -1849,7 +1867,7 @@
             "name": "悟空影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -1865,7 +1883,7 @@
             "name": "永乐视频",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -1880,7 +1898,7 @@
             "name": "影梦影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -1893,7 +1911,7 @@
             "name": "蓝光影院",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "分类": "电影$1#电视剧$2#动漫$20#综艺$24#豆瓣TOP250$-1",
                 "分类url": "https://www.languang.pro/vodshow/{cateId}-{area}-{by}-{class}--{letter}---{catePg}---{year}.html"
@@ -1904,7 +1922,7 @@
             "name": "鬼片之家",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "分类": "鬼片大全$1#电视剧$2#动漫$4",
                 "分类url": "https://www.guipian365.com/vodshow/{cateId}{class}--{by}---{letter}---{catePg}---.html"
@@ -1915,7 +1933,7 @@
             "name": "面包网",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -1931,7 +1949,7 @@
             "name": "看戏网",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -1947,7 +1965,7 @@
             "name": "MX┃动漫",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -1963,7 +1981,7 @@
             "name": "大鱼影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -1979,7 +1997,7 @@
             "name": "特看网",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -1995,7 +2013,7 @@
             "name": "量子影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -2011,7 +2029,7 @@
             "name": "青柠影院",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -2027,7 +2045,7 @@
             "name": "美益达影剧",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -2043,7 +2061,7 @@
             "name": "统一影视",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -2059,7 +2077,7 @@
             "name": "热播之家",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -2075,7 +2093,7 @@
             "name": "哆啦新番社",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -2102,7 +2120,7 @@
             "name": "OmoFun动漫",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "请求头": "User-Agent$MOBILE_UA",
                 "编码": "UTF-8",
@@ -2139,6 +2157,14 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
+        },
+        {
+            "key": "netshort短剧",
+            "name": "netshort短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/netshort.json"
         },
         {
             "key": "360短剧",

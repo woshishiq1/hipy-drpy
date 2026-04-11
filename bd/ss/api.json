@@ -1,5 +1,5 @@
 {
-    "spider": "./lib/xyqxbpq.jar",
+    "spider": "./jar/xyqxbpq.jar",
     "wallpaper": "https://api.nguaduot.cn/netbian/random",
     "logo": "./logo.gif",
     "warningText": "🍁滴滴滴滴滴滴🍁",
@@ -24,6 +24,137 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./js/ss直播.js"
+        },
+        {
+            "key": "18JAV几类",
+            "name": "18JAV几类",
+            "type": 3,
+            "jar": "./jar/Lgexbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/18JAV几类.json"
+        },
+        {
+            "key": "18JAV女优",
+            "name": "18JAV女优",
+            "type": 3,
+            "jar": "./jar/Lgexbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/18JAV女优.json"
+        },
+        {
+            "key": "文明强国",
+            "name": "文明强国",
+            "type": 3,
+            "jar": "./jar/Lgexbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/文明强国.json"
+        },
+        {
+            "key": "极乐禁区搜索",
+            "name": "极乐禁区搜索",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./json/极乐禁区搜索.json"
+        },
+        {
+            "key": "极乐国产禁区",
+            "name": "极乐国产🔞",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://iegeewiet-4mag.hscwang26y2m.xyz/jlhs",
+                "二次截取": "thumbnail-group&&<script>",
+                "数组": "<li&&</li>",
+                "标题": ">&&</a></h5>",
+                "副标题": "🔞少看少撸",
+                "图片": "data-original=\"&&\"",
+                "链接": "/vodplay/+/voddetail/&&/+-1-1/",
+                "直接播放": "1",
+                "分类url": "https://iegeewiet4mag.hscwang26y2m.xyz/vodtype/{cateId}-{catePg}/",
+                "分类数组": "<dd&&/dd>",
+                "分类标题": ">&&</a",
+                "分类ID": "/vodtype/&&/"
+            }
+        },
+        {
+            "key": "绿草AV",
+            "name": "绿草AV",
+            "type": 3,
+            "jar": "./jar/Lgexbpq.jar",
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "数组": "<a&&</a>",
+                "标题": "alt=\"&&\"",
+                "图片": "src=\"&&\"",
+                "链接": "href=\"&&\"[替换:detail>>conter]",
+                "嗅探词": ".mp4#.m3u8",
+                "直接播放": "1",
+                "跳转播放链接": "Play=&&\\&",
+                "搜索模式": "1",
+                "搜索url": "https://w.lvcao.lat/?m=video_search*{wd}*{pg}",
+                "分类url": "https://w.lvcao.lat/?m=video_list*{cateId}*{catePg};;z",
+                "分类": "中文字幕$5#主播秀色$2#性感人妻$7#欧美情色$9#日本无码$4#精品推荐$1#日本有码$3#强奸乱伦$8#童颜巨乳$6#网曝系列$16#日本片商$14#丝袜OL$12#自拍偷拍$13#三级伦理$10#剧情介绍$15#卡通动漫$11#同性恋$17#探花嫖娼$18#凌辱快感$26#明星换脸$24#国产丝袜$21#国产乱伦$23#主奴调教$25#国产人妻$19#国产SM$20#麻豆传媒$22#多人群交$27#角色剧情$28#港台辣妹$29#重口性癖$30#变性伪娘$31#VR视角$32#"
+            }
+        },
+        {
+            "key": "youporn",
+            "name": "youporn",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "ext": "./json/youporn.json"
+        },
+        {
+            "key": "pornhub",
+            "name": "pornhub",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ_1.jar",
+            "ext": "./json/pornhub.json"
+        },
+        {
+            "key": "快播AV",
+            "name": "快播AV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./jar/XBPQ.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "数组": "maoplay&&</span>",
+                "标题": "title=\"&&\"",
+                "副标题": ">&&</span>",
+                "图片": "src=\"&&\"",
+                "链接": "href=\"&&\"",
+                "搜索模式": "1",
+                "搜索url": "https://www.kuaibojq.com/vod/search/page/{pg}/wd/{wd}/",
+                "分类url": "https://www.kuaibojq.com/maotype/{cateId}-{catePg}/;;z"
+            }
         },
         {
             "key": "艾蛋影视",
@@ -57,6 +188,74 @@
                 "搜索url": "https://20260313bb-bnm.mitaoava02.top/index.php/vod/search/page/{pg}/wd/{wd}.html",
                 "分类url": "https://20260313bb-bnm.mitaoava02.top/index.php/vod/type/id/{cateId}/page/{catePg}.html",
                 "分类": "国产无码$guochanwuma#国产口爆$yazhoukoujiao#日韩无码$rihanwuma#亚洲群交$yazhouqunjiao#国产热门$guochanremen#海边偷拍$haibiantoupai#偷情车震$touqingchezhen#污污动漫$wuwudongman#拉拉群交$lalaqunjiao#Gay群交$gayqunjiao#欧美精选$oumeijingxuan#自慰手淫$ziweishouyin#N女群欢$nnvqunhuan#美臀诱惑$meitunyouhuo#麻豆传媒$madouchuanmei#天美传媒$tianmeichuanmei#皇家华人$huangjiahuaren#精东影业$jingdongyingye#起点传媒$qidianchuanmei#"
+            }
+        },
+        {
+            "key": "WhosTV",
+            "name": "whosTV",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "主页url": "https://whos.tv/frames/type-other",
+                "编码": "UTF-8",
+                "数组": "frame-card&&</a",
+                "标题": "alt=\"&&\"",
+                "图片": "<imgsrc=\"&&\"",
+                "链接": "data-share-url=\"&&\"",
+                "播放数组": "mt-3&&</div>",
+                "倒序": "0",
+                "播放列表": "<a&&/a>",
+                "播放标题": "</span>&&<",
+                "播放链接": "href=\"&&\"",
+                "跳转播放链接": "<sourcesrc=\"&&\"",
+                "分类url": "https://whos.tv/frames/type-other/label-{cateId}/page-{catePg}",
+                "分类二次截取": "id=\"sub-category&&</div>",
+                "分类数组": "<a&&</a>",
+                "分类标题": ">&&<",
+                "分类ID": "/frames/type-other/label-&&\""
+            }
+        },
+        {
+            "key": "✨WhosTV✨",
+            "name": "✨WhosTV✨",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./py/WhosTV.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "Whos",
+            "name": "Whos",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "数组": "/frames&&</a>[不包含:Whos.tv]",
+                "标题": "alt=\"&&\"",
+                "图片": "src=\"&&\"",
+                "副标题": "text-white\">&&<",
+                "链接": "/frames/+/&&\"",
+                "简介": "description\"content=\"&&\"",
+                "分类url": "https://whos.tv/frames/type-{cateId}/page-{catePg}",
+                "线路数组": "<spanclass=\"text-primaryfont-boldtext-basegroup-hover:underline\">&&</span>",
+                "线路标题": "✨乐哥最爱",
+                "播放数组": "class=\"mt-3flexgap-2&&</div>",
+                "播放列表": "<a&&</a>",
+                "播放标题": "</span>&&</a>",
+                "播放链接": "href=\"&&\"",
+                "跳转播放链接": "<sourcesrc=\"&&\"",
+                "分类": "服装$clothes#地点$location#特写$closeup#姿势$pose#行为$action#表情$expression#道具$prop#其他$other#"
             }
         },
         {
@@ -440,7 +639,7 @@
             "filterable": 1,
             "quickSearch": 1,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "ext": {
                 "作者": "枸杞少女",
                 "请求头": "User-Agent$MOBILE_UA",
@@ -825,7 +1024,7 @@
             "name": "㊙️线上看女优",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "searchable": 1,
             "style": {
                 "ratio": 1.43
@@ -1480,7 +1679,7 @@
             "name": "请多吃枸杞",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "style": {
                 "ratio": 1.7
             },
@@ -1742,7 +1941,7 @@
             "name": "🍉黄色仓库",
             "type": 3,
             "api": "csp_XBPQ",
-            "jar": "./lib/xyqxbpq.jar",
+            "jar": "./jar/xyqxbpq.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,

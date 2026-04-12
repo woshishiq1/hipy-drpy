@@ -386,7 +386,7 @@
             "key": "盘它",
             "name": "盘它｜4K",
             "type": 3,
-            "api": "csp_PanWebShareCloudPT",
+            "api": "csp_PanWebSharePT",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -751,25 +751,28 @@
             }
         },
         {
-            "key": "919体育",
-            "name": "919｜体育",
+            "key": "球通体育",
+            "name": "球通｜体育",
             "type": 3,
-            "api": "csp_919Tiyu",
+            "api": "csp_QiutongTY",
             "style": {
                 "type": "list"
             }
         },
         {
-            "key": "爱听音乐",
-            "name": "爱听｜音乐",
+            "key": "瓜子体育",
+            "name": "瓜子｜体育",
             "type": 3,
-            "api": "./py/爱听音乐.py"
+            "api": "csp_GuaziTY",
+            "style": {
+                "type": "list"
+            }
         },
         {
-            "key": "世界听书",
-            "name": "世界｜听书",
+            "key": "919体育",
+            "name": "919｜体育",
             "type": 3,
-            "api": "csp_TingShijie",
+            "api": "csp_919TY",
             "style": {
                 "type": "list"
             }
@@ -784,6 +787,33 @@
             }
         },
         {
+            "key": "轮回DJ",
+            "name": "轮回｜DJ",
+            "type": 3,
+            "api": "csp_Djlh",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "蜻蜓FM",
+            "name": "蜻蜓｜FM",
+            "type": 3,
+            "api": "csp_QingtingFM",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
+            "key": "世界听书",
+            "name": "世界｜听书",
+            "type": 3,
+            "api": "csp_TingShijie",
+            "style": {
+                "type": "list"
+            }
+        },
+        {
             "key": "戏曲多多",
             "name": "戏曲｜多多",
             "type": 3,
@@ -791,6 +821,12 @@
             "style": {
                 "type": "list"
             }
+        },
+        {
+            "key": "爱听音乐",
+            "name": "爱听｜音乐",
+            "type": 3,
+            "api": "./py/爱听音乐.py"
         },
         {
             "key": "网络直播",

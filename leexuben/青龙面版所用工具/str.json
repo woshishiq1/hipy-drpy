@@ -1,0 +1,14 @@
+[
+     {
+       "name":"纯福利",
+        "url":"https://raw.githubusercontent.com/leexuben/TV-BOX/refs/heads/main/%E7%BA%AF%E7%A6%8F%E5%88%A9/%E7%BA%AF%E7%A6%8F%E5%88%A9.json",
+        "jar":"https://hub.gitmirror.com/raw.githubusercontent.com/leexuben/TV-BOX/refs/heads/main/%E7%BA%AF%E7%A6%8F%E5%88%A9/jar/xyq.jar",
+        "base":"https://hub.gitmirror.com/raw.githubusercontent.com/leexuben/TV-BOX/refs/heads/main/%E7%BA%AF%E7%A6%8F%E5%88%A9/"
+     },
+     {
+       "name":"qist",
+        "url":"https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/9918.json",
+        "jar":"https://hub.gitmirror.com/raw.githubusercontent.com/qist/tvbox/refs/heads/master/jar/pg.jar;md5;988ca838860b1f359a048e2b177cd8a0",
+        "base":"https://hub.gitmirror.com/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/"
+     }
+]

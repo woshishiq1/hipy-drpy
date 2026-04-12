@@ -1,0 +1,26 @@
+[
+     {
+       "name":"bingo",
+        "url":"https://raw.githubusercontent.com/leexuben/BINGO-TV/refs/heads/main/20251106.json",
+        "jar":"https://hub.gitmirror.com/raw.githubusercontent.com/leexuben/TV-BOX/refs/heads/main/备份/tvboxqq/潇洒/spider.jar",
+        "base":"https://hub.gitmirror.com/raw.githubusercontent.com/leexuben/BINGO-TV/refs/heads/main/"
+     },
+     {
+        "name":"巧技",
+        "url":"https://pandown.pro/tvbox/tvbox.json",
+        "jar":"http://tv.laohu.cool/lh250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
+        "base":"https://pandown.pro/tvbox/" 
+      },
+	    {
+       "name":"南风",
+        "url":"https://hub.gitmirror.com/raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+        "jar":"https://jihulab.com/yoursmile6/TVBox/-/raw/main/Yoursmile.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
+        "base":"https://hub.gitmirror.com/raw.githubusercontent.com/yoursmile66/TVBox/main/"
+     },
+      {
+       "name":"王二小",
+        "url":"https://raw.githubusercontent.com/leexuben/TV-BOX/refs/heads/main/备份/tvboxTW/本地【王二小线】/api.json",
+        "jar":"https://hub.gitmirror.com/raw.githubusercontent.com/leexuben/TV-BOX/refs/heads/main/备份/tvboxTW/本地【王二小线】/spider.jar",
+        "base":"https://hub.gitmirror.com/raw.githubusercontent.com/leexuben/TV-BOX/refs/heads/main/备份/tvboxTW/本地【王二小线】/"
+     }
+]

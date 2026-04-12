@@ -810,13 +810,23 @@
             "timeout": 60
         },
         {
+            "key": "指南",
+            "name": "🍊指南4K",
+            "type": 3,
+            "api": "csp_4KZhinan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "timeout": 60
+        },
+        {
             "key": "人人",
             "name": "🧑人人4K",
             "type": 3,
             "api": "csp_RenRen",
             "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
+            "quickSearch": 1,
+            "filterable": 1,
             "timeout": 60
         },
         {
@@ -36077,6 +36087,17 @@
             "name": "🍊聚合短剧",
             "type": 3,
             "api": "./js/聚合短剧.js"
+        },
+        {
+            "key": "围观短剧",
+            "name": "🍊围观短剧",
+            "type": 3,
+            "api": "csp_WeiguanDJ",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "genre": "shortdrama"
         },
         {
             "key": "甜圈短剧",

@@ -965,6 +965,15 @@
             "quickSearch": 1
         },
         {
+            "key": "咪视界",
+            "name": "❄️咪视界4K",
+            "type": 4,
+            "api": "./XBPQ/咪视界.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
             "key": "修罗",
             "name": "🍊修罗磁力",
             "api": "csp_Xlys",

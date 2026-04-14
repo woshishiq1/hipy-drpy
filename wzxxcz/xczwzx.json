@@ -561,7 +561,7 @@
             "name": "🍊修罗磁力",
             "api": "csp_Xlys",
             "type": 3,
-            "ext": "https://www.xlys02.com"
+            "ext": "https://xl02.com.de"
         },
         {
             "key": "七味",
@@ -572,7 +572,7 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": {
-                "url": "https://www.pkmp4.xyz,https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com"
+                "url": "https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com,https://www.qncool.com"
             }
         },
         {
@@ -1116,21 +1116,6 @@
             "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
         },
         {
-            "key": "奇奇",
-            "name": "🐎奇奇影视",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "http://110.42.67.221:8002",
-                "dataKey": "123456789abcdefg",
-                "dataIv": "123456789abcdefg",
-                "init": "initV122",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "老鹰",
             "name": "🦅老鹰影视",
             "type": 3,
@@ -1148,9 +1133,9 @@
             "key": "星空",
             "name": "🌟星空影视",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "url": "http://xk7.xkgzs.xyz",
                 "dataKey": "107jkcdncofcdkjk",
@@ -1205,34 +1190,6 @@
                 "url": "http://211.154.24.56:8369",
                 "dataKey": "685bf108bc47b67d",
                 "dataIv": "685bf108bc47b67d"
-            }
-        },
-        {
-            "key": "瑞奇",
-            "name": "🍊瑞奇影视",
-            "type": 3,
-            "searchable": 1,
-            "changeable": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "url": "http://rqxk.gdata.fun",
-                "dataKey": "yangruiqiYsapp00",
-                "dataIv": "yangruiqiYsapp00"
-            }
-        },
-        {
-            "key": "爱盈",
-            "name": "🍊爱盈影视",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt",
-                "dataKey": "sjvlwnhk6h9znl61",
-                "dataIv": "sjvlwnhk6h9znl61",
-                "version": "305",
-                "ua": "okhttp/3.10.0"
             }
         },
         {
@@ -2214,7 +2171,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://www.czzymovie.com"
+            "ext": "https://www.czzy89.com"
         },
         {
             "key": "扁豆影院",
@@ -4580,7 +4537,6 @@
                 "ratio": 1.433
             },
             "ext": {
-                "json": "./json/哔哩视频.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             }
         },
@@ -4631,22 +4587,6 @@
             }
         },
         {
-            "key": "爱影",
-            "name": "💰爱影影视",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q21.txt",
-                "dataKey": "okkfKgnc9JIBISh1",
-                "dataIv": "okkfKgnc9JIBISh1",
-                "init": "initV122",
-                "search": "mineInfo",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
             "key": "花猪",
             "name": "🐗花猪影视",
             "type": 3,
@@ -4673,19 +4613,6 @@
                 "dataIv": "ca94b06ca359d80e",
                 "init": "initV120",
                 "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "段友",
-            "name": "🍊段友影视",
-            "type": 3,
-            "api": "csp_AppGet",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "url": "https://shangjihuoke.com",
-                "dataKey": "8E2DC386FD452D05",
-                "dataIv": "8E2DC386FD452D05"
             }
         },
         {
@@ -4729,49 +4656,12 @@
             }
         },
         {
-            "key": "小羊",
-            "name": "🐏小羊影视",
-            "type": 3,
-            "api": "csp_AppQi",
-            "ext": {
-                "url": "https://qjappcms410.xy4k.com",
-                "dataKey": "mC6kG4mI1uM8tS4o",
-                "dataIv": "mC6kG4mI1uM8tS4o"
-            }
-        },
-        {
-            "key": "优兔",
-            "name": "🐇优兔影视",
-            "type": 3,
-            "api": "csp_AppQi",
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
-                "dataKey": "UrWKPnmQWJA8AQzd",
-                "dataIv": "UrWKPnmQWJA8AQzd",
-                "ua": "okhttp/3.10.0"
-            }
-        },
-        {
-            "key": "坚果",
-            "name": "🍊坚果影视",
-            "type": 3,
-            "quickSearch": 1,
-            "api": "csp_AppGet",
-            "ext": {
-                "site": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt",
-                "dataKey": "2015692015692015",
-                "dataIv": "2015692015692015"
-            }
-        },
-        {
             "key": "王子",
             "name": "🤴王子影视",
             "type": 3,
+            "api": "csp_AppGet",
             "searchable": 1,
             "changeable": 1,
-            "api": "csp_AppGet",
             "ext": {
                 "url": "https://app.95112475.xyz",
                 "dataKey": "5a9w6x58dsq6z3a6",

@@ -149,9 +149,8 @@ tags: [sing-box, sing-boxr, Windows, ruleset, rule_set, 分享]
       { "rule_set": [ "proxy" ], "outbound": "国外域名" },
       { "rule_set": [ "cn" ], "outbound": "国内域名" },
       { "ip_is_private": true, "outbound": "私有网络" },
-      { "rule_set": [ "telegramip" ], "outbound": "电报消息" },
-      { "action": "resolve", "match_only": true },
-      { "rule_set": [ "cnip" ], "outbound": "国内 IP" }
+      { "rule_set": [ "cnip" ], "outbound": "国内 IP" },
+      { "rule_set": [ "telegramip" ], "outbound": "电报消息" }
     ],
     "rule_set": [
       {

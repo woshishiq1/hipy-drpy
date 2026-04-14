@@ -97,8 +97,9 @@ tags: [sing-box, sing-boxr, ShellCrash, ruleset, rule_set, 分享, Router]
       { "rule_set": [ "proxy" ], "outbound": "国外域名" },
       { "rule_set": [ "cn" ], "outbound": "国内域名" },
       { "ip_is_private": true, "outbound": "私有网络" },
-      { "rule_set": [ "cnip" ], "outbound": "国内 IP" },
-      { "rule_set": [ "telegramip" ], "outbound": "电报消息" }
+      { "rule_set": [ "telegramip" ], "outbound": "电报消息" },
+      { "action": "resolve", "match_only": true },
+      { "rule_set": [ "cnip" ], "outbound": "国内 IP" }
     ],
     "rule_set": [
       {
@@ -313,7 +314,7 @@ sc
     "clash_api": {
       "external_controller": "0.0.0.0:9999",
       "external_ui": "ui",
-      "external_ui_download_url": "https://github.com/Zephyruso/zashboard/archive/gh-pages.zip",
+      "external_ui_download_url": "https://github.com/Zephyruso/zashboard/archive/gh-pages-cdn-fonts.zip",
       "secret": ""
     },
     "urltest_unified_delay": true

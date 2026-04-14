@@ -117,7 +117,8 @@
       {"rule_set": ["youtube", "google"], "outbound": "🧭 Google Services"},
       {"rule_set": ["ai", "twitter", "!cn"], "outbound": "📦 CATCH_ALL"},
       {"rule_set": "cn", "outbound": "direct"},
-      // {"action": "resolve", "match_only": true}, 新配置的evaluate写法已经不太需要resolve了，可以删掉，具体解释比较复杂，自己看 https://github.com/copilot/share/082100a8-0020-8c00-9051-b64a806f493b
+      {"action": "resolve"}, // 新配置的evaluate写法在使用纯tun与tproxy劫持dns的情况下已经不太需要resolve了，但考虑到用mixed代理共享的情况，所以还是加上"resolve"，具体解释比较复杂，
+      // 自己看 https://github.com/copilot/share/082100a8-0020-8c00-9051-b64a806f493b;  https://t.me/sing_box_community/152878
       {"rule_set": "cn_ip", "outbound": "direct"}
     ],
     "rule_set": [

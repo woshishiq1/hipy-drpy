@@ -361,11 +361,12 @@ Windows Registry Editor Version 5.00
         if [ -f "./sing-box/sing-box.exe" ]; then
           echo "检测到已安装 sing-boxr 内核，是否更新？（Y/n）"
           while true; do
-            read -r choice
+            read -n1 -r choice
             case $choice in
-              Y|y)
+              [Yy])
+                echo
                 echo "下载 sing-boxr 内核..."
-                curl -o "$USERPROFILE/Downloads/sing-box.exe" -L https://ghfast.top/https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-test-windows-amd64-v3.exe
+                curl -sS -o "$USERPROFILE/Downloads/sing-box.exe" -L https://ghfast.top/https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-test-windows-amd64-v3.exe
                 echo "下载 sing-boxr 内核成功"
 
                 echo "结束 sing-boxr 相关进程..."
@@ -377,20 +378,21 @@ Windows Registry Editor Version 5.00
                 if [ -f "./sing-box/config.json" ]; then
                   echo "更新 sing-boxr 内核成功，是否启动服务？（Y/n）"
                   while true; do
-                    read -r choice
+                    read -n1 -r choice
                     case $choice in
-                      Y|y)
+                      [Yy])
+                        echo
                         echo "启动 sing-boxr 服务..."
                         cd ./sing-box
                         start //min sing-box.exe run
                         read -n1 -r -p "启动 sing-boxr 服务成功，按任意键返回菜单..."
                         break
                         ;;
-                      N|n)
-                        read -n1 -r -p "取消启动服务，按任意键返回菜单..."
+                      [Nn])
                         break
                         ;;
                       *)
+                        echo
                         echo "无效选择，请重新输入！"
                         ;;
                     esac
@@ -402,11 +404,11 @@ Windows Registry Editor Version 5.00
                   break
                 fi
                 ;;
-              N|n)
-                read -n1 -r -p "取消更新内核，按任意键返回菜单..."
+              [Nn])
                 break
                 ;;
               *)
+                echo
                 echo "无效选择，请重新输入！"
                 ;;
             esac
@@ -414,8 +416,8 @@ Windows Registry Editor Version 5.00
         else
           echo "检测到未安装 sing-boxr 内核，正在安装..."
           mkdir -p ./sing-box/ui
-          curl -o ./sing-box/sing-box.exe -L https://ghfast.top/https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-test-windows-amd64-v3.exe
-          curl -L https://ghfast.top/https://github.com/DustinWin/proxy-tools/releases/download/Dashboard/zashboard.tar.gz | tar -zx -C ./sing-box/ui
+          curl -sS -o ./sing-box/sing-box.exe -L https://ghfast.top/https://github.com/DustinWin/proxy-tools/releases/download/sing-box/sing-box-ref1nd-test-windows-amd64-v3.exe
+          curl -sS -L https://ghfast.top/https://github.com/DustinWin/proxy-tools/releases/download/Dashboard/zashboard.tar.gz | tar -zx -C ./sing-box/ui
           echo "安装 sing-boxr 内核和面板成功"
 
           echo "赋予 sing-box 权限..."
@@ -435,20 +437,21 @@ Windows Registry Editor Version 5.00
       2)
         ask_run(){
           while true; do
-            read -r choice
+            read -n1 -r choice
             case $choice in
-              Y|y)
+              [Yy])
+                echo
                 echo "启动 sing-boxr 服务..."
                 cd ./sing-box
                 start //min sing-box.exe run
                 read -n1 -r -p "启动 sing-boxr 服务成功，按任意键返回菜单..."
                 break
                 ;;
-              N|n)
-                read -n1 -r -p "取消启动服务，按任意键返回菜单..."
+              [Nn])
                 break
                 ;;
               *)
+                echo
                 echo "无效选择，请重新输入！"
                 ;;
             esac
@@ -461,11 +464,12 @@ Windows Registry Editor Version 5.00
           if [ -f "./sing-box/config.json" ]; then
             echo "检测到配置文件，是否更新？（Y/n）"
             while true; do
-              read -r choice
+              read -n1 -r choice
               case $choice in
-                Y|y)
+                [Yy])
+                  echo
                   echo "下载配置文件..."
-                  curl -o "$USERPROFILE/Downloads/config.json" -L https://ghfast.top/{.json 配置文件直链}
+                  curl -sS -o "$USERPROFILE/Downloads/config.json" -L https://ghfast.top/{.json 配置文件直链}
                   echo "下载配置文件成功"
 
                   echo "结束 sing-boxr 相关进程..."
@@ -478,18 +482,18 @@ Windows Registry Editor Version 5.00
                   ask_run
                   break
                   ;;
-                N|n)
-                  read -n1 -r -p "取消更新配置文件，按任意键返回菜单..."
+                [Nn])
                   break
                   ;;
                 *)
+                  echo
                   echo "无效选择，请重新输入！"
                   ;;
               esac
             done
           else
             echo "未检测到配置文件，导入配置文件..."
-            curl -o "$USERPROFILE/Downloads/config.json" -L https://ghfast.top/{.json 配置文件直链}
+            curl -sS -o "$USERPROFILE/Downloads/config.json" -L https://ghfast.top/{.json 配置文件直链}
             mv -f "$USERPROFILE/Downloads/config.json" ./sing-box
             echo "导入配置文件成功，是否启动服务？（Y/n）"
             ask_run

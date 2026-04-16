@@ -192,6 +192,8 @@ dns:
     - GEOSITE,apple-cn,real-ip
     - GEOSITE,google-cn,real-ip
     - GEOSITE,games-cn,real-ip
+    - GEOSITE,games,fake-ip
+    - GEOSITE,ai,fake-ip
     - GEOSITE,proxy,fake-ip
     - GEOSITE,private,real-ip
     - GEOSITE,cn,real-ip

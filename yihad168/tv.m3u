@@ -620,6 +620,189 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs11
 #########################################
 
 
+#EXTM3U url-tvg="https://arva.netgenx.site/epg/kai-epg.xml" tvg-shift=0 m3uautoload=1
+
+#EXTINF:-1 group-title="Tokyo" tvg-id="joakdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe0-011-400x400.png",NHK G
+https://living9.jpantv.live/jp1/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="Tokyo" tvg-id="joabdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe1-021-400x400.png",NHK E
+https://living9.jpantv.live/jp3/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="Tokyo" tvg-id="joaxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe2-041-400x400.png",NTV
+https://living9.jpantv.live/jp4/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="Tokyo" tvg-id="joexdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe5-051-400x400.png",TV Asahi
+https://living9.jpantv.live/jp7/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="Tokyo" tvg-id="jorxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe3-061-400x400.png",TBS
+https://living9.jpantv.live/jp5/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="Tokyo" tvg-id="jotxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe6-071-400x400.png",TV Tokyo
+https://living9.jpantv.live/jp8/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="Tokyo" tvg-id="jocxdtv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7fe4-081-400x400.png",Fuji TV
+https://living9.jpantv.live/jp6/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="Tokyo" tvg-id="tokyomx1.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-091-400x400.png",Tokyo MX1
+https://living9.jpantv.live/jp9/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="Tokyo" tvg-id="tokyomx2.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7e87-093-400x400.png",Tokyo MX2
+https://living9.jpantv.live/jp10/playlist.m3u8?token=QA3APiYwbB
+
+#EXTINF:-1 group-title="BS" tvg-id="nhkbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-101-400x400.png",NHK BS
+https://living9.jpantv.live/jp19/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bsnippontv.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-141-400x400.png",BS NTV
+https://living9.japntv.live/jp21/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bsasahi.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-151-400x400.png",BS Asahi
+https://living9.jpantv.live/jp22/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bstbs.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-161-400x400.png",BS TBS
+https://living9.jpantv.live/jp24/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bstvtokyo.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-171-400x400.png",BS TV Tokyo
+https://living9.jpantv.live/jp26/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bsfuji.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-181-400x400.png",BS Fuji
+https://living9.jpantv.live/jp27/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bs10_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-200-400x400.png",BS 10
+https://living9.jpantv.live/jp34/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bs11.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-211-400x400.png",BS 11
+https://living9.jpantv.live/jp28/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bs12トゥエルビ_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-222-400x400.png",BS 12
+https://living9.jpantv.live/jp29/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="nhkbsp4k.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-000b-101-400x400.png",NHK BS4K
+https://living9.jpantv.live/jp17/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="wowowprime.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs191.gif",WOWOW Prime 
+https://living9.jpantv.live/jp30/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="wowowcinema.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs193.gif",WOWOW Cinema
+https://living9.jpantv.live/jp31/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="wowowlive.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs192.gif",WOWOW Live
+https://living9.jpantv.live/jp32/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bs10プレミアム_jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs201.gif",BS 10 Premium
+https://living9.japntv.live/jp35/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="jsports1.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs242.gif",JSport 1
+https://living9.jpantv.live/jp40/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="jsports2.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs243.gif",JSport 2
+https://living1.jpantv.live/jp41/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="jsports3.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs244.gif",JSport 3
+https://living1.jpantv.live/jp42/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="jsports4.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs245.gif",JSport 4
+https://living1.japntv.live/jp43/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="greenchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs234.gif",Green Channel
+https://living9.jpantv.live/jp39/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="animax.in" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs236.gif",Animax
+https://living9.jpantv.live/jp45/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="nihoneigasenmonchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs255.gif",Nihon Eiga Senmon
+https://living9.jpantv.live/jp36/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="wowwowplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs252.gif",WOWOW Plus
+https://living9.jpantv.live/jp33/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="bsyoshimoto.jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-265-400x400.png",BS Yoshimoto
+https://living9.jpantv.live/jp38/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="fishingvision.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs251.gif",Fishing Vision
+https://living9.jpantv.live/jp44/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="disneychannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/bs256.gif",Disney Channel
+https://living9.jpantv.live/jp46/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="BS" tvg-id="j-com-bs_jp" tvg-logo="https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-260-400x400.png",Jcom BS
+https://living9.jpantv.live/jp37/playlist.m3u8?token=QA3APiYwbB
+
+#EXTINF:-1 group-title="CS" tvg-id="gaorasports.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs254.gif",Gaora Sports
+https://living1.jpantv.live/jp62/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="atx.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs333.gif",AT-X
+https://living1.jpantv.live/jp83/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="spaceshowertv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs322.gif",Space Shower TV
+https://living1.jpantv.live/jp76/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="mtv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs323.gif",MTV
+https://living1.jpantv.live/jp77/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="mnet.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs318.gif",Mnet
+https://uk.utako.moe/mnet/video.m3u8
+#EXTINF:-1 group-title="CS" tvg-id="superdramatv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/647.gif",Super Drama TV
+https://living1.jpantv.live/jp56/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="thecinema.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs227.gif",The Cinema
+https://living1.jpantv.live/jp50/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="kayopops.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs329.gif",Kayo Pops
+https://living1.jpantv.live/jp81/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="kidsstation.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs330.gif",Kids Station
+https://living1.jpantv.live/jp82/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="cartoonnetwork.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs331.gif",Cartoon Network Japan
+https://living1.jpantv.live/jp87/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="nittelegplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs257.gif",NTV G+
+https://living1.jpantv.live/jp63/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="nitteleplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs300.gif",NTV Plus
+https://living1.jpantv.live/jp71/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="familygekijyo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs293.gif",Family Gekijo
+https://living1.jpantv.live/jp53/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="mondotv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs295.gif",Mondo TV
+https://living1.jpantv.live/jp55/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="tbschannel1.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs296.gif",TBS Channel 1
+https://living1.jpantv.live/jp67/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="tbschannel2.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs297.gif",TBS Channel 2
+https://living1.jpantv.live/jp68/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="tvasahichannel1.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs298.gif",TV Asahi Channel 1
+https://living1.jpantv.live/jp69/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="tvasahichannel2.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs299.gif",TV Asahi Channel 2
+https://living1.jpantv.live/jp70/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="fujitvone.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs307.gif",Fuji TV One
+https://living1.jpantv.live/jp73/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="fujitvtwo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs308.gif",Fuji TV Two
+https://living1.jpantv.live/jp74/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="fujitvnext.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs309.gif",Fuji TV Next
+https://living1.jpantv.live/jp75/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="channelneco.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs223.gif",Neco Channel
+https://living1.jpantv.live/jp49/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="dlife.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs312.gif",Dlife
+https://living1.jpantv.live/jp57/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="toeichannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs218.gif",Toei Channel
+https://living1.jpantv.live/jp47/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="fightingtvsamurai.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/600.gif",Fighting TV Samurai
+https://living1.jpantv.live/jp65/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="entermeitele.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs301.gif",Me-Tele Next
+https://living1.jpantv.live/jp86/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="sportsliveplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/580.gif",Sport live plus
+https://living1.jpantv.live/jp66/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="igoshogichannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs363.gif",Shogi Channel
+https://living1.jpantv.live/jp98/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="homedramachannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs294.gif",Home Drama Channel
+https://living1.jpantv.live/jp54/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="channelginga.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs305.gif",Channel Ginga
+https://living1.jpantv.live/jp72/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="tabichannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/544.gif",Tabi Channel
+https://living1.jpantv.live/jp92/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="tetsudochannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/546.gif",Tetsudo Channel
+https://living1.jpantv.live/jp93/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="musicontv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs325.gif",Music On! TV
+https://living1.jpantv.live/jp78/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="musicair.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs324.gif",Music Air
+https://living1.jpantv.live/jp79/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="axn.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs311.gif",Action Channel(AXN)
+https://living1.jpantv.live/jp59/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="mysterychannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs316.gif",Mystery Channel
+https://living1.jpantv.live/jp60/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="shopchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/523.gif",Shop Channel
+https://stream3.shopch.jp/HLS/master.m3u8
+#EXTINF:-1 group-title="CS" tvg-id="qvc.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/525.gif",QVC
+https://cdn-live1.qvc.jp/iPhone/1501/1501.m3u8
+#EXTINF:-1 group-title="CS" tvg-id="gstv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/527.gif",GSTV
+https://arva.netgenx.site/stream/jp/gstv/stream-output.m3u8?mode=hls
+#EXTINF:-1 group-title="CS" tvg-id="jidaigekisenmonchannel.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs292.gif",Jidaigeki Senmon
+https://living1.jpantv.live/jp52/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="eiseigekijo.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs219.gif",Eisei Gekijo
+https://living1.jpantv.live/jp48/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="movieplus.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs240.gif",Movie Plus
+https://living1.jpantv.live/jp51/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="golfnetwork.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs262.gif",Golf Network
+https://living1.jpantv.live/jp64/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="musicjapantv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/premium/639.gif",Music Japan TV
+https://living1.jpantv.live/jp80/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="lalatv.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs314.gif",LaLa TV
+https://living1.jpantv.live/jp58/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="takarazukaskystage.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs290.gif",Takarazuka Sky Stage
+https://living1.jpantv.live/jp94/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="nationalgeographicjapan.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs343.gif",National Geographic Japan
+https://living1.jpantv.live/jp89/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="disneyjunior.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs339.gif",Disney Junior
+https://living1.jpantv.live/jp84/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="discoverychannelsoutheast.sg@japan" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs340.gif",Discovery Channel  
+https://living1.jpantv.live/jp90/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="animalplanet.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs341.gif",Animal Planet
+https://living1.jpantv.live/jp91/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="ntvnews24.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs349.gif",NTV News24
+https://living1.jpantv.live/jp95/playlist.m3u8?token=QA3APiYwbB
+#EXTINF:-1 group-title="CS" tvg-id="cnnj.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs354.gif",CNNj 
+http://cdns.kaitekitv.com:8000/zhongying/live/playlist.m3u8?cid=cs16&isp=1-15
+#EXTINF:-1 group-title="CS" tvg-id="bbcnews.uk@asiapacific" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs353.gif",BBC News  
+http://cdns.kaitekitv.com:8000/zhongying/live/playlist.m3u8?cid=cs15&isp=1-15
+#EXTINF:-1 group-title="CS" tvg-id="tbsnewscs.jp" tvg-logo="https://www.skyperfectv.co.jp/library/common/img/channel/icon/basic/cs351.gif",TBS News
+https://living1.jpantv.live/jp96/playlist.m3u8?token=QA3APiYwbB
+
 
 
 
@@ -664,6 +847,18 @@ https://raw.githubusercontent.com/Hsudavid/app/main/肥猫.json"
 https://raw.githubusercontent.com/Hsudavid/app/main/潇洒不內置.JSON
 饭太硬
 http://www.饭太硬.com/tv
+
+
+catvod接口:
+https://tvbox.catvod.com/xs/api.json
+
+https://hyhy65.lanzoui.com/b0hdjcd1g
+
+海豚佬接口：
+https://ghfast.top/https://raw.githuburcontent.com/FGBLH/FG/refs/heads/main/海豚影视
+
+https://ghfast.top/https://raw.githuburcontent.com/FGBLH/FG/refs/heads/main/海豚影视无18加
+
 
 #########################################
          台灣數位電視台
@@ -4276,6 +4471,161 @@ https://vod2.abn.co.kr/IPHONE/abn.m3u8
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
 
 
+#EXTINF:-1 tvg-name="YTN" tvg-logo="https://pjytv.760515.xyz/logo/YTN.png" group-title="韓國頻道",YTN
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=YTN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jYTk0MDRiZjExMTQ=
+#EXTINF:-1 tvg-name="YTN2" tvg-logo="https://pjytv.760515.xyz/logo/YTN2.png" group-title="韓國頻道",YTN2
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=YTN2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lMmM3YThmMzExMTU=
+#EXTINF:-1 tvg-name="YTN사이언스" tvg-logo="https://pjytv.760515.xyz/logo/YTN사이언스.png" group-title="韓國頻道",YTN사이언스
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=YTN%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1mNTI0ODU4NzExMTY=
+#EXTINF:-1 tvg-name="연합뉴스TV" tvg-logo="https://pjytv.760515.xyz/logo/연합뉴스TV.png" group-title="韓國頻道",연합뉴스TV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%97%B0%ED%95%A9%EB%89%B4%EC%8A%A4TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zZWUxYWE2ZDExMTc=
+#EXTINF:-1 tvg-name="JTBC" tvg-logo="https://pjytv.760515.xyz/logo/JTBC.png" group-title="韓國頻道",JTBC
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=JTBC&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jYTZiNTQ3MjExMTg=
+#EXTINF:-1 tvg-name="JTBC2" tvg-logo="https://pjytv.760515.xyz/logo/JTBC2.png" group-title="韓國頻道",JTBC2
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=JTBC2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wMDJkYzZiZjExMTk=
+#EXTINF:-1 tvg-name="JTBC4" tvg-logo="https://pjytv.760515.xyz/logo/JTBC4.png" group-title="韓國頻道",JTBC4
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=JTBC4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0xZGNlMTg3MDExMjA=
+#EXTINF:-1 tvg-name="tvN" tvg-logo="https://pjytv.760515.xyz/logo/tvN.png" group-title="韓國頻道",tvN
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=tvN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yZjQ4YmVjNjExMjE=
+#EXTINF:-1 tvg-name="tvN SHOW" tvg-logo="https://pjytv.760515.xyz/logo/tvN SHOW.png" group-title="韓國頻道",tvN SHOW
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=tvN%20SHOW&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04MTk5ZGVlMDExMjI=
+#EXTINF:-1 tvg-name="tvN DRAMA" tvg-logo="https://pjytv.760515.xyz/logo/tvN DRAMA.png" group-title="韓國頻道",tvN DRAMA
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=tvN%20DRAMA&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00ZDI2ZTE3ZTExMjM=
+#EXTINF:-1 tvg-name="tvN STORY" tvg-logo="https://pjytv.760515.xyz/logo/tvN STORY.png" group-title="韓國頻道",tvN STORY
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=tvN%20STORY&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00ODE3Zjg1ZDExMjQ=
+#EXTINF:-1 tvg-name="채널A" tvg-logo="https://pjytv.760515.xyz/logo/채널A.png" group-title="韓國頻道",채널A
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%B1%84%EB%84%90A&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jNGJjYTViYzExMjU=
+#EXTINF:-1 tvg-name="채널A플러스" tvg-logo="https://pjytv.760515.xyz/logo/채널A플러스.png" group-title="韓國頻道",채널A플러스
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%B1%84%EB%84%90A%ED%94%8C%EB%9F%AC%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01OWE4ZDgyODExMjY=
+#EXTINF:-1 tvg-name="TV CHOSUN" tvg-logo="https://pjytv.760515.xyz/logo/TV CHOSUN.png" group-title="韓國頻道",TV CHOSUN
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=TV%20CHOSUN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wYjdkNWRiZDExMjc=
+#EXTINF:-1 tvg-name="TV CHOSUN 2" tvg-logo="https://pjytv.760515.xyz/logo/TV CHOSUN 2.png" group-title="韓國頻道",TV CHOSUN 2
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=TV%20CHOSUN%202&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yNTQxOWJlOTExMjg=
+#EXTINF:-1 tvg-name="Mnet" tvg-logo="https://pjytv.760515.xyz/logo/Mnet.png" group-title="韓國頻道",Mnet
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=Mnet&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wMjM0NjYwMjExMjk=
+#EXTINF:-1 tvg-name="MBN" tvg-logo="https://pjytv.760515.xyz/logo/MBN.png" group-title="韓國頻道",MBN
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kODhlMzc4MDExMzA=
+#EXTINF:-1 tvg-name="MBN 플러스" tvg-logo="https://pjytv.760515.xyz/logo/MBN 플러스.png" group-title="韓國頻道",MBN 플러스
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBN%20%ED%94%8C%EB%9F%AC%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1hMGJlNmYxNzExMzE=
+#EXTINF:-1 tvg-name="LIFETIME" tvg-logo="https://pjytv.760515.xyz/logo/LIFETIME.png" group-title="韓國頻道",LIFETIME
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=LIFETIME&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zYTZlNDdjYzExMzI=
+#EXTINF:-1 tvg-name="중화TV" tvg-logo="https://pjytv.760515.xyz/logo/중화TV.png" group-title="韓國頻道",중화TV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%A4%91%ED%99%94TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02MmUyZTVjZTExMzM=
+#EXTINF:-1 tvg-name="히스토리" tvg-logo="https://pjytv.760515.xyz/logo/히스토리.png" group-title="韓國頻道",히스토리
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lMmMxMjZiZDExMzQ=
+#EXTINF:-1 tvg-name="EBS1" tvg-logo="https://pjytv.760515.xyz/logo/EBS1.png" group-title="韓國頻道",EBS1
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01YWU1ODU2YjExMzU=
+#EXTINF:-1 tvg-name="국회방송(NATV)" tvg-logo="https://pjytv.760515.xyz/logo/국회방송(NATV).png" group-title="韓國頻道",국회방송(NATV)
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EA%B5%AD%ED%9A%8C%EB%B0%A9%EC%86%A1(NATV)&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yOWFhNjA0ZTExMzY=
+#EXTINF:-1 tvg-name="ANIBOX" tvg-logo="https://pjytv.760515.xyz/logo/ANIBOX.png" group-title="韓國頻道",ANIBOX
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=ANIBOX&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jMmJhNTZjNjExMzc=
+#EXTINF:-1 tvg-name="애니맥스" tvg-logo="https://pjytv.760515.xyz/logo/애니맥스.png" group-title="韓國頻道",애니맥스
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%95%A0%EB%8B%88%EB%A7%A5%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02Y2ViMTdlZjExMzg=
+#EXTINF:-1 tvg-name="투니버스" tvg-logo="https://pjytv.760515.xyz/logo/투니버스.png" group-title="韓國頻道",투니버스
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%ED%88%AC%EB%8B%88%EB%B2%84%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1mYjZhMTViNjExMzk=
+#EXTINF:-1 tvg-name="KBS1" tvg-logo="https://pjytv.760515.xyz/logo/KBS1.png" group-title="韓國頻道",KBS1
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD03MmZmYTkyMzExNDA=
+#EXTINF:-1 tvg-name="KBS2" tvg-logo="https://pjytv.760515.xyz/logo/KBS2.png" group-title="韓國頻道",KBS2
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wYjlhOWRmOTExNDE=
+#EXTINF:-1 tvg-name="KBS드라마" tvg-logo="https://pjytv.760515.xyz/logo/KBS드라마.png" group-title="韓國頻道",KBS드라마
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%EB%93%9C%EB%9D%BC%EB%A7%88&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wYTFmMDUyMTExNDI=
+#EXTINF:-1 tvg-name="KBS조이" tvg-logo="https://pjytv.760515.xyz/logo/KBS조이.png" group-title="韓國頻道",KBS조이
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%EC%A1%B0%EC%9D%B4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kMWFmNTNhMDExNDM=
+#EXTINF:-1 tvg-name="KBS키즈" tvg-logo="https://pjytv.760515.xyz/logo/KBS키즈.png" group-title="韓國頻道",KBS키즈
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%ED%82%A4%EC%A6%88&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kZGY2MTUzZTExNDQ=
+#EXTINF:-1 tvg-name="KBS LIFE" tvg-logo="https://pjytv.760515.xyz/logo/KBS LIFE.png" group-title="韓國頻道",KBS LIFE
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%20LIFE&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iYThhMzVjMjExNDU=
+#EXTINF:-1 tvg-name="KBS Story" tvg-logo="https://pjytv.760515.xyz/logo/KBS Story.png" group-title="韓國頻道",KBS Story
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%20Story&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD03MTlhNDVjNTExNDY=
+#EXTINF:-1 tvg-name="KBS WORLD" tvg-logo="https://pjytv.760515.xyz/logo/KBS WORLD.png" group-title="韓國頻道",KBS WORLD
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%20WORLD&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02MjVlYjhiYjExNDc=
+#EXTINF:-1 tvg-name="KBS뉴스" tvg-logo="https://pjytv.760515.xyz/logo/KBS뉴스.png" group-title="韓國頻道",KBS뉴스
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%EB%89%B4%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kM2QzMmQzYTExNDg=
+#EXTINF:-1 tvg-name="SBS" tvg-logo="https://pjytv.760515.xyz/logo/SBS.png" group-title="韓國頻道",SBS
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wNWMzZTUxZjExNDk=
+#EXTINF:-1 tvg-name="SBS플러스" tvg-logo="https://pjytv.760515.xyz/logo/SBS플러스.png" group-title="韓國頻道",SBS플러스
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%ED%94%8C%EB%9F%AC%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04OGIyNWIzMjExNTA=
+#EXTINF:-1 tvg-name="SBS퍼니" tvg-logo="https://pjytv.760515.xyz/logo/SBS퍼니.png" group-title="韓國頻道",SBS퍼니
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%ED%8D%BC%EB%8B%88&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01OTZjZDhjNTExNTE=
+#EXTINF:-1 tvg-name="SBS LIFE" tvg-logo="https://pjytv.760515.xyz/logo/SBS LIFE.png" group-title="韓國頻道",SBS LIFE
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%20LIFE&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lZmRmYjZkZDExNTI=
+#EXTINF:-1 tvg-name="SBS KPOP" tvg-logo="https://pjytv.760515.xyz/logo/SBS KPOP.png" group-title="韓國頻道",SBS KPOP
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%20KPOP&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01Y2VkZjUzOTExNTM=
+#EXTINF:-1 tvg-name="SBS골프" tvg-logo="https://pjytv.760515.xyz/logo/SBS골프.png" group-title="韓國頻道",SBS골프
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%EA%B3%A8%ED%94%84&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01MmQyNGM3MTExNTQ=
+#EXTINF:-1 tvg-name="SBS Golf2" tvg-logo="https://pjytv.760515.xyz/logo/SBS Golf2.png" group-title="韓國頻道",SBS Golf2
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%20Golf2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04MTdjNGY2MTExNTU=
+#EXTINF:-1 tvg-name="SBS스포츠" tvg-logo="https://pjytv.760515.xyz/logo/SBS스포츠.png" group-title="韓國頻道",SBS스포츠
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%EC%8A%A4%ED%8F%AC%EC%B8%A0&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kOTJlOTM0ZDExNTY=
+#EXTINF:-1 tvg-name="SBS Biz" tvg-logo="https://pjytv.760515.xyz/logo/SBS Biz.png" group-title="韓國頻道",SBS Biz
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%20Biz&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02ZjliMDc4ZDExNTc=
+#EXTINF:-1 tvg-name="MBC" tvg-logo="https://pjytv.760515.xyz/logo/MBC.png" group-title="韓國頻道",MBC
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lMDkwZDcwMzExNTg=
+#EXTINF:-1 tvg-name="MBC드라마넷" tvg-logo="https://pjytv.760515.xyz/logo/MBC드라마넷.png" group-title="韓國頻道",MBC드라마넷
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC%EB%93%9C%EB%9D%BC%EB%A7%88%EB%84%B7&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01MzViMWI5ZTExNTk=
+#EXTINF:-1 tvg-name="MBC에브리원" tvg-logo="https://pjytv.760515.xyz/logo/MBC에브리원.png" group-title="韓國頻道",MBC에브리원
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC%EC%97%90%EB%B8%8C%EB%A6%AC%EC%9B%90&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0xNzU1MTcyZDExNjA=
+#EXTINF:-1 tvg-name="MBC M" tvg-logo="https://pjytv.760515.xyz/logo/MBC M.png" group-title="韓國頻道",MBC M
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC%20M&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jOThmYjk5NzExNjE=
+#EXTINF:-1 tvg-name="MBC ON" tvg-logo="https://pjytv.760515.xyz/logo/MBC ON.png" group-title="韓國頻道",MBC ON
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC%20ON&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yNmNjYTI4MTExNjI=
+#EXTINF:-1 tvg-name="MBCNET" tvg-logo="https://pjytv.760515.xyz/logo/MBCNET.png" group-title="韓國頻道",MBCNET
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBCNET&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00ODYzMzFkMzExNjM=
+#EXTINF:-1 tvg-name="아리랑TV" group-title="韓國頻道",아리랑TV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%95%84%EB%A6%AC%EB%9E%91TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jYWNhZWQyMDExNjQ=
+#EXTINF:-1 tvg-name="TBSTV" group-title="韓國頻道",TBSTV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=TBSTV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yOTc4ZTMwOTExNjU=
+#EXTINF:-1 tvg-name="ABN" tvg-logo="https://pjytv.760515.xyz/logo/ABN.png" group-title="韓國頻道",ABN
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=ABN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD03ZjVjNjBiYTExNjY=
+#EXTINF:-1 tvg-name="농협TV" tvg-logo="https://pjytv.760515.xyz/logo/농협TV.png" group-title="韓國頻道",농협TV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EB%86%8D%ED%98%91TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iNDQ4MTE5OTExNjc=
+#EXTINF:-1 tvg-name="복지TV" group-title="韓國頻道",복지TV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EB%B3%B5%EC%A7%80TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iMGU5MWQ0ZDExNjg=
+#EXTINF:-1 tvg-name="국민방송" tvg-logo="https://pjytv.760515.xyz/logo/국민방송.png" group-title="韓國頻道",국민방송
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EA%B5%AD%EB%AF%BC%EB%B0%A9%EC%86%A1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yZDJjMjFkMTExNjk=
+#EXTINF:-1 tvg-name="문화유산채널" tvg-logo="https://pjytv.760515.xyz/logo/문화유산채널.png" group-title="韓國頻道",문화유산채널
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EB%AC%B8%ED%99%94%EC%9C%A0%EC%82%B0%EC%B1%84%EB%84%90&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00MDhhMDQwZDExNzA=
+#EXTINF:-1 tvg-name="방송대학TV" tvg-logo="https://pjytv.760515.xyz/logo/방송대학TV.png" group-title="韓國頻道",방송대학TV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EB%B0%A9%EC%86%A1%EB%8C%80%ED%95%99TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD03OGJkOGRiYzExNzE=
+#EXTINF:-1 tvg-name="EBS1" tvg-logo="https://pjytv.760515.xyz/logo/EBS1.png" group-title="韓國頻道",EBS1
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yY2IyMmMwNzExNzI=
+#EXTINF:-1 tvg-name="EBS2" tvg-logo="https://pjytv.760515.xyz/logo/EBS2.png" group-title="韓國頻道",EBS2
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0xNzY1MDljOTExNzM=
+#EXTINF:-1 tvg-name="EBS+1" tvg-logo="https://pjytv.760515.xyz/logo/EBS+1.png" group-title="韓國頻道",EBS+1
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS%2B1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lMjIwMTQ0ODExNzQ=
+#EXTINF:-1 tvg-name="EBS+2" tvg-logo="https://pjytv.760515.xyz/logo/EBS+2.png" group-title="韓國頻道",EBS+2
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS%2B2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iMTE2NjVhZTExNzU=
+#EXTINF:-1 tvg-name="EBS English" tvg-logo="https://pjytv.760515.xyz/logo/EBS English.png" group-title="韓國頻道",EBS English
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS%20English&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lYzFlYjBjMzExNzY=
+
+#EXTINF:-1 tvg-name="CNN" group-title="韓國頻道",CNN
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=CNN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1mODFlZjYxYTExOTc=
+#EXTINF:-1 tvg-name="CBS News" group-title="韓國頻道",CBS News
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=CBS%20News&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zNjlkYzQ4NDExOTg=
+#EXTINF:-1 tvg-name="BBC" group-title="韓國頻道",BBC
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=BBC&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00OThjZmEwYjExOTk=
+#EXTINF:-1 tvg-name="Bloomberg" group-title="韓國頻道",Bloomberg
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=Bloomberg&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zMDk1MWEzZDEyMDA=
+#EXTINF:-1 tvg-name="Fox" group-title="韓國頻道",Fox
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=Fox&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wODljZmJhZTEyMDE=
+#EXTINF:-1 tvg-name="NHKWorld" group-title="韓國頻道",NHKWorld
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=NHKWorld&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zMTg4NWJhNDEyMDI=
+#EXTINF:-1 tvg-name="ANTV" group-title="韓國頻道",ANTV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=ANTV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zNzJmMzIzNjEyMDM=
+#EXTINF:-1 tvg-name="NDTV" group-title="韓國頻道",NDTV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=NDTV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02OTgwODlhYjEyMDQ=
+#EXTINF:-1 tvg-name="FashionTV" group-title="韓國頻道",FashionTV
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=FashionTV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00NjE3ZjUwMjEyMDU=
+#EXTINF:-1 tvg-name="MOVIE1" group-title="韓國頻道",MOVIE1
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MOVIE1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04MTdkYTQ5ZjEyMDY=
+#EXTINF:-1 tvg-name="MOVIE2" group-title="韓國頻道",MOVIE2
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MOVIE2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01MmMzOTNkODEyMDc=
+#EXTINF:-1 tvg-name="F1" group-title="韓國頻道",F1
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=F1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04ZjZmNmQxNjEyMDg=
+#EXTINF:-1 tvg-name="FAILARMY" group-title="韓國頻道",FAILARMY
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=FAILARMY&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wZWE1MjI1MjEyMDk=
+#EXTINF:-1 tvg-name="Drybarcomedy" group-title="韓國頻道",Drybarcomedy
+https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=Drybarcomedy&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iZDhmZTEwYjEyMTA=
 
 
 #########################################

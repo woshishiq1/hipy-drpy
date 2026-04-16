@@ -66,7 +66,7 @@ sed -i ':a;N;$!ba;s/{[[:space:]]*"ip_accept_any": true,[[:space:]]*"server": "ho
 ## 三、 DNS 防泄漏配置
 ### 1. DNS 模式为 `mix`（推荐）
 - ① 连接 SSH 后执行命令 `vi $CRASHDIR/jsons/dns.json`，按一下 Ins 键（Insert 键），修改为如下内容：
-  
+
   >推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS（可进入光猫或路由器拨号页面查看，或者前往[公共 DNS 大全](https://toolb.cn/publicdns)查询）的 IP 段，如默认 DNS 为 `211.137.58.20`，可设置为 `211.137.58.0/24`
   {: .prompt-info }
 
@@ -108,7 +108,9 @@ sed -i ':a;N;$!ba;s/{[[:space:]]*"ip_accept_any": true,[[:space:]]*"server": "ho
       "final": "dns_proxy",
       "strategy": "prefer_ipv4",
       "optimistic": true,
-      "reverse_mapping": true
+      "reverse_mapping": true,
+      // 推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS 的 IP 段
+      "client_subnet": "211.137.58.0/24"
     }
   }
   ```
@@ -173,20 +175,7 @@ sed -i ':a;N;$!ba;s/{[[:space:]]*"ip_accept_any": true,[[:space:]]*"server": "ho
   }
   ```
 
-  按一下 Esc 键（退出键），输入英文冒号 `:`，继续输入 `wq` 并回车
-- ② 连接 SSH 后执行命令 `vi $CRASHDIR/jsons/route.json`，按一下 Ins 键（Insert 键），粘贴如下内容：
-  - 注：为提高匹配效率，推荐参考《[生成带有自定义出站和规则的 sing-boxr 配置文件直链-ruleset 方案](https://proxy-tutorials.dustinwin.us.kg/posts/link-singboxr-ruleset/)》编写 `route.rules`，将 `"action": "resolve"` 放置在域名规则集之后，IP 规则集之前
-
-  ```json
-  {
-    "route": {
-      "rules": [
-        { "action": "resolve", "match_only": true }
-      ]
-  }
-  ```
-
-  按一下 Esc 键（退出键），输入英文冒号 `:`，继续输入 `wq` 并回车
+- ② 按一下 Esc 键（退出键），输入英文冒号 `:`，继续输入 `wq` 并回车
 
 ### 3. DNS 模式为 `redirhost`
 - ① 连接 SSH 后执行命令 `vi $CRASHDIR/jsons/dns.json`，按一下 Ins 键（Insert 键），修改为如下内容：
@@ -230,7 +219,9 @@ sed -i ':a;N;$!ba;s/{[[:space:]]*"ip_accept_any": true,[[:space:]]*"server": "ho
       "final": "dns_proxy",
       "strategy": "prefer_ipv4",
       "optimistic": true,
-      "reverse_mapping": true
+      "reverse_mapping": true,
+      // 推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS 的 IP 段
+      "client_subnet": "211.137.58.0/24"
     }
   }
   ```

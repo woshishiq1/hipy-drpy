@@ -1226,6 +1226,88 @@
       "type": 1
    },
 
+{
+            "name": "123TV",
+            "url": "http://tv.anbox.ip-ddns.com/live7",
+            "ua": "okhttp",
+            "timeout": 30,
+            "playerType": 2
+        },
+
+{
+            "name": "SWTV",
+            "type": 0,
+            "url": "http://github.com/cm851228/my51228888/raw/refs/heads/main/SWTV.txt",
+            "ua": "okhttp",
+            "playerType": 2,
+            "timeout": 30
+      
+        },
+
+{
+            "name": "SMARTtv",
+            "type": 0,
+            "url": "http://xclasvgas.sylu.net:8080/smt.php",
+            "ua": "okhttp",
+            "playerType": 2,
+            "timeout": 30
+      
+        },
+
+{
+            "name": "斯马特",
+            "url": "http://tv.anbox.ip-ddns.com/live14",
+            "ua": "okhttp",
+            "timeout": 30,
+            "playerType": 2
+        },
+
+{
+            "name": "港澳TV",
+            "url": "http://tv.anbox.ip-ddns.com/live19",
+            "ua": "okhttp",
+            "timeout": 30,
+            "playerType": 2
+        },
+
+{
+            "name": "华哥TV",
+            "url": "http://tv.anbox.ip-ddns.com/live12",
+            "ua": "okhttp",
+            "timeout": 30,
+            "playerType": 2
+        },
+
+{
+            "name": "SuperMytv",
+            "type": 0,
+            "url": "http://github.com/cm851228/my51228888/raw/refs/heads/main/mytv.txt",
+            "ua": "okhttp",
+            "timeout": 30,
+            "playerType": 2
+        },
+
+{
+            "name": "Web118",
+            "type": 0,
+            "url": "https://web.anbox118.dpdns.org/playlist.m3u8.txt",
+            "ua": "okhttp",
+            "timeout": 30,
+            "playerType": 2
+        }, 
+
+{
+            "name": "Anbox直播",
+            "type": 0,
+            "url": "http://tv.anbox.ip-ddns.com/live",
+            "ua": "okhttp",
+            "timeout": 30,
+            "playerType": 2,
+            "logo": "https://gongdian.top/tv/taibiao/{name}.png",
+            "epg": "http://diyp3.112114.xyz/?ch={name}&date={date}"
+            
+        },
+
  {"name": "🚓华哥TV","type":0,"url":"http://tv.anbox.ip-ddns.com/live12","playerType":1},
  {"name": "🚓港澳TV","type":0,"url":"http://tv.anbox.ip-ddns.com/live19","playerType":1},
  {"name": "🚓港澳MYTV","type":0,"url":"http://github.com/cm851228/my51228888/raw/refs/heads/main/mytv.txt","playerType":1},

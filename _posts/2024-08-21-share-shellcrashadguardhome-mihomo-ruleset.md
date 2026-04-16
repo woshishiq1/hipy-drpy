@@ -306,6 +306,8 @@ dns:
     - RULE-SET,apple-cn,real-ip
     - RULE-SET,google-cn,real-ip
     - RULE-SET,games-cn,real-ip
+    - RULE-SET,games,fake-ip
+    - RULE-SET,ai,fake-ip
     - RULE-SET,proxy,fake-ip
     - RULE-SET,private,real-ip
     - RULE-SET,cn,real-ip

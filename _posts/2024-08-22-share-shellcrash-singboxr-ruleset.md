@@ -286,11 +286,11 @@ sc
       { "clash_mode": [ "Global" ], "server": "dns_proxy" },
       { "rule_set": [ "ads" ], "action": "predefined" },
       { "rule_set": [ "trackerslist", "microsoft-cn", "apple-cn", "google-cn", "games-cn" ], "server": "dns_direct" },
-      { "query_type": [ "A", "AAAA" ], "rule_set": [ "games", "ai", "proxy" ], "server": "dns_fakeip" },
+      { "rule_set": [ "games", "ai", "proxy" ], "query_type": [ "A", "AAAA" ], "server": "dns_fakeip" },
       { "rule_set": [ "private", "cn" ], "server": "dns_direct" },
       { "action": "evaluate", "server": "dns_direct" },
-      { "match_response": true, "ip_accept_any": true, "invert": true, "action": "respond" },
       { "match_response": true, "rule_set": [ "cnip" ], "action": "respond" },
+      { "match_response": true, "ip_accept_any": true, "invert": true, "server": "dns_proxy" },
       { "query_type": [ "A", "AAAA" ], "server": "dns_fakeip" }
     ],
     "final": "dns_proxy",
@@ -309,7 +309,7 @@ sc
 {: .prompt-tip }
 
 注：
-- 1. 本 `dns` 配置中，国外域名 `proxy` 走 `fakeip`，私有网络 `private` 和国内域名 `cn` 走国内 DNS 解析，未知域名先走国外 DNS 解析且配置 `client_subnet`，解析出 IP 在国内则走国内 DNS 解析且走 `🀄️ 国内 IP` 规则，否则走 `fakeip` 且走 `漏网之鱼` 规则（有效解决了“心理 DNS 泄露问题”，详见《[搭载 sing-boxr 内核配置 DNS 不泄露教程-ruleset 方案](https://proxy-tutorials.dustinwin.us.kg/posts/dnsnoleaks-singboxr-ruleset/)》），且配置 `client_subnet` 提高了兼容性
+- 1. 本 `dns` 配置中，国外域名走 `fakeip`，国内域名走国内 DNS 解析，未知域名在匹配 `rule_set:cnip` 规则时会先由国外 DNS 解析且配置 `client_subnet` 提高了兼容性，解析出 IP 在国内则走国内 DNS 解析且走 `国内 IP` 规则，否则走 `fakeip` 且走 `漏网之鱼` 规则（有效解决了“心理 DNS 泄露问题”，详见《[搭载 sing-boxr 内核配置 DNS 不泄露教程-ruleset 方案](https://proxy-tutorials.dustinwin.us.kg/posts/dnsnoleaks-singboxr-ruleset/)》）
 - 2. 推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS（可进入光猫或路由器拨号页面查看，或者前往[公共 DNS 大全](https://toolb.cn/publicdns)查询）的 IP 段，如默认 DNS 为 `211.137.58.20`，可设置为 `211.137.58.0/24`
 
 ```json
@@ -342,12 +342,19 @@ sc
       { "clash_mode": [ "Global" ], "server": "dns_proxy" },
       { "rule_set": [ "ads" ], "action": "predefined" },
       { "rule_set": [ "trackerslist", "microsoft-cn", "apple-cn", "google-cn", "games-cn" ], "server": "dns_direct" },
-      { "query_type": [ "A", "AAAA" ], "rule_set": [ "games", "ai", "proxy" ], "server": "dns_fakeip" },
+      { "rule_set": [ "games", "ai", "proxy" ], "query_type": [ "A", "AAAA" ], "server": "dns_fakeip" },
       { "rule_set": [ "private", "cn" ], "server": "dns_direct" },
       // 推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS 的 IP 段
       { "action": "evaluate", "server": "dns_proxy", "client_subnet": "211.137.58.0/24" },
-      { "match_response": true, "ip_accept_any": true, "invert": true, "action": "respond" },
-      { "match_response": true, "rule_set": [ "cnip" ], "server": "dns_direct" },
+      {
+        "type": "logical",
+        "mode": "or",
+        "rules": [
+          { "match_response": true, "rule_set": [ "cnip" ] },
+          { "match_response": true, "ip_accept_any": true, "invert": true }
+        ],
+        "server": "dns_direct"
+      },
       { "query_type": [ "A", "AAAA" ], "server": "dns_fakeip" }
     ],
     "final": "dns_proxy",

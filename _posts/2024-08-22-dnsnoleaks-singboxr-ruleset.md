@@ -101,23 +101,14 @@ sed -i ':a;N;$!ba;s/{[[:space:]]*"ip_accept_any": true,[[:space:]]*"server": "ho
         { "rule_set": [ "cn" ], "server": "dns_direct" },
         // 推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS 的 IP 段
         { "action": "evaluate", "server": "dns_proxy", "client_subnet": "211.137.58.0/24" },
-        {
-          "type": "logical",
-          "mode": "or",
-          "rules": [
-            { "match_response": true, "rule_set": [ "cnip" ] },
-            { "match_response": true, "ip_accept_any": true, "invert": true }
-          ],
-          "server": "dns_direct"
-        },
+        { "match_response": true, "rule_set": [ "cnip" ], "server": "dns_direct" },
+        { "match_response": true, "ip_accept_any": true, "invert": true, "action": "respond" },
         { "query_type": [ "A", "AAAA" ], "server": "dns_fakeip" }
       ],
       "final": "dns_proxy",
       "strategy": "prefer_ipv4",
       "optimistic": true,
-      "reverse_mapping": true,
-      // 推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS 的 IP 段
-      "client_subnet": "211.137.58.0/24"
+      "reverse_mapping": true
     }
   }
   ```
@@ -220,22 +211,12 @@ sed -i ':a;N;$!ba;s/{[[:space:]]*"ip_accept_any": true,[[:space:]]*"server": "ho
         { "rule_set": [ "cn" ], "server": "dns_direct" },
         // 推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS 的 IP 段
         { "action": "evaluate", "server": "dns_proxy", "client_subnet": "211.137.58.0/24" },
-        {
-          "type": "logical",
-          "mode": "or",
-          "rules": [
-            { "match_response": true, "rule_set": [ "cnip" ] },
-            { "match_response": true, "ip_accept_any": true, "invert": true }
-          ],
-          "server": "dns_direct"
-        }
+        { "match_response": true, "rule_set": [ "cnip" ], "server": "dns_direct" }
       ],
       "final": "dns_proxy",
       "strategy": "prefer_ipv4",
       "optimistic": true,
-      "reverse_mapping": true,
-      // 推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS 的 IP 段
-      "client_subnet": "211.137.58.0/24"
+      "reverse_mapping": true
     }
   }
   ```

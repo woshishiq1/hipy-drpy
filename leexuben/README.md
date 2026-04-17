@@ -16,5 +16,25 @@
 
 
 TVBox配置编辑器： https://leexuben.github.io/CatVodTVJsonEditor/
+# TVBox 站点自动合并
+
+自动从多个 TVBox 配置源合并站点，并自动推送到 GitHub。
+
+## ✨ 功能特性
+
+- 🔄 自动从多个源合并站点
+- 🎯 自动去重（基于 key 字段）
+- 📁 修复相对路径
+- ⏰ 定时自动运行（每天两次）
+- 🚀 自动推送到 GitHub
+- 📱 支持手动触发
+
+## 🚀 使用方法
+
+### 1. 克隆仓库
+```bash
+git clone https://github.com/你的用户名/TVBOX-merge.git
+cd TVBOX-merge
+
 
 [回到顶部](#readme)

@@ -1,0 +1,39 @@
+[
+     {
+       "name":"自定",
+        "url":"https://hk.gh-proxy.org/https://raw.githubusercontent.com/leexuben/BINGO-TV/main/202512.json",
+        "jar":"https://ghfast.top/https://raw.githubusercontent.com/leexuben/BINGO-TV/main/jar/%E6%BD%87%E6%B4%92.jar",
+        "base":"https://hk.gh-proxy.org/https://raw.githubusercontent.com/leexuben/BINGO-TV/main/"
+     },
+     {
+       "name":"王二小",
+        "url":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/王二小/api.json",
+        "jar":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/王二小/spider.jar",
+        "base":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/王二小/"
+     },
+     {
+        "name":"巧技",
+        "url":"https://pandown.pro/tvbox/tvbox.json",
+        "jar":"http://tv.laohu.cool/lh250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
+        "base":"https://pandown.pro/tvbox/" 
+      },
+	  {
+       "name":"饭太硬",
+        "url":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/api.json",
+        "jar":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/spider.jar",
+        "base":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/"
+     },
+     {
+       "name":"潇洒",
+        "url":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/潇洒/api.json",
+        "jar":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/潇洒/spider.jar",
+        "base":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/潇洒/"
+     },
+      {
+        "name":"小米",
+        "url":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/小米/api.json",
+        "jar":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/小米/spider.jar",
+        "base":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/小米/"
+      }
+]
+

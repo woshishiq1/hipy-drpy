@@ -1,0 +1,84 @@
+{
+    "urls": [
+        {
+            "url": "http://rihou.cc:88/demo.php",
+            "name": "1号线路"
+        },
+        {
+            "url": "https://gitee.com/easyccc/789/raw/master/api/easytv.jpg",
+            "name": "2号线路"
+        },
+        {
+            "url": "http://ok213.top/tv",
+            "name": "3号线路"
+        },
+        {
+            "url": "http://我不是.摸鱼儿.com",
+            "name": "4号线路"
+        },
+        {
+            "url": "http://hello.肥猫.com",
+            "name": "5号线路"
+        },
+        {
+            "url": "http://pandown.pro/tvbox/tvbox.json",
+            "name": "6号线路"
+        },
+        {
+            "url": "http://www.饭太硬.com/tv",
+            "name": "7号线路"
+        },
+        {
+            "url": "http://fzl4k.xyz?id=81-run",
+            "name": "8号线路"
+        },
+        {
+            "url": "https://9877.kstore.space/AnotherD/api.json",
+            "name": "9号线路"
+        },
+        {
+            "url": "http://www.meowtv.vip",
+            "name": "10号线路"
+        },
+        {
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/xiaosa/api.json",
+            "name": "11号线路"
+        },
+        {
+            "url": "http://cdn.qiaoji8.com/tvbox.json",
+            "name": "12号线路"
+        },
+        {
+            "url": "https://8815.kstore.vip/tvbox/Ace",
+            "name": "13号线路"
+        },
+        {
+            "url": "https://d.kstore.dev/download/15352/mj1.json",
+            "name": "14号线路"
+        },
+        {
+            "url": "http://tvbox.王二小放牛娃.top/",
+            "name": "15号线路"
+        },
+        {
+            "url": "https://yimi-tv.zone.id/",
+            "name": "16号线路"
+        },
+        {
+            "url": "https://qianxbox.oss-cn-beijing.aliyuncs.com/line_box/a.json",
+            "name": "17号线路"
+        },
+        {
+            "url": "https://12.qqwxx.cn/NOW/NOW/10.05/asj.json",
+            "name": "18号线路"
+        },
+        {
+            "url": "https://12.qqwxx.cn/NOW/NOW/10.05/a.json",
+            "name": "19号线路"
+        },
+        {
+            "url": "https://9280.kstore.vip/newwex.json",
+            "name": "20号线路"
+        }
+    ]
+}

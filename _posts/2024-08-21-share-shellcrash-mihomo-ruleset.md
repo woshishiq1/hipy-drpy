@@ -309,6 +309,8 @@ dns:
   nameserver-policy: {'rule-set:ads': [rcode://success]}
 ```
 
+按一下 Esc 键（退出键），输入英文冒号 `:`，继续输入 `wq` 并回车
+
 ---
 
 >`DNS` 私货

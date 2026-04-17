@@ -1,23 +1,27 @@
 {
-  "log": {"level": "warn", "timestamp": true, "output": "/data/adb/box/run/sing-box.log"},
+  "log": {"level": "warn", "timestamp": true},
   "experimental": {
     "urltest_unified_delay": true,
-    "cache_file": {"enabled": true, "store_fakeip": true, "store_dns": true}, // 遇到各种奇怪的问题，实在搞不明白，可以尝试"store_dns": false
+    "cache_file": {"path": "./cache.db", "enabled": true, "store_fakeip": true, "store_dns": true}, // 遇到各种奇怪的问题，实在搞不明白，可以尝试"store_dns": false
     "debug": {"gc_percent": 50, "memory_limit": "100MB"}, // 内存限制选项，清理堆栈垃圾。具体分析：https://github.com/SagerNet/sing-box/blob/dev-next/option%2Fdebug.go，可以查看这篇文章简单了解下Go的GC：https://blog.csdn.net/yuff100/article/details/136085733?utm_source=copilot.com
     "clash_api": {
       "external_controller": "[::]:9090",
       "external_ui": "ui",
       "external_ui_download_url": "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
-      "external_ui_download_detour": "📦 CATCH_ALL",
+      "external_ui_http_client": "proxy_client",
       "external_ui_update_interval": "24h0m0s"
     }
   },
+  "http_clients": [
+    {"tag": "direct_client", "detour": "direct"},
+    {"tag": "proxy_client", "detour": "📦 CATCH_ALL"}
+  ],
   "providers": [
     {
       "tag": "A",
       "type": "remote",
       "url": "订阅链接",
-      "download_detour": "direct",
+      "http_client": "direct_client",
       "update_interval": "24h0m0s",
       "path": "./providers/A.json",
       "health_check": {"enabled": true, "url": "https://www.gstatic.com/generate_204", "interval": "60m0s", "timeout": "3s"},
@@ -32,37 +36,36 @@
         "alt1-mtalk.google.com": ["74.125.200.188"], "alt2-mtalk.google.com": ["192.178.220.188"], "alt3-mtalk.google.com": ["74.125.131.188"],
         "alt4-mtalk.google.com": ["209.85.144.188"], "alt5-mtalk.google.com": ["74.125.126.188"], "alt6-mtalk.google.com": ["142.250.115.188"],
         "alt7-mtalk.google.com": ["192.178.131.188"], "alt8-mtalk.google.com": ["172.253.132.188"], "dl.google.com": ["180.163.151.161"],
-        "dl.l.google.com": ["180.163.150.33"], "dns.google": ["8.8.8.8", "8.8.4.4"], "dns.quad9.net": ["149.112.112.112", "9.9.9.9"]}},
+        "dl.l.google.com": ["180.163.150.33"], "dns.alidns.com": ["223.5.5.5", "223.6.6.6"], "doh.pub": ["1.12.12.21", "120.53.53.53"],
+        "dns.google": ["8.8.8.8", "8.8.4.4"], "dns.quad9.net": ["149.112.112.112", "9.9.9.9"]}},
         // 以上mtalk.google.com...为安卓google fcm配置，用不上的话可以省略
-      {"type": "udp", "tag": "bootstrap", "server": "223.5.5.5"},
-      {"type": "udp", "tag": "bootstrap2", "server": "119.29.29.29"},
-      {"tag": "tx_dns", "type": "https", "server": "doh.pub", "domain_resolver": "bootstrap2"},
-      {"tag": "ali_dns", "type": "quic", "server": "dns.alidns.com", "domain_resolver": "bootstrap"},
+      {"tag": "tx_dns", "type": "https", "server": "doh.pub", "domain_resolver": "dns_hosts"},
+      {"tag": "ali_dns", "type": "quic", "server": "dns.alidns.com", "domain_resolver": "dns_hosts"},
       {"tag": "google_dns", "type": "https", "server": "dns.google", "domain_resolver": "dns_hosts", "detour": "📦 CATCH_ALL"},
       {"tag": "quad9_dns", "type": "https", "server": "dns.quad9.net", "domain_resolver": "dns_hosts", "detour": "📦 CATCH_ALL"},
-      {"tag": "direct_dns_server", "type": "group", "servers": ["ali_dns", "tx_dns"]},
-      {"tag": "proxy_dns_server", "type": "group", "servers": ["google_dns", "quad9_dns"]},
-      {"tag": "fakeip_dns_server", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
+      {"tag": "direct_server", "type": "group", "servers": ["ali_dns", "tx_dns"]},
+      {"tag": "proxy_server", "type": "group", "servers": ["google_dns", "quad9_dns"]},
+      {"tag": "fakeip_server", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
       {"domain": ["mtalk.google.com", "alt1-mtalk.google.com", "alt2-mtalk.google.com", "alt3-mtalk.google.com", "alt4-mtalk.google.com", 
        "alt5-mtalk.google.com", "alt6-mtalk.google.com", "alt7-mtalk.google.com", "alt8-mtalk.google.com", "dl.google.com", "dl.l.google.com"], "server": "dns_hosts"},
-       // 以上mtalk.google.com...为安卓google fcm配置，用不上的话可以省略
-      {"clash_mode":"Global","server":"proxy_dns_server"},
-      {"clash_mode": "Direct", "server": "direct_dns_server"},
+      // 以上mtalk.google.com...为安卓google fcm配置，用不上的话可以省略
+      {"clash_mode":"Global","server":"proxy_server"},
+      {"clash_mode": "Direct", "server": "direct_server"},
       {"query_type": ["A", "AAAA"], "invert": true, "action": "predefined", "rcode": "NOERROR"},
       {"rule_set": ["AWAvenue-Ads"], "action": "predefined", "rcode": "NOERROR"},
-      {"domain_suffix": ["market.xiaomi.com", "lancache.steamcontent.com"], "rule_set": ["private", "cn"], "server": "direct_dns_server"},
-      {"rule_set": ["!cn"], "server": "fakeip_dns_server", "rewrite_ttl": 1},
-      {"action": "evaluate", "server": "proxy_dns_server"},
+      {"domain_suffix": ["market.xiaomi.com", "a0.app.xiaomi.com", "appversion.115.com", "lancache.steamcontent.com"], "rule_set": ["cn", "private"], "server": "direct_server"},
+      {"rule_set": ["!cn"], "server": "fakeip_server", "rewrite_ttl": 1},
+      {"action": "evaluate", "server": "proxy_server"},
       {"match_response": true, "response_rcode": "NOERROR", "ip_accept_any": true, "invert": true, "action": "respond"},
-      {"type": "logical", "mode": "or", "rules": [{"match_response": true, "ip_is_private": true}, {"match_response": true, "rule_set": ["cn_ip"]}], "server": "direct_dns_server"},
-      {"query_type": ["A", "AAAA"], "server": "fakeip_dns_server", "rewrite_ttl": 1}
+      {"type": "logical", "mode": "or", "rules": [{"match_response": true, "ip_is_private": true}, {"match_response": true, "rule_set": ["cn_ip"]}], "server": "direct_server"},
+      {"query_type": ["A", "AAAA"], "server": "fakeip_server", "rewrite_ttl": 1}
     ],
-    "final": "proxy_dns_server",
+    "final": "proxy_server",
     "strategy": "prefer_ipv4",
     "cache_capacity": 4096,
-    "optimistic": true // 乐观缓存，可以自己调数值https://sing-box.sagernet.org/zh/configuration/dns/#independent_cache:~:text=%7B%0A%20%20%22enabled%22%3A%20true%2C%0A%20%20%22timeout%22%3A%20%223d%22%0A%7D
+    "optimistic": {"enabled": true, "timeout": "5d"} // 乐观缓存，可以自己调数值https://sing-box.sagernet.org/zh/configuration/dns/#independent_cache:~:text=%7B%0A%20%20%22enabled%22%3A%20true%2C%0A%20%20%22timeout%22%3A%20%223d%22%0A%7D
   },
   "inbounds": [
     {"tag": "mixed-in", "type": "mixed", "listen": "::", "listen_port": 7890, "set_system_proxy": false},
@@ -89,7 +92,8 @@
   "route": {
     "final": "📦 CATCH_ALL",
     "auto_detect_interface": true,
-    "default_domain_resolver": {"server": "direct_dns_server", "disable_cache": true}, // 机场用户推荐"disable_cache": true，有些机场可能不受"store_dns"的影响，但我的不行，这个版本的"store_dns"感觉有点问题
+    "default_http_client": "proxy_client",
+    "default_domain_resolver": {"server": "direct_server"},
     "default_domain_match_strategy": "prefer_fqdn",
     "rules": [
       {"network": "icmp", "outbound": "direct"},
@@ -113,7 +117,7 @@
       {"rule_set": ["github"], "outbound": "📦 CATCH_ALL"},
       {"rule_set": ["microsoft"], "outbound": "🪟 Microsoft"},
       {"rule_set": ["telegram", "telegram_ip"], "outbound": "📠 Telegram"},
-      {"type": "logical", "mode": "or", "rules": [{"domain_keyword": ["mtalk.google.com"]}, {"port": 5228}], "outbound": "📬 Google FCM"},
+      {"type": "logical", "mode": "or", "rules": [{"domain_keyword": ["mtalk.google.com", "dl.google", "dl.l.google"]}, {"port": 5228}], "outbound": "📬 Google FCM"},
       {"rule_set": ["youtube", "google"], "outbound": "🧭 Google Services"},
       {"rule_set": ["ai", "twitter", "!cn"], "outbound": "📦 CATCH_ALL"},
       {"rule_set": "cn", "outbound": "direct"},
@@ -122,24 +126,24 @@
       {"rule_set": "cn_ip", "outbound": "direct"}
     ],
     "rule_set": [
-      {"tag": "webRTC", "type": "remote", "url": "https://raw.githubusercontent.com/syccccc2333-oss/singbox_config/refs/heads/main/webRTC.json", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "AWAvenue-Ads", "type": "remote", "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Singbox.json", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "private", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-private.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "ai", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "adobe", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/adobe.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "apple", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "telegram", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-telegram.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "telegram_ip", "type": "remote", "format": "binary", "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegramip.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "github", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-github.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "microsoft", "type": "remote", "format": "binary", "url": "https://github.com/CHIZI-0618/v2ray-rules-dat/raw/refs/heads/release/singbox_rule_set/geosite-microsoft.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "twitter", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-twitter.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "youtube", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-youtube.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "google", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "bahamut", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bahamut.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "bilibili", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bilibili.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "cn", "type": "remote", "format": "binary", "url": "https://raw.githubusercontent.com/YiXuanZX/sing-box-geosite/main/rule/cn-additional-list-clash-classical.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "cn_ip", "type": "remote", "format": "binary", "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs", "download_detour": "📦 CATCH_ALL"},
-      {"tag": "!cn", "type": "remote", "format": "binary", "url": "https://github.com/CHIZI-0618/v2ray-rules-dat/raw/refs/heads/release/singbox_rule_set/geosite-geolocation-!cn.srs", "download_detour": "📦 CATCH_ALL"}
+      {"tag": "webRTC", "type": "remote", "url": "https://raw.githubusercontent.com/syccccc2333-oss/singbox_config/refs/heads/main/webRTC.json"},
+      {"tag": "AWAvenue-Ads", "type": "remote", "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Singbox.json"},
+      {"tag": "private", "type": "remote", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-private.srs"},
+      {"tag": "ai", "type": "remote", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/category-ai-!cn.srs"},
+      {"tag": "adobe", "type": "remote", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/adobe.srs"},
+      {"tag": "apple", "type": "remote", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/apple.srs"},
+      {"tag": "telegram", "type": "remote", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-telegram.srs"},
+      {"tag": "telegram_ip", "type": "remote", "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegramip.srs"},
+      {"tag": "github", "type": "remote", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-github.srs"},
+      {"tag": "microsoft", "type": "remote", "url": "https://github.com/CHIZI-0618/v2ray-rules-dat/raw/refs/heads/release/singbox_rule_set/geosite-microsoft.srs"},
+      {"tag": "twitter", "type": "remote", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-twitter.srs"},
+      {"tag": "youtube", "type": "remote", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-youtube.srs"},
+      {"tag": "google", "type": "remote", "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs"},
+      {"tag": "bahamut", "type": "remote", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bahamut.srs"},
+      {"tag": "bilibili", "type": "remote", "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/bilibili.srs"},
+      {"tag": "cn", "type": "remote", "url": "https://raw.githubusercontent.com/YiXuanZX/sing-box-geosite/main/rule/cn-additional-list-clash-classical.srs"},
+      {"tag": "cn_ip", "type": "remote", "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/cnip.srs"},
+      {"tag": "!cn", "type": "remote", "url": "https://github.com/CHIZI-0618/v2ray-rules-dat/raw/refs/heads/release/singbox_rule_set/geosite-geolocation-!cn.srs"}
     ]
   }
 }

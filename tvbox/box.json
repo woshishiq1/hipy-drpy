@@ -791,9 +791,25 @@
 			"url": "./lib/iptv_test.m3u"
 		},
 		{
-			"name": "cluntop_txt",
+			"name": "虎牙一起看",
 			"type": 0,
-			"url": "https://iptv.clun.top/txt"
+			"url": "https://iptv.clun.top/huyayqk.m3u",
+			"playerType": 2,
+			"timeout": 15
+		},
+		{
+			"name": "斗鱼一起看",
+			"type": 0,
+			"url": "https://iptv.clun.top/douyuyqk.m3u",
+			"playerType": 2,
+			"timeout": 15
+		},
+		{
+			"name": "YY 轮播",
+			"type": 0,
+			"url": "https://iptv.clun.top/yylunbo.m3u",
+			"playerType": 2,
+			"timeout": 15
 		},
 		{
 			"name": "4GTV",

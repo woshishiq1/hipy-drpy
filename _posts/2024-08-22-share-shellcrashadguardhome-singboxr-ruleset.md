@@ -368,11 +368,11 @@ sc
 }
 ```
 
-## 四、 编辑 http_clients 文件（可跳过此步骤）
+## 四、 编辑 http_clients 文件
 连接 SSH 后执行命令 `vi $CRASHDIR/jsons/experimental.json`，按一下 Ins 键（Insert 键），粘贴如下内容：
 
 ```json
-{ "http_clients": [ { "tag": "detour_proxy", "detour": "GLOBAL" } ] }
+{ "http_clients": [ { "tag": "detour_proxy", "version": 3, "detour": "GLOBAL" } ] }
 ```
 
 ## 五、 编辑 experimental.json 文件

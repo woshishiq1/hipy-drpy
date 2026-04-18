@@ -360,14 +360,13 @@ sc
   }
 }
 ```
-## 四、 编辑 http_clients.json 文件
-连接 SSH 后执行命令 `vi $CRASHDIR/jsons/http_clients.json`，按一下 Ins 键（Insert 键），粘贴如下内容：
+
+## 四、 编辑 http_clients 文件（可跳过此步骤）
+连接 SSH 后执行命令 `vi $CRASHDIR/jsons/experimental.json`，按一下 Ins 键（Insert 键），粘贴如下内容：
 
 ```json
-{ "http_clients": [ { "tag": "detour_proxy", "version": 3, "detour": "GLOBAL" } ] }
+{ "http_clients": [ { "tag": "detour_proxy", "detour": "GLOBAL" } ] }
 ```
-
-按一下 Esc 键（退出键），输入英文冒号 `:`，继续输入 `wq` 并回车
 
 ## 五、 编辑 experimental.json 文件
 
@@ -404,10 +403,10 @@ sc
 3. 连接 SSH 后执行如下命令：
 ```shell
 sed -i ':a;N;$!ba;s/{[[:space:]]*"ip_accept_any": true,[[:space:]]*"server": "hosts"[[:space:]]*}/{ "action": "evaluate", "server": "hosts" },\
-   { "match_response": true, "ip_accept_any": true, "action": "respond" }/' "$CRASHDIR/starts/singbox_modify.sh"
+      { "match_response": true, "ip_accept_any": true, "action": "respond" }/' "$CRASHDIR/starts/singbox_modify.sh"
 sed -i '/#生成experimental.json/i\
-    #生成http_clients.json\
-    cat >"$TMPDIR"/jsons/http_clients.json <<EOF\
+  #生成http_clients.json\
+  cat >"$TMPDIR"/jsons/http_clients.json <<EOF\
 {\
   "http_clients": [\
     {\

@@ -1,0 +1,13 @@
+{
+	"主页url":"https://2d3c.cdxxxx.live",
+	"直接播放": "1",
+	"搜索模式": "1",
+	"数组": "<div class=\"thumb thumb_rel item\">&&<div class=\"thumb-item\">",
+	"标题": "<div class=\"title\">&&</div>",
+	"链接": "<a href=\"&&\"",
+	"图片": "data-original=\"&&\"",
+	"副标题": "<div class=\"qualtiy\">&&</div>",
+	"搜索url": "https://2d3c.cdxxxx.live/?search={wd}&p={pg}&datef=all",
+    "分类url":"https://2d3c.cdxxxx.live/?lang={cateId}&p={catePg}",
+    "分类": "中文$chinese#阿拉伯语$arabic#保加利亚语$bulgarian#克罗地亚语$hrvatski#捷克语$cestina#丹麦语$dansk#荷兰语$nederlands#爱沙尼亚语$eesti#芬兰语$suomi#法语$francais#德语$deutsch#希腊语$greek#希伯来语$hebrew#印地语$hindi#匈牙利语$magyar#印度尼西亚语$indonesia#意大利语$italiano#日语$japanese#韩语$korean#拉脱维亚语$latviesu#立陶宛语$lietuviu#马来语$melayu#挪威语$norsk#波斯语$persian#波兰语$polski#葡萄牙语$portugues#罗马尼亚语$romana#俄语$russian#塞尔维亚语$srpski#斯洛伐克语$slovencina#斯洛文尼亚语$slovenscina#西班牙语$español#瑞典语$svenska#泰语$thai#土耳其语$turkce#乌克兰语$ukrainian#乌尔都语$urdu#越南语$viet_nam#英语$english"
+}

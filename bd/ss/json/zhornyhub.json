@@ -1,0 +1,17 @@
+{
+    "主页url": "https://zhornyhub.com/",
+    "请求头": "User-Agent@Mozilla/5.0 (Linux; Android 16; PJZ110 Build/BP2A.250605.015; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/146.0.7680.178 Mobile Safari/537.36",
+    "分类url": "https://zhornyhub.com/tag/{cateId}/page/{catePg};;v",
+    "分类": "4K$4k#全黑人$all-black#业余$amateur#肛交$anal#亚洲$asian#BBC$bbc#BBW$bbw#大屁股$big-ass#大胸$big-tits#漂白$bleached#金发$blond#束缚$bondage#棕发$brunette#车震$car-sex#试镜$casting#染发$colored-hair#角色扮演$cosplay#内射$creampie#绿帽$cuckold#深色皮肤$dark-skin#双插$dp#黑人$ebony#精灵$elfs#英文字幕$english-subbed#颜射$facial#幻想$fantasy#四人$foursome#扶他$futanari#群交$gangbang#眼镜$glasses#阴毛$hairy-pussy#硬核$hardcore#硬核$hardocore#后宫$harem#色情动画$hentai#乱伦$incest#印度$indian#跨种族$interracial#泌乳$lactation#拉丁$latina#女同$lesbian#按摩$massage#中东$middle-eastern#熟女$milf#精神控制$mind-control#怪物$monster#怪物女孩$monster-girl#道德堕落$moral-degeneration#电影$movie#被NTR$netorare#NTR$netori#OnlyFans$onlyfans#群交$orgy#亲子丼$oyakodon#恶搞$parody#娇小$petite#第一视角$pov#孕妇$pregnant#户外性交$public-sex#红发$redhead#学生妹$school-girl#系列$series#性玩具$sex-toys#瘦$skinny#小屁股$small-ass#小胸$small-tits#西班牙字幕$spanish-subbed#喷射$squirt#假阳具$strapon#高个女性$tall-woman#纹身$tattoo#青少年$teen#触手$tentacle#三人行$threesome#三人行FFF$threesome-fff#三人行MFM$threesome-mfm#跨性别$trans#普通$vanilla#百合$yuri",
+    "数组": "p:a[class*=\"group block\"]",
+    "标题": "p:h2->text",
+    "副标题": "p:div[class*=\"text-white\"]->text",
+    "图片": "p:img->src",
+    "链接": "p:a->href",
+    "线路标题": "zhornyhub",
+    "播放数组": "p:.aspect-video",
+    "播放列表": "<iframe&&</iframe>",
+    "播放标题": "在线播放",
+    "播放链接": "src=\"&&\"",
+    "跳转播放链接": "2160p\",\"file\":\"&&\"||1080p\",\"file\":\"&&\"||720p\",\"file\":\"&&\""
+}

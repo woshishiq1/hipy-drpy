@@ -1,0 +1,23 @@
+{
+    "主页url": "https://cao.caosp4.cc/a/",
+    "分类url": "https://cao.caosp4.cc/a/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+    "分类数组": "p:div[class*=\"nav-section\"] a",
+    "分类标题": "p:->text",
+    "分类ID": "/a/index.php/vod/type/id/&&.html",
+    "数组": "p:a[class*=\"vod-item\"]",
+    "标题": "p:->alt",
+    "副标题": "🔞才是源动力",
+    "图片": "p:img->data-original",
+    "链接": "p:->href",
+    "搜索url": "https://cao.caosp4.cc/a/index.php/vod/search/page/{pg}/wd/{wd}.html",
+    "搜索数组": "p:a[class*=\"vod-item\"]",
+    "搜索图片": "p:img->data-original",
+    "搜索标题": "p:->alt",
+    "搜索链接": "p:->href",
+    "线路数组": "p:.play-section .section-title",
+    "线路标题": "p:div->text",
+    "播放数组": "p:.play-list",
+    "播放列表": "p:a",
+    "播放标题": "p:a->text",
+    "播放链接": "p:a->href"
+}

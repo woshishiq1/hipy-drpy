@@ -1,0 +1,22 @@
+{
+    "作者": "",
+    "站名": "Jable",
+    "请求头": "User-Agent$Mozilla/5.0 (Linux; Android 14; V2136A Build/UP1A.231005.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.159 Mobile Safari/537.36",
+    "发布页": "",
+    "主页url": "https://jable.cfd/enter/",
+    "数组二次截取": "",
+    "数组": "p:div[class*=\"video-img-box\"]||影片主题--p:div[class*=\"video-img-box\"]||选女优--p:div[class*=\"horizontal-img-box\"]",
+    "标题": "p:h6->text||影片主题--p:h4->text||选女优--p:h6->text",
+    "副标题": "p:span[class*=\"label\"]||影片主题--p:span[class*=\"label\"]||选女优--p:span->text",
+    "图片": "p:img->data-src||影片主题--p:img->src||选女优--p:img->src",
+    "链接": "p:a->href||影片主题--p:a->href+/{catePg}/||选女优--p:a->href+/{catePg}/",
+    "跳转播放链接": "var hlsUrl*'&&'",
+    "嗅探词": "",
+    "搜索模式": "1",
+    "搜索url": "https://jable.sbs/search{wd}/{pg}/",
+    "二级目录": "影片主题|folder-0-0-H#选女优|folder-0-0-H",
+    "二级ID": "",
+    "特殊分类链接": "影片主题$https://jable.cfd/{cateId}/#选女优$https://jable.cfd/{cateId}/{catePg}/",
+    "分类url": "https://jable.cfd/{cateId}/{catePg}/;;z",
+    "分类": "最新上市$latest-updates#全新上市$new-release#热门影片$hot#影片主题$categories#选女优$models"
+}

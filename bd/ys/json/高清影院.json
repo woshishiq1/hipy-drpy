@@ -1,0 +1,17 @@
+{
+    "请求头": "User-Agent$MOBILE_UA",
+    "编码": "UTF-8",
+    "倒序": "1",
+    "主页url": "https://www.iteam360.cn",
+    "分类url": "https://www.iteam360.cn/show/{cateId}--------{catePg}---.html",
+    "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$30#",
+    "数组": "list-hover&&</li>",
+    "图片": "data-original=\"&&\"",
+    "标题": "🔥+title=\"&&\"",
+    "链接": "href=\"&&\"",
+    "线路数组": "play-title&&</div>",
+    "线路标题": "p:a->text+🔥蜗牛撰写🔥",
+    "播放数组": "play-list&&</ul>",
+    "播放列表": "<li&&li>",
+    "播放链接": "href=\"&&\""
+}

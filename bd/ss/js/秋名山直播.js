@@ -3,7 +3,7 @@ var rule = {
     host:'http://api.hclyz.com:81/mf',
     homeUrl:'/mf/json.txt',
     url:'/mf/fyclass',
-    class_name:'all',
+    class_name:'秋名山直播',
     class_url:'json.txt',
     headers:{
         'User-Agent':'MOBILE_UA',

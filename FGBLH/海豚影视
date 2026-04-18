@@ -625,13 +625,13 @@
         {
             "name": "🐬catvod源",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://live.catvod.com/?tk=691aed6eddc2e361474044878e71f344"
         },
         {
             "name": "🐬jackTV(梯子)",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
         },
         {
@@ -643,20 +643,80 @@
         {
             "name": "🐬港台大陆频道🔞",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆"
         },
         {
             "name": "🐬港台大陆频道无18",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆无18内容"
         },
         {
             "name": "🐬xxx视频资源🔞",
             "type": 0,
-            "ua": "okhttp/5.3.2",
+            "ua": "okhttp",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源"
-        }
+        },
+        {
+            "name": "🐬女优库1🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv1.m3u"
+        },
+          {
+            "name": "🐬女优库2🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv2.m3u"
+        },
+        {
+            "name": "🐬女优库3🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv3.m3u"
+        },
+         {
+            "name": "🐬女优库4🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv4.m3u"
+        },
+        {
+            "name": "🐬女优库5🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv5.m3u"
+        },
+        {
+            "name": "🐬女优库6🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv6.m3u"
+        },
+        {
+            "name": "🐬女优库7🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv7.m3u"
+        },
+        {
+            "name": "🐬女优库8🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv8.m3u"
+        },
+        {
+            "name": "🐬女优库9🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv9.m3u"
+        },
+        {
+            "name": "🐬女优库10🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv10.m3u"
+        }   
     ]
 }

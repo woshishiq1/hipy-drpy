@@ -194,17 +194,6 @@
       "changeable": 0
     },
     {
-      "key": "csp_ShuaiJiao",
-      "name": "🤺摔跤┃体育",
-      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/leexuben/BINGO-TV/refs/heads/main/jar/vox.jar",
-      "type": 3,
-      "api": "csp_ShuaiJiao",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "[object Object]"
-    },
-    {
       "key": "d'd",
       "name": "修罗|弹幕",
       "type": 3,
@@ -4151,6 +4140,17 @@
       "type": 3,
       "api": "csp_TingBook",
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/小米/spider.jar"
+    },
+    {
+      "key": "csp_ShuaiJiao",
+      "name": "🤺摔跤┃体育",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/leexuben/BINGO-TV/refs/heads/main/jar/vox.jar",
+      "type": 3,
+      "api": "csp_ShuaiJiao",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "[object Object]"
     }
   ],
   "lives": [

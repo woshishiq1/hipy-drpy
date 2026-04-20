@@ -13,7 +13,7 @@
     }
   },
   "http_clients": [
-    {"tag": "direct_client", "detour": "direct"},
+    {"tag": "direct_client"},
     {"tag": "proxy_client", "detour": "📦 CATCH_ALL"}
   ],
   "providers": [
@@ -36,15 +36,16 @@
         "alt1-mtalk.google.com": ["74.125.200.188"], "alt2-mtalk.google.com": ["192.178.220.188"], "alt3-mtalk.google.com": ["74.125.131.188"],
         "alt4-mtalk.google.com": ["209.85.144.188"], "alt5-mtalk.google.com": ["74.125.126.188"], "alt6-mtalk.google.com": ["142.250.115.188"],
         "alt7-mtalk.google.com": ["192.178.131.188"], "alt8-mtalk.google.com": ["172.253.132.188"], "dl.google.com": ["180.163.151.161"],
-        "dl.l.google.com": ["180.163.150.33"], "dns.alidns.com": ["223.5.5.5", "223.6.6.6"], "doh.pub": ["1.12.12.21", "120.53.53.53"],
-        "dns.google": ["8.8.8.8", "8.8.4.4"], "dns.quad9.net": ["149.112.112.112", "9.9.9.9"]}},
         // 以上mtalk.google.com...为安卓google fcm配置，用不上的话可以省略
+        "dl.l.google.com": ["180.163.150.33"], "dns.alidns.com": ["223.5.5.5", "223.6.6.6"], "doh.pub": ["1.12.12.21", "120.53.53.53"],
+        "dns.google": ["8.8.8.8", "8.8.4.4"], "dns.quad9.net": ["149.112.112.112", "9.9.9.9"], "cloudflare-dns.com": ["104.16.248.249", "104.16.249.249"]}},
       {"tag": "tx_dns", "type": "https", "server": "doh.pub", "domain_resolver": "dns_hosts"},
       {"tag": "ali_dns", "type": "quic", "server": "dns.alidns.com", "domain_resolver": "dns_hosts"},
       {"tag": "google_dns", "type": "https", "server": "dns.google", "domain_resolver": "dns_hosts", "detour": "📦 CATCH_ALL"},
       {"tag": "quad9_dns", "type": "https", "server": "dns.quad9.net", "domain_resolver": "dns_hosts", "detour": "📦 CATCH_ALL"},
+      {"tag": "cloudflare_dns", "type": "h3", "server": "cloudflare-dns.com", "domain_resolver": "dns_hosts", "detour": "📦 CATCH_ALL"},
       {"tag": "direct_server", "type": "group", "servers": ["ali_dns", "tx_dns"]},
-      {"tag": "proxy_server", "type": "group", "servers": ["google_dns", "quad9_dns"]},
+      {"tag": "proxy_server", "type": "group", "servers": ["google_dns", "quad9_dns", "cloudflare_dns"]},
       {"tag": "fakeip_server", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
@@ -54,8 +55,10 @@
       {"clash_mode":"Global","server":"proxy_server"},
       {"clash_mode": "Direct", "server": "direct_server"},
       {"query_type": ["A", "AAAA"], "invert": true, "action": "predefined", "rcode": "NOERROR"},
-      {"rule_set": ["217heidai-Ads"], "action": "predefined", "rcode": "NOERROR"},
-      {"domain_suffix": ["market.xiaomi.com", "a0.app.xiaomi.com", "appversion.115.com", "lancache.steamcontent.com"], "rule_set": ["cn", "private"], "server": "direct_server"},
+      {"type": "logical", "mode": "and", "rules": [{"clash_mode": "AllowAds", "invert": true}, {"rule_set": ["217heidai-Ads"], "domain": ["a0.app.xiaomi.com", "appversion.115.com"]}], "action": "predefined"},
+      // Ads放行模式，此模式下不过滤广告
+      {"domain_suffix": ["market.xiaomi.com", "lancache.steamcontent.com"], "rule_set": ["cn", "private"], "server": "direct_server"},
+      {"rule_set": ["google", "twitter", "ai"], "server": "proxy_server"},
       {"rule_set": ["!cn"], "server": "fakeip_server", "rewrite_ttl": 1},
       {"action": "evaluate", "server": "proxy_server"},
       {"match_response": true, "response_rcode": "NOERROR", "ip_accept_any": true, "invert": true, "action": "respond"},
@@ -65,7 +68,7 @@
     "final": "proxy_server",
     "strategy": "prefer_ipv4",
     "cache_capacity": 4096,
-    "optimistic": {"enabled": true, "timeout": "5d"} // 乐观缓存，可以自己调数值https://sing-box.sagernet.org/zh/configuration/dns/#independent_cache:~:text=%7B%0A%20%20%22enabled%22%3A%20true%2C%0A%20%20%22timeout%22%3A%20%223d%22%0A%7D
+    "optimistic": {"enabled": true, "timeout": "5d"} // 乐观缓存，可以自己调数值，https://sing-box.sagernet.org/zh/configuration/dns/#independent_cache:~:text=%7B%0A%20%20%22enabled%22%3A%20true%2C%0A%20%20%22timeout%22%3A%20%223d%22%0A%7D
   },
   "inbounds": [
     {"tag": "redirect-in", "type": "redirect", "listen": "::", "listen_port": 7897},
@@ -102,12 +105,12 @@
       {"type": "logical", "mode": "and", "rules": [{"ip_version": 6}, {"default_interface_address": ["2000::/3"], "invert": true}], "action": "reject"},
       // 旨在没有ipv6的情况下pre-match拒绝ipv6连接，在有ipv6的情况下正常用ipv6，可用于解决微信顽固ipv6导致图片无法成功收发的问题，tun模式可能需要
       {"domain": ["Mijia Cloud"], "domain_suffix": ["push.apple.com"], "rule_set": ["telegram_ip"], "invert": true, "action": "sniff"},
-      {"protocol": "dns", "action": "hijack-dns"},
+      {"type": "logical", "mode": "or", "rules": [{"protocol": "dns"}, {"port": 53}], "action": "hijack-dns"},
       {"clash_mode": "Global", "outbound": "GLOBAL"},
       {"clash_mode": "Direct", "outbound": "direct"},
       {"package_name": ["tech.lolli.toolbox"], "outbound": "direct"}, // ssh客户端serverbox直连
-      {"domain": ["a0.app.xiaomi.com", "appversion.115.com"], "outbound": "direct"},
-      {"rule_set": ["217heidai-Ads", "webRTC", "adobe"], "action": "reject", "method": "drop"}, // adobe是为了屏蔽Adobe旗下软件的正版联网验证，可选择性删除
+      {"type": "logical", "mode": "and", "rules": [{"clash_mode": "AllowAds", "invert": true}, {"rule_set": ["217heidai-Ads", "webRTC", "adobe"], "domain": ["abyss.cyapi.cn", "ad.cyapi.cn", "gather.colorfulclouds.net"]}], "action": "reject", "method": "drop"},
+      // Ads放行模式，此模式下不过滤广告；adobe是为了屏蔽Adobe旗下软件的正版联网验证，可选择性删除
       {"domain_suffix": ["steamserver.net"], "outbound": "direct"},
       {"protocol": "quic", "rule_set": ["youtube"], "action": "reject"},
       {"ip_is_private": true, "rule_set": ["private"], "outbound": "direct"},

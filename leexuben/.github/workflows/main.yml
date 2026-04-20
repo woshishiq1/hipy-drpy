@@ -1,10 +1,10 @@
-name: 自动更新 TVBox 配置
+name: main TVBox 
 
 on:
   schedule:
-    - cron: "0 21 * * *"  # 每天 UTC 21:00 (北京时间 5:00)
-    - cron: "0 9 * * *"   # 每天 UTC 9:00 (北京时间 17:00)
-  workflow_dispatch:  # 允许手动触发
+    - cron: "0 21 * * *"  # UTC 21:00 (北京时间 05:00)
+    - cron: "0 9 * * *"   # UTC 09:00 (北京时间 17:00)
+  workflow_dispatch:
   push:
     branches: [ main ]
 
@@ -12,48 +12,62 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 授予写入权限
-    
+      contents: write
+
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
           fetch-depth: 0
-      
+
       - name: 设置 Python 环境
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-      
+
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
           pip install requests
-      
+
       - name: 运行合并脚本
-        env:
-          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-          GITHUB_REPO: ${{ github.repository }}
-          GITHUB_BRANCH: ${{ github.ref_name }}
         run: |
           echo "开始执行合并脚本..."
           python merge_sites.py
-      
-      - name: 提交并推送更改
+
+      - name: 提交并推送（删除旧文件 + 保留7天）
         if: success()
         run: |
           echo "检查文件变更..."
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 检查 TV.json 是否有变化
-          if git diff --name-only | grep -q "TV.json"; then
-            echo "检测到 TV.json 有变更，准备提交"
-            git add TV.json
-            git commit -m "🔄 自动更新站点配置 [$(date +'%Y-%m-%d %H:%M:%S')]"
-            git push origin ${{ github.ref_name }}
-            echo "✅ 已提交并推送变更"
-          else
-            echo "没有检测到变更，跳过提交"
+
+          DATE=$(date +'%Y-%m-%d')
+
+          # 如果 TV.json 已存在，先备份
+          if [ -f TV.json ]; then
+            cp TV.json TV.json.$DATE
+            echo "✅ 已备份为 TV.json.$DATE"
           fi
+
+          # 删除仓库中的旧 TV.json
+          if git ls-files | grep -q "^TV.json$"; then
+            git rm -f TV.json
+            echo "✅ 已删除仓库中的旧 TV.json"
+          fi
+
+          # 只保留最近 7 天的备份
+          ls TV.json.* 2>/dev/null | sort | head -n -7 | xargs rm -f || true
+
+          # 提交变更
+          if git diff --cached --quiet && ! git ls-files --deleted | grep -q TV.json; then
+            echo "没有检测到变更，跳过提交"
+            exit 0
+          fi
+
+          git add TV.json TV.json.*
+          git commit -m "🔄 自动更新站点配置 [$DATE]（保留7天历史）"
+          git push origin ${{ github.ref_name }}
+
+          echo "✅ 已提交并推送变更"

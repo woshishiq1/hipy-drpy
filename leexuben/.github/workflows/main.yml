@@ -1,4 +1,4 @@
-name: 更新并替换 TV.json
+name: updata TV.json
 
 on:
   schedule:
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write  # 确保有写入权限
 
 jobs:
   update-tv-json:
@@ -19,7 +19,7 @@ jobs:
     - name: 检出仓库代码
       uses: actions/checkout@v3
       with:
-        ref: ${{ github.ref }}
+        ref: ${{ github.ref_name }}  # ✅ 修正：取分支名，无 refs/heads/ 前缀
 
     - name: 设置 Python 环境
       uses: actions/setup-python@v4
@@ -39,28 +39,10 @@ jobs:
       run: |
         python merge_sites.py
 
-    - name: 检查 TV.json 是否生成
-      id: check_tv_json
-      run: |
-        if [ -f "TV.json" ]; then
-          echo "::set-output name=tv_json_exists::true"
-        else
-          echo "TV.json 未生成。"
-          echo "::set-output name=tv_json_exists::false"
-          exit 1
-        fi
-
-    - name: 配置 Git
-      if: steps.check_tv_json.outputs.tv_json_exists == 'true'
+    - name: 提交并推送 TV.json
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-
-    - name: 提交并强制推送 TV.json
-      if: steps.check_tv_json.outputs.tv_json_exists == 'true'
-      run: |
         git add TV.json
-        git commit -m "自动更新 TV.json [skip ci]"
-        git push origin ${{ github.ref }} --force
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git commit -m "Update TV.json by GitHub Actions"
+        git push origin main --force  # 强制推送（谨慎使用！）

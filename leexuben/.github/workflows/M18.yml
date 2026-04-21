@@ -9,17 +9,17 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write  # 确保有写入权限
 
 jobs:
-  update-FuLi-json:
+  update-tv-json:
     runs-on: ubuntu-latest
 
     steps:
     - name: 检出仓库代码
       uses: actions/checkout@v3
       with:
-        ref: ${{ github.ref }}
+        ref: ${{ github.ref_name }}  # ✅ 修正：取分支名，无 refs/heads/ 前缀
 
     - name: 设置 Python 环境
       uses: actions/setup-python@v4
@@ -39,28 +39,4 @@ jobs:
       run: |
         python merge_FuLi.py
 
-    - name: 检查 FuLi.json 是否生成
-      id: check_FuLi_json
-      run: |
-        if [ -f "FuLi.json" ]; then
-          echo "::set-output name=FuLi_json_exists::true"
-        else
-          echo "FuLi.json 未生成。"
-          echo "::set-output name=FuLi_json_exists::false"
-          exit 1
-        fi
-
-    - name: 配置 Git
-      if: steps.check_FuLi_json.outputs.FuLi_json_exists == 'true'
-      run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-
-    - name: 提交并强制推送 FuLi.json
-      if: steps.check_FuLi_json.outputs.FuLi_json_exists == 'true'
-      run: |
-        git add FuLi.json
-        git commit -m "自动更新 FuLi.json [skip ci]"
-        git push origin ${{ github.ref }} --force
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+   

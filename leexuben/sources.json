@@ -17,6 +17,12 @@
         "jar":"http://tv.laohu.cool/lh250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
         "base":"https://pandown.pro/tvbox/" 
       },
+	{
+       "name":"潇洒",
+        "url":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/肥猫/api.json",
+        "jar":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/肥猫/spider.jar",
+        "base":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/肥猫/"
+     },
 	  {
        "name":"饭太硬",
         "url":"https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/api.json",

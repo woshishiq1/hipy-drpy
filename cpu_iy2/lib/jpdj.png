@@ -1,0 +1,84 @@
+var rule = {
+    title:'荐片短剧',
+    //["zxbwv.com","zxesz.com","zwqot.com","zxfmj.com","970xw.com"]
+    host:'https://api.zxfmj.com',
+    //host:'https://rp1xr2.yqpnrp.cn',
+    //host:'https://gjgpeg.yqpnrp.cn',
+    //homeUrl:'/api/dyTag/tpl1_data?id=21&page=1',//网站的首页链接,用于分类获取和推荐获取
+    homeUrl:'/api/dyTag/tpl2_data?id=22&page=1',//网站的首页链接,用于分类获取和推荐获取
+    // url:'/api/crumb/list?area=0&category_id=fyclass&page=fypage&type=0&limit=24&fyfilter',
+    // url:'/api/crumb/shortList?fcate_pid=67&page=fypage&category_id=fyclass&fyfilter',
+    // class_name:'玄幻&萌娃',     // 筛选 /api/term/ad_fenlei?limit=10&page=1
+    // class_url:'76&74',
+    url:'/api/dyTag/tpl2_data?id=fyclass&page=fypage',
+    class_name:'屌丝逆袭&王爷太子&霸道总裁&赘婿系列&美女总裁&娇妻系列&龙王系列&都市言情&穿越系列&重生系列',     // 筛选 /api/term/ad_fenlei?limit=10&page=1
+    class_url:'60&61&62&63&64&65&66&67&69&68',
+    detailUrl:'/api/detail?vid=fyid',//二级详情拼接链接(json格式用)
+    //searchUrl:'/api/search/video?key=**&category_id=67&page=fypage',
+    searchUrl:'/api/search/videoV2?key=**&category_id=67&page=fypage',
+    searchable:2,
+    quickSearch:0,                                                             
+    filterable:1,
+    filter:{
+        "0":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "70":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "71":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "72":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "73":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "74":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "75":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "76":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "77":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "79":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}],
+        "80":[{"key":"sort","name":"排序","value":[{"n":"全部","v":""},{"n":"最新","v":"update"},{"n":"最热","v":"hot"}]}]
+    },
+    // filter_url:'sort={{fl.sort or "hot"}}&year={{fl.year or "0"}}',
+    filter_url:'sort={{fl.sort or ""}}',
+	filter_def:{
+	},
+    headers:{
+        'User-Agent':'PC_UA'
+    },
+    timeout:5000,
+    limit:8,
+    play_parse:true,
+    play_json:[{
+        re:'*',
+        json:{
+            parse:0,
+            jx:0
+        }
+    }],
+    lazy:'',
+    // double:true,
+    图片来源:'',
+    // 替换所有图片链接 欲替换文本=>替换为文本
+    图片替换:'https://api.zxfmj.com/upload=>https://img.jgsfnl.com/upload',
+    // 推荐:'json:data;room;*;cover;*;*',
+    // 推荐:'json:data;*;*;*;*',
+    一级:'json:data;title;cover_image;playlist.title;id',
+    二级:{
+        // title:'data.title',
+        title:'data.title;data.types[0].name',
+        // desc:';data.description;data.id',
+        desc:'data.score;;;;',
+        img:'data.cover_image',
+        // content:'data.thumbnail',
+        content:'data.sub_title',
+        is_json:1,
+        tabs:`js:
+            TABS = [];
+            TABS.push("默认")
+        `,
+        lists:`js:
+            log(TABS);
+            LISTS = [];
+            let m3u = html.data.playlist;
+            let d = m3u.map(function(it) {
+                return it.url
+            });
+            LISTS.push(d)
+        `,
+    },
+    搜索:'json:data;title;thumbnail;mask;*',
+}

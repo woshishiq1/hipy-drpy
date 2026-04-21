@@ -3848,22 +3848,6 @@
   ],
   "lives": [
     {
-      "name": "live",
-      "type": 0,
-      "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/leexuben/collect-txt/refs/heads/main/bbxx.txt",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "tv",
-      "type": 0,
-      "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/leexuben/BINGO-TV/refs/heads/main/tv/TVS.txt",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "Kimentanm",
       "type": 0,
       "url": "https://ghfast.top/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/王二小/lives/Kimentanm.txt"
@@ -3926,5 +3910,7 @@
       "ua": "okhttp/3.15"
     }
   ],
+  "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
+  "logo": "https://daili.korice.eu.org/https://raw.githubusercontent.com/leexuben/BINGO-TV/refs/heads/main/1.gif",
   "key": "newValue"
 }

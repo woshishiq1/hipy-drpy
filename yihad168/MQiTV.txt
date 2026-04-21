@@ -3,7 +3,7 @@
  {
             "name": "🐟🐟🍄myTV🍄🐟🐟",
             "type": 0,
-            "url": "https://raw.githubusercontent.com/ffmking/tv1/refs/heads/main/888.txt",
+            "url": "https://raw.githubusercontent.com/ffmking/tv1/refs/heads/main/999.txt",
            "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
  },
@@ -18,7 +18,7 @@
  {
             "name": "🍄MITTWNO1🍄",
             "type": 0,
-            "url": "https://raw.githubusercontent.com/Hsudavid/app/refs/heads/main/tw1.m3u",
+            "url": "https://iptv543.com/aaa.php",
            "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
             "logo":"https://epg.112114.xyz/logo/{name}.png"
  },
@@ -97,6 +97,18 @@
       "name": "cat",
       "url": "https://raw.githubusercontent.com/fleung49/star/refs/heads/main/cat"
     },
+
+    {
+      "name": "一抹蓝",
+      "url": "http://yimolan.serv00.net/zb/live.php"
+    },
+
+    {
+      "name": "月儿王子",
+      "url": "http://wangziduoqing.com/yuan/zb.txt"
+    },
+
+
 
     {
       "name": "🇯🇵日本TV",
@@ -347,13 +359,6 @@
     },
 
     {
-      "name": "台灣酒店",
-      "url": "https://raw.githubusercontent.com/Hsudavid/app/main/tw1.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-
-    {
       "name": "台灣543",
       "url": "http://iptv543.com/543.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -375,11 +380,6 @@
       "url": "https://raw.githubusercontent.com/Hsudavid/app/main/MTVS.txt"
     },
 
-   {
-      "name": "馬印新",
-      "url": "http://hufa.zabc.net:8080/iptvpro.txt"
-    },
-
     {
       "name": "FYTV風雲試看",
       "url": "http://iptv.4666888.xyz/FYTV.txt"
@@ -393,11 +393,6 @@
     {
       "name": "喵TV",
       "url": "https://raw.githubusercontent.com/mlabalabala/resource/refs/heads/main/jade_box/boxlive.txt"
-    },
-
-    {
-      "name": "中國大陸",
-      "url": "https://live.tv.darwinchow.com/sub/02Rmp7XOozfgFiaSPkRbxv2Ud5Kn8V"
     },
 
        {

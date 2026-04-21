@@ -4371,20 +4371,6 @@
             "ext": "https://tvbox.catvod.com/js/bili.js"
         },
         {
-            "key": "QD4K",
-            "name": "🐷猪猪4K",
-            "type": 3,
-            "searchable": 1,
-            "quickSearch": 0,
-            "api": "./py/AppV2.py",
-            "playerType": 2,
-            "ext": {
-                "api": "http://dmmax.kuailezhuiju2.com/icciu_api.php/v1.vod",
-                "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
-                "apisignkey": "lvdoutv-1.0.0"
-            }
-        },
-        {
             "key": "飞飞",
             "name": "🕊️飞飞影视2",
             "type": 3,

@@ -957,6 +957,26 @@ https://hls.iill.top/api/HBO-Signature/index.m3u8
 
 
 
+#EXTINF:-1 tvg-id="HBO" x-tvg-url="https://raw.githubusercontent.com/joii89/iptv-joii/refs/heads/main/epg.indo.xml" tvg-logo="https://i.ibb.co.com/LgqX1qJ/hbo.png" group-title="台灣", HBO
+http://goldenpro.xyz:80/live/194679431759017/8173373055/1247927.ts
+
+#EXTINF:-1 tvg-id="HBO Family" x-tvg-url="https://raw.githubusercontent.com/joii89/iptv-joii/refs/heads/main/epg.indo.xml" tvg-logo="https://i.postimg.cc/6p4vJ13J/hbo-family.png" group-title="台灣",HBO Family
+http://goldenpro.xyz:80/live/194679431759017/8173373055/1247980.ts
+
+#EXTINF:-1 tvg-id="HBOHits" x-tvg-url="https://raw.githubusercontent.com/joii89/iptv-joii/refs/heads/main/epg.indo.xml" tvg-logo="https://object-streamo.emonaja.com/img/hbohits.webp" group-title="台灣", HBO Hits
+http://goldenpro.xyz:80/live/194679431759017/8173373055/1247981.ts
+
+#EXTINF:-1 x-tvg-url="https://raw.githubusercontent.com/joii89/iptv-joii/refs/heads/main/epg.indo.xml" tvg-logo="https://i.postimg.cc/g0vLrX8g/hbo-signature.png" group-title="台灣",HBO Signature
+http:/goldenpro.xyz:80/live/194679431759017/8173373055/1247982.ts
+
+#EXTINF:-1 tvg-id="Cinemax HD" tvg-url="https://raw.githubusercontent.com/joii89/iptv-joii/refs/heads/main/epg.indo.xml" tvg-logo="https://i.ibb.co.com/0chM7YL/cinemax.png" group-title="台灣", CINEMAX
+http://goldenpro.xyz:80/live/194679431759017/8173373055/1247962.ts
+
+
+
+
+
+
 #EXTINF:-1 tvg-name="龍華電影" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/龍華電影.png" group-title="台灣",龍華電影台
 http://cdn8.veryfast.filegear-sg.me/163189/lhdy
 #EXTINF:-1 tvg-name="龍華經典台" tvg-logo="https://gcore.jsdelivr.net/gh/taksssss/tv/icon/龍華經典.png" group-title="台灣",龍華經典台
@@ -3559,256 +3579,6 @@ http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8
 #########################################
 
 
-#EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="SBO 3: SKY SPORTS BOX OFFICE SD" tvg-logo="http://103.176.90.118/picons/logos/USA/ppv.png" group-title="|UK| PPV EVENTS",SBO 3: SKY SPORTS BOX OFFICE SD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/677309.ts
-#EXTINF:-1 tvg-id="" tvg-name="SBO 4: SKY SPORT BOX OFFICE FHD" tvg-logo="http://103.176.90.118/picons/logos/USA/ppv.png" group-title="|UK| PPV EVENTS",SBO 4: SKY SPORT BOX OFFICE FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/677308.ts
-#EXTINF:-1 tvg-id="" tvg-name="##### [UK] SPORTS UHD #####" tvg-logo="http://51.158.145.100/picons/logos/logos/UK.png" group-title="|UK| SPORTS",##### [UK] SPORTS UHD #####
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/578002.ts
-#EXTINF:-1 tvg-id="TNTSport1.uk" tvg-name="UK - TNT SPORTS 1 UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-1.png" group-title="|UK| SPORTS",UK - TNT SPORTS 1 UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/578001.ts
-#EXTINF:-1 tvg-id="TNTSport2.uk" tvg-name="UK - TNT SPORTS 2 UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-2.png" group-title="|UK| SPORTS",UK - TNT SPORTS 2 UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/578000.ts
-#EXTINF:-1 tvg-id="TNTSport3.uk" tvg-name="UK - TNT SPORTS 3 UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-3.png" group-title="|UK| SPORTS",UK - TNT SPORTS 3 UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577999.ts
-#EXTINF:-1 tvg-id="BTSport4ESPN.uk" tvg-name="UK - TNT SPORTS ESPN UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-ESPN.png" group-title="|UK| SPORTS",UK - TNT SPORTS ESPN UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577998.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SKY SPORTS MAIN EVENTS UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmainevent.png" group-title="|UK| SPORTS",UK - SKY SPORTS MAIN EVENTS UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577997.ts
-#EXTINF:-1 tvg-id="SkySportsPremiereLeague.uk" tvg-name="UK - SKY SPORTS PL UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportspl.png" group-title="|UK| SPORTS",UK - SKY SPORTS PL UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577996.ts
-#EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="UK - SKY SPORTS FOOTBALL UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsfootball.png" group-title="|UK| SPORTS",UK - SKY SPORTS FOOTBALL UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577995.ts
-#EXTINF:-1 tvg-id="SkySportsNews.uk" tvg-name="UK - SKY SPORTS NEWS UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsnews.png" group-title="|UK| SPORTS",UK - SKY SPORTS NEWS UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577994.ts
-#EXTINF:-1 tvg-id="Sky.Sports.NFL.uk" tvg-name="UK - SKY SPORTS NFL UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsnfl.png" group-title="|UK| SPORTS",UK - SKY SPORTS NFL UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577993.ts
-#EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="UK - SKY SPORTS ARENA UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsarena.png" group-title="|UK| SPORTS",UK - SKY SPORTS ARENA UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577992.ts
-#EXTINF:-1 tvg-id="SkySportsCricket.uk" tvg-name="UK - SKY SPORTS CRICKET UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportscricket.png" group-title="|UK| SPORTS",UK - SKY SPORTS CRICKET UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577991.ts
-#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="UK - SKY SPORTS DARTS UHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsf1.png" group-title="|UK| SPORTS",UK - SKY SPORTS DARTS UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577990.ts
-#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-name="UK - SKY SPORTS MIX HD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsmix.png" group-title="|UK| SPORTS",UK - SKY SPORTS MIX HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577989.ts
-#EXTINF:-1 tvg-id="SkySportsRacing.uk" tvg-name="UK - SKY SPORTS RACING UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsracing.png" group-title="|UK| SPORTS",UK - SKY SPORTS RACING UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577988.ts
-#EXTINF:-1 tvg-id="SkySportsGolf.uk" tvg-name="UK - SKY SPORTS GOLF UHD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsgolf.png" group-title="|UK| SPORTS",UK - SKY SPORTS GOLF UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577987.ts
-#EXTINF:-1 tvg-id="Eurosport1.uk" tvg-name="UK - EUROSPORT 1 UHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport1.png" group-title="|UK| SPORTS",UK - EUROSPORT 1 UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577985.ts
-#EXTINF:-1 tvg-id="Eurosport2.uk" tvg-name="UK - EUROSPORT 2 UHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport2.png" group-title="|UK| SPORTS",UK - EUROSPORT 2 UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577984.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - PREMIER SPORT LALIGA TV UHD" tvg-logo="https://logo.protv.cc/piconsnew/premiersport.png" group-title="|UK| SPORTS",UK - PREMIER SPORT LALIGA TV UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577983.ts
-#EXTINF:-1 tvg-id="ViaplaySports1.uk" tvg-name="UK - PREMIER SPORTS 1 UHD" tvg-logo="http://103.176.90.118/picons/logos/POLAND/VIAPLAY.png" group-title="|UK| SPORTS",UK - PREMIER SPORTS 1 UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577982.ts
-#EXTINF:-1 tvg-id="ViaplaySports2.uk" tvg-name="UK - PREMIER SPORT 2 UHD" tvg-logo="http://103.176.90.118/picons/logos/POLAND/VIAPLAY.png" group-title="|UK| SPORTS",UK - PREMIER SPORT 2 UHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577981.ts
-#EXTINF:-1 tvg-id="" tvg-name="##### [UK]  SKY SPORTS FHD #####" tvg-logo="http://51.158.145.100/picons/logos/logos/UK.png" group-title="|UK| SPORTS",##### [UK]  SKY SPORTS FHD #####
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577979.ts
-#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-name="UK - SKY SPORTS MAIN EVENT FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmainevent.png" group-title="|UK| SPORTS",UK - SKY SPORTS MAIN EVENT FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577978.ts
-#EXTINF:-1 tvg-id="SkySportsPremiereLeague.uk" tvg-name="UK - SKY SPORTS PL FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportspl.png" group-title="|UK| SPORTS",UK - SKY SPORTS PL FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577977.ts
-#EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="UK - SKY SPORTS FOOTBALL FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsfootball.png" group-title="|UK| SPORTS",UK - SKY SPORTS FOOTBALL FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577976.ts
-#EXTINF:-1 tvg-id="Sky.Sports.NFL.uk" tvg-name="UK - SKY SPORTS NFL FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsnfl.png" group-title="|UK| SPORTS",UK - SKY SPORTS NFL FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577975.ts
-#EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="UK - SKY SPORTS ARENA FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsarena.png" group-title="|UK| SPORTS",UK - SKY SPORTS ARENA FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577974.ts
-#EXTINF:-1 tvg-id="SkySportsCricket.uk" tvg-name="UK - SKY SPORTS CRICKET FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportscricket.png" group-title="|UK| SPORTS",UK - SKY SPORTS CRICKET FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577973.ts
-#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="UK - SKY SPORTS DARTS FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsf1.png" group-title="|UK| SPORTS",UK - SKY SPORTS DARTS FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577972.ts
-#EXTINF:-1 tvg-id="SkySportsGolf.uk" tvg-name="UK - SKY SPORTS GOLF FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsgolf.png" group-title="|UK| SPORTS",UK - SKY SPORTS GOLF FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577971.ts
-#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-name="UK - SKY SPORTS MIX FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmix.png" group-title="|UK| SPORTS",UK - SKY SPORTS MIX FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577970.ts
-#EXTINF:-1 tvg-id="SkySportsNews.uk" tvg-name="UK - SKY SPORTS NEWS FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsnews.png" group-title="|UK| SPORTS",UK - SKY SPORTS NEWS FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577969.ts
-#EXTINF:-1 tvg-id="SkySportsRacing.uk" tvg-name="UK - SKY SPORTS RACING FHD" tvg-logo="https://logo.protv.cc/piconsnew/skysportsracing.png" group-title="|UK| SPORTS",UK - SKY SPORTS RACING FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577968.ts
-#EXTINF:-1 tvg-id="TNTSport1.uk" tvg-name="UK - TNT SPORTS 1 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-1.png" group-title="|UK| SPORTS",UK - TNT SPORTS 1 FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577967.ts
-#EXTINF:-1 tvg-id="TNTSport2.uk" tvg-name="UK - TNT SPORTS 2 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-2.png" group-title="|UK| SPORTS",UK - TNT SPORTS 2 FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577966.ts
-#EXTINF:-1 tvg-id="TNTSport3.uk" tvg-name="UK - TNT SPORTS 3 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-3.png" group-title="|UK| SPORTS",UK - TNT SPORTS 3 FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577965.ts
-#EXTINF:-1 tvg-id="BTSport4ESPN.uk" tvg-name="UK - TNT SPORTS ESPN FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-ESPN.png" group-title="|UK| SPORTS",UK - TNT SPORTS ESPN FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577964.ts
-#EXTINF:-1 tvg-id="Eurosport1.uk" tvg-name="UK - EUROSPORT 1 FHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport1.png" group-title="|UK| SPORTS",UK - EUROSPORT 1 FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577963.ts
-#EXTINF:-1 tvg-id="Eurosport2.uk" tvg-name="UK - EUROSPORT 2 FHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport2.png" group-title="|UK| SPORTS",UK - EUROSPORT 2 FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577962.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - PREMIER SPORT LALIGA TV FHD" tvg-logo="http://103.176.90.118/picons-dino/logos/PREMIER-SPORT-LALIGA-TV.png" group-title="|UK| SPORTS",UK - PREMIER SPORT LALIGA TV FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577961.ts
-#EXTINF:-1 tvg-id="ViaplaySports1.uk" tvg-name="UK - VIAPLAY SPORT 1 FHD" tvg-logo="http://103.176.90.118/picons/logos/POLAND/VIAPLAY.png" group-title="|UK| SPORTS",UK - VIAPLAY SPORT 1 FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577960.ts
-#EXTINF:-1 tvg-id="ViaplaySports2.uk" tvg-name="UK - PREMIER SPORTS 2 FHD" tvg-logo="http://103.176.90.118/picons/logos/POLAND/VIAPLAY.png" group-title="|UK| SPORTS",UK - PREMIER SPORTS 2 FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577959.ts
-#EXTINF:-1 tvg-id="" tvg-name="##### [UK] SKY SPORTS SD #####" tvg-logo="http://51.158.145.100/picons/logos/logos/UK.png" group-title="|UK| SPORTS",##### [UK] SKY SPORTS SD #####
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577948.ts
-#EXTINF:-1 tvg-id="SkySportsMainEvent.uk" tvg-name="UK - SKY SPORTS MAIN EVENT" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmainevent.png" group-title="|UK| SPORTS",UK - SKY SPORTS MAIN EVENT
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577947.ts
-#EXTINF:-1 tvg-id="SkySportsPremiereLeague.uk" tvg-name="UK - SKY SPORTS PREMIER LEAGUE" tvg-logo="https://logo.protv.cc/piconsnew/skysportspremierleague.png" group-title="|UK| SPORTS",UK - SKY SPORTS PREMIER LEAGUE
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577946.ts
-#EXTINF:-1 tvg-id="Sky.Sports.NFL.uk" tvg-name="UK - SKY SPORTS NFL" tvg-logo="http://51.158.145.100/picons/logos/logos/skysportsnfl.png" group-title="|UK| SPORTS",UK - SKY SPORTS NFL
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577945.ts
-#EXTINF:-1 tvg-id="SkySportsArena.uk" tvg-name="UK - SKY SPORTS ARENA" tvg-logo="https://logo.protv.cc/piconsnew/skysportsarena.png" group-title="|UK| SPORTS",UK - SKY SPORTS ARENA
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577944.ts
-#EXTINF:-1 tvg-id="SkySportsCricket.uk" tvg-name="UK - SKY SPORTS CRICKET" tvg-logo="https://logo.protv.cc/piconsnew/skysportscricket.png" group-title="|UK| SPORTS",UK - SKY SPORTS CRICKET
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577943.ts
-#EXTINF:-1 tvg-id="SkySportsF1.uk" tvg-name="UK - SKY SPORTS DARTS" tvg-logo="https://logo.protv.cc/piconsnew/skysportsf1.png" group-title="|UK| SPORTS",UK - SKY SPORTS DARTS
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577942.ts
-#EXTINF:-1 tvg-id="Sky.Sports.Football.HD.uk" tvg-name="UK - SKY SPORTS FOOTBALL" tvg-logo="https://logo.protv.cc/piconsnew/skysportsfootball.png" group-title="|UK| SPORTS",UK - SKY SPORTS FOOTBALL
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577941.ts
-#EXTINF:-1 tvg-id="SkySportsGolf.uk" tvg-name="UK - SKY SPORTS GOLF" tvg-logo="https://logo.protv.cc/piconsnew/skysportsgolf.png" group-title="|UK| SPORTS",UK - SKY SPORTS GOLF
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577940.ts
-#EXTINF:-1 tvg-id="SkySportsMix.uk" tvg-name="UK - SKY SPORTS MIX" tvg-logo="https://logo.protv.cc/piconsnew/skysportsmix.png" group-title="|UK| SPORTS",UK - SKY SPORTS MIX
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577939.ts
-#EXTINF:-1 tvg-id="SkySportsNews.uk" tvg-name="UK - SKY SPORTS NEWS" tvg-logo="https://logo.protv.cc/piconsnew/skysportsnews.png" group-title="|UK| SPORTS",UK - SKY SPORTS NEWS
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577938.ts
-#EXTINF:-1 tvg-id="SkySportsRacing.uk" tvg-name="UK - SKY SPORTS RACING" tvg-logo="https://logo.protv.cc/piconsnew/skysportsracing.png" group-title="|UK| SPORTS",UK - SKY SPORTS RACING
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/577937.ts
-#EXTINF:-1 tvg-id="" tvg-name="##### BEIN SPORTS #####" tvg-logo="http://103.176.90.118/picons/logos/logos/UK.png" group-title="|UK| WORLD SPORTS",##### BEIN SPORTS #####
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828093.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 1 EN FHD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-1FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 1 EN FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828092.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 2 EN FHD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-2FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 2 EN FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828091.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 3 EN FHD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-3FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 3 EN FHD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828090.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 1 EN HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-1FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 1 EN HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828089.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 2 EN HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sports-2FHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 2 EN HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828088.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORT 3 EN HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-3HDENG.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORT 3 EN HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828087.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 1 PREMIUM HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/PREMIUM1HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 1 PREMIUM HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828086.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 2 PREMIUM HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/PREMIUM2HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 2 PREMIUM HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828085.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 3 PREMIUM HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/PREMIUM3HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 3 PREMIUM HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828084.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 1 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sport-1HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 1 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828083.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 2 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sport-2HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 2 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828082.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 3 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/bein_sport-3HD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 3 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828081.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 4 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-SPORT4.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 4 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828080.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 5 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-SPORT5.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 5 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828079.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 6 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-SPORT6.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 6 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828078.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 7 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-SPORT7.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 7 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828077.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 1 EN SD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-1ENG.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 1 EN SD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828076.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 2 EN SD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-2ENG.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 2 EN SD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828075.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 3 EN SD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-3HDENG.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 3 EN SD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828074.ts
-#EXTINF:-1 tvg-id="" tvg-name="##### BEIN SPORTS ASIA #####" tvg-logo="http://103.176.90.118/picons/logos/logos/UK.png" group-title="|UK| WORLD SPORTS",##### BEIN SPORTS ASIA #####
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828073.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 1 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-1UHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 1 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828072.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 2 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-2UHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 2 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828071.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - BEIN SPORTS 3 HD" tvg-logo="http://103.176.90.118/picons/logos/BEINGROUP/BEIN-3UHD.png" group-title="|UK| WORLD SPORTS",UK - BEIN SPORTS 3 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828070.ts
-#EXTINF:-1 tvg-id="" tvg-name="##### SUPER SPORTS #####" tvg-logo="http://103.176.90.118/picons/logos/logos/UK.png" group-title="|UK| WORLD SPORTS",##### SUPER SPORTS #####
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828122.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT MAXIMO HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_maximo.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT MAXIMO HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828120.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT ACTION HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_action.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT ACTION HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828119.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPER SPORTS PLAY 1 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_1.png" group-title="|UK| WORLD SPORTS",UK - SUPER SPORTS PLAY 1 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828118.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT PL HD" tvg-logo="http://51.158.145.100/picons/logos/UK/SUPERSPORT-PL.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT PL HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828116.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT LIGA HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_liga.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT LIGA HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828115.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT TENNIS HD" tvg-logo="http://103.176.90.118/picons/logos/UK/supersport_tennis.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT TENNIS HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828114.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT BLITZ HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_blitz.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT BLITZ HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828113.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT PSL HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_psl.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT PSL HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828112.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT GOLF HD" tvg-logo="http://103.176.90.118/picons/logos/SUPERSPORT-GOLF-TV.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT GOLF HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828111.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT GRANDSTAND HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_grandstand.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT GRANDSTAND HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828110.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT MOTORSPORT HD" tvg-logo="http://103.176.90.118/picons/logos/UK/supersport-motorsport.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT MOTORSPORT HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828109.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT FOOTBALL HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_football.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT FOOTBALL HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828108.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT RUGBY HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_rugby.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT RUGBY HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828107.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT CRICKET HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_cricket.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT CRICKET HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828106.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT VARIETY 1 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_variety-1.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT VARIETY 1 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828105.ts
-#EXTINF:-1 tvg-id="SuperSportVariety2.za" tvg-name="UK - SUPERSPORT VARIETY 2 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/SUPERSPORT_variety-2.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT VARIETY 2 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828104.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT VARIETY 3 HD" tvg-logo="http://51.158.145.100/picons/logos/UK/SUPERSPORT-VARIETY-3.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT VARIETY 3 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828103.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - SUPERSPORT VARIETY 4 HD" tvg-logo="http://51.158.145.100/picons/logos/UK/SUPERSPORT-VARIETY-4.png" group-title="|UK| WORLD SPORTS",UK - SUPERSPORT VARIETY 4 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828102.ts
-#EXTINF:-1 tvg-id="" tvg-name="##### UK ASTRO SPORTS #####" tvg-logo="http://103.176.90.118/picons/logos/logos/UK.png" group-title="|UK| WORLD SPORTS",##### UK ASTRO SPORTS #####
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828101.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SUPERSPORT 1 4K" tvg-logo="http://51.158.145.100/picons/logos/logos/ASTRO-SUPERSPORTS-1.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SUPERSPORT 1 4K
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828100.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SUPERSPORT 2 4K" tvg-logo="http://51.158.145.100/picons/logos/logos/ASTRO-SUPERSPORTS-2.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SUPERSPORT 2 4K
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828099.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 1 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 1 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828098.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 2 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 2 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828097.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 3 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 3 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828096.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 4 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 4 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828095.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - ASTRO SPORTS 5 HD" tvg-logo="http://103.176.90.118/picons/logos/UK/Astro_Supersport_HD.png" group-title="|UK| WORLD SPORTS",UK - ASTRO SPORTS 5 HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/828094.ts
-
-
-
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 1" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS1.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 1
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827940.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 2" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS2.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 2
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827939.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 3" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS3.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 3
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827938.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 4" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS4.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 4
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827937.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 5" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS5.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 5
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827936.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 6" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-PREMIER-SPORTS6.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 6
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827935.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 7" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-NOW-SPORTS.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 7
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827934.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK PREMIER SPORTS 8" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-HK-NOW-SPORTS.png" group-title="|UK| WORLD SPORTS",UK - NOW HK PREMIER SPORTS 8
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827933.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 1" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS1.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 1
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827932.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 2" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS2.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 2
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827931.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 3" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS3.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 3
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827930.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 4" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS4.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 4
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827929.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 5" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS5.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 5
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827928.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 6" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS6.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 6
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827927.ts
-#EXTINF:-1 tvg-id="" tvg-name="UK - NOW HK NOW SPORTS 7" tvg-logo="http://103.176.90.118/picons/logos/UK/NOW-SPORTS7.png" group-title="|UK| WORLD SPORTS",UK - NOW HK NOW SPORTS 7
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/827926.ts
-
-
 
 
 #########################################
@@ -3820,6 +3590,65 @@ http://2k.tstvs.com/691eba43db76f/d07ee0f057/827926.ts
 http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/195495.ts
 #EXTINF:-1 tvg-id="" tvg-name="UK : BT Sport 1 FHD" tvg-logo="" group-title="體育世界",UK : BT Sport 1 FHD
 http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/601691.ts
+
+
+
+
+
+#EXTINF:-1 tvg-id="beinsports.my" tvg-name="MY - BEIN SPORTS HD" tvg-logo="https://go4.pw/ARABE/BEIN SPORTS 1.png" group-title="體育世界",MY - BEIN SPORTS HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052432
+#EXTINF:-1 tvg-id="beinsports2.my" tvg-name="MY - BEIN SPORTS 2 HD" tvg-logo="https://go4.pw/ARABE/BEIN SPORTS 2.png" group-title="體育世界",MY - BEIN SPORTS 2 HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052426
+#EXTINF:-1 tvg-id="beinsport3.my" tvg-name="MY - BEIN SPORTS 3 HD" tvg-logo="https://go4.pw/ARABE/BEIN SPORTS 3.png" group-title="體育世界",MY - BEIN SPORTS 3 HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052430
+#EXTINF:-1 tvg-id="" tvg-name="MY - PREMIER SPORTS HD" tvg-logo="https://go4.pw/EUROPE/UK/PREMIERSPORT-1.png" group-title="體育世界",MY - PREMIER SPORTS HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052581
+#EXTINF:-1 tvg-id="astrosupersport.my" tvg-name="MY - ASTRO SUPERSPORT 1 HD" tvg-logo=" https://go4.pw/ASIA/su1su2.png" group-title="體育世界",MY - ASTRO SUPERSPORT 1 HD
+http://goldenpro.xyz:80/194679431759017/8173373055/955661
+#EXTINF:-1 tvg-id="astrosupersport2.my" tvg-name="MY - ASTRO SUPERSPORT 2 HD" tvg-logo=" https://go4.pw/ASIA/su2su.png" group-title="體育世界",MY - ASTRO SUPERSPORT 2 HD
+http://goldenpro.xyz:80/194679431759017/8173373055/955663
+#EXTINF:-1 tvg-id="astrosupersport4.my" tvg-name="MY - ASTRO SUPERSPORT 4 HD" tvg-logo=" https://go4.pw/ASIA/su4.png" group-title="體育世界",MY - ASTRO SUPERSPORT 4 HD
+http://goldenpro.xyz:80/194679431759017/8173373055/955665
+#EXTINF:-1 tvg-id="astroarena.my" tvg-name="MY - ASTRO ARENA HD" tvg-logo="https://go4.pw/ASIA/ASTRO.png" group-title="體育世界",MY - ASTRO ARENA HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052376
+#EXTINF:-1 tvg-id="astroarena2.my" tvg-name="MY - ASTRO ARENA 2 HD" tvg-logo="https://go4.pw/ASIA/ASTRO.png" group-title="體育世界",MY - ASTRO ARENA 2 HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052374
+#EXTINF:-1 tvg-id="astroaura.my" tvg-name="MY - ASTRO AURA HD" tvg-logo="https://go4.pw/ASIA/AURA.png" group-title="體育世界",MY - ASTRO AURA HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052380
+#EXTINF:-1 tvg-id="" tvg-name="MY - ASTRO FOOTBALL HD" tvg-logo="https://go4.pw/ASIA/football.png" group-title="體育世界",MY - ASTRO FOOTBALL HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1170917
+#EXTINF:-1 tvg-id="" tvg-name="MY - ASTRO SPORTS PLUS HD" tvg-logo="https://go4.pw/ASIA/Plus.png" group-title="體育世界",MY - ASTRO SPORTS PLUS HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1170925
+#EXTINF:-1 tvg-id="" tvg-name="MY - ASTRO PREMIER LEAGUE  3 HD" tvg-logo="https://go4.pw/ASIA/League.png" group-title="體育世界",MY - ASTRO PREMIER LEAGUE  3 HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1170918
+#EXTINF:-1 tvg-id="" tvg-name="MY - ASTRO PREMIER LEAGUE 5 HD" tvg-logo="https://go4.pw/ASIA/League.png" group-title="體育世界",MY - ASTRO PREMIER LEAGUE 5 HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1170919
+#EXTINF:-1 tvg-id="astrocitra.my" tvg-name="MY - ASTRO CITRA HD" tvg-logo="https://go4.pw/ASIA/Citra.png" group-title="體育世界",MY - ASTRO CITRA HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052391
+#EXTINF:-1 tvg-id="" tvg-name="MY - ASTRO RIA (not 24/7) HD" tvg-logo="https://go4.pw/ASIA/astroria.png" group-title="體育世界",MY - ASTRO RIA (not 24/7) HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1119956
+#EXTINF:-1 tvg-id="" tvg-name="MY - W-SPORT HD" tvg-logo="https://go4.pw/ASIA/Sport.png" group-title="體育世界",MY - W-SPORT HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052657
+#EXTINF:-1 tvg-id="" tvg-name="MY - SPOTV" tvg-logo="https://go4.pw/ASIA/SPOTV.png" group-title="體育世界",MY - SPOTV
+http://goldenpro.xyz:80/194679431759017/8173373055/1052588
+#EXTINF:-1 tvg-id="" tvg-name="MY - SPOTV HD" tvg-logo="https://go4.pw/ASIA/SPOTV.png" group-title="體育世界",MY - SPOTV HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1052592
+#EXTINF:-1 tvg-id="" tvg-name="MY - SPOTV 2 FHD" tvg-logo="https://go4.pw/ASIA/SPOTV.png" group-title="體育世界",MY - SPOTV 2 FHD
+http://goldenpro.xyz:80/194679431759017/8173373055/957706
+#EXTINF:-1 tvg-id="" tvg-name="MY - SPOTV 2 HEVC" tvg-logo="https://go4.pw/ASIA/SPOTV.png" group-title="體育世界",MY - SPOTV 2 HEVC
+http://goldenpro.xyz:80/194679431759017/8173373055/1052589
+#EXTINF:-1 tvg-id="" tvg-name="MY - SPOTV 2 HD" tvg-logo="https://go4.pw/ASIA/SPOTV.png" group-title="體育世界",MY - SPOTV 2 HD
+http://goldenpro.xyz:80/194679431759017/8173373055/957732
+
+
+
+
+
+
+
+
+
+
 
 
 #EXTINF:-1 group-title="體育世界",Eurosport 1
@@ -4295,163 +4124,6 @@ https://vod2.abn.co.kr/IPHONE/abn.m3u8
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
 
 
-#EXTINF:-1 tvg-name="YTN" tvg-logo="https://pjytv.760515.xyz/logo/YTN.png" group-title="韓國頻道",YTN
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=YTN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jYTk0MDRiZjExMTQ=
-#EXTINF:-1 tvg-name="YTN2" tvg-logo="https://pjytv.760515.xyz/logo/YTN2.png" group-title="韓國頻道",YTN2
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=YTN2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lMmM3YThmMzExMTU=
-#EXTINF:-1 tvg-name="YTN사이언스" tvg-logo="https://pjytv.760515.xyz/logo/YTN사이언스.png" group-title="韓國頻道",YTN사이언스
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=YTN%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1mNTI0ODU4NzExMTY=
-#EXTINF:-1 tvg-name="연합뉴스TV" tvg-logo="https://pjytv.760515.xyz/logo/연합뉴스TV.png" group-title="韓國頻道",연합뉴스TV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%97%B0%ED%95%A9%EB%89%B4%EC%8A%A4TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zZWUxYWE2ZDExMTc=
-#EXTINF:-1 tvg-name="JTBC" tvg-logo="https://pjytv.760515.xyz/logo/JTBC.png" group-title="韓國頻道",JTBC
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=JTBC&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jYTZiNTQ3MjExMTg=
-#EXTINF:-1 tvg-name="JTBC2" tvg-logo="https://pjytv.760515.xyz/logo/JTBC2.png" group-title="韓國頻道",JTBC2
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=JTBC2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wMDJkYzZiZjExMTk=
-#EXTINF:-1 tvg-name="JTBC4" tvg-logo="https://pjytv.760515.xyz/logo/JTBC4.png" group-title="韓國頻道",JTBC4
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=JTBC4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0xZGNlMTg3MDExMjA=
-#EXTINF:-1 tvg-name="tvN" tvg-logo="https://pjytv.760515.xyz/logo/tvN.png" group-title="韓國頻道",tvN
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=tvN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yZjQ4YmVjNjExMjE=
-#EXTINF:-1 tvg-name="tvN SHOW" tvg-logo="https://pjytv.760515.xyz/logo/tvN SHOW.png" group-title="韓國頻道",tvN SHOW
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=tvN%20SHOW&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04MTk5ZGVlMDExMjI=
-#EXTINF:-1 tvg-name="tvN DRAMA" tvg-logo="https://pjytv.760515.xyz/logo/tvN DRAMA.png" group-title="韓國頻道",tvN DRAMA
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=tvN%20DRAMA&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00ZDI2ZTE3ZTExMjM=
-#EXTINF:-1 tvg-name="tvN STORY" tvg-logo="https://pjytv.760515.xyz/logo/tvN STORY.png" group-title="韓國頻道",tvN STORY
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=tvN%20STORY&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00ODE3Zjg1ZDExMjQ=
-#EXTINF:-1 tvg-name="채널A" tvg-logo="https://pjytv.760515.xyz/logo/채널A.png" group-title="韓國頻道",채널A
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%B1%84%EB%84%90A&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jNGJjYTViYzExMjU=
-#EXTINF:-1 tvg-name="채널A플러스" tvg-logo="https://pjytv.760515.xyz/logo/채널A플러스.png" group-title="韓國頻道",채널A플러스
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%B1%84%EB%84%90A%ED%94%8C%EB%9F%AC%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01OWE4ZDgyODExMjY=
-#EXTINF:-1 tvg-name="TV CHOSUN" tvg-logo="https://pjytv.760515.xyz/logo/TV CHOSUN.png" group-title="韓國頻道",TV CHOSUN
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=TV%20CHOSUN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wYjdkNWRiZDExMjc=
-#EXTINF:-1 tvg-name="TV CHOSUN 2" tvg-logo="https://pjytv.760515.xyz/logo/TV CHOSUN 2.png" group-title="韓國頻道",TV CHOSUN 2
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=TV%20CHOSUN%202&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yNTQxOWJlOTExMjg=
-#EXTINF:-1 tvg-name="Mnet" tvg-logo="https://pjytv.760515.xyz/logo/Mnet.png" group-title="韓國頻道",Mnet
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=Mnet&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wMjM0NjYwMjExMjk=
-#EXTINF:-1 tvg-name="MBN" tvg-logo="https://pjytv.760515.xyz/logo/MBN.png" group-title="韓國頻道",MBN
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kODhlMzc4MDExMzA=
-#EXTINF:-1 tvg-name="MBN 플러스" tvg-logo="https://pjytv.760515.xyz/logo/MBN 플러스.png" group-title="韓國頻道",MBN 플러스
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBN%20%ED%94%8C%EB%9F%AC%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1hMGJlNmYxNzExMzE=
-#EXTINF:-1 tvg-name="LIFETIME" tvg-logo="https://pjytv.760515.xyz/logo/LIFETIME.png" group-title="韓國頻道",LIFETIME
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=LIFETIME&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zYTZlNDdjYzExMzI=
-#EXTINF:-1 tvg-name="중화TV" tvg-logo="https://pjytv.760515.xyz/logo/중화TV.png" group-title="韓國頻道",중화TV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%A4%91%ED%99%94TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02MmUyZTVjZTExMzM=
-#EXTINF:-1 tvg-name="히스토리" tvg-logo="https://pjytv.760515.xyz/logo/히스토리.png" group-title="韓國頻道",히스토리
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%ED%9E%88%EC%8A%A4%ED%86%A0%EB%A6%AC&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lMmMxMjZiZDExMzQ=
-#EXTINF:-1 tvg-name="EBS1" tvg-logo="https://pjytv.760515.xyz/logo/EBS1.png" group-title="韓國頻道",EBS1
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01YWU1ODU2YjExMzU=
-#EXTINF:-1 tvg-name="국회방송(NATV)" tvg-logo="https://pjytv.760515.xyz/logo/국회방송(NATV).png" group-title="韓國頻道",국회방송(NATV)
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EA%B5%AD%ED%9A%8C%EB%B0%A9%EC%86%A1(NATV)&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yOWFhNjA0ZTExMzY=
-#EXTINF:-1 tvg-name="ANIBOX" tvg-logo="https://pjytv.760515.xyz/logo/ANIBOX.png" group-title="韓國頻道",ANIBOX
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=ANIBOX&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jMmJhNTZjNjExMzc=
-#EXTINF:-1 tvg-name="애니맥스" tvg-logo="https://pjytv.760515.xyz/logo/애니맥스.png" group-title="韓國頻道",애니맥스
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%95%A0%EB%8B%88%EB%A7%A5%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02Y2ViMTdlZjExMzg=
-#EXTINF:-1 tvg-name="투니버스" tvg-logo="https://pjytv.760515.xyz/logo/투니버스.png" group-title="韓國頻道",투니버스
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%ED%88%AC%EB%8B%88%EB%B2%84%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1mYjZhMTViNjExMzk=
-#EXTINF:-1 tvg-name="KBS1" tvg-logo="https://pjytv.760515.xyz/logo/KBS1.png" group-title="韓國頻道",KBS1
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD03MmZmYTkyMzExNDA=
-#EXTINF:-1 tvg-name="KBS2" tvg-logo="https://pjytv.760515.xyz/logo/KBS2.png" group-title="韓國頻道",KBS2
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wYjlhOWRmOTExNDE=
-#EXTINF:-1 tvg-name="KBS드라마" tvg-logo="https://pjytv.760515.xyz/logo/KBS드라마.png" group-title="韓國頻道",KBS드라마
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%EB%93%9C%EB%9D%BC%EB%A7%88&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wYTFmMDUyMTExNDI=
-#EXTINF:-1 tvg-name="KBS조이" tvg-logo="https://pjytv.760515.xyz/logo/KBS조이.png" group-title="韓國頻道",KBS조이
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%EC%A1%B0%EC%9D%B4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kMWFmNTNhMDExNDM=
-#EXTINF:-1 tvg-name="KBS키즈" tvg-logo="https://pjytv.760515.xyz/logo/KBS키즈.png" group-title="韓國頻道",KBS키즈
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%ED%82%A4%EC%A6%88&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kZGY2MTUzZTExNDQ=
-#EXTINF:-1 tvg-name="KBS LIFE" tvg-logo="https://pjytv.760515.xyz/logo/KBS LIFE.png" group-title="韓國頻道",KBS LIFE
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%20LIFE&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iYThhMzVjMjExNDU=
-#EXTINF:-1 tvg-name="KBS Story" tvg-logo="https://pjytv.760515.xyz/logo/KBS Story.png" group-title="韓國頻道",KBS Story
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%20Story&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD03MTlhNDVjNTExNDY=
-#EXTINF:-1 tvg-name="KBS WORLD" tvg-logo="https://pjytv.760515.xyz/logo/KBS WORLD.png" group-title="韓國頻道",KBS WORLD
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%20WORLD&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02MjVlYjhiYjExNDc=
-#EXTINF:-1 tvg-name="KBS뉴스" tvg-logo="https://pjytv.760515.xyz/logo/KBS뉴스.png" group-title="韓國頻道",KBS뉴스
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=KBS%EB%89%B4%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kM2QzMmQzYTExNDg=
-#EXTINF:-1 tvg-name="SBS" tvg-logo="https://pjytv.760515.xyz/logo/SBS.png" group-title="韓國頻道",SBS
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wNWMzZTUxZjExNDk=
-#EXTINF:-1 tvg-name="SBS플러스" tvg-logo="https://pjytv.760515.xyz/logo/SBS플러스.png" group-title="韓國頻道",SBS플러스
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%ED%94%8C%EB%9F%AC%EC%8A%A4&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04OGIyNWIzMjExNTA=
-#EXTINF:-1 tvg-name="SBS퍼니" tvg-logo="https://pjytv.760515.xyz/logo/SBS퍼니.png" group-title="韓國頻道",SBS퍼니
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%ED%8D%BC%EB%8B%88&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01OTZjZDhjNTExNTE=
-#EXTINF:-1 tvg-name="SBS LIFE" tvg-logo="https://pjytv.760515.xyz/logo/SBS LIFE.png" group-title="韓國頻道",SBS LIFE
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%20LIFE&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lZmRmYjZkZDExNTI=
-#EXTINF:-1 tvg-name="SBS KPOP" tvg-logo="https://pjytv.760515.xyz/logo/SBS KPOP.png" group-title="韓國頻道",SBS KPOP
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%20KPOP&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01Y2VkZjUzOTExNTM=
-#EXTINF:-1 tvg-name="SBS골프" tvg-logo="https://pjytv.760515.xyz/logo/SBS골프.png" group-title="韓國頻道",SBS골프
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%EA%B3%A8%ED%94%84&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01MmQyNGM3MTExNTQ=
-#EXTINF:-1 tvg-name="SBS Golf2" tvg-logo="https://pjytv.760515.xyz/logo/SBS Golf2.png" group-title="韓國頻道",SBS Golf2
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%20Golf2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04MTdjNGY2MTExNTU=
-#EXTINF:-1 tvg-name="SBS스포츠" tvg-logo="https://pjytv.760515.xyz/logo/SBS스포츠.png" group-title="韓國頻道",SBS스포츠
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%EC%8A%A4%ED%8F%AC%EC%B8%A0&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1kOTJlOTM0ZDExNTY=
-#EXTINF:-1 tvg-name="SBS Biz" tvg-logo="https://pjytv.760515.xyz/logo/SBS Biz.png" group-title="韓國頻道",SBS Biz
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=SBS%20Biz&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02ZjliMDc4ZDExNTc=
-#EXTINF:-1 tvg-name="MBC" tvg-logo="https://pjytv.760515.xyz/logo/MBC.png" group-title="韓國頻道",MBC
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lMDkwZDcwMzExNTg=
-#EXTINF:-1 tvg-name="MBC드라마넷" tvg-logo="https://pjytv.760515.xyz/logo/MBC드라마넷.png" group-title="韓國頻道",MBC드라마넷
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC%EB%93%9C%EB%9D%BC%EB%A7%88%EB%84%B7&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01MzViMWI5ZTExNTk=
-#EXTINF:-1 tvg-name="MBC에브리원" tvg-logo="https://pjytv.760515.xyz/logo/MBC에브리원.png" group-title="韓國頻道",MBC에브리원
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC%EC%97%90%EB%B8%8C%EB%A6%AC%EC%9B%90&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0xNzU1MTcyZDExNjA=
-#EXTINF:-1 tvg-name="MBC M" tvg-logo="https://pjytv.760515.xyz/logo/MBC M.png" group-title="韓國頻道",MBC M
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC%20M&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jOThmYjk5NzExNjE=
-#EXTINF:-1 tvg-name="MBC ON" tvg-logo="https://pjytv.760515.xyz/logo/MBC ON.png" group-title="韓國頻道",MBC ON
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBC%20ON&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yNmNjYTI4MTExNjI=
-#EXTINF:-1 tvg-name="MBCNET" tvg-logo="https://pjytv.760515.xyz/logo/MBCNET.png" group-title="韓國頻道",MBCNET
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MBCNET&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00ODYzMzFkMzExNjM=
-#EXTINF:-1 tvg-name="아리랑TV" group-title="韓國頻道",아리랑TV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EC%95%84%EB%A6%AC%EB%9E%91TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1jYWNhZWQyMDExNjQ=
-#EXTINF:-1 tvg-name="TBSTV" group-title="韓國頻道",TBSTV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=TBSTV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yOTc4ZTMwOTExNjU=
-#EXTINF:-1 tvg-name="ABN" tvg-logo="https://pjytv.760515.xyz/logo/ABN.png" group-title="韓國頻道",ABN
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=ABN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD03ZjVjNjBiYTExNjY=
-#EXTINF:-1 tvg-name="농협TV" tvg-logo="https://pjytv.760515.xyz/logo/농협TV.png" group-title="韓國頻道",농협TV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EB%86%8D%ED%98%91TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iNDQ4MTE5OTExNjc=
-#EXTINF:-1 tvg-name="복지TV" group-title="韓國頻道",복지TV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EB%B3%B5%EC%A7%80TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iMGU5MWQ0ZDExNjg=
-#EXTINF:-1 tvg-name="국민방송" tvg-logo="https://pjytv.760515.xyz/logo/국민방송.png" group-title="韓國頻道",국민방송
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EA%B5%AD%EB%AF%BC%EB%B0%A9%EC%86%A1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yZDJjMjFkMTExNjk=
-#EXTINF:-1 tvg-name="문화유산채널" tvg-logo="https://pjytv.760515.xyz/logo/문화유산채널.png" group-title="韓國頻道",문화유산채널
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EB%AC%B8%ED%99%94%EC%9C%A0%EC%82%B0%EC%B1%84%EB%84%90&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00MDhhMDQwZDExNzA=
-#EXTINF:-1 tvg-name="방송대학TV" tvg-logo="https://pjytv.760515.xyz/logo/방송대학TV.png" group-title="韓國頻道",방송대학TV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=%EB%B0%A9%EC%86%A1%EB%8C%80%ED%95%99TV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD03OGJkOGRiYzExNzE=
-#EXTINF:-1 tvg-name="EBS1" tvg-logo="https://pjytv.760515.xyz/logo/EBS1.png" group-title="韓國頻道",EBS1
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0yY2IyMmMwNzExNzI=
-#EXTINF:-1 tvg-name="EBS2" tvg-logo="https://pjytv.760515.xyz/logo/EBS2.png" group-title="韓國頻道",EBS2
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0xNzY1MDljOTExNzM=
-#EXTINF:-1 tvg-name="EBS+1" tvg-logo="https://pjytv.760515.xyz/logo/EBS+1.png" group-title="韓國頻道",EBS+1
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS%2B1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lMjIwMTQ0ODExNzQ=
-#EXTINF:-1 tvg-name="EBS+2" tvg-logo="https://pjytv.760515.xyz/logo/EBS+2.png" group-title="韓國頻道",EBS+2
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS%2B2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iMTE2NjVhZTExNzU=
-#EXTINF:-1 tvg-name="EBS English" tvg-logo="https://pjytv.760515.xyz/logo/EBS English.png" group-title="韓國頻道",EBS English
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=EBS%20English&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1lYzFlYjBjMzExNzY=
-
-#EXTINF:-1 tvg-name="CNN" group-title="韓國頻道",CNN
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=CNN&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1mODFlZjYxYTExOTc=
-#EXTINF:-1 tvg-name="CBS News" group-title="韓國頻道",CBS News
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=CBS%20News&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zNjlkYzQ4NDExOTg=
-#EXTINF:-1 tvg-name="BBC" group-title="韓國頻道",BBC
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=BBC&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00OThjZmEwYjExOTk=
-#EXTINF:-1 tvg-name="Bloomberg" group-title="韓國頻道",Bloomberg
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=Bloomberg&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zMDk1MWEzZDEyMDA=
-#EXTINF:-1 tvg-name="Fox" group-title="韓國頻道",Fox
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=Fox&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wODljZmJhZTEyMDE=
-#EXTINF:-1 tvg-name="NHKWorld" group-title="韓國頻道",NHKWorld
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=NHKWorld&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zMTg4NWJhNDEyMDI=
-#EXTINF:-1 tvg-name="ANTV" group-title="韓國頻道",ANTV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=ANTV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0zNzJmMzIzNjEyMDM=
-#EXTINF:-1 tvg-name="NDTV" group-title="韓國頻道",NDTV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=NDTV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD02OTgwODlhYjEyMDQ=
-#EXTINF:-1 tvg-name="FashionTV" group-title="韓國頻道",FashionTV
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=FashionTV&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD00NjE3ZjUwMjEyMDU=
-#EXTINF:-1 tvg-name="MOVIE1" group-title="韓國頻道",MOVIE1
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MOVIE1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04MTdkYTQ5ZjEyMDY=
-#EXTINF:-1 tvg-name="MOVIE2" group-title="韓國頻道",MOVIE2
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=MOVIE2&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD01MmMzOTNkODEyMDc=
-#EXTINF:-1 tvg-name="F1" group-title="韓國頻道",F1
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=F1&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD04ZjZmNmQxNjEyMDg=
-#EXTINF:-1 tvg-name="FAILARMY" group-title="韓國頻道",FAILARMY
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=FAILARMY&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD0wZWE1MjI1MjEyMDk=
-#EXTINF:-1 tvg-name="Drybarcomedy" group-title="韓國頻道",Drybarcomedy
-https://virtual.anbox118.workers.dev/resolve?session=d7897d9e-d5cf-4b8f-8802-2f40a822051d&channel=Drybarcomedy&src=aHR0cDovL3R2MTIzLmNjLmNkL2xpdmUucGhwLz9jaD1iZDhmZTEwYjEyMTA=
-
-
 #########################################
              MALAYSIA TV
 #########################################
@@ -4629,30 +4301,50 @@ https://d1sq2slp9afh7o.cloudfront.net/smil:aura/chunklist_b2596000_slENG.m3u8
 
 
 #########################################
-            NEWS
+            GLOBAL NEWS
 #########################################
 
 
 
-#EXTINF:-1 group-title="News",SPECTRUM NEWS SO CAL
+
+#EXTINF:-1 tvg-id="" tvg-name="ID - CNBC" tvg-logo="https://go4.pw/INDONESIA/CNBC.png" group-title="GLOBAL NEWS",ID - CNBC
+http://goldenpro.xyz:80/194679431759017/8173373055/584529
+#EXTINF:-1 tvg-id="" tvg-name="ID - AL JAZEERA ENGLISH" tvg-logo="https://go4.pw/INDONESIA/AL_JAZEERA_ENGLISH.png" group-title="GLOBAL NEWS",ID - AL JAZEERA ENGLISH
+http://goldenpro.xyz:80/194679431759017/8173373055/584470
+#EXTINF:-1 tvg-id="" tvg-name="ID - NHK WORLD PREMIUM" tvg-logo="https://go4.pw/INDONESIA/NHK_WORLD_PREMIUM.png" group-title="GLOBAL NEWS",ID - NHK WORLD PREMIUM
+http://goldenpro.xyz:80/194679431759017/8173373055/584477
+#EXTINF:-1 tvg-id="" tvg-name="ID - RT" tvg-logo="https://go4.pw/INDONESIA/RT1.png" group-title="GLOBAL NEWS",ID - RT
+http://goldenpro.xyz:80/194679431759017/8173373055/584475
+#EXTINF:-1 tvg-id="" tvg-name="ID - ARIRANG KOREA" tvg-logo="https://go4.pw/INDONESIA/ARIRANG_KOREA.png" group-title="GLOBAL NEWS",ID - ARIRANG KOREA
+http://goldenpro.xyz:80/194679431759017/8173373055/584534
+#EXTINF:-1 tvg-id="" tvg-name="ID - ARIRANG" tvg-logo="https://go4.pw/INDONESIA/Arirang.png" group-title="GLOBAL NEWS",ID - ARIRANG
+http://goldenpro.xyz:80/194679431759017/8173373055/830517
+#EXTINF:-1 tvg-id="" tvg-name="ID - FRANCE 24" tvg-logo="https://go4.pw/EUROPE/NORWAY/FRANCE 24.png" group-title="GLOBAL NEWS",ID - FRANCE 24
+http://goldenpro.xyz:80/194679431759017/8173373055/1088914
+#EXTINF:-1 tvg-id="" tvg-name="ID - BBC World News HD" tvg-logo="https://go4.pw/EUROPE/DENMARK/BBC_World_News.png" group-title="GLOBAL NEWS",ID - BBC World News HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1247905
+#EXTINF:-1 tvg-id="" tvg-name="ID - CNN Int HD" tvg-logo="" group-title="GLOBAL NEWS",ID - CNN Int HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1247915
+#EXTINF:-1 tvg-id="" tvg-name="ID - Rai Italia HD" tvg-logo="" group-title="GLOBAL NEWS",ID - Rai Italia HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1247940
+#EXTINF:-1 tvg-id="" tvg-name="ID - TV5 Monde HD" tvg-logo="https://go4.pw/EUROPE/FRANCE/Tv5_monde_HD.png" group-title="GLOBAL NEWS",ID - TV5 Monde HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1247948
+
+
+#EXTINF:-1 tvg-id="" tvg-name="ID - NHK WORLD JAPAN" tvg-logo="https://go4.pw/ASIA/NHK-WORLD.png" group-title="AS | INDONESIA",ID - NHK WORLD JAPAN
+http://goldenpro.xyz:80/194679431759017/8173373055/584530
+#EXTINF:-1 tvg-id="" tvg-name="ID - DW TV HD" tvg-logo="https://go4.pw/EUROPE/DENMARK/DW_English.png" group-title="AS | INDONESIA",ID - DW TV HD
+http://goldenpro.xyz:80/194679431759017/8173373055/1247891
+#EXTINF:-1 tvg-id="" tvg-name="ID - CNN ID" tvg-logo="" group-title="AS | INDONESIA",ID - CNN ID
+http://goldenpro.xyz:80/194679431759017/8173373055/1247963
+
+
+
+
+#EXTINF:-1 group-title="GLOBAL NEWS",SPECTRUM NEWS SO CAL
 http://suprino.xyz/live/Rogi007/95WXXSR/1284290.ts
-
-
-
-
-#EXTINF:-1 group-title="News",CNN INTL
+#EXTINF:-1 group-title="GLOBAL NEWS",CNN INTL
 http://suprino.xyz/live/Rogi007/95WXXSR/71486.ts
-
-#EXTINF:-1 group-title="News",USA - CNN HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/552001.ts
-#EXTINF:-1 group-title="News",USA - CNN INTERNATIONAL HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/551998.ts
-#EXTINF:-1 group-title="News",USA - CNN MAX HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/985333.ts
-#EXTINF:-1 group-title="News",USA - CNBC HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/551993.ts
-#EXTINF:-1 group-title="News",USA - CNBC WORLD HD
-http://2k.tstvs.com/691eba43db76f/d07ee0f057/551992.ts
 
 
 
@@ -5242,13 +4934,13 @@ https://s1.fengbao9.com/video/rengongqingbao/62c0afa3f1cf/index.m3u8
 
 #EXTM3U
 
-
+#EXTINF:-1 group-title="抖音K歌",任賢齊-心太軟
+http://mobi.kuwo.cn/tmevideo/tme1258319.mp4
 #EXTINF:-1 group-title="抖音K歌",朴彩英/APT
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v02f52g10003css23uiljht5d6b6mnq0&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",wonder girls-Nobody
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000c6loblbc77u7hd3mel20&ratio=720p&line=0
-#EXTINF:-1 group-title="抖音K歌",街道辦GDC/歐陽耀瑩-春嬌與志明
-https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000chcm34rc77u9287g2210&ratio=720p&line=0
+
 #EXTINF:-1 group-title="抖音K歌",王心淩-第一次愛的人
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000ca8d8rbc77u376afq590&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",王心淩-當你
@@ -5549,6 +5241,68 @@ https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000ct7cdovog65o09j2
 http://vodcdn.video.taobao.com/oss/ali-video/f2b27944f9960f3dbb2c6dd6c4679747/video.m3u8
 #EXTINF:-1 group-title="抖音K歌",梁靜茹-勇氣
 http://vodcdn.video.taobao.com/oss/ali-video/f501ffc81da040099b17fb1db30b92fe/1462937648/video.m3u8.m3u8
+
+#EXTINF:-1 group-title="抖音K歌",陶喆-就是愛你
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000c2j1oprc77u04674qfu0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",郭靜-心牆
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000cjb9s3bc77u14r09k960&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",SHE-67首合集
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cp7v5hvog65pib9gvgr0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-當你
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000c7kn3mjc77u760cntbs0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-可惜沒如果
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cc04j43c77ucueo1ls5g&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-不為誰而做的歌
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000cfrkaljc77ue6grom5qg&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-她說
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000c7kn4r3c77u8dq4r1vo0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-背對背擁抱
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000c5a6qjbc77u4nhrr8s0g&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-修煉愛情
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000chdi71rc77u1eim5a4t0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-手心的薔薇
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000c4p3rrbc77u5vns816r0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-江南
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000c8t5ac3c77u822ppftmg&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-小酒窩
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cg5ghijc77ud4ehka23g&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-Always Online
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000ck65c1rc77ucdedd9tpg&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",林俊傑-不潮不用花錢
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000c7kn32bc77u538kgoopg&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",by2-愛丫愛丫
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000croe187og65pl22ksg00&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",by2-我知道
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000citn8ivog65usodfhif0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",by2-我知道
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000ct0ushnog65rec0oavug&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",by2-你並不懂我
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000crhpin7og65vnbko3vm0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",by2-你並不懂我
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000c8bids3c77ufr1d2duag&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",by2/汪蘇瀧-有點甜
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000cb5bsu3c77ucgqht5pj0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",關淑怡-難得有情人
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cockvfrc77uecmqmqq40&ratio=720p&line=0
+
+
+
+#EXTINF:-1 group-title="抖音K歌",Beyond-光輝歲月
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000ccu4ldjc77u4nmf3f54g&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",Beyond-真的愛你
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000ceksa4bc77u77da91tfg&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",Beyond-大地
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cojstabc77uerhn878qg&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",Beyond-冷雨夜
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cdqcbe3c77ucgubud6i0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",Beyond-海闊天空
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000chfntjrc77uf4o64t5qg&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",Beyond-歲月無聲
+https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000cfhoeq3c77u4flt6fni0&ratio=720p&line=0
+
+
+
+
 #EXTINF:-1 group-title="抖音K歌",Baby
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v1e00fgi0000ctq63sfog65oesmmlnfg&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",Faded
@@ -5581,8 +5335,7 @@ http://vodcdn.video.taobao.com/oss/ali-video/6079de4355c45a42073ead75954c1b2f/vi
 http://vodcdn.video.taobao.com/oss/ali-video/8d77795bdc63d87125ba47f993e0bfb4/video.m3u8
 #EXTINF:-1 group-title="抖音K歌",張惠妹-聽海
 http://vodcdn.video.taobao.com/oss/ali-video/c105aa7685c54fbfa74b92e8cc88a3e3/1457681472/video.m3u8.m3u8
-#EXTINF:-1 group-title="抖音K歌",任賢齊-心太軟
-http://mobi.kuwo.cn/tmevideo/tme1258319.mp4
+
 #EXTINF:-1 group-title="抖音K歌",Beyond-海闊天空
 https://vd2.bdstatic.com/mda-jccg84gp61a7n0ms/sc/mda-jccg84gp61a7n0ms.mp4
 #EXTINF:-1 group-title="抖音K歌",阿杜 江蕙-夢中的情話
@@ -5798,6 +5551,12 @@ https://vd4.bdstatic.com/mda-nmcex5u2u9puxz6d/576p/h264/1670928165588976698/mda-
 #EXTINF:-1 group-title="抖音K歌",2016地表最強演唱會完整版
 https://vd2.bdstatic.com/mda-nmd5ujxqrmxh59qj/576p/h264/1670992604552514459/mda-nmd5ujxqrmxh59qj.mp4
 
+#EXTINF:-1 group-title="抖音K歌",周杰倫精選120首(8小時)
+https://txmov2.a.kwimgs.com/upic/2023/06/18/23/BMjAyMzA2MTgyMzE1MjBfMzQ4MzI0MjA1OF8xMDU4Nzc4MzAzNjZfMF8z_b_B386baa1bb2c0c48626a830ff69393771.mp4
+
+
+
+
 #EXTINF:-1 tvg-name="盲盒点歌1" tvg-logo="https://live.fanmingming.cn/tv/盲盒点歌1.png" group-title="抖音K歌",盲盒点歌1
 https://1399.pl10000.top/1.m3u8
 #EXTINF:-1 tvg-name="盲盒点歌2" tvg-logo="https://live.fanmingming.cn/tv/盲盒点歌2.png" group-title="抖音K歌",盲盒点歌2
@@ -6002,40 +5761,46 @@ http://huanqiuzhibo.cn/manifest/douyu.php?id=122402
 
 
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 太陽之子
+#EXTINF:-1 group-title="周杰倫太陽之子",太陽之子
 https://cfss.cc/api/kg/14850352.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 西西里
+#EXTINF:-1 group-title="周杰倫太陽之子",西西里
 https://cfss.cc/api/kg/14853195.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 那天下雨了
+#EXTINF:-1 group-title="周杰倫太陽之子",那天下雨了
 https://cfss.cc/api/kg/14853206.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 湘女多情
+#EXTINF:-1 group-title="周杰倫太陽之子",湘女多情
 https://cfss.cc/api/kg/14853209.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 誰稀罕
+#EXTINF:-1 group-title="周杰倫太陽之子",誰稀罕
 https://cfss.cc/api/kg/14853222.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 七月的極光
+#EXTINF:-1 group-title="周杰倫太陽之子",七月的極光
 https://cfss.cc/api/kg/14853225.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 愛琴海
+#EXTINF:-1 group-title="周杰倫太陽之子",愛琴海
 https://cfss.cc/api/kg/14853246.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 聖徒
+#EXTINF:-1 group-title="周杰倫太陽之子",愛琴海
+https://k0u3cydy43y9zw2408x8760xfx5xx9z.djvod.ndcimgs.com/bs2/photo-video-mz/5254575056101873604_d3fb5f7443d7c902_5581_v6UltraV5.mp4
+
+#EXTINF:-1 group-title="周杰倫太陽之子",聖徒
 https://cfss.cc/api/kg/14853256.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 女兒殿下
+#EXTINF:-1 group-title="周杰倫太陽之子",女兒殿下
 https://cfss.cc/api/kg/14853262.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 淘金小鎮
+#EXTINF:-1 group-title="周杰倫太陽之子",淘金小鎮
 https://cfss.cc/api/kg/14853269.mp4
 
 #EXTINF:-1 group-title="周杰倫太陽之子",鄉間的路
 https://txmov2.a.kwimgs.com/upic/2026/03/25/08/BMjAyNjAzMjUwODA1MDBfMTA3ODg4NDAxMV8xOTEyMzE2NDEyMThfMV8z_b_B2d1b0eedf0a83f3201b94be8e89963e0.mp4
 
-#EXTINF:-1 group-title="周杰倫太陽之子", 聖誕星
+#EXTINF:-1 group-title="周杰倫太陽之子",鄉間的路
+https://cfss.cc/api/kg/15118204.mp4
+
+#EXTINF:-1 group-title="周杰倫太陽之子",聖誕星
 https://cfss.cc/api/kg/11666088.mp4
 
 
@@ -6280,6 +6045,74 @@ https://vd2.bdstatic.com/mda-pd1djkedcsd6zf4m/720p/h264/1680428126358674178/mda-
 https://vd4.bdstatic.com/mda-pd1fyefdw9cy4syj/sc/cae_h264/1680434683296583972/mda-pd1fyefdw9cy4syj.mp4
 #EXTINF:-1 group-title="華語合輯",滚石30周年13
 https://vd4.bdstatic.com/mda-pd1pn0se84vp5e76/sc/cae_h264/1680454160874637654/mda-pd1pn0se84vp5e76.mp4
+
+
+
+
+#EXTINF:-1 group-title="華語合輯",孫燕姿
+https://vd3.bdstatic.com/mda-ncujakyfdsggcxm5/hd/cae_h264_delogo/1648565116903852136/mda-ncujakyfdsggcxm5.mp4?auth_key=1701098546-0-0-2ed3449f6490079a47fa5049f63bbfdd&bcevod_channel=searchbox_feed&cr=1&cd=0&pd=1&pt=4&logid=1346702170&vid=14490800840131192881&abtest=all
+#EXTINF:-1 group-title="華語合輯",鄧紫棋
+https://vd2.bdstatic.com/mda-ncsd523maqd4q3cg/hd/cae_h264_delogo/1648375275609695251/mda-ncsd523maqd4q3cg.mp4?auth_key=1701098759-0-0-6b3113689de3ed7c7bd0d3f11413affb&bcevod_channel=searchbox_feed&cr=1&cd=0&pd=1&pt=4&logid=1559128696&vid=12937657313201551366&abtest=all
+#EXTINF:-1 group-title="華語合輯",鄧紫棋節目
+https://vd2.bdstatic.com/mda-pa5hpxjksncws3p2/sc/cae_h264/1673057581690768090/mda-pa5hpxjksncws3p2.mp4?v_from_s=hkapp-haokan-nanjing&auth_key=1701100281-0-0-eaa2276dc233f1d1123ede9668853d4e&bcevod_channel=searchbox_feed&cr=2&cd=0&pd=1&pt=3&logid=3081663585&vid=2852208861466033833&klogid=3081663585&abtest=114240_2-114675_1
+#EXTINF:-1 group-title="華語合輯",鄧紫棋MV
+https://vd4.bdstatic.com/mda-nm0apcsxe99pykub/sc/cae_h264/1669886642256731767/mda-nm0apcsxe99pykub.mp4?v_from_s=hkapp-haokan-nanjing&auth_key=1701100322-0-0-a520dcf4a328dced202c87e79d70ae17&bcevod_channel=searchbox_feed&cr=2&cd=0&pd=1&pt=3&logid=3122513605&vid=8034797116456445175&klogid=3122513605&abtest=114240_2-114675_1
+#EXTINF:-1 group-title="華語合輯",林俊傑
+https://vd2.bdstatic.com/mda-nakk3949nijnscgq/sc/cae_h264_delogo/1642780930370813401/mda-nakk3949nijnscgq.mp4?v_from_s=hkapp-haokan-nanjing&auth_key=1701100567-0-0-ecb0e6ef0339b53805d4665e7eae4894&bcevod_channel=searchbox_feed&cr=2&cd=0&pd=1&pt=3&logid=3367824824&vid=12591636700864987693&klogid=3367824824&abtest=114240_2-114675_1
+#EXTINF:-1 group-title="華語合輯",陳奕迅
+https://vd3.bdstatic.com/mda-pj877ew03d0qzw5w/wzdash/bd264/1698886248444330741/mda-pj877ew03d0qzw5w/dash-default.mp4?cr=0&cd=1&abtest=114240_2-114675_1&logid=0149622148&pd=1&pt=3&vid=7886304255961148255
+#EXTINF:-1 group-title="華語合輯",2022流行曲
+https://tx-safety-video.acfun.cn/mediacloud/acfun/acfun_video/e8b3a4e322649adb-ad70abb1cd4ae38ab200c72b14fa99bc-hls_720p_2.m3u8?pkey=ABBjkxF_Dr6HiFNvzk4jHkJ_Nr3C6zfBHeX_ORiSlYBIs3RfUuzFnDzCyWccXHCEMeWIAsA651YHEcqPpakunzAko1duHF9s2xQ1O-mWq5ZM56HwuxLeip5tAdMwx1rutr94OeFPnq4GOMSvmq63luPozqPHl4oOWlOdhUPxW0VoV0bwpXFCHr_eeXlo0SoQfyEX0cS2zfV0ezxRJxDhvkXDWBqEfwIt-ZvAtCf1bUhGJORr5asb_s-No4xMsEwpK2Y&safety_id=AAIVLKAOdqweu22xvhCtqZsr
+#EXTINF:-1 group-title="華語合輯",王菲
+https://vd3.bdstatic.com/mda-pjp2zxvdg24z7xyy/1080p/cae_h264/1698217775802767942/mda-pjp2zxvdg24z7xyy.mp4
+#EXTINF:-1 group-title="華語合輯",劉德華
+https://vd2.bdstatic.com/mda-pjkfx92jybywmm4j/720p/h264/1697888378863819752/mda-pjkfx92jybywmm4j.mp4
+#EXTINF:-1 group-title="華語合輯",周華健
+https://vd3.bdstatic.com/mda-pji6sfruirxv9r4c/1080p/cae_h264/1697750283363939899/mda-pji6sfruirxv9r4c.mp4
+#EXTINF:-1 group-title="華語合輯",陳奕迅
+https://vd2.bdstatic.com/mda-pk1hwg2t7ftp6uxx/1080p/cae_h264/1699036876466221407/mda-pk1hwg2t7ftp6uxx.mp4
+#EXTINF:-1 group-title="華語合輯",周傳雄
+https://vd2.bdstatic.com/mda-pjvcmh8hs1bxw4xt/1080p/cae_h264/1698766118317392328/mda-pjvcmh8hs1bxw4xt.mp4
+#EXTINF:-1 group-title="華語合輯",李宗盛
+https://vd2.bdstatic.com/mda-pkgfhem3t8g6b0z8/720p/h264/1700221942585471554/mda-pkgfhem3t8g6b0z8.mp4
+#EXTINF:-1 group-title="華語合輯",伍佰
+https://vd3.bdstatic.com/mda-pk18r357pqym2t2y/1080p/cae_h264/1698971417902472140/mda-pk18r357pqym2t2y.mp4
+#EXTINF:-1 group-title="華語合輯",徐小鳳
+https://vd4.bdstatic.com/mda-pjn4efhjeky8r2nn/1080p/cae_h264/1698098599114610049/mda-pjn4efhjeky8r2nn.mp4
+#EXTINF:-1 group-title="華語合輯",梅豔芳
+https://vd3.bdstatic.com/mda-pjq3ne0y56wdxf2s/1080p/cae_h264/1698276899495565793/mda-pjq3ne0y56wdxf2s.mp4
+#EXTINF:-1 group-title="華語合輯",張信哲
+https://vd4.bdstatic.com/mda-pkcdkh1a516v5j3y/720p/h264/1699869743043196021/mda-pkcdkh1a516v5j3y.mp4
+#EXTINF:-1 group-title="華語合輯",林志穎
+https://vd3.bdstatic.com/mda-pkbge22ny7zuyqhg/1080p/cae_h264/1700090043678671574/mda-pkbge22ny7zuyqhg.mp4
+#EXTINF:-1 group-title="華語合輯",黃家駒
+https://vd3.bdstatic.com/mda-pkcah3eh3p1qij7b/1080p/cae_h264/1700057177846181962/mda-pkcah3eh3p1qij7b.mp4
+#EXTINF:-1 group-title="華語合輯",姜育恒
+https://vd3.bdstatic.com/mda-pkbc2e5j82e0n1kp/1080p/cae_h264/1699964723210625345/mda-pkbc2e5j82e0n1kp.mp4
+#EXTINF:-1 group-title="華語合輯",鄭智化
+https://vd4.bdstatic.com/mda-pkb56rb151q7xwu9/1080p/cae_h264/1699931146182509872/mda-pkb56rb151q7xwu9.mp4
+#EXTINF:-1 group-title="華語合輯",張宇
+https://vd4.bdstatic.com/mda-pkb28ajhwe174f7j/1080p/cae_h264/1699846476579882257/mda-pkb28ajhwe174f7j.mp4
+#EXTINF:-1 group-title="華語合輯",張雨生
+https://vd4.bdstatic.com/mda-pk98nmnp7zq5g1jh/1080p/cae_h264/1699813396527408473/mda-pk98nmnp7zq5g1jh.mp4
+#EXTINF:-1 group-title="華語合輯",鐘鎮濤
+https://vd4.bdstatic.com/mda-pk913ejp0ug5sf86/720p/h264/1699578762094668028/mda-pk913ejp0ug5sf86.mp4
+#EXTINF:-1 group-title="華語合輯",張惠妹
+https://vd2.bdstatic.com/mda-pk84tr9c30fpamdz/720p/h264/1699501953636037174/mda-pk84tr9c30fpamdz.mp4永遠想念哥哥張國榮,https://vd4.bdstatic.com/mda-pk4edusu417t16yk/1080p/cae_h264/1699230648697960971/mda-pk4edusu417t16yk.mp4
+#EXTINF:-1 group-title="華語合輯",陳百強
+https://vd4.bdstatic.com/mda-pk3fyap9swqifck2/1080p/cae_h264/1699188655808689759/mda-pk3fyap9swqifck2.mp4
+#EXTINF:-1 group-title="華語合輯",譚詠麟
+https://vd2.bdstatic.com/mda-pk2hy3j279g1txag/1080p/cae_h264/1699144704714149222/mda-pk2hy3j279g1txag.mp4
+#EXTINF:-1 group-title="華語合輯",任賢齊
+https://vd2.bdstatic.com/mda-pk218iztk2svc1ef/1080p/cae_h264/1699061650530228247/mda-pk218iztk2svc1ef.mp4
+#EXTINF:-1 group-title="華語合輯",梁詠琪
+https://vd2.bdstatic.com/mda-pk0i3ne0iajinp9x/1080p/cae_h264/1698888105262004319/mda-pk0i3ne0iajinp9x.mp4華語流行歌手梁靜茹,https://vd4.bdstatic.com/mda-pjvj2hnsrcas0rd4/1080p/cae_h264/1698714657625462903/mda-pjvj2hnsrcas0rd4.mp4
+#EXTINF:-1 group-title="華語合輯",蕭亞軒
+https://vd2.bdstatic.com/mda-pjuiia97a5ec6hzz/1080p/cae_h264/1698687228311440799/mda-pjuiia97a5ec6hzz.mp4
+#EXTINF:-1 group-title="華語合輯",劉若英
+https://vd2.bdstatic.com/mda-pju8tks322zh50x2/1080p/cae_h264/1698585872904741220/mda-pju8tks322zh50x2.mp4
+
+
 
 
 
@@ -6691,15 +6524,6 @@ http://lunar.pm:8080/leslie/snook/131308
 #EXTINF:-1 group-title="私密頻道 ADULT",Adult Asian
 http://91.218.50.136:8080/Rose35torres/iB7101/916027
 
-
-#EXTINF:-1 tvg-logo="https://puddintap.click/ico/new/Adult/JAPAN_HDV.png" group-title="私密頻道 ADULT", JAPAN HDV
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666288
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogLnCb59XTOInwfb0ZPEJVNajLhI7-S9RQGXxBoZpGArLg.png" group-title="私密頻道 ADULT", JAPAN HDV 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666289
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="私密頻道 ADULT", AV TAXI - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666731
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="私密頻道 ADULT", ASIAN FOOTJOB - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666727
 
 
 
@@ -9071,811 +8895,6 @@ http://vipketseyket.top:8080/VIP0131707319180004/5665a8bcfb47/148669
 
 
 #########################################
-
-#EXTM3U
-
-
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/72/ab/53/6132b0a8c25c1cae39f951b72e94f29/logo/fbe7XIoBpOfU1duk8RTBmXuaCPOGTi-metaMjA5MmVkMTgtZDljOC00ZTZhLWI4OTEtMjU3YTQyMzhlNjhlWzFdLnBuZw==-.png" group-title="XXX", 18EIGHTEEN.COM
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638180
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/a5/78/ad/4e8db80e23eb89e177bc4eecd83b6f4/logo/2chickssametime-logo.png" group-title="XXX", 2 CHICKS SAME TIME
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666206
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/37/c2/83/5146deb25f4fa4dc1f84df6c88e5289/logo/agirlknows-logo.png" group-title="XXX", A GIRL KNOWS - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232810
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/73/52/9b/53dfd87270240eca7e5068ef22f0b8f/logo/logo.png" group-title="XXX", ADULT AUDITIONS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666207
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/f5/1f/39/68ced492d7c95625b5c061c97991d63/logo/01HYRTE8XVKPPQ05N8A1NGC5RF.png" group-title="XXX", ADULT TIME
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666384
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/f5/1f/39/68ced492d7c95625b5c061c97991d63/logo/01HYRTE8XVKPPQ05N8A1NGC5RF.png" group-title="XXX", ADULT TIME - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232488
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", ALBA XXX 1
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232407
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/9d/8f/25/ec36f59326a6091966a481dc6f48abf/logo/svOzebn7wZlNs2JiFJ7ApFHr7sH1jS-metaNmQyMjlkNDMtMDc5OS00NmNiLWJiZTgtOTMwOTJlZjM3ZDk4WzFdLnBuZw==-.png" group-title="XXX", ALEX LEGEND - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232867
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", ALL GROUP SEX - PORNHUB
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638355
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/ALLBLACKX.png" group-title="XXX", ALLBLACKX- EBONY
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666469
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZtcWlhlF0Ip00oZG0HlD_-o35EPKkBJ8G23KlQFQBfG7DQ.png" group-title="XXX", ALLETA OCEAN LIVE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666385
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/97/18/1c/b4de36febacb142f1ce46a6b48b9ae2/logo/amateurallure-logo.png" group-title="XXX", AMATEUR ALLURE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666208
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/f1/c7/71/4e431a72f0d9a8a13a3205673e34c68/logo/01J2GZ0BSYDNCW88PVXXDZ0JTP.png" group-title="XXX", AMATEUR EURO - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666724
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/63/70/67/f068c916ff452ad2d0634fdda25f7a4/logo/analoverdose-logo.png" group-title="XXX", ANAL OVERDOSE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662967
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/94/71/d0/e590070c6ad5d95842a7bbc9a037de4/logo/archangel.png" group-title="XXX", ARCH ANGEL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666209
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", ASIAN FOOTJOB - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666727
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/84/77/22/7e8a92673777df275ba9017e9a71043/logo/asstraffic-logo.png" group-title="XXX", ASS TRAFFIC
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666210
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/51/79/41/06f320aa815a6ea2dc582a704354d29/logo/01HMWARS9R8VM8FDEXDDJJMC29.png" group-title="XXX", ASSHOLE FEVER
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662772
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/22/11/16/28a73213b0f5e45d59d1b2dac5c452f/logo/1zzLSdtDqw7dM3qvQ91SjUGXUHQB0A-metaZWQ1NzU1OTctMzE5OS00MDc0LWExYmMtMGFmNjM0M2FhNmVhWzFdLnBuZw==-.png" group-title="XXX", ATK NATURAL HAIRY
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662996
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", AV TAXI - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666731
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/BABES.png" group-title="XXX", BABES
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666212
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/BABES.png" group-title="XXX", BABES 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666213
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/BABES.png" group-title="XXX", BABES-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/278641
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/7e/46/b1/2c61006178209b9383b492c9db7fbe4/logo/01HMNY1PHKHYNNTZPXD4DQCHQ0.png" group-title="XXX", BACKROOM CASTING COUCH
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638218
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/4a/61/0f/c4372c4b74e0f1bdac1c3daeeba98b3/logo/logo.png" group-title="XXX", BAD DADDY POV
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662775
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/BANG.BROS.png" group-title="XXX", BANG BROS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666214
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/BANG.BROS.png" group-title="XXX", BANG BROS NETWORK - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666737
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/BANGBUS.png" group-title="XXX", BANG BUS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666215
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/BANGBUS.png" group-title="XXX", BANG BUS 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666216
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/68/1c/84/05aba3f26a6f93ff2adcc7476b6817f/logo/bangcasting-logo.png" group-title="XXX", BANG! CASTING
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662780
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/c1/51/5c/9df3365e86a62afcf90696eeab4b4d4/logo/bangrealmilfs-logo.png" group-title="XXX", BANG! REAL MILFS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666402
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/0510d00ac6375c131d4f7cfc78cae85e.png" group-title="XXX", Barely Legal TV
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666738
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/ae/93/ac/e9882098673321984ad3db177fbaf89/logo/beautyangels-logo.png" group-title="XXX", BEAUTY ANGELS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666217
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/4c/1f/c8/7418cac65060b148df5906b0f5fbdb3/logo/bffs-logo.png" group-title="XXX", BFFS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666218
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/88/61/0a/3ac70cbed732fb5ab37eea76ea58649/logo/bigbuttslikeitbig-logo.png" group-title="XXX", BIG BUTTS LIKE IT BIG
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666388
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/88/61/0a/3ac70cbed732fb5ab37eea76ea58649/logo/bigbuttslikeitbig-logo.png" group-title="XXX", BIG BUTTS LIKE IT BIG 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666389
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/6a/9e/0d/bd7d6e4d9a7b8a4d2d0b7d43cea680f/logo/bigtitsatschool-logo.png" group-title="XXX", BIG TITS AT SCHOOL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666390
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/6a/9e/0d/bd7d6e4d9a7b8a4d2d0b7d43cea680f/logo/bigtitsatschool-logo.png" group-title="XXX", BIG TITS AT SCHOOL 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666391
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/15/b8/17/cd1917c5baed714cebedc708721f438/logo/bigtitsinuniform-logo.png" group-title="XXX", BIG TITS IN UNIFORM
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666219
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W3aAkUQdBiUeDsL349I240_CNH2CZ2SVktO0x2kBXx7jE31wo7ZGSR6Rzhq5CM0UY8.png" group-title="XXX", BITCH CONFESSIONS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666220
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/ed/9c/1c/66aaa0c3b7bf3c2306b654958d372a7/logo/01HMWBV5RDKCYSH0698D3707NT.png" group-title="XXX", BLACK AMBUSH
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662785
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/04/2b/e1/79917fd66ee7c35d5458f44292f7dbb/logo/blackisbetter-logo.png" group-title="XXX", BLACK IS BETTER
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662786
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/24/c9/fa/2b5dd3258662ed1d065fa3b77768d8f/logo/blacked-logo.png" group-title="XXX", BLACKED
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232421
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/24/c9/fa/2b5dd3258662ed1d065fa3b77768d8f/logo/blacked-logo.png" group-title="XXX", BLACKED - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666741
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/24/c9/fa/2b5dd3258662ed1d065fa3b77768d8f/logo/blacked-logo.png" group-title="XXX", BLACKED 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666221
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/24/c9/fa/2b5dd3258662ed1d065fa3b77768d8f/logo/blacked-logo.png" group-title="XXX", BLACKED 4
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666744
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/f2/a3/2b/2f142daf7fb2a35b5d745e4170048d9/logo/logo.png" group-title="XXX", BLACKS ON BLONDES
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662789
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/94/39/87/d548322e65e11dc429ee22d605f1cbc/logo/01HV6ZTVN56RJRGRDXHS944BFK.png" group-title="XXX", BLACKS ON COUGARS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662790
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", BLOW ME POV - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232822
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/b5/23/45/11b6b363b354f5ab65062cc629b6ee9/logo/boundgangbangs-logo.png" group-title="XXX", BOUND GANG BANGS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662791
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/StV9Kkk/pornbox-originals.png" group-title="XXX", BOX OF PORN - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/631161
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogI31X2R9bLA4tR4PnWJBaSMuyNgPM8ZIHttpBK3EB10AQ.png" group-title="XXX", BOX TRUCK SEX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666222
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/67/b1/ec/f8af1f8f9df9778c89651ea521920cd/logo/bracefaced-logo.png" group-title="XXX", BRACE FACED
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662793
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/15/4c/c9/ce02d6599e21c3a2e4016222be3a2ac/logo/01JEE72GMY2WMEH9RQBG56V0D0.png" group-title="XXX", BRATTY SIS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666223
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/15/4c/c9/ce02d6599e21c3a2e4016222be3a2ac/logo/01JEE72GMY2WMEH9RQBG56V0D0.png" group-title="XXX", BRATTY SIS - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/301766
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/cb/64/8b/5b2bfd986c7207001397df9edb81988/logo/brazzersexxtra-logo.png" group-title="XXX", BRAZZERS EXXTRAS 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666414
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/cd/4c/f8/8eafbac708c3c7cfad3023442f2a0be/logo/Brazzers-logo.png" group-title="XXX", BRAZZERS TV EUROPE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232422
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/cd/4c/f8/8eafbac708c3c7cfad3023442f2a0be/logo/Brazzers-logo.png" group-title="XXX", BRAZZERS-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232828
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/a4/5a/f4/2e424970815868cc179afc1b955501c/logo/NyU4FucV5qrj2wzFrcGutAJwl8cKxN-metaQkxfd2ViIGNvcHkucG5n-.png" group-title="XXX", BROTHA LOVERS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666379
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/02/e8/04/7a951b4eddd2d88a51529fd72d3da17/logo/bumsbus-logo.png" group-title="XXX", BUMS BUS-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232826
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/0a/cd/06/96431cec48d48f43c8fe8db86ddcb99/logo/01HVD0PKWPSVN3JJCS3ZVWCJ49.png" group-title="XXX", BURNING ANGEL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666226
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/0a/cd/06/96431cec48d48f43c8fe8db86ddcb99/logo/01HVD0PKWPSVN3JJCS3ZVWCJ49.png" group-title="XXX", BURNING ANGEL 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666227
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/66/11/b5/b0b4d6900c3d745f254436a49cbb821/logo/01HT5QNA883EVFNSSENHHG15QV.png" group-title="XXX", CASTING COUCH HD
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666411
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/66/11/b5/b0b4d6900c3d745f254436a49cbb821/logo/01HT5QNA883EVFNSSENHHG15QV.png" group-title="XXX", CASTING COUCH HD 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666412
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/e1/e8/7e/5b0d3211bd4b9801cb7a916d5a33e0c/logo/castingcouchx-logo.png" group-title="XXX", CASTING COUCH X - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666748
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/c6/39/26/488c70dd5af81c8f91adadd06cbcfff/logo/logo.jpg" group-title="XXX", COLLEGE RULES
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638238
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/7b/ab/82/6c1891ee3b1fd35281a0e8dd7d47030/logo/colombiafuckfest-logo.png" group-title="XXX", COLOMBIA FUCK FEST
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662801
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", COUGAR SIGHTINGS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638239
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/75/ed/45/0fedde0ed50dadf154e98988f910717/logo/crazyasiangfs-logo.png" group-title="XXX", CRAZY ASIAN GF
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666230
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/36/09/11/8c9026a904b74b3a5cf675dab805e43/logo/crazycollegegfs-logo.png" group-title="XXX", CRAZY COLLEGE GF
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666231
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/4b/4b/8a/3d0384f4e2ca36ac5ff275029d5c746/logo/creampieangels-logo.png" group-title="XXX", CREAMPIE ANGELS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666232
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/aa/85/7c/75e2e07586800064bb64dd5eb051d13/logo/cum4k-logo.png" group-title="XXX", CUM 4K - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666751
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/aa/85/7c/75e2e07586800064bb64dd5eb051d13/logo/cum4k-logo.png" group-title="XXX", CUM 4K 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666752
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/cf/27/83/14a5bfd38a1dfa4d4aeac14f8f3b789/logo/e7e86663-efed-46dc-a8e9-7bfd4d4559c8[1]" group-title="XXX", CUM PERFECTION
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666386
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/2c/c0/ac/270a26e9ef6009bdbb6fcfc74a2116e/logo/01HV6ZS0JMTSFG1QCJZDBRGD87.png" group-title="XXX", CumBang - EBONY/INTERRACIAL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/609497
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/89/c1/6c/972420f35c9ff6ed1de91dc232e6fe8/logo/czechamateurs-logo.png" group-title="XXX", CZECH AMATEURS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666233
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogLZSmQ-7R0FQ9MnRslZwKrbFkCfHxgB0L5lT0INGVMCpg.png" group-title="XXX", DADDYS LIL ANGEL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666368
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZte55mrCnISDa76SlhDOFAkEVx4EHZzdFvyhvPyvTsKg-Q.png" group-title="XXX", DANCING BEAR
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666392
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogIhjc-Dvwuq6fyy3jIbtcuoJKQi-YtfGqYK9wqMKPaLsw.png" group-title="XXX", DATESLAM
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666236
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W2u3pIbRbDQ_hNM-U5VjkCfPN_PsAURc3iXafyip83ejQ.png" group-title="XXX", DAUGHTER SWAP
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662809
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W2u3pIbRbDQ_hNM-U5VjkCfPN_PsAURc3iXafyip83ejQ.png" group-title="XXX", DAUGHTER SWAP 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666745
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", DDF
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666468
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogL8kcRtfE85ey8kv-Fjl_wJu-Z1_QyfhRuHWcer8tl6WA.png" group-title="XXX", DESPERATE AMATEURS 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666238
-
-#EXTINF:-1 tvg-logo="https://puddintap.click/ico/new/Adult/DEVILS_FILM.png" group-title="XXX", DEVILS FILM
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666239
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/DickHDDaily.png" group-title="XXX", DICKHDDAILY - EBONY/INTERRACIAL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666963
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogK3Fjd531Wco5jtqrbLXLzkNGQjOCM7P0ygCUw4jqUcGw.png" group-title="XXX", DIGITAL DESIRE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666241
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogK3Fjd531Wco5jtqrbLXLzkz3DVlKC3d4xjXgccQb6BmA.png" group-title="XXX", DIGITAL DESIRE 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666242
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", DIGITAL PLAYGROUND - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232836
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", DIRYFLIX - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666945
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", DOGFART-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232927
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", DOGHOUSE  -PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232908
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogIn1coCcUH2_wG8_GLJD9dGwkQNR7Q4DPhKfiH9hpyeXg.png" group-title="XXX", DONT BREAK ME
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666244
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", DORCEL CLUB - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666756
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/074d0556fbf59ff5219e2043d8a3440d.png" group-title="XXX", DORCEL XXX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666757
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", DREAMROOM - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/302279
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", DUSK
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232436
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", EROTIC 5
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232409
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJI-Lu0m8gkT_Kvi4gX26eqCvKY5bGxgZFW5xxD6LYljA.png" group-title="XXX", EROTICA X 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666246
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/EroticSpice.png" group-title="XXX", EroticSpice - EXOTIC
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/603092
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", EROX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232437
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", EROX HD
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/234311
-
-#EXTINF:-1 tvg-logo="https://od.lk/d/MTdfMjE3OTMyOTRf/EvilAngel.png" group-title="XXX", EVIL ANGEL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232439
-
-#EXTINF:-1 tvg-logo="https://od.lk/d/MTdfMjE3OTMyOTRf/EvilAngel.png" group-title="XXX", EVIL ANGEL - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232859
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/EroticSpice.png" group-title="XXX", EXOTIC 4K - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232873
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W1sdhAhtcDNKfCwm0tSEpvJNE_AIkrWNFuNIXGfxzXB_15iQpESq6Ia4xkEzNeUPLw.png" group-title="XXX", EXPLOITED COLLEGE GIRLS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666247
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W05UJxgm2bZV2GigNMkyL0-srp5xpInFMjW_IxPzyKOt0JIjdHFin7x2RNtU3TRGkk.png" group-title="XXX", EXPLOITED COLLEGE GIRLS 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666248
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", EXTREME
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232440
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKBac-uGj31KAta569dK-LWo_m0vX-IMlOokMhL8Sar5g.png" group-title="XXX", EXXXTRA SMALL 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666250
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W3CRs5gAIb3jp-qvg0Oi1OYDPLqfvCO9VbT6WlnIP7WBQ.png" group-title="XXX", FACIAL ABUSE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666251
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogIBvRXowerPwHNGC4cAQdSxS2eOAPKAb3T1M22cwei3GA.png" group-title="XXX", FAKE DRIVING SCHOOL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666254
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W34pCB_fNASQ-cf137YSxQbgCDre5Gfz998LYAr69-zfYIj_L4XqpyzmE510vzlJ30.png" group-title="XXX", FAKE HOSPITAL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666255
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", FAKE HOSTEL - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666765
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W2KBiud_rhVtK_Fy9pCZ024pOPOAbEUaG7zz2NITCjyGQ.png" group-title="XXX", FAKE TAXI - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232846
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W2KBiud_rhVtK_Fy9pCZ024pOPOAbEUaG7zz2NITCjyGQ.png" group-title="XXX", FAKE TAXI 1
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666256
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W2KBiud_rhVtK_Fy9pCZ024pOPOAbEUaG7zz2NITCjyGQ.png" group-title="XXX", FAKE TAXI 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638260
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKj4eeGmB6NdTuTqbNsvcmzB7ZuzT2vQROzNADeBdGSsg.png" group-title="XXX", FAMILIES TIED
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666257
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W34pCB_fNASQ-cf137YSxQbEbJy9f5MNrkNNaPkEv8pzQ.png" group-title="XXX", FAMILY LUST
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666259
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W3MSsyO1u6KNXp1rLSA2-vFYTkhjDiF-4VGm_I7AK00EQ.png" group-title="XXX", FAMILY STROKES
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666260
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W0W8GSR-F5iY-HbO3o2MXYYskCmOlpXTQYdGLw1yqxU0w.png" group-title="XXX", FAMILY STROKES 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666261
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", FAPADOO - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232837
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W34pCB_fNASQ-cf137YSxQbKZIFOwkqULmOXk_BP6eh0hSfaWdIcctq3GhDfMyRG-0.png" group-title="XXX", FIRST ANAL QUEST 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666264
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", FIRST ANAL QUEST-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232839
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", FIT 18 - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666770
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZte5RHa9lavxEVXsGFP5XDLSCYYGcISp8KwuJmnnUbMPrw.png" group-title="XXX", FITTING ROOMS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666397
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W33aZcSYokpjwNiqtF-p75AWLTPVyQurDKTb0m8yYHUrA.png" group-title="XXX", FUCK STUDIES
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666266
-
-#EXTINF:-1 tvg-logo="https://puddintap.click/ico/new/Adult/FUCKIN_VAN.png" group-title="XXX", FUCKIN VAN
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666267
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W3aE-fgOdOI37P4lThbCixKroXszAGxLNzJbbr_pSr29-pqD8M6P_CT296QIq5Kv1M.png" group-title="XXX", GANGBANG CREAMPIE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666268
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", GAY TV
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232447
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W0q_xFWhyWmQwS0LmE-3VRM50CGroqHe4twFsbVEHWKrg.png" group-title="XXX", GF REVENGE 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666270
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogIxPfZ253XOVCXrkunsmRw7zcgMB_sG90iGu95T2jfnCA.png" group-title="XXX", GINGER PATCH
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666271
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W0q_xFWhyWmQwS0LmE-3VRMrQ6ei2ZmGqFzCILPQsot_3XiwGh3WjhF2FOpvwXrR74.PNG" group-title="XXX", GIRLS DO PORN
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666272
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W0q_xFWhyWmQwS0LmE-3VRMZG6P_10NfHXK1PBQCeloRUhg4jAplSntOSQgNWkOaVI.png" group-title="XXX", GIRLS OUT WEST
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666275
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJqziVRyIg8U-6CDw8_Fi0fCvmtK4FgefCcg-QNY5Xjmg.png" group-title="XXX", GIVE ME SPUNK
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666376
-
-#EXTINF:-1 tvg-logo="https://puddintap.click/ico/new/Adult/HER_LIMIT.png" group-title="XXX", HER LIMIT
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666278
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", HER LIMIT - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232843
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZtfSrYzQxDCxRXNgy_zLVZSC14Z5Pxoj9FzbflEUbpnK6Q.png" group-title="XXX", HO IN HEADLIGHTS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666394
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", HOLED-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232855
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZtdUBfOFKzSP8-sabmbM0qjoP9Ft1ma7V7nAoPOM7yvXtA.png" group-title="XXX", HOT AND MEAN
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666396
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJj3AT7Jqy_GPLDDI9hpTEC29aQbVy7M2TmN_4HcuROxA.png" group-title="XXX", HOT CRAZY MESS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666279
-
-#EXTINF:-1 tvg-logo="https://od.lk/d/MTdfMjI0ODMwNTBf/reality%20kings.png" group-title="XXX", HOT GIRLS GAME - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232503
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", HOT WIFE XXX-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232844
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZtdWCQh8k2BeBo_80JBMCuFWjQbQgJV6um1gzoxXRs_87A.png" group-title="XXX", HUSSIE AUDTIOIONS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666400
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", HUSSIE PASS - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666790
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W2er3_8a9uSb9thQ9dyYQweX5NXuFt35brr4PYJJHMBLA.png" group-title="XXX", HUSTLER
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666282
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", HUSTLER HD
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232458
-
-#EXTINF:-1 tvg-logo="https://puddintap.click/ico/new/Adult/JAPAN_HDV.png" group-title="XXX", JAPAN HDV
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666288
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogLnCb59XTOInwfb0ZPEJVNajLhI7-S9RQGXxBoZpGArLg.png" group-title="XXX", JAPAN HDV 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666289
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", JAYS POV-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232858
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJ2sgEOgABdg8wX5uCEsa_As5VtpnG1VXIExskvUKaEzw.png" group-title="XXX", JESH BY JESH
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666373
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W0m6YXzIz-ZFmWfpBVUgTJVstGUn3EeEyN0OLdEE51IAg.png" group-title="XXX", JIM SLIP
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666290
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", JOI BABES - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232849
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJBN0da5BL7AS-2kzcSK_gTefsbAhJqWkZqkkF5azHQMA.png" group-title="XXX", KELLY MADISON
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666383
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", KINKY FAMILY-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232860
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", KINKY INLAWS-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232853
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", KINKY SPA - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232850
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogLOT_b5dU4aNxtdyhoVfQaXLzaGqL0ZqOixIctFh7LWNg.png" group-title="XXX", LA SUBLIME
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666375
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZtf-DK0v70NzUW-boUk2voI0G8Wp-gD3hrIFfuVFHMRBRA.png" group-title="XXX", LATIN ADULTERY
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662981
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJRLKG0mVmdEIeZBJIvaeCQwII2h9KtVUXANcXWWDiKXw.png" group-title="XXX", LATINA SEX TAPES
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666291
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/LatinaMYLF.png" group-title="XXX", LatinaMYLF - LATINA
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/604077
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/LatinaRaw.png" group-title="XXX", LatinaRaw - LATINA
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/611444
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", LETHAL TEENS - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/302303
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", LETS DOE IT - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666796
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZtfICfU-1wmV7Cp7TtuBQx6lWIVxAknioDG2dtHt9NX7ww.png" group-title="XXX", LETS TRY ANAL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666395
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKfPdDJ5_TOb3Poy1bqosXpRIAjdMsxr_uqDhXNlhOWbw.png" group-title="XXX", LEZ CUTIES
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666377
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", LIFE SELECTOR-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232864
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogIWJKCZKZ_aeh8OhJ8k80BbtBtliRSIWGqO1emVuKVtSkrR17HECnATA2K9NoRzRG8.png" group-title="XXX", LITTLE CAPRICE DREAMS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666381
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/LittleAsians.png" group-title="XXX", LittleAsians - Asians
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/549623
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", LOVE HER FEET - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232865
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", LOVE HOME PORN-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232886
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", LUXURE - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638415
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", MAMACITAZ - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232917
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", MANO JOB - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/278639
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", MASSAGE ROOMS-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232815
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W1e9DICy8gx6Oiyxu7s_pApjzJROCMQs_MGtlLFZMgQzO8UISXyVfvOB69sI3DYR-E.png" group-title="XXX", MELONE CHALLENGE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666293
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", MIAMI TV JENNY LIVE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638299
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZtdsshX1D_vfEnYGMJYH9UE444ct6ZqBxPBLcDi0-PbCBg.png" group-title="XXX", MIKES APARTMENT
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666403
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W1e9DICy8gx6Oiyxu7s_pAp45X5N0-vKecD4UWBDanfow.png" group-title="XXX", MILF HUNTER
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666294
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", MMM 100 - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/278644
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", MOFOS WORLD WIDE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/670411
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", MOM COMES FIRST
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638308
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKEwYCWVQKeUqZA-F0ZUeheamtxniymkoeP3T02dm5f7w.png" group-title="XXX", MOM XXX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666297
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKQb9RjH9sQuO08Ks6_Ku4BM95kMt7-PkZX37j6Ntcr8g.png" group-title="XXX", MOM XXX 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666298
-
-#EXTINF:-1 tvg-logo="https://od.lk/d/MTdfMjE3OTI0NDNf/PureTaboo.png" group-title="XXX", MOM XXX-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232911
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W1e9DICy8gx6Oiyxu7s_pApwY_2BvZDj9Iip-ulwpDBeg.png" group-title="XXX", MOMMYS GIRL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666299
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", MOMS IN CONTROL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638310
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogLVHTlFAZUqDH4EqHJ1WrYRivVqtK2zXQbePz_oCZEpWg.png" group-title="XXX", MOMS IN CONTROL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666300
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", SHAGGING MOMS - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666913
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W3EKHYfolLSuWRYFPIFtLfDBakUeMyrM7jjmglK3jUIoQ.png" group-title="XXX", SHARE MY BF 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666335
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogL7eccfZYYj5Uj5YvDThtfOqRFEVbPM1TbaSSMSe8WBuQ.png" group-title="XXX", SHE IS NERDY
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666336
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", SHE IS NERDY - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666915
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJIPa8aFwec5XQN8fsuOE30NHPUZ5RbvvI7wNqX6fpYFg.png" group-title="XXX", SHES A FREAK 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666338
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogIBMf28cue-pAJzt55LSE64KUhHay7LxDP4tvEZcJ6i8A.png" group-title="XXX", SHES GONNA SQUIRT
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666339
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W1jyGpLM11LxIhSfTHho9zOxSgSsuLjDoXSFsb3P77vWg.png" group-title="XXX", SHES NEW
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666340
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKfjkilTPBNZ-awJFqEK0kERptBF_0YPT31KCgmOgNMiQ.png" group-title="XXX", SHOPLYFTER
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666341
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKfjkilTPBNZ-awJFqEK0kER4B8GsXLpwAOMaC5JnMSIA.png" group-title="XXX", SHOPLYFTER 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666342
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJ6eXpLT1JsVuouLqvnp0NqWzo-xPg2UmgaXilsp-vp6Q.png" group-title="XXX", SINFUL XXX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666371
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJ6eXpLT1JsVuouLqvnp0NqZVHFASKj0fNSFfEta9q5UQ.png" group-title="XXX", SINFUL XXX 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666372
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W0lj07DnkOW-uzPl03zykCWcKvF0IDFydCUmdW66JzArg.png" group-title="XXX", SIS LOVES ME
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666343
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W0yqH6UFYVLg1cJYrjUR-lKPVcrvOSdI86lamqIPaHyUw.png" group-title="XXX", SIS LOVES ME 2
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666344
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", SOFIE MARIE XXX - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666919
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", SPANK MONSTER - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666920
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKn9NACXbpJHmQjdKw4OA8DZ2ik1UTyRDqL_aRPtQdKvw.png" group-title="XXX", STEP SIBLINGS  CAUGHT
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666346
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogIb7-CQr9Z5zpj7PiG-U-CFUyUiOfSlpgZko7B1I0iPxw.png" group-title="XXX", STRANDED TEENS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666347
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", STROKIES - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232920
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W3kiliGjxDBxM1EbbWMLBjoA_2PnjF4SLntZFBNIFGBQA.png" group-title="XXX", SUGAR COOKIE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666350
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/SuggaBunny.png" group-title="XXX", SuggaBunny - EBONY
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/595802
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogL1BDPm8kpIKZjeOCyhJ0eC2b9TzzCNv-QgnJEKgXFtuA.png" group-title="XXX", SWEET SINNER
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232814
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", SWEETHEART VIDEO - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666930
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W0yGNoXrTGzaSEqJ0FkB95ZFL6Kt85uf_hrdz_bqBAmmg.png" group-title="XXX", TEENS DO PORN
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666353
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogLMuX-lxlOw_QsIk9P600ZX_s581cL_BVPPygSGT3gyTVJIftssE9AGYRz8drohe5g.png" group-title="XXX", TEENS LOVE BLACK COCKS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662953
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJerISMGAP0uldn0mooq3oVFECQMcMOUme9mBw4c1OTcQ.png" group-title="XXX", TEENS LOVE MONEY
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666354
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W2bC2X7p0MwQVSax3rZBhqvMdDRVKT7vAU6UA38w5vxBQ.png" group-title="XXX", TEENY BLACK
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/662930
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKdN_uJ00YxSev-K2iG1Y1Zl-HZk9DmwthSbutFKqGi-A.png" group-title="XXX", THAI GIRLS WILD
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666356
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/a8ZLybME7nvmZTj1j3E8s00guRHFpEyaThlbyBLi5W0FWEEccPOOnSMeOnvnT1e6GkAbezmsffx3GFDXcNzqbJPzrj9Ls-nTJRCTHFnP1Y0.png" group-title="XXX", THIS GIRL SUCKS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666358
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", TINY 4K - PORNHUB
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/630252
-
-#EXTINF:-1 tvg-logo="http://platinumxmedia.xyz:8080/images/139dad10f211ee24d4e081f7f87c61fa.png" group-title="XXX", TRANS ANGELS - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232833
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", TRANSEROTICA - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232829
-
-#EXTINF:-1 tvg-logo="https://od.lk/d/MTdfMjI0ODI5Njlf/TRUE%20AMATEURS.png" group-title="XXX", TRUE AMATEURS-PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232915
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="XXX", TS FACTOR?
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/638689
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/a899645c5764107cc5c111a3ae72df2e.png" group-title="XXX", TUK TUK PATROL - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666934
-
-#EXTINF:-1 tvg-logo="http://platinumxmedia.xyz:8080/images/ea82410c7a9991816b5eeeebe195e20a.png" group-title="XXX", TUSHY - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/302053
-
-#EXTINF:-1 tvg-logo="http://xplatinmedia.com:8080/images/0c7b63c356e676bab674e4f285be17b8.png" group-title="XXX", TUSHY RAW
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666935
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogKhklS_-IJhKijRjuHZkbrqrpkHwfxcxdYSAOJZ-HyvPw.png" group-title="XXX", UP HER ASSHOLE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666361
-
-#EXTINF:-1 tvg-logo="https://od.lk/d/MTdfMjE3OTIxODdf/Vivid%20TV.png" group-title="XXX", VIVID TV EUROPE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/232528
-
-#EXTINF:-1 tvg-logo="https://cdn.theporndb.net/sites/55/a1/94/f64f52a2a701e66e9ddf1c71500829d/logo/Vixen---Logo.png" group-title="XXX", VIXEN - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666937
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/inICU-NdeMFmEhiOlrOCNr0oUxfibOoG6LI1b2UpZtf2dR_B7GRv0M7up0n11Tb7_CncRD5mbBZXaR46i353sw.png" group-title="XXX", WATCH YOUR WIFE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666401
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogIPNNSNHKdq7QoGSwWFWT1gvxDlDyJNVHgyw4GdWyLH3w.png" group-title="XXX", WE LIVE TOGETHER
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666363
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/WeFuckBlackGirls.png" group-title="XXX", WeFuckBlackGirls - EBONY/INTERRACIAL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/609481
-
-#EXTINF:-1 tvg-logo="http://46.4.101.91/18.png" group-title="XXX", WOLFWAGNER - PORNBOX
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/630262
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJG5IXY6KIG7J730wvyznZbmkI6kF_VtslyH_jVj8Es4A.png" group-title="XXX", XXX PAWN
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666365
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJdQCuQqahi9nX_TUbeerU44k5GyNFh4-lFYcL31hPwAQ.png" group-title="XXX", YNGR
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666369
-
-#EXTINF:-1 tvg-logo="https://dencheetah.xyz:443/images/yIFZT7dpUDF8SbNBpUnYhe_FeqN0DjzmKGl7GcQyogJMsFZtjbSitkziVdzinw_H6R_kEpbmJP5ub-FWrc-8gw.png" group-title="XXX", YOUNG COURTESANS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/666366
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", ADRIANA CHECHIK
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121458
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", ANGELA WHITE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121460
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", ARIANA MARIE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121461
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", DANI JENSEN
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121466
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", ELSA JEAN
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121467
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", GINA VALENTINA
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121470
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", JANICE GRIFFITH
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121471
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", JESSA RHODES
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121472
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", LANA RHOADES
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121473
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", LENA PAUL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121474
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", LISA ANN
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121475
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", MADISON IVY
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121476
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", MIA MALKOVA
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121477
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", NICOLE ANISTON
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121478
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", RILEY REID
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121479
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", UMA JOLIE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121480
-
-#EXTINF:-1 tvg-logo="https://cinebox.one/cinebox_and_pornbox/pornbox-stars.png" group-title="XXX", VALENTINA NAPPI
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121481
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", BIGTITTYGOTHEGG
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121527
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", CHESSIE RAE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121529
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", ELLAKAI
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121531
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", KRISS KISS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121533
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", LEAH MEOW
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121534
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", MIKANIKA69
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121536
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", MOLLYREDWOLF
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121538
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", NOFACEGIRL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121539
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", NYNA FERRAGNI
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121541
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", PURPLE BITCH
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121542
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", REISLIN
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121543
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", SECRETCRUSH
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121544
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", SHAIDEN ROUGE
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121545
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", SOLAZOLA
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121546
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", SWEET BUNNY
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121547
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", TESSA WINTERS
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121548
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", TINNA ANGEL
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121549
-
-#EXTINF:-1 tvg-logo="https://watch.legendsrise04.xyz/images/laHF_PkTZqv1h50FkdwTfuvC897VhxchA1Rsn9uf2Q6U2EeDASBUAfCw9VizvyaunJT1MyJxe2C4jEdQEVOa6iME_oingV8ovT4NHvUgSs8Hf7tLQ-cvdGVyDixQB9bF.png" group-title="XXX", YINYLEON
-https://watch.startecmedia.xyz:443/SeanK22/9Sz5cGPbTWhS/121550
 
 
 
@@ -12662,8 +11681,6 @@ https://t26.cdn2020.com/video/m3u8/2023/06/16/66ac0d2a/index.m3u8
 https://t26.cdn2020.com/video/m3u8/2023/06/16/0d613349/index.m3u8
 #EXTINF:-1 group-title="麻豆傳媒 ADULT",美女老師慘遭學生強姦淩辱
 https://t26.cdn2020.com/video/m3u8/2023/06/19/dc805c85/index.m3u8
-#EXTINF:-1 group-title="麻豆傳媒 ADULT",巨乳的比基尼誘惑
-https://t0.97img.com/a1000182/a.m3u8
 #EXTINF:-1 group-title="麻豆傳媒 ADULT",美女碰瓷不成反被肉棒教訓
 https://t26.cdn2020.com/video/m3u8/2023/07/03/bdcd3204/index.m3u8
 #EXTINF:-1 group-title="麻豆傳媒 ADULT",聽著騷麥操著逼爽飛了
@@ -13996,7 +13013,13 @@ https://t30.cdn2020.com/video/m3u8/2025/06/22/cf76965d/index.m3u8
 https://t30.cdn2020.com/video/m3u8/2025/06/22/eb808c2f/index.m3u8
 
 
+
+
+
 #########################################
+
+
+
 
 #EXTINF:-1 group-title="最愛映畫 ADULT",XV1
 https://fc.mjv003.com/n/jxewmqbwpt/jxewmqbwpt.m3u8
@@ -14689,21 +13712,21 @@ https://t26.cdn2020.com/video/m3u8/2021/08/14/5ba4586a/index.m3u8
 https://t26.cdn2020.com/video/m3u8/2021/08/14/0a9ff0cb/index.m3u8
 #EXTINF:-1 group-title="動漫劇情 ADULT",你想再做一次嗎？
 https://t26.cdn2020.com/video/m3u8/2021/08/13/b7c90e00/index.m3u8
-#EXTINF:-1 group-title="最愛映畫 ADULT",宮崎摩耶大図鑑巻一
+#EXTINF:-1 group-title="動漫劇情 ADULT",宮崎摩耶大図鑑巻一
 https://t26.cdn2020.com/video/m3u8/2021/08/13/317901f9/index.m3u8
-#EXTINF:-1 group-title="最愛映畫 ADULT",房地產公司女社長1號室
+#EXTINF:-1 group-title="動漫劇情 ADULT",房地產公司女社長1號室
 https://t26.cdn2020.com/video/m3u8/2021/08/13/b4050b86/index.m3u8
-#EXTINF:-1 group-title="最愛映畫 ADULT",房地產公司女社長2號室
+#EXTINF:-1 group-title="動漫劇情 ADULT",房地產公司女社長2號室
 https://t26.cdn2020.com/video/m3u8/2021/08/13/4d48fc81/index.m3u8
-#EXTINF:-1 group-title="最愛映畫 ADULT",女教師中善寺綾乃の淫鬱なこれから-前編
+#EXTINF:-1 group-title="動漫劇情 ADULT",女教師中善寺綾乃の淫鬱なこれから-前編
 https://t26.cdn2020.com/video/m3u8/2021/08/13/95d4a97b/index.m3u8
-#EXTINF:-1 group-title="最愛映畫 ADULT",女教師中善寺綾乃の淫鬱なこれから-後編
+#EXTINF:-1 group-title="動漫劇情 ADULT",女教師中善寺綾乃の淫鬱なこれから-後編
 https://t26.cdn2020.com/video/m3u8/2021/08/13/cdd2569f/index.m3u8
-#EXTINF:-1 group-title="最愛映畫 ADULT",死妹人形第一章蘇生
+#EXTINF:-1 group-title="動漫劇情 ADULT",死妹人形第一章蘇生
 https://t26.cdn2020.com/video/m3u8/2021/08/12/637cc5a5/index.m3u8
-#EXTINF:-1 group-title="最愛映畫 ADULT",相姦連鎖
+#EXTINF:-1 group-title="動漫劇情 ADULT",相姦連鎖
 https://t26.cdn2020.com/video/m3u8/2021/08/12/f60fa7ad/index.m3u8
-#EXTINF:-1 group-title="最愛映畫 ADULT",胸歸胸乳歸乳第一話
+#EXTINF:-1 group-title="動漫劇情 ADULT",胸歸胸乳歸乳第一話
 https://t26.cdn2020.com/video/m3u8/2021/08/12/68073e5f/index.m3u8
 
 
@@ -14983,6 +14006,7 @@ http://t33.cdn2020.com/video/m3u8/2025/11/06/aa67b28b/index.m3u8
 
 
 ################################################
+
 
 
 #EXTINF:-1 group-title="國產視頻 ADULT",失戀校花喝醉被我撿回家-師師
@@ -15769,6 +14793,8 @@ https://t26.cdn2020.com/video/m3u8/2023/07/26/4439894e/index.m3u8
 
 
 
+
+
 ################################################
 
 
@@ -16539,8 +15565,8 @@ http://ovhv39.twincdn.com/videos/24/24028/24028_720p.mp4
 http://ovhv39.twincdn.com/videos/19/19855/19855_720p.mp4
 #EXTINF:-1 group-title="Adults Only",old for the chubby teen
 http://ovhv39.twincdn.com/videos/4/4582/4582_720p.mp4
-#EXTINF:-1 group-title="Adults Only",Pronhub 22
-https://xporn.in/view/720/1.mp4
+
+
 #EXTINF:-1 group-title="Adults Only",Rarely seen such hot tits
 http://ovhv39.twincdn.com/videos/4/4634/4634_720p.mp4
 #EXTINF:-1 group-title="Adults Only",Russian Teen first anal
@@ -16649,31 +15675,6 @@ http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_chloe
 http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_dillionharper030614/content/vid01.mp4
 #EXTINF:-1 group-title="Adults Only",Tiny 4k 9
 http://videos.galleries.pornpros.com/galleries.tiny4k.com/htdocs/fb01/fb01_emmastoned03414/content/vid01.mp4
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://yespornpleasexxx.com/wp-content/uploads/2024/03/Sexy-Blonde-Neighbor-Cory-Chase-wants-that-neighbors-cock-or-else.jpeg" group-title="Adults Only",Sexy Blonde Neighbor Cory Chase wants that neighbor’s cock or else!
-https://pornsexnvideos.com/wp-content/uploads/2024/03/Sexy-Blonde-Neighbor-Cory-Chase-wants-that-neighbors-cock-or-else.mp4?_=1|Referer=https://yespornpleasexxx.com/
-#EXTINF:-1 tvg-logo="https://yespornpleasexxx.com/wp-content/uploads/2025/06/Emiri-Momota-Sultry-Beauty-Emiri-Gets-A-BBC-Ride.jpeg" group-title="Adults Only",Emiri Momota – Sultry Beauty Emiri Gets A BBC Ride
-https://st2.pornsexnvideos.com/wp-content/uploads/2025/06/Emiri-Momota-Sultry-Beauty-Emiri-Gets-A-BBC-Ride.mp4?_=1|Referer=https://yespornpleasexxx.com/
-#EXTINF:-1 tvg-logo="https://yespornpleasexxx.com/wp-content/uploads/2025/04/Fibi-Euro-Emiri-Momota-Gorgeous-Duo-Share-A-Huge-Cock-In-Threesome.jpeg" group-title="Adults Only",Fibi Euro & Emiri Momota – Gorgeous Duo Share A Huge Cock In Threesome
-https://st2.pornsexnvideos.com/wp-content/uploads/2025/04/Fibi-Euro-Emiri-Momota-Gorgeous-Duo-Share-A-Huge-Cock-In-Threesome.mp4?_=1|Referer=https://yespornpleasexxx.com/
-#EXTINF:-1 tvg-logo="https://yespornpleasexxx.com/wp-content/uploads/2026/01/Rikako-Katayama-Eve-Sweet-Petite-Eve-Shares-A-Cock-With-Sexy-Assistant-Rikako.jpeg" group-title="Adults Only",Rikako Katayama & Eve Sweet – Petite Eve Shares A Cock With Sexy Assistant Rikako
-https://st2.pornsexnvideos.com/wp-content/uploads/2026/01/Rikako-Katayama-Eve-Sweet-Petite-Eve-Shares-A-Cock-With-Sexy-Assistant-Rikako.mp4?_=1|Referer=https://yespornpleasexxx.com/
-#EXTINF:-1 tvg-logo="https://yespornpleasexxx.com/wp-content/uploads/2025/11/Rikako-Katayama-Busty-Beauty-Cant-Keep-Her-Hands-Off-Boss-BBC.jpeg" group-title="Adults Only",Rikako Katayama – Busty Beauty Cant Keep Her Hands Off Boss BBC
-https://st2.pornsexnvideos.com/wp-content/uploads/2025/11/Rikako-Katayama-Busty-Beauty-Cant-Keep-Her-Hands-Off-Boss-BBC.mp4?_=1|Referer=https://yespornpleasexxx.com/
-#EXTINF:-1 tvg-logo="https://yespornpleasexxx.com/wp-content/uploads/2025/09/Fun-Sized-Hottie-Tourist-Asuka-Tenshi-Has-BBC-Adventure-On-Vacation.jpeg" group-title="Adults Only",Fun-Sized Hottie Tourist Asuka Tenshi Has BBC Adventure On Vacation
-https://st2.pornsexnvideos.com/wp-content/uploads/2025/09/Fun-Sized-Hottie-Tourist-Asuka-Tenshi-Has-BBC-Adventure-On-Vacation.mp4?_=1|Referer=https://yespornpleasexxx.com/
-#EXTINF:-1 tvg-logo="https://yespornpleasexxx.com/wp-content/uploads/2025/12/Megan-Mistakes-Jealous-Sister.jpeg" group-title="Adults Only",Megan Mistakes – Jealous Sister
-https://st2.pornsexnvideos.com/wp-content/uploads/2025/12/Megan-Mistakes-Jealous-Sister.mp4?_=1|Referer=https://yespornpleasexxx.com/
-#EXTINF:-1 tvg-logo="https://yespornpleasexxx.com/wp-content/uploads/2024/06/Kelly-Collins-Gianna-Dior-Cock-Hungry-Cuties-Kelly-and-Gianna-Devour-Two-BBCs.jpeg" group-title="Adults Only",Kelly Collins & Gianna Dior – Cock Hungry Cuties Kelly and Gianna Devour Two BBCs
-https://pornsexnvideos.com/wp-content/uploads/2024/06/Kelly-Collins-Gianna-Dior-Cock-Hungry-Cuties-Kelly-and-Gianna-Devour-Two-BBCs.mp4?_=1|Referer=https://yespornpleasexxx.com/
-#EXTINF:-1 tvg-logo="https://yespornpleasexxx.com/wp-content/uploads/2024/10/Amalia-Davis-Curvy-Natural-Babe-Fucks-BBC-Crush.jpeg" group-title="Adults Only",Amalia Davis – Curvy Natural Babe Fucks BBC Crush
-https://pornsexnvideos.com/wp-content/uploads/2024/10/Amalia-Davis-Curvy-Natural-Babe-Fucks-BBC-Crush.mp4?_=1|Referer=https://yespornpleasexxx.com/
-#EXTINF:-1 tvg-logo="https://youperv.com/ko/uploads/posts/2024-01/video_girls_21967-2024-01-23.webp" group-title="Adults Only",바이올렛 스타 - 귀여운 바이올렛이 프로처럼 bbc를 다룹니다 01.23.2024
-https://files.klubnichka-hd.com/newvideofile4/Janua24/Blacked%20Raw%20-%20Violet%20Starr%20-%20Tiny%20Cutie%20Violet%20Handles%20His%20BBC%20Like%20A%20Pro.mp4|Referer=https://youperv.com/
 
 
 

@@ -338,7 +338,6 @@ sc
       { "tag": "dns_fakeip", "type": "fakeip", "inet4_range": "28.0.0.0/8", "inet6_range": "fc00::/16" }
     ],
     "rules": [
-      { "ip_accept_any": true, "server": "hosts" },
       { "clash_mode": [ "Direct" ], "server": "dns_direct" },
       { "clash_mode": [ "Global" ], "server": "dns_proxy" },
       { "rule_set": [ "ads" ], "action": "predefined" },
@@ -408,20 +407,20 @@ sc
 4. 连接 SSH 后执行如下命令：
 ```shell
 sed -i ':a;N;$!ba;s/{[[:space:]]*"ip_accept_any": true,[[:space:]]*"server": "hosts"[[:space:]]*}/{ "action": "evaluate", "server": "hosts" },\
-      { "match_response": true, "ip_accept_any": true, "action": "respond" }/' "$CRASHDIR/starts/singbox_modify.sh"
+         { "match_response": true, "ip_accept_any": true, "action": "respond" }/' "$CRASHDIR/starts/singbox_modify.sh"
 sed -i '/#生成experimental.json/i\
   #生成http_clients.json\
   cat >"$TMPDIR"/jsons/http_clients.json <<EOF\
 {\
   "http_clients": [\
-    {\
-      "tag": "detour_proxy",\
-      "detour": "GLOBAL"\
-    },\
-    {\
-      "tag": "detour_direct",\
-      "detour": "DIRECT"\
-    }\
+       {\
+         "tag": "detour_proxy",\
+         "detour": "GLOBAL"\
+       },\
+       {\
+         "tag": "detour_direct",\
+         "detour": "DIRECT"\
+       }\
   ]\
 }\
 EOF

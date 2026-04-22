@@ -92,6 +92,12 @@
       "url": "https://chuxinya.top/f/2xLkt8/12.28%E9%A3%9E%E6%89%AC%E7%9B%B4%E6%92%AD.txt"
     },
 
+        {
+            "name": "CATVOD",
+            "type": 0,
+            "url": "https://live.catvod.com/?tk=691aed6eddc2e361474044878e71f344",
+            "epg": "https://epg.cdn.loc.cc?ch={name}&date={date}"
+        },
 
     {
       "name": "cat",
@@ -347,10 +353,24 @@
             "url": "https://bitbucket.org/guot55/bhmb/raw/main/TVBoxOSC/bhzb.m3u"
         },
 
+        {
+            "name": "🦄毛豆🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://raw.githubusercontent.com/ge6bu6/1/refs/heads/main/file/%E9%BA%BB%E8%B1%86%E5%9B%BE%E6%A0%87%E7%89%88.m3u"
+        },
+
+
     {
       "name": "🔞AV精品合集🔞",
       "url": "https://raw.githubusercontent.com/atsushi444/iptv/refs/heads/main/ttt.m3u"
     },
+
+    {
+      "name": "🔞haijiao669🔞",
+      "url": "https://raw.githubusercontent.com/FGBLH/fgrjk2/refs/heads/main/haijiao669"
+    },
+
 
  {
       "name": "🔕歐華167🔓🔓VPN",

@@ -107,25 +107,6 @@
       "filterable": 1
     },
     {
-      "key": "星星",
-      "name": "⭐️星星┃超清┃弹幕",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%91%B8%E9%B1%BC%E5%84%BF/jars/玩偶哥哥.jar",
-      "ext": {
-        "url": "http://starani.qcanime.xyz",
-        "site": "",
-        "dataKey": "123456789StarAni",
-        "dataIv": "123456789StarAni",
-        "deviceId": "",
-        "version": "",
-        "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
-      },
-      "searchable": 1,
-      "filterable": 1
-    },
-    {
       "key": "小黄人",
       "name": "小黄人┃App",
       "type": 3,
@@ -208,29 +189,6 @@
       "filterable": 1
     },
     {
-      "key": "下饭",
-      "name": "🍙下饭┃多线┃纯净",
-      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%91%B8%E9%B1%BC%E5%84%BF/spider.jar",
-      "type": 3,
-      "api": "csp_AppSxGuard",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM="
-    },
-    {
-      "key": "糯米",
-      "name": "🍓糯米┃秒播┃纯净",
-      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%91%B8%E9%B1%BC%E5%84%BF/spider.jar",
-      "type": 3,
-      "api": "csp_NmyswvGuard",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1
-    },
-    {
       "key": "文采",
       "name": "💮文采┃秒播┃纯净",
       "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%91%B8%E9%B1%BC%E5%84%BF/spider.jar",
@@ -252,17 +210,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "changeable": 0
-    },
-    {
-      "key": "csp_ShuaiJiao",
-      "name": "🤺摔跤┃体育",
-      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/leexuben/BINGO-TV/refs/heads/main/jar/vox.jar",
-      "type": 3,
-      "api": "csp_ShuaiJiao",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "[object Object]"
     },
     {
       "key": "d'd",
@@ -329,30 +276,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/leexuben/BINGO-TV/main/jar/%E6%BD%87%E6%B4%92.jar"
-    },
-    {
-      "key": "央库云",
-      "name": "☀央视🔹大全 [1.2s]",
-      "type": 3,
-      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/heroaku/TVboxo/refs/heads/main/fm.jar",
-      "api": "https://daili.korice.eu.org/https://raw.githubusercontent.com/heroaku/TVboxo/refs/heads/main/Py/央库云.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
-    },
-    {
-      "key": "央视影视",
-      "name": "☀央视🔹栏目 [0.9s]",
-      "type": 3,
-      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/heroaku/TVboxo/refs/heads/main/fm.jar",
-      "api": "https://daili.korice.eu.org/https://raw.githubusercontent.com/heroaku/TVboxo/refs/heads/main/Py/央视影视.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2
     },
     {
       "key": "csp_LiteApple",
@@ -808,59 +731,6 @@
       "name": "潇->迅雷吧｜磁力",
       "type": 3,
       "api": "csp_Xunlei8",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
-    },
-    {
-      "key": "电影港",
-      "name": "潇->电影港｜磁力",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/magnet/json/DYG.json",
-      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
-    },
-    {
-      "key": "狐狸君",
-      "name": "潇->狐狸君｜磁力",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "changeable": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/magnet/json/HLJ.json",
-      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
-    },
-    {
-      "key": "Mp4电影",
-      "name": "潇->Mp4电影｜磁力",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
-    },
-    {
-      "key": "美剧天堂",
-      "name": "潇->美剧天堂｜磁力",
-      "type": 3,
-      "api": "csp_MeijuTT",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
-    },
-    {
-      "key": "电影天堂",
-      "name": "潇->电影天堂｜磁力",
-      "type": 3,
-      "api": "csp_DyGod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -5706,6 +5576,133 @@
         "type": "rect",
         "ratio": 1.333
       }
+    },
+    {
+      "key": "星星",
+      "name": "⭐️星星┃超清┃弹幕",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%91%B8%E9%B1%BC%E5%84%BF/jars/玩偶哥哥.jar",
+      "ext": {
+        "url": "http://starani.qcanime.xyz",
+        "site": "",
+        "dataKey": "123456789StarAni",
+        "dataIv": "123456789StarAni",
+        "deviceId": "",
+        "version": "",
+        "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
+      }
+    },
+    {
+      "key": "下饭",
+      "name": "🍙下饭┃多线┃纯净",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%91%B8%E9%B1%BC%E5%84%BF/spider.jar",
+      "type": 3,
+      "api": "csp_AppSxGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "rfOX1voDIQhH8epBwpmIsuStuSyZxtH332ksdImjS1xHcE9fpWVy8fNjc+8DhNI67j3SJZRGjnM="
+    },
+    {
+      "key": "糯米",
+      "name": "🍓糯米┃秒播┃纯净",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/kimwang1978/tvbox/main/%E6%91%B8%E9%B1%BC%E5%84%BF/spider.jar",
+      "type": 3,
+      "api": "csp_NmyswvGuard",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_ShuaiJiao",
+      "name": "🤺摔跤┃体育",
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/leexuben/BINGO-TV/refs/heads/main/jar/vox.jar",
+      "type": 3,
+      "api": "csp_ShuaiJiao",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "[object Object]"
+    },
+    {
+      "key": "央库云",
+      "name": "☀央视🔹大全",
+      "type": 3,
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/heroaku/TVboxo/refs/heads/main/fm.jar",
+      "api": "https://daili.korice.eu.org/https://raw.githubusercontent.com/heroaku/TVboxo/refs/heads/main/Py/央库云.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "央视影视",
+      "name": "☀央视🔹栏目",
+      "type": 3,
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/heroaku/TVboxo/refs/heads/main/fm.jar",
+      "api": "https://daili.korice.eu.org/https://raw.githubusercontent.com/heroaku/TVboxo/refs/heads/main/Py/央视影视.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "电影港",
+      "name": "潇->电影港｜磁力",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/magnet/json/DYG.json",
+      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
+    },
+    {
+      "key": "狐狸君",
+      "name": "潇->狐狸君｜磁力",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/magnet/json/HLJ.json",
+      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
+    },
+    {
+      "key": "Mp4电影",
+      "name": "潇->Mp4电影｜磁力",
+      "type": 3,
+      "api": "csp_Mp4Mov",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
+    },
+    {
+      "key": "美剧天堂",
+      "name": "潇->美剧天堂｜磁力",
+      "type": 3,
+      "api": "csp_MeijuTT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
+    },
+    {
+      "key": "电影天堂",
+      "name": "潇->电影天堂｜磁力",
+      "type": 3,
+      "api": "csp_DyGod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://www.lequxiang.com.cn/down.php/7ffef3e5e7ecb6562f58d34dcca2077a.txt;md5;7ffef3e5e7ecb6562f58d34dcca2077a"
     }
   ],
   "lives": [

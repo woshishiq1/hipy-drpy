@@ -7622,12 +7622,12 @@
             }
         },
         {
-      "key": "腾腾视频",
-      "name": "🐚腾讯视频",
-      "type": 3,
-      "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
-      "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/js/TXSP.js"
-    },
+            "key": "腾讯视频",
+            "name": "🐚腾讯视频",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/腾讯视频.js"
+        },
         {
             "key": "优酷视频",
             "name": "🐚优酷视频",

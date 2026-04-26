@@ -1,4 +1,4 @@
-name: updata FuLi.json
+name: Update FuLi.json
 
 on:
   schedule:
@@ -9,10 +9,10 @@ on:
   workflow_dispatch:  # 允许手动触发
 
 permissions:
-  contents: read  # 只需要读取权限
+  contents: write  # ❗ 必须改为 write，否则无法推送
 
 jobs:
-  update-FuLi-json:
+  update-FuLi-json:  # ❗ 建议用短横线命名更规范
     runs-on: ubuntu-latest
 
     steps:
@@ -32,11 +32,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: 运行 Python 脚本（包含GitHub推送）
+    - name: 运行 Python 脚本（包含 GitHub 推送）
       env:
-        MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-        GITHUB_REPO: ${{ github.repository }}
-        GITHUB_BRANCH: ${{ github.ref_name }}
+        # ❗ 关键：直接使用 GitHub 提供的环境变量
+        GIT_REMOTE_URL: https://x-access-token:${{ secrets.MY_GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        GIT_BRANCH: ${{ github.ref_name }}  # 推送到当前分支
+        GIT_COMMIT_MESSAGE: "🔄 自动更新 FuLi.json（站点 & Live）"
       run: |
-        echo "开始执行合并脚本（包含GitHub推送功能）..."
+        echo "开始执行合并脚本（包含 GitHub 推送功能）..."
         python merge_FuLi.py

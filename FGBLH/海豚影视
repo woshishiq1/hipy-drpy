@@ -656,19 +656,19 @@
     ],
 "lives": [
          {
-            "name": "🐬地方直播 TG:@usfgrjk",
+            "name": "🐬地方直播",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         }, 
          {
-            "name": "🐬地方直播2 TG:@usfgrjk",
+            "name": "🐬地方直播2",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
         }, 
         {
-            "name": "🐬电视家 TG:@usfgrjk",
+            "name": "🐬电视家",
             "type": 0,
             "ua": "okhttp",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/电视家.m3u"
@@ -683,7 +683,7 @@
             "name": "🐬Gather",
             "type": 0,
             "ua": "okhttp",
-            "url": "https://tv.iill.top/m3u/Gather"
+            "url": "https://iptv.yang-1989.eu.org/m3u/Gather.m3u"
         },
         {
             "name": "🐬Mytv",

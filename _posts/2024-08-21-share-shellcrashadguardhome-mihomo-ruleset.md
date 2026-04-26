@@ -272,7 +272,6 @@ external-ui-url: "https://github.com/Zephyruso/zashboard/archive/gh-pages-cdn-fo
 profile: {store-selected: true, store-fake-ip: true}
 
 hosts:
-  miwifi.com: [192.168.31.1, 127.0.0.1]
   dns.alidns.com: [223.5.5.5, 223.6.6.6, 2400:3200::1, 2400:3200:baba::1]
   doh.pub: [1.12.12.12, 120.53.53.53, 2402:4e00::]
 
@@ -287,6 +286,7 @@ dns:
   fake-ip-filter-mode: rule
   fake-ip-filter:
     - RULE-SET,fakeip-filter,real-ip
+    - RULE-SET,private,real-ip
     - RULE-SET,trackerslist,real-ip
     - RULE-SET,microsoft-cn,real-ip
     - RULE-SET,apple-cn,real-ip
@@ -295,12 +295,13 @@ dns:
     - RULE-SET,games,fake-ip
     - RULE-SET,ai,fake-ip
     - RULE-SET,proxy,fake-ip
-    - RULE-SET,private,real-ip
     - RULE-SET,cn,real-ip
     - MATCH,fake-ip
   nameserver:
     - quic://dns.alidns.com:853
     - https://dns.pub/dns-query
+  nameserver-policy:
+    'rule-set:private': [system]
 ```
 
 按一下 Esc 键（退出键），输入英文冒号 `:`，继续输入 `wq` 并回车
@@ -316,7 +317,6 @@ dns:
 
 ```yaml
 hosts:
-  miwifi.com: [192.168.31.1, 127.0.0.1]
   dns.alidns.com: [223.5.5.5, 223.6.6.6, 2400:3200::1, 2400:3200:baba::1]
   doh.pub: [1.12.12.12, 120.53.53.53, 2402:4e00::]
   dns.google: [8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844]
@@ -332,6 +332,7 @@ dns:
   fake-ip-filter-mode: rule
   fake-ip-filter:
     - RULE-SET,fakeip-filter,real-ip
+    - RULE-SET,private,real-ip
     - RULE-SET,trackerslist,real-ip
     - RULE-SET,microsoft-cn,real-ip
     - RULE-SET,apple-cn,real-ip
@@ -340,7 +341,6 @@ dns:
     - RULE-SET,games,fake-ip
     - RULE-SET,ai,fake-ip
     - RULE-SET,proxy,fake-ip
-    - RULE-SET,private,real-ip
     - RULE-SET,cn,real-ip
     - MATCH,fake-ip
   respect-rules: true
@@ -356,8 +356,8 @@ dns:
     - https://doh.pub/dns-query
   direct-nameserver-follow-policy: true
   nameserver-policy:
-    'rule-set:ads': [rcode://success]
-    'rule-set:fakeip-filter,trackerslist,microsoft-cn,apple-cn,google-cn,games-cn,private,cn': [quic://dns.alidns.com:853, https://doh.pub/dns-query]
+    'rule-set:private': [system]
+    'rule-set:fakeip-filter,trackerslist,microsoft-cn,apple-cn,google-cn,games-cn,cn': [quic://dns.alidns.com:853, https://doh.pub/dns-query]
 ```
 
 ## 四、 添加定时任务

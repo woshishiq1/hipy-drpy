@@ -269,7 +269,6 @@ sc
         "tag": "hosts",
         "type": "hosts",
         "predefined": {
-          "miwifi.com": [ "192.168.31.1", "127.0.0.1" ],
           "dns.alidns.com": [ "223.5.5.5", "223.6.6.6", "2400:3200::1", "2400:3200:baba::1" ],
           "doh.pub": [ "1.12.12.12", "120.53.53.53", "2402:4e00::" ],
           "dns.google": [ "8.8.8.8", "8.8.4.4", "2001:4860:4860::8888", "2001:4860:4860::8844" ],
@@ -288,9 +287,10 @@ sc
     "rules": [
       { "clash_mode": [ "Direct" ], "server": "dns_direct" },
       { "clash_mode": [ "Global" ], "server": "dns_proxy" },
+      { "rule_set": [ "private" ], "server": "dns_resolver" },
       { "rule_set": [ "fakeip-filter", "trackerslist", "microsoft-cn", "apple-cn", "google-cn", "games-cn" ], "server": "dns_direct" },
       { "rule_set": [ "games", "ai", "proxy" ], "query_type": [ "A", "AAAA" ], "server": "dns_fakeip" },
-      { "rule_set": [ "private", "cn" ], "server": "dns_direct" },
+      { "rule_set": [ "cn" ], "server": "dns_direct" },
       { "action": "evaluate", "server": "dns_direct" },
       { "match_response": true, "rule_set": [ "cnip" ], "action": "respond" },
       { "match_response": true, "ip_accept_any": true, "invert": true, "action": "respond" },
@@ -321,7 +321,6 @@ sc
         "tag": "hosts",
         "type": "hosts",
         "predefined": {
-          "miwifi.com": [ "192.168.31.1", "127.0.0.1" ],
           "dns.alidns.com": [ "223.5.5.5", "223.6.6.6", "2400:3200::1", "2400:3200:baba::1" ],
           "doh.pub": [ "1.12.12.12", "120.53.53.53", "2402:4e00::" ],
           "dns.google": [ "8.8.8.8", "8.8.4.4", "2001:4860:4860::8888", "2001:4860:4860::8844" ],
@@ -340,10 +339,10 @@ sc
     "rules": [
       { "clash_mode": [ "Direct" ], "server": "dns_direct" },
       { "clash_mode": [ "Global" ], "server": "dns_proxy" },
-      { "rule_set": [ "ads" ], "action": "predefined" },
+      { "rule_set": [ "private" ], "server": "dns_resolver" },
       { "rule_set": [ "fakeip-filter", "trackerslist", "microsoft-cn", "apple-cn", "google-cn", "games-cn" ], "server": "dns_direct" },
       { "rule_set": [ "games", "ai", "proxy" ], "query_type": [ "A", "AAAA" ], "server": "dns_fakeip" },
-      { "rule_set": [ "private", "cn" ], "server": "dns_direct" },
+      { "rule_set": [ "cn" ], "server": "dns_direct" },
       // 推荐将 `client_subnet` 设置为当前宽带运营商分配的默认 DNS 的 IP 段
       { "action": "evaluate", "server": "dns_proxy", "client_subnet": "211.137.58.0/24" },
       { "match_response": true, "rule_set": [ "cnip" ], "action": "respond" },
@@ -461,4 +460,4 @@ EOF
 > 推荐设置
 {: .prompt-tip }
 1. 进入 zashboard 面板 → 代理 → 代理设置 → 管理隐藏代理组，隐藏不必要显示的代理组
-2. 进入 zashboard 面板 → 设置 → 图标，设置“自定义图标”，可参考 [icon 文件](https://github.com/DustinWin/ruleset_geodata/releases/tag/icons)
+2. 进入 zashboard 面板 → 设置 → 代理设置 → 外观 → 自定义图标，设置“组名”和“URL”，“URL”可参考 [icon 文件](https://github.com/DustinWin/ruleset_geodata/releases/tag/icons)

@@ -70,6 +70,7 @@ proxy-groups:
   - {name: 苹果服务, type: select, proxies: [全球直连, 节点选择], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/apple-cn.png"}
   - {name: 国外域名, type: select, proxies: [节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, 免费节点, 🆚 vless 节点], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/global.png"}
   - {name: 电报消息, type: select, proxies: [节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, 免费节点, 🆚 vless 节点], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/telegram.png"}
+  - {name: 私有网络, type: select, proxies: [全球直连], hidden: true, icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/private.png"}
   # 若机场的 UDP 质量不是很好，导致某游戏无法登录或进入房间，可以添加 `disable-udp: true` 配置项解决
   - {name: 漏网之鱼, type: select, proxies: [节点选择, 香港节点, 台湾节点, 日本节点, 新加坡节点, 美国节点, 免费节点, 🆚 vless 节点, 全球直连], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/match.png"}
   - {name: 全球直连, type: select, proxies: [DIRECT], hidden: true, icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/direct.png"}
@@ -82,6 +83,7 @@ proxy-groups:
   - {name: 免费节点, type: url-test, tolerance: 100, use: [🆓 免费订阅], icon: "https://github.com/DustinWin/ruleset_geodata/releases/download/icons/free.png"}
 
 rules:
+  - GEOSITE,private,私有网络
   - GEOSITE,microsoft-cn,微软服务
   - GEOSITE,apple-cn,苹果服务
   - GEOSITE,google-cn,谷歌服务
@@ -90,6 +92,7 @@ rules:
   - GEOSITE,ai,AI 平台
   - GEOSITE,networktest,网络测试
   - GEOSITE,proxy,国外域名
+  - GEOIP,private,私有网络,no-resolve
   - GEOIP,cn,全球直连
   - GEOIP,telegram,电报消息,no-resolve
   - MATCH,漏网之鱼

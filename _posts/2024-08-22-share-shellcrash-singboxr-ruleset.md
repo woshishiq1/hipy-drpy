@@ -59,6 +59,7 @@ tags: [sing-box, sing-boxr, ShellCrash, ruleset, rule_set, 分享, Router]
     { "tag": "苹果服务", "type": "selector", "outbounds": [ "全球直连", "节点选择" ] },
     { "tag": "国外域名", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "免费节点", "🆚 vless 节点" ] },
     { "tag": "电报消息", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "免费节点", "🆚 vless 节点" ] },
+    { "tag": "私有网络", "type": "selector", "outbounds": [ "全球直连" ] },
     { "tag": "漏网之鱼", "type": "selector", "outbounds": [ "节点选择", "香港节点", "台湾节点", "日本节点", "新加坡节点", "美国节点", "免费节点", "🆚 vless 节点", "全球直连" ] },
     { "tag": "全球直连", "type": "selector", "outbounds": [ "DIRECT" ] },
     { "tag": "DIRECT", "type": "direct" },
@@ -85,6 +86,7 @@ tags: [sing-box, sing-boxr, ShellCrash, ruleset, rule_set, 分享, Router]
   "route": {
     "default_domain_resolver": "dns_direct",
     "rules": [
+      { "rule_set": [ "private" ], "outbound": "私有网络" },
       { "rule_set": [ "microsoft-cn" ], "outbound": "微软服务" },
       { "rule_set": [ "apple-cn" ], "outbound": "苹果服务" },
       { "rule_set": [ "google-cn" ], "outbound": "谷歌服务" },
@@ -93,6 +95,7 @@ tags: [sing-box, sing-boxr, ShellCrash, ruleset, rule_set, 分享, Router]
       { "rule_set": [ "ai" ], "outbound": "AI 平台" },
       { "rule_set": [ "networktest" ], "outbound": "网络测试" },
       { "rule_set": [ "proxy" ], "outbound": "国外域名" },
+      { "ip_is_private": true, "outbound": "私有网络" },
       { "rule_set": [ "cnip" ], "outbound": "全球直连" },
       { "rule_set": [ "telegramip" ], "outbound": "电报消息" }
     ],

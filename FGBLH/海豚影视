@@ -1,10 +1,10 @@
 {
     "spider": "./tvbox.jar",
-    "logo": "https://img.freepik.com/free-vector/cute-dolphin-swimming-cartoon-vector-icon-illustration-animal-nature-icon-isolated-flat-vector_138676-12582.jpg?semt=ais_hybrid&w=740&q=80",
+    "logo": "https://ww3.sinaimg.cn/mw690/006qOrdQgy1i0w03zuxukj30qo11m41o.jpg",
     "wallpaper":"http://tool.teyonds.com/api",
     "warningText": "学习使用，资源来源于网络，请勿贩卖，请加载24小时后删除，出现其他问题与作者无关，请知悉！",
     "sites": [
-       {
+        {
          "key":"AQY",
         "name":"🐬爱奇艺｜追剧",
         "type":3,
@@ -65,8 +65,8 @@
         "喜剧片"
       ]
       },
-        {    
-            "key": "热播影视",
+      {
+       "key": "热播影视",
             "name": "🐬热播影视｜追剧",
             "type": 3,
             "jar":"https://gitee.com/nm_nm/interface/raw/master/spider.jar;md5;06094f7f426755b6dd338459069a4e95",             "api": "csp_AppRJ",
@@ -122,7 +122,7 @@
         "港台动漫",
         "海外动漫"
          ]
-         }, 
+         },
          {"key": "csp_Kugou",
 "name": "🐬酷狗音乐｜音乐",
 "type": 3,
@@ -167,16 +167,6 @@
 			"name": "🐬动漫巴士｜动漫",
 			"type": 4,
 			"api": "https://py.doube.eu.org/v2/spider?site=6b5899d243816bacb8712de7ab6ceb89"
-		},
-        {
-			"key": "market",
-			"name": "🐬OK影视应用更新",
-			"type": 3,
-			"api": "csp_Market",
-			"searchable": 0,
-			"changeable": 0,
-			"ext": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/market.json",
-			"jar": "https://down.nigx.cn/raw.githubusercontent.com/ediart/tvbox/refs/heads/main/lz/fm.jar"
 		},
          {
             "key": "黄色仓库|AV",
@@ -244,6 +234,121 @@
             "changeable": 1
         }
         ],
+"proxy": [
+    "raw.githubusercontent.com",
+    "googlevideo.com",
+    "googleapis.com",
+    "youtube.com"
+  ],
+  "rules": [
+    {
+      "name": "火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "農民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    },
+    {
+      "name": "七新嗅探",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "毛驢點擊",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    }
+  ],
+  "headers": [
+    {
+      "host": "img\\d+.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    },
+    {
+      "host": "img1.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    },
+    {
+      "host": "img2.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    },
+    {
+      "host": "img3.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    },
+    {
+      "host": "img4.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    },
+    {
+      "host": "img5.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    },
+    {
+      "host": "img6.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    },
+    {
+      "host": "img7.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    },
+    {
+      "host": "img8.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    },
+    {
+      "host": "img9.doubanio.com",
+      "header": {
+        "Referer": "https://movie.douban.com"
+      }
+    }
+  ],
     "parses": [ 
           {
              "name": "虾米解析",
@@ -534,24 +639,36 @@
       ]
     }
    ],
+"flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu"
+  ],
     "ads": [
         "static-mozai.4gtv.tv"
     ],
 "lives": [
          {
-            "name": "🐬地方直播",
+            "name": "🐬地方直播 TG:@usfgrjk",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
         }, 
          {
-            "name": "🐬地方直播2",
+            "name": "🐬地方直播2 TG:@usfgrjk",
             "type": 0,
             "ua": "okhttp/5.3.2",
             "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
         }, 
         {
-            "name": "🐬电视家",
+            "name": "🐬电视家 TG:@usfgrjk",
             "type": 0,
             "ua": "okhttp",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/电视家.m3u"
@@ -562,7 +679,7 @@
             "ua": "okhttp",
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"
         },
-         {
+        {
             "name": "🐬Gather",
             "type": 0,
             "ua": "okhttp",
@@ -572,7 +689,7 @@
             "name": "🐬Mytv",
             "type": 0,
             "ua": "okhttp",
-            "url": "https://tv.iill.top/m3u/MyTV"
+            "url": "https://od.lk/s/NjFfMTI2MzYwMjE5Xw/jjmytv.txt"
         },
         {
             "name": "🐬黄蚂蚁先锋推流源",
@@ -623,16 +740,16 @@
             "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
         },
         {
-            "name": "🐬catvod源",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://live.catvod.com/?tk=691aed6eddc2e361474044878e71f344"
-        },
-        {
             "name": "🐬jackTV(梯子)",
             "type": 0,
             "ua": "okhttp",
             "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+        },
+        {
+            "name": "🐬catvod源",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://live.catvod.com/?tk=691aed6eddc2e361474044878e71f344"
         },
         {
             "name": "🐬台湾频道(梯子台湾节点)",
@@ -658,7 +775,13 @@
             "ua": "okhttp",
             "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源"
         },
-        {
+         {
+            "name": "🐬欧美大片直播🔞",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://xtvantsc.xyz/欧美2160.m3u"
+        },
+         {
             "name": "🐬女优库1🔞",
             "type": 0,
             "ua": "okhttp",
@@ -717,6 +840,6 @@
             "type": 0,
             "ua": "okhttp",
             "url": "https://atomgit.com/gcw_OAaqxWb5/whostv/releases/download/whostv/Wotv10.m3u"
-        }   
+        } 
     ]
 }

@@ -86,7 +86,6 @@ tags: [sing-box, sing-boxr, ShellCrash, AdGuard Home, ruleset, rule_set, 分享,
     { "tag": "免费节点", "type": "urltest", "tolerance": 100, "providers": [ "🆓 免费订阅" ] }
   ],
   "route": {
-    "default_domain_resolver": "dns_direct",
     "rules": [
       { "rule_set": [ "private" ], "outbound": "私有网络" },
       { "rule_set": [ "microsoft-cn" ], "outbound": "微软服务" },
@@ -201,8 +200,7 @@ tags: [sing-box, sing-boxr, ShellCrash, AdGuard Home, ruleset, rule_set, 分享,
         "url": "https://github.com/DustinWin/ruleset_geodata/releases/download/sing-box-ruleset/telegramip.srs"
       }
     ],
-    "final": "漏网之鱼",
-    "auto_detect_interface": true
+    "final": "漏网之鱼"
   }
 }
 ```

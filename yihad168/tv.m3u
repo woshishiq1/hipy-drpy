@@ -2597,6 +2597,21 @@ https://o11.163189.xyz/stream/tvb/fct4k/
 #########################################
 
 
+#EXTINF:-1 tvg-id="TNTSport1.uk" tvg-name="UK - TNT SPORTS 1 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-1.png" group-title="體育世界",UK - TNT SPORTS 1 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577967.ts
+#EXTINF:-1 tvg-id="TNTSport2.uk" tvg-name="UK - TNT SPORTS 2 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-2.png" group-title="體育世界",UK - TNT SPORTS 2 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577966.ts
+#EXTINF:-1 tvg-id="TNTSport3.uk" tvg-name="UK - TNT SPORTS 3 FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-3.png" group-title="體育世界",UK - TNT SPORTS 3 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577965.ts
+#EXTINF:-1 tvg-id="BTSport4ESPN.uk" tvg-name="UK - TNT SPORTS ESPN FHD" tvg-logo="http://51.158.145.100/picons/logos/logos/TNT-SPORTS-ESPN.png" group-title="體育世界",UK - TNT SPORTS ESPN FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577964.ts
+#EXTINF:-1 tvg-id="Eurosport1.uk" tvg-name="UK - EUROSPORT 1 FHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport1.png" group-title="體育世界",UK - EUROSPORT 1 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577963.ts
+#EXTINF:-1 tvg-id="Eurosport2.uk" tvg-name="UK - EUROSPORT 2 FHD" tvg-logo="https://logo.protv.cc/piconsnew/eurosport2.png" group-title="體育世界",UK - EUROSPORT 2 FHD
+http://2k.tstvs.com/691eba43db76f/d07ee0f057/577962.ts
+
+
+
 #EXTINF:-1 tvg-id="" tvg-name="FOX SPORTS 2 | 1080p" tvg-logo="https://s3.us-east-1.amazonaws.com/forofms.na/monthly_2022_08/small.349448927_FOXSports2.png.c03c478aac1b56ed18a5018eba62c608.png" group-title="體育世界",FOX SPORTS 2 | 1080p
 http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/195495.ts
 #EXTINF:-1 tvg-id="" tvg-name="UK : BT Sport 1 FHD" tvg-logo="" group-title="體育世界",UK : BT Sport 1 FHD
@@ -3958,6 +3973,27 @@ https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000cni9357og65hefir
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000c5knm9rc77uboe0h3rgg&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",王傑-不浪漫罪名
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000c9bvck3c77ucqkhpnfd0&ratio=720p&line=0
+#EXTINF:-1 group-title="抖音K歌",王傑-忘了你忘了我
+https://vd3.bdstatic.com/mda-qe9234wixngnrw4n/hd/cae_h264/1715401831017132308/mda-qe9234wixngnrw4n.mp4?pd=19&vt=1
+#EXTINF:-1 group-title="抖音K歌",陳淑樺-夢醒時分
+https://vdse.bdstatic.com/h265/bd878a8e24af5dc4f748a766cb9387bd5d.mp4?cd=1&hit_bd265_src=1&mpd=1&pd=19&logid=8248189950803607248&vt=-1&svt=-1&cr_max=1&s_score=-1.000000&pt=0&av=17.2&vid=12139645219790623121&mvt=-1&did=a8bea46bcde700ece9c4a15b8888b7a9&cr=1&h265_s=1&sl=87&sle=1&split=277794
+#EXTINF:-1 group-title="抖音K歌",姜育恆-再回首
+https://vdse.bdstatic.com/h265/bd347d6d144b7615400be7f5d07dcb47ed.mp4?cd=1&hit_bd265_src=1&mpd=1&pd=19&logid=8603562541356719256&vt=-1&svt=-1&cr_max=1&s_score=-1.000000&pt=0&av=17.2&vid=15938859431764458485&mvt=-1&did=a8bea46bcde700ece9c4a15b8888b7a9&cr=1&h265_s=1&sl=87&sle=1&split=280347
+#EXTINF:-1 group-title="抖音K歌",李宗盛-我是真的爱你
+https://vd3.bdstatic.com/mda-icbfre11d33k4nxe/hd/mda-icbfre11d33k4nxe.mp4?pd=19&vt=1
+
+
+#EXTINF:-1 group-title="抖音K歌",你不知道的事
+https://vd3.bdstatic.com/mda-qe33b73a2ekn1qwf/hd/cae_h264/1714822275785166010/mda-qe33b73a2ekn1qwf.mp4?pd=19&vt=1
+
+#EXTINF:-1 group-title="抖音K歌",张三的歌
+https://vdse.bdstatic.com//a974a127b558dab086d92df88c2b29b0.mp4?authorization=bce-auth-v1%2F40f207e648424f47b2e3dfbb1014b1a5%2F2024-06-21T21%3A46%3A45Z%2F-1%2fhost%2F58fd83ded1e5e02aacdfd94c472f12667680de0c72eb4fd4b81233f04b59cb5e
+#EXTINF:-1 group-title="抖音K歌",大约的冬季
+https://vdse.bdstatic.com/h265/bd5b3a71c27d54cb133fd36c25783620b8.mp4?cd=1&hit_bd265_src=1&mpd=1&pd=19&logid=8154759740159742757&vt=-1&svt=-1&cr_max=1&s_score=-1.000000&pt=0&av=17.2&vid=15553212759220046047&mvt=-1&did=a8bea46bcde700ece9c4a15b8888b7a9&cr=1&h265_s=1&sl=100&sle=1&split=290147
+#EXTINF:-1 group-title="抖音K歌",外面的世界
+https://vd3.bdstatic.com/mda-nmwidhd2ua0v2gxx/sc/cae_h264/1672847901827396356/mda-nmwidhd2ua0v2gxx.mp4?pd=19&vt=1
+
+
 #EXTINF:-1 group-title="抖音K歌",呂方-你的淺笑
 https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cmp585fog65v3t4i0v80&ratio=720p&line=0
 #EXTINF:-1 group-title="抖音K歌",張學友-餓狼傳說
@@ -5409,13 +5445,6 @@ http://czrb8vng.ottclub.xyz/iptv/AHMQNVLWUTM5PW/6225/index.m3u8
 http://213.226.69.130/iptv/3K5Z3VE8M7N89U/6225/index.m3u8
 
 
-#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: ASIAN FOOTJOB" tvg-logo="http://super-plus.vip:80/images/p3x4VEU-Sa_5C6WlM8seeM8878fzSZjFqLxiOzML3dfVwbk5RtXpmk57KEAcQ5Z5wKCVN0nslqVUo-Ij2bJKzGAk4ilr-Spa_no6pyiQEZ1zwsZ51EORpNP7RbL0UfuylXIfIq13MosiUkwESSDNYobi3b-obbvGdAX_XDvUhTjHhD5BIS8_146FNuXsM394ZN3tNntQ8mbvjaUl-yxzBA.png" group-title="私密頻道 ADULT",PORNBOX: ASIAN FOOTJOB
-http://liketv.pro:80/User1626/28TM4MEU66/495513.ts
-#EXTINF:-1 tvg-id="" tvg-name="PORNBOX: AV TAXI" tvg-logo="http://super-plus.vip:80/images/p3x4VEU-Sa_5C6WlM8seeM8878fzSZjFqLxiOzML3dfVwbk5RtXpmk57KEAcQ5Z5wKCVN0nslqVUo-Ij2bJKzGAk4ilr-Spa_no6pyiQEZ1zwsZ51EORpNP7RbL0UfuylXIfIq13MosiUkwESSDNYobi3b-obbvGdAX_XDvUhTjHhD5BIS8_146FNuXsM394ZN3tNntQ8mbvjaUl-yxzBA.png" group-title="私密頻道 ADULT",PORNBOX: AV TAXI
-http://liketv.pro:80/User1626/28TM4MEU66/495502.ts
-#EXTINF:-1 tvg-id="" tvg-name="XXX | Asian" tvg-logo="https://static.vecteezy.com/system/resources/previews/012/982/562/original/sign-of-adult-only-icon-symbol-for-eighteen-plus-18-plus-and-twenty-one-plus-21-plus-age-format-png.png" group-title="私密頻道 ADULT",XXX | Asian
-http://liketv.pro:80/User1626/28TM4MEU66/191166.ts
-
 
 #EXTINF:-1 tvg-id="" tvg-name="PORNBOX: AV TAXI" tvg-logo="http://restream.tv4k.me:80/images/Ie29qqDBf4GUjF3_3-UisJBIuiJ6Gedjqz6Kw68v9nZUjozfy11ZTjv9ZQYIAjPiSB9UAthl0vrMCIqoY9PB3JPQGN8lkobHwXe10z-ksxI.png" group-title="私密頻道 ADULT",PORNBOX: AV TAXI
 http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/596862.ts
@@ -5425,6 +5454,14 @@ http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/596874.ts
 http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/596876.ts
 #EXTINF:-1 tvg-id="" tvg-name="PORNBOX: DREAMROOM" tvg-logo="http://restream.tv4k.me:80/images/Ie29qqDBf4GUjF3_3-UisJBIuiJ6Gedjqz6Kw68v9nZUjozfy11ZTjv9ZQYIAjPiSB9UAthl0vrMCIqoY9PB3JPQGN8lkobHwXe10z-ksxI.png" group-title="私密頻道 ADULT",PORNBOX: DREAMROOM
 http://domestipo1.online:80/Antonioal2026/xFEAAKhdf6/596910.ts
+
+
+
+#EXTINF:0 tvg-logo="http://epg.cdntv.online/img/1694.png" group-title="私密頻道 ADULT",Japanese
+http://u.vipl.one/high/ierw63qgf1/1694.m3u8
+#EXTINF:0 tvg-id="1723" tvg-logo="http://epg.cdntv.online/img/1723.png" group-title="私密頻道 ADULT",Asian
+http://u.vipl.one/high/ierw63qgf1/1723.m3u8
+
 
 
 
@@ -5693,6 +5730,90 @@ http://epicboss.live:80/bjune@teksavvy.com/5193594414/56369
 
 
 #########################################
+
+
+
+#EXTM3U
+#EXTINF:0 tvg-id="1684" tvg-logo="http://epg.cdntv.online/img/1684.png" group-title="EroLuxe ADULT",60FPS
+http://u.vipl.one/high/ierw63qgf1/1684.m3u8
+#EXTINF:0 tvg-id="1685" tvg-logo="http://epg.cdntv.online/img/1685.png" group-title="EroLuxe ADULT",Anal
+http://u.vipl.one/high/ierw63qgf1/1685.m3u8
+#EXTINF:0 tvg-id="1686" tvg-logo="http://epg.cdntv.online/img/1686.png" group-title="EroLuxe ADULT",Blondes
+http://u.vipl.one/high/ierw63qgf1/1686.m3u8
+#EXTINF:0 tvg-id="1687" tvg-logo="http://epg.cdntv.online/img/1687.png" group-title="EroLuxe ADULT",Blowjob
+http://u.vipl.one/high/ierw63qgf1/1687.m3u8
+#EXTINF:0 tvg-id="1688" tvg-logo="http://epg.cdntv.online/img/1688.png" group-title="EroLuxe ADULT",Cinema
+http://u.vipl.one/high/ierw63qgf1/1688.m3u8
+#EXTINF:0 tvg-id="1689" tvg-logo="http://epg.cdntv.online/img/1689.png" group-title="EroLuxe ADULT",Cosplay
+http://u.vipl.one/high/ierw63qgf1/1689.m3u8
+#EXTINF:0 tvg-id="1690" tvg-logo="http://epg.cdntv.online/img/1690.png" group-title="EroLuxe ADULT",Ebony
+http://u.vipl.one/high/ierw63qgf1/1690.m3u8
+#EXTINF:0 tvg-id="1691" tvg-logo="http://epg.cdntv.online/img/1691.png" group-title="EroLuxe ADULT",Gays
+http://u.vipl.one/high/ierw63qgf1/1691.m3u8
+#EXTINF:0 tvg-id="1692" tvg-logo="http://epg.cdntv.online/img/1692.png" group-title="EroLuxe ADULT",Gloryhole
+http://u.vipl.one/high/ierw63qgf1/1692.m3u8
+#EXTINF:0 tvg-id="1693" tvg-logo="http://epg.cdntv.online/img/1693.png" group-title="EroLuxe ADULT",Henati
+http://u.vipl.one/high/ierw63qgf1/1693.m3u8
+#EXTINF:0 tvg-id="1694" tvg-logo="http://epg.cdntv.online/img/1694.png" group-title="EroLuxe ADULT",Japanese
+http://u.vipl.one/high/ierw63qgf1/1694.m3u8
+#EXTINF:0 tvg-id="1695" tvg-logo="http://epg.cdntv.online/img/1695.png" group-title="EroLuxe ADULT",Lesbians
+http://u.vipl.one/high/ierw63qgf1/1695.m3u8
+#EXTINF:0 tvg-id="1696" tvg-logo="http://epg.cdntv.online/img/1696.png" group-title="EroLuxe ADULT",Massage
+http://u.vipl.one/high/ierw63qgf1/1696.m3u8
+#EXTINF:0 tvg-id="1697" tvg-logo="http://epg.cdntv.online/img/1697.png" group-title="EroLuxe ADULT",Milf
+http://u.vipl.one/high/ierw63qgf1/1697.m3u8
+#EXTINF:0 tvg-id="1698" tvg-logo="http://epg.cdntv.online/img/1698.png" group-title="EroLuxe ADULT",Russian Teens
+http://u.vipl.one/high/ierw63qgf1/1698.m3u8
+#EXTINF:0 tvg-id="1699" tvg-logo="http://epg.cdntv.online/img/1699.png" group-title="EroLuxe ADULT",Orgy
+http://u.vipl.one/high/ierw63qgf1/1699.m3u8
+#EXTINF:0 tvg-id="1700" tvg-logo="http://epg.cdntv.online/img/1700.png" group-title="EroLuxe ADULT",Pregnant
+http://u.vipl.one/high/ierw63qgf1/1700.m3u8
+#EXTINF:0 tvg-id="1701" tvg-logo="http://epg.cdntv.online/img/1701.png" group-title="EroLuxe ADULT",Shemales
+http://u.vipl.one/high/ierw63qgf1/1701.m3u8
+#EXTINF:0 tvg-id="1702" tvg-logo="http://epg.cdntv.online/img/1702.png" group-title="EroLuxe ADULT",Solo
+http://u.vipl.one/high/ierw63qgf1/1702.m3u8
+#EXTINF:0 tvg-id="1703" tvg-logo="http://epg.cdntv.online/img/1703.png" group-title="EroLuxe ADULT",Step Family
+http://u.vipl.one/high/ierw63qgf1/1703.m3u8
+#EXTINF:0 tvg-id="1704" tvg-logo="http://epg.cdntv.online/img/1704.png" group-title="EroLuxe ADULT",4K UHD
+http://u.vipl.one/high/ierw63qgf1/1704.m3u8
+#EXTINF:0 tvg-id="1705" tvg-logo="http://epg.cdntv.online/img/1705.png" group-title="EroLuxe ADULT",VIP 4K 60FPS
+http://u.vipl.one/high/ierw63qgf1/1705.m3u8
+#EXTINF:0 tvg-id="1706" tvg-logo="http://epg.cdntv.online/img/1706.png" group-title="EroLuxe ADULT",BBW
+http://u.vipl.one/high/ierw63qgf1/1706.m3u8
+#EXTINF:0 tvg-id="1707" tvg-logo="http://epg.cdntv.online/img/1707.png" group-title="EroLuxe ADULT",BabySitter
+http://u.vipl.one/high/ierw63qgf1/1707.m3u8
+#EXTINF:0 tvg-id="1708" tvg-logo="http://epg.cdntv.online/img/1708.png" group-title="EroLuxe ADULT",BDSM
+http://u.vipl.one/high/ierw63qgf1/1708.m3u8
+#EXTINF:0 tvg-id="1709" tvg-logo="http://epg.cdntv.online/img/1709.png" group-title="EroLuxe ADULT",Big Cock
+http://u.vipl.one/high/ierw63qgf1/1709.m3u8
+#EXTINF:0 tvg-id="1710" tvg-logo="http://epg.cdntv.online/img/1710.png" group-title="EroLuxe ADULT",Brunette
+http://u.vipl.one/high/ierw63qgf1/1710.m3u8
+#EXTINF:0 tvg-id="1711" tvg-logo="http://epg.cdntv.online/img/1711.png" group-title="EroLuxe ADULT",CheerLeader
+http://u.vipl.one/high/ierw63qgf1/1711.m3u8
+#EXTINF:0 tvg-id="1712" tvg-logo="http://epg.cdntv.online/img/1712.png" group-title="EroLuxe ADULT",Cuckold
+http://u.vipl.one/high/ierw63qgf1/1712.m3u8
+#EXTINF:0 tvg-id="1713" tvg-logo="http://epg.cdntv.online/img/1713.png" group-title="EroLuxe ADULT",Creampie
+http://u.vipl.one/high/ierw63qgf1/1713.m3u8
+#EXTINF:0 tvg-id="1714" tvg-logo="http://epg.cdntv.online/img/1714.png" group-title="EroLuxe ADULT",Fake Taxi
+http://u.vipl.one/high/ierw63qgf1/1714.m3u8
+#EXTINF:0 tvg-id="1715" tvg-logo="http://epg.cdntv.online/img/1715.png" group-title="EroLuxe ADULT",Foot Fetish
+http://u.vipl.one/high/ierw63qgf1/1715.m3u8
+#EXTINF:0 tvg-id="1716" tvg-logo="http://epg.cdntv.online/img/1716.png" group-title="EroLuxe ADULT",Fisting
+http://u.vipl.one/high/ierw63qgf1/1716.m3u8
+#EXTINF:0 tvg-id="1717" tvg-logo="http://epg.cdntv.online/img/1717.png" group-title="EroLuxe ADULT",GangBang
+http://u.vipl.one/high/ierw63qgf1/1717.m3u8
+#EXTINF:0 tvg-id="1718" tvg-logo="http://epg.cdntv.online/img/1718.png" group-title="EroLuxe ADULT",Parody
+http://u.vipl.one/high/ierw63qgf1/1718.m3u8
+#EXTINF:0 tvg-id="1719" tvg-logo="http://epg.cdntv.online/img/1719.png" group-title="EroLuxe ADULT",POV
+http://u.vipl.one/high/ierw63qgf1/1719.m3u8
+#EXTINF:0 tvg-id="1720" tvg-logo="http://epg.cdntv.online/img/1720.png" group-title="EroLuxe ADULT",Public Agent
+http://u.vipl.one/high/ierw63qgf1/1720.m3u8
+#EXTINF:0 tvg-id="1721" tvg-logo="http://epg.cdntv.online/img/1721.png" group-title="EroLuxe ADULT",RedHeads
+http://u.vipl.one/high/ierw63qgf1/1721.m3u8
+#EXTINF:0 tvg-id="1722" tvg-logo="http://epg.cdntv.online/img/1722.png" group-title="EroLuxe ADULT",Schoolgirl
+http://u.vipl.one/high/ierw63qgf1/1722.m3u8
+#EXTINF:0 tvg-id="1723" tvg-logo="http://epg.cdntv.online/img/1723.png" group-title="EroLuxe ADULT",Asian
+http://u.vipl.one/high/ierw63qgf1/1723.m3u8
 
 
 

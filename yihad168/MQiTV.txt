@@ -1338,6 +1338,11 @@
             
         },
 
+{"name": "🏄‍♂️┃serv00「直播」","type": 0,"ua": "okhttp","url": "https://alantang.serv00.net/m3u/jtv.m3u"},
+{"name": "🐍┃tangtang「直播」","type": 0,"ua": "okhttp","url": "https://tangtang.ggff.net/m3u/jtv.m3u"},
+{"name": "🥷┃JunTV「cloudflare」","type": 0,"ua": "okhttp","url": "https://tv.junchao.qzz.io"},
+{"name": "🥷┃mitv「cloudflare」","type": 0,"ua": "okhttp","url": "https://tv.tangtang.us.ci"},
+
  {"name": "🚓华哥TV","type":0,"url":"http://tv.anbox.ip-ddns.com/live12","playerType":1},
  {"name": "🚓港澳TV","type":0,"url":"http://tv.anbox.ip-ddns.com/live19","playerType":1},
  {"name": "🚓港澳MYTV","type":0,"url":"http://github.com/cm851228/my51228888/raw/refs/heads/main/mytv.txt","playerType":1},
